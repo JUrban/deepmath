@@ -1,0 +1,5 @@
+C fof(t15_filter_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r2_hidden(B, k2_filter_0(A, C)) <=> r3_lattices(A, C, B)) ) ) ) ) ) ) ).
++ fof(d2_filter_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k2_filter_0(A, B)=a_2_0_filter_0(A, B)) ) ) ) ).
++ fof(fraenkel_a_2_0_filter_0, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(B))  &  (v10_lattices(B) & l3_lattices(B)) )  & m1_subset_1(C, u1_struct_0(B)))  =>  (r2_hidden(A, a_2_0_filter_0(B, C)) <=>  (? [D] :  (m1_subset_1(D, u1_struct_0(B)) &  (A=D & r3_lattices(B, C, D)) ) ) ) ) ) ).
+- fof(redefinition_r3_lattices, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v6_lattices(A) &  (v8_lattices(A) &  (v9_lattices(A) & l3_lattices(A)) ) ) )  &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  =>  (r3_lattices(A, B, C) <=> r1_lattices(A, B, C)) ) ) ).
+- fof(dt_l3_lattices, axiom,  (! [A] :  (l3_lattices(A) =>  (l1_lattices(A) & l2_lattices(A)) ) ) ).

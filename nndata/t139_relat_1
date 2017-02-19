@@ -1,0 +1,7 @@
+C fof(t139_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  ~ ( ( ~ (A=k1_xboole_0)  &  (r1_tarski(A, k10_xtuple_0(B)) & k8_relat_1(B, A)=k1_xboole_0) ) ) ) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t67_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) &  (r1_tarski(A, C) & r1_xboole_0(B, C)) )  => A=k1_xboole_0) ) ) ) ).
++ fof(t138_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (k8_relat_1(B, A)=k1_xboole_0 <=> r1_xboole_0(k10_xtuple_0(B), A)) ) ) ) ).
+- fof(d14_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (C=k8_relat_1(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (? [E] :  (r2_hidden(k4_tarski(D, E), A) & r2_hidden(E, B)) ) ) ) ) ) ) ) ) ).
+- fof(d13_xtuple_0, axiom,  (! [A] :  (! [B] :  (B=k10_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] : r2_hidden(k4_tarski(D, C), A)) ) ) ) ) ) ).
+- fof(t131_relat_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) =>  (r2_hidden(A, k8_relat_1(C, B)) <=>  (? [D] :  (r2_hidden(D, k10_xtuple_0(C)) &  (r2_hidden(k4_tarski(A, D), C) & r2_hidden(D, B)) ) ) ) ) ) ) ) ).

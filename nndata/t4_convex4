@@ -1,0 +1,11 @@
+C fof(t4_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => m2_convex4(k2_convex4(A), A, B)) ) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(dt_k2_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  => m1_convex4(k2_convex4(A), A)) ) ).
++ fof(t2_xboole_1, axiom,  (! [A] : r1_tarski(k1_xboole_0, A)) ).
++ fof(d3_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  =>  (! [B] :  (m1_convex4(B, A) =>  (B=k2_convex4(A) <=> k1_convex4(A, B)=k1_xboole_0) ) ) ) ) ).
++ fof(d4_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (! [C] :  (m1_convex4(C, A) =>  (m2_convex4(C, A, B) <=> r1_tarski(k1_convex4(A, C), B)) ) ) ) ) ) ) ).
+- fof(dt_m2_convex4, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (! [C] :  (m2_convex4(C, A, B) => m1_convex4(C, A)) ) ) ) ).
+- fof(t3_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (! [D] :  (m2_convex4(D, A, B) =>  (r1_tarski(B, C) => m2_convex4(D, A, C)) ) ) ) ) ) ) ) ) ).
+- fof(existence_m2_convex4, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (? [C] : m2_convex4(C, A, B)) ) ) ).
+- fof(t2_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k3_funct_2(u1_struct_0(A), k2_numbers, k2_convex4(A), B)=k5_complex1) ) ) ) ).
+- fof(fc2_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  => v1_xboole_0(k13_pre_poly(k2_convex4(A)))) ) ).

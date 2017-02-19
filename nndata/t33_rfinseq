@@ -1,0 +1,15 @@
+C fof(t33_rfinseq, axiom,  (! [A] :  (m2_finseq_1(A, k4_numbers) =>  (? [B] :  (m2_finseq_1(B, k1_numbers) &  (r2_classes1(A, B) &  (m2_finseq_1(B, k4_numbers) & v8_valued_0(B)) ) ) ) ) ) ).
++ fof(t75_classes1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r2_classes1(A, B) => k10_xtuple_0(A)=k10_xtuple_0(B)) ) ) ) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
++ fof(d4_finseq_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (m1_finseq_1(B, A) <=> r1_tarski(k10_xtuple_0(B), A)) ) ) ) ).
++ fof(t22_rfinseq, axiom,  (! [A] :  (m2_finseq_1(A, k1_numbers) =>  (? [B] :  ( (v8_valued_0(B) & m2_finseq_1(B, k1_numbers))  & r2_classes1(A, B)) ) ) ) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(t117_finseq_3, axiom,  (! [A] :  (m2_finseq_1(A, k4_numbers) => m2_finseq_1(A, k1_numbers)) ) ).
+- fof(t15_numbers, axiom, r1_tarski(k4_numbers, k1_numbers)).
+- fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
+- fof(t24_finseq_2, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m2_finseq_1(C, B) => m2_finseq_1(C, A)) ) ) ) ) ).
+- fof(l32_rfinseq, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  ( (v8_valued_0(B) & m2_finseq_1(B, k1_numbers))  =>  (! [C] :  ( (v8_valued_0(C) & m2_finseq_1(C, k1_numbers))  =>  ( (A=k3_finseq_1(B) & r2_classes1(B, C))  => B=C) ) ) ) ) ) ) ).
+- fof(t18_rfinseq, axiom,  (! [A] :  (m2_finseq_1(A, k1_numbers) =>  ( (k3_finseq_1(A)=k6_numbers | k3_finseq_1(A)=1)  => v8_valued_0(A)) ) ) ).
+- fof(s1_nat_1__e2_34__rfinseq, axiom,  ( ( (! [A] :  (m2_finseq_1(A, k1_numbers) =>  ~ ( (k6_numbers=k3_finseq_1(A) &  (! [B] :  ( (v8_valued_0(B) & m2_finseq_1(B, k1_numbers))  =>  ~ (r2_classes1(A, B)) ) ) ) ) ) )  &  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  ( (! [D] :  (m2_finseq_1(D, k1_numbers) =>  ~ ( (C=k3_finseq_1(D) &  (! [E] :  ( (v8_valued_0(E) & m2_finseq_1(E, k1_numbers))  =>  ~ (r2_classes1(D, E)) ) ) ) ) ) )  =>  (! [F] :  (m2_finseq_1(F, k1_numbers) =>  ~ ( (k2_nat_1(C, 1)=k3_finseq_1(F) &  (! [G] :  ( (v8_valued_0(G) & m2_finseq_1(G, k1_numbers))  =>  ~ (r2_classes1(F, G)) ) ) ) ) ) ) ) ) ) )  =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (! [H] :  (m2_finseq_1(H, k1_numbers) =>  ~ ( (C=k3_finseq_1(H) &  (! [I] :  ( (v8_valued_0(I) & m2_finseq_1(I, k1_numbers))  =>  ~ (r2_classes1(H, I)) ) ) ) ) ) ) ) ) ) ).
+- fof(l29_rfinseq, axiom,  (! [A] :  (m2_finseq_1(A, k1_numbers) =>  ~ ( (k6_numbers=k3_finseq_1(A) &  (! [B] :  ( (v8_valued_0(B) & m2_finseq_1(B, k1_numbers))  =>  ~ (r2_classes1(A, B)) ) ) ) ) ) ) ).

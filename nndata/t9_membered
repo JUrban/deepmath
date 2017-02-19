@@ -1,0 +1,5 @@
+C fof(t9_membered, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v3_membered(A))  =>  (? [B] :  (v1_xreal_0(B) & r2_hidden(B, A)) ) ) ) ).
++ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
++ fof(d3_membered, axiom,  (! [A] :  (v3_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_xreal_0(B)) ) ) ) ).
+- fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
+- fof(cc3_membered, axiom,  (! [A] :  (v4_membered(A) => v3_membered(A)) ) ).

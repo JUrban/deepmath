@@ -1,0 +1,11 @@
+C fof(t2_supinf_2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (A=B => k2_supinf_2(A)=k1_real_1(B)) ) ) ) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(redefinition_k1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k1_real_1(A)=k4_xcmplx_0(A)) ) ).
++ fof(redefinition_k2_supinf_2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => k2_supinf_2(A)=k2_xxreal_3(A)) ) ).
++ fof(ie2_xxreal_3, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xcmplx_0(B))  =>  (A=B => k2_xxreal_3(A)=k4_xcmplx_0(B)) ) ) ).
+- fof(involutiveness_k2_supinf_2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => k2_supinf_2(k2_supinf_2(A))=A) ) ).
+- fof(dt_k2_supinf_2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => m1_subset_1(k2_supinf_2(A), k7_numbers)) ) ).
+- fof(d1_int_1, axiom,  (! [A] :  (A=k4_numbers <=>  (! [B] :  (r2_hidden(B, A) <=>  ~ ( (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  ( ~ (B=C)  &  ~ (B=k1_real_1(C)) ) ) ) ) ) ) ) ) ).
+- fof(d2_int_1, axiom,  (! [A] :  (v1_int_1(A) <=> r2_hidden(A, k4_numbers)) ) ).
+- fof(l20_complex1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k3_arytm_0(A)=k1_real_1(A)) ) ).

@@ -1,0 +1,21 @@
+C fof(t27_sysrel, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  ( (r2_hidden(A, k9_xtuple_0(k1_sysrel(B))) =>  (r2_hidden(A, k9_xtuple_0(B)) & r2_hidden(k4_tarski(A, A), B)) )  &  ( ( (r2_hidden(A, k9_xtuple_0(B)) & r2_hidden(k4_tarski(A, A), B))  => r2_hidden(A, k9_xtuple_0(k1_sysrel(B))))  &  ( (r2_hidden(A, k10_xtuple_0(k1_sysrel(B))) =>  (r2_hidden(A, k9_xtuple_0(B)) & r2_hidden(k4_tarski(A, A), B)) )  &  ( ( (r2_hidden(A, k9_xtuple_0(B)) & r2_hidden(k4_tarski(A, A), B))  => r2_hidden(A, k10_xtuple_0(k1_sysrel(B))))  &  ( (r2_hidden(A, k10_xtuple_0(k1_sysrel(B))) =>  (r2_hidden(A, k10_xtuple_0(B)) & r2_hidden(k4_tarski(A, A), B)) )  &  ( ( (r2_hidden(A, k10_xtuple_0(B)) & r2_hidden(k4_tarski(A, A), B))  => r2_hidden(A, k10_xtuple_0(k1_sysrel(B))))  &  ( (r2_hidden(A, k9_xtuple_0(k1_sysrel(B))) =>  (r2_hidden(A, k10_xtuple_0(B)) & r2_hidden(k4_tarski(A, A), B)) )  &  ( (r2_hidden(A, k10_xtuple_0(B)) & r2_hidden(k4_tarski(A, A), B))  => r2_hidden(A, k9_xtuple_0(k1_sysrel(B)))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
++ fof(d10_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (B=k4_relat_1(A) <=>  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), B) <=>  (r2_hidden(C, A) & C=D) ) ) ) ) ) ) ) ).
++ fof(d12_xtuple_0, axiom,  (! [A] :  (! [B] :  (B=k9_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] : r2_hidden(k4_tarski(C, D), A)) ) ) ) ) ) ).
++ fof(t26_sysrel, axiom,  (! [A] :  (v1_relat_1(A) => k9_xtuple_0(k1_sysrel(A))=k10_xtuple_0(k1_sysrel(A))) ) ).
++ fof(d4_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k3_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) & r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(dt_k4_relat_1, axiom,  (! [A] : v1_relat_1(k4_relat_1(A))) ).
++ fof(d13_xtuple_0, axiom,  (! [A] :  (! [B] :  (B=k10_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] : r2_hidden(k4_tarski(D, C), A)) ) ) ) ) ) ).
++ fof(d1_sysrel, axiom,  (! [A] :  (v1_relat_1(A) => k1_sysrel(A)=k3_xboole_0(A, k4_relat_1(k9_xtuple_0(A)))) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
+- fof(t25_sysrel, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) =>  (r2_hidden(k4_tarski(A, B), k1_sysrel(C)) =>  (r2_hidden(A, k9_xtuple_0(k1_sysrel(C))) & A=B) ) ) ) ) ) ).
+- fof(dt_k1_sysrel, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k1_sysrel(A))) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(d3_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (B=k10_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(D, k9_xtuple_0(A)) & C=k1_funct_1(A, D)) ) ) ) ) ) ) ) ).
+- fof(t32_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v2_funct_1(A) =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (B=k2_funct_1(A) <=>  (k9_xtuple_0(B)=k10_xtuple_0(A) &  (! [C] :  (! [D] :  ( ( (r2_hidden(C, k10_xtuple_0(A)) & D=k1_funct_1(B, C))  =>  (r2_hidden(D, k9_xtuple_0(A)) & C=k1_funct_1(A, D)) )  &  ( (r2_hidden(D, k9_xtuple_0(A)) & C=k1_funct_1(A, D))  =>  (r2_hidden(C, k10_xtuple_0(A)) & D=k1_funct_1(B, C)) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t3_funct_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r2_hidden(A, k9_xtuple_0(B)) => r2_hidden(k1_funct_1(B, A), k10_xtuple_0(B))) ) ) ) ).
+- fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
+- fof(d14_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (C=k8_relat_1(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (? [E] :  (r2_hidden(k4_tarski(D, E), A) & r2_hidden(E, B)) ) ) ) ) ) ) ) ) ).
+- fof(t26_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) => r1_tarski(k10_xtuple_0(k3_relat_1(A, B)), k10_xtuple_0(B))) ) ) ) ).
+- fof(d19_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (v5_relat_1(B, A) <=> r1_tarski(k10_xtuple_0(B), A)) ) ) ) ).

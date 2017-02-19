@@ -1,0 +1,15 @@
+C fof(t81_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) =>  (! [C] :  (v2_membered(C) =>  (! [D] :  (v2_membered(D) =>  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k12_member_1(A, C), k12_member_1(B, D))) ) ) ) ) ) ) ) ) ).
++ fof(fraenkel_a_2_4_member_1, axiom,  (! [A, B, C] :  ( (v2_membered(B) & v2_membered(C))  =>  (r2_hidden(A, a_2_4_member_1(B, C)) <=>  (? [D, E] :  ( (m1_subset_1(D, k7_numbers) & m1_subset_1(E, k7_numbers))  &  (A=k3_member_1(D, E) &  (r2_hidden(D, B) & r2_hidden(E, C)) ) ) ) ) ) ) ).
++ fof(cc13_membered, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xxreal_0(B)) ) ) ) ).
++ fof(fc2_membered, axiom, v2_membered(k7_numbers)).
++ fof(d8_membered, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ) ) ).
++ fof(fc41_member_1, axiom,  (! [A, B] :  ( (v2_membered(A) & v2_membered(B))  => v2_membered(k12_member_1(A, B))) ) ).
++ fof(d9_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) => k12_member_1(A, B)=a_2_4_member_1(A, B)) ) ) ) ).
++ fof(commutativity_k12_member_1, axiom,  (! [A, B] :  ( (v2_membered(A) & v2_membered(B))  => k12_member_1(A, B)=k12_member_1(B, A)) ) ).
+- fof(fc39_member_1, axiom,  (! [A, B] :  ( (v1_xboole_0(A) & v2_membered(B))  => v1_xboole_0(k12_member_1(A, B))) ) ).
+- fof(fc42_member_1, axiom,  (! [A, B] :  ( ( ( ~ (v1_xboole_0(A))  & v2_membered(A))  &  ( ~ (v1_xboole_0(B))  & v2_membered(B)) )  =>  ~ (v1_xboole_0(k12_member_1(A, B))) ) ) ).
+- fof(fc40_member_1, axiom,  (! [A, B] :  ( (v1_xboole_0(A) & v2_membered(B))  => v1_xboole_0(k12_member_1(B, A))) ) ).
+- fof(t79_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (! [D] :  (v1_xxreal_0(D) =>  ( (r2_hidden(C, A) & r2_hidden(D, B))  => r2_hidden(k4_xxreal_3(C, D), k12_member_1(A, B))) ) ) ) ) ) ) ) ) ).
+- fof(t80_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) =>  (! [C] :  (v2_membered(C) => k12_member_1(k12_member_1(A, B), C)=k12_member_1(A, k12_member_1(B, C))) ) ) ) ) ) ).
+- fof(d1_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) <=> r2_hidden(A, k7_numbers)) ) ).
+- fof(redefinition_k3_member_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k3_member_1(A, B)=k4_xxreal_3(A, B)) ) ).

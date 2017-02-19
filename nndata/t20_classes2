@@ -1,0 +1,9 @@
+C fof(t20_classes2, axiom,  (! [A] :  (v2_classes1(A) =>  (A=k1_xboole_0 |  ( ~ (k1_card_1(A)=k6_numbers)  &  ( ~ (k1_card_1(A)=k1_xboole_0)  & v4_ordinal1(k1_card_1(A))) ) ) ) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t19_classes2, axiom,  (! [A] :  (v2_classes1(A) => v4_ordinal1(k1_card_1(A))) ) ).
++ fof(projectivity_k1_card_1, axiom,  (! [A] : k1_card_1(k1_card_1(A))=k1_card_1(A)) ).
++ fof(t64_card_2, axiom,  (! [A] :  (! [B] :  ( (k1_card_1(A)=k6_numbers & k1_card_1(B)=k6_numbers)  => A=B) ) ) ).
+- fof(t9_classes2, axiom,  (! [A] :  (v2_classes1(A) => k2_ordinal1(A)=k1_card_1(A)) ) ).
+- fof(d9_ordinal1, axiom,  (! [A] :  (! [B] :  (B=k2_ordinal1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (r2_hidden(C, A) & v3_ordinal1(C)) ) ) ) ) ) ).
+- fof(t5_classes2, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  ( (v2_classes1(B) & r2_hidden(A, B))  =>  (r2_hidden(k1_ordinal1(A), B) & r1_tarski(A, B)) ) ) ) ) ).
+- fof(t13_classes2, axiom,  (! [A] :  (! [B] :  ( (v2_classes1(A) & r2_hidden(B, k1_card_1(A)))  => r2_hidden(B, A)) ) ) ).

@@ -1,0 +1,5 @@
+C fof(t5_simplex0, axiom,  (! [A] :  (! [B] : k1_simplex0(k2_xboole_0(A, B))=k2_xboole_0(k1_simplex0(A), k1_simplex0(B))) ) ).
++ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(t2_simplex0, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, k1_simplex0(B)) <=>  (? [C] :  (r1_tarski(A, C) & r2_hidden(C, B)) ) ) ) ) ).
+- fof(d1_simplex0, axiom,  (! [A] :  (! [B] :  (v1_classes1(B) =>  (B=k1_simplex0(A) <=>  (r1_tarski(A, B) &  (! [C] :  ( (r1_tarski(A, C) & v1_classes1(C))  => r1_tarski(B, C)) ) ) ) ) ) ) ).
+- fof(t4_simplex0, axiom,  (! [A] : k1_simplex0(k1_tarski(A))=k9_setfam_1(A)) ).

@@ -1,0 +1,7 @@
+C fof(t54_classes2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v1_classes2(B))  => r3_xboole_0(A, B)) ) ) ) ).
++ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
++ fof(d9_xboole_0, axiom,  (! [A] :  (! [B] :  (r3_xboole_0(A, B) <=>  (r1_tarski(A, B) | r1_tarski(B, A)) ) ) ) ).
++ fof(t53_classes2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v1_classes2(B))  =>  (r1_tarski(A, B) | r2_hidden(B, A)) ) ) ) ) ).
+- fof(cc2_classes2, axiom,  (! [A] :  (v1_classes2(A) =>  (v1_ordinal1(A) & v2_classes1(A)) ) ) ).
+- fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
+- fof(t47_classes2, axiom,  (! [A] :  (v1_ordinal1(A) => v1_classes2(k1_classes1(A))) ) ).

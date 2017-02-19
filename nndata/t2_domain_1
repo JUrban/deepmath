@@ -1,0 +1,7 @@
+C fof(t2_domain_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m1_subset_1(C, k2_zfmisc_1(A, B)) =>  (! [D] :  (m1_subset_1(D, k2_zfmisc_1(A, B)) =>  ( (k1_xtuple_0(C)=k1_xtuple_0(D) & k2_xtuple_0(C)=k2_xtuple_0(D))  => C=D) ) ) ) ) ) ) ) ) ).
++ fof(t90_mcart_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_relat_1(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  ( (k1_xtuple_0(B)=k1_xtuple_0(C) & k2_xtuple_0(B)=k2_xtuple_0(C))  => B=C) ) ) ) ) ) ) ).
++ fof(fc6_relat_1, axiom,  (! [A, B] : v1_relat_1(k2_zfmisc_1(A, B))) ).
++ fof(fc10_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  ~ (v1_xboole_0(k2_zfmisc_1(A, B))) ) ) ).
+- fof(t21_mcart_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (r2_hidden(A, B) => A=k4_tarski(k1_xtuple_0(A), k2_xtuple_0(A))) ) ) ) ).
+- fof(rd3_xtuple_0, axiom,  (! [A] :  (v1_xtuple_0(A) => k4_tarski(k1_xtuple_0(A), k2_xtuple_0(A))=A) ) ).
+- fof(t10_mcart_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(A, k2_zfmisc_1(B, C)) =>  (r2_hidden(k1_xtuple_0(A), B) & r2_hidden(k2_xtuple_0(A), C)) ) ) ) ) ).

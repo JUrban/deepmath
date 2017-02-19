@@ -1,0 +1,65 @@
+C fof(t20_nat_3, axiom,  (! [A] : k8_nat_3(A, k16_pre_poly(A))=1) ).
++ fof(cc6_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v3_valued_0(A))  =>  (v1_relat_1(A) & v1_valued_0(A)) ) ) ).
++ fof(dt_k6_finseq_1, axiom,  (! [A] : m2_finseq_1(k6_finseq_1(A), A)) ).
++ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
++ fof(fc24_pre_poly, axiom,  (! [A] :  ~ (v1_xboole_0(k14_pre_poly(A))) ) ).
++ fof(cc11_pre_poly, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k15_pre_poly(A))))  =>  (! [C] :  (m1_subset_1(C, B) =>  (v1_partfun1(C, A) &  (v4_valued_0(C) & v2_pre_poly(C)) ) ) ) ) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(redefinition_k20_rvsum_1, axiom,  (! [A] :  (m1_finseq_1(A, k2_numbers) => k20_rvsum_1(A)=k19_rvsum_1(A)) ) ).
++ fof(fc12_relat_1, axiom,  (! [A, B] :  ( (v1_xboole_0(A) & v1_relat_1(B))  =>  (v1_xboole_0(k3_relat_1(A, B)) & v1_relat_1(k3_relat_1(A, B))) ) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_k21_rvsum_1, axiom,  (! [A] :  (m1_finseq_1(A, k1_numbers) => k21_rvsum_1(A)=k19_rvsum_1(A)) ) ).
++ fof(d6_finseq_1, axiom,  (! [A] : k6_finseq_1(A)=k1_xboole_0) ).
++ fof(cc8_funct_1, axiom,  (! [A] :  (v4_funct_1(A) =>  (! [B] :  (m1_subset_1(B, A) =>  (v1_relat_1(B) & v1_funct_1(B)) ) ) ) ) ).
++ fof(cc9_pre_poly, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k15_pre_poly(A))) => v4_funct_1(B)) ) ) ).
++ fof(cc8_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v4_valued_0(A))  =>  (v1_relat_1(A) & v3_valued_0(A)) ) ) ).
++ fof(redefinition_k1_polynom2, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  => k1_polynom2(A, B)=k13_pre_poly(B)) ) ).
++ fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
++ fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(d5_nat_3, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v1_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (! [C] :  (v1_xcmplx_0(C) =>  (C=k7_nat_3(A, B) <=>  (? [D] :  (m2_finseq_1(D, k2_numbers) &  (C=k20_rvsum_1(D) & D=k3_relat_1(k1_uproots(k13_pre_poly(B)), B)) ) ) ) ) ) ) ) ) ).
++ fof(redefinition_k8_nat_3, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  => k8_nat_3(A, B)=k7_nat_3(A, B)) ) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(dt_k20_rvsum_1, axiom,  (! [A] :  (m1_finseq_1(A, k2_numbers) => m1_subset_1(k20_rvsum_1(A), k2_numbers)) ) ).
++ fof(dt_k1_uproots, axiom,  (! [A] :  (v1_finset_1(A) => m2_finseq_1(k1_uproots(A), A)) ) ).
++ fof(redefinition_k15_pre_poly, axiom,  (! [A] : k15_pre_poly(A)=k14_pre_poly(A)) ).
++ fof(d13_pre_poly, axiom,  (! [A] : k16_pre_poly(A)=k8_funcop_1(k5_numbers, A, k6_numbers)) ).
++ fof(dt_k16_pre_poly, axiom,  (! [A] : m2_subset_1(k16_pre_poly(A), k14_pre_poly(A), k15_pre_poly(A))) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t18_bagorder, axiom,  (! [A] : k1_polynom2(A, k16_pre_poly(A))=k1_xboole_0) ).
++ fof(dt_k15_pre_poly, axiom,  (! [A] : m1_subset_1(k15_pre_poly(A), k1_zfmisc_1(k14_pre_poly(A)))) ).
++ fof(cc10_pre_poly, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k15_pre_poly(A))) =>  (! [C] :  (m1_subset_1(C, B) => v4_relat_1(C, A)) ) ) ) ).
++ fof(t94_rvsum_1, axiom, k21_rvsum_1(k6_finseq_1(k1_numbers))=1).
++ fof(cc4_relset_1, axiom,  (! [A, B] :  (v1_xboole_0(A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, A))) => v1_xboole_0(C)) ) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
+- fof(t19_nat_3, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) &  (v1_partfun1(C, A) &  (v4_valued_0(C) & v2_pre_poly(C)) ) ) ) )  =>  (r1_xboole_0(k1_polynom2(A, B), k1_polynom2(A, C)) => k8_nat_3(A, k11_pre_poly(A, B, C))=k24_binop_2(k8_nat_3(A, B), k8_nat_3(A, C))) ) ) ) ) ) ).
+- fof(dt_k8_nat_3, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  => m2_subset_1(k8_nat_3(A, B), k1_numbers, k5_numbers)) ) ).
+- fof(l22_polynom2, axiom,  (! [A] : k1_polynom2(A, k16_pre_poly(A))=k1_xboole_0) ).
+- fof(t52_pre_poly, axiom,  (! [A] :  (! [B] : k1_funct_1(k16_pre_poly(A), B)=k6_numbers) ) ).
+- fof(t66_pre_poly, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) &  (v1_partfun1(C, A) &  (v4_valued_0(C) & v2_pre_poly(C)) ) ) ) )  =>  (! [D] :  ( (v1_relat_1(D) &  (v4_relat_1(D, A) &  (v1_funct_1(D) &  (v1_partfun1(D, A) &  (v4_valued_0(D) & v2_pre_poly(D)) ) ) ) )  =>  (! [E] :  ( (v1_relat_1(E) &  (v4_relat_1(E, A) &  (v1_funct_1(E) &  (v1_partfun1(E, A) &  (v4_valued_0(E) & v2_pre_poly(E)) ) ) ) )  =>  ~ ( ( ~ (r1_xxreal_0(B, 1))  &  ( ~ (r1_xxreal_0(k3_finseq_1(k20_pre_poly(A, C)), B))  &  ~ ( ( ~ (k7_partfun1(k15_pre_poly(A), k20_pre_poly(A, C), B)=k16_pre_poly(A))  &  ~ (k7_partfun1(k15_pre_poly(A), k20_pre_poly(A, C), B)=C) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t72_pre_poly, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) &  (v1_partfun1(C, A) &  (v4_valued_0(C) & v2_pre_poly(C)) ) ) ) )  =>  (! [D] :  ( (v1_relat_1(D) &  (v4_relat_1(D, A) &  (v1_funct_1(D) &  (v1_partfun1(D, A) &  (v4_valued_0(D) & v2_pre_poly(D)) ) ) ) )  =>  (! [E] :  ( (v1_relat_1(E) &  (v4_relat_1(E, A) &  (v1_funct_1(E) &  (v1_partfun1(E, A) &  (v4_valued_0(E) & v2_pre_poly(E)) ) ) ) )  =>  (k9_pre_poly(k15_pre_poly(A), k5_numbers, k4_finseq_2(2, k15_pre_poly(A)), k21_pre_poly(A, C), B)=k10_finseq_1(D, E) =>  (r1_xxreal_0(B, 1) |  (r1_xxreal_0(k3_finseq_1(k21_pre_poly(A, C)), B) |  ( ~ (D=k16_pre_poly(A))  &  ~ (E=k16_pre_poly(A)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t71_pre_poly, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (k9_pre_poly(k15_pre_poly(A), k5_numbers, k4_finseq_2(2, k15_pre_poly(A)), k21_pre_poly(A, B), 1)=k10_finseq_1(k16_pre_poly(A), B) & k9_pre_poly(k15_pre_poly(A), k5_numbers, k4_finseq_2(2, k15_pre_poly(A)), k21_pre_poly(A, B), k3_finseq_1(k21_pre_poly(A, B)))=k10_finseq_1(B, k16_pre_poly(A))) ) ) ) ) ).
+- fof(t65_pre_poly, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (r6_pboole(A, k7_partfun1(k15_pre_poly(A), k20_pre_poly(A, B), 1), k16_pre_poly(A)) & r6_pboole(A, k7_partfun1(k15_pre_poly(A), k20_pre_poly(A, B), k3_finseq_1(k20_pre_poly(A, B))), B)) ) ) ) ) ).
+- fof(t14_polynom2, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  ( ( ~ (v7_struct_0(B))  &  (v4_vectsp_1(B) & l6_algstr_0(B)) )  =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, A, u1_struct_0(B)) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, u1_struct_0(B))))) )  => k3_polynom2(A, k16_pre_poly(A), B, C)=k5_struct_0(B)) ) ) ) ) ) ).
+- fof(t25_polynom1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v3_vectsp_1(B) & l5_algstr_0(B)) )  =>  (k3_polynom1(A, B, k8_polynom1(A, B), k16_pre_poly(A))=k5_struct_0(B) &  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) &  (v1_partfun1(C, A) &  (v4_valued_0(C) & v2_pre_poly(C)) ) ) ) )  =>  ( ~ (C=k16_pre_poly(A))  => k3_polynom1(A, B, k8_polynom1(A, B), C)=k4_struct_0(B)) ) ) ) ) ) ) ).
+- fof(t15_bagorder, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (k3_bagorder(A, B)=k6_numbers <=> B=k16_pre_poly(A)) ) ) ) ) ).
+- fof(t73_pre_poly, axiom,  (! [A] :  (v3_ordinal1(A) => k21_pre_poly(A, k16_pre_poly(A))=k3_pre_poly(k3_finseq_2(k15_pre_poly(A)), k4_pre_poly(k15_pre_poly(A), k16_pre_poly(A), k16_pre_poly(A)))) ) ).
+- fof(t11_uproots, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v3_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (B=k16_pre_poly(A) => k3_uproots(A, B)=k6_numbers) ) ) ) ).
+- fof(t16_bagorder, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) => k1_bagorder(C, A, B, k16_pre_poly(C))=k16_pre_poly(k7_nat_d(B, A))) ) ) ) ) ) ).
+- fof(t67_pre_poly, axiom,  (! [A] :  (v3_ordinal1(A) => k20_pre_poly(A, k16_pre_poly(A))=k3_pre_poly(k15_pre_poly(A), k16_pre_poly(A))) ) ).
+- fof(t12_polynom2, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (k13_pre_poly(B)=k1_xboole_0 => B=k16_pre_poly(A)) ) ) ) ).
+- fof(t9_uproots, axiom,  (! [A] :  (! [B] :  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(A)))  =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  ( (v1_xboole_0(B) | C=k6_numbers)  => k2_uproots(A, B, C)=k16_pre_poly(A)) ) ) ) ) ) ).
+- fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
+- fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
+- fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
+- fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
+- fof(fc1_funcop_1, axiom,  (! [A, B] :  (v1_relat_1(k2_funcop_1(A, B)) & v1_funct_1(k2_funcop_1(A, B))) ) ).
+- fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
+- fof(redefinition_k8_funcop_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(C, A))  => k8_funcop_1(A, B, C)=k2_funcop_1(B, C)) ) ).
+- fof(t7_funcop_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(B, A) => k1_funct_1(k2_funcop_1(A, C), B)=C) ) ) ) ).
+- fof(t13_funcop_1, axiom,  (! [A] :  (! [B] :  (k9_xtuple_0(k2_funcop_1(A, B))=A & r1_tarski(k10_xtuple_0(k2_funcop_1(A, B)), k1_tarski(B))) ) ) ).
+- fof(d2_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k9_xtuple_0(A)) =>  (C=k1_funct_1(A, B) <=> r2_hidden(k4_tarski(B, C), A)) )  &  ( ~ (r2_hidden(B, k9_xtuple_0(A)))  =>  (C=k1_funct_1(A, B) <=> C=k1_xboole_0) ) ) ) ) ) ) ).
+- fof(d1_bagorder, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  ( (v1_relat_1(D) &  (v4_relat_1(D, A) &  (v1_funct_1(D) & v1_partfun1(D, A)) ) )  =>  (! [E] :  ( (v1_relat_1(E) &  (v4_relat_1(E, k7_nat_d(C, B)) &  (v1_funct_1(E) & v1_partfun1(E, k7_nat_d(C, B))) ) )  =>  (E=k1_bagorder(A, B, C, D) <=>  (! [F] :  (m2_subset_1(F, k1_numbers, k5_numbers) =>  (r2_hidden(F, k7_nat_d(C, B)) => k1_funct_1(E, F)=k1_funct_1(D, k1_nat_1(B, F))) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(d7_pre_poly, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (B=k13_pre_poly(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  ~ (k1_funct_1(A, C)=k6_numbers) ) ) ) ) ) ) ).
+- fof(d2_partfun1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  =>  (v1_partfun1(B, A) <=> k1_relset_1(A, B)=A) ) ) ) ).
+- fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
+- fof(t2_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  ( (k9_xtuple_0(A)=k9_xtuple_0(B) &  (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) => k1_funct_1(A, C)=k1_funct_1(B, C)) ) )  => A=B) ) ) ) ) ).

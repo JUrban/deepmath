@@ -1,0 +1,5 @@
+C fof(l11_int_4, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( (v1_int_2(A) &  (r1_int_2(A, B) & r1_nat_d(A, B)) ) ) ) ) ) ) ).
++ fof(d2_pythtrip, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_int_2(A, B) <=>  (! [C] :  ( (v7_ordinal1(C) & v1_int_2(C))  =>  ~ ( (r1_nat_d(C, A) & r1_nat_d(C, B)) ) ) ) ) ) ) ) ) ).
++ fof(reflexivity_r1_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => r1_nat_d(A, A)) ) ).
+- fof(t13_euler_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ( (r1_nat_d(A, k3_xcmplx_0(B, C)) & r1_int_2(B, A))  => r1_nat_d(A, C)) ) ) ) ) ) ) ).
+- fof(d3_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (r1_int_2(A, B) <=> k3_int_2(A, B)=1) ) ) ) ) ).

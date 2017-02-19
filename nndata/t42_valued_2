@@ -1,0 +1,9 @@
+C fof(t42_valued_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_valued_2(C) =>  (! [D] :  (v1_valued_2(D) =>  (! [E] :  ( (v1_funct_1(E) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(A, C))))  =>  (! [F] :  ( (v1_funct_1(F) & m1_subset_1(F, k1_zfmisc_1(k2_zfmisc_1(B, D))))  =>  (k16_valued_2(A, C, E)=k16_valued_2(B, D, F) => E=F) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k16_valued_2, axiom,  (! [A, B, C] :  ( (v1_valued_2(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (v1_funct_1(k16_valued_2(A, B, C)) & m1_subset_1(k16_valued_2(A, B, C), k1_zfmisc_1(k2_zfmisc_1(A, k2_valued_2(k1_valued_2(B)))))) ) ) ).
++ fof(fc2_valued_2, axiom,  (! [A] : v1_valued_2(k2_valued_2(A))) ).
++ fof(t41_valued_2, axiom,  (! [A] :  (! [B] :  (v1_valued_2(B) =>  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  => k16_valued_2(A, k2_valued_2(k1_valued_2(B)), k16_valued_2(A, B, C))=C) ) ) ) ) ).
++ fof(redefinition_k16_valued_2, axiom,  (! [A, B, C] :  ( (v1_valued_2(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  => k16_valued_2(A, B, C)=k15_valued_2(C)) ) ).
+- fof(fc16_valued_2, axiom,  (! [A, B, C, D] :  ( (v1_valued_2(C) &  (v1_funct_1(D) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, C)))) )  => v1_valued_0(k1_funct_1(D, B))) ) ).
+- fof(fc14_valued_2, axiom,  (! [A, B, C, D] :  ( (v1_valued_2(C) &  (v1_funct_1(D) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, C)))) )  =>  (v1_relat_1(k1_funct_1(D, B)) & v1_funct_1(k1_funct_1(D, B))) ) ) ).
+- fof(cc28_valued_2, axiom,  (! [A, B] :  (v1_valued_2(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v1_funct_1(C) =>  (v1_funct_1(C) & v7_valued_2(C)) ) ) ) ) ) ).
+- fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).

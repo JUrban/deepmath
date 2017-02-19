@@ -1,0 +1,5 @@
+C fof(t3_jordan1g, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m2_finseq_1(B, A) =>  (! [C] :  ( (v1_matrix_1(C) & m2_finseq_1(C, k3_finseq_2(A)))  =>  (! [D] :  (m1_subset_1(D, A) =>  ( (r2_hidden(D, k10_xtuple_0(B)) & r1_goboard1(A, B, C))  => r1_goboard1(A, k2_finseq_5(A, B, D), C)) ) ) ) ) ) ) ) ) ).
++ fof(t2_jordan8, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m2_finseq_1(C, B) =>  (! [D] :  ( (v1_matrix_1(D) & m2_finseq_1(D, k3_finseq_2(B)))  =>  (r1_goboard1(B, C, D) => r1_goboard1(B, k2_rfinseq(B, A, C), D)) ) ) ) ) ) ) ) ) ).
++ fof(t49_finseq_5, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m2_finseq_1(C, A) =>  ~ ( (r2_hidden(B, k10_xtuple_0(C)) &  (! [D] :  (m1_subset_1(D, k5_numbers) =>  ~ ( (k2_nat_1(D, 1)=k4_finseq_4(C, B) & k2_finseq_5(A, C, B)=k2_rfinseq(A, D, C)) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
+- fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).

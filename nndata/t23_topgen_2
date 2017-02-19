@@ -1,0 +1,19 @@
+C fof(t23_topgen_2, axiom,  (! [A] :  (! [B] :  ( ~ (v1_finset_1(A))  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k5_topgen_2(A, B)))) =>  ~ ( (C=k1_tarski(B) & v3_pre_topc(C, k5_topgen_2(A, B))) ) ) ) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t19_topgen_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k5_topgen_2(A, B)))) =>  (v3_pre_topc(C, k5_topgen_2(A, B)) <=>  ~ ( (r2_hidden(B, C) &  ~ (v1_finset_1(k3_subset_1(u1_struct_0(k5_topgen_2(A, B)), C))) ) ) ) ) ) ) ) ).
++ fof(fc9_finset_1, axiom,  (! [A, B] :  ( (v1_finset_1(A) & v1_finset_1(B))  => v1_finset_1(k2_xboole_0(A, B))) ) ).
++ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
++ fof(d4_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, B)=k4_xboole_0(A, B)) ) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(dt_k5_topgen_2, axiom,  (! [A, B] :  (v1_pre_topc(k5_topgen_2(A, B)) & l1_pre_topc(k5_topgen_2(A, B))) ) ).
++ fof(d5_topgen_2, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_pre_topc(C) & l1_pre_topc(C))  =>  (C=k5_topgen_2(A, B) <=>  (u1_struct_0(C)=A & u1_pre_topc(C)=k2_xboole_0(a_2_0_topgen_2(A, B), a_1_1_topgen_2(A))) ) ) ) ) ) ).
++ fof(t45_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => B=k2_xboole_0(A, k4_xboole_0(B, A))) ) ) ).
+- fof(t21_topgen_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(C, A) =>  (v4_pre_topc(k1_tarski(C), k5_topgen_2(A, B)) & m1_subset_1(k1_tarski(C), k1_zfmisc_1(u1_struct_0(k5_topgen_2(A, B))))) ) ) ) ) ).
+- fof(t20_topgen_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k5_topgen_2(A, B)))) =>  (v4_pre_topc(C, k5_topgen_2(A, B)) <=>  ~ ( (r2_hidden(B, A) &  ( ~ (r2_hidden(B, C))  &  ~ (v1_finset_1(C)) ) ) ) ) ) ) ) ) ).
+- fof(t22_topgen_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(C, A) =>  (C=B |  (v3_pre_topc(k1_tarski(C), k5_topgen_2(A, B)) & m1_subset_1(k1_tarski(C), k1_zfmisc_1(u1_struct_0(k5_topgen_2(A, B))))) ) ) ) ) ) ).
+- fof(t41_subset_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(k1_tarski(A), k1_zfmisc_1(B))) ) ) ).
+- fof(dt_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_subset_1(k3_subset_1(A, B), k1_zfmisc_1(A))) ) ).
+- fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
+- fof(t3_tops_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v4_pre_topc(B, A) <=> v3_pre_topc(k3_subset_1(u1_struct_0(A), B), A)) ) ) ) ) ).
+- fof(involutiveness_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, k3_subset_1(A, B))=B) ) ).
+- fof(fc2_topgen_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v2_struct_0(k5_topgen_2(A, B)))  & v1_pre_topc(k5_topgen_2(A, B))) ) ) ).

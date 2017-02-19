@@ -1,0 +1,7 @@
+C fof(t5_classes1, axiom,  (! [A] :  (! [B] :  ~ ( (r1_tarski(A, k1_classes1(B)) &  ( ~ (r2_tarski(A, k1_classes1(B)))  &  ~ (r2_hidden(A, k1_classes1(B))) ) ) ) ) ) ).
++ fof(d2_classes1, axiom,  (! [A] :  (v2_classes1(A) <=>  (v1_classes1(A) &  ( (! [B] :  (r2_hidden(B, A) => r2_hidden(k9_setfam_1(B), A)) )  &  (! [B] :  ~ ( (r1_tarski(B, A) &  ( ~ (r2_tarski(B, A))  &  ~ (r2_hidden(B, A)) ) ) ) ) ) ) ) ) ).
++ fof(d3_classes1, axiom,  (! [A] :  (! [B] :  (r1_classes1(A, B) <=>  (r2_hidden(A, B) & v2_classes1(B)) ) ) ) ).
++ fof(d4_classes1, axiom,  (! [A] :  (! [B] :  (B=k1_classes1(A) <=>  (r1_classes1(A, B) &  (! [C] :  (r1_classes1(A, C) => r1_tarski(B, C)) ) ) ) ) ) ).
+- fof(d6_tarski, axiom,  (! [A] :  (! [B] :  (r2_tarski(A, B) <=>  (? [C] :  ( (! [D] :  ~ ( (r2_hidden(D, A) &  (! [E] :  ~ ( (r2_hidden(E, B) & r2_hidden(k4_tarski(D, E), C)) ) ) ) ) )  &  ( (! [D] :  ~ ( (r2_hidden(D, B) &  (! [E] :  ~ ( (r2_hidden(E, A) & r2_hidden(k4_tarski(E, D), C)) ) ) ) ) )  &  (! [D] :  (! [E] :  (! [F] :  (! [G] :  ( (r2_hidden(k4_tarski(D, E), C) & r2_hidden(k4_tarski(F, G), C))  =>  (D=F <=> E=G) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t3_classes1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, k1_classes1(B)) & r1_tarski(C, A))  => r2_hidden(C, k1_classes1(B))) ) ) ) ).
+- fof(t2_classes1, axiom,  (! [A] : r2_hidden(A, k1_classes1(A))) ).

@@ -1,0 +1,15 @@
+C fof(l8_collsp, axiom,  ( ~ (v2_struct_0(g1_collsp(c2__collsp, c3__collsp)))  & l1_collsp(g1_collsp(c2__collsp, c3__collsp))) ).
++ fof(dt_c3__collsp, axiom, m1_collsp(c3__collsp, c2__collsp)).
++ fof(fc1_struct_0, axiom,  (! [A] :  ( (v2_struct_0(A) & l1_struct_0(A))  => v1_xboole_0(u1_struct_0(A))) ) ).
++ fof(abstractness_v1_collsp, axiom,  (! [A] :  (l1_collsp(A) =>  (v1_collsp(A) => A=g1_collsp(u1_struct_0(A), u1_collsp(A))) ) ) ).
++ fof(dt_l1_collsp, axiom,  (! [A] :  (l1_collsp(A) => l1_struct_0(A)) ) ).
++ fof(free_g1_collsp, axiom,  (! [A, B] :  (m1_collsp(B, A) =>  (! [C, D] :  (g1_collsp(A, B)=g1_collsp(C, D) =>  (A=C & B=D) ) ) ) ) ).
++ fof(dt_g1_collsp, axiom,  (! [A, B] :  (m1_collsp(B, A) =>  (v1_collsp(g1_collsp(A, B)) & l1_collsp(g1_collsp(A, B))) ) ) ).
++ fof(dt_c2__collsp, axiom,  ~ (v1_xboole_0(c2__collsp)) ).
+- fof(de_c2__collsp, axiom, c2__collsp=k6_domain_1(k5_numbers, 1)).
+- fof(de_c3__collsp, axiom, c3__collsp=k1_tarski(k4_domain_1(k5_numbers, k5_numbers, k5_numbers, 1, 1, 1))).
+- fof(rc2_collsp, axiom,  (? [A] :  (l1_collsp(A) &  ( ~ (v2_struct_0(A))  & v1_collsp(A)) ) ) ).
+- fof(d2_collsp, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_collsp(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (r1_collsp(A, B, C, D) <=> r2_hidden(k4_domain_1(u1_struct_0(A), u1_struct_0(A), u1_struct_0(A), B, C, D), u1_collsp(A))) ) ) ) ) ) ) ) ) ).
+- fof(dt_u1_collsp, axiom,  (! [A] :  (l1_collsp(A) => m1_collsp(u1_collsp(A), u1_struct_0(A))) ) ).
+- fof(rc1_collsp, axiom,  (? [A] :  (l1_collsp(A) & v1_collsp(A)) ) ).
+- fof(existence_l1_collsp, axiom,  (? [A] : l1_collsp(A)) ).

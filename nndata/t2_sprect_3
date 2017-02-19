@@ -1,0 +1,7 @@
+C fof(t2_sprect_3, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k2_matrix_1(k3_matrix_2(A, B, C, D))=k2_enumset1(k4_tarski(1, 1), k4_tarski(1, 2), k4_tarski(2, 1), k4_tarski(2, 2))) ) ) ) ).
++ fof(t23_mcart_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k2_zfmisc_1(k2_tarski(A, B), k2_tarski(C, D))=k2_enumset1(k4_tarski(A, C), k4_tarski(A, D), k4_tarski(B, C), k4_tarski(B, D))) ) ) ) ).
++ fof(t2_finseq_1, axiom,  (k2_finseq_1(1)=k1_tarski(1) & k2_finseq_1(2)=k2_tarski(1, 2)) ).
++ fof(t3_matrix_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k3_finseq_1(k3_matrix_2(A, B, C, D))=2 &  (k1_matrix_1(k3_matrix_2(A, B, C, D))=2 & k2_matrix_1(k3_matrix_2(A, B, C, D))=k2_zfmisc_1(k2_finseq_1(2), k2_finseq_1(2))) ) ) ) ) ) ).
+- fof(t4_matrix_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(1, 1), k2_matrix_1(k3_matrix_2(A, B, C, D))) &  (r2_hidden(k4_tarski(1, 2), k2_matrix_1(k3_matrix_2(A, B, C, D))) &  (r2_hidden(k4_tarski(2, 1), k2_matrix_1(k3_matrix_2(A, B, C, D))) & r2_hidden(k4_tarski(2, 2), k2_matrix_1(k3_matrix_2(A, B, C, D)))) ) ) ) ) ) ) ).
+- fof(t122_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k2_zfmisc_1(k2_tarski(A, B), k2_tarski(C, D))=k2_enumset1(k4_tarski(A, C), k4_tarski(A, D), k4_tarski(B, C), k4_tarski(B, D))) ) ) ) ).
+- fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).

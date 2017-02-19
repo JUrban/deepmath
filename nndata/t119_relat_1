@@ -1,0 +1,9 @@
+C fof(t119_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  ~ ( ( ~ (A=k1_xboole_0)  &  (r1_tarski(A, k9_xtuple_0(B)) & k7_relat_1(B, A)=k1_xboole_0) ) ) ) ) ) ).
++ fof(t118_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (k7_relat_1(B, A)=k1_xboole_0 <=> r1_xboole_0(k9_xtuple_0(B), A)) ) ) ) ).
++ fof(t28_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => k3_xboole_0(A, B)=A) ) ) ).
++ fof(d7_xboole_0, axiom,  (! [A] :  (! [B] :  (r1_xboole_0(A, B) <=> k3_xboole_0(A, B)=k1_xboole_0) ) ) ).
++ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
+- fof(d13_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (C=k7_relat_1(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (? [E] :  (r2_hidden(k4_tarski(E, D), A) & r2_hidden(E, B)) ) ) ) ) ) ) ) ) ).
+- fof(d12_xtuple_0, axiom,  (! [A] :  (! [B] :  (B=k9_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] : r2_hidden(k4_tarski(C, D), A)) ) ) ) ) ) ).
+- fof(t115_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) => k10_xtuple_0(k5_relat_1(B, A))=k7_relat_1(B, A)) ) ) ).
+- fof(d13_xtuple_0, axiom,  (! [A] :  (! [B] :  (B=k10_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] : r2_hidden(k4_tarski(D, C), A)) ) ) ) ) ) ).

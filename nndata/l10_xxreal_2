@@ -1,0 +1,11 @@
+C fof(l10_xxreal_2, axiom,  (! [A] :  (v1_xxreal_0(A) => k2_xxreal_2(k1_tarski(A))=A) ) ).
++ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
++ fof(t2_xxreal_2, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (m2_xxreal_2(A, k1_tarski(B)) <=> r1_xxreal_0(A, B)) ) ) ) ) ).
++ fof(d4_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (B=k2_xxreal_2(A) <=>  (m2_xxreal_2(B, A) &  (! [C] :  (m2_xxreal_2(C, A) => r1_xxreal_0(C, B)) ) ) ) ) ) ) ) ).
++ fof(dt_m2_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (m2_xxreal_2(B, A) => v1_xxreal_0(B)) ) ) ) ).
++ fof(fc8_membered, axiom,  (! [A] :  (v1_xxreal_0(A) => v2_membered(k1_tarski(A))) ) ).
+- fof(dt_k2_xxreal_2, axiom,  (! [A] :  (v2_membered(A) => v1_xxreal_0(k2_xxreal_2(A))) ) ).
+- fof(d5_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (v1_xxreal_2(A) <=> r2_hidden(k2_xxreal_2(A), A)) ) ) ).
+- fof(t17_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) => k1_xxreal_1(A, A)=k1_tarski(A)) ) ).
+- fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
+- fof(t203_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r1_xxreal_0(B, C) =>  (r1_xxreal_0(B, A) | k6_subset_1(k3_xxreal_1(A, C), k1_tarski(B))=k2_xboole_0(k4_xxreal_1(A, B), k3_xxreal_1(B, C))) ) ) ) ) ) ) ) ).

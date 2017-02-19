@@ -1,0 +1,9 @@
+C fof(t5_scmfsa_1, axiom, r2_hidden(k5_numbers, k1_scmfsa_1)).
++ fof(d1_ami_2, axiom, k1_ami_2=k2_xboole_0(k1_tarski(k5_numbers), k2_scm_inst)).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(d2_scmfsa_1, axiom, k1_scmfsa_1=k2_xboole_0(k1_ami_2, k1_scmfsa_i)).
+- fof(t7_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(A, k2_xboole_0(A, B))) ) ).
+- fof(d4_scmfsa_1, axiom, k4_scmfsa_1=k1_funct_4(k8_funcop_1(k5_numbers, k1_scmfsa_1, 2), k3_ami_2)).
+- fof(t1_scmfsa_1, axiom, r1_tarski(k1_ami_2, k1_scmfsa_1)).
+- fof(fc1_scmfsa_1, axiom,  ~ (v1_xboole_0(k1_scmfsa_1)) ).

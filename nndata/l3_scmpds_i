@@ -1,0 +1,9 @@
+C fof(l3_scmpds_i, axiom, r2_hidden(k3_xtuple_0(k6_numbers, k1_xboole_0, k1_xboole_0), k1_scmpds_i)).
++ fof(d1_scmpds_i, axiom, k1_scmpds_i=k2_xboole_0(k2_xboole_0(k2_xboole_0(k2_xboole_0(k2_xboole_0(k1_tarski(k3_xtuple_0(k6_numbers, k1_xboole_0, k1_xboole_0)), a_0_0_scmpds_i), a_0_1_scmpds_i), a_0_2_scmpds_i), a_0_3_scmpds_i), a_0_4_scmpds_i)).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
+- fof(t1_scm_inst, axiom, r2_hidden(k3_xtuple_0(k6_numbers, k1_xboole_0, k1_xboole_0), k3_scm_inst)).
+- fof(d1_scmringi, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  => k1_scmringi(A)=k2_xboole_0(k2_xboole_0(k2_xboole_0(k2_xboole_0(k1_tarski(k3_xtuple_0(k6_numbers, k1_xboole_0, k1_xboole_0)), a_0_0_scmringi), a_0_1_scmringi), a_0_2_scmringi), a_1_0_scmringi(A))) ) ).
+- fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
+- fof(t3_scmfsa_i, axiom, r2_hidden(k3_xtuple_0(k6_numbers, k1_xboole_0, k1_xboole_0), k2_scmfsa_i)).

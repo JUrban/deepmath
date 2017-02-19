@@ -1,0 +1,13 @@
+C fof(t27_matrixc1, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) =>  (k3_finseq_1(A)=k3_finseq_1(B) => k1_complsp2(k5_matrixc1(A, B))=k5_matrixc1(k1_complsp2(A), k1_complsp2(B))) ) ) ) ) ).
++ fof(t24_matrixc1, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) =>  (k3_finseq_1(A)=k3_finseq_1(B) => k1_complsp2(k5_matrixc1(A, k1_complsp2(B)))=k5_matrixc1(B, k1_complsp2(A))) ) ) ) ) ).
++ fof(commutativity_k5_matrixc1, axiom,  (! [A, B] :  ( (m1_finseq_1(A, k2_numbers) & m1_finseq_1(B, k2_numbers))  => k5_matrixc1(A, B)=k5_matrixc1(B, A)) ) ).
++ fof(dt_k1_complsp2, axiom,  (! [A] :  (m1_finseq_1(A, k2_numbers) => m2_finseq_1(k1_complsp2(A), k2_numbers)) ) ).
++ fof(d1_complsp2, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) =>  (B=k1_complsp2(A) <=>  (k3_finseq_1(B)=k3_finseq_1(A) &  (! [C] :  (v7_ordinal1(C) =>  ( (r1_xxreal_0(1, C) & r1_xxreal_0(C, k3_finseq_1(A)))  => k9_matrix_5(B, C)=k15_complex1(k9_matrix_5(A, C))) ) ) ) ) ) ) ) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(t22_complsp2, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) => k1_complsp2(k1_complsp2(A))=A) ) ).
+- fof(t25_matrixc1, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) =>  (k3_finseq_1(A)=k3_finseq_1(B) => k5_matrixc1(A, k12_seq_4(B, C))=k12_seq_4(k5_matrixc1(A, B), C)) ) ) ) ) ) ) ).
+- fof(d5_matrixc1, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) => k5_matrixc1(A, B)=k1_finseqop(k2_numbers, k2_numbers, k2_numbers, k29_binop_2, A, B)) ) ) ) ).
+- fof(t16_matrixc1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m2_finseq_2(C, k2_numbers, k4_finseq_2(A, k2_numbers)) =>  (! [D] :  (m2_finseq_2(D, k2_numbers, k4_finseq_2(A, k2_numbers)) => k12_seq_4(k5_matrixc1(C, D), B)=k5_matrixc1(k12_seq_4(C, B), D)) ) ) ) ) ) ) ) ).
+- fof(t17_complsp2, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (v1_xcmplx_0(B) => k1_complsp2(k12_seq_4(A, B))=k12_seq_4(k1_complsp2(A), k15_complex1(B))) ) ) ) ).
+- fof(t26_matrixc1, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) =>  (k3_finseq_1(A)=k3_finseq_1(B) => k5_matrixc1(k12_seq_4(A, C), B)=k12_seq_4(k5_matrixc1(A, B), C)) ) ) ) ) ) ) ).
+- fof(t19_complsp2, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) =>  (k3_finseq_1(A)=k3_finseq_1(B) => k1_complsp2(k9_seq_4(A, B))=k9_seq_4(k1_complsp2(A), k1_complsp2(B))) ) ) ) ) ).

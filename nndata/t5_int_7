@@ -1,0 +1,11 @@
+C fof(t5_int_7, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  ( (v7_ordinal1(B) & v1_int_2(B))  =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v7_ordinal1(D) =>  (r1_int_1(A, k3_xcmplx_0(D, k1_newton(B, C))) =>  (A=B | r1_int_1(A, D)) ) ) ) ) ) ) ) ) ) ).
++ fof(t7_int_5, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  ( (v7_ordinal1(C) & v1_int_2(C))  =>  ~ ( (r1_int_1(C, k3_xcmplx_0(A, B)) &  ( ~ (r1_int_1(C, A))  &  ~ (r1_int_1(C, B)) ) ) ) ) ) ) ) ) ) ).
++ fof(fc4_newton, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k1_newton(A, B))) ) ).
++ fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
++ fof(t6_nat_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v7_ordinal1(B) & v1_int_2(B))  =>  (! [C] :  ( (v7_ordinal1(C) & v1_int_2(C))  =>  (r1_nat_d(C, k1_newton(B, A)) => C=B) ) ) ) ) ) ) ).
++ fof(redefinition_r1_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  =>  (r1_nat_d(A, B) <=> r1_int_1(A, B)) ) ) ).
+- fof(t25_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) =>  ( (r1_int_1(A, k3_xcmplx_0(B, C)) & r1_int_2(B, A))  => r1_int_1(A, C)) ) ) ) ) ) ) ).
+- fof(fc2_int_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => v1_int_1(k3_xcmplx_0(A, B))) ) ).
+- fof(d3_int_1, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (r1_int_1(A, B) <=>  (? [C] :  (v1_int_1(C) & B=k3_xcmplx_0(A, C)) ) ) ) ) ) ) ).
+- fof(t29_wsierp_1, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) =>  ( (r1_int_1(A, k3_xcmplx_0(B, C)) & k3_int_2(A, B)=1)  => r1_int_1(A, C)) ) ) ) ) ) ) ).
+- fof(t8_int_6, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) =>  (r1_int_1(A, B) => r1_int_1(k3_xcmplx_0(C, A), k3_xcmplx_0(C, B))) ) ) ) ) ) ) ).

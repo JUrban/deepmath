@@ -1,0 +1,9 @@
+C fof(t5_combgras, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (k6_subset_1(A, B)=k6_subset_1(A, C) &  (r1_tarski(B, A) & r1_tarski(C, A)) )  => B=C) ) ) ) ).
++ fof(t1_tarski, axiom,  (! [A] :  (! [B] :  ( (! [C] :  (r2_hidden(C, A) <=> r2_hidden(C, B)) )  => A=B) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
+- fof(d2_funct_7, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  (r1_funct_7(A, B, C) <=> k5_relat_1(A, k6_subset_1(k9_xtuple_0(A), C))=k5_relat_1(B, k6_subset_1(k9_xtuple_0(B), C))) ) ) ) ) ) ).
+- fof(t156_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) => k9_xtuple_0(k5_relat_1(B, k6_subset_1(k9_xtuple_0(B), A)))=k6_subset_1(k9_xtuple_0(B), A)) ) ) ).
+- fof(t20_sysrel, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(B, k2_zfmisc_1(A, A)) =>  (k6_subset_1(B, k4_relat_1(k9_xtuple_0(B)))=k6_subset_1(B, k4_relat_1(A)) & k6_subset_1(B, k4_relat_1(k10_xtuple_0(B)))=k6_subset_1(B, k4_relat_1(A))) ) ) ) ) ).
+- fof(t28_funct_7, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  (r1_funct_7(A, B, C) => k6_subset_1(k9_xtuple_0(A), C)=k6_subset_1(k9_xtuple_0(B), C)) ) ) ) ) ) ).

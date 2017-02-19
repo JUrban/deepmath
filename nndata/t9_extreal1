@@ -1,0 +1,21 @@
+C fof(t9_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) => k4_extreal1(k2_finseq_4(k7_numbers, A, B))=k3_supinf_2(A, B)) ) ) ) ).
++ fof(l11_extreal1, axiom,  (! [A] :  (m2_finseq_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) => k4_extreal1(k8_finseq_1(k7_numbers, A, k12_finseq_1(k7_numbers, B)))=k3_supinf_2(k4_extreal1(A), B)) ) ) ) ).
++ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
++ fof(d9_finseq_1, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B))) ) ).
++ fof(redefinition_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k12_finseq_1(A, B)=k5_finseq_1(B)) ) ).
++ fof(t8_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => k4_extreal1(k12_finseq_1(k7_numbers, A))=A) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(redefinition_k2_finseq_4, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k2_finseq_4(A, B, C)=k10_finseq_1(B, C)) ) ).
++ fof(redefinition_k8_finseq_1, axiom,  (! [A, B, C] :  ( (m1_finseq_1(B, A) & m1_finseq_1(C, A))  => k8_finseq_1(A, B, C)=k7_finseq_1(B, C)) ) ).
++ fof(fc5_numbers, axiom,  ~ (v1_xboole_0(k7_numbers)) ).
++ fof(dt_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m2_finseq_1(k12_finseq_1(A, B), A)) ) ).
+- fof(d2_extreal1, axiom,  (! [A] :  (m2_finseq_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  (B=k4_extreal1(A) <=>  (? [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k5_numbers, k7_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k7_numbers)))) )  &  (B=k12_supinf_2(C, k3_finseq_1(A)) &  (k12_supinf_2(C, k6_numbers)=k1_supinf_2 &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  ( ~ (r1_xxreal_0(k3_finseq_1(A), D))  => k12_supinf_2(C, k2_nat_1(D, 1))=k3_supinf_2(k12_supinf_2(C, D), k12_supinf_2(A, k2_nat_1(D, 1)))) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t7_extreal1, axiom, k4_extreal1(k6_finseq_1(k7_numbers))=k1_supinf_2).
+- fof(dt_k4_extreal1, axiom,  (! [A] :  (m1_finseq_1(A, k7_numbers) => m1_subset_1(k4_extreal1(A), k7_numbers)) ) ).
+- fof(d11_supinf_2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v4_card_3(A) & m1_subset_1(A, k1_zfmisc_1(k7_numbers))) )  =>  (! [B] :  (m1_supinf_2(B, A) =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k5_numbers, k7_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k7_numbers)))) )  =>  (C=k15_supinf_2(A, B) <=>  (k12_supinf_2(C, k6_numbers)=k12_supinf_2(B, k6_numbers) &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (! [E] :  (m1_subset_1(E, k7_numbers) =>  (E=k12_supinf_2(C, D) => k12_supinf_2(C, k2_nat_1(D, 1))=k3_supinf_2(E, k12_supinf_2(B, k2_nat_1(D, 1)))) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(redefinition_k3_supinf_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k3_supinf_2(A, B)=k1_xxreal_3(A, B)) ) ).
+- fof(commutativity_k3_supinf_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k3_supinf_2(A, B)=k3_supinf_2(B, A)) ) ).
+- fof(t32_measure6, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, k7_numbers) =>  (B=C => k7_supinf_2(k2_measure6(A, B))=k3_supinf_2(C, k7_supinf_2(A))) ) ) ) ) ) ) ).
+- fof(t44_supinf_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k7_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k7_numbers)))) )  =>  (k12_supinf_2(k18_supinf_2(A), k6_numbers)=k12_supinf_2(A, k6_numbers) &  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (! [C] :  (m1_subset_1(C, k7_numbers) =>  (C=k12_supinf_2(k18_supinf_2(A), B) => k12_supinf_2(k18_supinf_2(A), k2_nat_1(B, 1))=k3_supinf_2(C, k12_supinf_2(A, k2_nat_1(B, 1)))) ) ) ) ) ) ) ) ).
+- fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
+- fof(redefinition_k1_supinf_2, axiom, k1_supinf_2=k1_xboole_0).

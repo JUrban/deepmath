@@ -1,0 +1,31 @@
+C fof(t2_scmfsa_i, axiom,  (! [A] :  (m1_subset_1(A, k2_scmfsa_i) =>  (r1_xxreal_0(k4_xtuple_0(A), 8) => r2_hidden(A, k3_scm_inst)) ) ) ).
++ fof(fraenkel_a_0_1_scmfsa_i, axiom,  (! [A] :  (r2_hidden(A, a_0_1_scmfsa_i) <=>  (? [B, C, D] :  ( (m2_subset_1(B, k4_ordinal1, k7_card_1(13)) &  (m1_subset_1(C, k2_scm_inst) & m1_subset_1(D, k1_scmfsa_i)) )  &  (A=k3_xtuple_0(B, k1_xboole_0, k10_finseq_1(C, D)) & r2_hidden(B, k2_tarski(11, 12))) ) ) ) ) ).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r9_r8, axiom,  ~ (r1_xxreal_0(9, 8)) ).
++ fof(rd1_xtuple_0, axiom,  (! [A, B] : k1_xtuple_0(k4_tarski(A, B))=A) ).
++ fof(d6_xtuple_0, axiom,  (! [A] : k4_xtuple_0(A)=k1_xtuple_0(k1_xtuple_0(A))) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(fraenkel_a_0_0_scmfsa_i, axiom,  (! [A] :  (r2_hidden(A, a_0_0_scmfsa_i) <=>  (? [B, C, D, E] :  ( (m2_subset_1(B, k4_ordinal1, k7_card_1(13)) &  (m1_subset_1(C, k2_scm_inst) &  (m1_subset_1(D, k2_scm_inst) & m1_subset_1(E, k1_scmfsa_i)) ) )  &  (A=k3_xtuple_0(B, k1_xboole_0, k11_finseq_1(C, E, D)) & r2_hidden(B, k2_tarski(9, 10))) ) ) ) ) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r10_r8, axiom,  ~ (r1_xxreal_0(10, 8)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r12_r8, axiom,  ~ (r1_xxreal_0(12, 8)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r11_r8, axiom,  ~ (r1_xxreal_0(11, 8)) ).
++ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(fc3_scmfsa_i, axiom,  ( ~ (v1_xboole_0(k2_scmfsa_i))  & v1_compos_0(k2_scmfsa_i)) ).
++ fof(d2_scmfsa_i, axiom, k2_scmfsa_i=k2_xboole_0(k2_xboole_0(k3_scm_inst, a_0_0_scmfsa_i), a_0_1_scmfsa_i)).
++ fof(d4_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] : k3_xtuple_0(A, B, C)=k4_tarski(k4_tarski(A, B), C)) ) ) ).
+- fof(rd7_xtuple_0, axiom,  (! [A] :  (v2_xtuple_0(A) => k3_xtuple_0(k4_xtuple_0(A), k5_xtuple_0(A), k2_xtuple_0(A))=A) ) ).
+- fof(t3_recdef_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(A, k3_zfmisc_1(B, C, D)) => A=k3_xtuple_0(k4_xtuple_0(A), k5_xtuple_0(A), k2_xtuple_0(A))) ) ) ) ) ).
+- fof(t1_recdef_2, axiom,  (! [A] :  ( (? [B] :  (? [C] :  (? [D] : A=k3_xtuple_0(B, C, D)) ) )  => A=k3_xtuple_0(k4_xtuple_0(A), k5_xtuple_0(A), k2_xtuple_0(A))) ) ).
+- fof(t3_scm_inst, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m1_subset_1(C, k2_scm_inst) =>  (r2_hidden(A, k7_domain_1(k5_numbers, 7, 8)) => r2_hidden(k3_xtuple_0(A, k12_finseq_1(k5_numbers, B), k12_finseq_1(k2_scm_inst, C)), k3_scm_inst)) ) ) ) ) ) ).
+- fof(t4_scm_inst, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k2_scm_inst) =>  (! [C] :  (m1_subset_1(C, k2_scm_inst) =>  (r2_hidden(A, k10_domain_1(k5_numbers, 1, 2, 3, 4, 5)) => r2_hidden(k3_xtuple_0(A, k1_xboole_0, k2_finseq_4(k2_scm_inst, B, C)), k3_scm_inst)) ) ) ) ) ) ).
+- fof(t2_scm_inst, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => r2_hidden(k3_xtuple_0(6, k12_finseq_1(k5_numbers, A), k1_xboole_0), k3_scm_inst)) ) ).
+- fof(t1_scm_inst, axiom, r2_hidden(k3_xtuple_0(k6_numbers, k1_xboole_0, k1_xboole_0), k3_scm_inst)).
+- fof(d2_scm_inst, axiom, k3_scm_inst=k2_xboole_0(k2_xboole_0(k2_xboole_0(k1_tarski(k3_xtuple_0(k1_scm_inst, k1_xboole_0, k1_xboole_0)), a_0_0_scm_inst), a_0_1_scm_inst), a_0_2_scm_inst)).
+- fof(redefinition_k1_scm_inst, axiom, k1_scm_inst=k1_xboole_0).
+- fof(t68_mcart_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ~ ( (r2_hidden(A, k3_zfmisc_1(B, C, D)) &  (! [E] :  (! [F] :  (! [G] :  ~ ( (r2_hidden(E, B) &  (r2_hidden(F, C) &  (r2_hidden(G, D) & A=k3_xtuple_0(E, F, G)) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(fc2_xtuple_0, axiom,  (! [A, B, C] : v2_xtuple_0(k3_xtuple_0(A, B, C))) ).
+- fof(t9_scm_inst, axiom,  (! [A] :  (m1_subset_1(A, k3_scm_inst) =>  ~ ( ( ~ ( (r2_hidden(A, k1_tarski(k3_xtuple_0(k1_scm_inst, k1_xboole_0, k1_xboole_0))) & k4_xtuple_0(A)=k6_numbers) )  &  ( ~ ( (r2_hidden(A, a_0_0_scm_inst) & k4_xtuple_0(A)=6) )  &  ( ~ ( (r2_hidden(A, a_0_1_scm_inst) &  (k4_xtuple_0(A)=7 | k4_xtuple_0(A)=8) ) )  &  ~ ( (r2_hidden(A, a_0_2_scm_inst) &  ~ ( ( ~ (k4_xtuple_0(A)=1)  &  ( ~ (k4_xtuple_0(A)=2)  &  ( ~ (k4_xtuple_0(A)=3)  &  ( ~ (k4_xtuple_0(A)=4)  &  ~ (k4_xtuple_0(A)=5) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t10_recdef_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  ( (k4_xtuple_0(A)=k4_xtuple_0(B) &  (k5_xtuple_0(A)=k5_xtuple_0(B) &  (k2_xtuple_0(A)=k2_xtuple_0(B) &  (r2_hidden(B, k3_zfmisc_1(C, D, E)) & r2_hidden(A, k3_zfmisc_1(C, D, E))) ) ) )  => A=B) ) ) ) ) ) ).
+- fof(t2_recdef_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(A, k3_zfmisc_1(B, C, D)) =>  (r2_hidden(k4_xtuple_0(A), B) &  (r2_hidden(k5_xtuple_0(A), C) & r2_hidden(k2_xtuple_0(A), D)) ) ) ) ) ) ) ).
+- fof(redefinition_k1_mcart_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  ( ~ (v1_xboole_0(C))  & m1_subset_1(D, k3_zfmisc_1(A, B, C))) ) )  => k1_mcart_1(A, B, C, D)=k4_xtuple_0(D)) ) ).

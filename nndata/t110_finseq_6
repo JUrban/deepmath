@@ -1,0 +1,5 @@
+C fof(t110_finseq_6, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (k3_finseq_1(A)=1 => k3_finseq_5(A)=A) ) ) ).
++ fof(t40_finseq_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (B=k9_finseq_1(A) <=>  (k3_finseq_1(B)=1 & k1_funct_1(B, 1)=A) ) ) ) ) ).
++ fof(t60_finseq_5, axiom,  (! [A] : k3_finseq_5(k9_finseq_1(A))=k9_finseq_1(A)) ).
+- fof(involutiveness_k3_finseq_5, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_5(k3_finseq_5(A))=A) ) ).
+- fof(t64_finseq_5, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  => k3_finseq_5(k7_finseq_1(A, B))=k7_finseq_1(k3_finseq_5(B), k3_finseq_5(A))) ) ) ) ).

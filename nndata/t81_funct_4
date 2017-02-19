@@ -1,0 +1,17 @@
+C fof(t81_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] : k4_funct_4(A, A, B, C)=k16_funcop_1(A, C)) ) ) ).
++ fof(d4_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k4_funct_4(A, B, C, D)=k1_funct_4(k16_funcop_1(A, C), k16_funcop_1(B, D))) ) ) ) ).
++ fof(dt_k7_funcop_1, axiom,  (! [A, B] :  (v1_funct_1(k7_funcop_1(A, B)) &  (v1_funct_2(k7_funcop_1(A, B), A, k1_tarski(B)) & m1_subset_1(k7_funcop_1(A, B), k1_zfmisc_1(k2_zfmisc_1(A, k1_tarski(B))))) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t13_funcop_1, axiom,  (! [A] :  (! [B] :  (k9_xtuple_0(k2_funcop_1(A, B))=A & r1_tarski(k10_xtuple_0(k2_funcop_1(A, B)), k1_tarski(B))) ) ) ).
++ fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
++ fof(fc11_funcop_1, axiom,  (! [A, B] :  (v1_relat_1(k16_funcop_1(A, B)) & v1_funct_1(k16_funcop_1(A, B))) ) ).
++ fof(d9_funcop_1, axiom,  (! [A] :  (! [B] : k16_funcop_1(A, B)=k7_funcop_1(k1_tarski(A), B)) ) ).
++ fof(t19_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_tarski(k9_xtuple_0(A), k9_xtuple_0(B)) => k1_funct_4(A, B)=B) ) ) ) ) ).
+- fof(t63_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ( ~ (A=B)  => k1_funct_1(k4_funct_4(A, B, C, D), A)=C)  & k1_funct_1(k4_funct_4(A, B, C, D), B)=D) ) ) ) ) ).
+- fof(fc1_funct_4, axiom,  (! [A, B, C, D] :  (v1_relat_1(k4_funct_4(A, B, C, D)) & v1_funct_1(k4_funct_4(A, B, C, D))) ) ).
+- fof(t75_funcop_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(A, k9_xtuple_0(k16_funcop_1(B, C))) => A=B) ) ) ) ).
+- fof(t62_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k9_xtuple_0(k4_funct_4(A, B, C, D))=k2_tarski(A, B) & r1_tarski(k10_xtuple_0(k4_funct_4(A, B, C, D)), k2_tarski(C, D))) ) ) ) ) ).
+- fof(redefinition_k18_funcop_1, axiom,  (! [A, B] : k18_funcop_1(A, B)=k16_funcop_1(A, B)) ).
+- fof(t86_funcop_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(A, C) => k5_relat_1(k16_funcop_1(A, B), C)=k16_funcop_1(A, B)) ) ) ) ).
+- fof(t79_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] : k17_funcop_1(A, B, C)=k16_funcop_1(k4_tarski(A, B), C)) ) ) ).
+- fof(t89_funcop_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(A, B) => k3_relat_1(k16_funcop_1(D, A), k7_funcop_1(B, C))=k16_funcop_1(D, C)) ) ) ) ) ).

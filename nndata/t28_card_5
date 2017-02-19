@@ -1,0 +1,21 @@
+C fof(t28_card_5, axiom,  (! [A] :  ( ( ~ (v1_finset_1(A))  & v1_card_1(A))  =>  (r2_hidden(k1_card_5(A), A) => v2_card_1(A)) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(fc8_card_5, axiom,  (! [A] :  ( ( ~ (v1_finset_1(A))  & v1_card_1(A))  =>  ( ~ (v1_finset_1(k1_card_5(A)))  & v1_card_1(k1_card_5(A))) ) ) ).
++ fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
++ fof(cc2_finset_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_finset_1(B)) ) ) ) ).
++ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
++ fof(d4_card_1, axiom,  (! [A] :  (v1_card_1(A) =>  (v2_card_1(A) <=>  (! [B] :  (v1_card_1(B) =>  ~ (A=k2_card_1(B)) ) ) ) ) ) ).
++ fof(dt_k1_card_5, axiom,  (! [A] :  (v1_card_1(A) => v1_card_1(k1_card_5(A))) ) ).
++ fof(t91_card_3, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (r2_hidden(A, k2_card_1(B)) <=> r1_ordinal1(A, B)) ) ) ) ) ).
++ fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
++ fof(t23_card_5, axiom,  (! [A] :  ( ( ~ (v1_finset_1(A))  & v1_card_1(A))  => k1_card_5(k2_card_1(A))=k2_card_1(A)) ) ).
+- fof(s1_card_1__e4_4__card_5, axiom,  ( ( ~ ( ( ~ (v1_finset_1(k1_xboole_0))  &  (! [A] :  (v3_ordinal1(A) =>  ~ (k1_xboole_0=k3_card_1(A)) ) ) ) )  &  ( (! [B] :  (v1_card_1(B) =>  ( ~ ( ( ~ (v1_finset_1(B))  &  (! [C] :  (v3_ordinal1(C) =>  ~ (B=k3_card_1(C)) ) ) ) )  =>  ~ ( ( ~ (v1_finset_1(k2_card_1(B)))  &  (! [D] :  (v3_ordinal1(D) =>  ~ (k2_card_1(B)=k3_card_1(D)) ) ) ) ) ) ) )  &  (! [B] :  (v1_card_1(B) =>  ( (v2_card_1(B) &  (! [E] :  (v1_card_1(E) =>  (r2_hidden(E, B) =>  ~ ( ( ~ (v1_finset_1(E))  &  (! [F] :  (v3_ordinal1(F) =>  ~ (E=k3_card_1(F)) ) ) ) ) ) ) ) )  =>  (B=k1_xboole_0 |  ~ ( ( ~ (v1_finset_1(B))  &  (! [G] :  (v3_ordinal1(G) =>  ~ (B=k3_card_1(G)) ) ) ) ) ) ) ) ) ) )  =>  (! [B] :  (v1_card_1(B) =>  ~ ( ( ~ (v1_finset_1(B))  &  (! [H] :  (v3_ordinal1(H) =>  ~ (B=k3_card_1(H)) ) ) ) ) ) ) ) ).
+- fof(t26_card_5, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  ( (r1_tarski(A, B) & r2_hidden(k1_card_1(A), k1_card_5(B)))  =>  (r2_hidden(k3_ordinal2(A), B) & r2_hidden(k3_tarski(A), B)) ) ) ) ) ).
+- fof(t27_card_5, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) &  (v5_ordinal1(C) & v1_ordinal2(C)) ) )  =>  ( (k9_xtuple_0(C)=A &  (r1_tarski(k10_xtuple_0(C), B) & r2_hidden(A, k1_card_5(B))) )  =>  (r2_hidden(k4_ordinal2(C), B) & r2_hidden(k3_card_3(C), B)) ) ) ) ) ) ) ) ).
+- fof(fc5_card_1, axiom, v2_card_1(k4_ordinal1)).
+- fof(d1_card_5, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (B=k1_card_5(A) <=>  (r2_ordinal2(A, B) &  (! [C] :  (v1_card_1(C) =>  (r2_ordinal2(A, C) => r1_ordinal1(B, C)) ) ) ) ) ) ) ) ) ).
+- fof(d3_card_5, axiom,  (! [A] :  ( ( ~ (v1_finset_1(A))  & v1_card_1(A))  =>  (v1_card_5(A) <=> k1_card_5(A)=A) ) ) ).
+- fof(t24_card_5, axiom,  (! [A] :  ( ( ~ (v1_finset_1(A))  & v1_card_1(A))  => r1_ordinal1(k4_ordinal1, k1_card_5(A))) ) ).
+- fof(t25_card_5, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (k1_card_5(k6_numbers)=k6_numbers & k1_card_5(k5_card_1(k2_nat_1(A, 1)))=1) ) ) ).
+- fof(t22_card_5, axiom, k1_card_5(k4_ordinal1)=k4_ordinal1).
+- fof(d2_card_1, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  (B=k1_card_1(A) <=> r2_wellord2(A, B)) ) ) ) ).

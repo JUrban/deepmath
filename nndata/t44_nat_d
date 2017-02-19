@@ -1,0 +1,15 @@
+C fof(t44_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) => r1_xxreal_0(k7_nat_d(A, 1), B)) ) ) ) ) ).
++ fof(t2_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, C))  => r1_xxreal_0(A, C)) ) ) ) ) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
++ fof(t35_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) => r1_xxreal_0(k7_nat_d(A, B), A)) ) ) ) ).
++ fof(dt_k7_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => m1_subset_1(k7_nat_d(A, B), k5_numbers)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
+- fof(redefinition_k7_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k7_nat_d(A, B)=k1_xreal_0(A, B)) ) ).
+- fof(t41_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (r1_xxreal_0(A, B) => r1_xxreal_0(k7_nat_d(C, B), k7_nat_d(C, A))) ) ) ) ) ) ) ).
+- fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
+- fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
+- fof(t42_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (r1_xxreal_0(A, B) => r1_xxreal_0(k7_nat_d(A, C), k7_nat_d(B, C))) ) ) ) ) ) ) ).
+- fof(t39_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( (r1_xxreal_0(1, k7_nat_d(A, B)) | r1_xxreal_0(1, k6_xcmplx_0(A, B)))  => k7_nat_d(A, B)=k6_xcmplx_0(A, B)) ) ) ) ) ).
+- fof(d2_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( (r1_xxreal_0(k6_numbers, k6_xcmplx_0(A, B)) => k1_xreal_0(A, B)=k6_xcmplx_0(A, B))  &  ( ~ (r1_xxreal_0(k6_numbers, k6_xcmplx_0(A, B)))  => k1_xreal_0(A, B)=k6_numbers) ) ) ) ) ) ).

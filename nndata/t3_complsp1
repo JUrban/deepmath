@@ -1,0 +1,7 @@
+C fof(t3_complsp1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k1_complsp1(A))) => m2_finseq_2(B, k2_numbers, k14_seq_4(A))) ) ) ) ).
++ fof(dt_k14_seq_4, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => m1_finseq_2(k14_seq_4(A), k2_numbers)) ) ).
++ fof(redefinition_m2_finseq_2, axiom,  (! [A, B] :  (m1_finseq_2(B, A) =>  (! [C] :  (m2_finseq_2(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t2_complsp1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => u1_struct_0(k1_complsp1(A))=k14_seq_4(A)) ) ).
+- fof(d1_complsp1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k1_complsp1(A)=g1_pre_topc(k14_seq_4(A), k27_seq_4(A))) ) ).
+- fof(t1_complsp1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => u1_pre_topc(k1_complsp1(A))=k27_seq_4(A)) ) ).
+- fof(dt_k1_complsp1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (v1_pre_topc(k1_complsp1(A)) &  (v2_pre_topc(k1_complsp1(A)) & l1_pre_topc(k1_complsp1(A))) ) ) ) ).

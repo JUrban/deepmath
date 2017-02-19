@@ -1,0 +1,7 @@
+C fof(t19_sysrel, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(k4_relat_1(A), B) => r1_tarski(k4_relat_1(A), k2_relat_1(B))) ) ) ) ).
++ fof(t11_sysrel, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(A, B) => r1_tarski(k2_relat_1(A), k2_relat_1(B))) ) ) ) ) ).
++ fof(dt_k4_relat_1, axiom,  (! [A] : v1_relat_1(k4_relat_1(A))) ).
++ fof(rd3_relat_1, axiom,  (! [A] : k2_relat_1(k4_relat_1(A))=k4_relat_1(A)) ).
+- fof(t18_sysrel, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(k4_relat_1(A), k2_xboole_0(B, k2_relat_1(B))) =>  (r1_tarski(k4_relat_1(A), B) & r1_tarski(k4_relat_1(A), k2_relat_1(B))) ) ) ) ) ).
+- fof(t13_relset_1, axiom,  (! [A] : r1_tarski(k4_relat_1(A), k2_zfmisc_1(A, A))) ).
+- fof(d4_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k3_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) & r2_hidden(D, B)) ) ) ) ) ) ) ).

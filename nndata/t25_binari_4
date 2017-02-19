@@ -1,0 +1,9 @@
+C fof(t25_binari_4, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (r1_xxreal_0(A, k5_series_1(2, B)))  & r1_xxreal_0(k1_binari_4(B, A), B)) ) ) ) ) ) ).
++ fof(d1_binari_4, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (C=k1_binari_4(A, B) <=>  (r1_xxreal_0(B, k5_series_1(2, C)) &  (r1_xxreal_0(A, C) &  (! [D] :  (v7_ordinal1(D) =>  ( (r1_xxreal_0(B, k5_series_1(2, D)) & r1_xxreal_0(A, D))  => r1_xxreal_0(C, D)) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k1_binari_4, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k1_binari_4(A, B))) ) ).
++ fof(t1_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, A))  => A=B) ) ) ) ) ).
++ fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
+- fof(t21_binari_4, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (r1_xxreal_0(B, A) => r1_xxreal_0(k1_binari_4(C, B), k1_binari_4(C, A))) ) ) ) ) ) ) ).
+- fof(t22_binari_4, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (r1_xxreal_0(B, A) => r1_xxreal_0(k1_binari_4(B, C), k1_binari_4(A, C))) ) ) ) ) ) ) ).
+- fof(t2_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, C))  => r1_xxreal_0(A, C)) ) ) ) ) ) ) ).
+- fof(t24_binari_4, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, k5_series_1(2, B)) => k1_binari_4(B, A)=B) ) ) ) ) ).

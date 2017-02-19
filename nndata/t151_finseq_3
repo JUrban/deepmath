@@ -1,0 +1,9 @@
+C fof(t151_finseq_3, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  =>  ~ ( (k10_xtuple_0(C)=k2_tarski(A, B) &  (k3_finseq_1(C)=2 &  ( ~ ( (k1_funct_1(C, 1)=A & k1_funct_1(C, 2)=B) )  &  ~ ( (k1_funct_1(C, 1)=B & k1_funct_1(C, 2)=A) ) ) ) ) ) ) ) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(t44_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  =>  (C=k10_finseq_1(A, B) <=>  (k3_finseq_1(C)=2 &  (k1_funct_1(C, 1)=A & k1_funct_1(C, 2)=B) ) ) ) ) ) ) ).
++ fof(l4_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ~ ( (k2_tarski(A, B)=k2_tarski(C, D) &  ( ~ (A=C)  &  ~ (A=D) ) ) ) ) ) ) ) ).
++ fof(t127_finseq_2, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k10_finseq_1(A, B))=k2_tarski(A, B)) ) ).
+- fof(l13_finseq_2, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k10_finseq_1(A, B))=k2_tarski(A, B)) ) ).
+- fof(t98_finseq_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (! [C] :  ( (v2_funct_1(A) & k10_xtuple_0(A)=k2_tarski(B, C))  =>  (B=C | k3_finseq_1(A)=2) ) ) ) ) ) ).
+- fof(t66_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  ( (v1_relat_1(E) &  (v1_funct_1(E) & v1_finseq_1(E)) )  =>  (E=k7_finseq_1(k7_finseq_1(k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B)), k9_finseq_1(C)), k9_finseq_1(D)) =>  (k3_finseq_1(E)=4 &  (k1_funct_1(E, 1)=A &  (k1_funct_1(E, 2)=B &  (k1_funct_1(E, 3)=C & k1_funct_1(E, 4)=D) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t45_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (v1_relat_1(D) &  (v1_funct_1(D) & v1_finseq_1(D)) )  =>  (D=k11_finseq_1(A, B, C) <=>  (k3_finseq_1(D)=3 &  (k1_funct_1(D, 1)=A &  (k1_funct_1(D, 2)=B & k1_funct_1(D, 3)=C) ) ) ) ) ) ) ) ) ).

@@ -1,0 +1,7 @@
+C fof(t13_sgraph1, axiom,  (! [A] :  (v1_finset_1(A) => v1_finset_1(k2_sgraph1(A))) ) ).
++ fof(t9_sgraph1, axiom,  (! [A] : r1_tarski(k2_sgraph1(A), k1_zfmisc_1(A))) ).
++ fof(t1_finset_1, axiom,  (! [A] :  (! [B] :  ( (r1_tarski(A, B) & v1_finset_1(B))  => v1_finset_1(A)) ) ) ).
++ fof(fc17_finset_1, axiom,  (! [A] :  (v1_finset_1(A) => v1_finset_1(k1_zfmisc_1(A))) ) ).
+- fof(t8_sgraph1, axiom,  (! [A] :  (! [B] :  (r2_hidden(B, k2_sgraph1(A)) <=>  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(A)))  &  (? [C] :  (? [D] :  (r2_hidden(C, A) &  (r2_hidden(D, A) &  ( ~ (C=D)  & B=k2_tarski(C, D)) ) ) ) ) ) ) ) ) ).
+- fof(d2_sgraph1, axiom,  (! [A] : k2_sgraph1(A)=a_1_0_sgraph1(A)) ).
+- fof(fraenkel_a_1_0_sgraph1, axiom,  (! [A, B] :  (r2_hidden(A, a_1_0_sgraph1(B)) <=>  (? [C] :  ( (v1_finset_1(C) & m1_subset_1(C, k1_zfmisc_1(B)))  &  (A=C & k5_card_1(C)=2) ) ) ) ) ).

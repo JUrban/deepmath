@@ -1,0 +1,5 @@
+C fof(t9_sprect_1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))) =>  ( (r1_tarski(A, B) & v1_sppol_1(B))  => v1_sppol_1(A)) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d2_sppol_1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))) =>  (v1_sppol_1(A) <=>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(2))) =>  ( (r2_hidden(B, A) & r2_hidden(C, A))  => k18_euclid(B)=k18_euclid(C)) ) ) ) ) ) ) ) ).
+- fof(cc2_sppol_1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))) =>  ( ( ~ (v1_zfmisc_1(A))  & v2_sppol_1(A))  =>  ~ (v1_sppol_1(A)) ) ) ) ).
+- fof(cc1_sppol_1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))) =>  ( ( ~ (v1_zfmisc_1(A))  & v1_sppol_1(A))  =>  ~ (v2_sppol_1(A)) ) ) ) ).

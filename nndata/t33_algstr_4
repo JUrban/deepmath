@@ -1,0 +1,23 @@
+C fof(t33_algstr_4, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, u1_struct_0(k14_algstr_4(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k14_algstr_4(A))) => k15_algstr_4(A, k6_algstr_0(k14_algstr_4(A), B, C))=k2_xcmplx_0(k15_algstr_4(A, B), k15_algstr_4(A, C))) ) ) ) ) ).
++ fof(dt_k6_algstr_0, axiom,  (! [A, B, C] :  ( (l3_algstr_0(A) &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k6_algstr_0(A, B, C), u1_struct_0(A))) ) ).
++ fof(dt_k14_algstr_4, axiom,  (! [A] : l3_algstr_0(k14_algstr_4(A))) ).
++ fof(t31_algstr_4, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, u1_struct_0(k14_algstr_4(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k14_algstr_4(A))) =>  ( ~ (v1_xboole_0(A))  => k6_algstr_0(k14_algstr_4(A), B, C)=k4_tarski(k4_tarski(k4_tarski(k1_xtuple_0(B), k1_xtuple_0(C)), k2_xtuple_0(B)), k2_xcmplx_0(k15_algstr_4(A, B), k15_algstr_4(A, C)))) ) ) ) ) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(d18_algstr_4, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, u1_struct_0(k14_algstr_4(A))) =>  ( ( ~ (v1_xboole_0(A))  => k15_algstr_4(A, B)=k2_xtuple_0(B))  &  (v1_xboole_0(A) => k15_algstr_4(A, B)=k6_numbers) ) ) ) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
++ fof(cc7_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v7_ordinal1(A)) ) ).
++ fof(t1_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k2_xcmplx_0(A, k6_numbers)=A) ) ).
++ fof(rd2_xtuple_0, axiom,  (! [A, B] : k2_xtuple_0(k4_tarski(A, B))=B) ).
+- fof(fraenkel_a_1_0_algstr_4, axiom,  (! [A, B] :  (r2_hidden(A, a_1_0_algstr_4(B)) <=>  (? [C] :  (m1_subset_1(C, u1_struct_0(k14_algstr_4(B))) &  (A=k1_xtuple_0(C) & k15_algstr_4(B, C)=1) ) ) ) ) ).
+- fof(t32_algstr_4, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, u1_struct_0(k14_algstr_4(A))) =>  ( ~ (v1_xboole_0(A))  =>  (B=k4_tarski(k1_xtuple_0(B), k2_xtuple_0(B)) & r1_xxreal_0(1, k15_algstr_4(A, B))) ) ) ) ) ).
+- fof(dt_k15_algstr_4, axiom,  (! [A, B] :  (m1_subset_1(B, u1_struct_0(k14_algstr_4(A))) => v7_ordinal1(k15_algstr_4(A, B))) ) ).
+- fof(fc17_algstr_4, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, u1_struct_0(k14_algstr_4(A))))  =>  ( ~ (v1_xboole_0(k2_xtuple_0(B)))  & v7_ordinal1(k2_xtuple_0(B))) ) ) ).
+- fof(d17_algstr_4, axiom,  (! [A] : k14_algstr_4(A)=g3_algstr_0(k12_algstr_4(A), k13_algstr_4(A))) ).
+- fof(fc14_algstr_4, axiom,  (! [A] : v15_algstr_0(k14_algstr_4(A))) ).
+- fof(t29_algstr_4, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_algstr_4(k14_algstr_4(B), k14_algstr_4(A))) ) ) ).
+- fof(fc16_algstr_4, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ~ (v2_struct_0(k14_algstr_4(A))) ) ) ).
+- fof(fc15_algstr_4, axiom,  (! [A] :  (v1_xboole_0(A) => v2_struct_0(k14_algstr_4(A))) ) ).
+- fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
+- fof(t25_algstr_4, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k12_algstr_4(A)) => r2_hidden(B, k2_zfmisc_1(k11_algstr_4(A, k2_xtuple_0(B)), k1_tarski(k2_xtuple_0(B))))) ) ) ) ).

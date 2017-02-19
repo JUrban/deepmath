@@ -1,0 +1,15 @@
+C fof(t1_eqrel_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => r2_relset_1(A, A, k3_eqrel_1(A, k1_eqrel_1(A), B), k1_eqrel_1(A))) ) ) ).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(redefinition_k3_eqrel_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => k3_eqrel_1(A, B, C)=k2_xboole_0(B, C)) ) ).
++ fof(dt_k1_eqrel_1, axiom,  (! [A] : m1_subset_1(k1_eqrel_1(A), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ).
++ fof(redefinition_r2_relset_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B))))  =>  (r2_relset_1(A, B, C, D) <=> C=D) ) ) ).
++ fof(t12_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => k2_xboole_0(A, B)=B) ) ) ).
++ fof(d1_eqrel_1, axiom,  (! [A] : k1_eqrel_1(A)=k2_zfmisc_1(A, A)) ).
+- fof(fc1_eqrel_1, axiom,  (! [A] :  (v1_relat_2(k1_eqrel_1(A)) & v1_partfun1(k1_eqrel_1(A), A)) ) ).
+- fof(dt_k3_eqrel_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => m1_subset_1(k3_eqrel_1(A, B, C), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
+- fof(commutativity_k3_eqrel_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => k3_eqrel_1(A, B, C)=k3_eqrel_1(A, C, B)) ) ).
+- fof(idempotence_k3_eqrel_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => k3_eqrel_1(A, B, B)=B) ) ).
+- fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
+- fof(t12_funct_2, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, A, B) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  ( (! [E] :  (r2_hidden(E, A) => k1_funct_1(C, E)=k1_funct_1(D, E)) )  => r2_relset_1(A, B, C, D)) ) ) ) ) ) ) ).
+- fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).

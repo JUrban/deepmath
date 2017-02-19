@@ -1,0 +1,7 @@
+C fof(t48_ordinal2, axiom,  (! [A] :  ( (v5_ordinal1(A) &  (v1_relat_1(A) &  (v1_funct_1(A) & v1_ordinal2(A)) ) )  =>  (! [B] :  (r2_hidden(B, k10_xtuple_0(A)) => v3_ordinal1(B)) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(t13_ordinal1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, B) => v3_ordinal1(A)) ) ) ) ).
++ fof(d4_ordinal2, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_ordinal2(A) <=>  (? [B] :  (v3_ordinal1(B) & r1_tarski(k10_xtuple_0(A), B)) ) ) ) ) ).
+- fof(d3_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (B=k10_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(D, k9_xtuple_0(A)) & C=k1_funct_1(A, D)) ) ) ) ) ) ) ) ).
+- fof(d13_xtuple_0, axiom,  (! [A] :  (! [B] :  (B=k10_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] : r2_hidden(k4_tarski(D, C), A)) ) ) ) ) ) ).
+- fof(t32_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v2_funct_1(A) =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (B=k2_funct_1(A) <=>  (k9_xtuple_0(B)=k10_xtuple_0(A) &  (! [C] :  (! [D] :  ( ( (r2_hidden(C, k10_xtuple_0(A)) & D=k1_funct_1(B, C))  =>  (r2_hidden(D, k9_xtuple_0(A)) & C=k1_funct_1(A, D)) )  &  ( (r2_hidden(D, k9_xtuple_0(A)) & C=k1_funct_1(A, D))  =>  (r2_hidden(C, k10_xtuple_0(A)) & D=k1_funct_1(B, C)) ) ) ) ) ) ) ) ) ) ) ) ).

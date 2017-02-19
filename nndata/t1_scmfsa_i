@@ -1,0 +1,7 @@
+C fof(t1_scmfsa_i, axiom, r1_tarski(k3_scm_inst, k2_scmfsa_i)).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(d2_scmfsa_i, axiom, k2_scmfsa_i=k2_xboole_0(k2_xboole_0(k3_scm_inst, a_0_0_scmfsa_i), a_0_1_scmfsa_i)).
+- fof(t8_scm_inst, axiom, r1_tarski(k3_scm_inst, k3_zfmisc_1(k5_numbers, k13_finseq_1(k5_numbers), k10_xtuple_0(k3_scm_inst)))).
+- fof(dt_k2_scmfsa_i, axiom,  ~ (v1_xboole_0(k2_scmfsa_i)) ).
+- fof(d2_scm_inst, axiom, k3_scm_inst=k2_xboole_0(k2_xboole_0(k2_xboole_0(k1_tarski(k3_xtuple_0(k1_scm_inst, k1_xboole_0, k1_xboole_0)), a_0_0_scm_inst), a_0_1_scm_inst), a_0_2_scm_inst)).

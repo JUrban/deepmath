@@ -1,0 +1,7 @@
+C fof(t6_scmringi, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  => r2_hidden(k3_xtuple_0(k6_numbers, k1_xboole_0, k1_xboole_0), k1_scmringi(A))) ) ).
++ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(d1_scmringi, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  => k1_scmringi(A)=k2_xboole_0(k2_xboole_0(k2_xboole_0(k2_xboole_0(k1_tarski(k3_xtuple_0(k6_numbers, k1_xboole_0, k1_xboole_0)), a_0_0_scmringi), a_0_1_scmringi), a_0_2_scmringi), a_1_0_scmringi(A))) ) ).
+- fof(t1_scm_inst, axiom, r2_hidden(k3_xtuple_0(k6_numbers, k1_xboole_0, k1_xboole_0), k3_scm_inst)).
+- fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
+- fof(d4_scmringi, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_scmringi(A)) =>  ( (? [C] :  (m1_subset_1(C, k5_numbers) &  (? [D] :  (m2_subset_1(D, k4_ordinal1, k7_card_1(8)) & B=k3_xtuple_0(D, k12_finseq_1(k5_numbers, C), k1_xboole_0)) ) ) )  =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (C=k4_scmringi(A, B) <=>  (? [D] :  (m2_finseq_1(D, k5_numbers) &  (D=k5_xtuple_0(B) & C=k7_partfun1(k5_numbers, D, 1)) ) ) ) ) ) ) ) ) ) ) ).

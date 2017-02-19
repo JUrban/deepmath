@@ -1,0 +1,7 @@
+C fof(t4_exchsort, axiom,  (! [A] : k6_subset_1(k1_ordinal1(A), A)=k1_tarski(A)) ).
++ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
++ fof(d1_ordinal1, axiom,  (! [A] : k1_ordinal1(A)=k2_xboole_0(A, k1_tarski(A))) ).
++ fof(t3_exchsort, axiom,  (! [A] :  (! [B] :  ( ~ (r2_hidden(A, B))  => k6_subset_1(k2_xboole_0(B, k1_tarski(A)), B)=k1_tarski(A)) ) ) ).
+- fof(t37_ordinal1, axiom,  (! [A] : k6_subset_1(k1_ordinal1(A), k1_tarski(A))=A) ).
+- fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
+- fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).

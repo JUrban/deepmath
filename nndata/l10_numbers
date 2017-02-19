@@ -1,0 +1,9 @@
+C fof(l10_numbers, axiom,  (! [A] :  (! [B] :  (! [C] :  (k4_tarski(A, B)=k1_tarski(C) =>  (C=k1_tarski(A) & A=B) ) ) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(t18_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), k1_tarski(B)) => A=B) ) ) ).
++ fof(t7_zfmisc_1, axiom,  (! [A] :  (! [B] : r1_tarski(k1_tarski(A), k2_tarski(A, B))) ) ).
+- fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
+- fof(rd3_xtuple_0, axiom,  (! [A] :  (v1_xtuple_0(A) => k4_tarski(k1_xtuple_0(A), k2_xtuple_0(A))=A) ) ).
+- fof(d2_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_zfmisc_1(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (? [E] :  (? [F] :  (r2_hidden(E, A) &  (r2_hidden(F, B) & D=k4_tarski(E, F)) ) ) ) ) ) ) ) ) ) ).
+- fof(l115_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, k2_zfmisc_1(B, C)) &  (! [D] :  (! [E] :  ~ (k4_tarski(D, E)=A) ) ) ) ) ) ) ) ).

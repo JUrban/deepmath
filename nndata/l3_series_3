@@ -1,0 +1,19 @@
+C fof(l3_series_3, axiom, k13_newton(2, 3)=8).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(spc3_numerals, axiom,  ( (v2_xxreal_0(3) & m2_subset_1(3, k1_numbers, k5_numbers))  &  (m1_subset_1(3, k5_numbers) & m1_subset_1(3, k1_numbers)) ) ).
++ fof(redefinition_k4_power, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => k4_power(A, B)=k3_power(A, B)) ) ).
++ fof(ie1_power, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v7_ordinal1(B))  => k3_power(A, B)=k1_newton(A, B)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
++ fof(redefinition_k13_newton, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & m1_subset_1(B, k5_numbers))  => k13_newton(A, B)=k1_newton(A, B)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(t61_power, axiom, k4_power(2, 3)=8).
+- fof(l2_series_3, axiom, k13_newton(1, 3)=1).
+- fof(s4_binop_1__e4_5__card_4, axiom,  (? [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_zfmisc_1(k5_numbers, k5_numbers), k5_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k5_numbers, k5_numbers), k5_numbers)))) )  &  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m1_subset_1(C, k5_numbers) => k2_binop_1(k5_numbers, k5_numbers, k5_numbers, A, B, C)=k4_nat_1(k13_newton(2, B), k2_nat_1(k4_nat_1(2, C), 1))) ) ) ) ) ) ).
+- fof(s1_nat_1__e11_118__prepower, axiom,  ( (r1_xxreal_0(k6_numbers, k13_newton(2, k6_numbers)) &  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (r1_xxreal_0(A, k13_newton(2, A)) => r1_xxreal_0(k2_nat_1(A, 1), k13_newton(2, k2_nat_1(A, 1)))) ) ) )  =>  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) => r1_xxreal_0(A, k13_newton(2, A))) ) ) ).
+- fof(t92_prepower, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  &  ( ~ (r1_xxreal_0(B, k6_numbers))  &  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  ~ (r1_xxreal_0(k6_real_1(B, k13_newton(2, C)), A)) ) ) ) ) ) ) ) ) ) ).
+- fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
+- fof(fraenkel_a_1_3_asympt_0, axiom,  (! [A, B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (r2_hidden(A, a_1_3_asympt_0(B)) <=>  (? [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) & A=k13_newton(B, C)) ) ) ) ) ).
+- fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
+- fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
+- fof(redefinition_k2_newton, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v7_ordinal1(B))  => k2_newton(A, B)=k1_newton(A, B)) ) ).

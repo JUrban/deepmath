@@ -1,0 +1,15 @@
+C fof(t20_mcart_1, axiom,  (! [A] :  ( (? [B] :  (? [C] : A=k4_tarski(B, C)) )  =>  ( ~ (A=k1_xtuple_0(A))  &  ~ (A=k2_xtuple_0(A)) ) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(rd1_xtuple_0, axiom,  (! [A, B] : k1_xtuple_0(k4_tarski(A, B))=A) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(rd2_xtuple_0, axiom,  (! [A, B] : k2_xtuple_0(k4_tarski(A, B))=B) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
++ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
+- fof(rd3_xtuple_0, axiom,  (! [A] :  (v1_xtuple_0(A) => k4_tarski(k1_xtuple_0(A), k2_xtuple_0(A))=A) ) ).
+- fof(t10_mcart_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(A, k2_zfmisc_1(B, C)) =>  (r2_hidden(k1_xtuple_0(A), B) & r2_hidden(k2_xtuple_0(A), C)) ) ) ) ) ).
+- fof(t7_mcart_1, axiom,  (! [A] :  (! [B] :  (k1_xtuple_0(k4_tarski(A, B))=A & k2_xtuple_0(k4_tarski(A, B))=B) ) ) ).
+- fof(rd7_xtuple_0, axiom,  (! [A] :  (v2_xtuple_0(A) => k3_xtuple_0(k4_xtuple_0(A), k5_xtuple_0(A), k2_xtuple_0(A))=A) ) ).
+- fof(rd12_xtuple_0, axiom,  (! [A] :  (v3_xtuple_0(A) => k6_xtuple_0(k7_xtuple_0(A), k8_xtuple_0(A), k5_xtuple_0(A), k2_xtuple_0(A))=A) ) ).
+- fof(t12_mcart_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(A, k2_zfmisc_1(k1_tarski(B), C)) =>  (k1_xtuple_0(A)=B & r2_hidden(k2_xtuple_0(A), C)) ) ) ) ) ).
+- fof(t15_mcart_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(A, k2_zfmisc_1(k2_tarski(B, C), D)) =>  ( (k1_xtuple_0(A)=B | k1_xtuple_0(A)=C)  & r2_hidden(k2_xtuple_0(A), D)) ) ) ) ) ) ).

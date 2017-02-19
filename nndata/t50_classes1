@@ -1,0 +1,7 @@
+C fof(t50_classes1, axiom,  (! [A] :  (! [B] :  ( (v1_ordinal1(A) & v1_ordinal1(B))  => v1_ordinal1(k3_xboole_0(A, B))) ) ) ).
++ fof(d4_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k3_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) & r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(d2_ordinal1, axiom,  (! [A] :  (v1_ordinal1(A) <=>  (! [B] :  (r2_hidden(B, A) => r1_tarski(B, A)) ) ) ) ).
++ fof(t19_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(A, C))  => r1_tarski(A, k3_xboole_0(B, C))) ) ) ) ).
+- fof(t10_ordinal1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_ordinal1(C) =>  ( (r2_hidden(A, B) & r2_hidden(B, C))  => r2_hidden(A, C)) ) ) ) ) ).
+- fof(t11_ordinal1, axiom,  (! [A] :  (v1_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r2_xboole_0(A, B) => r2_hidden(A, B)) ) ) ) ) ).
+- fof(cc1_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (v1_ordinal1(A) & v2_ordinal1(A)) ) ) ).

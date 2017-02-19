@@ -1,0 +1,5 @@
+C fof(t4_pencil_1, axiom,  (! [A] :  (r1_ordinal1(2, k1_card_1(A)) <=>  ~ (v1_zfmisc_1(A)) ) ) ).
++ fof(d10_zfmisc_1, axiom,  (! [A] :  (v1_zfmisc_1(A) <=>  (! [B] :  (! [C] :  ( (r2_hidden(B, A) & r2_hidden(C, A))  => B=C) ) ) ) ) ).
++ fof(t2_pencil_1, axiom,  (! [A] :  (r1_ordinal1(2, k1_card_1(A)) <=>  (? [B] :  (? [C] :  (r2_hidden(B, A) &  (r2_hidden(C, A) &  ~ (B=C) ) ) ) ) ) ) ).
+- fof(t3_pencil_1, axiom,  (! [A] :  (r1_ordinal1(2, k1_card_1(A)) =>  (! [B] :  (? [C] :  (r2_hidden(C, A) &  ~ (B=C) ) ) ) ) ) ).
+- fof(t69_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (r2_hidden(1, A) <=> r1_ordinal1(2, A)) ) ) ).

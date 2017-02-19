@@ -1,0 +1,5 @@
+C fof(t13_necklace, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & l1_orders_2(B))  =>  (! [C] :  ( ( ~ (v2_struct_0(C))  & l1_orders_2(C))  =>  ( (r3_necklace(A, B) & r3_necklace(B, C))  => r3_necklace(A, C)) ) ) ) ) ) ) ).
++ fof(d2_necklace, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & l1_orders_2(B))  =>  (r3_necklace(A, B) <=>  (r2_necklace(B, A) & r2_necklace(A, B)) ) ) ) ) ) ).
++ fof(t12_necklace, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & l1_orders_2(B))  =>  (! [C] :  ( ( ~ (v2_struct_0(C))  & l1_orders_2(C))  =>  ( (r2_necklace(B, A) & r2_necklace(C, B))  => r2_necklace(C, A)) ) ) ) ) ) ) ).
+- fof(reflexivity_r3_necklace, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  &  ( ~ (v2_struct_0(B))  & l1_orders_2(B)) )  => r3_necklace(A, A)) ) ).
+- fof(symmetry_r3_necklace, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  &  ( ~ (v2_struct_0(B))  & l1_orders_2(B)) )  =>  (r3_necklace(A, B) => r3_necklace(B, A)) ) ) ).

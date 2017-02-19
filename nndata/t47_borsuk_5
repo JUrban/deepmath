@@ -1,0 +1,13 @@
+C fof(t47_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  ~ (k4_rcomp_1(k2_xxreal_0, A)=k1_numbers) ) ) ).
++ fof(t2_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(A, k3_xxreal_1(B, C)) <=>  ( ~ (r1_xxreal_0(A, B))  & r1_xxreal_0(A, C)) ) ) ) ) ) ) ) ).
++ fof(t1_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ~ ( (! [B] :  (v1_xreal_0(B) => r1_xxreal_0(B, A)) ) ) ) ) ).
++ fof(fc2_xxreal_0, axiom, v1_xxreal_0(k2_xxreal_0)).
++ fof(redefinition_k4_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xreal_0(B))  => k4_rcomp_1(A, B)=k3_xxreal_1(A, B)) ) ).
++ fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
+- fof(l46_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) => v2_rcomp_1(k4_rcomp_1(k2_xxreal_0, A))) ) ).
+- fof(t17_topmetr, axiom, u1_struct_0(k3_topmetr)=k1_numbers).
+- fof(t12_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( (r1_xxreal_0(A, C) & r1_xxreal_0(C, B))  => k4_subset_1(k1_numbers, k4_rcomp_1(k2_xxreal_0, C), k1_rcomp_1(A, B))=k4_rcomp_1(k2_xxreal_0, B)) ) ) ) ) ) ) ).
+- fof(t44_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) => k4_rcomp_1(k2_xxreal_0, A)=k4_subset_1(k1_numbers, k1_seq_4(A), k2_rcomp_1(k2_xxreal_0, A))) ) ).
+- fof(t41_borsuk_5, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (! [B] :  (v1_xreal_0(B) =>  (A=k4_rcomp_1(k2_xxreal_0, B) => v4_pre_topc(A, k3_topmetr)) ) ) ) ) ).
+- fof(t23_jordan5a, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (A=B =>  (v2_rcomp_1(A) <=> v4_pre_topc(B, k3_topmetr)) ) ) ) ) ) ).

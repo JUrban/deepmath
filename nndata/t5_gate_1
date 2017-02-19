@@ -1,0 +1,7 @@
+C fof(t5_gate_1, axiom,  (! [A] :  (! [B] :  ( ~ ( ( ~ (v1_xboole_0(k3_gate_1(A, B)))  &  (v1_xboole_0(A) & v1_xboole_0(B)) ) )  &  ~ ( ( ~ ( (v1_xboole_0(A) & v1_xboole_0(B)) )  & v1_xboole_0(k3_gate_1(A, B))) ) ) ) ) ).
++ fof(fc6_gate_1, axiom,  (! [A, B] :  ( (v1_xboole_0(A) & v1_xboole_0(B))  => v1_xboole_0(k3_gate_1(A, B))) ) ).
++ fof(commutativity_k3_gate_1, axiom,  (! [A, B] : k3_gate_1(A, B)=k3_gate_1(B, A)) ).
++ fof(fc5_gate_1, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  =>  ~ (v1_xboole_0(k3_gate_1(A, B))) ) ) ).
+- fof(redefinition_k3_domain_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(C, k2_zfmisc_1(A, B))) )  => k3_domain_1(A, B, C)=k2_xtuple_0(C)) ) ).
+- fof(cc8_funct_2, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  ( (v1_funct_1(C) & v1_funct_2(C, A, B))  =>  (v1_funct_1(C) &  ( ~ (v1_xboole_0(C))  & v1_funct_2(C, A, B)) ) ) ) ) ) ) ).
+- fof(fc1_funct_3, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_xboole_0(A)) )  &  (v1_relat_1(B) & v1_funct_1(B)) )  =>  (v1_relat_1(k13_funct_3(A, B)) &  (v1_funct_1(k13_funct_3(A, B)) & v1_xboole_0(k13_funct_3(A, B))) ) ) ) ).

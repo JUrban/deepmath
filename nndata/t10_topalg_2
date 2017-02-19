@@ -1,0 +1,21 @@
+C fof(t10_topalg_2, axiom, v2_topalg_2(k5_topmetr)).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(spc0_boole, axiom, v1_xboole_0(0)).
++ fof(redefinition_k5_topmetr, axiom, k5_topmetr=k17_borsuk_1).
++ fof(t20_topmetr, axiom, k4_topmetr(k6_numbers, 1)=k17_borsuk_1).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r0_r1, axiom, r1_xxreal_0(0, 1)).
++ fof(spc0_numerals, axiom,  (m2_subset_1(0, k1_numbers, k5_numbers) &  (m1_subset_1(0, k5_numbers) & m1_subset_1(0, k1_numbers)) ) ).
++ fof(t9_topalg_2, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, B) => v2_topalg_2(k4_topmetr(A, B))) ) ) ) ) ).
+- fof(d3_topalg_2, axiom,  (! [A] :  ( (v3_topmetr(A) & l1_pre_topc(A))  =>  (v2_topalg_2(A) <=> v6_xxreal_2(k2_struct_0(A))) ) ) ).
+- fof(cc3_topalg_2, axiom,  (! [A] :  (m1_pre_topc(A, k2_topalg_2) =>  ( ( ~ (v2_struct_0(A))  & v2_topalg_2(A))  =>  ( ~ (v2_struct_0(A))  & v1_borsuk_2(A)) ) ) ) ).
+- fof(t8_topalg_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_topalg_2(A) & m1_pre_topc(A, k2_topalg_2)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => r1_tarski(k1_rcomp_1(B, C), u1_struct_0(A))) ) ) ) ) ) ).
+- fof(l17_topalg_2, axiom,  (! [A] :  (m1_pre_topc(A, k3_topmetr) =>  (A=k3_topmetr => v2_topalg_2(A)) ) ) ).
+- fof(dt_k2_topalg_2, axiom,  (v2_topalg_2(k2_topalg_2) & m1_pre_topc(k2_topalg_2, k3_topmetr)) ).
+- fof(rc5_topalg_2, axiom,  (? [A] :  (m1_pre_topc(A, k3_topmetr) &  ( ~ (v2_struct_0(A))  &  (v1_pre_topc(A) &  (v2_pre_topc(A) &  (v3_topmetr(A) & v2_topalg_2(A)) ) ) ) ) ) ).
+- fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
+- fof(d3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => k2_struct_0(A)=u1_struct_0(A)) ) ).
+- fof(fc5_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & v3_topmetr(k3_topmetr)) ).
+- fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).

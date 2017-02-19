@@ -1,0 +1,7 @@
+C fof(t55_yellow_9, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (l1_pre_topc(B) =>  (! [C] :  (m3_yellow_9(C, A, B) => m3_yellow_9(C, B, A)) ) ) ) ) ) ).
++ fof(dt_m3_yellow_9, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & l1_pre_topc(B))  =>  (! [C] :  (m3_yellow_9(C, A, B) =>  (v2_pre_topc(C) & l1_pre_topc(C)) ) ) ) ) ).
++ fof(d6_yellow_9, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (l1_pre_topc(B) =>  (! [C] :  ( (v2_pre_topc(C) & l1_pre_topc(C))  =>  (m3_yellow_9(C, A, B) <=>  (u1_struct_0(C)=k2_xboole_0(u1_struct_0(A), u1_struct_0(B)) &  (v1_tops_2(k2_xboole_0(u1_pre_topc(A), u1_pre_topc(B)), C) &  (v2_cantor_1(k2_xboole_0(u1_pre_topc(A), u1_pre_topc(B)), C) & m1_subset_1(k2_xboole_0(u1_pre_topc(A), u1_pre_topc(B)), k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(C))))) ) ) ) ) ) ) ) ) ) ).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
+- fof(cc7_yellow_9, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l1_pre_topc(A))  & l1_pre_topc(B))  =>  (! [C] :  (m3_yellow_9(C, A, B) =>  ~ (v2_struct_0(C)) ) ) ) ) ).
+- fof(t54_yellow_9, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (l1_pre_topc(B) =>  (! [C] :  (m3_yellow_9(C, A, B) =>  (! [D] :  (m3_yellow_9(D, A, B) => g1_pre_topc(u1_struct_0(C), u1_pre_topc(C))=g1_pre_topc(u1_struct_0(D), u1_pre_topc(D))) ) ) ) ) ) ) ) ).
+- fof(existence_m3_yellow_9, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & l1_pre_topc(B))  =>  (? [C] : m3_yellow_9(C, A, B)) ) ) ).

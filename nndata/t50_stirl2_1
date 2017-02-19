@@ -1,0 +1,37 @@
+C fof(t50_stirl2_1, axiom,  (k9_newton(3)=6 & k9_newton(4)=24) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(redefinition_k9_newton, axiom,  (! [A] :  (v7_ordinal1(A) => k9_newton(A)=k3_newton(A)) ) ).
++ fof(commutativity_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k8_real_1(B, A)) ) ).
++ fof(rqRealMult__k3_xcmplx_0__r4_r6_r24, axiom, k3_xcmplx_0(4, 6)=24).
++ fof(spc6_numerals, axiom,  ( (v2_xxreal_0(6) & m2_subset_1(6, k1_numbers, k5_numbers))  &  (m1_subset_1(6, k5_numbers) & m1_subset_1(6, k1_numbers)) ) ).
++ fof(redefinition_k1_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k5_numbers))  => k1_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(spc3_numerals, axiom,  ( (v2_xxreal_0(3) & m2_subset_1(3, k1_numbers, k5_numbers))  &  (m1_subset_1(3, k5_numbers) & m1_subset_1(3, k1_numbers)) ) ).
++ fof(t15_newton, axiom,  (! [A] :  (v7_ordinal1(A) => k3_newton(k1_nat_1(A, 1))=k8_real_1(k3_newton(A), k1_nat_1(A, 1))) ) ).
++ fof(rqRealAdd__k2_xcmplx_0__r3_r1_r4, axiom, k2_xcmplx_0(3, 1)=4).
++ fof(spc4_numerals, axiom,  ( (v2_xxreal_0(4) & m2_subset_1(4, k1_numbers, k5_numbers))  &  (m1_subset_1(4, k5_numbers) & m1_subset_1(4, k1_numbers)) ) ).
++ fof(redefinition_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k3_xcmplx_0(A, B)) ) ).
++ fof(rqRealMult__k3_xcmplx_0__r2_r3_r6, axiom, k3_xcmplx_0(2, 3)=6).
++ fof(t14_newton, axiom, k3_newton(2)=2).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(rqRealAdd__k2_xcmplx_0__r2_r1_r3, axiom, k2_xcmplx_0(2, 1)=3).
+- fof(l63_asympt_1, axiom, k9_newton(5)=120).
+- fof(d7_asympt_1, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  ( ( ~ (A=k6_numbers)  =>  (B=k7_asympt_1(A) <=>  (? [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) &  (r1_xxreal_0(k9_newton(C), A) &  ( ~ (r1_xxreal_0(k9_newton(k2_nat_1(C, 1)), A))  & B=k9_newton(C)) ) ) ) ) )  &  (A=k6_numbers =>  (B=k7_asympt_1(A) <=> B=k6_numbers) ) ) ) ) ) ) ).
+- fof(t27_series_4, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  ( (! [B] :  (m1_subset_1(B, k5_numbers) =>  (r1_xxreal_0(1, B) =>  (k1_seq_1(A, B)=B & k1_seq_1(A, k6_numbers)=1) ) ) )  =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (r1_xxreal_0(1, B) => k1_seq_1(k1_series_3(A), B)=k9_newton(B)) ) ) ) ) ) ).
+- fof(t51_asympt_1, axiom, k9_newton(5)=120).
+- fof(t93_asympt_1, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  ( (r1_xxreal_0(1, B) & r1_xxreal_0(k9_newton(A), B))  =>  (r1_xxreal_0(k9_newton(k2_nat_1(A, 1)), B) | k7_asympt_1(B)=k9_newton(A)) ) ) ) ) ) ).
+- fof(d5_asympt_1, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k1_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  (B=k5_asympt_1(A) <=>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) => k1_seq_1(B, C)=k9_newton(k2_nat_1(C, A))) ) ) ) ) ) ) ).
+- fof(s8_nat_1__e5_34__series_4, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  ( (k1_seq_1(k1_series_3(A), 1)=k9_newton(1) &  (! [B] :  (v7_ordinal1(B) =>  ( (r1_xxreal_0(1, B) & k1_seq_1(k1_series_3(A), B)=k9_newton(B))  => k1_seq_1(k1_series_3(A), k1_nat_1(B, 1))=k9_newton(k1_nat_1(B, 1))) ) ) )  =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(1, B) => k1_seq_1(k1_series_3(A), B)=k9_newton(B)) ) ) ) ) ) ).
+- fof(rqRealMult__k3_xcmplx_0__rm4_rm6_r24, axiom, k3_xcmplx_0(k4_xcmplx_0(4), k4_xcmplx_0(6))=24).
+- fof(rqRealMult__k3_xcmplx_0__r6_r4_r24, axiom, k3_xcmplx_0(6, 4)=24).
+- fof(rqRealMult__k3_xcmplx_0__rm6_rm4_r24, axiom, k3_xcmplx_0(k4_xcmplx_0(6), k4_xcmplx_0(4))=24).
+- fof(rqRealDiff__k6_xcmplx_0__r6_rm18_r24, axiom, k6_xcmplx_0(6, k4_xcmplx_0(18))=24).
+- fof(rqRealAdd__k2_xcmplx_0__r6_r18_r24, axiom, k2_xcmplx_0(6, 18)=24).
+- fof(rqRealAdd__k2_xcmplx_0__r18_r6_r24, axiom, k2_xcmplx_0(18, 6)=24).
+- fof(rqRealAdd__k2_xcmplx_0__r30_rm6_r24, axiom, k2_xcmplx_0(30, k4_xcmplx_0(6))=24).
+- fof(rqRealDiff__k6_xcmplx_0__r30_r6_r24, axiom, k6_xcmplx_0(30, 6)=24).
+- fof(rqRealDiff__k6_xcmplx_0__r28_r4_r24, axiom, k6_xcmplx_0(28, 4)=24).
+- fof(rqRealDiff__k6_xcmplx_0__r4_rm20_r24, axiom, k6_xcmplx_0(4, k4_xcmplx_0(20))=24).
+- fof(rqRealAdd__k2_xcmplx_0__r4_r20_r24, axiom, k2_xcmplx_0(4, 20)=24).

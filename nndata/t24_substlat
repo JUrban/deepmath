@@ -1,0 +1,17 @@
+C fof(t24_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) => k3_substlat(A, B, k4_substlat(A, B, C, C))=k3_substlat(A, B, C)) ) ) ) ).
++ fof(fc2_finsub_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(k5_finsub_1(A)))  & v4_finsub_1(k5_finsub_1(A))) ) ).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(l30_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) =>  (! [D] :  (m1_subset_1(D, k5_finsub_1(k4_partfun1(A, B))) => k3_substlat(A, B, k1_finsub_1(k5_finsub_1(k4_partfun1(A, B)), k4_substlat(A, B, C, D), D))=k3_substlat(A, B, D)) ) ) ) ) ) ).
++ fof(redefinition_k1_finsub_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(A))  & v4_finsub_1(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k1_finsub_1(A, B, C)=k2_xboole_0(B, C)) ) ).
++ fof(t12_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => k2_xboole_0(A, B)=B) ) ) ).
++ fof(t23_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) => r1_tarski(C, k4_substlat(A, B, C, C))) ) ) ) ).
++ fof(dt_k5_finsub_1, axiom,  (! [A] : v4_finsub_1(k5_finsub_1(A))) ).
++ fof(dt_k4_substlat, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) & m1_subset_1(D, k5_finsub_1(k4_partfun1(A, B))))  => m1_subset_1(k4_substlat(A, B, C, D), k5_finsub_1(k4_partfun1(A, B)))) ) ).
+- fof(t19_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) =>  (! [D] :  (m1_subset_1(D, k5_finsub_1(k4_partfun1(A, B))) => k3_substlat(A, B, k4_substlat(A, B, k3_substlat(A, B, C), D))=k3_substlat(A, B, k4_substlat(A, B, C, D))) ) ) ) ) ) ).
+- fof(t20_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) =>  (! [D] :  (m1_subset_1(D, k5_finsub_1(k4_partfun1(A, B))) => k3_substlat(A, B, k4_substlat(A, B, C, k3_substlat(A, B, D)))=k3_substlat(A, B, k4_substlat(A, B, C, D))) ) ) ) ) ) ).
+- fof(d3_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) =>  (! [D] :  (m1_subset_1(D, k5_finsub_1(k4_partfun1(A, B))) => k4_substlat(A, B, C, D)=a_4_0_substlat(A, B, C, D)) ) ) ) ) ) ).
+- fof(t3_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) =>  (! [D] :  (m1_subset_1(D, k5_finsub_1(k4_partfun1(A, B))) => k4_substlat(A, B, C, D)=k4_substlat(A, B, D, C)) ) ) ) ) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(t8_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) => r1_tarski(k3_substlat(A, B, C), C)) ) ) ) ).
+- fof(dt_k3_substlat, axiom,  (! [A, B, C] :  (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) => m2_subset_1(k3_substlat(A, B, C), k5_finsub_1(k4_partfun1(A, B)), k1_substlat(A, B))) ) ).
+- fof(fraenkel_a_4_0_substlat, axiom,  (! [A, B, C, D, E] :  ( (m1_subset_1(D, k5_finsub_1(k4_partfun1(B, C))) & m1_subset_1(E, k5_finsub_1(k4_partfun1(B, C))))  =>  (r2_hidden(A, a_4_0_substlat(B, C, D, E)) <=>  (? [F, G] :  ( (m1_subset_1(F, k4_partfun1(B, C)) & m1_subset_1(G, k4_partfun1(B, C)))  &  (A=k2_xboole_0(F, G) &  (r2_hidden(F, D) &  (r2_hidden(G, E) & r1_partfun1(F, G)) ) ) ) ) ) ) ) ).

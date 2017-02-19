@@ -1,0 +1,15 @@
+C fof(t28_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r2_rewrite1(A, B, C) =>  (r2_hidden(B, k1_relat_1(A)) | B=C) ) ) ) ) ) ).
++ fof(dt_k2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k2_relat_1(A))) ) ).
++ fof(idempotence_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, A)=A) ).
++ fof(t21_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => k1_relat_1(A)=k1_relat_1(k2_relat_1(A))) ) ).
++ fof(d4_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r2_rewrite1(A, B, C) <=> r1_rewrite1(k2_xboole_0(A, k2_relat_1(A)), B, C)) ) ) ) ) ).
++ fof(fc3_relat_1, axiom,  (! [A, B] :  ( (v1_relat_1(A) & v1_relat_1(B))  => v1_relat_1(k2_xboole_0(A, B))) ) ).
++ fof(t18_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) => k1_relat_1(k2_xboole_0(A, B))=k2_xboole_0(k1_relat_1(A), k1_relat_1(B))) ) ) ) ).
++ fof(t14_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) =>  (r2_hidden(B, k1_relat_1(A)) | B=C) ) ) ) ) ) ).
+- fof(t25_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) =>  (r2_rewrite1(A, B, C) & r2_rewrite1(A, C, B)) ) ) ) ) ) ).
+- fof(l33_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r2_rewrite1(A, B, C) => r2_rewrite1(A, C, B)) ) ) ) ) ).
+- fof(t12_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] : r1_rewrite1(A, B, B)) ) ) ).
+- fof(t26_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] : r2_rewrite1(A, B, B)) ) ) ).
+- fof(t27_rewrite1, axiom,  (! [A] :  (! [B] :  (r2_rewrite1(k1_xboole_0, A, B) => A=B) ) ) ).
+- fof(t1_wellord1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) =>  (r2_hidden(A, k1_wellord1(C, B)) <=>  ( ~ (A=B)  & r2_hidden(k4_tarski(A, B), C)) ) ) ) ) ) ).
+- fof(t7_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(A, k2_xboole_0(A, B))) ) ).

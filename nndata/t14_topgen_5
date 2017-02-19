@@ -1,0 +1,31 @@
+C fof(t14_topgen_5, axiom,  (! [A] :  (! [B] :  (r2_hidden(k10_finseq_1(A, B), k1_topgen_5) <=>  (r2_hidden(A, k1_numbers) & B=k6_numbers) ) ) ) ).
++ fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
++ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
++ fof(fraenkel_a_0_0_topgen_5, axiom,  (! [A] :  (r2_hidden(A, a_0_0_topgen_5) <=>  (? [B] :  (m1_subset_1(B, k1_numbers) & A=k19_euclid(B, k6_numbers)) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(fc10_finseq_1, axiom,  (! [A, B] : v1_finseq_1(k10_finseq_1(A, B))) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(d1_topgen_5, axiom, k1_topgen_5=a_0_0_topgen_5).
++ fof(t44_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  =>  (C=k10_finseq_1(A, B) <=>  (k3_finseq_1(C)=2 &  (k1_funct_1(C, 1)=A & k1_funct_1(C, 2)=B) ) ) ) ) ) ) ).
++ fof(redefinition_k19_euclid, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k19_euclid(A, B)=k10_finseq_1(A, B)) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
++ fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
+- fof(t77_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k10_finseq_1(A, B)=k10_finseq_1(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
+- fof(t137_finseq_2, axiom,  (! [A] :  (! [B] :  (r2_hidden(B, k4_finseq_2(2, A)) <=>  (? [C] :  (? [D] :  (r2_hidden(C, A) &  (r2_hidden(D, A) & B=k10_finseq_1(C, D)) ) ) ) ) ) ) ).
+- fof(dt_k1_topgen_5, axiom, m1_subset_1(k1_topgen_5, k1_zfmisc_1(u1_struct_0(k15_euclid(2))))).
+- fof(t138_finseq_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(k10_finseq_1(B, C), k4_finseq_2(2, A)) =>  (r2_hidden(B, A) & r2_hidden(C, A)) ) ) ) ) ).
+- fof(d1_aofa_000, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_margrel1(A)) )  =>  (! [B] :  (r1_aofa_000(A, B) <=>  (! [C] :  (! [D] :  ( (r2_hidden(k10_finseq_1(C, D), k9_xtuple_0(A)) | r2_hidden(k10_finseq_1(D, C), k9_xtuple_0(A)))  =>  (r2_hidden(k10_finseq_1(B, C), k9_xtuple_0(A)) &  (k1_funct_1(A, k10_finseq_1(B, C))=C &  (r2_hidden(k10_finseq_1(C, B), k9_xtuple_0(A)) & k1_funct_1(A, k10_finseq_1(C, B))=C) ) ) ) ) ) ) ) ) ) ).
+- fof(d2_aofa_000, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_margrel1(A)) )  =>  (v1_aofa_000(A) <=>  (! [B] :  (! [C] :  (! [D] :  ( (r2_hidden(k10_finseq_1(B, C), k9_xtuple_0(A)) &  (r2_hidden(k10_finseq_1(C, D), k9_xtuple_0(A)) &  (r2_hidden(k10_finseq_1(k1_funct_1(A, k10_finseq_1(B, C)), D), k9_xtuple_0(A)) & r2_hidden(k10_finseq_1(B, k1_funct_1(A, k10_finseq_1(C, D))), k9_xtuple_0(A))) ) )  => k1_funct_1(A, k10_finseq_1(k1_funct_1(A, k10_finseq_1(B, C)), D))=k1_funct_1(A, k10_finseq_1(B, k1_funct_1(A, k10_finseq_1(C, D))))) ) ) ) ) ) ) ).
+- fof(t101_finseq_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) => r2_hidden(k10_finseq_1(B, C), k4_finseq_2(2, A))) ) ) ) ) ) ).
+- fof(t99_finseq_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k4_finseq_2(2, A)=a_1_1_finseq_2(A)) ) ).
+- fof(d9_finseq_1, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B))) ) ).
+- fof(fraenkel_a_1_1_finseq_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  =>  (r2_hidden(A, a_1_1_finseq_2(B)) <=>  (? [C, D] :  ( (m1_subset_1(C, B) & m1_subset_1(D, B))  & A=k10_finseq_1(C, D)) ) ) ) ) ).
+- fof(l99_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ~ ( (r2_hidden(k4_xxreal_3(A, B), k1_numbers) &  ( ~ ( (r2_hidden(A, k1_numbers) & r2_hidden(B, k1_numbers)) )  &  ~ (k4_xxreal_3(A, B)=k6_numbers) ) ) ) ) ) ) ) ).
+- fof(t8_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  ~ (r2_hidden(k5_funct_4(k1_numbers, k6_numbers, 1, A, B), k1_numbers)) ) ) ) ) ).
+- fof(d2_xxreal_0, axiom, k1_xxreal_0=k1_numbers).
+- fof(d5_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  ( (B=k6_numbers => k5_arytm_0(A, B)=A)  &  ( ~ (B=k6_numbers)  => k5_arytm_0(A, B)=k5_funct_4(k1_numbers, k6_numbers, 1, A, B)) ) ) ) ) ) ).
+- fof(l22_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  ~ ( ( ~ (r2_hidden(A, k1_numbers))  &  ( ~ (A=k1_xxreal_0)  &  ~ (A=k2_xxreal_0) ) ) ) ) ) ).

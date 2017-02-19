@@ -1,0 +1,17 @@
+C fof(l2_complfld, axiom, k1_group_1(k1_complfld)=k6_complex1).
++ fof(ie6_vectsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v4_vectsp_1(A) & l4_algstr_0(A)) )  => k1_group_1(A)=k5_struct_0(A)) ) ).
++ fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
++ fof(fc2_complfld, axiom,  (v36_algstr_0(k1_complfld) & v4_vectsp_1(k1_complfld)) ).
++ fof(dt_k1_complfld, axiom,  (v36_algstr_0(k1_complfld) & l6_algstr_0(k1_complfld)) ).
++ fof(d1_complfld, axiom,  (! [A] :  ( (v36_algstr_0(A) & l6_algstr_0(A))  =>  (A=k1_complfld <=>  (u1_struct_0(A)=k2_numbers &  (u1_algstr_0(A)=k27_binop_2 &  (u2_algstr_0(A)=k29_binop_2 &  (k5_struct_0(A)=k6_complex1 & k4_struct_0(A)=k5_complex1) ) ) ) ) ) ) ).
++ fof(abstractness_v36_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (v36_algstr_0(A) => A=g6_algstr_0(u1_struct_0(A), u1_algstr_0(A), u2_algstr_0(A), u3_struct_0(A), u2_struct_0(A))) ) ) ).
++ fof(fc1_complfld, axiom,  ( ~ (v2_struct_0(k1_complfld))  & v36_algstr_0(k1_complfld)) ).
++ fof(dt_l5_algstr_0, axiom,  (! [A] :  (l5_algstr_0(A) =>  (l4_algstr_0(A) & l4_struct_0(A)) ) ) ).
+- fof(d4_group_1, axiom,  (! [A] :  (l3_algstr_0(A) =>  (v1_group_1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (B=k1_group_1(A) <=>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (k6_algstr_0(A, C, B)=C & k6_algstr_0(A, B, C)=C) ) ) ) ) ) ) ) ) ).
+- fof(d5_group_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (C=k2_group_1(A, B) <=>  (k6_algstr_0(A, B, C)=k1_group_1(A) & k6_algstr_0(A, C, B)=k1_group_1(A)) ) ) ) ) ) ) ) ).
+- fof(l36_group_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k5_group_1(A, k6_numbers, B)=k1_group_1(A)) ) ) ) ).
+- fof(cc1_group_1, axiom,  (! [A] :  (l3_algstr_0(A) =>  (v2_group_1(A) => v1_group_1(A)) ) ) ).
+- fof(d4_complex1, axiom, k6_complex1=1).
+- fof(t11_comseq_3, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => k2_comseq_3(A, k6_numbers)=k6_complex1) ) ).
+- fof(t27_cfdiff_1, axiom,  (! [A] :  ( (v1_funct_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers))))  =>  (! [B] :  ( (v6_cfdiff_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_numbers)))  =>  ( (r1_tarski(B, k1_relset_1(k2_numbers, A)) & k5_relset_1(k2_numbers, k2_numbers, A, B)=k6_partfun1(B))  =>  (r2_cfdiff_1(A, B) &  (! [C] :  (m1_subset_1(C, k2_numbers) =>  (r2_hidden(C, B) => k7_partfun1(k2_numbers, k3_cfdiff_1(A, B), C)=k6_complex1) ) ) ) ) ) ) ) ) ).
+- fof(l77_sin_cos, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (v1_xcmplx_0(B) =>  (k8_nat_1(k2_numbers, k3_sin_cos(B), 1)=B &  (k8_nat_1(k2_numbers, k3_sin_cos(B), k6_numbers)=k6_complex1 & k17_complex1(k1_newton(B, A))=k2_newton(k17_complex1(B), A)) ) ) ) ) ) ).

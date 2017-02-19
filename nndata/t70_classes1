@@ -1,0 +1,17 @@
+C fof(t70_classes1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r1_ordinal1(B, k6_classes1(A)) <=>  (! [C] :  (v3_ordinal1(C) =>  ~ ( (r2_hidden(C, B) &  (! [D] :  ~ ( (r2_hidden(D, A) & r1_ordinal1(C, k6_classes1(D))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t68_classes1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => r2_hidden(k6_classes1(A), k6_classes1(B))) ) ) ).
++ fof(t66_classes1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, k4_classes1(B)) <=> r2_hidden(k6_classes1(A), B)) ) ) ) ).
++ fof(t16_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r1_ordinal1(A, B) | r2_hidden(B, A)) ) ) ) ) ).
++ fof(t5_ordinal1, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & r1_tarski(B, A)) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d8_classes1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (B=k6_classes1(A) <=>  (r1_tarski(A, k4_classes1(B)) &  (! [C] :  (v3_ordinal1(C) =>  (r1_tarski(A, k4_classes1(C)) => r1_ordinal1(B, C)) ) ) ) ) ) ) ) ).
++ fof(dt_k6_classes1, axiom,  (! [A] : v3_ordinal1(k6_classes1(A))) ).
++ fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
+- fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
+- fof(t65_classes1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r1_tarski(A, k4_classes1(B)) <=> r1_ordinal1(k6_classes1(A), B)) ) ) ) ).
+- fof(t67_classes1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_ordinal1(k6_classes1(A), k6_classes1(B))) ) ) ).
+- fof(t69_classes1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r1_ordinal1(k6_classes1(A), B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(k6_classes1(C), B)) ) ) ) ) ) ).
+- fof(t37_classes1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r1_ordinal1(A, B) <=> r1_tarski(k4_classes1(A), k4_classes1(B))) ) ) ) ) ).
+- fof(t63_classes1, axiom,  (! [A] : k6_classes1(k9_setfam_1(A))=k1_ordinal1(k6_classes1(A))) ).
+- fof(reflexivity_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  => r1_ordinal1(A, A)) ) ).
+- fof(t64_classes1, axiom,  (! [A] :  (v3_ordinal1(A) => k6_classes1(k4_classes1(A))=A) ) ).

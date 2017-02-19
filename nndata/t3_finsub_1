@@ -1,0 +1,11 @@
+C fof(t3_finsub_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( ( ~ (v1_xboole_0(C))  & v4_finsub_1(C))  =>  ( (m1_subset_1(A, C) & m1_subset_1(B, C))  => m1_subset_1(k5_xboole_0(A, B), C)) ) ) ) ) ).
++ fof(dt_k2_finsub_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(A))  & v4_finsub_1(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => m1_subset_1(k2_finsub_1(A, B, C), A)) ) ).
++ fof(redefinition_k1_finsub_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(A))  & v4_finsub_1(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k1_finsub_1(A, B, C)=k2_xboole_0(B, C)) ) ).
++ fof(redefinition_k2_finsub_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(A))  & v4_finsub_1(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k2_finsub_1(A, B, C)=k4_xboole_0(B, C)) ) ).
++ fof(d6_xboole_0, axiom,  (! [A] :  (! [B] : k5_xboole_0(A, B)=k2_xboole_0(k4_xboole_0(A, B), k4_xboole_0(B, A))) ) ).
++ fof(dt_k1_finsub_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(A))  & v4_finsub_1(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => m1_subset_1(k1_finsub_1(A, B, C), A)) ) ).
+- fof(cc1_finsub_1, axiom,  (! [A] :  (v4_finsub_1(A) =>  (v1_finsub_1(A) & v3_finsub_1(A)) ) ) ).
+- fof(cc2_finsub_1, axiom,  (! [A] :  ( (v1_finsub_1(A) & v3_finsub_1(A))  => v4_finsub_1(A)) ) ).
+- fof(t48_xboole_1, axiom,  (! [A] :  (! [B] : k4_xboole_0(A, k4_xboole_0(A, B))=k3_xboole_0(A, B)) ) ).
+- fof(idempotence_k1_finsub_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(A))  & v4_finsub_1(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k1_finsub_1(A, B, B)=B) ) ).
+- fof(t2_finsub_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( ( ~ (v1_xboole_0(C))  & v4_finsub_1(C))  =>  ( (m1_subset_1(A, C) & m1_subset_1(B, C))  => m1_subset_1(k3_xboole_0(A, B), C)) ) ) ) ) ).

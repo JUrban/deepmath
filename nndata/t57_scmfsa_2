@@ -1,0 +1,19 @@
+C fof(t57_scmfsa_2, axiom,  (! [A] :  (m1_scmfsa_2(A) =>  ~ (A=k4_struct_0(k1_scmfsa_2)) ) ) ).
++ fof(dt_m1_scmfsa_2, axiom,  (! [A] :  (m1_scmfsa_2(A) => m1_subset_1(A, u1_struct_0(k1_scmfsa_2))) ) ).
++ fof(redefinition_r1_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  (r1_subset_1(A, B) <=> r1_xboole_0(A, B)) ) ) ).
++ fof(t3_xboole_0, axiom,  (! [A] :  (! [B] :  ( ~ ( ( ~ (r1_xboole_0(A, B))  &  (! [C] :  ~ ( (r2_hidden(C, A) & r2_hidden(C, B)) ) ) ) )  &  ~ ( ( (? [C] :  (r2_hidden(C, A) & r2_hidden(C, B)) )  & r1_xboole_0(A, B)) ) ) ) ) ).
++ fof(t22_ami_2, axiom, r2_hidden(k5_numbers, k1_ami_2)).
++ fof(existence_m1_scmfsa_2, axiom,  (? [A] : m1_scmfsa_2(A)) ).
++ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
++ fof(t1_scmfsa_2, axiom, k4_struct_0(k1_scmfsa_2)=k5_numbers).
++ fof(d5_scmfsa_2, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_scmfsa_2)) =>  (m1_scmfsa_2(A) <=> r2_hidden(A, k3_scmfsa_1)) ) ) ).
++ fof(t30_scmfsa_1, axiom, r1_subset_1(k3_scmfsa_1, k1_ami_2)).
+- fof(t56_scmfsa_2, axiom,  (! [A] :  ( (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_scmfsa_2)))  =>  ~ (A=k4_struct_0(k1_scmfsa_2)) ) ) ).
+- fof(t1_ami_3, axiom, k4_struct_0(k1_ami_3)=k5_numbers).
+- fof(t10_scmfsa_2, axiom,  (! [A] :  ( (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_scmfsa_2)))  =>  (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_ami_3))) ) ) ).
+- fof(t2_ami_5, axiom,  (! [A] :  ( (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_ami_3)))  =>  ~ (A=k4_struct_0(k1_ami_3)) ) ) ).
+- fof(t53_scmfsa_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, u1_struct_0(k1_ami_3)) &  (v1_funct_1(A) &  (v5_funct_1(A, k2_memstr_0(2, k1_ami_3)) & v1_partfun1(A, u1_struct_0(k1_ami_3))) ) ) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, u1_struct_0(k1_scmfsa_2)) &  (v1_funct_1(B) &  (v5_funct_1(B, k2_memstr_0(3, k1_scmfsa_2)) & v1_partfun1(B, u1_struct_0(k1_scmfsa_2))) ) ) )  =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, u1_struct_0(k1_scmfsa_2)) &  (v1_funct_1(C) &  (v5_funct_1(C, k2_memstr_0(3, k1_scmfsa_2)) & v1_partfun1(C, u1_struct_0(k1_scmfsa_2))) ) ) )  =>  (B=k1_funct_4(C, A) => k1_funct_1(B, k4_struct_0(k1_scmfsa_2))=k1_funct_1(A, k4_struct_0(k1_ami_3))) ) ) ) ) ) ) ).
+- fof(dt_l1_extpro_1, axiom,  (! [A] :  (! [B] :  (l1_extpro_1(B, A) =>  (l1_memstr_0(B, A) & l1_compos_1(B)) ) ) ) ).
+- fof(dt_k1_scmfsa_2, axiom,  (v1_extpro_1(k1_scmfsa_2, 3) & l1_extpro_1(k1_scmfsa_2, 3)) ).
+- fof(rd4_xtuple_0, axiom,  (! [A, B, C] : k4_xtuple_0(k3_xtuple_0(A, B, C))=A) ).
+- fof(dt_u1_compos_1, axiom,  (! [A] :  (l1_compos_1(A) =>  (v1_compos_0(u1_compos_1(A)) &  (v2_compos_0(u1_compos_1(A)) &  (v3_compos_0(u1_compos_1(A)) & v5_compos_0(u1_compos_1(A))) ) ) ) ) ).

@@ -1,0 +1,5 @@
+C fof(t3_classes2, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v2_classes1(A) &  (r2_hidden(B, A) & r2_hidden(C, A)) )  => r2_hidden(k4_tarski(B, C), A)) ) ) ) ).
++ fof(t2_classes2, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v2_classes1(A) &  (r2_hidden(B, A) & r2_hidden(C, A)) )  =>  (r2_hidden(k1_tarski(B), A) & r2_hidden(k2_tarski(B, C), A)) ) ) ) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
+- fof(d3_classes1, axiom,  (! [A] :  (! [B] :  (r1_classes1(A, B) <=>  (r2_hidden(A, B) & v2_classes1(B)) ) ) ) ).
+- fof(d2_classes1, axiom,  (! [A] :  (v2_classes1(A) <=>  (v1_classes1(A) &  ( (! [B] :  (r2_hidden(B, A) => r2_hidden(k9_setfam_1(B), A)) )  &  (! [B] :  ~ ( (r1_tarski(B, A) &  ( ~ (r2_tarski(B, A))  &  ~ (r2_hidden(B, A)) ) ) ) ) ) ) ) ) ).

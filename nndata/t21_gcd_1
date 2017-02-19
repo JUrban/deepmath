@@ -1,0 +1,7 @@
+C fof(t21_gcd_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v4_vectsp_1(A) & l4_algstr_0(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  ~ ( (r2_hidden(B, k3_gcd_1(A)) & v1_xboole_0(B)) ) ) ) ) ) ).
++ fof(dt_k3_gcd_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l4_algstr_0(A))  => m1_subset_1(k3_gcd_1(A), k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A))))) ) ).
++ fof(fc2_gcd_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v4_vectsp_1(A) & l4_algstr_0(A)) )  & m1_subset_1(B, u1_struct_0(A)))  =>  ~ (v1_xboole_0(k2_gcd_1(A, B))) ) ) ).
++ fof(d6_gcd_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l4_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A)))) =>  (B=k3_gcd_1(A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (r2_hidden(C, B) <=>  (? [D] :  (m1_subset_1(D, u1_struct_0(A)) & C=k2_gcd_1(A, D)) ) ) ) ) ) ) ) ) ) ).
+- fof(fc3_gcd_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l4_algstr_0(A))  =>  ~ (v1_xboole_0(k3_gcd_1(A))) ) ) ).
+- fof(ie6_vectsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v4_vectsp_1(A) & l4_algstr_0(A)) )  => k1_group_1(A)=k5_struct_0(A)) ) ).
+- fof(d6_vectsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l4_algstr_0(A))  =>  (v4_vectsp_1(A) <=>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (k6_algstr_0(A, B, k5_struct_0(A))=B & k6_algstr_0(A, k5_struct_0(A), B)=B) ) ) ) ) ) ).

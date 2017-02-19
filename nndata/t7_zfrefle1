@@ -1,0 +1,5 @@
+C fof(t7_zfrefle1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (r2_zfrefle1(A, B) <=>  (! [C] :  ( (v1_zf_lang(C) & m2_finseq_1(C, k5_numbers))  =>  (r2_zf_model(A, C) <=> r2_zf_model(B, C)) ) ) ) ) ) ) ) ).
++ fof(d2_zfrefle1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (r2_zfrefle1(A, B) <=>  (! [C] :  ( (v1_zf_lang(C) & m2_finseq_1(C, k5_numbers))  =>  (k2_zf_model(C)=k1_xboole_0 =>  (r2_zf_model(A, C) <=> r2_zf_model(B, C)) ) ) ) ) ) ) ) ) ).
++ fof(t6_zfrefle1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (? [B] :  ( (v1_zf_lang(B) & m2_finseq_1(B, k5_numbers))  &  (k2_zf_model(B)=k1_xboole_0 &  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (r2_zf_model(C, B) <=> r2_zf_model(C, A)) ) ) ) ) ) ) ) ).
+- fof(reflexivity_r2_zfrefle1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  => r2_zfrefle1(A, A)) ) ).
+- fof(symmetry_r2_zfrefle1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  (r2_zfrefle1(A, B) => r2_zfrefle1(B, A)) ) ) ).

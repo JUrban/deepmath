@@ -1,0 +1,7 @@
+C fof(t11_oposet_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (v4_oposet_1(A) => v3_oposet_1(A)) ) ) ).
++ fof(t2_oposet_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (v3_orders_2(A) => v2_oposet_1(A)) ) ) ).
++ fof(d11_oposet_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (v3_oposet_1(A) <=>  (v2_oposet_1(A) & v4_orders_2(A)) ) ) ) ).
++ fof(d12_oposet_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (v4_oposet_1(A) <=>  (v3_orders_2(A) & v4_orders_2(A)) ) ) ) ).
+- fof(t16_yellow_0, axiom,  (! [A] :  ( (v5_orders_2(A) & l1_orders_2(A))  =>  (! [B] :  (r2_yellow_0(A, B) <=>  (? [C] :  (m1_subset_1(C, u1_struct_0(A)) &  (r1_lattice3(A, B, C) &  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (r1_lattice3(A, B, D) => r1_orders_2(A, D, C)) ) ) ) ) ) ) ) ) ) ).
+- fof(d40_waybel_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_orders_2(A) & l1_orders_2(A)) )  =>  (v25_waybel_0(A) <=>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (? [C] :  (m1_subset_1(C, u1_struct_0(A)) &  (r1_lattice3(A, B, C) &  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (r1_lattice3(A, B, D) => r1_orders_2(A, D, C)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(redefinition_k1_waybel27, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ( ~ (v2_struct_0(B))  & l1_orders_2(B))  &  (m1_subset_1(C, u1_struct_0(k6_yellow_1(A, B))) & m1_subset_1(D, A)) ) )  => k1_waybel27(A, B, C, D)=k1_funct_1(C, D)) ) ).

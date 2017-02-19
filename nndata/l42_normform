@@ -1,0 +1,17 @@
+C fof(l42_normform, axiom,  (! [A] : r2_hidden(k1_xboole_0, a_1_1_normform(A))) ).
++ fof(fraenkel_a_1_1_normform, axiom,  (! [A, B] :  (r2_hidden(A, a_1_1_normform(B)) <=>  (? [C] :  (m1_subset_1(C, k5_finsub_1(k7_normform(B))) &  (A=C &  (! [D] :  (m2_subset_1(D, k2_zfmisc_1(k5_finsub_1(B), k5_finsub_1(B)), k7_normform(B)) =>  (! [E] :  (m2_subset_1(E, k2_zfmisc_1(k5_finsub_1(B), k5_finsub_1(B)), k7_normform(B)) =>  ( (r2_hidden(D, C) &  (r2_hidden(E, C) & r1_normform(k5_finsub_1(B), k5_finsub_1(B), D, E)) )  => D=E) ) ) ) ) ) ) ) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(fc2_finsub_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(k5_finsub_1(A)))  & v4_finsub_1(k5_finsub_1(A))) ) ).
++ fof(t7_finsub_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v4_finsub_1(A))  => r2_hidden(k1_xboole_0, A)) ) ).
++ fof(dt_k5_finsub_1, axiom,  (! [A] : v4_finsub_1(k5_finsub_1(A))) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
+- fof(d9_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v2_relat_1(A) <=>  ~ (r2_hidden(k1_xboole_0, k10_xtuple_0(A))) ) ) ) ).
+- fof(l4_xreal_0, axiom, r2_hidden(k1_xboole_0, k1_tarski(k1_xboole_0))).
+- fof(d11_ordinal1, axiom,  (! [A] :  (A=k4_ordinal1 <=>  (r2_hidden(k1_xboole_0, A) &  (v4_ordinal1(A) &  (v3_ordinal1(A) &  (! [B] :  (v3_ordinal1(B) =>  ( (r2_hidden(k1_xboole_0, B) & v4_ordinal1(B))  => r1_tarski(A, B)) ) ) ) ) ) ) ) ).
+- fof(t51_funct_5, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (r1_tarski(k10_xtuple_0(C), k4_partfun1(A, B)) =>  (r2_hidden(k1_xboole_0, k10_xtuple_0(C)) |  (k1_funct_5(k2_funct_5(C))=C & k3_funct_5(k4_funct_5(C))=C) ) ) ) ) ) ) ).
+- fof(t3_xboole_1, axiom,  (! [A] :  (r1_tarski(A, k1_xboole_0) => A=k1_xboole_0) ) ).
+- fof(t2_mssubfam, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (r2_hidden(B, C) => r1_tarski(k8_setfam_1(A, C), B)) ) ) ) ) ).
+- fof(l4_axioms, axiom, r2_hidden(k1_xboole_0, k1_tarski(k1_xboole_0))).
+- fof(t46_funct_6, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  ( ~ (r2_hidden(k1_xboole_0, k10_xtuple_0(A)))  => k8_funct_6(A, k1_xboole_0)=k7_funcop_1(k9_xtuple_0(A), k1_xboole_0)) ) ) ).

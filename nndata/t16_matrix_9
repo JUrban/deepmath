@@ -1,0 +1,19 @@
+C fof(t16_matrix_9, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, A) =>  (! [E] :  (m2_finseq_1(E, A) =>  (E=k3_finseq_4(A, B, C, D) => k4_finseq_5(A, E)=k3_finseq_4(A, D, C, B)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(fc10_finseq_1, axiom,  (! [A, B] : v1_finseq_1(k10_finseq_1(A, B))) ).
++ fof(t61_finseq_5, axiom,  (! [A] :  (! [B] : k3_finseq_5(k10_finseq_1(A, B))=k10_finseq_1(B, A)) ) ).
++ fof(t43_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (k11_finseq_1(A, B, C)=k7_finseq_1(k9_finseq_1(A), k10_finseq_1(B, C)) & k11_finseq_1(A, B, C)=k7_finseq_1(k10_finseq_1(A, B), k9_finseq_1(C))) ) ) ) ).
++ fof(t24_finseq_6, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  => k3_finseq_5(k7_finseq_1(k9_finseq_1(A), B))=k7_finseq_1(k3_finseq_5(B), k9_finseq_1(A))) ) ) ).
++ fof(redefinition_k4_finseq_5, axiom,  (! [A, B] :  (m1_finseq_1(B, A) => k4_finseq_5(A, B)=k3_finseq_5(B)) ) ).
++ fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
++ fof(redefinition_k3_finseq_4, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) & m1_subset_1(D, A)) ) )  => k3_finseq_4(A, B, C, D)=k11_finseq_1(B, C, D)) ) ).
++ fof(d9_finseq_1, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B))) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
+- fof(involutiveness_k4_finseq_5, axiom,  (! [A, B] :  (m1_finseq_1(B, A) => k4_finseq_5(A, k4_finseq_5(A, B))=B) ) ).
+- fof(t87_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m2_finseq_1(C, A) =>  (r2_finseq_4(C, B) => k4_finseq_5(A, k2_finseq_5(A, C, B))=k1_finseq_5(A, k4_finseq_5(A, C), B)) ) ) ) ) ) ) ).
+- fof(t84_finseq_6, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (! [D] :  (m2_finseq_1(D, C) =>  (k2_xcmplx_0(A, B)=k3_finseq_1(D) => k4_finseq_5(C, k2_rfinseq(C, B, D))=k17_finseq_1(C, A, k4_finseq_5(C, D))) ) ) ) ) ) ) ) ) ).
+- fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
+- fof(dt_k4_finseq_5, axiom,  (! [A, B] :  (m1_finseq_1(B, A) => m2_finseq_1(k4_finseq_5(A, B), A)) ) ).
+- fof(t106_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m2_finseq_1(C, A) =>  ( (v1_finseq_6(C, A) & r2_finseq_4(C, B))  => k4_finseq_5(A, k1_finseq_6(A, C, B))=k1_finseq_6(A, k4_finseq_5(A, C), B)) ) ) ) ) ) ) ).
+- fof(t88_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m2_finseq_1(C, A) =>  (r2_finseq_4(C, B) => k4_finseq_5(A, k1_finseq_5(A, C, B))=k2_finseq_5(A, k4_finseq_5(A, C), B)) ) ) ) ) ) ) ).
+- fof(t113_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m2_finseq_1(B, A) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (! [D] :  (m1_subset_1(D, k5_numbers) =>  ( (r1_xxreal_0(1, C) &  (r1_xxreal_0(C, k3_finseq_1(B)) &  (r1_xxreal_0(1, D) & r1_xxreal_0(D, k3_finseq_1(B))) ) )  => k4_finseq_5(A, k3_finseq_6(A, B, C, D))=k3_finseq_6(A, k4_finseq_5(A, B), k2_nat_1(k7_nat_d(k3_finseq_1(B), D), 1), k2_nat_1(k7_nat_d(k3_finseq_1(B), C), 1))) ) ) ) ) ) ) ) ) ).
+- fof(t85_finseq_6, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (! [D] :  (m2_finseq_1(D, C) =>  (k2_xcmplx_0(A, B)=k3_finseq_1(D) => k4_finseq_5(C, k17_finseq_1(C, B, D))=k2_rfinseq(C, A, k4_finseq_5(C, D))) ) ) ) ) ) ) ) ) ).

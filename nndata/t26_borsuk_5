@@ -1,0 +1,5 @@
+C fof(t26_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(B, A))  &  (! [C] :  (v1_rat_1(C) =>  (! [D] :  (v1_rat_1(D) =>  ~ ( ( ~ (r1_xxreal_0(C, A))  &  ( ~ (r1_xxreal_0(D, C))  &  ~ (r1_xxreal_0(B, D)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(cc1_rat_1, axiom,  (! [A] :  (v1_rat_1(A) => v1_xreal_0(A)) ) ).
++ fof(t7_rat_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(B, A))  &  (! [C] :  (v1_rat_1(C) =>  ~ ( ( ~ (r1_xxreal_0(C, A))  &  ~ (r1_xxreal_0(B, C)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t64_prepower, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_rat_1(B) =>  (! [C] :  (v1_rat_1(C) =>  ~ ( ( ~ (r1_xxreal_0(A, 1))  &  ( ~ (r1_xxreal_0(B, C))  & r1_xxreal_0(k6_prepower(A, B), k6_prepower(A, C))) ) ) ) ) ) ) ) ) ).
+- fof(t57_prepower, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_rat_1(B) =>  ( ~ (r1_xxreal_0(A, k6_numbers))  => k7_prepower(k10_real_1(1, A), B)=k10_real_1(1, k6_prepower(A, B))) ) ) ) ) ).

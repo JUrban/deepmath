@@ -1,0 +1,11 @@
+C fof(t93_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m2_finseq_1(C, A) => k1_finseq_6(A, k1_finseq_6(A, C, B), B)=k1_finseq_6(A, C, B)) ) ) ) ) ) ).
++ fof(t92_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m2_finseq_1(C, A) =>  (r2_hidden(B, k10_xtuple_0(C)) => k7_partfun1(A, k1_finseq_6(A, C, B), 1)=B) ) ) ) ) ) ) ).
++ fof(d2_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m2_finseq_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  ( (r2_hidden(C, k10_xtuple_0(B)) => k1_finseq_6(A, B, C)=k8_finseq_1(A, k2_finseq_5(A, B, C), k2_rfinseq(A, 1, k1_finseq_5(A, B, C))))  &  ( ~ (r2_hidden(C, k10_xtuple_0(B)))  => k1_finseq_6(A, B, C)=B) ) ) ) ) ) ) ) ).
++ fof(dt_k1_finseq_6, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_finseq_1(B, A) & m1_subset_1(C, A)) )  => m2_finseq_1(k1_finseq_6(A, B, C), A)) ) ).
++ fof(t89_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m2_finseq_1(B, A) => k1_finseq_6(A, B, k7_partfun1(A, B, 1))=B) ) ) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
+- fof(t90_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m2_finseq_1(C, A) =>  ( (v1_finseq_6(C, A) & r2_hidden(B, k10_xtuple_0(C)))  => k10_xtuple_0(k1_finseq_6(A, C, B))=k10_xtuple_0(C)) ) ) ) ) ) ) ).
+- fof(t91_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m2_finseq_1(C, A) =>  (r2_hidden(B, k10_xtuple_0(C)) => r2_hidden(B, k10_xtuple_0(k1_finseq_6(A, C, B)))) ) ) ) ) ) ) ).
+- fof(fc4_finseq_6, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ( ~ (v1_xboole_0(B))  & m1_finseq_1(B, A))  & m1_subset_1(C, A)) )  =>  ~ (v1_xboole_0(k1_finseq_6(A, B, C))) ) ) ).
+- fof(fc5_finseq_6, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  ( ~ (v1_xboole_0(C))  &  (v1_finseq_6(C, A) & m1_finseq_1(C, A)) ) ) )  => v1_finseq_6(k1_finseq_6(A, C, B), A)) ) ).
+- fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).

@@ -1,0 +1,11 @@
+C fof(t100_finseq_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (! [C] :  (! [D] :  ( (v2_funct_1(A) &  (k10_xtuple_0(A)=k1_enumset1(B, C, D) & v2_funct_1(k11_finseq_1(B, C, D))) )  => k3_finseq_1(A)=3) ) ) ) ) ) ).
++ fof(fc9_finseq_1, axiom,  (! [A, B, C] :  (v1_relat_1(k11_finseq_1(A, B, C)) & v1_funct_1(k11_finseq_1(A, B, C))) ) ).
++ fof(t45_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (v1_relat_1(D) &  (v1_funct_1(D) & v1_finseq_1(D)) )  =>  (D=k11_finseq_1(A, B, C) <=>  (k3_finseq_1(D)=3 &  (k1_funct_1(D, 1)=A &  (k1_funct_1(D, 2)=B & k1_funct_1(D, 3)=C) ) ) ) ) ) ) ) ) ).
++ fof(t48_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  ( (k10_xtuple_0(A)=k10_xtuple_0(B) &  (v2_funct_1(A) & v2_funct_1(B)) )  => k3_finseq_1(A)=k3_finseq_1(B)) ) ) ) ) ).
++ fof(t128_finseq_2, axiom,  (! [A] :  (! [B] :  (! [C] : k10_xtuple_0(k11_finseq_1(A, B, C))=k1_enumset1(A, B, C)) ) ) ).
++ fof(fc11_finseq_1, axiom,  (! [A, B, C] : v1_finseq_1(k11_finseq_1(A, B, C))) ).
+- fof(l15_finseq_2, axiom,  (! [A] :  (! [B] :  (! [C] : k10_xtuple_0(k11_finseq_1(A, B, C))=k1_enumset1(A, B, C)) ) ) ).
+- fof(t31_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] : k2_enumset1(A, A, B, C)=k1_enumset1(A, B, C)) ) ) ).
+- fof(t95_finseq_3, axiom,  (! [A] :  (! [B] :  (! [C] :  ( ( ~ (A=B)  &  ( ~ (B=C)  &  ~ (C=A) ) )  <=> v2_funct_1(k11_finseq_1(A, B, C))) ) ) ) ).
+- fof(d1_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (D=k1_enumset1(A, B, C) <=>  (! [E] :  (r2_hidden(E, D) <=>  ~ ( ( ~ (E=A)  &  ( ~ (E=B)  &  ~ (E=C) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t57_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] : k1_enumset1(A, B, C)=k1_enumset1(A, C, B)) ) ) ).

@@ -1,0 +1,31 @@
+C fof(t20_card_5, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  ( ( ~ (v1_finset_1(B))  & v1_card_1(B))  => r1_ordinal1(A, k3_card_2(A, B))) ) ) ) ).
++ fof(t92_card_3, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (v1_finset_1(A) =>  ( ( ~ (r1_ordinal1(B, A))  &  ~ (r2_hidden(B, A)) )  | v1_finset_1(B)) ) ) ) ) ) ).
++ fof(dt_k3_card_2, axiom,  (! [A, B] :  ( (v1_card_1(A) & v1_card_1(B))  => v1_card_1(k3_card_2(A, B))) ) ).
++ fof(t30_card_1, axiom,  (! [A] : k1_card_1(k1_tarski(A))=1) ).
++ fof(t4_card_1, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (r2_hidden(A, B) <=>  ~ (r1_ordinal1(B, A)) ) ) ) ) ) ).
++ fof(cc1_card_5, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  =>  ~ (v1_xboole_0(A)) ) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t93_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (v1_card_1(C) =>  ~ ( ( (r2_hidden(A, B) | r1_ordinal1(A, B))  &  ( ~ (C=k6_numbers)  &  ~ ( (r1_ordinal1(k3_card_2(C, A), k3_card_2(C, B)) & r1_ordinal1(k3_card_2(A, C), k3_card_2(B, C))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
++ fof(t8_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  ( ~ (A=k1_xboole_0)  => r2_hidden(k1_xboole_0, A)) ) ) ).
++ fof(t27_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (k3_card_2(A, 1)=A & k3_card_2(1, A)=1) ) ) ).
++ fof(cc2_card_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_card_1(A)) ) ).
++ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
++ fof(t68_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (r2_hidden(k6_numbers, A) <=> r1_ordinal1(1, A)) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(t3_card_1, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (r2_hidden(A, B) <=>  (r1_ordinal1(A, B) &  ~ (A=B) ) ) ) ) ) ) ).
+- fof(t92_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (v1_card_1(C) =>  (! [D] :  (v1_card_1(D) =>  ~ ( ( ~ ( ( ~ ( (r2_hidden(A, B) & r2_hidden(C, D)) )  &  ( ~ ( (r1_ordinal1(A, B) & r2_hidden(C, D)) )  &  ( ~ ( (r2_hidden(A, B) & r1_ordinal1(C, D)) )  &  ~ ( (r1_ordinal1(A, B) & r1_ordinal1(C, D)) ) ) ) ) )  &  ( ~ (A=k6_numbers)  &  ~ (r1_ordinal1(k3_card_2(A, C), k3_card_2(B, D))) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(d3_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) => k3_card_2(A, B)=k1_card_1(k1_funct_2(B, A))) ) ) ) ).
+- fof(t26_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  ( ~ (A=k6_numbers)  => k3_card_2(k6_numbers, A)=k6_numbers) ) ) ).
+- fof(reflexivity_r2_wellord2, axiom,  (! [A, B] : r2_wellord2(A, A)) ).
+- fof(d2_card_1, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  (B=k1_card_1(A) <=> r2_wellord2(A, B)) ) ) ) ).
+- fof(t2_xboole_1, axiom,  (! [A] : r1_tarski(k1_xboole_0, A)) ).
+- fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
+- fof(reflexivity_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  => r1_ordinal1(A, A)) ) ).
+- fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
+- fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
+- fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
+- fof(t13_card_5, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  ( ~ (A=k1_xboole_0)  => r1_ordinal1(k1_card_1(a_2_0_card_5(A, B)), k2_card_2(B, k3_card_2(k1_card_1(A), B)))) ) ) ) ).
+- fof(t14_card_5, axiom,  (! [A] :  (v1_card_1(A) => r2_hidden(A, k3_card_2(2, A))) ) ).
+- fof(t29_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (v1_card_1(C) => k3_card_2(k2_card_2(A, B), C)=k2_card_2(k3_card_2(A, C), k3_card_2(B, C))) ) ) ) ) ) ).
+- fof(d2_card_5, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_card_3(C)) )  =>  (C=k2_card_5(A, B) <=>  ( (! [D] :  (r2_hidden(D, k9_xtuple_0(C)) <=>  (r2_hidden(D, A) & v1_card_1(D)) ) )  &  (! [D] :  (v1_card_1(D) =>  (r2_hidden(D, A) => k1_funct_1(C, D)=k3_card_2(D, B)) ) ) ) ) ) ) ) ) ) ) ).

@@ -1,0 +1,19 @@
+C fof(t2_finseq_3, axiom, k2_finseq_1(4)=k2_enumset1(1, 2, 3, 4)).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(t9_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => k2_xboole_0(k2_finseq_1(A), k1_tarski(k1_nat_1(A, 1)))=k2_finseq_1(k1_nat_1(A, 1))) ) ).
++ fof(t1_finseq_3, axiom, k2_finseq_1(3)=k1_enumset1(1, 2, 3)).
++ fof(rqRealAdd__k2_xcmplx_0__r3_r1_r4, axiom, k2_xcmplx_0(3, 1)=4).
++ fof(redefinition_k1_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k5_numbers))  => k1_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(t6_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k2_enumset1(A, B, C, D)=k2_xboole_0(k1_enumset1(A, B, C), k1_tarski(D))) ) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(spc3_numerals, axiom,  ( (v2_xxreal_0(3) & m2_subset_1(3, k1_numbers, k5_numbers))  &  (m1_subset_1(3, k5_numbers) & m1_subset_1(3, k1_numbers)) ) ).
+- fof(t52_card_1, axiom, 4=k2_enumset1(k1_xboole_0, 1, 2, 3)).
+- fof(rqSucc__k1_ordinal1__r3_r4, axiom, k1_ordinal1(3)=4).
+- fof(t51_card_1, axiom, 3=k1_enumset1(k1_xboole_0, 1, 2)).
+- fof(d1_ordinal1, axiom,  (! [A] : k1_ordinal1(A)=k2_xboole_0(A, k1_tarski(A))) ).
+- fof(l90_finseq_1, axiom,  (r2_hidden(3, k2_finseq_1(4)) & r2_hidden(4, k2_finseq_1(4))) ).
+- fof(l89_finseq_1, axiom,  (r2_hidden(1, k2_finseq_1(4)) & r2_hidden(2, k2_finseq_1(4))) ).
+- fof(l80_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k2_enumset1(A, B, C, D)=k2_enumset1(B, C, A, D)) ) ) ) ).
+- fof(l86_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k2_enumset1(A, B, C, D)=k2_enumset1(C, B, A, D)) ) ) ) ).
+- fof(d2_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (E=k2_enumset1(A, B, C, D) <=>  (! [F] :  (r2_hidden(F, E) <=>  ~ ( ( ~ (F=A)  &  ( ~ (F=B)  &  ( ~ (F=C)  &  ~ (F=D) ) ) ) ) ) ) ) ) ) ) ) ) ).

@@ -1,0 +1,19 @@
+C fof(t86_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  ( (v1_relat_1(E) & v1_funct_1(E))  =>  ( (r2_hidden(A, k9_xtuple_0(E)) &  (r2_hidden(C, k9_xtuple_0(E)) &  (k1_funct_1(E, A)=B & k1_funct_1(E, C)=D) ) )  => r1_tarski(k4_funct_4(A, C, B, D), E)) ) ) ) ) ) ) ).
++ fof(t1_funct_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (r2_hidden(k4_tarski(A, B), C) <=>  (r2_hidden(A, k9_xtuple_0(C)) & B=k1_funct_1(C, A)) ) ) ) ) ) ).
++ fof(fc11_funcop_1, axiom,  (! [A, B] :  (v1_relat_1(k16_funcop_1(A, B)) & v1_funct_1(k16_funcop_1(A, B))) ) ).
++ fof(d9_funcop_1, axiom,  (! [A] :  (! [B] : k16_funcop_1(A, B)=k7_funcop_1(k1_tarski(A), B)) ) ).
++ fof(t85_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  ( (r2_hidden(A, k9_xtuple_0(C)) & k1_funct_1(C, A)=B)  => r1_tarski(k16_funcop_1(A, B), C)) ) ) ) ) ).
++ fof(t67_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ~ (A=C)  => k4_funct_4(A, C, B, D)=k2_tarski(k4_tarski(A, B), k4_tarski(C, D))) ) ) ) ) ).
++ fof(d4_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k4_funct_4(A, B, C, D)=k1_funct_4(k16_funcop_1(A, C), k16_funcop_1(B, D))) ) ) ) ).
++ fof(dt_k7_funcop_1, axiom,  (! [A, B] :  (v1_funct_1(k7_funcop_1(A, B)) &  (v1_funct_2(k7_funcop_1(A, B), A, k1_tarski(B)) & m1_subset_1(k7_funcop_1(A, B), k1_zfmisc_1(k2_zfmisc_1(A, k1_tarski(B))))) ) ) ).
++ fof(idempotence_k1_funct_4, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) & v1_funct_1(A))  &  (v1_relat_1(B) & v1_funct_1(B)) )  => k1_funct_4(A, A)=A) ) ).
++ fof(t32_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_tarski(k2_tarski(A, B), C) <=>  (r2_hidden(A, C) & r2_hidden(B, C)) ) ) ) ) ).
+- fof(t63_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ( ~ (A=B)  => k1_funct_1(k4_funct_4(A, B, C, D), A)=C)  & k1_funct_1(k4_funct_4(A, B, C, D), B)=D) ) ) ) ) ).
+- fof(fc1_funct_4, axiom,  (! [A, B, C, D] :  (v1_relat_1(k4_funct_4(A, B, C, D)) & v1_funct_1(k4_funct_4(A, B, C, D))) ) ).
+- fof(t62_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k9_xtuple_0(k4_funct_4(A, B, C, D))=k2_tarski(A, B) & r1_tarski(k10_xtuple_0(k4_funct_4(A, B, C, D)), k2_tarski(C, D))) ) ) ) ) ).
+- fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
+- fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
+- fof(t13_funcop_1, axiom,  (! [A] :  (! [B] :  (k9_xtuple_0(k2_funcop_1(A, B))=A & r1_tarski(k10_xtuple_0(k2_funcop_1(A, B)), k1_tarski(B))) ) ) ).
+- fof(t66_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  ( (v1_relat_1(E) & v1_funct_1(E))  =>  ( (k9_xtuple_0(E)=k2_tarski(A, B) &  (k1_funct_1(E, A)=C & k1_funct_1(E, B)=D) )  => E=k4_funct_4(A, B, C, D)) ) ) ) ) ) ) ).
+- fof(t84_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  (! [D] :  (! [E] :  ( ~ (B=C)  =>  (k1_funct_1(k1_funct_4(A, k4_funct_4(B, C, D, E)), B)=D & k1_funct_1(k1_funct_4(A, k4_funct_4(B, C, D, E)), C)=E) ) ) ) ) ) ) ) ).
+- fof(t64_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ~ (A=B)  => k10_xtuple_0(k4_funct_4(A, B, C, D))=k2_tarski(C, D)) ) ) ) ) ).

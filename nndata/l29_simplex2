@@ -1,0 +1,23 @@
+C fof(l29_simplex2, axiom,  (! [A] :  (v7_ordinal1(A) => k2_struct_0(k15_euclid(A))=k2_struct_0(k3_pcomps_1(k14_euclid(A)))) ) ).
++ fof(d8_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v5_rltopsp1(B) & l1_rltopsp1(B))  =>  (B=k15_euclid(A) <=>  (g1_pre_topc(u1_struct_0(B), u1_pre_topc(B))=k3_pcomps_1(k14_euclid(A)) & g1_rlvect_1(u1_struct_0(B), u2_struct_0(B), u1_algstr_0(B), u1_rlvect_1(B))=k10_funcsdom(k2_finseq_1(A))) ) ) ) ) ) ).
++ fof(dt_k14_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_metric_1(k14_euclid(A)) &  (v6_metric_1(k14_euclid(A)) &  (v7_metric_1(k14_euclid(A)) &  (v8_metric_1(k14_euclid(A)) &  (v9_metric_1(k14_euclid(A)) & l1_metric_1(k14_euclid(A))) ) ) ) ) ) ) ).
++ fof(free_g1_pre_topc, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (! [C, D] :  (g1_pre_topc(A, B)=g1_pre_topc(C, D) =>  (A=C & B=D) ) ) ) ) ).
++ fof(dt_k3_pcomps_1, axiom,  (! [A] :  (l1_metric_1(A) => l1_pre_topc(k3_pcomps_1(A))) ) ).
++ fof(dt_u1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => m1_subset_1(u1_pre_topc(A), k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A))))) ) ).
++ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
++ fof(d3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => k2_struct_0(A)=u1_struct_0(A)) ) ).
++ fof(dt_l1_rltopsp1, axiom,  (! [A] :  (l1_rltopsp1(A) =>  (l1_rlvect_1(A) & l1_pre_topc(A)) ) ) ).
++ fof(abstractness_v1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (v1_pre_topc(A) => A=g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))) ) ) ).
++ fof(fc1_pcomps_1, axiom,  (! [A] :  (l1_metric_1(A) =>  (v1_pre_topc(k3_pcomps_1(A)) & v2_pre_topc(k3_pcomps_1(A))) ) ) ).
++ fof(dt_k15_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v5_rltopsp1(k15_euclid(A)) & l1_rltopsp1(k15_euclid(A))) ) ) ).
+- fof(l18_simplex2, axiom,  (! [A] :  (v7_ordinal1(A) => k2_struct_0(k15_euclid(A))=k2_struct_0(k14_euclid(A))) ) ).
+- fof(t64_simplex0, axiom,  (! [A] :  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (m1_simplex0(C, A) =>  (! [D] :  ( (v1_relat_1(D) & v1_funct_1(D))  => k2_struct_0(k11_simplex0(A, C, D, B))=k2_struct_0(C)) ) ) ) ) ) ) ).
+- fof(t22_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => u1_struct_0(k15_euclid(A))=k1_euclid(A)) ) ).
+- fof(t17_jordan1k, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (r1_xxreal_0(1, A) => k2_jordan2c(A, k1_struct_0(k15_euclid(A)))=k2_struct_0(k15_euclid(A))) ) ) ).
+- fof(t3_jgraph_4, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, u1_struct_0(k15_euclid(2)), u1_struct_0(k15_euclid(2))) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(k15_euclid(2)), u1_struct_0(k15_euclid(2)))))) )  =>  ( (v5_pre_topc(A, k15_euclid(2), k15_euclid(2)) &  (v2_funct_1(A) &  (k2_relset_1(u1_struct_0(k15_euclid(2)), A)=k2_struct_0(k15_euclid(2)) &  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (? [C] :  ( ( ~ (v1_xboole_0(C))  &  (v2_compts_1(C, k15_euclid(2)) & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k15_euclid(2))))) )  &  (C=k7_relset_1(u1_struct_0(k15_euclid(2)), u1_struct_0(k15_euclid(2)), A, C) &  (? [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))) &  (r2_hidden(B, D) &  (v3_pre_topc(D, k15_euclid(2)) &  (r1_tarski(D, C) & r2_hidden(k3_funct_2(u1_struct_0(k15_euclid(2)), u1_struct_0(k15_euclid(2)), A, B), D)) ) ) ) ) ) ) ) ) ) ) ) )  => v3_tops_2(A, k15_euclid(2), k15_euclid(2))) ) ) ).
+- fof(t10_mfold_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_mfold_1(B, A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A))))) )  => r1_metrizts(k15_euclid(A), k15_euclid(A), B, k2_struct_0(k15_euclid(A)))) ) ) ) ).
+- fof(t13_mfold_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_pre_topc(B) & l1_pre_topc(B)) )  =>  (v2_mfold_1(B, A) <=>  (! [C] :  (m1_subset_1(C, u1_struct_0(B)) =>  (? [D] :  (m1_connsp_2(D, B, C) & r1_metrizts(B, k15_euclid(A), D, k2_struct_0(k15_euclid(A)))) ) ) ) ) ) ) ) ) ).
+- fof(fc2_jordan2c, axiom,  (! [A] :  (v7_ordinal1(A) => v1_convex1(k2_struct_0(k15_euclid(A)), k15_euclid(A))) ) ).
+- fof(t16_jordan1k, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k1_jordan2c(A, k2_struct_0(k15_euclid(A)))=k1_struct_0(k15_euclid(A))) ) ).
+- fof(t18_jordan1k, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k2_jordan2c(A, k2_struct_0(k15_euclid(A)))=k1_struct_0(k15_euclid(A))) ) ).
+- fof(fc3_jordan2c, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => v3_connsp_1(k2_struct_0(k15_euclid(A)), k15_euclid(A))) ) ).

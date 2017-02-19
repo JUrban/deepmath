@@ -1,0 +1,11 @@
+C fof(t17_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v2_orders_1(A) => v2_orders_1(k2_relat_1(A))) ) ) ).
++ fof(d4_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v2_orders_1(A) <=>  (v1_relat_2(A) &  (v8_relat_2(A) & v4_relat_2(A)) ) ) ) ) ).
++ fof(dt_k2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k2_relat_1(A))) ) ).
++ fof(fc2_relat_2, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_relat_2(A))  =>  (v1_relat_1(k2_relat_1(A)) & v1_relat_2(k2_relat_1(A))) ) ) ).
++ fof(fc17_relat_2, axiom,  (! [A] :  ( (v1_relat_1(A) & v4_relat_2(A))  =>  (v1_relat_1(k2_relat_1(A)) & v4_relat_2(k2_relat_1(A))) ) ) ).
++ fof(fc21_relat_2, axiom,  (! [A] :  ( (v1_relat_1(A) & v8_relat_2(A))  =>  (v1_relat_1(k2_relat_1(A)) & v8_relat_2(k2_relat_1(A))) ) ) ).
+- fof(d7_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (B=k2_relat_1(A) <=>  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), B) <=> r2_hidden(k4_tarski(D, C), A)) ) ) ) ) ) ) ) ).
+- fof(involutiveness_k2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => k2_relat_1(k2_relat_1(A))=A) ) ).
+- fof(t22_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) => k2_relat_1(k3_xboole_0(A, B))=k3_xboole_0(k2_relat_1(A), k2_relat_1(B))) ) ) ) ).
+- fof(t11_sysrel, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(A, B) => r1_tarski(k2_relat_1(A), k2_relat_1(B))) ) ) ) ) ).
+- fof(d4_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k3_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) & r2_hidden(D, B)) ) ) ) ) ) ) ).

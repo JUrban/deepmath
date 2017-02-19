@@ -1,0 +1,5 @@
+C fof(t14_card_3, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  => k5_card_3(A, k1_tarski(B))=k1_tarski(k1_funct_1(B, A))) ) ) ).
++ fof(d6_card_3, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k5_card_3(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (? [E] :  ( (v1_relat_1(E) & v1_funct_1(E))  &  (r2_hidden(E, B) & D=k1_funct_1(E, A)) ) ) ) ) ) ) ) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
+- fof(t12_card_3, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r2_hidden(A, k9_xtuple_0(B)) =>  (k4_card_3(B)=k1_xboole_0 | k5_card_3(A, k4_card_3(B))=k1_funct_1(B, A)) ) ) ) ) ).
+- fof(t13_card_3, axiom,  (! [A] : k5_card_3(A, k1_xboole_0)=k1_xboole_0) ).

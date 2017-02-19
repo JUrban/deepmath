@@ -1,0 +1,5 @@
+C fof(t1_toprealc, axiom,  (! [A] :  (v1_zfmisc_1(A) =>  (! [B] :  (r2_tarski(A, B) => v1_zfmisc_1(B)) ) ) ) ).
++ fof(d6_tarski, axiom,  (! [A] :  (! [B] :  (r2_tarski(A, B) <=>  (? [C] :  ( (! [D] :  ~ ( (r2_hidden(D, A) &  (! [E] :  ~ ( (r2_hidden(E, B) & r2_hidden(k4_tarski(D, E), C)) ) ) ) ) )  &  ( (! [D] :  ~ ( (r2_hidden(D, B) &  (! [E] :  ~ ( (r2_hidden(E, A) & r2_hidden(k4_tarski(E, D), C)) ) ) ) ) )  &  (! [D] :  (! [E] :  (! [F] :  (! [G] :  ( (r2_hidden(k4_tarski(D, E), C) & r2_hidden(k4_tarski(F, G), C))  =>  (D=F <=> E=G) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d10_zfmisc_1, axiom,  (! [A] :  (v1_zfmisc_1(A) <=>  (! [B] :  (! [C] :  ( (r2_hidden(B, A) & r2_hidden(C, A))  => B=C) ) ) ) ) ).
+- fof(redefinition_r2_wellord2, axiom,  (! [A, B] :  (r2_wellord2(A, B) <=> r2_tarski(A, B)) ) ).
+- fof(t5_card_1, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, B) <=> k1_card_1(A)=k1_card_1(B)) ) ) ).

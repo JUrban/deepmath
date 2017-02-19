@@ -1,0 +1,7 @@
+C fof(t70_bvfunc_1, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) =>  (! [C] :  (v1_xboolean(C) =>  ( (k6_xboolean(A, k6_xboolean(B, C))=k8_margrel1 &  (B=k8_margrel1 & A=k8_margrel1) )  => C=k8_margrel1) ) ) ) ) ) ) ).
++ fof(redefinition_k8_margrel1, axiom, k8_margrel1=k2_xboolean).
++ fof(t114_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) =>  (k6_xboolean(A, k6_xboolean(A, B))=k2_xboolean => k6_xboolean(A, B)=k2_xboolean) ) ) ) ) ).
++ fof(t65_bvfunc_1, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) =>  ( (A=k8_margrel1 & k6_xboolean(A, B)=k8_margrel1)  => B=k8_margrel1) ) ) ) ) ).
+- fof(t68_bvfunc_1, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) =>  (! [C] :  (v1_xboolean(C) =>  (k6_xboolean(A, k6_xboolean(B, C))=k8_margrel1 => k6_xboolean(B, k6_xboolean(A, C))=k8_margrel1) ) ) ) ) ) ) ).
+- fof(fc5_xboolean, axiom,  (! [A, B] :  ( (v1_xboolean(A) & v1_xboolean(B))  => v1_xboolean(k6_xboolean(A, B))) ) ).
+- fof(t104_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k6_xboolean(A, k6_xboolean(B, A))=k2_xboolean) ) ) ) ).

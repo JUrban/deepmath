@@ -1,0 +1,21 @@
+C fof(t18_yellow_9, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (B=k2_tarski(k1_xboole_0, A) =>  (k1_cantor_1(A, B)=B & k2_cantor_1(A, B)=B) ) ) ) ) ).
++ fof(t1_subset_1, axiom,  (! [A] : m1_subset_1(k1_xboole_0, k1_zfmisc_1(A))) ).
++ fof(t17_yellow_9, axiom,  (! [A] :  (! [B] :  ( (v1_xboole_0(B) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))))  => k2_cantor_1(A, B)=k1_tarski(A)) ) ) ).
++ fof(t11_yellow_9, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (C=k1_tarski(B) =>  (k2_cantor_1(A, C)=k2_tarski(B, A) & k1_cantor_1(A, C)=k2_tarski(B, k1_xboole_0)) ) ) ) ) ) ).
++ fof(t15_yellow_9, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => k1_cantor_1(A, k1_cantor_1(A, B))=k1_cantor_1(A, B)) ) ) ).
++ fof(t11_cantor_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => k2_cantor_1(A, B)=k2_cantor_1(A, k2_cantor_1(A, B))) ) ) ).
++ fof(dt_k1_cantor_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => m1_subset_1(k1_cantor_1(A, B), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ).
++ fof(dt_k2_cantor_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => m1_subset_1(k2_cantor_1(A, B), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ).
++ fof(t16_yellow_9, axiom,  (! [A] :  (! [B] :  ( (v1_xboole_0(B) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))))  => k1_cantor_1(A, B)=k1_tarski(k1_xboole_0)) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
+- fof(t6_cantor_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  => u1_pre_topc(A)=k1_cantor_1(u1_struct_0(A), u1_pre_topc(A))) ) ).
+- fof(t5_cantor_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  => u1_pre_topc(A)=k2_cantor_1(u1_struct_0(A), u1_pre_topc(A))) ) ).
+- fof(d1_cantor_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (C=k1_cantor_1(A, B) <=>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) =>  (r2_hidden(D, C) <=>  (? [E] :  (m1_subset_1(E, k1_zfmisc_1(k1_zfmisc_1(A))) &  (r1_tarski(E, B) & D=k5_setfam_1(A, E)) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t13_yellow_9, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(A))) =>  ( (B=k2_xboole_0(C, k1_tarski(A)) | C=k7_subset_1(k1_zfmisc_1(A), B, k1_tarski(A)))  => k2_cantor_1(A, B)=k2_cantor_1(A, C)) ) ) ) ) ) ).
+- fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(s3_subset_1__e2_20_2__cantor_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) & m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(g1_pre_topc(A, k1_cantor_1(A, k2_cantor_1(A, B)))))))) )  =>  (? [D] :  (m1_subset_1(D, k1_zfmisc_1(k1_zfmisc_1(k2_cantor_1(A, B)))) &  (! [E] :  (m1_subset_1(E, k1_zfmisc_1(k2_cantor_1(A, B))) =>  (r2_hidden(E, D) <=>  (? [F] :  (m1_subset_1(F, k1_zfmisc_1(u1_struct_0(g1_pre_topc(A, k1_cantor_1(A, k2_cantor_1(A, B)))))) &  (r2_hidden(F, C) & F=k3_tarski(E)) ) ) ) ) ) ) ) ) ) ).
+- fof(t18_cantor_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (v1_tops_2(B, g1_pre_topc(A, k1_cantor_1(A, k2_cantor_1(A, B)))) &  (v2_cantor_1(B, g1_pre_topc(A, k1_cantor_1(A, k2_cantor_1(A, B)))) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(g1_pre_topc(A, k1_cantor_1(A, k2_cantor_1(A, B)))))))) ) ) ) ) ) ).
+- fof(t15_cantor_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => v2_pre_topc(g1_pre_topc(A, k1_cantor_1(A, k2_cantor_1(A, B))))) ) ) ) ).
+- fof(t1_cantor_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => r1_tarski(B, k1_cantor_1(A, B))) ) ) ).

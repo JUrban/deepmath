@@ -1,0 +1,5 @@
+C fof(t44_yellow_9, axiom,  (! [A] :  (l1_waybel_9(A) => m1_yellow_9(A, A)) ) ).
++ fof(d4_yellow_9, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (l1_waybel_9(B) =>  (m1_yellow_9(B, A) <=> g1_orders_2(u1_struct_0(B), u1_orders_2(B))=g1_orders_2(u1_struct_0(A), u1_orders_2(A))) ) ) ) ) ).
++ fof(dt_l1_waybel_9, axiom,  (! [A] :  (l1_waybel_9(A) =>  (l1_pre_topc(A) & l1_orders_2(A)) ) ) ).
+- fof(dt_m1_yellow_9, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (m1_yellow_9(B, A) => l1_waybel_9(B)) ) ) ) ).
+- fof(rc4_yellow_9, axiom,  (! [A] :  (l1_orders_2(A) =>  (? [B] :  (m1_yellow_9(B, A) &  (v2_pre_topc(B) &  (v1_tdlat_3(B) & v1_waybel_9(B)) ) ) ) ) ) ).

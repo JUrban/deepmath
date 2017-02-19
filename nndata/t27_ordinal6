@@ -1,0 +1,5 @@
+C fof(t27_ordinal6, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_abian(A, B) => r2_hidden(A, k10_xtuple_0(B))) ) ) ) ).
++ fof(d3_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (B=k10_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(D, k9_xtuple_0(A)) & C=k1_funct_1(A, D)) ) ) ) ) ) ) ) ).
++ fof(d3_abian, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_abian(A, B) <=>  (r2_hidden(A, k9_xtuple_0(B)) & A=k1_funct_1(B, A)) ) ) ) ) ).
+- fof(t2_knaster, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, A, A) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, A)))) )  =>  (r1_abian(B, k1_abian(A, D, C)) => r1_abian(k1_funct_1(D, B), k1_abian(A, D, C))) ) ) ) ) ) ) ).
+- fof(d8_hilbert3, axiom,  (! [A] :  (m1_subset_1(A, k1_hilbert1) =>  (v2_hilbert3(A) <=>  (! [B] :  ( (v1_relat_1(B) &  (v2_relat_1(B) &  (v4_relat_1(B, k5_numbers) &  (v1_funct_1(B) & v1_partfun1(B, k5_numbers)) ) ) )  =>  (! [C] :  (m1_hilbert3(C, B) =>  (? [D] : r1_abian(D, k5_hilbert3(B, C, A))) ) ) ) ) ) ) ) ).

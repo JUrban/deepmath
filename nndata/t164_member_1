@@ -1,0 +1,7 @@
+C fof(t164_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (k19_member_1(A, C)=k19_member_1(B, C) => A=B) ) ) ) ) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t163_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (r1_tarski(A, B) <=> r1_tarski(k19_member_1(A, C), k19_member_1(B, C))) ) ) ) ) ) ) ).
++ fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
+- fof(t161_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) => k19_member_1(A, B)=a_2_11_member_1(A, B)) ) ) ) ).
+- fof(d16_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) => k19_member_1(A, B)=k11_member_1(k1_tarski(B), A)) ) ) ) ).
+- fof(ie8_member_1, axiom,  (! [A, B, C, D] :  ( (v3_membered(A) &  (v2_membered(B) &  (v1_xreal_0(C) & v1_xxreal_0(D)) ) )  =>  ( (A=B & C=D)  => k19_member_1(A, C)=k18_member_1(B, D)) ) ) ).

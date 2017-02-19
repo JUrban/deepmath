@@ -1,0 +1,37 @@
+C fof(t14_borsuk_4, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k5_topmetr))) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (A=k4_rcomp_1(B, C) =>  (r1_xxreal_0(C, B) | k2_pre_topc(k5_topmetr, A)=k1_rcomp_1(B, C)) ) ) ) ) ) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(t11_borsuk_4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ~ (A=B)  => k6_measure6(k4_rcomp_1(A, B))=k1_rcomp_1(A, B)) ) ) ) ) ).
++ fof(dt_k4_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xreal_0(B))  => m1_subset_1(k4_rcomp_1(A, B), k1_zfmisc_1(k1_numbers))) ) ).
++ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
++ fof(dt_k5_topmetr, axiom, m1_pre_topc(k5_topmetr, k3_topmetr)).
++ fof(t28_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => k3_xboole_0(A, B)=A) ) ) ).
++ fof(redefinition_k5_topmetr, axiom, k5_topmetr=k17_borsuk_1).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(t17_topmetr, axiom, u1_struct_0(k3_topmetr)=k1_numbers).
++ fof(redefinition_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k9_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
++ fof(t17_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_pre_topc(B, A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(B))) =>  (C=D => k2_pre_topc(B, D)=k9_subset_1(u1_struct_0(B), k2_pre_topc(A, C), k2_struct_0(B))) ) ) ) ) ) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(d3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => k2_struct_0(A)=u1_struct_0(A)) ) ).
++ fof(t24_jordan5a, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (A=B => k6_measure6(A)=k2_pre_topc(k3_topmetr, B)) ) ) ) ) ).
++ fof(dt_k17_borsuk_1, axiom, l1_pre_topc(k17_borsuk_1)).
++ fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).
++ fof(t9_borsuk_4, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k5_topmetr))) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (A=k4_rcomp_1(B, C) =>  (r1_xxreal_0(C, B) | r1_tarski(k1_rcomp_1(B, C), u1_struct_0(k5_topmetr))) ) ) ) ) ) ) ) ).
+- fof(t13_borsuk_4, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k5_topmetr))) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (A=k2_rcomp_1(B, C) =>  (r1_xxreal_0(C, B) | k2_pre_topc(k5_topmetr, A)=k1_rcomp_1(B, C)) ) ) ) ) ) ) ) ).
+- fof(t24_topmetr, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k5_topmetr))) =>  ( (r1_xxreal_0(k6_numbers, A) &  (r1_xxreal_0(A, B) &  (r1_xxreal_0(B, 1) & C=k1_rcomp_1(A, B)) ) )  => k4_topmetr(A, B)=k1_pre_topc(k5_topmetr, C)) ) ) ) ) ) ) ).
+- fof(redefinition_k4_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xreal_0(B))  => k4_rcomp_1(A, B)=k3_xxreal_1(A, B)) ) ).
+- fof(d5_measure5, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (v4_measure5(A) <=>  (? [B] :  (m1_subset_1(B, k7_numbers) &  (? [C] :  (v1_xreal_0(C) & A=k4_rcomp_1(B, C)) ) ) ) ) ) ) ).
+- fof(t4_jgraph_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k5_topmetr))) =>  ( (r1_xxreal_0(k6_numbers, A) &  (r1_xxreal_0(A, B) &  (r1_xxreal_0(B, 1) & C=k1_rcomp_1(A, B)) ) )  => k4_topmetr(A, B)=k1_pre_topc(k5_topmetr, C)) ) ) ) ) ) ) ).
+- fof(l82_sincos10, axiom,  (k1_relset_1(k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k1_fdiff_9, k4_rcomp_1(k10_real_1(k32_sin_cos, 2), k32_sin_cos)))=k4_rcomp_1(k10_real_1(k32_sin_cos, 2), k32_sin_cos) &  (! [A] :  (v1_xreal_0(A) =>  (r2_hidden(A, k4_rcomp_1(k10_real_1(k32_sin_cos, 2), k32_sin_cos)) => k1_seq_1(k2_partfun1(k1_numbers, k1_numbers, k1_fdiff_9, k4_rcomp_1(k10_real_1(k32_sin_cos, 2), k32_sin_cos)), A)=k1_seq_1(k1_fdiff_9, A)) ) ) ) ).
+- fof(d8_rcomp_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k4_rcomp_1(A, B)=a_2_3_rcomp_1(A, B)) ) ) ) ).
+- fof(l84_sincos10, axiom,  (k1_relset_1(k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k2_fdiff_9, k4_rcomp_1(k6_numbers, k10_real_1(k32_sin_cos, 2))))=k4_rcomp_1(k6_numbers, k10_real_1(k32_sin_cos, 2)) &  (! [A] :  (v1_xreal_0(A) =>  (r2_hidden(A, k4_rcomp_1(k6_numbers, k10_real_1(k32_sin_cos, 2))) => k1_seq_1(k2_partfun1(k1_numbers, k1_numbers, k2_fdiff_9, k4_rcomp_1(k6_numbers, k10_real_1(k32_sin_cos, 2))), A)=k1_seq_1(k2_fdiff_9, A)) ) ) ) ).
+- fof(t26_sincos10, axiom, k2_relset_1(k1_numbers, k2_sincos10)=k4_rcomp_1(k10_real_1(k32_sin_cos, 2), k32_sin_cos)).
+- fof(t28_sincos10, axiom, k2_relset_1(k1_numbers, k4_sincos10)=k4_rcomp_1(k6_numbers, k10_real_1(k32_sin_cos, 2))).
+- fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
+- fof(t62_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(A, k9_xtuple_0(B)) => k9_xtuple_0(k5_relat_1(B, A))=A) ) ) ) ).
+- fof(dt_k2_partfun1, axiom,  (! [A, B, C, D] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  =>  (v1_funct_1(k2_partfun1(A, B, C, D)) & m1_subset_1(k2_partfun1(A, B, C, D), k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ) ).
+- fof(redefinition_k2_partfun1, axiom,  (! [A, B, C, D] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  => k2_partfun1(A, B, C, D)=k5_relat_1(C, D)) ) ).
+- fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
+- fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
+- fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
+- fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).

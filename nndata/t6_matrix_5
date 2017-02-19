@@ -1,0 +1,9 @@
+C fof(t6_matrix_5, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(u1_struct_0(k1_complfld))))  => A=k1_matrix_5(k2_matrix_5(A))) ) ).
++ fof(d2_matrix_5, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(u1_struct_0(k1_complfld))))  => k2_matrix_5(A)=A) ) ).
++ fof(dt_k2_matrix_5, axiom,  (! [A] :  ( (v1_matrix_1(A) & m1_finseq_1(A, k3_finseq_2(u1_struct_0(k1_complfld))))  =>  (v1_matrix_1(k2_matrix_5(A)) & m2_finseq_1(k2_matrix_5(A), k3_finseq_2(k2_numbers))) ) ) ).
++ fof(d1_matrix_5, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(k2_numbers)))  => k1_matrix_5(A)=A) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
+- fof(dt_k1_matrix_5, axiom,  (! [A] :  ( (v1_matrix_1(A) & m1_finseq_1(A, k3_finseq_2(k2_numbers)))  =>  (v1_matrix_1(k1_matrix_5(A)) & m2_finseq_1(k1_matrix_5(A), k3_finseq_2(u1_struct_0(k1_complfld)))) ) ) ).
+- fof(t4_matrix_5, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(u1_struct_0(k1_complfld))))  =>  (! [B] :  ( (v1_matrix_1(B) & m2_finseq_1(B, k3_finseq_2(u1_struct_0(k1_complfld))))  =>  (k2_matrix_5(A)=k2_matrix_5(B) => A=B) ) ) ) ) ).
+- fof(t5_matrix_5, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(k2_numbers)))  => A=k2_matrix_5(k1_matrix_5(A))) ) ).
+- fof(t3_matrix_5, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(k2_numbers)))  =>  (! [B] :  ( (v1_matrix_1(B) & m2_finseq_1(B, k3_finseq_2(k2_numbers)))  =>  (k1_matrix_5(A)=k1_matrix_5(B) => A=B) ) ) ) ) ).

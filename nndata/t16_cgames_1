@@ -1,0 +1,5 @@
+C fof(t16_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  ~ (r2_hidden(A, k8_cgames_1(A))) ) ) ).
++ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
++ fof(t14_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  (! [B] :  (v2_cgames_1(B) =>  (r2_hidden(A, k8_cgames_1(B)) => r2_hidden(k9_cgames_1(A), k9_cgames_1(B))) ) ) ) ) ).
+- fof(t9_cgames_1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v2_cgames_1(B) =>  (r2_hidden(B, k2_cgames_1(A)) <=>  (! [C] :  ~ ( (r2_hidden(C, k8_cgames_1(B)) &  (! [D] :  (v3_ordinal1(D) =>  ~ ( (r2_hidden(D, A) & r2_hidden(C, k2_cgames_1(D))) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(d8_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) => k8_cgames_1(A)=k2_xboole_0(k6_cgames_1(A), k7_cgames_1(A))) ) ).

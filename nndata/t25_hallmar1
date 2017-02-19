@@ -1,0 +1,5 @@
+C fof(t25_hallmar1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k5_numbers) => m1_hallmar1(B, A, B, C)) ) ) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(d5_hallmar1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (! [D] :  (m2_finseq_1(D, k1_zfmisc_1(A)) =>  (m1_hallmar1(D, A, B, C) <=>  (k4_finseq_1(D)=k4_finseq_1(B) &  ( (! [E] :  (m1_subset_1(E, k5_numbers) =>  (r2_hidden(E, k4_finseq_1(B)) =>  (E=C | k1_funct_1(B, E)=k1_funct_1(D, E)) ) ) )  & r1_tarski(k1_funct_1(D, C), k1_funct_1(B, C))) ) ) ) ) ) ) ) ) ) ).
+- fof(dt_m1_hallmar1, axiom,  (! [A, B, C] :  ( (m1_finseq_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k5_numbers))  =>  (! [D] :  (m1_hallmar1(D, A, B, C) => m2_finseq_1(D, k1_zfmisc_1(A))) ) ) ) ).
+- fof(t19_hallmar1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m2_finseq_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (! [D] :  (m1_hallmar1(D, A, B, C) => m2_hallmar1(D, A, B)) ) ) ) ) ) ) ) ).

@@ -1,0 +1,11 @@
+C fof(t5_algstr_1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k3_algstr_0)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k3_algstr_0)) => k1_algstr_0(k3_algstr_0, A, B)=k4_struct_0(k3_algstr_0)) ) ) ) ).
++ fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
++ fof(dt_k1_algstr_0, axiom,  (! [A, B, C] :  ( (l1_algstr_0(A) &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k1_algstr_0(A, B, C), u1_struct_0(A))) ) ).
++ fof(dt_k4_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => m1_subset_1(k4_struct_0(A), u1_struct_0(A))) ) ).
++ fof(t4_algstr_1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k3_algstr_0)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k3_algstr_0)) => A=B) ) ) ) ).
++ fof(dt_k3_algstr_0, axiom, l2_algstr_0(k3_algstr_0)).
+- fof(d10_rlvect_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  ( (v3_rlvect_1(A) &  (v4_rlvect_1(A) & v13_algstr_0(A)) )  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (C=k4_algstr_0(A, B) <=> k1_algstr_0(A, B, C)=k4_struct_0(A)) ) ) ) ) ) ) ) ).
+- fof(l12_rlvect_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) & l2_algstr_0(A)) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (k1_algstr_0(A, B, C)=k4_struct_0(A) => k1_algstr_0(A, C, B)=k4_struct_0(A)) ) ) ) ) ) ) ).
+- fof(t5_rlvect_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) & l2_algstr_0(A)) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (k1_algstr_0(A, B, k4_algstr_0(A, B))=k4_struct_0(A) & k1_algstr_0(A, k4_algstr_0(A, B), B)=k4_struct_0(A)) ) ) ) ) ).
+- fof(d11_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (v10_algstr_0(B, A) <=>  (? [C] :  (m1_subset_1(C, u1_struct_0(A)) & k1_algstr_0(A, B, C)=k4_struct_0(A)) ) ) ) ) ) ) ).
+- fof(dt_k4_algstr_0, axiom,  (! [A, B] :  ( (l2_algstr_0(A) & m1_subset_1(B, u1_struct_0(A)))  => m1_subset_1(k4_algstr_0(A, B), u1_struct_0(A))) ) ).

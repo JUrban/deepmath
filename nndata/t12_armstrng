@@ -1,0 +1,5 @@
+C fof(t12_armstrng, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k4_armstrng(A)) =>  (! [C] :  (m1_subset_1(C, k4_armstrng(A)) =>  (! [D] :  (m1_subset_1(D, k4_armstrng(A)) =>  ( (r3_armstrng(A, C, B) & r3_armstrng(A, D, C))  => r3_armstrng(A, D, B)) ) ) ) ) ) ) ) ).
++ fof(d9_armstrng, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k4_armstrng(A)) =>  (! [C] :  (m1_subset_1(C, k4_armstrng(A)) =>  (r3_armstrng(A, B, C) <=>  (r1_tarski(k1_xtuple_0(B), k1_xtuple_0(C)) & r1_tarski(k2_xtuple_0(C), k2_xtuple_0(B))) ) ) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(t11_armstrng, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k4_armstrng(A)) =>  (! [C] :  (m1_subset_1(C, k4_armstrng(A)) =>  ( (r3_armstrng(A, C, B) & r3_armstrng(A, B, C))  => B=C) ) ) ) ) ) ).
+- fof(reflexivity_r3_armstrng, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k4_armstrng(A)) & m1_subset_1(C, k4_armstrng(A)))  => r3_armstrng(A, B, B)) ) ).

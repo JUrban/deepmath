@@ -1,0 +1,17 @@
+C fof(t11_cohsp_1, axiom,  (! [A] :  (! [B] : v2_cohsp_1(k1_enumset1(A, B, k3_xboole_0(A, B)))) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(d1_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (D=k1_enumset1(A, B, C) <=>  (! [E] :  (r2_hidden(E, D) <=>  ~ ( ( ~ (E=A)  &  ( ~ (E=B)  &  ~ (E=C) ) ) ) ) ) ) ) ) ) ) ).
++ fof(fc2_subset_1, axiom,  (! [A, B, C] :  ~ (v1_xboole_0(k1_enumset1(A, B, C))) ) ).
++ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
++ fof(d5_cohsp_1, axiom,  (! [A] :  (v2_cohsp_1(A) <=>  (! [B] :  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(A)))  =>  (? [C] :  ( (! [D] :  (r2_hidden(D, B) => r1_tarski(C, D)) )  & r2_hidden(C, A)) ) ) ) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t17_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(k3_xboole_0(A, B), A)) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
+- fof(t8_cohsp_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( (! [B] :  (! [C] :  ~ ( (r2_hidden(B, A) &  (r2_hidden(C, A) &  (! [D] :  ~ ( (r1_tarski(D, k3_xboole_0(B, C)) & r2_hidden(D, A)) ) ) ) ) ) ) )  => v2_cohsp_1(A)) ) ) ).
+- fof(t7_cohsp_1, axiom,  (! [A] :  (v2_cohsp_1(A) =>  (! [B] :  (! [C] :  ~ ( (r2_hidden(B, A) &  (r2_hidden(C, A) &  (! [D] :  ~ ( (r1_tarski(D, k3_xboole_0(B, C)) & r2_hidden(D, A)) ) ) ) ) ) ) ) ) ) ).
+- fof(cc2_cohsp_1, axiom,  (! [A] :  (v2_cohsp_1(A) =>  ~ (v1_xboole_0(A)) ) ) ).
+- fof(t9_cohsp_1, axiom,  (! [A] :  (v1_cohsp_1(k1_tarski(A)) & v2_cohsp_1(k1_tarski(A))) ) ).
+- fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
+- fof(t19_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(A, C))  => r1_tarski(A, k3_xboole_0(B, C))) ) ) ) ).
+- fof(t32_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_tarski(k2_tarski(A, B), C) <=>  (r2_hidden(A, C) & r2_hidden(B, C)) ) ) ) ) ).
+- fof(fc2_finset_1, axiom,  (! [A, B] : v1_finset_1(k2_tarski(A, B))) ).

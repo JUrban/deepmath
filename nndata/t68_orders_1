@@ -1,0 +1,17 @@
+C fof(t68_orders_1, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( (! [B] :  ( (r1_tarski(B, A) & v6_ordinal1(B))  =>  (B=k1_xboole_0 | r2_hidden(k1_setfam_1(B), A)) ) )  &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  ~ ( (r2_hidden(C, A) &  ( ~ (C=B)  & r1_tarski(C, B)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t3_setfam_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => r1_tarski(k1_setfam_1(B), A)) ) ) ).
++ fof(t66_orders_1, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( (! [B] :  ~ ( (r1_tarski(B, A) &  (v6_ordinal1(B) &  (! [C] :  ~ ( (r2_hidden(C, A) &  (! [D] :  (r2_hidden(D, B) => r1_tarski(C, D)) ) ) ) ) ) ) ) )  &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  ~ ( (r2_hidden(C, A) &  ( ~ (C=B)  & r1_tarski(C, B)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
++ fof(dt_o_1_0_orders_1, axiom,  (! [A] : m1_subset_1(o_1_0_orders_1(A), A)) ).
+- fof(d1_setfam_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (A=k1_xboole_0)  =>  (B=k1_setfam_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (! [D] :  (r2_hidden(D, A) => r2_hidden(C, D)) ) ) ) ) )  &  (A=k1_xboole_0 =>  (B=k1_setfam_1(A) <=> B=k1_xboole_0) ) ) ) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(t65_orders_1, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( (! [B] :  ~ ( (r1_tarski(B, A) &  (v6_ordinal1(B) &  (! [C] :  ~ ( (r2_hidden(C, A) &  (! [D] :  (r2_hidden(D, B) => r1_tarski(D, C)) ) ) ) ) ) ) ) )  &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  ~ ( (r2_hidden(C, A) &  ( ~ (C=B)  & r1_tarski(B, C)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t5_setfam_1, axiom,  (! [A] :  (! [B] :  ( (! [C] :  (r2_hidden(C, A) => r1_tarski(B, C)) )  =>  (A=k1_xboole_0 | r1_tarski(B, k1_setfam_1(A))) ) ) ) ).
+- fof(t11_finset_1, axiom,  (! [A] :  ~ ( (v1_finset_1(A) &  ( ~ (A=k1_xboole_0)  &  (v6_ordinal1(A) &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (r2_hidden(C, A) => r1_tarski(B, C)) ) ) ) ) ) ) ) ) ) ).
+- fof(t12_finset_1, axiom,  (! [A] :  ~ ( (v1_finset_1(A) &  ( ~ (A=k1_xboole_0)  &  (v6_ordinal1(A) &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (r2_hidden(C, A) => r1_tarski(C, B)) ) ) ) ) ) ) ) ) ) ).
+- fof(t67_orders_1, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( (! [B] :  ( (r1_tarski(B, A) & v6_ordinal1(B))  =>  (B=k1_xboole_0 | r2_hidden(k3_tarski(B), A)) ) )  &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  ~ ( (r2_hidden(C, A) &  ( ~ (C=B)  & r1_tarski(B, C)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(d8_ordinal1, axiom,  (! [A] :  (v6_ordinal1(A) <=>  (! [B] :  (! [C] :  ( (r2_hidden(B, A) & r2_hidden(C, A))  => r3_xboole_0(B, C)) ) ) ) ) ).

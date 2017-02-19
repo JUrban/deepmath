@@ -1,0 +1,5 @@
+C fof(t12_bspace, axiom,  (! [A] :  (! [B] :  (! [C] :  (k3_bspace(A, B)=k3_bspace(A, C) <=>  (r2_hidden(B, A) <=> r2_hidden(C, A)) ) ) ) ) ).
++ fof(t10_bspace, axiom,  (! [A] :  (! [B] :  (k3_bspace(A, B)=k4_struct_0(k2_bspace) <=>  ~ (r2_hidden(B, A)) ) ) ) ).
++ fof(d3_bspace, axiom,  (! [A] :  (! [B] :  ( (r2_hidden(B, A) => k3_bspace(A, B)=k5_struct_0(k2_bspace))  &  ( ~ (r2_hidden(B, A))  => k3_bspace(A, B)=k4_struct_0(k2_bspace)) ) ) ) ).
+- fof(dt_k3_bspace, axiom,  (! [A, B] : m1_subset_1(k3_bspace(A, B), u1_struct_0(k2_bspace))) ).
+- fof(t8_bspace, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k2_bspace)) =>  (A=k4_struct_0(k2_bspace) <=>  ~ (A=k5_struct_0(k2_bspace)) ) ) ) ).

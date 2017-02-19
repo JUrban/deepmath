@@ -1,0 +1,5 @@
+C fof(t51_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => k8_xboolean(A, A)=k3_xboolean(A)) ) ).
++ fof(idempotence_k4_xboolean, axiom,  (! [A, B] :  ( (v1_xboolean(A) & v1_xboolean(B))  => k4_xboolean(A, A)=A) ) ).
++ fof(d9_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k8_xboolean(A, B)=k3_xboolean(k4_xboolean(A, B))) ) ) ) ).
+- fof(commutativity_k8_xboolean, axiom,  (! [A, B] :  ( (v1_xboolean(A) & v1_xboolean(B))  => k8_xboolean(A, B)=k8_xboolean(B, A)) ) ).
+- fof(d10_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k9_xboolean(A, B)=k3_xboolean(k5_xboolean(A, B))) ) ) ) ).

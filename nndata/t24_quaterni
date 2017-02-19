@@ -1,0 +1,5 @@
+C fof(t24_quaterni, axiom,  (! [A] :  (v1_quaterni(A) => A=k6_quaterni(k17_quaterni(A), k18_quaterni(A), k19_quaterni(A), k20_quaterni(A))) ) ).
++ fof(t23_quaterni, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  (k17_quaterni(k6_quaterni(A, B, C, D))=A &  (k18_quaterni(k6_quaterni(A, B, C, D))=B &  (k19_quaterni(k6_quaterni(A, B, C, D))=C & k20_quaterni(k6_quaterni(A, B, C, D))=D) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t7_quaterni, axiom,  (! [A] :  (v1_quaterni(A) =>  (? [B] :  (m1_subset_1(B, k1_numbers) &  (? [C] :  (m1_subset_1(C, k1_numbers) &  (? [D] :  (m1_subset_1(D, k1_numbers) &  (? [E] :  (m1_subset_1(E, k1_numbers) & A=k6_quaterni(B, C, D, E)) ) ) ) ) ) ) ) ) ) ).
+- fof(redefinition_k19_quaterni, axiom,  (! [A] :  (v1_quaterni(A) => k19_quaterni(A)=k15_quaterni(A)) ) ).
+- fof(redefinition_k20_quaterni, axiom,  (! [A] :  (v1_quaterni(A) => k20_quaterni(A)=k16_quaterni(A)) ) ).

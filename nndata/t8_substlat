@@ -1,0 +1,5 @@
+C fof(t8_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) => r1_tarski(k3_substlat(A, B, C), C)) ) ) ) ).
++ fof(t6_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) =>  (! [D] :  (r2_hidden(D, k3_substlat(A, B, C)) =>  (r2_hidden(D, C) &  (! [E] :  ( (r2_hidden(E, C) & r1_tarski(E, D))  => E=D) ) ) ) ) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(d2_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k5_finsub_1(k4_partfun1(A, B))) => k3_substlat(A, B, C)=a_3_0_substlat(A, B, C)) ) ) ) ).
+- fof(fraenkel_a_3_0_substlat, axiom,  (! [A, B, C, D] :  (m1_subset_1(D, k5_finsub_1(k4_partfun1(B, C))) =>  (r2_hidden(A, a_3_0_substlat(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, k4_partfun1(B, C)) &  (A=E &  (v1_finset_1(E) &  (! [F] :  (m1_subset_1(F, k4_partfun1(B, C)) =>  ( (r2_hidden(F, D) & r1_tarski(F, E))  <=> F=E) ) ) ) ) ) ) ) ) ) ).

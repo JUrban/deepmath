@@ -1,0 +1,15 @@
+C fof(t4_simplex0, axiom,  (! [A] : k1_simplex0(k1_tarski(A))=k9_setfam_1(A)) ).
++ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
++ fof(t68_zfmisc_1, axiom,  (! [A] : r1_tarski(k1_tarski(A), k1_zfmisc_1(A))) ).
++ fof(t2_coh_sp, axiom,  (! [A] :  ( ~ (v1_xboole_0(k9_setfam_1(A)))  &  (v1_classes1(k9_setfam_1(A)) & v1_coh_sp(k9_setfam_1(A))) ) ) ).
++ fof(t1_simplex0, axiom,  (! [A] :  (v1_classes1(A) <=>  (! [B] :  (r2_hidden(B, A) => r1_tarski(k9_setfam_1(B), A)) ) ) ) ).
++ fof(l1_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
++ fof(t9_e_siec, axiom,  (! [A] :  (u1_struct_0(k5_e_siec(A))=k1_tarski(A) &  (u1_e_siec(k5_e_siec(A))=k1_xboole_0 & u2_e_siec(k5_e_siec(A))=k1_xboole_0) ) ) ).
++ fof(d1_simplex0, axiom,  (! [A] :  (! [B] :  (v1_classes1(B) =>  (B=k1_simplex0(A) <=>  (r1_tarski(A, B) &  (! [C] :  ( (r1_tarski(A, C) & v1_classes1(C))  => r1_tarski(B, C)) ) ) ) ) ) ) ).
+- fof(dt_k1_simplex0, axiom,  (! [A] : v1_classes1(k1_simplex0(A))) ).
+- fof(redefinition_k2_simplex0, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => k2_simplex0(A, B)=k1_simplex0(B)) ) ).
+- fof(l36_classes1, axiom,  (k4_classes1(k1_xboole_0)=k1_xboole_0 &  ( (! [A] :  (v3_ordinal1(A) => k4_classes1(k1_ordinal1(A))=k9_setfam_1(k4_classes1(A))) )  &  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v5_ordinal1(B)) )  =>  ( (v4_ordinal1(A) &  (k9_xtuple_0(B)=A &  (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(C, A) => k1_funct_1(B, C)=k4_classes1(C)) ) ) ) )  =>  (A=k1_xboole_0 | k4_classes1(A)=k3_tarski(k10_xtuple_0(B))) ) ) ) ) ) ) ) ).
+- fof(fc7_simplex0, axiom,  (! [A] :  ( ~ (v2_setfam_1(A))  =>  ( ~ (v2_setfam_1(k1_simplex0(A)))  & v1_classes1(k1_simplex0(A))) ) ) ).
+- fof(t3_simplex0, axiom,  (! [A] :  (! [B] :  ( (r1_tarski(A, B) & v1_classes1(B))  => r1_tarski(k1_simplex0(A), B)) ) ) ).
+- fof(fc6_simplex0, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k1_simplex0(A)))  & v1_classes1(k1_simplex0(A))) ) ) ).
+- fof(fc5_simplex0, axiom,  (v1_xboole_0(k1_simplex0(k1_xboole_0)) & v1_classes1(k1_simplex0(k1_xboole_0))) ).

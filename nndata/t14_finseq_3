@@ -1,0 +1,7 @@
+C fof(t14_finseq_3, axiom,  (! [A] :  (v7_ordinal1(A) => r1_xboole_0(k2_finseq_1(A), k1_tarski(k1_nat_1(A, 1)))) ) ).
++ fof(l20_zfmisc_1, axiom,  (! [A] :  (! [B] :  ( ~ (r2_hidden(A, B))  => r1_xboole_0(k1_tarski(A), B)) ) ) ).
++ fof(symmetry_r1_xboole_0, axiom,  (! [A, B] :  (r1_xboole_0(A, B) => r1_xboole_0(B, A)) ) ).
++ fof(t8_finseq_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ (r2_hidden(k1_nat_1(A, 1), k2_finseq_1(A))) ) ) ).
+- fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
+- fof(t9_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => k2_xboole_0(k2_finseq_1(A), k1_tarski(k1_nat_1(A, 1)))=k2_finseq_1(k1_nat_1(A, 1))) ) ).
+- fof(l18_zfmisc_1, axiom,  (! [A] :  (! [B] :  ~ ( (r1_xboole_0(k1_tarski(A), B) & r2_hidden(A, B)) ) ) ) ).

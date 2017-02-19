@@ -1,0 +1,9 @@
+C fof(t29_goedelcp, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_cqc_lang(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k3_cqc_lang(A))) =>  (r1_tarski(B, C) => r1_tarski(k6_goedelcp(A, B), k6_goedelcp(A, C))) ) ) ) ) ) ) ).
++ fof(fraenkel_a_2_0_goedelcp, axiom,  (! [A, B, C] :  ( (m1_qc_lang1(B) & m1_subset_1(C, k1_zfmisc_1(k3_cqc_lang(B))))  =>  (r2_hidden(A, a_2_0_goedelcp(B, C)) <=>  (? [D] :  (m2_subset_1(D, k9_qc_lang1(B), k3_cqc_lang(B)) &  (A=k24_qc_lang1(B, D) & r2_hidden(D, C)) ) ) ) ) ) ).
++ fof(d8_goedelcp, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_cqc_lang(A))) => k6_goedelcp(A, B)=k3_tarski(a_2_0_goedelcp(A, B))) ) ) ) ).
++ fof(d4_tarski, axiom,  (! [A] :  (! [B] :  (B=k3_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(C, D) & r2_hidden(D, A)) ) ) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(dt_k6_goedelcp, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k1_zfmisc_1(k3_cqc_lang(A))))  => m1_subset_1(k6_goedelcp(A, B), k1_zfmisc_1(k3_qc_lang1(A)))) ) ).
+- fof(t27_goedelcp, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_cqc_lang(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k3_cqc_lang(A))) => k6_goedelcp(A, k4_subset_1(k3_cqc_lang(A), B, C))=k4_subset_1(k3_qc_lang1(A), k6_goedelcp(A, B), k6_goedelcp(A, C))) ) ) ) ) ) ).
+- fof(t26_goedelcp, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m2_subset_1(B, k9_qc_lang1(A), k3_cqc_lang(A)) => k6_goedelcp(A, k6_domain_1(k3_cqc_lang(A), B))=k24_qc_lang1(A, B)) ) ) ) ).
+- fof(dt_k1_cqc_the1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k1_zfmisc_1(k3_cqc_lang(A))))  => m1_subset_1(k1_cqc_the1(A, B), k1_zfmisc_1(k3_cqc_lang(A)))) ) ).

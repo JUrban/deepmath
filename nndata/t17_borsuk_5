@@ -1,0 +1,11 @@
+C fof(t17_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ (v1_rat_1(A))  <=> r2_hidden(A, k1_borsuk_5)) ) ) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(d1_borsuk_5, axiom, k1_borsuk_5=k6_subset_1(k1_numbers, k3_numbers)).
++ fof(d2_rat_1, axiom,  (! [A] :  (v1_rat_1(A) <=> r2_hidden(A, k3_numbers)) ) ).
++ fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
++ fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
+- fof(d3_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k3_borsuk_5(A, B)=k9_subset_1(k1_numbers, k1_borsuk_5, k2_rcomp_1(A, B))) ) ) ) ).
+- fof(dt_k1_borsuk_5, axiom, m1_subset_1(k1_borsuk_5, k1_zfmisc_1(k1_numbers))).
+- fof(l10_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_rat_1(B) => k9_prepower(k25_sin_cos(A), B)=k25_sin_cos(k3_xcmplx_0(B, A))) ) ) ) ).
+- fof(t39_rat_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_rat_1(B) =>  ( ~ ( ( ~ (r1_xxreal_0(B, A))  & r1_xxreal_0(k2_rat_1(B), k4_real_1(A, k1_rat_1(B)))) )  &  ~ ( ( ~ (r1_xxreal_0(k2_rat_1(B), k4_real_1(A, k1_rat_1(B))))  & r1_xxreal_0(B, A)) ) ) ) ) ) ) ).
+- fof(t66_prepower, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_rat_1(B) =>  ( (r1_xxreal_0(A, 1) & r1_xxreal_0(B, k6_numbers))  =>  (r1_xxreal_0(A, k6_numbers) | r1_xxreal_0(1, k6_prepower(A, B))) ) ) ) ) ) ).

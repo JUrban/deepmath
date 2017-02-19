@@ -1,0 +1,13 @@
+C fof(l9_numbers, axiom, r1_tarski(k5_numbers, k4_numbers)).
++ fof(t7_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(A, k2_xboole_0(A, B))) ) ).
++ fof(t34_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_tarski(A, B) =>  (r2_hidden(C, A) | r1_tarski(A, k4_xboole_0(B, k1_tarski(C)))) ) ) ) ) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(t32_arytm_3, axiom,  (! [A] :  (! [B] :  ~ (r2_hidden(k4_tarski(A, B), k4_ordinal1)) ) ) ).
++ fof(d4_numbers, axiom, k4_numbers=k6_subset_1(k2_xboole_0(k4_ordinal1, k2_zfmisc_1(k1_tarski(k1_xboole_0), k4_ordinal1)), k1_tarski(k4_tarski(k1_xboole_0, k1_xboole_0)))).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
+- fof(spc9_numerals, axiom,  ( (v2_xxreal_0(9) & m2_subset_1(9, k1_numbers, k5_numbers))  &  (m1_subset_1(9, k5_numbers) & m1_subset_1(9, k1_numbers)) ) ).
+- fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
+- fof(spc0_numerals, axiom,  (m2_subset_1(0, k1_numbers, k5_numbers) &  (m1_subset_1(0, k5_numbers) & m1_subset_1(0, k1_numbers)) ) ).
+- fof(spc8_numerals, axiom,  ( (v2_xxreal_0(8) & m2_subset_1(8, k1_numbers, k5_numbers))  &  (m1_subset_1(8, k5_numbers) & m1_subset_1(8, k1_numbers)) ) ).
+- fof(spc6_numerals, axiom,  ( (v2_xxreal_0(6) & m2_subset_1(6, k1_numbers, k5_numbers))  &  (m1_subset_1(6, k5_numbers) & m1_subset_1(6, k1_numbers)) ) ).
+- fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).

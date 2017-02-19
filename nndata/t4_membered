@@ -1,0 +1,7 @@
+C fof(t4_membered, axiom,  (! [A] :  (v4_membered(A) => r1_tarski(A, k3_numbers)) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d4_membered, axiom,  (! [A] :  (v4_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_rat_1(B)) ) ) ) ).
++ fof(d2_rat_1, axiom,  (! [A] :  (v1_rat_1(A) <=> r2_hidden(A, k3_numbers)) ) ).
+- fof(l26_numbers, axiom, r1_tarski(k4_numbers, k3_numbers)).
+- fof(d8_xboole_0, axiom,  (! [A] :  (! [B] :  (r2_xboole_0(A, B) <=>  (r1_tarski(A, B) &  ~ (A=B) ) ) ) ) ).
+- fof(l13_numbers, axiom, r1_tarski(k3_numbers, k1_numbers)).

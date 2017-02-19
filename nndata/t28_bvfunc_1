@@ -1,0 +1,9 @@
+C fof(t28_bvfunc_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k6_margrel1) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k6_margrel1)))) )  => r2_bvfunc_1(A, B, k10_eqrel_1(A))) ) ) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(d15_bvfunc_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k6_margrel1) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k6_margrel1)))) )  =>  (! [C] :  (m1_eqrel_1(C, A) =>  (r2_bvfunc_1(A, B, C) <=>  (! [D] :  (r2_hidden(D, C) =>  (! [E] :  (! [F] :  ( (r2_hidden(E, D) & r2_hidden(F, D))  => k1_funct_1(B, E)=k1_funct_1(B, F)) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t1_relset_2, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, k10_eqrel_1(B)) <=>  (? [C] :  (A=k1_tarski(C) & r2_hidden(C, B)) ) ) ) ) ).
++ fof(dt_k10_eqrel_1, axiom,  (! [A] : m1_eqrel_1(k10_eqrel_1(A), A)) ).
+- fof(t32_partit1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_eqrel_1(B, A) =>  (r1_setfam_1(B, k6_partit1(A)) & r1_setfam_1(k10_eqrel_1(A), B)) ) ) ) ) ).
+- fof(t23_relset_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (k7_relset_1(k9_setfam_1(A), k9_setfam_1(B), k4_relset_2(B, A, D), k10_eqrel_1(C))=k1_xboole_0 <=> C=k1_xboole_0) ) ) ) ) ) ) ).
+- fof(idempotence_k5_bvfunc_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k6_margrel1) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k6_margrel1)))) )  &  (v1_funct_1(C) &  (v1_funct_2(C, A, k6_margrel1) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k6_margrel1)))) ) ) )  => k5_bvfunc_1(A, B, B)=B) ) ).
+- fof(d5_eqrel_1, axiom,  (! [A] : k10_eqrel_1(A)=k8_eqrel_1(A, k6_partfun1(A))) ).

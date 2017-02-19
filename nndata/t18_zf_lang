@@ -1,0 +1,5 @@
+C fof(t18_zf_lang, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (v2_zf_lang(A) => k1_funct_1(A, 1)=k6_numbers) ) ) ).
++ fof(d10_zf_lang, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (v2_zf_lang(A) <=>  (? [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) &  (? [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) & A=k4_zf_lang(B, C)) ) ) ) ) ) ) ).
++ fof(t15_zf_lang, axiom,  (! [A] :  (m2_subset_1(A, k5_numbers, k1_zf_lang) =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (k1_funct_1(k4_zf_lang(A, B), 1)=k6_numbers & k1_funct_1(k5_zf_lang(A, B), 1)=1) ) ) ) ) ).
+- fof(t9_zf_lang, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  ~ ( ( ~ (v2_zf_lang(A))  &  ( ~ (v3_zf_lang(A))  &  ( ~ (v4_zf_lang(A))  &  ( ~ (v5_zf_lang(A))  &  ~ (v6_zf_lang(A)) ) ) ) ) ) ) ) ).
+- fof(d15_zf_lang, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (v7_zf_lang(A) <=>  (v2_zf_lang(A) | v3_zf_lang(A)) ) ) ) ).

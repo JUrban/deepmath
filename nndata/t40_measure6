@@ -1,0 +1,13 @@
+C fof(t40_measure6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_numbers)) =>  (r2_hidden(A, B) <=> r2_hidden(k4_xcmplx_0(A), k4_measure6(B))) ) ) ) ) ).
++ fof(redefinition_k1_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_binop_2(A)=k4_xcmplx_0(A)) ) ).
++ fof(redefinition_k4_measure6, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => k4_measure6(A)=k5_member_1(A)) ) ).
++ fof(t11_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (r2_hidden(B, A) <=> r2_hidden(k1_binop_2(B), k5_member_1(A))) ) ) ) ) ).
++ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
+- fof(l19_xreal_0, axiom,  ~ (r2_hidden(k4_xcmplx_0(1), k2_arytm_2)) ).
+- fof(involutiveness_k4_measure6, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => k4_measure6(k4_measure6(A))=A) ) ).
+- fof(dt_k4_measure6, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => m1_subset_1(k4_measure6(A), k1_zfmisc_1(k1_numbers))) ) ).
+- fof(t5_arytm_2, axiom,  (! [A] :  (m1_subset_1(A, k2_arytm_2) =>  (! [B] :  (m1_subset_1(B, k2_arytm_2) =>  (k7_arytm_2(A, B)=k11_arytm_3 => A=k11_arytm_3) ) ) ) ) ).
+- fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
+- fof(t20_arytm_2, axiom,  (r2_hidden(k11_arytm_3, k2_arytm_2) & r2_hidden(k12_arytm_3, k2_arytm_2)) ).

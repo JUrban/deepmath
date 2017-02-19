@@ -1,0 +1,9 @@
+C fof(t2_interva1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  ( ~ (k1_interva1(A, B, C)=k1_xboole_0)  =>  (r2_hidden(B, k1_interva1(A, B, C)) & r2_hidden(C, k1_interva1(A, B, C))) ) ) ) ) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t1_interva1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (! [D] :  (r2_hidden(D, k1_interva1(A, B, C)) <=>  (r1_tarski(B, D) & r1_tarski(D, C)) ) ) ) ) ) ) ) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
++ fof(t7_xboole_0, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ) ).
+- fof(d1_interva1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k1_interva1(A, B, C)=a_3_0_interva1(A, B, C)) ) ) ) ) ).
+- fof(fraenkel_a_3_0_interva1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(B)) & m1_subset_1(D, k1_zfmisc_1(B)))  =>  (r2_hidden(A, a_3_0_interva1(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, k1_zfmisc_1(B)) &  (A=E &  (r1_tarski(C, E) & r1_tarski(E, D)) ) ) ) ) ) ) ).
+- fof(l8_tex_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=> m1_subset_1(A, k1_zfmisc_1(B))) ) ) ).
+- fof(dt_k1_interva1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k1_interva1(A, B, C), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ).

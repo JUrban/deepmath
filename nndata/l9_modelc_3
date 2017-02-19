@@ -1,0 +1,5 @@
+C fof(l9_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  ( (v1_modelc_2(B) & m2_finseq_1(B, k5_numbers))  =>  (r2_modelc_2(A, B) => m1_subset_1(k1_tarski(A), k1_zfmisc_1(k13_modelc_2(B)))) ) ) ) ) ).
++ fof(t41_subset_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(k1_tarski(A), k1_zfmisc_1(B))) ) ) ).
++ fof(t45_modelc_2, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  ( (v1_modelc_2(B) & m2_finseq_1(B, k5_numbers))  =>  (r2_hidden(A, k13_modelc_2(B)) <=> r2_modelc_2(A, B)) ) ) ) ) ).
+- fof(d24_modelc_2, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (B=k13_modelc_2(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  ( (v1_modelc_2(D) & m2_finseq_1(D, k5_numbers))  &  (D=C & r2_modelc_2(D, A)) ) ) ) ) ) ) ) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).

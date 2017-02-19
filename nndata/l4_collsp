@@ -1,0 +1,11 @@
+C fof(l4_collsp, axiom, r2_hidden(1, k6_domain_1(k5_numbers, 1))).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
+- fof(l19_zf_fund1, axiom,  (! [A] :  (m2_subset_1(A, k5_numbers, k1_zf_lang) => k4_zf_fund1(k6_domain_1(k1_zf_lang, A))=k6_domain_1(k5_numbers, k3_zf_fund1(A))) ) ).
+- fof(l20_zf_fund1, axiom,  (! [A] :  (m2_subset_1(A, k5_numbers, k1_zf_lang) =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) => k4_zf_fund1(k7_domain_1(k1_zf_lang, A, B))=k7_domain_1(k5_numbers, k3_zf_fund1(A), k3_zf_fund1(B))) ) ) ) ).
+- fof(fraenkel_a_2_3_orders_2, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(B))  &  (v3_orders_2(B) &  (v4_orders_2(B) &  (v5_orders_2(B) & l1_orders_2(B)) ) ) )  & m1_subset_1(C, u1_struct_0(B)))  =>  (r2_hidden(A, a_2_3_orders_2(B, C)) <=>  (? [D] :  (m1_subset_1(D, u1_struct_0(B)) &  (A=D &  (! [E] :  (m1_subset_1(E, u1_struct_0(B)) =>  (r2_hidden(E, k6_domain_1(u1_struct_0(B), C)) => r2_orders_2(B, D, E)) ) ) ) ) ) ) ) ) ).
+- fof(fraenkel_a_2_1_goedelcp, axiom,  (! [A, B, C] :  ( (m1_qc_lang1(B) & m2_subset_1(C, k9_qc_lang1(B), k3_cqc_lang(B)))  =>  (r2_hidden(A, a_2_1_goedelcp(B, C)) <=>  (? [D] :  (m2_subset_1(D, k9_qc_lang1(B), k3_cqc_lang(B)) &  (A=k24_qc_lang1(B, D) & r2_hidden(D, k6_domain_1(k3_cqc_lang(B), C))) ) ) ) ) ) ).
+- fof(t11_calcul_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  ( ~ (r1_xxreal_0(A, k6_numbers))  => k3_finseq_1(k14_finseq_1(k4_subset_1(k5_numbers, k2_finseq_1(B), k6_domain_1(k5_numbers, k2_nat_1(B, A)))))=k2_nat_1(B, 1)) ) ) ) ) ).

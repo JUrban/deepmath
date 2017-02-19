@@ -1,0 +1,15 @@
+C fof(t68_card_1, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(k1_card_1(A), k1_card_1(B)) & k6_subset_1(B, A)=k1_xboole_0) ) ) ) ).
++ fof(t11_card_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_ordinal1(k1_card_1(A), k1_card_1(B))) ) ) ).
++ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(t37_xboole_1, axiom,  (! [A] :  (! [B] :  (k4_xboole_0(A, B)=k1_xboole_0 <=> r1_tarski(A, B)) ) ) ).
++ fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
++ fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
++ fof(t5_ordinal1, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & r1_tarski(B, A)) ) ) ) ).
+- fof(t14_card_1, axiom,  (! [A] : r2_hidden(k1_card_1(A), k1_card_1(k1_zfmisc_1(A)))) ).
+- fof(t25_card_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_zfmisc_1(A), B) =>  (r2_hidden(k1_card_1(A), k1_card_1(B)) &  ~ (r2_wellord2(A, B)) ) ) ) ) ).
+- fof(t42_card_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r2_hidden(k1_card_1(A), k1_card_1(B)) <=> r2_hidden(A, B)) ) ) ) ) ).
+- fof(reflexivity_r2_wellord2, axiom,  (! [A, B] : r2_wellord2(A, A)) ).
+- fof(d2_card_1, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  (B=k1_card_1(A) <=> r2_wellord2(A, B)) ) ) ) ).
+- fof(cc3_card_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_card_1(A)) ) ).
+- fof(t16_sysrel, axiom,  (! [A] :  (! [B] : k6_subset_1(k4_relat_1(k6_subset_1(A, B)), k4_relat_1(A))=k1_xboole_0) ) ).

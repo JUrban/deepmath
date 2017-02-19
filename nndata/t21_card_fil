@@ -1,0 +1,21 @@
+C fof(t21_card_fil, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  =>  (! [B] :  (m1_card_fil(B, A) =>  ( (v1_card_fil(B, A) & v3_card_fil(B, A))  => r1_tarski(k4_card_fil(A), B)) ) ) ) ) ).
++ fof(d10_card_fil, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  => k4_card_fil(A)=a_1_1_card_fil(A)) ) ).
++ fof(fraenkel_a_1_1_card_fil, axiom,  (! [A, B] :  ( ~ (v1_finset_1(B))  =>  (r2_hidden(A, a_1_1_card_fil(B)) <=>  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(B)) &  (A=C & r2_hidden(k1_card_1(k6_subset_1(B, C)), k1_card_1(B))) ) ) ) ) ) ).
++ fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
++ fof(d5_card_fil, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_card_fil(B, A) =>  (v1_card_fil(B, A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (r2_hidden(C, B) => k1_card_1(C)=k1_card_1(A)) ) ) ) ) ) ) ) ).
++ fof(t18_card_fil, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (r2_hidden(B, k4_card_fil(A)) <=> r2_hidden(k1_card_1(k6_subset_1(A, B)), k1_card_1(A))) ) ) ) ) ).
++ fof(dt_k6_subset_1, axiom,  (! [A, B] : m1_subset_1(k6_subset_1(A, B), k1_zfmisc_1(A))) ).
++ fof(d7_card_fil, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_card_fil(B, A) =>  (v3_card_fil(B, A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (r2_hidden(C, B) | r2_hidden(k6_subset_1(A, C), B)) ) ) ) ) ) ) ) ).
++ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(t20_card_fil, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  =>  (! [B] :  (m1_card_fil(B, A) =>  (r1_tarski(k4_card_fil(A), B) => v1_card_fil(B, A)) ) ) ) ) ).
+- fof(t17_card_fil, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_card_fil(B, A) =>  (? [C] :  (m1_card_fil(C, A) &  (r1_tarski(B, C) & v3_card_fil(C, A)) ) ) ) ) ) ) ).
+- fof(dt_k4_card_fil, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  => m1_card_fil(k4_card_fil(A), A)) ) ).
+- fof(d11_card_fil, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  => k5_card_fil(A)=k1_card_fil(A, k4_card_fil(A))) ) ).
+- fof(s1_card_fil__e3_31_1__card_fil, axiom,  (! [A, B] :  ( ( ~ (v1_finset_1(A))  & m1_subset_1(B, k1_zfmisc_1(A)))  =>  (r2_hidden(B, a_1_1_card_fil(A)) => r2_hidden(k1_card_1(k6_subset_1(A, B)), k1_card_1(A))) ) ) ).
+- fof(d1_card_fil, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))))  =>  (m1_card_fil(B, A) <=>  ( ~ (r2_hidden(k1_xboole_0, B))  &  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) =>  ( ( (r2_hidden(C, B) & r2_hidden(D, B))  => r2_hidden(k9_subset_1(A, C, D), B))  &  ( (r2_hidden(C, B) & r1_tarski(C, D))  => r2_hidden(D, B)) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(dt_m1_card_fil, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_card_fil(B, A) =>  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ) ) ).
+- fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
+- fof(s1_card_fil__e3_26_1__card_fil, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(A))  =>  (r2_hidden(B, a_1_0_card_fil(A)) => m1_card_fil(B, A)) ) ) ).
+- fof(fraenkel_a_1_0_card_fil, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  =>  (r2_hidden(A, a_1_0_card_fil(B)) <=>  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(B))) &  (A=C & m1_card_fil(C, B)) ) ) ) ) ) ).

@@ -1,0 +1,11 @@
+C fof(t4_realset1, axiom,  (? [A] :  ( ~ (v1_xboole_0(A))  &  (! [B] :  (m1_subset_1(B, A) =>  ~ (v1_xboole_0(k6_subset_1(A, k6_domain_1(A, B)))) ) ) ) ) ).
++ fof(cc2_zfmisc_1, axiom,  (! [A] :  ( ~ (v1_zfmisc_1(A))  =>  ~ (v1_xboole_0(A)) ) ) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(t3_realset1, axiom,  (! [A] :  ( ~ (v1_zfmisc_1(A))  <=>  (! [B] :  ~ (v1_xboole_0(k6_subset_1(A, k1_tarski(B)))) ) ) ) ).
++ fof(rc2_zfmisc_1, axiom,  (? [A] :  ~ (v1_zfmisc_1(A)) ) ).
++ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
+- fof(dt_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m1_subset_1(k6_domain_1(A, B), k1_zfmisc_1(A))) ) ).
+- fof(t59_funct_5, axiom,  (! [A] :  (! [B] : k9_funct_2(A, k1_tarski(B))=k6_domain_1(k1_zfmisc_1(k2_zfmisc_1(A, k1_tarski(B))), k7_funcop_1(A, B))) ) ).
+- fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
+- fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
+- fof(d10_zfmisc_1, axiom,  (! [A] :  (v1_zfmisc_1(A) <=>  (! [B] :  (! [C] :  ( (r2_hidden(B, A) & r2_hidden(C, A))  => B=C) ) ) ) ) ).

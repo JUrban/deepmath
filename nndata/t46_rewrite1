@@ -1,0 +1,5 @@
+C fof(t46_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  ( ~ (r2_hidden(B, k1_relat_1(A)))  => r9_rewrite1(A, B)) ) ) ) ).
++ fof(t35_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  ( ~ (r2_hidden(B, k1_relat_1(A)))  => r4_rewrite1(A, B, B)) ) ) ) ).
++ fof(d11_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r9_rewrite1(A, B) <=>  (? [C] : r4_rewrite1(A, B, C)) ) ) ) ) ).
+- fof(t18_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) =>  (B=C |  (r2_hidden(B, k1_relat_1(A)) & r2_hidden(C, k1_relat_1(A))) ) ) ) ) ) ) ).
+- fof(t1_wellset1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (r2_hidden(A, k1_relat_1(B)) <=>  ~ ( (! [C] :  ( ~ (r2_hidden(k4_tarski(A, C), B))  &  ~ (r2_hidden(k4_tarski(C, A), B)) ) ) ) ) ) ) ) ).

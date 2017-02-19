@@ -1,0 +1,11 @@
+C fof(t97_funct_7, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (! [C] :  (v7_ordinal1(C) => k3_finseq_1(k2_funct_7(A, C, B))=k3_finseq_1(A)) ) ) ) ) ).
++ fof(fc8_funct_7, axiom,  (! [A, B, C] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v1_relat_1(k2_funct_7(A, B, C)) &  (v1_funct_1(k2_funct_7(A, B, C)) & v1_finseq_1(k2_funct_7(A, B, C))) ) ) ) ).
++ fof(d3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (B=k3_finseq_1(A) <=> k2_finseq_1(B)=k9_xtuple_0(A)) ) ) ) ) ).
++ fof(dt_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => m2_subset_1(k3_finseq_1(A), k1_numbers, k5_numbers)) ) ).
++ fof(t30_funct_7, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] : k9_xtuple_0(k2_funct_7(A, C, B))=k9_xtuple_0(A)) ) ) ) ).
++ fof(dt_k2_funct_7, axiom,  (! [A, B, C] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_relat_1(k2_funct_7(A, B, C)) & v1_funct_1(k2_funct_7(A, B, C))) ) ) ).
+- fof(d3_funct_7, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k9_xtuple_0(A)) => k2_funct_7(A, B, C)=k1_funct_4(A, k16_funcop_1(B, C)))  &  ( ~ (r2_hidden(B, k9_xtuple_0(A)))  => k2_funct_7(A, B, C)=A) ) ) ) ) ) ).
+- fof(t32_funct_7, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  (! [D] :  ( ~ (C=D)  => k1_funct_1(k2_funct_7(A, C, B), D)=k1_funct_1(A, D)) ) ) ) ) ) ).
+- fof(t83_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  (! [D] :  ( ~ (B=D)  => k1_funct_1(k1_funct_4(A, k16_funcop_1(B, C)), D)=k1_funct_1(A, D)) ) ) ) ) ) ).
+- fof(t31_funct_7, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) => k1_funct_1(k2_funct_7(A, C, B), C)=B) ) ) ) ) ).
+- fof(t92_funct_7, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(B, D) | k5_relat_1(k2_funct_7(A, B, C), D)=k5_relat_1(A, D)) ) ) ) ) ) ).

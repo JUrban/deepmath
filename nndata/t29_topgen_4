@@ -1,0 +1,9 @@
+C fof(t29_topgen_4, axiom,  (! [A] : k2_setfam_1(k1_xboole_0, A)=k1_xboole_0) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(d4_setfam_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_setfam_1(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (? [E] :  (? [F] :  (r2_hidden(E, A) &  (r2_hidden(F, B) & D=k2_xboole_0(E, F)) ) ) ) ) ) ) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
++ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
+- fof(redefinition_k3_topgen_4, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) & m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(A))))  => k3_topgen_4(A, B, C)=k2_setfam_1(B, C)) ) ).
+- fof(commutativity_k2_setfam_1, axiom,  (! [A, B] : k2_setfam_1(A, B)=k2_setfam_1(B, A)) ).
+- fof(t28_topgen_4, axiom,  (! [A] :  (! [B] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( ~ (B=k1_xboole_0)  &  ~ (k2_xboole_0(k3_tarski(A), k3_tarski(B))=k3_tarski(k2_setfam_1(A, B))) ) ) ) ) ) ).
+- fof(t29_setfam_1, axiom,  (! [A] :  (! [B] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( ~ (B=k1_xboole_0)  &  ~ (r1_tarski(k2_xboole_0(k1_setfam_1(A), k1_setfam_1(B)), k1_setfam_1(k2_setfam_1(A, B)))) ) ) ) ) ) ).

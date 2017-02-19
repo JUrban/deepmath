@@ -1,0 +1,15 @@
+C fof(t11_finseq_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( ~ (r1_xxreal_0(B, A))  => r2_hidden(k1_nat_1(A, 1), k2_finseq_1(B))) ) ) ) ) ).
++ fof(t4_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => r2_hidden(k1_nat_1(A, 1), k2_finseq_1(k1_nat_1(A, 1)))) ) ).
++ fof(fc7_ordinal1, axiom,  (! [A] :  ( (v3_ordinal1(A) & v7_ordinal1(A))  => v7_ordinal1(k1_ordinal1(A))) ) ).
++ fof(cc6_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) => v3_ordinal1(A)) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(t5_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) <=> r1_tarski(k2_finseq_1(A), k2_finseq_1(B))) ) ) ) ) ).
++ fof(d2_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) => k1_ordinal1(A)=k1_nat_1(A, 1)) ) ).
++ fof(t13_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( ~ (r1_xxreal_0(k1_nat_1(B, 1), A))  <=> r1_xxreal_0(A, B)) ) ) ) ) ).
+- fof(t8_finseq_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ (r2_hidden(k1_nat_1(A, 1), k2_finseq_1(A))) ) ) ).
+- fof(t3_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (A=k6_numbers | r2_hidden(A, k2_finseq_1(A))) ) ) ).
+- fof(t9_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => k2_xboole_0(k2_finseq_1(A), k1_tarski(k1_nat_1(A, 1)))=k2_finseq_1(k1_nat_1(A, 1))) ) ).
+- fof(t45_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) => r2_hidden(A, k1_nat_1(A, 1))) ) ).
+- fof(t5_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ (r1_xxreal_0(k1_nat_1(A, 1), k6_numbers)) ) ) ).
+- fof(t2_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) => r1_xxreal_0(k6_numbers, A)) ) ).
+- fof(t1_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r2_hidden(A, k2_finseq_1(B)) <=>  (r1_xxreal_0(1, A) & r1_xxreal_0(A, B)) ) ) ) ) ) ).

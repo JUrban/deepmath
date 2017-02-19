@@ -1,0 +1,7 @@
+C fof(t1_scmyciel, axiom,  (! [A] :  (! [B] :  ~ (r2_hidden(k4_tarski(A, B), B)) ) ) ).
++ fof(t31_circcmb3, axiom,  (! [A] :  (! [B] :  (r2_hidden(k6_classes1(A), k6_classes1(k4_tarski(A, B))) & r2_hidden(k6_classes1(B), k6_classes1(k4_tarski(A, B)))) ) ) ).
++ fof(t68_classes1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => r2_hidden(k6_classes1(A), k6_classes1(B))) ) ) ).
++ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
+- fof(d3_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), A) => r2_hidden(k4_tarski(C, D), B)) ) ) ) ) ) ) ).
+- fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
+- fof(t38_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, k4_xboole_0(B, A)) => A=k1_xboole_0) ) ) ).

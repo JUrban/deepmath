@@ -1,0 +1,5 @@
+C fof(t5_trees_1, axiom,  (! [A] :  (! [B] :  (r3_xboole_0(k9_finseq_1(A), k9_finseq_1(B)) => A=B) ) ) ).
++ fof(t3_trees_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k9_finseq_1(A), k9_finseq_1(B)) <=> A=B) ) ) ).
++ fof(d9_xboole_0, axiom,  (! [A] :  (! [B] :  (r3_xboole_0(A, B) <=>  (r1_tarski(A, B) | r1_tarski(B, A)) ) ) ) ).
+- fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
+- fof(l5_trees_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (v1_finset_1(B) =>  ( (r1_tarski(A, B) & k5_card_1(A)=k5_card_1(B))  => A=B) ) ) ) ) ).

@@ -1,0 +1,7 @@
+C fof(t17_membered, axiom,  (! [A] :  (v5_membered(A) =>  ( (! [B] :  (v1_int_1(B) => r2_hidden(B, A)) )  => A=k4_numbers) ) ) ).
++ fof(d2_int_1, axiom,  (! [A] :  (v1_int_1(A) <=> r2_hidden(A, k4_numbers)) ) ).
++ fof(d5_membered, axiom,  (! [A] :  (v5_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_int_1(B)) ) ) ) ).
++ fof(d1_int_1, axiom,  (! [A] :  (A=k4_numbers <=>  (! [B] :  (r2_hidden(B, A) <=>  ~ ( (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  ( ~ (B=C)  &  ~ (B=k1_real_1(C)) ) ) ) ) ) ) ) ) ).
+- fof(antisymmetry_r2_xboole_0, axiom,  (! [A, B] :  (r2_xboole_0(A, B) =>  ~ (r2_xboole_0(B, A)) ) ) ).
+- fof(t7_numbers, axiom, r2_xboole_0(k5_numbers, k4_numbers)).
+- fof(t27_numbers, axiom,  ~ (k5_numbers=k4_numbers) ).

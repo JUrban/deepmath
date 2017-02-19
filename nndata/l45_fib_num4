@@ -1,0 +1,27 @@
+C fof(l45_fib_num4, axiom,  ~ (r1_xxreal_0(k3_xcmplx_0(2, k7_square_1(5)), k3_xcmplx_0(2, 1))) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(spc5_numerals, axiom,  ( (v2_xxreal_0(5) & m2_subset_1(5, k1_numbers, k5_numbers))  &  (m1_subset_1(5, k5_numbers) & m1_subset_1(5, k1_numbers)) ) ).
++ fof(dt_k7_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k7_square_1(A), k1_numbers)) ) ).
++ fof(t68_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  &  ( ~ (r1_xxreal_0(C, B))  & r1_xxreal_0(k3_xcmplx_0(C, A), k3_xcmplx_0(B, A))) ) ) ) ) ) ) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(spc0_boole, axiom, v1_xboole_0(0)).
++ fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r2_r0, axiom,  ~ (r1_xxreal_0(2, 0)) ).
++ fof(l40_fib_num4, axiom,  ~ (r1_xxreal_0(k7_square_1(5), 1)) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
+- fof(rqRealMult__k3_xcmplx_0__r2_r1_r2, axiom, k3_xcmplx_0(2, 1)=2).
+- fof(l18_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  &  ( ~ (r1_xxreal_0(C, B))  & r1_xxreal_0(k3_xcmplx_0(C, A), k3_xcmplx_0(B, A))) ) ) ) ) ) ) ) ) ).
+- fof(t47_series_5, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  ( (! [B] :  (m1_subset_1(B, k5_numbers) => k1_seq_1(A, B)=k13_complex1(1, k7_square_1(k2_nat_1(B, 1)))) )  =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  ~ (r1_xxreal_0(k3_xcmplx_0(2, k7_square_1(k2_nat_1(B, 1))), k1_seq_1(k3_series_1(A), B))) ) ) ) ) ) ).
+- fof(s1_nat_1__e5_69__series_5, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  ( ( ~ (r1_xxreal_0(k3_xcmplx_0(2, k7_square_1(k2_nat_1(k6_numbers, 1))), k1_seq_1(k3_series_1(A), k6_numbers)))  &  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  ( ~ (r1_xxreal_0(k3_xcmplx_0(2, k7_square_1(k2_nat_1(B, 1))), k1_seq_1(k3_series_1(A), B)))  =>  ~ (r1_xxreal_0(k3_xcmplx_0(2, k7_square_1(k2_nat_1(k2_nat_1(B, 1), 1))), k1_seq_1(k3_series_1(A), k2_nat_1(B, 1)))) ) ) ) )  =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  ~ (r1_xxreal_0(k3_xcmplx_0(2, k7_square_1(k2_nat_1(B, 1))), k1_seq_1(k3_series_1(A), B))) ) ) ) ) ) ).
+- fof(rqRealAdd__k2_xcmplx_0__r2_r1_r3, axiom, k2_xcmplx_0(2, 1)=3).
+- fof(l23_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(k6_numbers, C))  => r1_xxreal_0(k3_xcmplx_0(A, C), k3_xcmplx_0(B, C))) ) ) ) ) ) ) ).
+- fof(l91_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(C, k6_numbers))  => r1_xxreal_0(k3_xcmplx_0(B, C), k3_xcmplx_0(A, C))) ) ) ) ) ) ) ).
+- fof(l4_polyeq_2, axiom, 3=k2_xcmplx_0(k3_xcmplx_0(2, 1), 1)).
+- fof(l13_series_5, axiom,  (! [A] :  ( (v1_xreal_0(A) & v2_xxreal_0(A))  =>  (! [B] :  ( (v1_xreal_0(B) & v2_xxreal_0(B))  =>  (! [C] :  ( (v1_xreal_0(C) & v2_xxreal_0(C))  => r1_xxreal_0(k3_xcmplx_0(2, k3_square_1(B)), k8_complex1(k4_square_1(k13_complex1(k3_xcmplx_0(A, B), C)), k4_square_1(k13_complex1(k3_xcmplx_0(B, C), A))))) ) ) ) ) ) ).
+- fof(l13_fib_num4, axiom, k3_power(k2_fib_num, 6)=k6_xcmplx_0(9, k3_xcmplx_0(4, k7_square_1(5)))).
+- fof(l17_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(k6_numbers, C))  => r1_xxreal_0(k3_xcmplx_0(A, C), k3_xcmplx_0(B, C))) ) ) ) ) ) ) ).
+- fof(l11_series_5, axiom,  (! [A] :  ( (v1_xreal_0(A) & v2_xxreal_0(A))  =>  (! [B] :  ( (v1_xreal_0(B) & v2_xxreal_0(B))  => r1_xxreal_0(k3_xcmplx_0(k3_xcmplx_0(k13_complex1(1, 2), k7_square_1(3)), k2_xcmplx_0(A, B)), k6_square_1(k2_xcmplx_0(k2_xcmplx_0(k3_square_1(A), k3_xcmplx_0(A, B)), k3_square_1(B))))) ) ) ) ).
+- fof(s8_nat_1__e11_78__series_5, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  ( ( ~ (r1_xxreal_0(k1_seq_1(k1_series_3(A), 1), k3_xcmplx_0(k13_complex1(1, 2), k7_square_1(k2_nat_1(k4_nat_1(2, 1), 3)))))  &  (! [B] :  (v7_ordinal1(B) =>  ( (r1_xxreal_0(1, B) &  ~ (r1_xxreal_0(k1_seq_1(k1_series_3(A), B), k3_xcmplx_0(k13_complex1(1, 2), k7_square_1(k2_nat_1(k4_nat_1(2, B), 3))))) )  =>  ~ (r1_xxreal_0(k1_seq_1(k1_series_3(A), k1_nat_1(B, 1)), k3_xcmplx_0(k13_complex1(1, 2), k7_square_1(k2_nat_1(k4_nat_1(2, k1_nat_1(B, 1)), 3))))) ) ) ) )  =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(1, B) =>  ~ (r1_xxreal_0(k1_seq_1(k1_series_3(A), B), k3_xcmplx_0(k13_complex1(1, 2), k7_square_1(k2_nat_1(k4_nat_1(2, B), 3))))) ) ) ) ) ) ) ).

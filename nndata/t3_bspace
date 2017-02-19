@@ -1,0 +1,41 @@
+C fof(t3_bspace, axiom, k2_struct_0(k2_bspace)=k2_tarski(k1_xboole_0, 1)).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
++ fof(dt_g6_algstr_0, axiom,  (! [A, B, C, D, E] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(D, A) & m1_subset_1(E, A)) ) )  =>  (v36_algstr_0(g6_algstr_0(A, B, C, D, E)) & l6_algstr_0(g6_algstr_0(A, B, C, D, E))) ) ) ).
++ fof(d12_int_3, axiom,  (! [A] :  (v7_ordinal1(A) => k9_int_3(A)=g6_algstr_0(k7_card_1(A), k3_gr_cy_1(A), k7_int_3(A), k1_funct_7(1, k7_card_1(A)), k1_funct_7(k6_numbers, k7_card_1(A)))) ) ).
++ fof(d2_bspace, axiom, k2_bspace=k9_int_3(2)).
++ fof(dt_l2_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => l1_struct_0(A)) ) ).
++ fof(free_g6_algstr_0, axiom,  (! [A, B, C, D, E] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(D, A) & m1_subset_1(E, A)) ) )  =>  (! [F, G, H, I, J] :  (g6_algstr_0(A, B, C, D, E)=g6_algstr_0(F, G, H, I, J) =>  (A=F &  (B=G &  (C=H &  (D=I & E=J) ) ) ) ) ) ) ) ).
++ fof(d6_card_1, axiom,  (! [A] :  (v7_ordinal1(A) => k6_card_1(A)=A) ) ).
++ fof(dt_k7_int_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_funct_1(k7_int_3(A)) &  (v1_funct_2(k7_int_3(A), k2_zfmisc_1(k7_card_1(A), k7_card_1(A)), k7_card_1(A)) & m1_subset_1(k7_int_3(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k7_card_1(A), k7_card_1(A)), k7_card_1(A))))) ) ) ) ).
++ fof(redefinition_k7_card_1, axiom,  (! [A] :  (v7_ordinal1(A) => k7_card_1(A)=k6_card_1(A)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
++ fof(dt_k1_funct_7, axiom,  (! [A, B] : m1_subset_1(k1_funct_7(A, B), B)) ).
++ fof(t50_card_1, axiom, 2=k2_tarski(k1_xboole_0, 1)).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(d3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => k2_struct_0(A)=u1_struct_0(A)) ) ).
++ fof(dt_k3_gr_cy_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_funct_1(k3_gr_cy_1(A)) &  (v1_funct_2(k3_gr_cy_1(A), k2_zfmisc_1(k7_card_1(A), k7_card_1(A)), k7_card_1(A)) & m1_subset_1(k3_gr_cy_1(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k7_card_1(A), k7_card_1(A)), k7_card_1(A))))) ) ) ) ).
++ fof(abstractness_v36_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (v36_algstr_0(A) => A=g6_algstr_0(u1_struct_0(A), u1_algstr_0(A), u2_algstr_0(A), u3_struct_0(A), u2_struct_0(A))) ) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(dt_k2_bspace, axiom,  ( ~ (v2_struct_0(k2_bspace))  &  ( ~ (v6_struct_0(k2_bspace))  &  (v13_algstr_0(k2_bspace) &  (v33_algstr_0(k2_bspace) &  (v3_group_1(k2_bspace) &  (v5_group_1(k2_bspace) &  (v4_vectsp_1(k2_bspace) &  (v5_vectsp_1(k2_bspace) &  (v2_rlvect_1(k2_bspace) &  (v3_rlvect_1(k2_bspace) &  (v4_rlvect_1(k2_bspace) & l6_algstr_0(k2_bspace)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t51_trees_1, axiom, k2_trees_1(1)=k2_tarski(k1_xboole_0, k12_finseq_1(k5_numbers, k6_numbers))).
+- fof(d2_tdlat_3, axiom,  (! [A] :  (l1_pre_topc(A) =>  (v2_tdlat_3(A) <=> u1_pre_topc(A)=k2_tarski(k1_xboole_0, u1_struct_0(A))) ) ) ).
+- fof(d1_tdlat_3, axiom,  (! [A] :  (l1_pre_topc(A) =>  (v1_tdlat_3(A) <=> u1_pre_topc(A)=k9_setfam_1(u1_struct_0(A))) ) ) ).
+- fof(t11_tdlat_3, axiom,  (! [A] :  (l1_pre_topc(A) =>  ( (r2_hidden(k1_xboole_0, u1_pre_topc(A)) &  (r2_hidden(u1_struct_0(A), u1_pre_topc(A)) & k9_setfam_1(u1_struct_0(A))=k2_tarski(k1_xboole_0, u1_struct_0(A))) )  =>  (v1_tdlat_3(A) & v2_tdlat_3(A)) ) ) ) ).
+- fof(t24_zfmisc_1, axiom,  (! [A] : k1_zfmisc_1(k1_tarski(A))=k2_tarski(k1_xboole_0, k1_tarski(A))) ).
+- fof(t9_yellow_9, axiom,  (! [A] :  ( (v13_struct_0(A, 1) &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (u1_pre_topc(A)=k9_setfam_1(u1_struct_0(A)) &  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (u1_struct_0(A)=k6_domain_1(u1_struct_0(A), B) & u1_pre_topc(A)=k2_tarski(k1_xboole_0, k6_domain_1(u1_struct_0(A), B))) ) ) ) ) ) ).
+- fof(l32_waybel_9, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_zfmisc_1(k6_domain_1(k5_numbers, k6_numbers)))) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k6_domain_1(k5_numbers, k6_numbers), k6_domain_1(k5_numbers, k6_numbers)))) =>  ( (A=k2_tarski(k1_xboole_0, k6_domain_1(k5_numbers, k6_numbers)) & B=k6_domain_1(k2_zfmisc_1(k5_numbers, k5_numbers), k1_domain_1(k5_numbers, k5_numbers, k6_numbers, k6_numbers)))  =>  (v3_orders_2(g1_waybel_9(k6_domain_1(k5_numbers, k6_numbers), B, A)) &  (v1_tdlat_3(g1_waybel_9(k6_domain_1(k5_numbers, k6_numbers), B, A)) &  (v8_struct_0(g1_waybel_9(k6_domain_1(k5_numbers, k6_numbers), B, A)) & v13_struct_0(g1_waybel_9(k6_domain_1(k5_numbers, k6_numbers), B, A), 1)) ) ) ) ) ) ) ) ).
+- fof(t6_modal_1, axiom, k2_trees_1(1)=k2_tarski(k1_xboole_0, k12_finseq_1(k5_numbers, k6_numbers))).
+- fof(s1_partfun1__e8_5__classes2, axiom,  (! [A, B] :  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  &  (k9_xtuple_0(C)=k2_tarski(k1_xboole_0, k1_tarski(A)) &  (! [D] :  (r2_hidden(D, k2_tarski(k1_xboole_0, k1_tarski(A))) =>  ( (D=k1_xboole_0 => k1_funct_1(C, D)=B)  &  ( ~ (D=k1_xboole_0)  => k1_funct_1(C, D)=A) ) ) ) ) ) ) ) ).
+- fof(t10_tdlat_3, axiom,  (! [A] :  (l1_pre_topc(A) =>  ( (v1_tdlat_3(A) & v2_tdlat_3(A))  => k9_setfam_1(u1_struct_0(A))=k2_tarski(k1_xboole_0, u1_struct_0(A))) ) ) ).
+- fof(t14_tdlat_3, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (k9_setfam_1(u1_struct_0(A))=k2_tarski(k1_xboole_0, u1_struct_0(A)) =>  (v1_tdlat_3(A) & v2_tdlat_3(A)) ) ) ) ).
+- fof(l27_heyting1, axiom, k5_finsub_1(k7_normform(k1_xboole_0))=k2_tarski(k1_xboole_0, k1_tarski(k4_tarski(k1_xboole_0, k1_xboole_0)))).
+- fof(d2_tex_1, axiom,  (! [A] : k1_tex_1(A)=k2_tarski(k1_xboole_0, A)) ).
+- fof(t3_kolmog01, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (B=k1_xboole_0 => k9_prob_1(A, B)=k2_tarski(k1_xboole_0, A)) ) ) ) ) ).
+- fof(s1_partfun1__e1_30_1_1__classes1, axiom,  (! [A, B] :  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  &  (k9_xtuple_0(C)=k2_tarski(k1_xboole_0, k1_tarski(A)) &  (! [D] :  (r2_hidden(D, k2_tarski(k1_xboole_0, k1_tarski(A))) =>  ( (D=k1_xboole_0 => k1_funct_1(C, D)=A)  &  ( ~ (D=k1_xboole_0)  => k1_funct_1(C, D)=B) ) ) ) ) ) ) ) ).
+- fof(t18_yellow_9, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (B=k2_tarski(k1_xboole_0, A) =>  (k1_cantor_1(A, B)=B & k2_cantor_1(A, B)=B) ) ) ) ) ).
+- fof(d1_ordinal1, axiom,  (! [A] : k1_ordinal1(A)=k2_xboole_0(A, k1_tarski(A))) ).
+- fof(t1_enumset1, axiom,  (! [A] :  (! [B] : k2_tarski(A, B)=k2_xboole_0(k1_tarski(A), k1_tarski(B))) ) ).
+- fof(rqSucc__k1_ordinal1__r1_r2, axiom, k1_ordinal1(1)=2).
+- fof(t15_ordinal3, axiom, 1=k1_tarski(k1_xboole_0)).

@@ -1,0 +1,11 @@
+C fof(l22_algstr_1, axiom,  ( (! [A] :  (m1_subset_1(A, u1_struct_0(k8_algstr_0)) => k6_algstr_0(k8_algstr_0, A, k5_struct_0(k8_algstr_0))=A) )  &  (! [A] :  (m1_subset_1(A, u1_struct_0(k8_algstr_0)) => k6_algstr_0(k8_algstr_0, k5_struct_0(k8_algstr_0), A)=A) ) ) ).
++ fof(dt_k8_algstr_0, axiom, l4_algstr_0(k8_algstr_0)).
++ fof(dt_l4_algstr_0, axiom,  (! [A] :  (l4_algstr_0(A) =>  (l3_struct_0(A) & l3_algstr_0(A)) ) ) ).
++ fof(dt_k5_struct_0, axiom,  (! [A] :  (l3_struct_0(A) => m1_subset_1(k5_struct_0(A), u1_struct_0(A))) ) ).
++ fof(t10_algstr_1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k8_algstr_0)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k8_algstr_0)) => k6_algstr_0(k8_algstr_0, A, B)=k5_struct_0(k8_algstr_0)) ) ) ) ).
++ fof(t9_algstr_1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k8_algstr_0)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k8_algstr_0)) => A=B) ) ) ) ).
+- fof(dt_k6_algstr_0, axiom,  (! [A, B, C] :  ( (l3_algstr_0(A) &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k6_algstr_0(A, B, C), u1_struct_0(A))) ) ).
+- fof(d6_vectsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l4_algstr_0(A))  =>  (v4_vectsp_1(A) <=>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (k6_algstr_0(A, B, k5_struct_0(A))=B & k6_algstr_0(A, k5_struct_0(A), B)=B) ) ) ) ) ) ).
+- fof(d4_vectsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l4_algstr_0(A))  =>  (v3_vectsp_1(A) <=>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k6_algstr_0(A, B, k5_struct_0(A))=B) ) ) ) ) ).
+- fof(d8_vectsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l4_algstr_0(A))  =>  (v6_vectsp_1(A) <=>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k6_algstr_0(A, k5_struct_0(A), B)=B) ) ) ) ) ).
+- fof(d2_group_1, axiom,  (! [A] :  (l3_algstr_0(A) =>  (v2_group_1(A) <=>  (? [B] :  (m1_subset_1(B, u1_struct_0(A)) &  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (k6_algstr_0(A, C, B)=C &  (k6_algstr_0(A, B, C)=C &  (? [D] :  (m1_subset_1(D, u1_struct_0(A)) &  (k6_algstr_0(A, C, D)=B & k6_algstr_0(A, D, C)=B) ) ) ) ) ) ) ) ) ) ) ) ).

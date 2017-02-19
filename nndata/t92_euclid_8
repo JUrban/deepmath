@@ -1,0 +1,13 @@
+C fof(t92_euclid_8, axiom,  (! [A] :  (m2_finseq_2(A, k1_numbers, k1_euclid(3)) =>  (! [B] :  (m2_finseq_2(B, k1_numbers, k1_euclid(3)) => k7_euclid_8(A, B, B)=k6_numbers) ) ) ) ).
++ fof(t3_euclid_8, axiom,  (! [A] :  (m2_finseq_2(A, k1_numbers, k1_euclid(3)) =>  (! [B] :  (m2_finseq_2(B, k1_numbers, k1_euclid(3)) =>  ( ~ (r3_euclidlp(3, A, B))  => k5_euclid_8(A, B)=k16_euclid(3)) ) ) ) ) ).
++ fof(spc3_numerals, axiom,  ( (v2_xxreal_0(3) & m2_subset_1(3, k1_numbers, k5_numbers))  &  (m1_subset_1(3, k5_numbers) & m1_subset_1(3, k1_numbers)) ) ).
++ fof(t37_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k1_numbers, k1_euclid(A)) =>  (! [C] :  (m2_finseq_2(C, k1_numbers, k1_euclid(A)) =>  ~ ( (r3_euclidlp(A, B, C) & B=C) ) ) ) ) ) ) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t71_euclid_8, axiom,  (! [A] :  (m2_finseq_2(A, k1_numbers, k1_euclid(3)) => k23_rvsum_1(A, k16_euclid(3))=k6_numbers) ) ).
++ fof(d6_euclid_8, axiom,  (! [A] :  (m2_finseq_2(A, k1_numbers, k1_euclid(3)) =>  (! [B] :  (m2_finseq_2(B, k1_numbers, k1_euclid(3)) =>  (! [C] :  (m2_finseq_2(C, k1_numbers, k1_euclid(3)) => k7_euclid_8(A, B, C)=k23_rvsum_1(A, k5_euclid_8(B, C))) ) ) ) ) ) ).
+- fof(t90_euclid_8, axiom,  (! [A] :  (m2_finseq_2(A, k1_numbers, k1_euclid(3)) =>  (! [B] :  (m2_finseq_2(B, k1_numbers, k1_euclid(3)) => k7_euclid_8(A, A, B)=k6_numbers) ) ) ) ).
+- fof(t91_euclid_8, axiom,  (! [A] :  (m2_finseq_2(A, k1_numbers, k1_euclid(3)) =>  (! [B] :  (m2_finseq_2(B, k1_numbers, k1_euclid(3)) => k7_euclid_8(A, B, A)=k6_numbers) ) ) ) ).
+- fof(dt_k7_euclid_8, axiom,  (! [A, B, C] :  ( (m1_subset_1(A, k1_euclid(3)) &  (m1_subset_1(B, k1_euclid(3)) & m1_subset_1(C, k1_euclid(3))) )  => v1_xreal_0(k7_euclid_8(A, B, C))) ) ).
+- fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
+- fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
+- fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).

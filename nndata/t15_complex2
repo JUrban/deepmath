@@ -1,0 +1,17 @@
+C fof(t15_complex2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (k1_comptrig(A)=k6_numbers <=> A=k17_complex1(A)) ) ) ).
++ fof(t31_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) =>  (k21_sin_cos(k6_numbers)=1 &  (k18_sin_cos(k6_numbers)=k6_numbers &  (k20_sin_cos(k4_xcmplx_0(A))=k20_sin_cos(A) & k17_sin_cos(k4_xcmplx_0(A))=k4_xcmplx_0(k17_sin_cos(A))) ) ) ) ) ).
++ fof(t12_complex2, axiom,  (! [A] :  (v1_xcmplx_0(A) => A=k2_xcmplx_0(k8_real_1(k17_complex1(A), k21_sin_cos(k1_comptrig(A))), k3_xcmplx_0(k8_real_1(k17_complex1(A), k18_sin_cos(k1_comptrig(A))), k7_complex1))) ) ).
++ fof(t46_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => r1_xxreal_0(k6_numbers, k17_complex1(A))) ) ).
++ fof(projectivity_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k17_complex1(k17_complex1(A))=k17_complex1(A)) ) ).
++ fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(dt_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k17_complex1(A), k1_numbers)) ) ).
++ fof(t14_complex2, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (r1_xxreal_0(k6_numbers, A) => k1_comptrig(A)=k6_numbers) ) ) ).
++ fof(dt_k16_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xreal_0(k16_complex1(A))) ) ).
+- fof(t35_comptrig, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (r1_xxreal_0(k6_numbers, A) => k1_comptrig(A)=k6_numbers) ) ) ).
+- fof(t62_comptrig, axiom,  (! [A] :  (v1_xcmplx_0(A) => A=k2_xcmplx_0(k8_real_1(k17_complex1(A), k21_sin_cos(k1_comptrig(A))), k3_xcmplx_0(k8_real_1(k17_complex1(A), k18_sin_cos(k1_comptrig(A))), k7_complex1))) ) ).
+- fof(d1_comptrig, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  ( ( ~ (A=k6_numbers)  =>  (B=k1_comptrig(A) <=>  (A=k2_xcmplx_0(k8_real_1(k17_complex1(A), k21_sin_cos(B)), k3_xcmplx_0(k8_real_1(k17_complex1(A), k18_sin_cos(B)), k7_complex1)) &  (r1_xxreal_0(k6_numbers, B) &  ~ (r1_xxreal_0(k8_real_1(2, k32_sin_cos), B)) ) ) ) )  &  (A=k6_numbers =>  (B=k1_comptrig(A) <=> B=k6_numbers) ) ) ) ) ) ) ).
+- fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
+- fof(t39_comptrig, axiom, k1_comptrig(1)=k6_numbers).
+- fof(l13_complex2, axiom, k1_comptrig(k6_numbers)=k6_numbers).
+- fof(l12_xreal_0, axiom, r1_xxreal_0(k6_numbers, 1)).
+- fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).

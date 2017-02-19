@@ -1,0 +1,15 @@
+C fof(t78_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  ~ ( ( ~ (A=k2_xxreal_0)  &  ( ~ (A=k1_xxreal_0)  &  ( ~ (A=k6_numbers)  &  ~ (k6_xxreal_3(A, A)=1) ) ) ) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(cc1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(t60_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  ( ~ (A=k6_numbers)  => k7_xcmplx_0(A, A)=1) ) ) ).
++ fof(ie6_xxreal_3, axiom,  (! [A, B, C, D] :  ( (v1_xreal_0(A) &  (v1_xreal_0(B) &  (v1_xcmplx_0(C) & v1_xcmplx_0(D)) ) )  =>  ( (A=C & B=D)  => k6_xxreal_3(A, B)=k7_xcmplx_0(C, D)) ) ) ).
++ fof(d2_xxreal_0, axiom, k1_xxreal_0=k1_numbers).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(t14_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  ~ ( ( ~ (r2_hidden(A, k1_numbers))  &  ( ~ (A=k1_xxreal_0)  &  ~ (A=k2_xxreal_0) ) ) ) ) ) ).
+- fof(d7_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) => k6_xxreal_3(A, B)=k4_xxreal_3(A, k5_xxreal_3(B))) ) ) ) ).
+- fof(t77_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) => k6_xxreal_3(A, k2_xxreal_0)=k6_numbers) ) ).
+- fof(t76_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) => k6_xxreal_3(A, k1_xxreal_0)=k6_numbers) ) ).
+- fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
+- fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
+- fof(commutativity_k4_xxreal_3, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k4_xxreal_3(A, B)=k4_xxreal_3(B, A)) ) ).
+- fof(fc37_xxreal_3, axiom,  (! [A, B] :  ( ( (v1_xboole_0(A) & v1_xxreal_0(A))  & v1_xxreal_0(B))  =>  (v1_xboole_0(k4_xxreal_3(A, B)) & v1_xxreal_0(k4_xxreal_3(A, B))) ) ) ).

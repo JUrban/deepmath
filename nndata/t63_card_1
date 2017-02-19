@@ -1,0 +1,7 @@
+C fof(t63_card_1, axiom,  (! [A] :  (v1_finset_1(k1_wellord2(A)) => v1_finset_1(A)) ) ).
++ fof(dt_k1_wellord2, axiom,  (! [A] : v1_relat_1(k1_wellord2(A))) ).
++ fof(fc28_finset_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_finset_1(A))  => v1_finset_1(k1_relat_1(A))) ) ).
++ fof(d1_wellord2, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (B=k1_wellord2(A) <=>  (k1_relat_1(B)=A &  (! [C] :  (! [D] :  ( (r2_hidden(C, A) & r2_hidden(D, A))  =>  (r2_hidden(k4_tarski(C, D), B) <=> r1_tarski(C, D)) ) ) ) ) ) ) ) ) ).
+- fof(fc12_card_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (v1_relat_1(k1_wellord2(A)) & v1_finset_1(k1_wellord2(A))) ) ) ).
+- fof(fc3_wellord2, axiom,  (! [A] :  (v1_relat_1(k1_wellord2(A)) & v4_relat_2(k1_wellord2(A))) ) ).
+- fof(t10_wellord2, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r4_wellord1(k1_wellord2(A), k1_wellord2(B)) => A=B) ) ) ) ) ).

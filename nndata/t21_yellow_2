@@ -1,0 +1,17 @@
+C fof(t21_yellow_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  => v11_quantal1(k3_struct_0(A))) ) ).
++ fof(fc11_funct_2, axiom,  (! [A] :  (v1_relat_1(k4_relat_1(A)) &  (v4_relat_1(k4_relat_1(A), A) &  (v1_funct_1(k4_relat_1(A)) & v1_partfun1(k4_relat_1(A), A)) ) ) ) ).
++ fof(dt_l1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => l1_struct_0(A)) ) ).
++ fof(d9_quantal1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v11_quantal1(A) <=> k3_relat_1(A, A)=A) ) ) ).
++ fof(dt_k4_relat_1, axiom,  (! [A] : v1_relat_1(k4_relat_1(A))) ).
++ fof(d4_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => k3_struct_0(A)=k6_partfun1(u1_struct_0(A))) ) ).
++ fof(redefinition_k6_partfun1, axiom,  (! [A] : k6_partfun1(A)=k4_relat_1(A)) ).
++ fof(t22_funct_1, axiom,  (! [A] :  (! [B] : k3_relat_1(k4_relat_1(B), k4_relat_1(A))=k4_relat_1(k3_xboole_0(A, B))) ) ).
++ fof(idempotence_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, A)=A) ).
+- fof(l13_orders_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  => v5_orders_3(k3_struct_0(A), A, A)) ) ).
+- fof(l19_quantal1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A)))) )  =>  (v11_quantal1(B) =>  (! [C] :  (m1_subset_1(C, A) => k3_funct_2(A, A, B, k3_funct_2(A, A, B, C))=k3_funct_2(A, A, B, C)) ) ) ) ) ) ) ).
+- fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
+- fof(dt_k3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) =>  (v1_funct_1(k3_struct_0(A)) &  (v1_funct_2(k3_struct_0(A), u1_struct_0(A), u1_struct_0(A)) & m1_subset_1(k3_struct_0(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ) ) ).
+- fof(t11_yellow_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  => v5_orders_3(k3_struct_0(A), A, A)) ) ).
+- fof(fc8_grcat_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_algstr_0(A))  =>  (v1_funct_1(k3_struct_0(A)) &  (v1_funct_2(k3_struct_0(A), u1_struct_0(A), u1_struct_0(A)) & v13_vectsp_1(k3_struct_0(A), A, A)) ) ) ) ).
+- fof(d15_grcat_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) & l2_algstr_0(A)) ) ) )  => k11_grcat_1(A)=g1_grcat_1(A, A, k3_struct_0(A))) ) ).
+- fof(t41_grcat_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & l1_struct_0(B))  =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, u1_struct_0(A), u1_struct_0(B)) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(B))))) )  =>  ( (v2_funct_1(C) & v2_funct_2(C, u1_struct_0(B)))  =>  (r2_funct_2(u1_struct_0(B), u1_struct_0(B), k1_partfun1(u1_struct_0(B), u1_struct_0(A), u1_struct_0(A), u1_struct_0(B), k2_tops_2(u1_struct_0(A), u1_struct_0(B), C), C), k3_struct_0(B)) &  (r2_funct_2(u1_struct_0(A), u1_struct_0(A), k1_partfun1(u1_struct_0(A), u1_struct_0(B), u1_struct_0(B), u1_struct_0(A), C, k2_tops_2(u1_struct_0(A), u1_struct_0(B), C)), k3_struct_0(A)) &  (v2_funct_1(k2_tops_2(u1_struct_0(A), u1_struct_0(B), C)) & v2_funct_2(k2_tops_2(u1_struct_0(A), u1_struct_0(B), C), u1_struct_0(A))) ) ) ) ) ) ) ) ) ) ).

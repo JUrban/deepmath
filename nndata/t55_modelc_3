@@ -1,0 +1,11 @@
+C fof(t55_modelc_3, axiom,  (! [A] : k3_tarski(k1_orders_1(A))=A) ).
++ fof(d4_tarski, axiom,  (! [A] :  (! [B] :  (B=k3_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(C, D) & r2_hidden(D, A)) ) ) ) ) ) ) ).
++ fof(t2_orders_1, axiom,  (! [A] :  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (r1_tarski(B, A) <=> r2_hidden(B, k1_orders_1(A))) ) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
+- fof(d2_orders_1, axiom,  (! [A] : k1_orders_1(A)=k7_subset_1(k1_zfmisc_1(A), k9_setfam_1(A), k1_tarski(k1_xboole_0))) ).
+- fof(t53_simplex0, axiom,  (! [A] :  (! [B] :  ( (v1_matroid0(B) & m1_simplex0(B, A))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  ( (v1_setfam_1(k9_xtuple_0(C)) &  (! [D] :  (v7_ordinal1(D) =>  ~ ( (r1_xxreal_0(D, k6_simplex0(B)) &  (! [E] :  (m1_subset_1(E, k1_zfmisc_1(u1_struct_0(B))) =>  ~ ( (v3_pre_topc(E, B) &  (k1_card_1(E)=k1_nat_1(D, 1) &  (r1_tarski(k1_orders_1(E), k9_xtuple_0(C)) &  (m1_subset_1(k7_relat_1(C, k1_orders_1(E)), k1_zfmisc_1(u1_struct_0(B))) & v2_funct_1(k5_relat_1(C, k1_orders_1(E)))) ) ) ) ) ) ) ) ) ) ) )  => k6_simplex0(k10_simplex0(A, B, C))=k6_simplex0(B)) ) ) ) ) ) ).
+- fof(fc1_orders_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ~ (v1_xboole_0(k1_orders_1(A))) ) ) ).
+- fof(t1_orders_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ~ (r2_hidden(k1_xboole_0, k1_orders_1(A))) ) ) ).
+- fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).

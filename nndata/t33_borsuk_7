@@ -1,0 +1,7 @@
+C fof(t33_borsuk_7, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (! [G] :  (! [H] :  (! [I] :  (v1_xcmplx_0(I) =>  ( (r1_zfmisc_1(A, B, I) &  (r2_hidden(C, D) &  (r2_hidden(E, F) & r2_hidden(G, H)) ) )  => r2_hidden(k1_borsuk_7(A, B, I, C, E, G), k4_card_3(k1_borsuk_7(A, B, I, D, F, H)))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
++ fof(t31_borsuk_7, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (v1_xcmplx_0(F) =>  (r1_zfmisc_1(A, B, F) => k4_card_3(k1_borsuk_7(A, B, F, k1_tarski(C), k1_tarski(D), k1_tarski(E)))=k1_tarski(k1_borsuk_7(A, B, F, C, D, E))) ) ) ) ) ) ) ) ).
++ fof(t32_borsuk_7, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_xcmplx_0(C) =>  (! [D] :  (! [E] :  (! [F] :  (! [G] :  (! [H] :  (! [I] :  ( (r1_tarski(D, E) &  (r1_tarski(F, G) & r1_tarski(H, I)) )  => r1_tarski(k4_card_3(k1_borsuk_7(A, B, C, D, F, H)), k4_card_3(k1_borsuk_7(A, B, C, E, G, I)))) ) ) ) ) ) ) ) ) ) ) ).
+- fof(d1_borsuk_7, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] : k1_borsuk_7(A, B, C, D, E, F)=k1_funct_4(k4_funct_4(A, B, D, E), k16_funcop_1(C, F))) ) ) ) ) ) ).
+- fof(d4_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k4_funct_4(A, B, C, D)=k1_funct_4(k16_funcop_1(A, C), k16_funcop_1(B, D))) ) ) ) ).
+- fof(d5_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_zfmisc_1(A, B, C) <=>  ( ~ (A=B)  &  ( ~ (A=C)  &  ~ (B=C) ) ) ) ) ) ) ).

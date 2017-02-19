@@ -1,0 +1,9 @@
+C fof(l55_tmap_1, axiom,  (! [A] :  (v1_funct_1(k1_xboole_0) &  (v1_funct_2(k1_xboole_0, A, k1_xboole_0) & m1_subset_1(k1_xboole_0, k1_zfmisc_1(k2_zfmisc_1(A, k1_xboole_0)))) ) ) ).
++ fof(t1_subset_1, axiom,  (! [A] : m1_subset_1(k1_xboole_0, k1_zfmisc_1(A))) ).
++ fof(d1_funct_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  ( ( ~ (B=k1_xboole_0)  =>  (v1_funct_2(C, A, B) <=> A=k1_relset_1(A, C)) )  &  (B=k1_xboole_0 =>  (v1_funct_2(C, A, B) <=> C=k1_xboole_0) ) ) ) ) ) ) ).
++ fof(cc1_funct_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_funct_1(A)) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
+- fof(t14_toler_1, axiom,  (v1_relat_2(k1_xboole_0) &  (v3_relat_2(k1_xboole_0) &  (v1_partfun1(k1_xboole_0, k1_xboole_0) & m1_subset_1(k1_xboole_0, k1_zfmisc_1(k2_zfmisc_1(k1_xboole_0, k1_xboole_0)))) ) ) ).
+- fof(t12_relset_1, axiom,  (! [A] :  (! [B] : m1_subset_1(k1_xboole_0, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ).
+- fof(cc1_binop_1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_xboole_0, k1_xboole_0), k1_xboole_0))) =>  ( (v1_funct_1(A) & v1_funct_2(A, k2_zfmisc_1(k1_xboole_0, k1_xboole_0), k1_xboole_0))  =>  (v1_funct_1(A) &  (v1_xboole_0(A) &  (v1_funct_2(A, k2_zfmisc_1(k1_xboole_0, k1_xboole_0), k1_xboole_0) &  (v1_binop_1(A, k1_xboole_0) & v2_binop_1(A, k1_xboole_0)) ) ) ) ) ) ) ).
+- fof(cc1_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_relat_1(A)) ) ).

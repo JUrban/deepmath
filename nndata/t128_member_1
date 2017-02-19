@@ -1,0 +1,19 @@
+C fof(t128_member_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k15_member_1(k1_tarski(A), k1_tarski(B))=k1_tarski(k6_binop_2(A, B))) ) ) ) ).
++ fof(t37_member_1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k7_member_1(k1_tarski(A))=k1_tarski(k2_binop_2(A))) ) ).
++ fof(d12_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) => k15_member_1(A, B)=k13_member_1(A, k7_member_1(B))) ) ) ) ).
++ fof(redefinition_k6_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k6_binop_2(A, B)=k7_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k2_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k2_binop_2(A)=k5_xcmplx_0(A)) ) ).
++ fof(d9_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k7_xcmplx_0(A, B)=k3_xcmplx_0(A, k5_xcmplx_0(B))) ) ) ) ).
++ fof(fc7_membered, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_membered(k1_tarski(A))) ) ).
++ fof(dt_k5_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k5_xcmplx_0(A))) ) ).
++ fof(t98_member_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k13_member_1(k1_tarski(A), k1_tarski(B))=k1_tarski(k5_binop_2(A, B))) ) ) ) ).
++ fof(redefinition_k5_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k5_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
+- fof(fraenkel_a_2_7_member_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) & v1_membered(C))  =>  (r2_hidden(A, a_2_7_member_1(B, C)) <=>  (? [D, E] :  ( (m1_subset_1(D, k2_numbers) & m1_subset_1(E, k2_numbers))  &  (A=k6_binop_2(D, E) &  (r2_hidden(D, B) & r2_hidden(E, C)) ) ) ) ) ) ) ).
+- fof(dt_k7_member_1, axiom,  (! [A] :  (v1_membered(A) => v1_membered(k7_member_1(A))) ) ).
+- fof(t116_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (! [D] :  (v1_xcmplx_0(D) =>  ( (r2_hidden(C, A) & r2_hidden(D, B))  => r2_hidden(k6_binop_2(C, D), k15_member_1(A, B))) ) ) ) ) ) ) ) ) ).
+- fof(t115_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) => k15_member_1(A, B)=a_2_7_member_1(A, B)) ) ) ) ).
+- fof(dt_k6_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => m1_subset_1(k6_binop_2(A, B), k2_numbers)) ) ).
+- fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
+- fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
+- fof(t124_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (! [C] :  (v1_membered(C) => k15_member_1(k13_member_1(A, B), C)=k13_member_1(A, k15_member_1(B, C))) ) ) ) ) ) ).
+- fof(commutativity_k13_member_1, axiom,  (! [A, B] :  ( (v1_membered(A) & v1_membered(B))  => k13_member_1(A, B)=k13_member_1(B, A)) ) ).

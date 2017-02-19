@@ -1,0 +1,5 @@
+C fof(t55_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) => k6_nat_d(A, k5_nat_d(A, B))=k5_nat_d(k6_nat_d(B, A), A)) ) ) ) ).
++ fof(t54_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) => k6_nat_d(A, k5_nat_d(A, B))=A) ) ) ) ).
++ fof(t53_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) => k5_nat_d(k6_nat_d(A, B), B)=B) ) ) ) ).
+- fof(redefinition_k5_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k5_nat_d(A, B)=k2_int_2(A, B)) ) ).
+- fof(redefinition_k6_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k6_nat_d(A, B)=k3_int_2(A, B)) ) ).

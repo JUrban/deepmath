@@ -1,0 +1,11 @@
+C fof(t68_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k11_xboolean(k11_xboolean(A, B), B)=k11_xboolean(A, B)) ) ) ) ).
++ fof(dt_k3_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => v1_xboolean(k3_xboolean(A))) ) ).
++ fof(commutativity_k4_xboolean, axiom,  (! [A, B] :  ( (v1_xboolean(A) & v1_xboolean(B))  => k4_xboolean(A, B)=k4_xboolean(B, A)) ) ).
++ fof(d12_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k11_xboolean(A, B)=k4_xboolean(A, k3_xboolean(B))) ) ) ) ).
++ fof(fc3_xboolean, axiom,  (! [A, B] :  ( (v1_xboolean(A) & v1_xboolean(B))  => v1_xboolean(k4_xboolean(A, B))) ) ).
++ fof(t2_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k4_xboolean(A, k4_xboolean(A, B))=k4_xboolean(A, B)) ) ) ) ).
+- fof(fc10_xboolean, axiom,  (! [A, B] :  ( (v1_xboolean(A) & v1_xboolean(B))  => v1_xboolean(k11_xboolean(A, B))) ) ).
+- fof(involutiveness_k3_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => k3_xboolean(k3_xboolean(A))=A) ) ).
+- fof(d10_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k9_xboolean(A, B)=k3_xboolean(k5_xboolean(A, B))) ) ) ) ).
+- fof(t32_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k9_xboolean(A, k4_xboolean(A, B))=k3_xboolean(A)) ) ) ) ).
+- fof(d7_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k6_xboolean(A, B)=k5_xboolean(k3_xboolean(A), B)) ) ) ) ).

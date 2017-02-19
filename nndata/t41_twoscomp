@@ -1,0 +1,5 @@
+C fof(t41_twoscomp, axiom,  (! [A] :  ( ~ (v1_xtuple_0(A))  =>  (! [B] :  ( ~ (v1_xtuple_0(B))  =>  (r2_hidden(A, k2_msafree2(k40_twoscomp(A, B))) & r2_hidden(B, k2_msafree2(k40_twoscomp(A, B)))) ) ) ) ) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
++ fof(t40_twoscomp, axiom,  (! [A] :  ( ~ (v1_xtuple_0(A))  =>  (! [B] :  ( ~ (v1_xtuple_0(B))  => k2_msafree2(k40_twoscomp(A, B))=k2_tarski(A, B)) ) ) ) ).
+- fof(t38_twoscomp, axiom,  (! [A] :  ( ~ (v1_xtuple_0(A))  =>  (! [B] :  ( ~ (v1_xtuple_0(B))  => k3_msafree2(k40_twoscomp(A, B))=k2_tarski(k4_tarski(k10_finseq_1(A, B), k15_twoscomp), k4_tarski(k10_finseq_1(A, B), k3_twoscomp))) ) ) ) ).
+- fof(d39_twoscomp, axiom,  (! [A] :  (! [B] : k40_twoscomp(A, B)=k2_circcomb(k34_twoscomp(A, B), k37_twoscomp(A, B))) ) ).

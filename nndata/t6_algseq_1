@@ -1,0 +1,11 @@
+C fof(t6_algseq_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) =>  (k7_card_1(A)=k9_subset_1(k4_ordinal1, k7_card_1(A), k7_card_1(B)) & k7_card_1(A)=k9_subset_1(k4_ordinal1, k7_card_1(B), k7_card_1(A))) ) ) ) ) ) ).
++ fof(redefinition_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k9_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
++ fof(t28_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => k3_xboole_0(A, B)=A) ) ) ).
++ fof(t4_algseq_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) <=> r1_tarski(k7_card_1(A), k7_card_1(B))) ) ) ) ) ).
++ fof(dt_k7_card_1, axiom,  (! [A] :  (v7_ordinal1(A) => m1_subset_1(k7_card_1(A), k1_zfmisc_1(k4_ordinal1))) ) ).
++ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
+- fof(redefinition_k7_card_1, axiom,  (! [A] :  (v7_ordinal1(A) => k7_card_1(A)=k6_card_1(A)) ) ).
+- fof(d6_card_1, axiom,  (! [A] :  (v7_ordinal1(A) => k6_card_1(A)=A) ) ).
+- fof(t5_algseq_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (k7_card_1(A)=k7_card_1(B) => A=B) ) ) ) ) ).
+- fof(t2_algseq_1, axiom,  (k7_card_1(k6_numbers)=k1_xboole_0 &  (k7_card_1(1)=k1_tarski(k6_numbers) & k7_card_1(2)=k2_tarski(k6_numbers, 1)) ) ).
+- fof(t1_algseq_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r2_hidden(A, k7_card_1(B)) <=>  ~ (r1_xxreal_0(B, A)) ) ) ) ) ) ).

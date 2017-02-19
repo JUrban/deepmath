@@ -1,0 +1,7 @@
+C fof(t8_simplex0, axiom,  (! [A] :  (r1_tarski(k1_simplex0(A), A) => v1_classes1(A)) ) ).
++ fof(d1_simplex0, axiom,  (! [A] :  (! [B] :  (v1_classes1(B) =>  (B=k1_simplex0(A) <=>  (r1_tarski(A, B) &  (! [C] :  ( (r1_tarski(A, C) & v1_classes1(C))  => r1_tarski(B, C)) ) ) ) ) ) ) ).
++ fof(dt_k1_simplex0, axiom,  (! [A] : v1_classes1(k1_simplex0(A))) ).
++ fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
+- fof(t2_simplex0, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, k1_simplex0(B)) <=>  (? [C] :  (r1_tarski(A, C) & r2_hidden(C, B)) ) ) ) ) ).
+- fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
+- fof(t3_simplex0, axiom,  (! [A] :  (! [B] :  ( (r1_tarski(A, B) & v1_classes1(B))  => r1_tarski(k1_simplex0(A), B)) ) ) ).

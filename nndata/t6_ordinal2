@@ -1,0 +1,5 @@
+C fof(t6_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  ( (v5_ordinal1(B) &  (v1_relat_1(B) & v1_funct_1(B)) )  =>  (k9_xtuple_0(B)=k1_ordinal1(A) => k1_ordinal2(B)=k1_funct_1(B, A)) ) ) ) ) ).
++ fof(t2_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) => k3_tarski(k1_ordinal1(A))=A) ) ).
++ fof(d1_ordinal2, axiom,  (! [A] :  ( (v5_ordinal1(A) &  (v1_relat_1(A) & v1_funct_1(A)) )  => k1_ordinal2(A)=k1_funct_1(A, k3_tarski(k9_xtuple_0(A)))) ) ).
+- fof(d1_ordinal1, axiom,  (! [A] : k1_ordinal1(A)=k2_xboole_0(A, k1_tarski(A))) ).
+- fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).

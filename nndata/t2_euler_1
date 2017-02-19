@@ -1,0 +1,15 @@
+C fof(t2_euler_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (v1_int_2(B) =>  (A=k6_numbers |  (r1_xxreal_0(B, A) | r1_int_2(A, B)) ) ) ) ) ) ) ).
++ fof(l14_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_int_1(B, A) =>  (r1_xxreal_0(A, k6_numbers) | r1_xxreal_0(B, A)) ) ) ) ) ) ).
++ fof(t3_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ ( ( ~ (k6_numbers=A)  & r1_xxreal_0(A, k6_numbers)) ) ) ) ).
++ fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
++ fof(dt_k3_int_2, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => v7_ordinal1(k3_int_2(A, B))) ) ).
++ fof(d4_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_int_2(A) <=>  ( ~ (r1_xxreal_0(A, 1))  &  (! [B] :  (v7_ordinal1(B) =>  ~ ( (r1_int_1(B, A) &  ( ~ (B=1)  &  ~ (B=A) ) ) ) ) ) ) ) ) ) ).
++ fof(d3_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (r1_int_2(A, B) <=> k3_int_2(A, B)=1) ) ) ) ) ).
++ fof(d2_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (C=k3_int_2(A, B) <=>  (r1_int_1(C, A) &  (r1_int_1(C, B) &  (! [D] :  (v1_int_1(D) =>  ( (r1_int_1(D, A) & r1_int_1(D, B))  => r1_int_1(D, C)) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(symmetry_r1_int_2, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  =>  (r1_int_2(A, B) => r1_int_2(B, A)) ) ) ).
+- fof(t10_wsierp_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) =>  (r1_int_2(B, C) => r1_int_2(k1_newton(B, A), C)) ) ) ) ) ) ) ).
+- fof(t30_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( (v1_int_2(A) &  (v1_int_2(B) &  ( ~ (r1_int_2(A, B))  &  ~ (A=B) ) ) ) ) ) ) ) ) ).
+- fof(s2_nat_1__e5_14__wsierp_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  =>  ( (r1_int_2(k1_newton(A, k6_numbers), B) &  (! [C] :  (v7_ordinal1(C) =>  (r1_int_2(k1_newton(A, C), B) => r1_int_2(k1_newton(A, k1_nat_1(C, 1)), B)) ) ) )  =>  (! [C] :  (v7_ordinal1(C) => r1_int_2(k1_newton(A, C), B)) ) ) ) ) ).
+- fof(t26_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) =>  ( (r1_int_2(A, B) & r1_int_2(C, B))  => r1_int_2(k3_xcmplx_0(A, C), B)) ) ) ) ) ) ) ).
+- fof(t9_wsierp_1, axiom,  (! [A] :  (v1_int_1(A) => r1_int_2(1, A)) ) ).
+- fof(fc1_wsierp_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v7_ordinal1(B))  => v1_int_1(k1_newton(A, B))) ) ).

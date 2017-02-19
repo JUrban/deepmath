@@ -1,0 +1,15 @@
+C fof(t13_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) => k6_power(k8_power, k1_seq_1(k24_sin_cos, A))=A) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(dt_k8_power, axiom, m1_subset_1(k8_power, k1_numbers)).
++ fof(fc5_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xreal_0(k25_sin_cos(A))) ) ).
++ fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
++ fof(redefinition_k6_power, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => k6_power(A, B)=k5_power(A, B)) ) ).
++ fof(d23_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) => k25_sin_cos(A)=k1_seq_1(k24_sin_cos, A)) ) ).
++ fof(t12_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) => k5_power(k8_power, k25_sin_cos(A))=A) ) ).
+- fof(s3_funct_2__e10_36_1__asympt_1, axiom,  (! [A, B] :  ( (m2_funct_2(A, k5_numbers, k1_numbers, k9_funct_2(k5_numbers, k1_numbers)) & m2_subset_1(B, k1_numbers, k5_numbers))  =>  ( (! [C] :  (m1_subset_1(C, k5_numbers) =>  (? [D] :  (m1_subset_1(D, k1_numbers) &  ( ( ~ (r1_xxreal_0(k7_nat_1(B, 2), C))  => D=1)  &  (r1_xxreal_0(k7_nat_1(B, 2), C) => D=k6_power(C, k1_seq_1(A, C))) ) ) ) ) )  =>  (? [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k5_numbers, k1_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  &  (! [D] :  (m1_subset_1(D, k5_numbers) =>  ( ( ~ (r1_xxreal_0(k7_nat_1(B, 2), D))  => k3_funct_2(k5_numbers, k1_numbers, C, D)=1)  &  (r1_xxreal_0(k7_nat_1(B, 2), D) => k3_funct_2(k5_numbers, k1_numbers, C, D)=k6_power(D, k1_seq_1(A, D))) ) ) ) ) ) ) ) ) ).
+- fof(l85_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k1_seq_1(k24_sin_cos, k2_xcmplx_0(A, B))=k8_real_1(k1_seq_1(k24_sin_cos, A), k1_seq_1(k24_sin_cos, B))) ) ) ) ).
+- fof(t10_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (k9_prepower(k1_seq_1(k24_sin_cos, 1), A)=k1_seq_1(k24_sin_cos, A) &  (k3_power(k1_seq_1(k24_sin_cos, 1), A)=k1_seq_1(k24_sin_cos, A) &  (k3_power(k8_power, A)=k1_seq_1(k24_sin_cos, A) & k9_prepower(k8_power, A)=k1_seq_1(k24_sin_cos, A)) ) ) ) ) ).
+- fof(dt_k24_sin_cos, axiom,  (v1_funct_1(k24_sin_cos) &  (v1_funct_2(k24_sin_cos, k1_numbers, k1_numbers) & m1_subset_1(k24_sin_cos, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ) ).
+- fof(redefinition_k9_binop_2, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k9_binop_2(A, B)=k2_xcmplx_0(A, B)) ) ).
+- fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
+- fof(l49_sin_cos2, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  =>  (r2_relset_1(k1_numbers, k1_numbers, B, k31_binop_2) =>  (r1_fdiff_1(k1_partfun1(k1_numbers, k1_numbers, k1_numbers, k1_numbers, B, k24_sin_cos), A) & k1_fdiff_1(k1_partfun1(k1_numbers, k1_numbers, k1_numbers, k1_numbers, B, k24_sin_cos), A)=k8_real_1(k1_real_1(1), k1_seq_1(k24_sin_cos, k1_seq_1(B, A)))) ) ) ) ) ) ).

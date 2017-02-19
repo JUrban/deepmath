@@ -1,0 +1,5 @@
+C fof(t61_card_2, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => r1_ordinal1(k1_card_1(k10_xtuple_0(A)), k1_card_1(k9_xtuple_0(A)))) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t12_card_1, axiom,  (! [A] :  (! [B] :  (r1_ordinal1(k1_card_1(A), k1_card_1(B)) <=>  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  &  (k9_xtuple_0(C)=B & r1_tarski(A, k10_xtuple_0(C))) ) ) ) ) ) ).
+- fof(d4_wellord2, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, B) <=>  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  &  (v2_funct_1(C) &  (k9_xtuple_0(C)=A & k10_xtuple_0(C)=B) ) ) ) ) ) ) ).
+- fof(t5_card_1, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, B) <=> k1_card_1(A)=k1_card_1(B)) ) ) ).

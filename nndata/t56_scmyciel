@@ -1,0 +1,31 @@
+C fof(t56_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (! [C] :  (r2_hidden(k2_tarski(B, C), A) =>  (v4_scmyciel(k7_scmyciel(A, k2_tarski(B, C))) &  (v5_scmyciel(k7_scmyciel(A, k2_tarski(B, C))) & m1_subset_1(k7_scmyciel(A, k2_tarski(B, C)), k1_zfmisc_1(A))) ) ) ) ) ) ) ).
++ fof(fc14_scmyciel, axiom,  (! [A] : v5_scmyciel(k5_scmyciel(A))) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
++ fof(dt_m1_scmyciel, axiom,  (! [A] :  (! [B] :  (m1_scmyciel(B, A) => v4_scmyciel(B)) ) ) ).
++ fof(t32_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  ( (! [B] :  (! [C] :  ( (r2_hidden(B, k3_tarski(A)) & r2_hidden(C, k3_tarski(A)))  => r2_hidden(k2_tarski(B, C), A)) ) )  => A=k5_scmyciel(k3_tarski(A))) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(fc11_scmyciel, axiom,  (! [A, B] :  (v4_scmyciel(A) => v4_scmyciel(k7_scmyciel(A, B))) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t24_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (r2_hidden(B, k3_tarski(A)) <=> r2_hidden(k1_tarski(B), A)) ) ) ) ).
++ fof(dt_k7_scmyciel, axiom,  (! [A, B] :  (v4_scmyciel(A) => m1_subset_1(k7_scmyciel(A, B), k1_zfmisc_1(A))) ) ).
++ fof(t29_enumset1, axiom,  (! [A] : k2_tarski(A, A)=k1_tarski(A)) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(l67_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (! [C] :  (! [D] :  ( (r2_hidden(C, B) &  (r2_hidden(D, B) & r2_hidden(k2_tarski(C, D), A)) )  => r2_hidden(k2_tarski(C, D), k7_scmyciel(A, B))) ) ) ) ) ) ).
++ fof(l63_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (! [C] :  (r2_hidden(C, k3_tarski(k7_scmyciel(A, B))) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(dt_k5_scmyciel, axiom,  (! [A] : m1_scmyciel(k5_scmyciel(A), A)) ).
+- fof(d12_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] : k7_scmyciel(A, B)=k3_xboole_0(A, k1_zfmisc_1(B))) ) ) ).
+- fof(d13_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (v5_scmyciel(A) <=> A=k5_scmyciel(k3_tarski(A))) ) ) ).
+- fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
+- fof(d4_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k3_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) & r2_hidden(D, B)) ) ) ) ) ) ) ).
+- fof(t45_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] : k3_tarski(k7_scmyciel(A, B))=k3_xboole_0(k3_tarski(A), B)) ) ) ).
+- fof(l66_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (r1_tarski(B, k3_tarski(A)) => k3_tarski(k7_scmyciel(A, B))=B) ) ) ) ).
+- fof(l64_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (! [C] :  ( (r2_hidden(C, B) & r2_hidden(C, k3_tarski(A)))  => r2_hidden(C, k3_tarski(k7_scmyciel(A, B)))) ) ) ) ) ).
+- fof(t43_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] : k7_scmyciel(A, B)=k7_scmyciel(A, k3_xboole_0(B, k3_tarski(A)))) ) ) ).
+- fof(t42_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => A=k7_scmyciel(A, k3_tarski(A))) ) ).
+- fof(t50_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (r2_hidden(B, k3_tarski(A)) =>  (v4_scmyciel(k2_tarski(k1_xboole_0, k1_tarski(B))) &  (v5_scmyciel(k2_tarski(k1_xboole_0, k1_tarski(B))) & m1_subset_1(k2_tarski(k1_xboole_0, k1_tarski(B)), k1_zfmisc_1(A))) ) ) ) ) ) ).
+- fof(t34_scmyciel, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(B, A) & r2_hidden(C, A))  => r2_hidden(k2_tarski(B, C), k5_scmyciel(A))) ) ) ) ).
+- fof(t47_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  ( (! [B] :  (! [C] :  ( (r2_hidden(B, k3_tarski(A)) & r2_hidden(C, k3_tarski(A)))  =>  (B=C | r2_hidden(k2_tarski(B, C), k1_scmyciel(A))) ) ) )  => v5_scmyciel(A)) ) ) ).
+- fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
+- fof(t81_zfmisc_1, axiom,  (! [A] : k3_tarski(k1_zfmisc_1(A))=A) ).
+- fof(d1_zfmisc_1, axiom,  (! [A] :  (! [B] :  (B=k1_zfmisc_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=> r1_tarski(C, A)) ) ) ) ) ).

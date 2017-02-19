@@ -1,0 +1,7 @@
+C fof(t46_algspec1, axiom,  (! [A] :  ( (v1_instalg1(A) & l1_msualg_1(A))  =>  (! [B] :  (m2_algspec1(B, A) =>  (! [C] :  (m2_algspec1(C, B) => m2_algspec1(C, A)) ) ) ) ) ) ).
++ fof(d5_algspec1, axiom,  (! [A] :  ( (v1_instalg1(A) & l1_msualg_1(A))  =>  (! [B] :  ( (v1_instalg1(B) & l1_msualg_1(B))  =>  (m2_algspec1(B, A) <=> m1_instalg1(A, B)) ) ) ) ) ).
++ fof(dt_m2_algspec1, axiom,  (! [A] :  ( (v1_instalg1(A) & l1_msualg_1(A))  =>  (! [B] :  (m2_algspec1(B, A) =>  (v1_instalg1(B) & l1_msualg_1(B)) ) ) ) ) ).
++ fof(t16_instalg1, axiom,  (! [A] :  ( (v1_instalg1(A) & l1_msualg_1(A))  =>  (! [B] :  (m1_instalg1(B, A) =>  (! [C] :  (m1_instalg1(C, B) => m1_instalg1(C, A)) ) ) ) ) ) ).
+- fof(t15_instalg1, axiom,  (! [A] :  ( (v1_instalg1(A) & l1_msualg_1(A))  => m1_instalg1(A, A)) ) ).
+- fof(existence_m2_algspec1, axiom,  (! [A] :  ( (v1_instalg1(A) & l1_msualg_1(A))  =>  (? [B] : m2_algspec1(B, A)) ) ) ).
+- fof(t45_algspec1, axiom,  (! [A] :  ( (v1_instalg1(A) & l1_msualg_1(A))  => m2_algspec1(A, A)) ) ).

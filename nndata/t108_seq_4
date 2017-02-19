@@ -1,0 +1,7 @@
+C fof(t108_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(k14_seq_4(A)))) =>  ( (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k14_seq_4(A))) =>  (r2_hidden(C, B) => v1_seq_4(C, A)) ) )  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k14_seq_4(A))) =>  (C=k3_tarski(B) => v1_seq_4(C, A)) ) ) ) ) ) ) ) ).
++ fof(d14_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k14_seq_4(A))) =>  (v1_seq_4(B, A) <=>  (! [C] :  (m2_finseq_2(C, k2_numbers, k14_seq_4(A)) =>  ~ ( (r2_hidden(C, B) &  (! [D] :  (m1_subset_1(D, k1_numbers) =>  ~ ( ( ~ (r1_xxreal_0(D, k6_numbers))  &  (! [E] :  (m2_finseq_2(E, k2_numbers, k14_seq_4(A)) =>  ( ~ (r1_xxreal_0(D, k22_seq_4(E)))  => r2_hidden(k15_seq_4(A, C, E), B)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d4_tarski, axiom,  (! [A] :  (! [B] :  (B=k3_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(C, D) & r2_hidden(D, A)) ) ) ) ) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
+- fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
+- fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
+- fof(t107_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k14_seq_4(A))) =>  (B=k14_seq_4(A) => v1_seq_4(B, A)) ) ) ) ) ).

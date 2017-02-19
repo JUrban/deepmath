@@ -1,0 +1,9 @@
+C fof(t53_classes2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v1_classes2(B))  =>  (r1_tarski(A, B) | r2_hidden(B, A)) ) ) ) ) ).
++ fof(t52_classes2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v1_classes2(B))  =>  ~ ( ( ~ (r2_hidden(A, B))  &  ( ~ (A=B)  &  ~ (r2_hidden(B, A)) ) ) ) ) ) ) ) ).
++ fof(d2_ordinal1, axiom,  (! [A] :  (v1_ordinal1(A) <=>  (! [B] :  (r2_hidden(B, A) => r1_tarski(B, A)) ) ) ) ).
++ fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
++ fof(cc2_classes2, axiom,  (! [A] :  (v1_classes2(A) =>  (v1_ordinal1(A) & v2_classes1(A)) ) ) ).
+- fof(t47_classes2, axiom,  (! [A] :  (v1_ordinal1(A) => v1_classes2(k1_classes1(A))) ) ).
+- fof(t9_classes2, axiom,  (! [A] :  (v2_classes1(A) => k2_ordinal1(A)=k1_card_1(A)) ) ).
+- fof(fc2_classes2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  => v3_ordinal1(k2_ordinal1(A))) ) ).
+- fof(t50_classes2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  => A=k4_classes1(k2_ordinal1(A))) ) ).

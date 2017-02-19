@@ -1,0 +1,39 @@
+C fof(t85_matrixr2, axiom,  (k4_matrixr2(k6_numbers)=k5_matrixr2(k6_numbers) & k4_matrixr2(k6_numbers)=k1_xboole_0) ).
++ fof(dt_k8_matrixr1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  =>  (v1_matrix_1(k8_matrixr1(A, B)) & m2_finseq_1(k8_matrixr1(A, B), k3_finseq_2(k1_numbers))) ) ) ).
++ fof(dt_k5_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => m1_matrix_1(k5_matrixr2(A), k1_numbers, A, A)) ) ).
++ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(dt_m1_matrix_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (v7_ordinal1(B) & v7_ordinal1(C)) )  =>  (! [D] :  (m1_matrix_1(D, A, B, C) =>  (v1_matrix_1(D) & m2_finseq_1(D, k3_finseq_2(A))) ) ) ) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(fc2_card_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k1_card_1(A)))  & v1_card_1(k1_card_1(A))) ) ) ).
++ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(dt_k4_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => m1_matrix_1(k4_matrixr2(A), k1_numbers, A, A)) ) ).
++ fof(d3_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k5_matrixr2(A)=k8_matrixr1(A, A)) ) ).
++ fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
++ fof(redefinition_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_1(A)=k1_card_1(A)) ) ).
++ fof(t24_matrix_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m1_matrix_1(C, B, A, A) =>  (k3_finseq_1(C)=A &  (k1_matrix_1(C)=A & k2_matrix_1(C)=k2_zfmisc_1(k2_finseq_1(A), k2_finseq_1(A))) ) ) ) ) ) ) ) ).
+- fof(d6_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) =>  (v1_matrixr2(B, A) =>  (! [C] :  (m1_matrix_1(C, k1_numbers, A, A) =>  (C=k7_matrixr2(A, B) <=>  (k1_matrixr2(A, C, B)=k4_matrixr2(A) & k1_matrixr2(A, B, C)=k4_matrixr2(A)) ) ) ) ) ) ) ) ) ).
+- fof(d5_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) =>  (v1_matrixr2(B, A) <=>  (? [C] :  (m1_matrix_1(C, k1_numbers, A, A) &  (k1_matrixr2(A, C, B)=k4_matrixr2(A) & k1_matrixr2(A, B, C)=k4_matrixr2(A)) ) ) ) ) ) ) ) ).
+- fof(t73_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  ( ~ (r1_xxreal_0(A, k6_numbers))  => k3_matrixr2(A, k5_matrixr2(A))=k6_numbers) ) ) ).
+- fof(t70_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) => k1_matrixr2(A, k4_matrixr2(A), B)=B) ) ) ) ).
+- fof(d2_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k4_matrixr2(A)=k2_matrixr1(k12_matrix_1(k2_vectsp_1, A))) ) ).
+- fof(t71_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) => k1_matrixr2(A, B, k4_matrixr2(A))=B) ) ) ) ).
+- fof(t79_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k7_matrixr2(A, k4_matrixr2(A))=k4_matrixr2(A)) ) ).
+- fof(t64_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k5_matrix_1(A, k1_numbers, k4_matrixr2(A))=k4_matrixr2(A)) ) ).
+- fof(t80_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) =>  (! [C] :  (m1_matrix_1(C, k1_numbers, A, A) =>  (! [D] :  (m1_matrix_1(D, k1_numbers, A, A) =>  ( (k1_matrixr2(A, C, B)=k4_matrixr2(A) & k1_matrixr2(A, B, D)=k4_matrixr2(A))  =>  (C=D & v1_matrixr2(B, A)) ) ) ) ) ) ) ) ) ) ).
+- fof(t63_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  ( (! [B] :  (m1_subset_1(B, k5_numbers) =>  (r2_hidden(k4_tarski(B, B), k2_matrix_1(k4_matrixr2(A))) => k3_matrix_1(k1_numbers, k4_matrixr2(A), B, B)=1) ) )  &  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (r2_hidden(k4_tarski(B, C), k2_matrix_1(k4_matrixr2(A))) =>  (B=C | k3_matrix_1(k1_numbers, k4_matrixr2(A), B, C)=k6_numbers) ) ) ) ) ) ) ) ) ).
+- fof(t69_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  ( (v1_matrix_1(C) & m2_finseq_1(C, k3_finseq_2(k1_numbers)))  =>  ( (A=k1_matrix_1(C) => k6_matrixr1(C, k4_matrixr2(A))=C)  &  (B=k3_finseq_1(C) => k6_matrixr1(k4_matrixr2(B), C)=C) ) ) ) ) ) ) ) ).
+- fof(fc1_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => v1_matrixr2(k4_matrixr2(A), A)) ) ).
+- fof(t28_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) =>  (! [C] :  (m1_matrix_1(C, k1_numbers, A, A) =>  (! [D] :  (m1_matrix_1(D, k1_numbers, A, A) => k1_matrixr2(A, k1_matrixr2(A, B, C), D)=k1_matrixr2(A, B, k1_matrixr2(A, C, D))) ) ) ) ) ) ) ) ).
+- fof(t72_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k3_matrixr2(A, k4_matrixr2(A))=1) ) ).
+- fof(t29_matrixr2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m1_matrix_1(C, A, B, B) => k5_matrix_1(B, A, k5_matrix_1(B, A, C))=C) ) ) ) ) ) ).
+- fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
+- fof(d6_matrix_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_matrix_1(B) & m2_finseq_1(B, k3_finseq_2(A)))  =>  (! [C] :  ( (v1_matrix_1(C) & m2_finseq_1(C, k3_finseq_2(A)))  =>  (C=k4_matrix_1(A, B) <=>  (k3_finseq_1(C)=k1_matrix_1(B) &  ( (! [D] :  (v7_ordinal1(D) =>  (! [E] :  (v7_ordinal1(E) =>  (r2_hidden(k4_tarski(D, E), k2_matrix_1(C)) <=> r2_hidden(k4_tarski(E, D), k2_matrix_1(B))) ) ) ) )  &  (! [D] :  (v7_ordinal1(D) =>  (! [E] :  (v7_ordinal1(E) =>  (r2_hidden(k4_tarski(E, D), k2_matrix_1(B)) => k3_matrix_1(A, C, D, E)=k3_matrix_1(A, B, E, D)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t27_matrix_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (! [D] :  (m1_matrix_1(D, C, A, B) =>  (! [E] :  (m1_matrix_1(E, C, A, B) =>  ( (! [F] :  (v7_ordinal1(F) =>  (! [G] :  (v7_ordinal1(G) =>  (r2_hidden(k4_tarski(F, G), k2_matrix_1(D)) => k3_matrix_1(C, D, F, G)=k3_matrix_1(C, E, F, G)) ) ) ) )  => D=E) ) ) ) ) ) ) ) ) ) ) ).
+- fof(d12_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) <=> r2_hidden(A, k4_ordinal1)) ) ).

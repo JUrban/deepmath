@@ -1,0 +1,7 @@
+C fof(t120_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) => k6_subset_1(A, B)=A) ) ) ) ) ).
++ fof(t83_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_xboole_0(A, B) <=> k4_xboole_0(A, B)=A) ) ) ).
++ fof(t179_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) => r1_xboole_0(A, B)) ) ) ) ) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
+- fof(t56_partfun1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) => r1_partfun1(A, B)) ) ) ) ) ).
+- fof(t35_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) => k1_funct_4(A, B)=k1_funct_4(B, A)) ) ) ) ) ).
+- fof(t80_relat_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) => k5_relat_1(C, k6_subset_1(A, B))=k6_subset_1(k5_relat_1(C, A), k5_relat_1(C, B))) ) ) ) ).

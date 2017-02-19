@@ -1,0 +1,13 @@
+C fof(t128_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (r1_xxreal_0(A, B) => k1_xxreal_1(A, B)=k2_xboole_0(k4_xxreal_1(A, B), k2_tarski(A, B))) ) ) ) ) ).
++ fof(t5_xxreal_1, axiom,  (! [A] :  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ~ ( (r2_hidden(A, k1_xxreal_1(B, C)) &  ( ~ (r2_hidden(A, k4_xxreal_1(B, C)))  &  ( ~ (A=B)  &  ~ (A=C) ) ) ) ) ) ) ) ) ) ).
++ fof(t1_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(A, k1_xxreal_1(B, C)) <=>  (r1_xxreal_0(B, A) & r1_xxreal_0(A, C)) ) ) ) ) ) ) ) ).
++ fof(t16_xxreal_1, axiom,  (! [A] :  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(A, k4_xxreal_1(B, C)) =>  (r2_hidden(A, k1_xxreal_1(B, C)) &  ( ~ (A=B)  &  ~ (A=C) ) ) ) ) ) ) ) ) ).
++ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
+- fof(l13_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k2_enumset1(A, B, C, D)=k2_xboole_0(k2_tarski(A, B), k2_tarski(C, D))) ) ) ) ).
+- fof(l17_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] : k3_enumset1(A, B, C, D, E)=k2_xboole_0(k1_enumset1(A, B, C), k2_tarski(D, E))) ) ) ) ) ).
+- fof(t2_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, C))  => r1_xxreal_0(A, C)) ) ) ) ) ) ) ).
+- fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
+- fof(t4_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k2_xboole_0(k2_xboole_0(A, B), C)=k2_xboole_0(A, k2_xboole_0(B, C))) ) ) ).
+- fof(t29_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( ~ (r1_xxreal_0(B, A))  => k1_xxreal_1(B, A)=k1_xboole_0) ) ) ) ) ).

@@ -1,0 +1,9 @@
+C fof(t7_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_valued_0(A) <=>  (! [B] : v1_xcmplx_0(k1_funct_1(A, B))) ) ) ) ).
++ fof(d7_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_valued_0(A) <=>  (! [B] :  (r2_hidden(B, k9_xtuple_0(A)) => v1_xcmplx_0(k1_funct_1(A, B))) ) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
++ fof(d2_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k9_xtuple_0(A)) =>  (C=k1_funct_1(A, B) <=> r2_hidden(k4_tarski(B, C), A)) )  &  ( ~ (r2_hidden(B, k9_xtuple_0(A)))  =>  (C=k1_funct_1(A, B) <=> C=k1_xboole_0) ) ) ) ) ) ) ).
+- fof(d1_valued_0, axiom,  (! [A] :  (v1_relat_1(A) =>  (v1_valued_0(A) <=> r1_tarski(k10_xtuple_0(A), k2_numbers)) ) ) ).
+- fof(fc1_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_valued_0(A))  => v1_membered(k10_xtuple_0(A))) ) ).
+- fof(cc6_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v3_valued_0(A))  =>  (v1_relat_1(A) & v1_valued_0(A)) ) ) ).
+- fof(fc43_valued_0, axiom,  (! [A, B] :  ( (v1_relat_1(A) & v1_valued_0(A))  =>  (v1_relat_1(k5_relat_1(A, B)) & v1_valued_0(k5_relat_1(A, B))) ) ) ).

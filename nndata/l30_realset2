@@ -1,0 +1,23 @@
+C fof(l30_realset2, axiom,  ( ~ (v2_struct_0(g6_algstr_0(c4__realset2, c8__realset2, c9__realset2, c7__realset2, c5__realset2)))  & l6_algstr_0(g6_algstr_0(c4__realset2, c8__realset2, c9__realset2, c7__realset2, c5__realset2))) ).
++ fof(dt_g6_algstr_0, axiom,  (! [A, B, C, D, E] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(D, A) & m1_subset_1(E, A)) ) )  =>  (v36_algstr_0(g6_algstr_0(A, B, C, D, E)) & l6_algstr_0(g6_algstr_0(A, B, C, D, E))) ) ) ).
++ fof(de_c4__realset2, axiom, c4__realset2=2).
++ fof(de_c8__realset2, axiom, c8__realset2=k1_realset2).
++ fof(spc2_boole, axiom,  ~ (v1_xboole_0(2)) ).
++ fof(dt_c9__realset2, axiom,  (v1_funct_1(c9__realset2) &  (v1_funct_2(c9__realset2, k2_zfmisc_1(c4__realset2, c4__realset2), c4__realset2) & m1_subset_1(c9__realset2, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(c4__realset2, c4__realset2), c4__realset2)))) ) ).
++ fof(fc29_algstr_0, axiom,  (! [A, B, C, D, E] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(D, A) & m1_subset_1(E, A)) ) ) )  =>  ( ~ (v2_struct_0(g6_algstr_0(A, B, C, D, E)))  & v36_algstr_0(g6_algstr_0(A, B, C, D, E))) ) ) ).
++ fof(dt_k1_realset2, axiom,  (v1_funct_1(k1_realset2) &  (v1_funct_2(k1_realset2, k2_zfmisc_1(2, 2), 2) & m1_subset_1(k1_realset2, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(2, 2), 2)))) ) ).
++ fof(de_c7__realset2, axiom, c7__realset2=k1_funct_7(1, 2)).
++ fof(dt_c5__realset2, axiom, m1_subset_1(c5__realset2, c4__realset2)).
++ fof(dt_k1_funct_7, axiom,  (! [A, B] : m1_subset_1(k1_funct_7(A, B), B)) ).
++ fof(de_c9__realset2, axiom, c9__realset2=k2_realset2).
+- fof(dt_c7__realset2, axiom, m2_subset_1(c7__realset2, c4__realset2, k6_subset_1(c4__realset2, k6_domain_1(c4__realset2, c5__realset2)))).
+- fof(dt_c8__realset2, axiom,  (v1_funct_1(c8__realset2) &  (v1_funct_2(c8__realset2, k2_zfmisc_1(c4__realset2, c4__realset2), c4__realset2) & m1_subset_1(c8__realset2, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(c4__realset2, c4__realset2), c4__realset2)))) ) ).
+- fof(l26_realset2, axiom, m2_subset_1(k1_funct_7(1, 2), c4__realset2, k6_subset_1(c4__realset2, k6_domain_1(c4__realset2, c5__realset2)))).
+- fof(de_c5__realset2, axiom, c5__realset2=k1_funct_7(k6_numbers, 2)).
+- fof(abstractness_v36_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (v36_algstr_0(A) => A=g6_algstr_0(u1_struct_0(A), u1_algstr_0(A), u2_algstr_0(A), u3_struct_0(A), u2_struct_0(A))) ) ) ).
+- fof(d7_funcsdom, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k11_funcsdom(A)=g6_algstr_0(k9_funct_2(A, k1_numbers), k5_funcsdom(A), k6_funcsdom(A), k9_funcsdom(A), k8_funcsdom(A))) ) ).
+- fof(fc30_algstr_0, axiom,  (! [A, B, C, D, E] :  ( (v1_zfmisc_1(A) &  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(D, A) & m1_subset_1(E, A)) ) ) )  =>  (v7_struct_0(g6_algstr_0(A, B, C, D, E)) & v36_algstr_0(g6_algstr_0(A, B, C, D, E))) ) ) ).
+- fof(d5_vectsp_1, axiom, k2_vectsp_1=g6_algstr_0(k1_numbers, k33_binop_2, k35_binop_2, 1, k6_numbers)).
+- fof(free_g6_algstr_0, axiom,  (! [A, B, C, D, E] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(D, A) & m1_subset_1(E, A)) ) )  =>  (! [F, G, H, I, J] :  (g6_algstr_0(A, B, C, D, E)=g6_algstr_0(F, G, H, I, J) =>  (A=F &  (B=G &  (C=H &  (D=I & E=J) ) ) ) ) ) ) ) ).
+- fof(fc31_algstr_0, axiom,  (! [A, B, C, D, E] :  ( ( ~ (v1_zfmisc_1(A))  &  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(D, A) & m1_subset_1(E, A)) ) ) )  =>  ( ~ (v7_struct_0(g6_algstr_0(A, B, C, D, E)))  & v36_algstr_0(g6_algstr_0(A, B, C, D, E))) ) ) ).
+- fof(l23_realset2, axiom, k6_subset_1(c4__realset2, k6_domain_1(2, k1_funct_7(k6_numbers, 2)))=k6_domain_1(2, k1_funct_7(1, 2))).

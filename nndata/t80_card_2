@@ -1,0 +1,15 @@
+C fof(t80_card_2, axiom,  (! [A] :  ( (v1_finset_1(A) & v1_card_1(A))  =>  (! [B] :  ( (v1_finset_1(B) & v1_card_1(B))  => v1_finset_1(k1_card_2(A, B))) ) ) ) ).
++ fof(commutativity_k1_card_2, axiom,  (! [A, B] :  ( (v1_card_1(A) & v1_card_1(B))  => k1_card_2(A, B)=k1_card_2(B, A)) ) ).
++ fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
++ fof(t39_card_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_finset_1(A) & v1_finset_1(k1_card_1(A))) ) ) ).
++ fof(t61_card_1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (v1_finset_1(A) <=> r2_hidden(A, k4_ordinal1)) ) ) ).
++ fof(d1_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) => k1_card_2(A, B)=k1_card_1(k10_ordinal2(A, B))) ) ) ) ).
++ fof(fc5_ordinal2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  =>  (v3_ordinal1(k10_ordinal2(A, B)) & v7_ordinal1(k10_ordinal2(A, B))) ) ) ).
++ fof(d12_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) <=> r2_hidden(A, k4_ordinal1)) ) ).
+- fof(t10_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (! [D] :  ( ~ (C=D)  =>  (r2_wellord2(k1_card_2(A, B), k2_xboole_0(k2_zfmisc_1(A, k1_tarski(C)), k2_zfmisc_1(B, k1_tarski(D)))) & k1_card_2(A, B)=k1_card_1(k2_xboole_0(k2_zfmisc_1(A, k1_tarski(C)), k2_zfmisc_1(B, k1_tarski(D))))) ) ) ) ) ) ) ) ).
+- fof(dt_k1_card_2, axiom,  (! [A, B] :  ( (v1_card_1(A) & v1_card_1(B))  => v1_card_1(k1_card_2(A, B))) ) ).
+- fof(t75_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  ( ~ (v1_finset_1(A))  => k1_card_2(A, A)=A) ) ) ).
+- fof(t19_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (v1_card_1(C) => k1_card_2(k1_card_2(A, B), C)=k1_card_2(A, k1_card_2(B, C))) ) ) ) ) ) ).
+- fof(t23_card_2, axiom,  (! [A] :  (v1_card_1(A) => k2_card_2(2, A)=k1_card_2(A, A)) ) ).
+- fof(t24_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (v1_card_1(C) => k2_card_2(A, k1_card_2(B, C))=k1_card_2(k2_card_2(A, B), k2_card_2(A, C))) ) ) ) ) ) ).
+- fof(t76_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  ~ ( ( ~ (v1_finset_1(A))  &  ( (r1_ordinal1(B, A) | r2_hidden(B, A))  &  ~ ( (k1_card_2(A, B)=A & k1_card_2(B, A)=A) ) ) ) ) ) ) ) ) ).

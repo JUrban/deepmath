@@ -1,0 +1,15 @@
+C fof(t29_simplex0, axiom,  (! [A] :  (! [B] :  ( (v1_matroid0(B) & m1_simplex0(B, A))  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))) =>  (! [D] :  ( (v5_finset_1(D) & m1_subset_1(D, k1_zfmisc_1(k1_zfmisc_1(C))))  =>  (r1_tarski(D, u1_pre_topc(B)) =>  (v1_pre_topc(k5_simplex0(C, D)) & m2_simplex0(k5_simplex0(C, D), A, B)) ) ) ) ) ) ) ) ) ).
++ fof(dt_k5_simplex0, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (v1_pre_topc(k5_simplex0(A, B)) & m1_simplex0(k5_simplex0(A, B), A)) ) ) ).
++ fof(redefinition_k2_simplex0, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => k2_simplex0(A, B)=k1_simplex0(B)) ) ).
++ fof(dt_m1_simplex0, axiom,  (! [A] :  (! [B] :  (m1_simplex0(B, A) => l1_pre_topc(B)) ) ) ).
++ fof(fc1_matroid0, axiom,  (! [A] :  ( (v1_matroid0(A) & l1_pre_topc(A))  => v1_classes1(k1_matroid0(A))) ) ).
++ fof(t28_simplex0, axiom,  (! [A] :  (! [B] :  (m1_simplex0(B, A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))) =>  (! [D] :  ( (v5_finset_1(D) & m1_subset_1(D, k1_zfmisc_1(k1_zfmisc_1(C))))  =>  (r1_tarski(k2_simplex0(C, D), u1_pre_topc(B)) =>  (v1_pre_topc(k5_simplex0(C, D)) & m2_simplex0(k5_simplex0(C, D), A, B)) ) ) ) ) ) ) ) ) ).
++ fof(t3_simplex0, axiom,  (! [A] :  (! [B] :  ( (r1_tarski(A, B) & v1_classes1(B))  => r1_tarski(k1_simplex0(A), B)) ) ) ).
++ fof(d1_matroid0, axiom,  (! [A] :  (l1_pre_topc(A) => k1_matroid0(A)=u1_pre_topc(A)) ) ).
+- fof(d13_simplex0, axiom,  (! [A] :  (! [B] :  (m1_simplex0(B, A) =>  (! [C] :  ( (v1_matroid0(C) &  (v3_matroid0(C) & m1_simplex0(C, A)) )  =>  (m2_simplex0(C, A, B) <=>  (r1_tarski(k2_struct_0(C), k2_struct_0(B)) & r1_tarski(u1_pre_topc(C), u1_pre_topc(B))) ) ) ) ) ) ) ).
+- fof(fc16_simplex0, axiom,  (! [A, B] :  ( (v5_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))))  =>  (v1_pre_topc(k5_simplex0(A, B)) & v3_matroid0(k5_simplex0(A, B))) ) ) ).
+- fof(fc14_simplex0, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (v1_pre_topc(k5_simplex0(A, B)) &  (v1_matroid0(k5_simplex0(A, B)) & v6_simplex0(k5_simplex0(A, B), A)) ) ) ) ).
+- fof(dt_m2_simplex0, axiom,  (! [A, B] :  (m1_simplex0(B, A) =>  (! [C] :  (m2_simplex0(C, A, B) =>  (v1_matroid0(C) &  (v3_matroid0(C) & m1_simplex0(C, A)) ) ) ) ) ) ).
+- fof(fc17_simplex0, axiom,  (! [A, B] :  ( (v1_finset_1(B) &  (v5_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) )  =>  (v1_pre_topc(k5_simplex0(A, B)) & v2_simplex0(k5_simplex0(A, B))) ) ) ).
+- fof(d11_simplex0, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => k5_simplex0(A, B)=g1_pre_topc(A, k2_simplex0(A, B))) ) ) ).
+- fof(t64_tops_2, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A)))) =>  (v1_tops_2(B, A) <=> r1_tarski(B, u1_pre_topc(A))) ) ) ) ) ).

@@ -1,0 +1,37 @@
+C fof(l20_complex1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k3_arytm_0(A)=k1_real_1(A)) ) ).
++ fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
++ fof(spc8_arithm, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(k4_xcmplx_0(A), k4_xcmplx_0(B))=k4_xcmplx_0(k2_xcmplx_0(A, B))) ) ).
++ fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(fc15_xreal_0, axiom,  (! [A] :  ( ( ~ (v2_xxreal_0(A))  & v1_xreal_0(A))  =>  (v1_xcmplx_0(k4_xcmplx_0(A)) &  ~ (v3_xxreal_0(k4_xcmplx_0(A))) ) ) ) ).
++ fof(d3_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (B=k3_arytm_0(A) <=> k1_arytm_0(A, B)=k6_numbers) ) ) ) ) ).
++ fof(involutiveness_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => k4_xcmplx_0(k4_xcmplx_0(A))=A) ) ).
++ fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(fc5_xreal_0, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => v1_xreal_0(k2_xcmplx_0(A, B))) ) ).
++ fof(dt_k1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k1_real_1(A), k1_numbers)) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(cc6_xxreal_0, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_xxreal_0(A) &  ~ (v2_xxreal_0(A)) ) )  =>  (v1_xxreal_0(A) & v3_xxreal_0(A)) ) ) ).
++ fof(redefinition_k1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k1_real_1(A)=k4_xcmplx_0(A)) ) ).
++ fof(l19_complex1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  ( (A=C & B=D)  => k1_arytm_0(A, B)=k2_xcmplx_0(C, D)) ) ) ) ) ) ) ) ) ).
++ fof(fc16_xreal_0, axiom,  (! [A] :  ( ( ~ (v3_xxreal_0(A))  & v1_xreal_0(A))  =>  (v1_xcmplx_0(k4_xcmplx_0(A)) &  ~ (v2_xxreal_0(k4_xcmplx_0(A))) ) ) ) ).
++ fof(cc3_xxreal_0, axiom,  (! [A] :  ( (v1_xxreal_0(A) & v2_xxreal_0(A))  =>  ( ~ (v1_xboole_0(A))  &  (v1_xxreal_0(A) &  ~ (v3_xxreal_0(A)) ) ) ) ) ).
+- fof(d1_int_1, axiom,  (! [A] :  (A=k4_numbers <=>  (! [B] :  (r2_hidden(B, A) <=>  ~ ( (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  ( ~ (B=C)  &  ~ (B=k1_real_1(C)) ) ) ) ) ) ) ) ) ).
+- fof(dt_k3_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k3_arytm_0(A), k1_numbers)) ) ).
+- fof(de_c2__arytm_0, axiom, c2__arytm_0=k6_numbers).
+- fof(involutiveness_k3_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k3_arytm_0(k3_arytm_0(A))=A) ) ).
+- fof(t25_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) => k3_arytm_0(k1_arytm_0(A, B))=k1_arytm_0(k3_arytm_0(A), k3_arytm_0(B))) ) ) ) ).
+- fof(t15_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) => k2_arytm_0(k3_arytm_0(A), B)=k3_arytm_0(k2_arytm_0(A, B))) ) ) ) ).
+- fof(d2_int_1, axiom,  (! [A] :  (v1_int_1(A) <=> r2_hidden(A, k4_numbers)) ) ).
+- fof(t11_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (B=k6_numbers => k1_arytm_0(A, B)=A) ) ) ) ) ).
+- fof(l1_int_1, axiom,  (! [A] :  ~ ( (r2_hidden(A, k6_subset_1(k2_zfmisc_1(k1_tarski(k6_numbers), k5_numbers), k1_tarski(k4_tarski(k6_numbers, k6_numbers)))) &  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  ~ (A=k1_real_1(B)) ) ) ) ) ) ).
+- fof(t2_int_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ~ ( (v1_int_1(A) &  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  ( ~ (A=B)  &  ~ (A=k1_real_1(B)) ) ) ) ) ) ) ) ).
+- fof(l2_int_1, axiom,  (! [A] :  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (A=k1_real_1(B) =>  (B=A | r2_hidden(A, k6_subset_1(k2_zfmisc_1(k1_tarski(k6_numbers), k5_numbers), k1_tarski(k4_tarski(k6_numbers, k6_numbers))))) ) ) ) ) ).
+- fof(l3_arithm, axiom, k3_arytm_0(k6_numbers)=k6_numbers).
+- fof(dt_c2__arytm_0, axiom, m1_subset_1(c2__arytm_0, k1_numbers)).
+- fof(involutiveness_k1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k1_real_1(k1_real_1(A))=A) ) ).
+- fof(t24_rat_1, axiom,  (! [A] :  (v1_rat_1(A) =>  (k2_rat_1(A)=k1_real_1(k1_rat_1(A)) <=> A=k1_real_1(1)) ) ) ).
+- fof(t9_int_1, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (k3_xcmplx_0(A, B)=1 <=>  ( (A=1 & B=1)  |  (A=k1_real_1(1) & B=k1_real_1(1)) ) ) ) ) ) ) ).
+- fof(l19_arytm_0, axiom, m1_subset_1(k6_numbers, k1_numbers)).
+- fof(t23_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) => k1_arytm_0(A, k1_arytm_0(B, C))=k1_arytm_0(k1_arytm_0(A, B), C)) ) ) ) ) ) ).

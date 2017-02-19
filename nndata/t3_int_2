@@ -1,0 +1,17 @@
+C fof(t3_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (r1_int_1(k6_numbers, A) <=> A=k6_numbers) ) ) ).
++ fof(t89_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  ( ~ (A=k6_numbers)  => B=k7_xcmplx_0(k3_xcmplx_0(B, A), A)) ) ) ) ) ).
++ fof(t50_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  ~ ( ( ~ (A=k6_numbers)  &  ( ~ (B=k6_numbers)  & k7_xcmplx_0(A, B)=k6_numbers) ) ) ) ) ) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(cc3_int_1, axiom,  (! [A] :  (v1_int_1(A) => v1_xreal_0(A)) ) ).
++ fof(dt_k6_int_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => v1_int_1(k6_int_1(A, B))) ) ).
++ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
++ fof(t50_int_1, axiom,  (! [A] :  (v1_int_1(A) => k6_int_1(A, A)=k6_numbers) ) ).
++ fof(d3_int_1, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (r1_int_1(A, B) <=>  (? [C] :  (v1_int_1(C) & B=k3_xcmplx_0(A, C)) ) ) ) ) ) ) ).
+- fof(d4_int_1, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) =>  (r2_int_1(A, B, C) <=> r1_int_1(C, k6_xcmplx_0(A, B))) ) ) ) ) ) ) ).
+- fof(t62_int_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (r1_xxreal_0(A, k6_numbers))  =>  (! [B] :  (v1_int_1(B) =>  (k6_int_1(B, A)=k6_numbers <=> r1_int_1(A, B)) ) ) ) ) ) ).
+- fof(t1_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) =>  ( (r1_int_1(A, B) & r1_int_1(A, k2_xcmplx_0(B, C)))  => r1_int_1(A, C)) ) ) ) ) ) ) ).
+- fof(reflexivity_r1_int_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => r1_int_1(A, A)) ) ).
+- fof(t2_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) =>  (r1_int_1(A, B) => r1_int_1(A, k3_xcmplx_0(B, C))) ) ) ) ) ) ) ).
+- fof(fc2_int_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => v1_int_1(k3_xcmplx_0(A, B))) ) ).
+- fof(spc7_arithm, axiom,  (! [A, B, C] :  ( (v1_xcmplx_0(A) &  (v1_xcmplx_0(B) & v1_xcmplx_0(C)) )  => k3_xcmplx_0(k3_xcmplx_0(A, B), C)=k3_xcmplx_0(A, k3_xcmplx_0(B, C))) ) ).
+- fof(t15_int_1, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) =>  (! [D] :  (v1_int_1(D) =>  ( (r2_int_1(A, B, C) & r2_int_1(B, D, C))  => r2_int_1(A, D, C)) ) ) ) ) ) ) ) ) ).

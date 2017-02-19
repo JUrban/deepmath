@@ -1,0 +1,13 @@
+C fof(t23_toler_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_2(B) &  (v3_relat_2(B) &  (v1_partfun1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  => r1_relset_1(A, A, k6_partfun1(A), B)) ) ) ).
++ fof(redefinition_r1_relset_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (r1_relset_1(A, B, C, D) <=> r1_tarski(C, D)) ) ) ).
++ fof(redefinition_k6_partfun1, axiom,  (! [A] : k6_partfun1(A)=k4_relat_1(A)) ).
++ fof(t1_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (v1_relat_2(A) <=> r1_tarski(k4_relat_1(k1_relat_1(A)), A)) ) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(l6_orders_1, axiom,  (! [A] :  (! [B] :  ( (v1_partfun1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => k1_relat_1(B)=A) ) ) ).
++ fof(t3_eqrel_1, axiom,  (! [A] :  (v3_relat_2(k6_partfun1(A)) &  (v8_relat_2(k6_partfun1(A)) &  (v1_partfun1(k6_partfun1(A), A) & m1_subset_1(k6_partfun1(A), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ) ) ).
+- fof(t3_funct_4, axiom,  (! [A] :  (! [B] :  (r1_relset_1(A, A, k6_partfun1(A), k6_partfun1(B)) <=> r1_tarski(A, B)) ) ) ).
+- fof(dt_k6_partfun1, axiom,  (! [A] :  (v1_partfun1(k6_partfun1(A), A) & m1_subset_1(k6_partfun1(A), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
+- fof(t8_xtuple_0, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k9_xtuple_0(A), k9_xtuple_0(B))) ) ) ).
+- fof(t59_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) => r1_tarski(k5_relat_1(B, A), B)) ) ) ).
+- fof(t1_funct_3, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => k4_relat_1(A)=k5_relat_1(k4_relat_1(B), A)) ) ) ).
+- fof(fc3_funct_1, axiom,  (! [A] :  (v1_relat_1(k4_relat_1(A)) & v1_funct_1(k4_relat_1(A))) ) ).

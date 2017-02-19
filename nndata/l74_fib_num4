@@ -1,0 +1,29 @@
+C fof(l74_fib_num4, axiom,  ~ (r1_xxreal_0(k13_complex1(6, 10), k3_xcmplx_0(k6_xcmplx_0(k7_square_1(5), 1), k13_complex1(1, k7_square_1(5))))) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_k13_complex1, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k13_complex1(A, B)=k7_xcmplx_0(A, B)) ) ).
++ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
++ fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(fc3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => v1_xcmplx_0(k3_xcmplx_0(A, B))) ) ).
++ fof(l73_fib_num4, axiom,  ( ~ (r1_xxreal_0(k13_complex1(6, 10), k3_xcmplx_0(k6_xcmplx_0(k7_square_1(5), 1), k13_complex1(k3_xcmplx_0(1, k7_square_1(5)), k3_xcmplx_0(k7_square_1(5), k7_square_1(5))))))  &  ~ (r1_xxreal_0(k7_square_1(5), k6_numbers)) ) ).
++ fof(redefinition_k7_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k7_square_1(A)=k6_square_1(A)) ) ).
++ fof(spc5_numerals, axiom,  ( (v2_xxreal_0(5) & m2_subset_1(5, k1_numbers, k5_numbers))  &  (m1_subset_1(5, k5_numbers) & m1_subset_1(5, k1_numbers)) ) ).
++ fof(dt_k7_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k7_square_1(A), k1_numbers)) ) ).
++ fof(t91_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  ( ~ (A=k6_numbers)  => k7_xcmplx_0(B, C)=k7_xcmplx_0(k3_xcmplx_0(B, A), k3_xcmplx_0(C, A))) ) ) ) ) ) ) ).
++ fof(t3_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(1, A)=A) ) ).
+- fof(l72_fib_num4, axiom,  ~ (r1_xxreal_0(k13_complex1(6, 10), k3_xcmplx_0(k6_xcmplx_0(k7_square_1(5), 1), k13_complex1(k7_square_1(5), k5_square_1(k7_square_1(5)))))) ).
+- fof(l71_fib_num4, axiom,  ~ (r1_xxreal_0(k13_complex1(6, 10), k3_xcmplx_0(k6_xcmplx_0(k7_square_1(5), 1), k13_complex1(k7_square_1(5), 5)))) ).
+- fof(l65_fib_num4, axiom,  ( ~ (r1_xxreal_0(k6_xcmplx_0(k7_square_1(5), 1), k6_xcmplx_0(1, 1)))  &  ~ (r1_xxreal_0(k7_square_1(5), k6_numbers)) ) ).
+- fof(l70_fib_num4, axiom,  ~ (r1_xxreal_0(k13_complex1(3, 5), k13_complex1(k3_xcmplx_0(k7_square_1(5), k6_xcmplx_0(k7_square_1(5), 1)), 5))) ).
+- fof(redefinition_k5_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k5_square_1(A)=k3_square_1(A)) ) ).
+- fof(l16_fib_num4, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ (r1_xxreal_0(k13_complex1(1, 2), k3_xcmplx_0(k3_power(k18_complex1(k2_fib_num), A), k13_complex1(1, k7_square_1(5))))) ) ) ).
+- fof(l15_fib_num4, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ (r1_xxreal_0(k3_xcmplx_0(k3_power(k18_complex1(k2_fib_num), A), k13_complex1(1, k7_square_1(5))), k6_numbers)) ) ) ).
+- fof(t16_fib_num4, axiom,  (! [A] :  (v7_ordinal1(A) =>  (r1_xxreal_0(2, A) => r1_xxreal_0(k3_power(k2_fib_num, A), k13_complex1(1, k7_square_1(5)))) ) ) ).
+- fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
+- fof(t15_fib_num4, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (r1_xxreal_0(A, 2))  => r1_xxreal_0(k10_complex1(k13_complex1(1, k7_square_1(5))), k3_power(k2_fib_num, A))) ) ) ).
+- fof(spc0_boole, axiom, v1_xboole_0(0)).
+- fof(l62_fib_num4, axiom, k13_complex1(k7_square_1(5), k3_xcmplx_0(k6_xcmplx_0(k7_square_1(5), 5), k1_fib_num))=k10_complex1(k13_complex1(1, 2))).
+- fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
+- fof(d1_square_1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_square_1(A)=k3_xcmplx_0(A, A)) ) ).

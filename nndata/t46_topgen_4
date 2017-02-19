@@ -1,0 +1,9 @@
+C fof(t46_topgen_4, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (v7_pre_topc(A) => v7_topgen_4(A)) ) ) ).
++ fof(dt_k2_topgen_1, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => m1_subset_1(k2_topgen_1(A, B), k1_zfmisc_1(u1_struct_0(A)))) ) ).
++ fof(t33_topgen_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v7_pre_topc(A) => k2_pre_topc(A, k2_topgen_1(A, B))=k2_topgen_1(A, B)) ) ) ) ) ).
++ fof(d8_topgen_4, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (v7_topgen_4(A) <=>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => v4_pre_topc(k2_topgen_1(A, B), A)) ) ) ) ) ).
++ fof(fc1_tops_1, axiom,  (! [A, B] :  ( ( (v2_pre_topc(A) & l1_pre_topc(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => v4_pre_topc(k2_pre_topc(A, B), A)) ) ).
+- fof(cc8_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (v8_pre_topc(A) => v7_pre_topc(A)) ) ) ).
+- fof(t4_yellow13, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) &  (v1_tdlat_3(A) & l1_pre_topc(A)) ) )  => v8_pre_topc(A)) ) ).
+- fof(l4_frechet2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (v8_pre_topc(A) => v7_pre_topc(A)) ) ) ).
+- fof(l2_frechet2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  ~ ( ( ~ (v7_pre_topc(A))  &  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  ~ ( ( ~ (B=C)  & r2_hidden(C, k2_pre_topc(A, k6_domain_1(u1_struct_0(A), B)))) ) ) ) ) ) ) ) ) ) ).

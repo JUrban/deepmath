@@ -1,0 +1,7 @@
+C fof(t1_facirc_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  ~ ( (v2_facirc_1(A) & v1_facirc_1(k10_xtuple_0(A))) ) ) ) ).
++ fof(d2_facirc_1, axiom,  (! [A] :  (v1_facirc_1(A) <=>  (? [B] :  (v1_xtuple_0(B) & r2_hidden(B, A)) ) ) ) ).
++ fof(d3_facirc_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v2_facirc_1(A) <=>  (! [B] :  ~ ( (r2_hidden(B, k9_xtuple_0(A)) & v1_xtuple_0(k1_funct_1(A, B))) ) ) ) ) ) ).
++ fof(d3_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (B=k10_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(D, k9_xtuple_0(A)) & C=k1_funct_1(A, D)) ) ) ) ) ) ) ) ).
+- fof(fc12_facirc_1, axiom,  (! [A, B] :  ( ( ~ (v1_xtuple_0(A))  &  ~ (v1_xtuple_0(B)) )  => v2_facirc_1(k10_finseq_1(A, B))) ) ).
+- fof(fc11_facirc_1, axiom,  (! [A] :  ( ~ (v1_xtuple_0(A))  => v2_facirc_1(k5_finseq_1(A))) ) ).
+- fof(fc13_facirc_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xtuple_0(A))  &  ( ~ (v1_xtuple_0(B))  &  ~ (v1_xtuple_0(C)) ) )  => v2_facirc_1(k11_finseq_1(A, B, C))) ) ).

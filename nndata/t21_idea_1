@@ -1,0 +1,11 @@
+C fof(t21_idea_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m1_subset_1(C, k5_numbers) => k9_idea_1(C, A, B)=k9_idea_1(C, B, A)) ) ) ) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(commutativity_k4_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k4_nat_1(A, B)=k4_nat_1(B, A)) ) ).
++ fof(d9_idea_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) => k9_idea_1(A, B, C)=k8_idea_1(A, k4_nat_d(k4_nat_1(k7_idea_1(A, B), k7_idea_1(A, C)), k2_nat_1(k5_series_1(2, A), 1)))) ) ) ) ) ) ).
++ fof(dt_k7_idea_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => m1_subset_1(k7_idea_1(A, B), k5_numbers)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
+- fof(d10_idea_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(A, k5_numbers))  =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  ( (r1_idea_1(A, B) & v1_int_2(k2_nat_1(k5_series_1(2, A), 1)))  =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (C=k10_idea_1(A, B) <=>  (k9_idea_1(A, B, C)=1 & r1_idea_1(A, C)) ) ) ) ) ) ) ) ) ).
+- fof(dt_k9_idea_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(A, k5_numbers) &  (v7_ordinal1(B) & v7_ordinal1(C)) )  => m1_subset_1(k9_idea_1(A, B, C), k5_numbers)) ) ).
+- fof(t34_substut1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  =>  ( (v5_relat_1(C, k3_qc_lang1(A)) &  (v3_card_1(C, B) & m2_finseq_1(C, k2_qc_lang1(A))) )  <=>  (m2_finseq_1(C, k3_qc_lang1(A)) & k3_finseq_1(C)=B) ) ) ) ) ) ) ) ).
+- fof(fraenkel_a_2_6_goboard5, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k5_numbers) &  (v1_matrix_1(C) & m2_finseq_1(C, k3_finseq_2(u1_struct_0(k15_euclid(2))))) )  =>  (r2_hidden(A, a_2_6_goboard5(B, C)) <=>  (? [D, E] :  ( (m1_subset_1(D, k1_numbers) & m1_subset_1(E, k1_numbers))  &  (A=k19_euclid(D, E) & r1_xxreal_0(k18_euclid(k3_matrix_1(u1_struct_0(k15_euclid(2)), C, B, k1_matrix_1(C))), E)) ) ) ) ) ) ).
+- fof(fraenkel_a_0_0_cqc_the1, axiom,  (! [A] :  (r2_hidden(A, a_0_0_cqc_the1) <=>  (? [B] :  (m1_subset_1(B, k5_numbers) &  (A=B & r1_xxreal_0(B, 9)) ) ) ) ) ).

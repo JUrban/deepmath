@@ -1,0 +1,11 @@
+C fof(t2_treal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, B) => v1_borsuk_1(k4_topmetr(A, B), k3_topmetr)) ) ) ) ) ).
++ fof(d11_borsuk_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (m1_pre_topc(B, A) =>  (v1_borsuk_1(B, A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (C=u1_struct_0(B) => v4_pre_topc(C, A)) ) ) ) ) ) ) ) ).
++ fof(t1_treal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (C=k1_rcomp_1(A, B) => v4_pre_topc(C, k3_topmetr)) ) ) ) ) ) ) ).
++ fof(t18_topmetr, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, B) => u1_struct_0(k4_topmetr(A, B))=k1_rcomp_1(A, B)) ) ) ) ) ).
++ fof(dt_k4_topmetr, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  =>  ( ~ (v2_struct_0(k4_topmetr(A, B)))  &  (v1_pre_topc(k4_topmetr(A, B)) & m1_pre_topc(k4_topmetr(A, B), k3_topmetr)) ) ) ) ).
++ fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).
+- fof(d7_topmetr, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k4_topmetr(A, B)=k3_pcomps_1(k2_topmetr(A, B))) ) ) ) ).
+- fof(t19_topmetr, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (C=k1_rcomp_1(A, B) => k4_topmetr(A, B)=k1_pre_topc(k3_topmetr, C)) ) ) ) ) ) ) ) ).
+- fof(t23_topmetr, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  (! [E] :  (m1_subset_1(E, k1_zfmisc_1(u1_struct_0(k4_topmetr(C, D)))) =>  ( (r1_xxreal_0(C, A) &  (r1_xxreal_0(A, B) &  (r1_xxreal_0(B, D) & E=k1_rcomp_1(A, B)) ) )  => k4_topmetr(A, B)=k1_pre_topc(k4_topmetr(C, D), E)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t24_topmetr, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k5_topmetr))) =>  ( (r1_xxreal_0(k6_numbers, A) &  (r1_xxreal_0(A, B) &  (r1_xxreal_0(B, 1) & C=k1_rcomp_1(A, B)) ) )  => k4_topmetr(A, B)=k1_pre_topc(k5_topmetr, C)) ) ) ) ) ) ) ).
+- fof(t4_heine, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, B) => v1_compts_1(k4_topmetr(A, B))) ) ) ) ) ).

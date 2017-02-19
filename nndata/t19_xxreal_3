@@ -1,0 +1,11 @@
+C fof(t19_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ~ ( (k3_xxreal_3(A, B)=k2_xxreal_0 &  ( ~ (A=k2_xxreal_0)  &  ~ (B=k1_xxreal_0) ) ) ) ) ) ) ) ).
++ fof(dt_k2_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) => v1_xxreal_0(k2_xxreal_3(A))) ) ).
++ fof(involutiveness_k2_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) => k2_xxreal_3(k2_xxreal_3(A))=A) ) ).
++ fof(t5_xxreal_3, axiom, k2_xxreal_3(k2_xxreal_0)=k1_xxreal_0).
++ fof(d4_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) => k3_xxreal_3(A, B)=k1_xxreal_3(A, k2_xxreal_3(B))) ) ) ) ).
++ fof(l23_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ~ ( (k1_xxreal_3(A, B)=k2_xxreal_0 &  ( ~ (A=k2_xxreal_0)  &  ~ (B=k2_xxreal_0) ) ) ) ) ) ) ) ).
+- fof(fc1_xxreal_0, axiom, v1_xxreal_0(k1_xxreal_0)).
+- fof(t13_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  ( ~ (A=k1_xxreal_0)  =>  (k3_xxreal_3(k1_xxreal_0, A)=k1_xxreal_0 & k3_xxreal_3(A, k1_xxreal_0)=k2_xxreal_0) ) ) ) ).
+- fof(t14_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  ( ~ (A=k2_xxreal_0)  =>  (k3_xxreal_3(k2_xxreal_0, A)=k2_xxreal_0 & k3_xxreal_3(A, k2_xxreal_0)=k1_xxreal_0) ) ) ) ).
+- fof(d2_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( ( (v1_xreal_0(A) & v1_xreal_0(B))  =>  (C=k1_xxreal_3(A, B) <=>  (? [D] :  (v1_xcmplx_0(D) &  (? [E] :  (v1_xcmplx_0(E) &  (A=D &  (B=E & C=k2_xcmplx_0(D, E)) ) ) ) ) ) ) )  &  ( ( ( (A=k1_xxreal_0 &  ~ (B=k2_xxreal_0) )  |  (B=k1_xxreal_0 &  ~ (A=k2_xxreal_0) ) )  =>  (C=k1_xxreal_3(A, B) <=> C=k1_xxreal_0) )  &  ( ( ( (A=k2_xxreal_0 &  ~ (B=k1_xxreal_0) )  |  (B=k2_xxreal_0 &  ~ (A=k1_xxreal_0) ) )  =>  (C=k1_xxreal_3(A, B) <=> C=k2_xxreal_0) )  &  ~ ( ( ~ ( (v1_xreal_0(A) & v1_xreal_0(B)) )  &  ( ~ ( (A=k1_xxreal_0 &  ~ (B=k2_xxreal_0) ) )  &  ( ~ ( (B=k1_xxreal_0 &  ~ (A=k2_xxreal_0) ) )  &  ( ~ ( (A=k2_xxreal_0 &  ~ (B=k1_xxreal_0) ) )  &  ( ~ ( (B=k2_xxreal_0 &  ~ (A=k1_xxreal_0) ) )  &  ~ ( (C=k1_xxreal_3(A, B) <=> C=k6_numbers) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(fc2_xxreal_0, axiom, v1_xxreal_0(k2_xxreal_0)).

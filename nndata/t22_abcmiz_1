@@ -1,0 +1,23 @@
+C fof(t22_abcmiz_1, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k4_classes1(k4_ordinal1))))  => r2_hidden(A, k4_classes1(k4_ordinal1))) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(d2_classes1, axiom,  (! [A] :  (v2_classes1(A) <=>  (v1_classes1(A) &  ( (! [B] :  (r2_hidden(B, A) => r2_hidden(k9_setfam_1(B), A)) )  &  (! [B] :  ~ ( (r1_tarski(B, A) &  ( ~ (r2_tarski(B, A))  &  ~ (r2_hidden(B, A)) ) ) ) ) ) ) ) ) ).
++ fof(t47_card_1, axiom, k1_card_1(k4_ordinal1)=k4_ordinal1).
++ fof(fc10_card_3, axiom, v5_card_3(k4_ordinal1)).
++ fof(t84_card_3, axiom,  (! [A] :  (v1_finset_1(A) <=> r2_hidden(k1_card_1(A), k4_ordinal1)) ) ).
++ fof(cc4_card_3, axiom,  (! [A] :  (v5_card_3(A) =>  ( ~ (v1_finset_1(A))  & v4_card_3(A)) ) ) ).
++ fof(t5_card_1, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, B) <=> k1_card_1(A)=k1_card_1(B)) ) ) ).
++ fof(t63_classes2, axiom, v2_classes1(k4_classes1(k4_ordinal1))).
++ fof(t64_classes2, axiom, k13_classes2=k4_classes1(k4_ordinal1)).
++ fof(redefinition_r2_wellord2, axiom,  (! [A, B] :  (r2_wellord2(A, B) <=> r2_tarski(A, B)) ) ).
++ fof(t62_classes2, axiom, k1_card_1(k4_classes1(k4_ordinal1))=k1_card_1(k4_ordinal1)).
+- fof(s3_funct_1__e1_28__abcmiz_1, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k4_classes1(k4_ordinal1))))  =>  (? [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  &  (k9_xtuple_0(B)=A &  (! [C] :  (r2_hidden(C, A) => k1_funct_1(B, C)=k6_classes1(C)) ) ) ) ) ) ) ).
+- fof(t41_classes1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v3_ordinal1(C) =>  ( (r1_tarski(A, B) & r2_hidden(B, k4_classes1(C)))  => r2_hidden(A, k4_classes1(C))) ) ) ) ) ).
+- fof(t32_classes1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r1_tarski(A, k4_classes1(B)) <=> r2_hidden(A, k4_classes1(k1_ordinal1(B)))) ) ) ) ).
+- fof(t39_classes1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (r2_hidden(B, k4_classes1(A)) =>  ( ~ (r2_tarski(B, k4_classes1(A)))  & r2_hidden(k1_card_1(B), k1_card_1(k4_classes1(A)))) ) ) ) ) ).
+- fof(s1_ordinal1__e4_67_2__classes1, axiom,  (! [A] :  ( (? [B] :  (v3_ordinal1(B) & r2_hidden(A, k4_classes1(B))) )  =>  (? [B] :  (v3_ordinal1(B) &  (r2_hidden(A, k4_classes1(B)) &  (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(A, k4_classes1(C)) => r1_ordinal1(B, C)) ) ) ) ) ) ) ) ).
+- fof(t45_classes1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v3_ordinal1(C) =>  ( (r2_hidden(A, k4_classes1(C)) & r2_hidden(B, k4_classes1(C)))  <=> r2_hidden(k4_tarski(A, B), k4_classes1(k1_ordinal1(k1_ordinal1(C))))) ) ) ) ) ).
+- fof(t35_classes1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, k4_classes1(B)) => r2_hidden(k3_tarski(A), k4_classes1(B))) ) ) ) ).
+- fof(t66_classes1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, k4_classes1(B)) <=> r2_hidden(k6_classes1(A), B)) ) ) ) ).
+- fof(s1_tarski__e6_52__classes1, axiom,  (! [A] :  ( (! [B] :  (! [C] :  (! [D] :  ( ( (? [E] :  (v3_ordinal1(E) &  (C=E &  ( ~ (r2_hidden(B, k4_classes1(E)))  & r2_hidden(B, k4_classes1(k1_ordinal1(E)))) ) ) )  &  (? [F] :  (v3_ordinal1(F) &  (D=F &  ( ~ (r2_hidden(B, k4_classes1(F)))  & r2_hidden(B, k4_classes1(k1_ordinal1(F)))) ) ) ) )  => C=D) ) ) )  =>  (? [B] :  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(D, A) &  (? [G] :  (v3_ordinal1(G) &  (C=G &  ( ~ (r2_hidden(D, k4_classes1(G)))  & r2_hidden(D, k4_classes1(k1_ordinal1(G)))) ) ) ) ) ) ) ) ) ) ) ).
+- fof(s2_ordinal1__e2_41_1__classes1, axiom,  (! [A] :  (v3_ordinal1(A) =>  ( (! [B] :  (v3_ordinal1(B) =>  ( (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(C, B) =>  (r2_hidden(A, C) => r2_hidden(k4_classes1(A), k4_classes1(C))) ) ) )  =>  (r2_hidden(A, B) => r2_hidden(k4_classes1(A), k4_classes1(B))) ) ) )  =>  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, B) => r2_hidden(k4_classes1(A), k4_classes1(B))) ) ) ) ) ) ).
+- fof(t42_classes2, axiom,  (! [A] :  (! [B] :  ( (v2_classes1(A) &  (v1_ordinal1(B) & r2_hidden(B, A)) )  => r2_hidden(B, k4_classes1(k1_card_1(A)))) ) ) ).

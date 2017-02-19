@@ -1,0 +1,9 @@
+C fof(t65_rfunct_1, axiom,  (! [A] :  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m1_subset_1(C, B) =>  (r2_hidden(C, k6_subset_1(B, A)) <=> k1_funct_1(k7_rfunct_1(A, B), C)=k6_numbers) ) ) ) ) ) ).
++ fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
++ fof(t64_rfunct_1, axiom,  (! [A] :  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m1_subset_1(C, B) =>  ( ~ (r2_hidden(C, A))  <=> k1_funct_1(k7_rfunct_1(A, B), C)=k6_numbers) ) ) ) ) ) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
+- fof(dt_k7_rfunct_1, axiom,  (! [A, B] :  (v1_funct_1(k7_rfunct_1(A, B)) & m1_subset_1(k7_rfunct_1(A, B), k1_zfmisc_1(k2_zfmisc_1(B, k1_numbers)))) ) ).
+- fof(t61_rfunct_1, axiom,  (! [A] :  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, k1_numbers))))  =>  (r2_relset_1(B, k1_numbers, C, k7_rfunct_1(A, B)) <=>  (k1_relset_1(B, C)=B &  (! [D] :  (m1_subset_1(D, B) =>  ( (r2_hidden(D, A) => k1_funct_1(C, D)=1)  &  ( ~ (r2_hidden(D, A))  => k1_funct_1(C, D)=k6_numbers) ) ) ) ) ) ) ) ) ) ) ).
+- fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
+- fof(spc1_boole, axiom,  ~ (v1_xboole_0(1)) ).

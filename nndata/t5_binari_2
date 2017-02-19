@@ -1,0 +1,17 @@
+C fof(t5_binari_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( (r2_hidden(B, k2_finseq_1(A)) & B=1)  => k7_partfun1(k6_margrel1, k1_binari_2(A), B)=k8_margrel1) ) ) ) ) ).
++ fof(d1_binari_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v3_card_1(B, A) & m2_finseq_1(B, k6_margrel1))  =>  (B=k1_binari_2(A) <=>  (! [C] :  (v7_ordinal1(C) =>  (r2_hidden(C, k2_finseq_1(A)) => k7_partfun1(k6_margrel1, B, C)=k15_funcop_1(k6_margrel1, C, 1, k8_margrel1, k7_margrel1)) ) ) ) ) ) ) ) ).
++ fof(d2_xboolean, axiom, k2_xboolean=1).
++ fof(redefinition_k15_funcop_1, axiom,  (! [A, B, C, D, E] :  ( (m1_subset_1(D, A) & m1_subset_1(E, A))  => k15_funcop_1(A, B, C, D, E)=k14_funcop_1(B, C, D, E)) ) ).
++ fof(d8_funcop_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (A=B => k14_funcop_1(A, B, C, D)=C)  &  ( ~ (A=B)  => k14_funcop_1(A, B, C, D)=D) ) ) ) ) ) ).
++ fof(redefinition_k8_margrel1, axiom, k8_margrel1=k2_xboolean).
++ fof(dt_k1_binari_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v3_card_1(k1_binari_2(A), A) & m2_finseq_1(k1_binari_2(A), k6_margrel1)) ) ) ).
++ fof(dt_k7_margrel1, axiom, m1_subset_1(k7_margrel1, k6_margrel1)).
++ fof(dt_k8_margrel1, axiom, m1_subset_1(k8_margrel1, k6_margrel1)).
+- fof(d2_binari_2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  (! [B] :  ( (v3_card_1(B, A) & m2_finseq_1(B, k6_margrel1))  => k2_binari_2(A, B)=k7_binarith(A, k3_binarith(A, B), k1_binari_2(A))) ) ) ) ).
+- fof(t11_margrel1, axiom,  (! [A] :  (v1_xboolean(A) =>  ( (A=k7_margrel1 => k3_xboolean(A)=k8_margrel1)  &  ( (k3_xboolean(A)=k8_margrel1 => A=k7_margrel1)  &  ( (A=k8_margrel1 => k3_xboolean(A)=k7_margrel1)  &  (k3_xboolean(A)=k7_margrel1 => A=k8_margrel1) ) ) ) ) ) ).
+- fof(d15_margrel1, axiom,  (! [A] :  ( ( ~ (r2_hidden(k7_margrel1, A))  => k11_margrel1(A)=k8_margrel1)  &  (r2_hidden(k7_margrel1, A) => k11_margrel1(A)=k7_margrel1) ) ) ).
+- fof(t103_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => k6_xboolean(A, A)=k2_xboolean) ) ).
+- fof(redefinition_k7_margrel1, axiom, k7_margrel1=k1_xboolean).
+- fof(t17_margrel1, axiom,  (! [A] :  ( ( ~ (r2_hidden(k7_margrel1, A))  => k12_margrel1(A)=k8_margrel1)  &  ( ~ ( (k12_margrel1(A)=k8_margrel1 & r2_hidden(k7_margrel1, A)) )  &  ( (r2_hidden(k7_margrel1, A) => k12_margrel1(A)=k7_margrel1)  &  (k12_margrel1(A)=k7_margrel1 => r2_hidden(k7_margrel1, A)) ) ) ) ) ).
+- fof(t12_margrel1, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) =>  ( (k4_xboolean(A, B)=k8_margrel1 =>  (A=k8_margrel1 & B=k8_margrel1) )  &  ( ( (A=k8_margrel1 & B=k8_margrel1)  => k4_xboolean(A, B)=k8_margrel1)  &  ( ~ ( (k4_xboolean(A, B)=k7_margrel1 &  ( ~ (A=k7_margrel1)  &  ~ (B=k7_margrel1) ) ) )  &  ( (A=k7_margrel1 | B=k7_margrel1)  => k4_xboolean(A, B)=k7_margrel1) ) ) ) ) ) ) ) ).
+- fof(t10_binarith, axiom,  (! [A] :  (v1_xboolean(A) => k5_xboolean(A, k8_margrel1)=k8_margrel1) ) ).

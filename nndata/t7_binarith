@@ -1,0 +1,11 @@
+C fof(t7_binarith, axiom,  (! [A] :  (v1_xboolean(A) => k10_xboolean(k8_margrel1, A)=k3_xboolean(A)) ) ).
++ fof(t125_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => k7_xboolean(A, A)=k2_xboolean) ) ).
++ fof(t88_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k10_xboolean(A, k7_xboolean(A, B))=k3_xboolean(B)) ) ) ) ).
++ fof(fc2_xboolean, axiom, v1_xboolean(k2_xboolean)).
++ fof(redefinition_k8_margrel1, axiom, k8_margrel1=k2_xboolean).
++ fof(commutativity_k10_xboolean, axiom,  (! [A, B] :  ( (v1_xboolean(A) & v1_xboolean(B))  => k10_xboolean(A, B)=k10_xboolean(B, A)) ) ).
+- fof(dt_k3_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => v1_xboolean(k3_xboolean(A))) ) ).
+- fof(involutiveness_k3_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => k3_xboolean(k3_xboolean(A))=A) ) ).
+- fof(t74_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k3_xboolean(k10_xboolean(A, B))=k10_xboolean(k3_xboolean(A), B)) ) ) ) ).
+- fof(d11_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k10_xboolean(A, B)=k3_xboolean(k7_xboolean(A, B))) ) ) ) ).
+- fof(t72_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k10_xboolean(A, k10_xboolean(A, B))=B) ) ) ) ).

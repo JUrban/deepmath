@@ -1,0 +1,5 @@
+C fof(t31_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_graph_1(A) & l1_graph_1(A)) )  => r1_tarski(k1_tarski(A), k11_graph_1(A))) ) ).
++ fof(l1_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
++ fof(t29_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_graph_1(A) & l1_graph_1(A)) )  => r2_hidden(A, k11_graph_1(A))) ) ).
+- fof(d25_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  (B=k11_graph_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (v1_graph_1(C) & m3_graph_1(C, A)) ) ) ) ) ) ) ).
+- fof(t28_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v1_graph_1(B) & l1_graph_1(B)) )  =>  (r2_hidden(B, k11_graph_1(A)) <=> r4_graph_1(B, A)) ) ) ) ) ).

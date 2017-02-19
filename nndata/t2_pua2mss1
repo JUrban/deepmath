@@ -1,0 +1,9 @@
+C fof(t2_pua2mss1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v2_relat_1(A) & v1_funct_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v2_relat_1(B) & v1_funct_1(B)) )  =>  (k4_card_3(A)=k4_card_3(B) => A=B) ) ) ) ) ).
++ fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
++ fof(t1_pua2mss1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v2_relat_1(A) & v1_funct_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v2_relat_1(B) & v1_funct_1(B)) )  =>  (r1_tarski(k4_card_3(A), k4_card_3(B)) =>  (k9_xtuple_0(A)=k9_xtuple_0(B) &  (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) => r1_tarski(k1_funct_1(A, C), k1_funct_1(B, C))) ) ) ) ) ) ) ) ).
++ fof(t2_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  ( (k9_xtuple_0(A)=k9_xtuple_0(B) &  (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) => k1_funct_1(A, C)=k1_funct_1(B, C)) ) )  => A=B) ) ) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
+- fof(d2_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] : k2_finseq_2(A, B)=k7_funcop_1(k2_finseq_1(A), B)) ) ) ).
+- fof(t11_card_3, axiom,  (! [A] :  (! [B] : k1_funct_2(A, B)=k4_card_3(k7_funcop_1(A, B))) ) ).
+- fof(t93_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] : k4_finseq_2(A, B)=k1_funct_2(k2_finseq_1(A), B)) ) ) ).
+- fof(t131_finseq_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] : k4_card_3(k2_finseq_2(A, B))=k4_finseq_2(A, B)) ) ) ).

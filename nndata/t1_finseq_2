@@ -1,0 +1,11 @@
+C fof(t1_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (m1_subset_1(k3_xxreal_0(A, B), k5_numbers) & m1_subset_1(k4_xxreal_0(A, B), k5_numbers)) ) ) ) ) ).
++ fof(fc5_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k3_xxreal_0(A, B))) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(fc6_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k4_xxreal_0(A, B))) ) ).
++ fof(d12_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) <=> r2_hidden(A, k4_ordinal1)) ) ).
+- fof(d9_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(A, B) => k3_xxreal_0(A, B)=A)  &  ( ~ (r1_xxreal_0(A, B))  => k3_xxreal_0(A, B)=B) ) ) ) ) ) ).
+- fof(commutativity_k3_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k3_xxreal_0(A, B)=k3_xxreal_0(B, A)) ) ).
+- fof(d10_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(B, A) => k4_xxreal_0(A, B)=A)  &  ( ~ (r1_xxreal_0(B, A))  => k4_xxreal_0(A, B)=B) ) ) ) ) ) ).
+- fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
+- fof(commutativity_k4_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k4_xxreal_0(A, B)=k4_xxreal_0(B, A)) ) ).

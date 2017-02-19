@@ -1,0 +1,11 @@
+C fof(t137_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( ~ (r1_xxreal_0(B, A))  => k6_subset_1(k3_xxreal_1(A, B), k1_tarski(B))=k4_xxreal_1(A, B)) ) ) ) ) ).
++ fof(t132_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( ~ (r1_xxreal_0(B, A))  => k3_xxreal_1(A, B)=k2_xboole_0(k4_xxreal_1(A, B), k1_tarski(B))) ) ) ) ) ).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(t117_zfmisc_1, axiom,  (! [A] :  (! [B] :  ( ~ (r2_hidden(A, B))  => k4_xboole_0(k2_xboole_0(B, k1_tarski(A)), k1_tarski(A))=B) ) ) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(t15_xxreal_1, axiom,  (! [A] :  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(A, k4_xxreal_1(B, C)) =>  (r2_hidden(A, k3_xxreal_1(B, C)) &  ~ (A=C) ) ) ) ) ) ) ) ).
+- fof(t2_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, C))  => r1_xxreal_0(A, C)) ) ) ) ) ) ) ).
+- fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
+- fof(t136_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( ~ (r1_xxreal_0(B, A))  => k6_subset_1(k2_xxreal_1(A, B), k1_tarski(A))=k4_xxreal_1(A, B)) ) ) ) ) ).
+- fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
+- fof(t134_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (r1_xxreal_0(A, B) => k6_subset_1(k1_xxreal_1(A, B), k1_tarski(A))=k3_xxreal_1(A, B)) ) ) ) ) ).

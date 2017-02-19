@@ -1,0 +1,9 @@
+C fof(t26_domain_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k1_subset_1(A)=a_1_1_domain_1(A)) ) ).
++ fof(l6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(d2_subset_1, axiom,  (! [A] : k1_subset_1(A)=k1_xboole_0) ).
++ fof(fraenkel_a_1_1_domain_1, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  =>  (r2_hidden(A, a_1_1_domain_1(B)) <=>  (? [C] :  (m1_subset_1(C, B) &  (A=C &  ~ ($true) ) ) ) ) ) ) ).
++ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
+- fof(t18_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (r1_tarski(B, k3_subset_1(A, B)) <=> B=k1_subset_1(A)) ) ) ) ).
+- fof(d4_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, B)=k4_xboole_0(A, B)) ) ) ).
+- fof(dt_k1_subset_1, axiom,  (! [A] : m1_subset_1(k1_subset_1(A), k1_zfmisc_1(A))) ).
+- fof(t38_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, k4_xboole_0(B, A)) => A=k1_xboole_0) ) ) ).

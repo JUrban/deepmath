@@ -1,0 +1,7 @@
+C fof(t10_armstrng, axiom,  (! [A] :  (l1_armstrng(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_armstrng(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_armstrng(A))) =>  (r2_hidden(k4_tarski(B, C), k5_armstrng(A)) <=> r2_armstrng(A, B, C)) ) ) ) ) ) ) ).
++ fof(l10_ens_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (k4_tarski(k4_tarski(A, C), E)=k4_tarski(k4_tarski(B, D), F) =>  (A=B & C=D) ) ) ) ) ) ) ) ).
++ fof(fraenkel_a_1_0_armstrng, axiom,  (! [A, B] :  (l1_armstrng(B) =>  (r2_hidden(A, a_1_0_armstrng(B)) <=>  (? [C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(u1_armstrng(B))) & m1_subset_1(D, k1_zfmisc_1(u1_armstrng(B))))  &  (A=k4_tarski(C, D) & r2_armstrng(B, C, D)) ) ) ) ) ) ).
++ fof(d8_armstrng, axiom,  (! [A] :  (l1_armstrng(A) => k5_armstrng(A)=a_1_0_armstrng(A)) ) ).
+- fof(d7_armstrng, axiom,  (! [A] :  (l1_armstrng(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_armstrng(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_armstrng(A))) =>  (r2_armstrng(A, B, C) <=>  (! [D] :  (m1_subset_1(D, u3_armstrng(A)) =>  (! [E] :  (m1_subset_1(E, u3_armstrng(A)) =>  (k5_relat_1(D, B)=k5_relat_1(E, B) => k5_relat_1(D, C)=k5_relat_1(E, C)) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(dt_k5_armstrng, axiom,  (! [A] :  (l1_armstrng(A) => m1_subset_1(k5_armstrng(A), k1_zfmisc_1(k2_zfmisc_1(k9_setfam_1(u1_armstrng(A)), k9_setfam_1(u1_armstrng(A)))))) ) ).
+- fof(abstractness_v2_armstrng, axiom,  (! [A] :  (l1_armstrng(A) =>  (v2_armstrng(A) => A=g1_armstrng(u1_armstrng(A), u2_armstrng(A), u3_armstrng(A))) ) ) ).

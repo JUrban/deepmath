@@ -1,0 +1,5 @@
+C fof(l7_int_1, axiom,  (! [A] :  (r2_hidden(A, k4_numbers) => r2_hidden(A, k1_numbers)) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(t15_numbers, axiom, r1_tarski(k4_numbers, k1_numbers)).
+- fof(d2_int_1, axiom,  (! [A] :  (v1_int_1(A) <=> r2_hidden(A, k4_numbers)) ) ).
+- fof(l22_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  ~ ( ( ~ (r2_hidden(A, k1_numbers))  &  ( ~ (A=k1_xxreal_0)  &  ~ (A=k2_xxreal_0) ) ) ) ) ) ).

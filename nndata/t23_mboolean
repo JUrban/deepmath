@@ -1,0 +1,7 @@
+C fof(t23_mboolean, axiom,  (! [A] :  (! [B] : r6_pboole(A, k2_mboolean(A, k7_funcop_1(A, k1_tarski(B))), k7_funcop_1(A, B))) ) ).
++ fof(t22_mboolean, axiom,  (! [A] :  (! [B] : r6_pboole(A, k2_mboolean(A, k7_funcop_1(A, B)), k7_funcop_1(A, k3_tarski(B)))) ) ).
++ fof(t25_zfmisc_1, axiom,  (! [A] : k3_tarski(k1_tarski(A))=A) ).
++ fof(t29_enumset1, axiom,  (! [A] : k2_tarski(A, A)=k1_tarski(A)) ).
+- fof(d2_mboolean, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) & v1_partfun1(B, A)) ) )  =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) & v1_partfun1(C, A)) ) )  =>  (C=k2_mboolean(A, B) <=>  (! [D] :  (r2_hidden(D, A) => k1_funct_1(C, D)=k3_tarski(k1_funct_1(B, D))) ) ) ) ) ) ) ) ).
+- fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
+- fof(t7_funcop_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(B, A) => k1_funct_1(k2_funcop_1(A, C), B)=C) ) ) ) ).

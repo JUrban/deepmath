@@ -1,0 +1,11 @@
+C fof(t8_pnproc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) =>  (! [D] :  (v1_relat_1(D) =>  (r1_xboole_0(A, B) => r1_xboole_0(k5_relat_1(C, A), k5_relat_1(D, B))) ) ) ) ) ) ) ).
++ fof(t66_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (k5_relat_1(B, A)=k1_xboole_0 <=> r1_xboole_0(k9_xtuple_0(B), A)) ) ) ) ).
++ fof(t179_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) => r1_xboole_0(A, B)) ) ) ) ) ).
++ fof(dt_k5_relat_1, axiom,  (! [A, B] :  (v1_relat_1(A) => v1_relat_1(k5_relat_1(A, B))) ) ).
++ fof(t172_relat_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) =>  (r1_xboole_0(A, B) => k5_relat_1(k5_relat_1(C, A), B)=k1_xboole_0) ) ) ) ) ).
++ fof(symmetry_r1_xboole_0, axiom,  (! [A, B] :  (r1_xboole_0(A, B) => r1_xboole_0(B, A)) ) ).
+- fof(t13_ff_siec, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  =>  (r1_xboole_0(k5_relat_1(k2_relat_1(k1_net_1(A)), u4_struct_0(A)), k4_relat_1(k2_net_1(A))) &  (r1_xboole_0(k5_relat_1(k1_net_1(A), u4_struct_0(A)), k4_relat_1(k2_net_1(A))) &  (r1_xboole_0(k5_relat_1(k2_relat_1(k1_net_1(A)), u1_struct_0(A)), k4_relat_1(k2_net_1(A))) & r1_xboole_0(k5_relat_1(k1_net_1(A), u1_struct_0(A)), k4_relat_1(k2_net_1(A)))) ) ) ) ) ).
+- fof(d7_xboole_0, axiom,  (! [A] :  (! [B] :  (r1_xboole_0(A, B) <=> k3_xboole_0(A, B)=k1_xboole_0) ) ) ).
+- fof(fc1_relat_1, axiom,  (! [A, B] :  (v1_relat_1(A) => v1_relat_1(k3_xboole_0(A, B))) ) ).
+- fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
+- fof(d11_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (v1_relat_1(C) =>  (C=k5_relat_1(A, B) <=>  (! [D] :  (! [E] :  (r2_hidden(k4_tarski(D, E), C) <=>  (r2_hidden(D, B) & r2_hidden(k4_tarski(D, E), A)) ) ) ) ) ) ) ) ) ) ).

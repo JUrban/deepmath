@@ -1,0 +1,9 @@
+C fof(t3_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) => r1_tarski(k1_ordinal1(A), k9_setfam_1(A))) ) ).
++ fof(d1_ordinal1, axiom,  (! [A] : k1_ordinal1(A)=k2_xboole_0(A, k1_tarski(A))) ).
++ fof(t82_zfmisc_1, axiom,  (! [A] : r1_tarski(A, k1_zfmisc_1(k3_tarski(A)))) ).
++ fof(t2_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) => k3_tarski(k1_ordinal1(A))=A) ) ).
++ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
+- fof(s3_relset_1__e2_113__funct_2, axiom,  (! [A, B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k9_setfam_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k9_setfam_1(A))))) )  =>  ( (! [C] :  (m1_subset_1(C, A) =>  (r2_hidden(C, k2_subset_1(A)) => r1_tarski(k1_funct_1(B, C), k2_subset_1(A))) ) )  =>  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_subset_1(A), k2_subset_1(A)))) &  (! [D] :  (m1_subset_1(D, A) =>  (r2_hidden(D, k2_subset_1(A)) => k9_relat_1(C, D)=k1_funct_1(B, D)) ) ) ) ) ) ) ) ).
+- fof(dt_k9_setfam_1, axiom,  (! [A] : m1_subset_1(k9_setfam_1(A), k1_zfmisc_1(k1_zfmisc_1(A)))) ).
+- fof(t93_funct_2, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k9_setfam_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k9_setfam_1(A))))) )  =>  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))) &  (! [D] :  (r2_hidden(D, A) => k9_relat_1(C, D)=k1_funct_1(B, D)) ) ) ) ) ) ) ).
+- fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).

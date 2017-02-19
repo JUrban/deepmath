@@ -1,0 +1,7 @@
+C fof(t230_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (k27_member_1(A, C)=k27_member_1(B, C) =>  (C=k6_numbers | A=B) ) ) ) ) ) ) ) ).
++ fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t229_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (r1_tarski(k27_member_1(A, C), k27_member_1(B, C)) =>  (C=k6_numbers | r1_tarski(A, B)) ) ) ) ) ) ) ) ).
+- fof(t227_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) => k27_member_1(A, B)=a_2_19_member_1(A, B)) ) ) ) ).
+- fof(d24_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) => k27_member_1(A, B)=k15_member_1(A, k1_tarski(B))) ) ) ) ).
+- fof(ie12_member_1, axiom,  (! [A, B, C, D] :  ( (v3_membered(A) &  (v2_membered(B) &  (v1_xreal_0(C) & v1_xxreal_0(D)) ) )  =>  ( (A=B & C=D)  => k27_member_1(A, C)=k26_member_1(B, D)) ) ) ).

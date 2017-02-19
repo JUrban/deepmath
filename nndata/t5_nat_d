@@ -1,0 +1,5 @@
+C fof(t5_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( (r1_nat_d(A, B) & r1_nat_d(B, A))  => A=B) ) ) ) ) ).
++ fof(l11_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( (r1_int_1(A, B) & r1_int_1(B, A))  => A=B) ) ) ) ) ).
++ fof(redefinition_r1_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  =>  (r1_nat_d(A, B) <=> r1_int_1(A, B)) ) ) ).
+- fof(t3_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_nat_d(A, B) <=> B=k3_nat_1(A, k3_nat_d(B, A))) ) ) ) ) ).
+- fof(d3_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_nat_d(A, B) <=>  (? [C] :  (v7_ordinal1(C) & B=k3_xcmplx_0(A, C)) ) ) ) ) ) ) ).

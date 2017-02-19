@@ -1,0 +1,9 @@
+C fof(t133_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (r2_hidden(A, D) &  (r2_hidden(B, D) & r2_hidden(C, D)) )  => r1_tarski(k1_enumset1(A, B, C), D)) ) ) ) ) ).
++ fof(t3_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] : k1_enumset1(A, B, C)=k2_xboole_0(k2_tarski(A, B), k1_tarski(C))) ) ) ).
++ fof(t1_enumset1, axiom,  (! [A] :  (! [B] : k2_tarski(A, B)=k2_xboole_0(k1_tarski(A), k1_tarski(B))) ) ).
++ fof(t8_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(C, B))  => r1_tarski(k2_xboole_0(A, C), B)) ) ) ) ).
++ fof(l1_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
+- fof(t118_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r1_tarski(D, k1_enumset1(A, B, C)) <=>  ~ ( ( ~ (D=k1_xboole_0)  &  ( ~ (D=k1_tarski(A))  &  ( ~ (D=k1_tarski(B))  &  ( ~ (D=k1_tarski(C))  &  ( ~ (D=k2_tarski(A, B))  &  ( ~ (D=k2_tarski(B, C))  &  ( ~ (D=k2_tarski(A, C))  &  ~ (D=k1_enumset1(A, B, C)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t31_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] : k2_enumset1(A, A, B, C)=k1_enumset1(A, B, C)) ) ) ).
+- fof(d1_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (D=k1_enumset1(A, B, C) <=>  (! [E] :  (r2_hidden(E, D) <=>  ~ ( ( ~ (E=A)  &  ( ~ (E=B)  &  ~ (E=C) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t4_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k2_xboole_0(k2_xboole_0(A, B), C)=k2_xboole_0(A, k2_xboole_0(B, C))) ) ) ).

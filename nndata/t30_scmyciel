@@ -1,0 +1,19 @@
+C fof(t30_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (k3_tarski(A)=k1_tarski(B) => A=k2_tarski(k1_xboole_0, k1_tarski(B))) ) ) ) ).
++ fof(t27_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => A=k2_xboole_0(k2_xboole_0(k1_tarski(k1_xboole_0), k9_bspace(k3_tarski(A))), k1_scmyciel(A))) ) ).
++ fof(t6_scmyciel, axiom,  (! [A] : k9_bspace(k1_tarski(A))=k1_tarski(k1_tarski(A))) ).
++ fof(redefinition_k9_bspace, axiom,  (! [A] : k9_bspace(A)=k8_bspace(A)) ).
++ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
++ fof(t1_boole, axiom,  (! [A] : k2_xboole_0(A, k1_xboole_0)=A) ).
++ fof(t1_enumset1, axiom,  (! [A] :  (! [B] : k2_tarski(A, B)=k2_xboole_0(k1_tarski(A), k1_tarski(B))) ) ).
++ fof(t11_scmyciel, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(B, k1_scmyciel(A)) &  (! [C] :  (! [D] :  ~ ( ( ~ (C=D)  &  (r2_hidden(C, k3_tarski(A)) &  (r2_hidden(D, k3_tarski(A)) & B=k2_tarski(C, D)) ) ) ) ) ) ) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
+- fof(t24_zfmisc_1, axiom,  (! [A] : k1_zfmisc_1(k1_tarski(A))=k2_tarski(k1_xboole_0, k1_tarski(A))) ).
+- fof(t81_zfmisc_1, axiom,  (! [A] : k3_tarski(k1_zfmisc_1(A))=A) ).
+- fof(t8_scmyciel, axiom,  (! [A] : k3_tarski(k2_tarski(k1_xboole_0, k1_tarski(A)))=k1_tarski(A)) ).
+- fof(t7_finset_1, axiom,  (! [A] :  ( (v1_finset_1(A) &  (! [B] :  (r2_hidden(B, A) => v1_finset_1(B)) ) )  <=> v1_finset_1(k3_tarski(A))) ) ).
+- fof(cc4_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v3_scmyciel(A, 1)) ) ) ) ).
+- fof(s1_partfun1__e1_30_1_1__classes1, axiom,  (! [A, B] :  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  &  (k9_xtuple_0(C)=k2_tarski(k1_xboole_0, k1_tarski(A)) &  (! [D] :  (r2_hidden(D, k2_tarski(k1_xboole_0, k1_tarski(A))) =>  ( (D=k1_xboole_0 => k1_funct_1(C, D)=A)  &  ( ~ (D=k1_xboole_0)  => k1_funct_1(C, D)=B) ) ) ) ) ) ) ) ).
+- fof(s1_partfun1__e8_5__classes2, axiom,  (! [A, B] :  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  &  (k9_xtuple_0(C)=k2_tarski(k1_xboole_0, k1_tarski(A)) &  (! [D] :  (r2_hidden(D, k2_tarski(k1_xboole_0, k1_tarski(A))) =>  ( (D=k1_xboole_0 => k1_funct_1(C, D)=B)  &  ( ~ (D=k1_xboole_0)  => k1_funct_1(C, D)=A) ) ) ) ) ) ) ) ).
+- fof(l27_heyting1, axiom, k5_finsub_1(k7_normform(k1_xboole_0))=k2_tarski(k1_xboole_0, k1_tarski(k4_tarski(k1_xboole_0, k1_xboole_0)))).
+- fof(t6_euclid_9, axiom, k2_pcomps_1(k14_euclid(k6_numbers))=k2_tarski(k1_xboole_0, k1_tarski(k1_xboole_0))).

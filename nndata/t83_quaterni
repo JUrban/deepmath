@@ -1,0 +1,9 @@
+C fof(t83_quaterni, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) => k32_quaterni(k29_quaterni(A, B))=k32_quaterni(k29_quaterni(B, A))) ) ) ) ).
++ fof(t72_quaterni, axiom,  (! [A] :  (v1_quaterni(A) => k32_quaterni(k28_quaterni(A))=k32_quaterni(A)) ) ).
++ fof(dt_k29_quaterni, axiom,  (! [A, B] :  ( (v1_quaterni(A) & v1_quaterni(B))  => m1_subset_1(k29_quaterni(A, B), k1_quaterni)) ) ).
++ fof(cc1_quaterni, axiom,  (! [A] :  (m1_subset_1(A, k1_quaterni) => v1_quaterni(A)) ) ).
++ fof(l141_quaterni, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) => k29_quaterni(A, B)=k28_quaterni(k29_quaterni(B, A))) ) ) ) ).
+- fof(redefinition_k29_quaterni, axiom,  (! [A, B] :  ( (v1_quaterni(A) & v1_quaterni(B))  => k29_quaterni(A, B)=k9_quaterni(A, B)) ) ).
+- fof(d9_quaterni, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) => k9_quaterni(A, B)=k7_quaterni(A, k8_quaterni(B))) ) ) ) ).
+- fof(dt_k8_quaterni, axiom,  (! [A] :  (v1_quaterni(A) => v1_quaterni(k8_quaterni(A))) ) ).
+- fof(redefinition_k26_quaterni, axiom,  (! [A, B] :  ( (v1_quaterni(A) & v1_quaterni(B))  => k26_quaterni(A, B)=k7_quaterni(A, B)) ) ).

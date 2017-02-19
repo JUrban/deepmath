@@ -1,0 +1,35 @@
+C fof(t56_euclid_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(A))) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(k15_euclid(A))) =>  (r1_rvsum_1(C, D) => r1_rvsum_1(k1_rlvect_1(k15_euclid(A), C, B), D)) ) ) ) ) ) ) ) ) ).
++ fof(fc7_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v2_monoid_0(k15_euclid(A)) & v5_rltopsp1(k15_euclid(A))) ) ) ).
++ fof(cc1_monoid_0, axiom,  (! [A] :  ( (v1_monoid_0(A) & l1_struct_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (v1_relat_1(B) & v1_funct_1(B)) ) ) ) ) ).
++ fof(fc5_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (v2_struct_0(k15_euclid(A)))  & v5_rltopsp1(k15_euclid(A))) ) ) ).
++ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
++ fof(dt_k1_rlvect_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l1_rlvect_1(A))  &  (m1_subset_1(B, u1_struct_0(A)) & v1_xreal_0(C)) )  => m1_subset_1(k1_rlvect_1(A, B, C), u1_struct_0(A))) ) ).
++ fof(cc2_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) => v1_finseq_1(B)) ) ) ) ).
++ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
++ fof(t19_euclid_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(A))) =>  (! [D] :  (v1_xreal_0(D) => k23_rvsum_1(k1_rlvect_1(k15_euclid(A), B, D), C)=k11_binop_2(D, k23_rvsum_1(B, C))) ) ) ) ) ) ) ) ).
++ fof(dt_k15_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v5_rltopsp1(k15_euclid(A)) & l1_rltopsp1(k15_euclid(A))) ) ) ).
++ fof(d17_rvsum_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v3_valued_0(A) & v1_finseq_1(A)) ) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) &  (v3_valued_0(B) & v1_finseq_1(B)) ) )  =>  (r1_rvsum_1(A, B) <=> k23_rvsum_1(A, B)=k6_numbers) ) ) ) ) ).
++ fof(cc3_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) => v3_valued_0(B)) ) ) ) ).
++ fof(redefinition_k11_binop_2, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k11_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
++ fof(dt_k23_rvsum_1, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v3_valued_0(A) & v1_finseq_1(A)) ) )  &  (v1_relat_1(B) &  (v1_funct_1(B) &  (v3_valued_0(B) & v1_finseq_1(B)) ) ) )  => m1_subset_1(k23_rvsum_1(A, B), k1_numbers)) ) ).
++ fof(dt_l1_rltopsp1, axiom,  (! [A] :  (l1_rltopsp1(A) =>  (l1_rlvect_1(A) & l1_pre_topc(A)) ) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(cc2_monoid_0, axiom,  (! [A] :  (l1_struct_0(A) =>  (v2_monoid_0(A) => v1_monoid_0(A)) ) ) ).
+- fof(t53_euclid_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) => r1_rvsum_1(B, k4_struct_0(k15_euclid(A)))) ) ) ) ).
+- fof(symmetry_r1_rvsum_1, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v3_valued_0(A) & v1_finseq_1(A)) ) )  &  (v1_relat_1(B) &  (v1_funct_1(B) &  (v3_valued_0(B) & v1_finseq_1(B)) ) ) )  =>  (r1_rvsum_1(A, B) => r1_rvsum_1(B, A)) ) ) ).
+- fof(t54_euclid_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) => r1_rvsum_1(k4_struct_0(k15_euclid(A)), B)) ) ) ) ).
+- fof(t55_euclid_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) =>  (r1_rvsum_1(B, B) <=> B=k4_struct_0(k15_euclid(A))) ) ) ) ) ).
+- fof(t141_rvsum_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m2_finseq_2(C, k1_numbers, k4_finseq_2(A, k1_numbers)) =>  (! [D] :  (m2_finseq_2(D, k1_numbers, k4_finseq_2(A, k1_numbers)) =>  (r1_rvsum_1(C, D) => r1_rvsum_1(k11_rvsum_1(A, C, B), D)) ) ) ) ) ) ) ) ) ).
+- fof(t24_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) => m2_finseq_1(B, k1_numbers)) ) ) ) ).
+- fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
+- fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
+- fof(t23_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) =>  (v1_funct_1(B) &  (v1_funct_2(B, k2_finseq_1(A), k1_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_finseq_1(A), k1_numbers)))) ) ) ) ) ) ).
+- fof(dt_k4_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_relat_1(k4_euclid(A)) &  (v1_funct_1(k4_euclid(A)) &  (v1_finseq_1(k4_euclid(A)) & v3_valued_0(k4_euclid(A))) ) ) ) ) ).
+- fof(redefinition_k5_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k5_euclid(A)=k4_euclid(A)) ) ).
+- fof(t70_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k4_struct_0(k15_euclid(A))=k5_euclid(A)) ) ).
+- fof(fc6_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v2_pre_topc(k15_euclid(A)) &  (v13_algstr_0(k15_euclid(A)) &  (v2_rlvect_1(k15_euclid(A)) &  (v3_rlvect_1(k15_euclid(A)) &  (v4_rlvect_1(k15_euclid(A)) &  (v5_rlvect_1(k15_euclid(A)) &  (v6_rlvect_1(k15_euclid(A)) &  (v7_rlvect_1(k15_euclid(A)) &  (v8_rlvect_1(k15_euclid(A)) & v5_rltopsp1(k15_euclid(A))) ) ) ) ) ) ) ) ) ) ) ).
+- fof(l36_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  ( (v1_relat_1(D) &  (v1_funct_1(D) & v3_valued_0(D)) )  =>  (B=D => k1_rlvect_1(k15_euclid(A), B, C)=k24_valued_1(D, C)) ) ) ) ) ) ) ) ) ).
+- fof(t41_euclid_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) =>  (k23_rvsum_1(B, B)=k6_numbers <=> B=k4_struct_0(k15_euclid(A))) ) ) ) ) ).
+- fof(t32_euclid_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) => k23_rvsum_1(B, k4_struct_0(k15_euclid(A)))=k6_numbers) ) ) ) ).
+- fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).

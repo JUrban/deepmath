@@ -1,0 +1,35 @@
+C fof(t9_pnproc_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  ( (r1_tarski(A, C) &  (r1_tarski(B, C) & r1_xboole_0(A, B)) )  => r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B))) ) ) ) ) ) ) ).
++ fof(d2_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k9_xtuple_0(A)) =>  (C=k1_funct_1(A, B) <=> r2_hidden(k4_tarski(B, C), A)) )  &  ( ~ (r2_hidden(B, k9_xtuple_0(A)))  =>  (C=k1_funct_1(A, B) <=> C=k1_xboole_0) ) ) ) ) ) ) ).
++ fof(symmetry_r1_xboole_0, axiom,  (! [A, B] :  (r1_xboole_0(A, B) => r1_xboole_0(B, A)) ) ).
++ fof(cc8_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  ( (v1_relat_1(B) & v5_relat_1(B, A))  =>  (v1_xboole_0(B) &  (v1_relat_1(B) & v5_relat_1(B, A)) ) ) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(rc9_finseq_1, axiom,  (! [A] :  (? [B] :  (v1_relat_1(B) &  (v4_relat_1(B, k5_numbers) &  (v5_relat_1(B, A) &  (v1_funct_1(B) &  (v1_finset_1(B) &  (v1_finseq_1(B) & v2_finseq_1(B)) ) ) ) ) ) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(fc10_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_xboole_0(k9_xtuple_0(A))) ) ).
++ fof(l10_pnproc_1, axiom,  (! [A] :  (! [B] :  ( (! [C] :  ~ ( (r2_hidden(C, A) & r2_hidden(C, B)) ) )  <=> r1_xboole_0(A, B)) ) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
++ fof(d1_funct_1, axiom,  (! [A] :  (v1_funct_1(A) <=>  (! [B] :  (! [C] :  (! [D] :  ( (r2_hidden(k4_tarski(B, C), A) & r2_hidden(k4_tarski(B, D), A))  => C=D) ) ) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(cc6_relat_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v5_relat_1(B, A))  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(B)) => v5_relat_1(C, A)) ) ) ) ).
+- fof(t179_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) => r1_xboole_0(A, B)) ) ) ) ) ).
+- fof(t56_partfun1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) => r1_partfun1(A, B)) ) ) ) ) ).
+- fof(t117_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  ( (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) & r1_tarski(A, C))  => r1_tarski(A, k1_funct_4(C, B))) ) ) ) ) ) ) ).
+- fof(dt_k1_funct_4, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) & v1_funct_1(A))  &  (v1_relat_1(B) & v1_funct_1(B)) )  =>  (v1_relat_1(k1_funct_4(A, B)) & v1_funct_1(k1_funct_4(A, B))) ) ) ).
+- fof(t35_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) => k1_funct_4(A, B)=k1_funct_4(B, A)) ) ) ) ) ).
+- fof(t31_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) => k2_xboole_0(A, B)=k1_funct_4(A, B)) ) ) ) ) ).
+- fof(t13_grfunc_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) =>  (v1_relat_1(k2_xboole_0(A, B)) & v1_funct_1(k2_xboole_0(A, B))) ) ) ) ) ) ).
+- fof(t3_xboole_0, axiom,  (! [A] :  (! [B] :  ( ~ ( ( ~ (r1_xboole_0(A, B))  &  (! [C] :  ~ ( (r2_hidden(C, A) & r2_hidden(C, B)) ) ) ) )  &  ~ ( ( (? [C] :  (r2_hidden(C, A) & r2_hidden(C, B)) )  & r1_xboole_0(A, B)) ) ) ) ) ).
+- fof(t14_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  => k1_funct_4(k1_funct_4(A, B), C)=k1_funct_4(A, k1_funct_4(B, C))) ) ) ) ) ) ).
+- fof(t32_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) => r1_tarski(A, k1_funct_4(A, B))) ) ) ) ) ).
+- fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
+- fof(t115_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) => k1_funct_4(k1_funct_4(k1_funct_4(C, A), B), A)=k1_funct_4(k1_funct_4(C, A), B)) ) ) ) ) ) ) ).
+- fof(t23_grfunc_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_tarski(A, B) => k5_relat_1(B, k9_xtuple_0(A))=A) ) ) ) ) ).
+- fof(t28_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_partfun1(A, B) <=> r1_tarski(A, k1_funct_4(A, B))) ) ) ) ) ).
+- fof(t34_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_partfun1(A, B) <=> k1_funct_4(A, B)=k1_funct_4(B, A)) ) ) ) ) ).
+- fof(t51_partfun1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_partfun1(A, B) <=>  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  & k2_xboole_0(A, B)=C) ) ) ) ) ) ) ).
+- fof(t30_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_partfun1(A, B) <=> k2_xboole_0(A, B)=k1_funct_4(A, B)) ) ) ) ) ).

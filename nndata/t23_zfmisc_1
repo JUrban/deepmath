@@ -1,0 +1,7 @@
+C fof(t23_zfmisc_1, axiom,  (! [A] :  (! [B] :  ( ~ (A=B)  => k5_xboole_0(k1_tarski(A), k1_tarski(B))=k2_tarski(A, B)) ) ) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
++ fof(t1_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(A, k5_xboole_0(B, C)) <=>  ~ ( (r2_hidden(A, B) <=> r2_hidden(A, C)) ) ) ) ) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
+- fof(d6_xboole_0, axiom,  (! [A] :  (! [B] : k5_xboole_0(A, B)=k2_xboole_0(k4_xboole_0(A, B), k4_xboole_0(B, A))) ) ).
+- fof(l98_xboole_1, axiom,  (! [A] :  (! [B] : k5_xboole_0(A, B)=k4_xboole_0(k2_xboole_0(A, B), k3_xboole_0(A, B))) ) ).
+- fof(l2_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (k1_tarski(A)=k2_tarski(B, C) => A=B) ) ) ) ).

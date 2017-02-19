@@ -1,0 +1,13 @@
+C fof(t31_pepin, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) <=> r1_nat_d(k2_newton(2, A), k2_newton(2, B))) ) ) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(l40_pepin, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_nat_d(k2_newton(2, A), k2_newton(2, B)) => r1_xxreal_0(A, B)) ) ) ) ) ).
++ fof(l18_pepin, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (r1_xxreal_0(A, B) => r1_nat_d(k1_newton(C, A), k1_newton(C, B))) ) ) ) ) ) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k2_newton, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v7_ordinal1(B))  => k2_newton(A, B)=k1_newton(A, B)) ) ).
+- fof(l96_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (r1_xxreal_0(k1_nat_1(A, 1), k2_newton(2, A)) => r1_xxreal_0(k1_nat_1(k1_nat_1(A, 1), 1), k2_newton(2, k1_nat_1(A, 1)))) ) ) ).
+- fof(s2_nat_1__e1_103__newton, axiom,  ( (r1_xxreal_0(k1_nat_1(k6_numbers, 1), k2_newton(2, k6_numbers)) &  (! [A] :  (v7_ordinal1(A) =>  (r1_xxreal_0(k1_nat_1(A, 1), k2_newton(2, A)) => r1_xxreal_0(k1_nat_1(k1_nat_1(A, 1), 1), k2_newton(2, k1_nat_1(A, 1)))) ) ) )  =>  (! [A] :  (v7_ordinal1(A) => r1_xxreal_0(k1_nat_1(A, 1), k2_newton(2, A))) ) ) ).
+- fof(t85_newton, axiom,  (! [A] :  (v7_ordinal1(A) => r1_xxreal_0(k1_nat_1(A, 1), k2_newton(2, A))) ) ).
+- fof(t86_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ (r1_xxreal_0(k2_newton(2, A), A)) ) ) ).
+- fof(fc4_newton, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k1_newton(A, B))) ) ).
+- fof(l4_card_4, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v7_ordinal1(D) =>  (k3_xcmplx_0(k2_newton(2, A), k2_nat_1(k4_nat_1(2, B), 1))=k3_xcmplx_0(k2_newton(2, C), k2_nat_1(k4_nat_1(2, D), 1)) => r1_xxreal_0(A, C)) ) ) ) ) ) ) ) ) ).

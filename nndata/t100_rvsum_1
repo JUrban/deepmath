@@ -1,0 +1,23 @@
+C fof(t100_rvsum_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) => k19_rvsum_1(k11_finseq_1(A, B, C))=k5_binop_2(k5_binop_2(A, B), C)) ) ) ) ) ) ).
++ fof(fc7_finseq_1, axiom,  (! [A] : v1_finseq_1(k5_finseq_1(A))) ).
++ fof(d10_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] : k11_finseq_1(A, B, C)=k7_finseq_1(k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B)), k9_finseq_1(C))) ) ) ).
++ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
++ fof(fc18_finseq_1, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  &  (v1_relat_1(B) &  (v1_funct_1(B) &  ( ~ (v1_xboole_0(B))  & v1_finseq_1(B)) ) ) )  =>  (v1_relat_1(k7_finseq_1(B, A)) &  (v1_funct_1(k7_finseq_1(B, A)) &  ( ~ (v1_xboole_0(k7_finseq_1(B, A)))  & v1_finseq_1(k7_finseq_1(B, A))) ) ) ) ) ).
++ fof(d9_finseq_1, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B))) ) ).
++ fof(t99_rvsum_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k19_rvsum_1(k10_finseq_1(A, B))=k5_binop_2(A, B)) ) ) ) ).
++ fof(dt_k9_finseq_1, axiom,  (! [A] :  (v1_relat_1(k9_finseq_1(A)) & v1_funct_1(k9_finseq_1(A))) ) ).
++ fof(fc10_rvsum_1, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_valued_0(k5_finseq_1(A))) ) ).
++ fof(fc13_rvsum_1, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_valued_0(A) & v1_finseq_1(A)) ) )  &  (v1_relat_1(B) &  (v1_funct_1(B) &  (v1_valued_0(B) & v1_finseq_1(B)) ) ) )  =>  (v1_relat_1(k7_finseq_1(A, B)) &  (v1_funct_1(k7_finseq_1(A, B)) &  (v1_valued_0(k7_finseq_1(A, B)) & v1_finseq_1(k7_finseq_1(A, B))) ) ) ) ) ).
++ fof(fc16_finseq_1, axiom,  (! [A] :  ~ (v1_xboole_0(k5_finseq_1(A))) ) ).
++ fof(t96_rvsum_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_valued_0(A) & v1_finseq_1(A)) ) )  =>  (! [B] :  (v1_xcmplx_0(B) => k19_rvsum_1(k7_finseq_1(A, k9_finseq_1(B)))=k5_binop_2(k19_rvsum_1(A), B)) ) ) ) ).
+- fof(fraenkel_a_2_15_member_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) & v1_xcmplx_0(C))  =>  (r2_hidden(A, a_2_15_member_1(B, C)) <=>  (? [D] :  (m1_subset_1(D, k2_numbers) &  (A=k5_binop_2(C, D) & r2_hidden(D, B)) ) ) ) ) ) ).
+- fof(t97_rvsum_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_valued_0(A) & v1_finseq_1(A)) ) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) &  (v1_valued_0(B) & v1_finseq_1(B)) ) )  => k19_rvsum_1(k7_finseq_1(A, B))=k5_binop_2(k19_rvsum_1(A), k19_rvsum_1(B))) ) ) ) ).
+- fof(t95_rvsum_1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k19_rvsum_1(k9_finseq_1(A))=A) ) ).
+- fof(t194_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) => k23_member_1(A, B)=a_2_15_member_1(A, B)) ) ) ) ).
+- fof(fc7_membered, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_membered(k1_tarski(A))) ) ).
+- fof(fraenkel_a_2_5_member_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) & v1_membered(C))  =>  (r2_hidden(A, a_2_5_member_1(B, C)) <=>  (? [D, E] :  ( (m1_subset_1(D, k2_numbers) & m1_subset_1(E, k2_numbers))  &  (A=k5_binop_2(D, E) &  (r2_hidden(D, B) & r2_hidden(E, C)) ) ) ) ) ) ) ).
+- fof(t98_member_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k13_member_1(k1_tarski(A), k1_tarski(B))=k1_tarski(k5_binop_2(A, B))) ) ) ) ).
+- fof(d5_binop_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers)))) )  =>  (A=k29_binop_2 <=>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) => k1_binop_1(A, B, C)=k5_binop_2(B, C)) ) ) ) ) ) ) ).
+- fof(t195_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  ~ ( (r2_hidden(C, k23_member_1(A, B)) &  (! [D] :  (m1_subset_1(D, k2_numbers) =>  ~ ( (C=k5_binop_2(B, D) & r2_hidden(D, A)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(commutativity_k5_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k5_binop_2(A, B)=k5_binop_2(B, A)) ) ).
+- fof(fraenkel_a_1_12_member_1, axiom,  (! [A, B] :  (v1_membered(B) =>  (r2_hidden(A, a_1_12_member_1(B)) <=>  (? [C] :  (m1_subset_1(C, k2_numbers) &  (A=k5_binop_2(k6_numbers, C) & r2_hidden(C, B)) ) ) ) ) ) ).

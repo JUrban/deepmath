@@ -1,0 +1,7 @@
+C fof(t2_margrel1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v3_finseq_1(k1_tarski(A)) & v2_card_3(k1_tarski(A))) ) ) ).
++ fof(d18_finseq_1, axiom,  (! [A] :  (v3_finseq_1(A) <=>  (! [B] :  (r2_hidden(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(fc7_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => v2_card_3(k1_tarski(A))) ) ).
+- fof(l84_card_3, axiom,  (! [A] :  ( (v4_funct_1(A) & v2_card_3(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r2_hidden(B, A) => k9_xtuple_0(B)=k9_card_3(A)) ) ) ) ) ).
+- fof(cc11_finseq_1, axiom,  (! [A] :  (v3_finseq_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v3_finseq_1(B)) ) ) ) ).
+- fof(cc8_card_3, axiom,  (! [A] :  (v2_card_3(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v2_card_3(B)) ) ) ) ).

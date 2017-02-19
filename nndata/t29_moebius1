@@ -1,0 +1,27 @@
+C fof(t29_moebius1, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  (v7_ordinal1(B) =>  (r1_nat_d(A, B) =>  (v1_moebius1(B) | a_2_2_moebius1(A, B)=a_2_3_moebius1(A, B)) ) ) ) ) ) ).
++ fof(t27_moebius1, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ( (r1_nat_d(A, B) & r1_nat_d(C, k3_nat_d(B, A)))  =>  (v1_moebius1(B) |  (r1_nat_d(C, B) &  ~ (r1_nat_d(A, C)) ) ) ) ) ) ) ) ) ) ).
++ fof(fraenkel_a_2_2_moebius1, axiom,  (! [A, B, C] :  ( ( (v7_ordinal1(B) & v1_int_2(B))  & v7_ordinal1(C))  =>  (r2_hidden(A, a_2_2_moebius1(B, C)) <=>  (? [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) &  (A=D &  ( ~ (r1_xxreal_0(D, k6_numbers))  &  (r1_nat_d(D, C) &  ~ (r1_nat_d(B, D)) ) ) ) ) ) ) ) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(fraenkel_a_2_3_moebius1, axiom,  (! [A, B, C] :  ( ( (v7_ordinal1(B) & v1_int_2(B))  & v7_ordinal1(C))  =>  (r2_hidden(A, a_2_3_moebius1(B, C)) <=>  (? [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) &  (A=D &  ( ~ (r1_xxreal_0(D, k6_numbers))  & r1_nat_d(D, k3_nat_d(C, B))) ) ) ) ) ) ) ).
++ fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
++ fof(t28_moebius1, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ( (r1_nat_d(A, B) & r1_nat_d(C, B))  =>  (r1_nat_d(A, C) | r1_nat_d(C, k3_nat_d(B, A))) ) ) ) ) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
+- fof(d1_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_moebius1(A) <=>  (? [B] :  ( (v7_ordinal1(B) & v1_int_2(B))  & r1_nat_d(k1_newton(B, 2), A)) ) ) ) ) ).
+- fof(t25_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (v1_moebius1(k24_binop_2(A, B)))  & v1_moebius1(A)) ) ) ) ) ) ).
+- fof(redefinition_k24_binop_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k24_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
+- fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
+- fof(t20_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( (? [B] :  ( ( ~ (v1_xboole_0(B))  & v7_ordinal1(B))  &  ( ~ (B=1)  & r1_nat_d(k1_newton(B, 2), A)) ) )  => v1_moebius1(A)) ) ) ).
+- fof(t26_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (v1_moebius1(A))  &  (r1_nat_d(B, A) & v1_moebius1(B)) ) ) ) ) ) ) ).
+- fof(t24_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (v1_moebius1(A))  =>  (! [B] :  ( (v7_ordinal1(B) & v1_int_2(B))  => r1_xxreal_0(k11_nat_3(A, B), 1)) ) ) ) ) ).
+- fof(t23_moebius1, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  ~ (v1_moebius1(A)) ) ) ).
+- fof(cc1_moebius1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (v1_int_2(A) =>  ~ (v1_moebius1(A)) ) ) ) ).
+- fof(fc4_newton, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k1_newton(A, B))) ) ).
+- fof(d3_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_nat_d(A, B) <=>  (? [C] :  (v7_ordinal1(C) & B=k3_xcmplx_0(A, C)) ) ) ) ) ) ) ).
+- fof(d2_moebius1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k5_numbers)) =>  (A=k1_moebius1 <=>  (! [B] :  (v7_ordinal1(B) =>  (r2_hidden(B, A) <=>  ~ (v1_moebius1(B)) ) ) ) ) ) ) ).
+- fof(rc3_moebius1, axiom,  (? [A] :  (v1_ordinal1(A) &  (v2_ordinal1(A) &  (v3_ordinal1(A) &  (v7_ordinal1(A) &  (v1_xcmplx_0(A) &  (v1_xreal_0(A) &  (v1_int_1(A) &  (v1_finset_1(A) &  (v1_card_1(A) &  (v1_xxreal_0(A) &  ( ~ (v3_xxreal_0(A))  & v1_moebius1(A)) ) ) ) ) ) ) ) ) ) ) ) ).

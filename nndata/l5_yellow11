@@ -1,0 +1,17 @@
+C fof(l5_yellow11, axiom, r1_tarski(k6_subset_1(3, 2), k6_subset_1(3, 1))).
++ fof(t98_xboole_1, axiom,  (! [A] :  (! [B] : k2_xboole_0(A, B)=k5_xboole_0(A, k4_xboole_0(B, A))) ) ).
++ fof(t7_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(A, k2_xboole_0(A, B))) ) ).
++ fof(d1_ordinal1, axiom,  (! [A] : k1_ordinal1(A)=k2_xboole_0(A, k1_tarski(A))) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(rqSucc__k1_ordinal1__r1_r2, axiom, k1_ordinal1(1)=2).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
++ fof(t34_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_tarski(A, B) => r1_tarski(k4_xboole_0(C, B), k4_xboole_0(C, A))) ) ) ) ).
+- fof(t3_yellow11, axiom, k6_subset_1(3, 1)=k7_domain_1(k5_numbers, 1, 2)).
+- fof(t4_yellow11, axiom, k6_subset_1(3, 2)=k6_domain_1(k5_numbers, 2)).
+- fof(t2_yellow11, axiom, k6_subset_1(2, 1)=k6_domain_1(k5_numbers, 1)).
+- fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
+- fof(t25_xtuple_0, axiom,  (! [A] :  (! [B] : r1_tarski(k4_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)), k9_xtuple_0(k4_xboole_0(A, B)))) ) ).
+- fof(t29_xtuple_0, axiom,  (! [A] :  (! [B] : r1_tarski(k4_xboole_0(k10_xtuple_0(A), k10_xtuple_0(B)), k10_xtuple_0(k4_xboole_0(A, B)))) ) ).
+- fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
+- fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).

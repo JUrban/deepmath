@@ -1,0 +1,15 @@
+C fof(t21_card_2, axiom,  (! [A] :  (v1_card_1(A) => k2_card_2(A, 1)=A) ) ).
++ fof(t69_card_1, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, k2_zfmisc_1(A, k1_tarski(B))) & k1_card_1(A)=k1_card_1(k2_zfmisc_1(A, k1_tarski(B)))) ) ) ).
++ fof(t7_card_2, axiom,  (! [A] :  (! [B] :  (r2_wellord2(k2_zfmisc_1(A, B), k2_zfmisc_1(k1_card_1(A), B)) &  (r2_wellord2(k2_zfmisc_1(A, B), k2_zfmisc_1(A, k1_card_1(B))) &  (r2_wellord2(k2_zfmisc_1(A, B), k2_zfmisc_1(k1_card_1(A), k1_card_1(B))) &  (k1_card_1(k2_zfmisc_1(A, B))=k1_card_1(k2_zfmisc_1(k1_card_1(A), B)) &  (k1_card_1(k2_zfmisc_1(A, B))=k1_card_1(k2_zfmisc_1(A, k1_card_1(B))) & k1_card_1(k2_zfmisc_1(A, B))=k1_card_1(k2_zfmisc_1(k1_card_1(A), k1_card_1(B)))) ) ) ) ) ) ) ).
++ fof(t30_card_1, axiom,  (! [A] : k1_card_1(k1_tarski(A))=1) ).
++ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
++ fof(d2_card_1, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  (B=k1_card_1(A) <=> r2_wellord2(A, B)) ) ) ) ).
++ fof(d2_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) => k2_card_2(A, B)=k1_card_1(k2_zfmisc_1(A, B))) ) ) ) ).
++ fof(reflexivity_r2_wellord2, axiom,  (! [A, B] : r2_wellord2(A, A)) ).
+- fof(commutativity_k2_card_2, axiom,  (! [A, B] :  ( (v1_card_1(A) & v1_card_1(B))  => k2_card_2(A, B)=k2_card_2(B, A)) ) ).
+- fof(t20_card_2, axiom,  (! [A] :  (v1_card_1(A) => k2_card_2(A, k6_numbers)=k6_numbers) ) ).
+- fof(dt_k2_card_2, axiom,  (! [A, B] :  ( (v1_card_1(A) & v1_card_1(B))  => v1_card_1(k2_card_2(A, B))) ) ).
+- fof(t14_card_2, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) => k1_card_1(k11_ordinal2(A, B))=k2_card_2(k1_card_1(A), k1_card_1(B))) ) ) ) ).
+- fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
+- fof(t27_card_1, axiom, k1_card_1(k1_xboole_0)=k1_xboole_0).
+- fof(t90_zfmisc_1, axiom,  (! [A] :  (! [B] :  (k2_zfmisc_1(A, B)=k1_xboole_0 <=>  (A=k1_xboole_0 | B=k1_xboole_0) ) ) ) ).

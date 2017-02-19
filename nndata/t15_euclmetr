@@ -1,0 +1,11 @@
+C fof(t15_euclmetr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_analmetr(A) & l1_analmetr(A)) )  =>  ( (v1_euclmetr(A) & v3_euclmetr(A))  => v2_euclmetr(A)) ) ) ).
++ fof(t13_conmetr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_analmetr(A) & l1_analmetr(A)) )  =>  ( (v1_conmetr(A) & v1_conaffm(A))  => v2_conmetr(A)) ) ) ).
++ fof(t11_euclmetr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_analmetr(A) & l1_analmetr(A)) )  =>  (v3_euclmetr(A) <=> v1_conaffm(A)) ) ) ).
++ fof(t8_euclmetr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_analmetr(A) & l1_analmetr(A)) )  =>  (v1_euclmetr(A) <=> v3_conaffm(A)) ) ) ).
++ fof(t10_euclmetr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_analmetr(A) & l1_analmetr(A)) )  =>  (v2_euclmetr(A) <=> v2_conmetr(A)) ) ) ).
++ fof(t15_conmetr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_analmetr(A) & l1_analmetr(A)) )  =>  (v3_conaffm(A) => v1_conmetr(A)) ) ) ).
+- fof(cc1_analmetr, axiom,  (! [A] :  (l1_analmetr(A) =>  ( ( ~ (v2_struct_0(A))  & v3_analmetr(A))  =>  ( ~ (v2_struct_0(A))  & v2_analmetr(A)) ) ) ) ).
+- fof(d2_euclmetr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_analmetr(A) & l1_analmetr(A)) )  =>  (v2_euclmetr(A) <=> v2_aff_2(k3_analmetr(A))) ) ) ).
+- fof(d3_euclmetr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_analmetr(A) & l1_analmetr(A)) )  =>  (v3_euclmetr(A) <=> v4_aff_2(k3_analmetr(A))) ) ) ).
+- fof(d1_euclmetr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_analmetr(A) & l1_analmetr(A)) )  =>  (v1_euclmetr(A) <=>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (! [E] :  (m1_subset_1(E, u1_struct_0(A)) =>  ( (r4_analmetr(A, B, C, D, E) & r4_analmetr(A, C, D, B, E))  => r4_analmetr(A, C, E, B, D)) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(l17_euclmetr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_analmetr(A) & l1_analmetr(A)) )  =>  (v2_conmetr(A) <=> v2_aff_2(k3_analmetr(A))) ) ) ).

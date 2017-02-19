@@ -1,0 +1,5 @@
+C fof(t31_membered, axiom,  (! [A] :  (! [B] :  ( (r2_hidden(B, A) & v1_membered(B))  => v1_membered(k1_setfam_1(A))) ) ) ).
++ fof(t3_setfam_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => r1_tarski(k1_setfam_1(B), A)) ) ) ).
++ fof(t19_membered, axiom,  (! [A] :  (! [B] :  (v1_membered(B) =>  (r1_tarski(A, B) => v1_membered(A)) ) ) ) ).
+- fof(d1_membered, axiom,  (! [A] :  (v1_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_xcmplx_0(B)) ) ) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).

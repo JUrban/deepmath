@@ -1,0 +1,11 @@
+C fof(t10_yellow_3, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (! [C] :  (r2_hidden(C, k1_yellow_3(A, B)) <=>  (r2_hidden(k4_tarski(k1_xtuple_0(k1_xtuple_0(C)), k1_xtuple_0(k2_xtuple_0(C))), A) &  (r2_hidden(k4_tarski(k2_xtuple_0(k1_xtuple_0(C)), k2_xtuple_0(k2_xtuple_0(C))), B) &  ( (? [D] :  (? [E] : C=k4_tarski(D, E)) )  &  ( (? [D] :  (? [E] : k1_xtuple_0(C)=k4_tarski(D, E)) )  &  (? [D] :  (? [E] : k2_xtuple_0(C)=k4_tarski(D, E)) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(rd2_xtuple_0, axiom,  (! [A, B] : k2_xtuple_0(k4_tarski(A, B))=B) ).
++ fof(dt_k1_yellow_3, axiom,  (! [A, B] :  ( (v1_relat_1(A) & v1_relat_1(B))  => v1_relat_1(k1_yellow_3(A, B))) ) ).
++ fof(d1_relat_1, axiom,  (! [A] :  (v1_relat_1(A) <=>  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (! [D] :  ~ (B=k4_tarski(C, D)) ) ) ) ) ) ) ) ).
++ fof(d1_yellow_3, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (! [C] :  (v1_relat_1(C) =>  (C=k1_yellow_3(A, B) <=>  (! [D] :  (! [E] :  (r2_hidden(k4_tarski(D, E), C) <=>  (? [F] :  (? [G] :  (? [H] :  (? [I] :  (D=k4_tarski(F, G) &  (E=k4_tarski(H, I) &  (r2_hidden(k4_tarski(F, H), A) & r2_hidden(k4_tarski(G, I), B)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(rd1_xtuple_0, axiom,  (! [A, B] : k1_xtuple_0(k4_tarski(A, B))=A) ).
+- fof(t7_mcart_1, axiom,  (! [A] :  (! [B] :  (k1_xtuple_0(k4_tarski(A, B))=A & k2_xtuple_0(k4_tarski(A, B))=B) ) ) ).
+- fof(rd3_xtuple_0, axiom,  (! [A] :  (v1_xtuple_0(A) => k4_tarski(k1_xtuple_0(A), k2_xtuple_0(A))=A) ) ).
+- fof(l2_yellow_3, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (A=k4_tarski(k4_tarski(B, C), k4_tarski(D, E)) =>  (k1_xtuple_0(k1_xtuple_0(A))=B &  (k2_xtuple_0(k1_xtuple_0(A))=C &  (k1_xtuple_0(k2_xtuple_0(A))=D & k2_xtuple_0(k2_xtuple_0(A))=E) ) ) ) ) ) ) ) ) ).
+- fof(t21_mcart_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (r2_hidden(A, B) => A=k4_tarski(k1_xtuple_0(A), k2_xtuple_0(A))) ) ) ) ).
+- fof(s3_funct_1__e1_7__card_2, axiom,  (! [A, B, C] :  (? [D] :  ( (v1_relat_1(D) & v1_funct_1(D))  &  (k9_xtuple_0(D)=k2_zfmisc_1(k2_zfmisc_1(A, B), C) &  (! [E] :  (r2_hidden(E, k2_zfmisc_1(k2_zfmisc_1(A, B), C)) => k1_funct_1(D, E)=k4_tarski(k1_xtuple_0(k1_xtuple_0(E)), k4_tarski(k2_xtuple_0(k1_xtuple_0(E)), k2_xtuple_0(E)))) ) ) ) ) ) ).

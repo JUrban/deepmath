@@ -1,0 +1,5 @@
+C fof(l23_zfmodel1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (v1_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  ( (! [D] :  (m1_subset_1(D, A) =>  (r2_hidden(D, B) <=> r2_hidden(D, C)) ) )  => B=C) ) ) ) ) ) ) ) ).
++ fof(t1_zfmodel1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (v1_ordinal1(A) => r2_zf_model(A, k6_zf_model)) ) ) ).
++ fof(t11_zf_colla, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (r2_zf_model(A, k6_zf_model) =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  ( (! [D] :  (m1_subset_1(D, A) =>  (r2_hidden(D, B) <=> r2_hidden(D, C)) ) )  => B=C) ) ) ) ) ) ) ) ).
+- fof(d2_ordinal1, axiom,  (! [A] :  (v1_ordinal1(A) <=>  (! [B] :  (r2_hidden(B, A) => r1_tarski(B, A)) ) ) ) ).
+- fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).

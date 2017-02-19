@@ -1,0 +1,19 @@
+C fof(l38_yellow_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  & l1_orders_2(B))  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k6_yellow_1(A, B))) =>  (r2_hidden(C, u1_struct_0(k5_yellow_1(A, k7_funcop_1(A, B)))) &  (v1_funct_1(C) &  (v1_funct_2(C, A, u1_struct_0(B)) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, u1_struct_0(B))))) ) ) ) ) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(dt_l1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => l1_struct_0(A)) ) ).
++ fof(d5_yellow_1, axiom,  (! [A] :  (! [B] :  (l1_orders_2(B) => k6_yellow_1(A, B)=k5_yellow_1(A, k7_funcop_1(A, B))) ) ) ).
++ fof(t28_yellow_1, axiom,  (! [A] :  (! [B] :  (l1_orders_2(B) => k1_funct_2(A, u1_struct_0(B))=u1_struct_0(k6_yellow_1(A, B))) ) ) ).
++ fof(redefinition_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => k9_funct_2(A, B)=k1_funct_2(A, B)) ) ).
++ fof(dt_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => m1_funct_2(k9_funct_2(A, B), A, B)) ) ).
++ fof(t66_funct_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(C, k1_funct_2(A, B)) =>  (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ) ) ) ) ).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(dt_m1_funct_2, axiom,  (! [A, B] :  (! [C] :  (m1_funct_2(C, A, B) =>  ~ (v1_xboole_0(C)) ) ) ) ).
+- fof(t26_yellow_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k1_xboole_0) &  (v1_funct_1(A) &  (v1_partfun1(A, k1_xboole_0) & v1_yellow_1(A)) ) ) )  => k5_yellow_1(k1_xboole_0, A)=g1_orders_2(k1_tarski(k1_xboole_0), k6_partfun1(k1_tarski(k1_xboole_0)))) ) ).
+- fof(d4_yellow_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) & v1_yellow_1(B)) ) ) )  =>  (! [C] :  ( (v1_orders_2(C) & l1_orders_2(C))  =>  (C=k5_yellow_1(A, B) <=>  (u1_struct_0(C)=k4_card_3(k12_pralg_1(A, B)) &  (! [D] :  (m1_subset_1(D, u1_struct_0(C)) =>  (! [E] :  (m1_subset_1(E, u1_struct_0(C)) =>  (r2_hidden(D, k4_card_3(k12_pralg_1(A, B))) =>  (r1_orders_2(C, D, E) <=>  (? [F] :  ( (v1_relat_1(F) & v1_funct_1(F))  &  (? [G] :  ( (v1_relat_1(G) & v1_funct_1(G))  &  (F=D &  (G=E &  (! [H] :  ~ ( (r2_hidden(H, A) &  (! [I] :  (l1_orders_2(I) =>  (! [J] :  (m1_subset_1(J, u1_struct_0(I)) =>  (! [K] :  (m1_subset_1(K, u1_struct_0(I)) =>  ~ ( (I=k1_funct_1(B, H) &  (J=k1_funct_1(F, H) &  (K=k1_funct_1(G, H) & r1_orders_2(I, J, K)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(dt_k5_yellow_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) & v1_yellow_1(B)) ) ) )  =>  (v1_orders_2(k5_yellow_1(A, B)) & l1_orders_2(k5_yellow_1(A, B))) ) ) ).
+- fof(fc11_yellow_1, axiom,  (! [A, B] :  ( ( ~ (v2_struct_0(B))  & l1_orders_2(B))  =>  ( ~ (v2_struct_0(k6_yellow_1(A, B)))  & v1_orders_2(k6_yellow_1(A, B))) ) ) ).
+- fof(dt_k6_yellow_1, axiom,  (! [A, B] :  (l1_orders_2(B) =>  (v1_orders_2(k6_yellow_1(A, B)) & l1_orders_2(k6_yellow_1(A, B))) ) ) ).
+- fof(t27_yellow_1, axiom,  (! [A] :  (l1_orders_2(A) => k6_yellow_1(k1_xboole_0, A)=g1_orders_2(k1_tarski(k1_xboole_0), k6_partfun1(k1_tarski(k1_xboole_0)))) ) ).
+- fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
+- fof(fc10_yellow_1, axiom,  (! [A, B] :  (l1_orders_2(B) => v1_yellow_1(k2_funcop_1(A, B))) ) ).
+- fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).

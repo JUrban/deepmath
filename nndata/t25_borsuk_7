@@ -1,0 +1,19 @@
+C fof(t25_borsuk_7, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  ( ~ (A=B)  => k1_borsuk_7(A, B, A, C, D, E)=k4_funct_4(A, B, E, D)) ) ) ) ) ) ).
++ fof(d9_funcop_1, axiom,  (! [A] :  (! [B] : k16_funcop_1(A, B)=k7_funcop_1(k1_tarski(A), B)) ) ).
++ fof(t29_enumset1, axiom,  (! [A] : k2_tarski(A, A)=k1_tarski(A)) ).
++ fof(t81_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] : k4_funct_4(A, A, B, C)=k16_funcop_1(A, C)) ) ) ).
++ fof(t14_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  => k1_funct_4(k1_funct_4(A, B), C)=k1_funct_4(A, k1_funct_4(B, C))) ) ) ) ) ) ).
++ fof(fc11_funcop_1, axiom,  (! [A, B] :  (v1_relat_1(k16_funcop_1(A, B)) & v1_funct_1(k16_funcop_1(A, B))) ) ).
++ fof(d1_borsuk_7, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] : k1_borsuk_7(A, B, C, D, E, F)=k1_funct_4(k4_funct_4(A, B, D, E), k16_funcop_1(C, F))) ) ) ) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(d4_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k4_funct_4(A, B, C, D)=k1_funct_4(k16_funcop_1(A, C), k16_funcop_1(B, D))) ) ) ) ).
++ fof(t67_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ~ (A=C)  => k4_funct_4(A, C, B, D)=k2_tarski(k4_tarski(A, B), k4_tarski(C, D))) ) ) ) ) ).
+- fof(t63_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ( ~ (A=B)  => k1_funct_1(k4_funct_4(A, B, C, D), A)=C)  & k1_funct_1(k4_funct_4(A, B, C, D), B)=D) ) ) ) ) ).
+- fof(t24_borsuk_7, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] : k1_borsuk_7(A, A, B, C, D, E)=k4_funct_4(A, B, D, E)) ) ) ) ) ).
+- fof(t23_borsuk_7, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k1_borsuk_7(A, A, A, B, C, D)=k16_funcop_1(A, D)) ) ) ) ).
+- fof(t4_topreala, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k4_funct_4(1, 2, A, B)) ) ).
+- fof(t21_borsuk_7, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (v1_xcmplx_0(F) => k9_xtuple_0(k1_borsuk_7(A, B, F, C, D, E))=k1_enumset1(A, B, F)) ) ) ) ) ) ) ).
+- fof(t22_borsuk_7, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (v1_xcmplx_0(F) => r1_tarski(k10_xtuple_0(k1_borsuk_7(A, B, F, C, D, E)), k1_enumset1(C, D, E))) ) ) ) ) ) ) ).
+- fof(fc3_borsuk_7, axiom,  (! [A, B, C, D, E, F] :  (v1_relat_1(k1_borsuk_7(A, B, C, D, E, F)) & v1_funct_1(k1_borsuk_7(A, B, C, D, E, F))) ) ).
+- fof(t66_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  ( (v1_relat_1(E) & v1_funct_1(E))  =>  ( (k9_xtuple_0(E)=k2_tarski(A, B) &  (k1_funct_1(E, A)=C & k1_funct_1(E, B)=D) )  => E=k4_funct_4(A, B, C, D)) ) ) ) ) ) ) ).
+- fof(t11_bvfunc14, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] : k9_xtuple_0(k1_funct_4(k1_funct_4(k16_funcop_1(A, D), k16_funcop_1(B, E)), k16_funcop_1(C, F)))=k1_enumset1(A, B, C)) ) ) ) ) ) ).

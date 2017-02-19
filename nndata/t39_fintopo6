@@ -1,0 +1,11 @@
+C fof(t39_fintopo6, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  ( (v3_orders_2(A) &  (v1_fin_topo(A) & r1_fintopo6(A, B)) )  => v3_fin_topo(B, A)) ) ) ) ) ).
++ fof(t36_fintopo6, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  ( (v3_orders_2(A) &  (v1_fin_topo(A) & v4_fin_topo(B, A)) )  => v4_fin_topo(k9_fin_topo(A, B), A)) ) ) ) ) ).
++ fof(d15_fin_topo, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v3_fin_topo(B, A) <=> B=k9_fin_topo(A, B)) ) ) ) ) ).
++ fof(t13_fin_topo, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_orders_2(A) & l1_orders_2(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => r1_tarski(B, k9_fin_topo(A, B))) ) ) ) ).
++ fof(d4_fintopo6, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (r1_fintopo6(A, B) <=>  (v4_fin_topo(B, A) &  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  ( (v4_fin_topo(C, A) & r1_tarski(B, C))  => B=C) ) ) ) ) ) ) ) ) ).
++ fof(dt_k9_fin_topo, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => m1_subset_1(k9_fin_topo(A, B), k1_zfmisc_1(u1_struct_0(A)))) ) ).
+- fof(t24_fin_topo, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v3_fin_topo(B, A) => v2_fin_topo(k3_subset_1(u1_struct_0(A), B), A)) ) ) ) ) ).
+- fof(involutiveness_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, k3_subset_1(A, B))=B) ) ).
+- fof(dt_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_subset_1(k3_subset_1(A, B), k1_zfmisc_1(A))) ) ).
+- fof(t26_fintopo6, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  ~ ( (r1_fintopo6(A, B) & B=k1_struct_0(A)) ) ) ) ) ) ).
+- fof(t4_fintopo2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v2_fin_topo(k3_subset_1(u1_struct_0(A), B), A) => v3_fin_topo(B, A)) ) ) ) ) ).

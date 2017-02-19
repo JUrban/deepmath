@@ -1,0 +1,7 @@
+C fof(t15_algstr_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  ~ ( ( ~ (A=k6_numbers)  &  (! [C] :  (m1_subset_1(C, k1_numbers) =>  ~ (B=k11_binop_2(C, A)) ) ) ) ) ) ) ) ) ).
++ fof(cc1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(commutativity_k11_binop_2, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k11_binop_2(A, B)=k11_binop_2(B, A)) ) ).
++ fof(t14_algstr_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  ~ ( ( ~ (A=k6_numbers)  &  (! [C] :  (m1_subset_1(C, k1_numbers) =>  ~ (B=k11_binop_2(A, C)) ) ) ) ) ) ) ) ) ).
+- fof(t44_rvsum_1, axiom,  (! [A] :  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) &  (v3_valued_0(C) & v1_finseq_1(C)) ) )  => k1_seq_1(k24_valued_1(C, B), A)=k11_binop_2(B, k1_seq_1(C, A))) ) ) ) ) ).
+- fof(redefinition_k11_binop_2, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k11_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
+- fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).

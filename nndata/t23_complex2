@@ -1,0 +1,5 @@
+C fof(t23_complex2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (k4_complex1(A)=k6_numbers <=>  (k1_comptrig(A)=k6_numbers | k1_comptrig(A)=k32_sin_cos) ) ) ) ).
++ fof(t21_complex2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (k1_comptrig(A)=k6_numbers <=>  (r1_xxreal_0(k6_numbers, k3_complex1(A)) & k4_complex1(A)=k6_numbers) ) ) ) ).
++ fof(t22_complex2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (k1_comptrig(A)=k32_sin_cos <=>  ( ~ (r1_xxreal_0(k6_numbers, k3_complex1(A)))  & k4_complex1(A)=k6_numbers) ) ) ) ).
+- fof(t35_comptrig, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (r1_xxreal_0(k6_numbers, A) => k1_comptrig(A)=k6_numbers) ) ) ).
+- fof(t36_comptrig, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  ( ~ (r1_xxreal_0(k6_numbers, A))  => k1_comptrig(A)=k32_sin_cos) ) ) ).

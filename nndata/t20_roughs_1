@@ -1,0 +1,17 @@
+C fof(t20_roughs_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_roughs_1(A) & l1_orders_2(A)) )  => k3_roughs_1(A, k2_struct_0(A))=k2_struct_0(A)) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
++ fof(d3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => k2_struct_0(A)=u1_struct_0(A)) ) ).
++ fof(dt_k2_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => m1_subset_1(k2_struct_0(A), k1_zfmisc_1(u1_struct_0(A)))) ) ).
++ fof(dt_l1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => l1_struct_0(A)) ) ).
++ fof(t17_roughs_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_roughs_1(A) & l1_orders_2(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (B=k3_roughs_1(A, B) <=> B=k4_roughs_1(A, B)) ) ) ) ) ).
++ fof(t13_roughs_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_roughs_1(A) & l1_orders_2(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => r1_tarski(B, k4_roughs_1(A, B))) ) ) ) ).
++ fof(dt_k4_roughs_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => m1_subset_1(k4_roughs_1(A, B), k1_zfmisc_1(u1_struct_0(A)))) ) ).
+- fof(d4_roughs_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k3_roughs_1(A, B)=a_2_0_roughs_1(A, B)) ) ) ) ).
+- fof(t15_roughs_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_roughs_1(A) & l1_orders_2(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  ( ~ (v4_roughs_1(B, A))  <=> k3_roughs_1(A, B)=B) ) ) ) ) ).
+- fof(fraenkel_a_2_0_roughs_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(B))  & l1_orders_2(B))  & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))))  =>  (r2_hidden(A, a_2_0_roughs_1(B, C)) <=>  (? [D] :  (m1_subset_1(D, u1_struct_0(B)) &  (A=D & r1_tarski(k6_eqrel_1(u1_struct_0(B), u1_struct_0(B), u1_orders_2(B), D), C)) ) ) ) ) ) ).
+- fof(t12_roughs_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_roughs_1(A) & l1_orders_2(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => r1_tarski(k3_roughs_1(A, B), B)) ) ) ) ).
+- fof(t16_roughs_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_roughs_1(A) & l1_orders_2(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  ( ~ (v4_roughs_1(B, A))  <=> k4_roughs_1(A, B)=B) ) ) ) ) ).
+- fof(t18_roughs_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_roughs_1(A) & l1_orders_2(A)) )  => k3_roughs_1(A, k1_struct_0(A))=k1_xboole_0) ) ).
+- fof(fraenkel_a_2_1_roughs_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(B))  & l1_orders_2(B))  & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))))  =>  (r2_hidden(A, a_2_1_roughs_1(B, C)) <=>  (? [D] :  (m1_subset_1(D, u1_struct_0(B)) &  (A=D &  ~ (r1_xboole_0(k6_eqrel_1(u1_struct_0(B), u1_struct_0(B), u1_orders_2(B), D), C)) ) ) ) ) ) ) ).
+- fof(d5_roughs_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k4_roughs_1(A, B)=a_2_1_roughs_1(A, B)) ) ) ) ).

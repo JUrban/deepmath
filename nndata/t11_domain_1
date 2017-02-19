@@ -1,0 +1,9 @@
+C fof(t11_domain_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (! [D] :  ( ~ (v1_xboole_0(D))  =>  (! [E] :  ( ~ (v1_xboole_0(E))  =>  ( (! [F] :  (r2_hidden(F, A) <=>  (? [G] :  (m1_subset_1(G, B) &  (? [H] :  (m1_subset_1(H, C) &  (? [I] :  (m1_subset_1(I, D) &  (? [J] :  (m1_subset_1(J, E) & F=k6_xtuple_0(G, H, I, J)) ) ) ) ) ) ) ) ) )  => A=k4_zfmisc_1(B, C, D, E)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(d1_subset_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v1_xboole_0(A))  =>  (m1_subset_1(B, A) <=> r2_hidden(B, A)) )  &  (v1_xboole_0(A) =>  (m1_subset_1(B, A) <=> v1_xboole_0(B)) ) ) ) ) ).
++ fof(t49_mcart_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k4_zfmisc_1(A, B, C, D)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, B), C), D)) ) ) ) ).
++ fof(t81_mcart_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  ( (! [F] :  (r2_hidden(F, A) <=>  (? [G] :  (? [H] :  (? [I] :  (? [J] :  (r2_hidden(G, B) &  (r2_hidden(H, C) &  (r2_hidden(I, D) &  (r2_hidden(J, E) & F=k6_xtuple_0(G, H, I, J)) ) ) ) ) ) ) ) ) )  => A=k4_zfmisc_1(B, C, D, E)) ) ) ) ) ) ).
+- fof(t52_mcart_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (! [G] :  (! [H] :  (k4_zfmisc_1(A, B, C, D)=k4_zfmisc_1(E, F, G, H) =>  (A=k1_xboole_0 |  (B=k1_xboole_0 |  (C=k1_xboole_0 |  (D=k1_xboole_0 |  (A=E &  (B=F &  (C=G & D=H) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(d4_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k4_zfmisc_1(A, B, C, D)=k2_zfmisc_1(k3_zfmisc_1(A, B, C), D)) ) ) ) ).
+- fof(d8_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k6_xtuple_0(A, B, C, D)=k4_tarski(k3_xtuple_0(A, B, C), D)) ) ) ) ).
+- fof(d3_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] : k3_zfmisc_1(A, B, C)=k2_zfmisc_1(k2_zfmisc_1(A, B), C)) ) ) ).

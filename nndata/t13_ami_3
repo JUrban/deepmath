@@ -1,0 +1,17 @@
+C fof(t13_ami_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (k4_struct_0(k1_ami_3)=k10_ami_3(A))  &  ~ (k4_struct_0(k1_ami_3)=A) ) ) ) ).
++ fof(cc5_card_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_finset_1(A)) ) ).
++ fof(fc7_card_1, axiom,  ~ (v1_finset_1(k4_ordinal1)) ).
++ fof(t1_ami_3, axiom, k4_struct_0(k1_ami_3)=k5_numbers).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(fc2_finset_1, axiom,  (! [A, B] : v1_finset_1(k2_tarski(A, B))) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(d11_ami_3, axiom,  (! [A] :  (v7_ordinal1(A) => k10_ami_3(A)=k4_tarski(1, A)) ) ).
+- fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
+- fof(t10_ami_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (A=B)  & k10_ami_3(A)=k10_ami_3(B)) ) ) ) ) ) ).
+- fof(t12_ami_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ (k10_ami_3(A)=B) ) ) ) ) ).
+- fof(t32_arytm_3, axiom,  (! [A] :  (! [B] :  ~ (r2_hidden(k4_tarski(A, B), k4_ordinal1)) ) ) ).
+- fof(d12_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) <=> r2_hidden(A, k4_ordinal1)) ) ).
+- fof(dt_k10_ami_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_ami_2(k10_ami_3(A)) & m1_subset_1(k10_ami_3(A), u1_struct_0(k1_ami_3))) ) ) ).
+- fof(t9_ami_3, axiom,  (! [A] :  ( (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_ami_3)))  =>  (! [B] :  ( (v1_ami_2(B) & m1_subset_1(B, u1_struct_0(k1_ami_3)))  =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  ( (v1_relat_1(D) &  (v4_relat_1(D, u1_struct_0(k1_ami_3)) &  (v1_funct_1(D) &  (v5_funct_1(D, k2_memstr_0(2, k1_ami_3)) & v1_partfun1(D, u1_struct_0(k1_ami_3))) ) ) )  =>  ( ( ~ (r1_xxreal_0(k1_funct_1(D, A), k6_numbers))  => k1_funct_1(k2_extpro_1(2, k1_ami_3, k9_ami_3(C, A), D), k4_struct_0(k1_ami_3))=C)  &  ( (r1_xxreal_0(k1_funct_1(D, A), k6_numbers) => k1_funct_1(k2_extpro_1(2, k1_ami_3, k9_ami_3(C, A), D), k4_struct_0(k1_ami_3))=k4_card_1(k5_memstr_0(2, k1_ami_3, D)))  & k1_funct_1(k2_extpro_1(2, k1_ami_3, k9_ami_3(C, A), D), B)=k1_funct_1(D, B)) ) ) ) ) ) ) ) ) ) ).
+- fof(t8_ami_3, axiom,  (! [A] :  ( (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_ami_3)))  =>  (! [B] :  ( (v1_ami_2(B) & m1_subset_1(B, u1_struct_0(k1_ami_3)))  =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  ( (v1_relat_1(D) &  (v4_relat_1(D, u1_struct_0(k1_ami_3)) &  (v1_funct_1(D) &  (v5_funct_1(D, k2_memstr_0(2, k1_ami_3)) & v1_partfun1(D, u1_struct_0(k1_ami_3))) ) ) )  =>  ( (k1_funct_1(D, A)=k6_numbers => k1_funct_1(k2_extpro_1(2, k1_ami_3, k8_ami_3(C, A), D), k4_struct_0(k1_ami_3))=C)  &  ( ( ~ (k1_funct_1(D, A)=k6_numbers)  => k1_funct_1(k2_extpro_1(2, k1_ami_3, k8_ami_3(C, A), D), k4_struct_0(k1_ami_3))=k4_card_1(k5_memstr_0(2, k1_ami_3, D)))  & k1_funct_1(k2_extpro_1(2, k1_ami_3, k8_ami_3(C, A), D), B)=k1_funct_1(D, B)) ) ) ) ) ) ) ) ) ) ).

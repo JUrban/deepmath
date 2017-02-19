@@ -1,0 +1,23 @@
+C fof(t33_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) => k7_member_1(k3_xboole_0(A, B))=k3_xboole_0(k7_member_1(A), k7_member_1(B))) ) ) ) ).
++ fof(fc32_membered, axiom,  (! [A, B] :  (v1_membered(A) => v1_membered(k3_xboole_0(B, A))) ) ).
++ fof(dt_k7_member_1, axiom,  (! [A] :  (v1_membered(A) => v1_membered(k7_member_1(A))) ) ).
++ fof(t17_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(k3_xboole_0(A, B), A)) ) ).
++ fof(t30_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (r1_tarski(A, B) <=> r1_tarski(k7_member_1(A), k7_member_1(B))) ) ) ) ) ).
++ fof(t28_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => k3_xboole_0(A, B)=A) ) ) ).
++ fof(fc31_membered, axiom,  (! [A, B] :  (v1_membered(A) => v1_membered(k3_xboole_0(A, B))) ) ).
++ fof(l36_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (r1_tarski(A, B) => r1_tarski(k7_member_1(A), k7_member_1(B))) ) ) ) ) ).
++ fof(involutiveness_k7_member_1, axiom,  (! [A] :  (v1_membered(A) => k7_member_1(k7_member_1(A))=A) ) ).
++ fof(t16_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k3_xboole_0(k3_xboole_0(A, B), C)=k3_xboole_0(A, k3_xboole_0(B, C))) ) ) ).
++ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
++ fof(t108_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_tarski(A, B) => r1_tarski(k3_xboole_0(A, C), B)) ) ) ) ).
+- fof(t29_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (r2_hidden(k2_binop_2(B), A) <=> r2_hidden(B, k7_member_1(A))) ) ) ) ) ).
+- fof(d4_member_1, axiom,  (! [A] :  (v1_membered(A) => k7_member_1(A)=a_1_3_member_1(A)) ) ).
+- fof(t28_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (r2_hidden(B, A) <=> r2_hidden(k2_binop_2(B), k7_member_1(A))) ) ) ) ) ).
+- fof(t32_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) => k7_member_1(k2_xboole_0(A, B))=k2_xboole_0(k7_member_1(A), k7_member_1(B))) ) ) ) ).
+- fof(t31_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (k7_member_1(A)=k7_member_1(B) => A=B) ) ) ) ) ).
+- fof(d1_membered, axiom,  (! [A] :  (v1_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_xcmplx_0(B)) ) ) ) ).
+- fof(ie2_member_1, axiom,  (! [A, B] :  ( (v3_membered(A) & v2_membered(B))  =>  (A=B => k7_member_1(A)=k6_member_1(B)) ) ) ).
+- fof(involutiveness_k5_member_1, axiom,  (! [A] :  (v1_membered(A) => k5_member_1(k5_member_1(A))=A) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(d13_membered, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (A=B <=>  (! [C] :  (v1_xcmplx_0(C) =>  (r2_hidden(C, A) <=> r2_hidden(C, B)) ) ) ) ) ) ) ) ).
+- fof(fc25_membered, axiom,  (! [A, B] :  ( (v1_membered(A) & v1_membered(B))  => v1_membered(k2_xboole_0(A, B))) ) ).

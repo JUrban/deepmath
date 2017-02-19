@@ -1,0 +1,21 @@
+C fof(t3_finseq_3, axiom, k2_finseq_1(5)=k3_enumset1(1, 2, 3, 4, 5)).
++ fof(t10_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] : k3_enumset1(A, B, C, D, E)=k2_xboole_0(k2_enumset1(A, B, C, D), k1_tarski(E))) ) ) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(spc4_numerals, axiom,  ( (v2_xxreal_0(4) & m2_subset_1(4, k1_numbers, k5_numbers))  &  (m1_subset_1(4, k5_numbers) & m1_subset_1(4, k1_numbers)) ) ).
++ fof(commutativity_k1_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k5_numbers))  => k1_nat_1(A, B)=k1_nat_1(B, A)) ) ).
++ fof(redefinition_k1_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k5_numbers))  => k1_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(rqRealAdd__k2_xcmplx_0__r1_r4_r5, axiom, k2_xcmplx_0(1, 4)=5).
++ fof(t2_finseq_3, axiom, k2_finseq_1(4)=k2_enumset1(1, 2, 3, 4)).
++ fof(t9_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => k2_xboole_0(k2_finseq_1(A), k1_tarski(k1_nat_1(A, 1)))=k2_finseq_1(k1_nat_1(A, 1))) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
+- fof(t53_card_1, axiom, 5=k3_enumset1(k1_xboole_0, 1, 2, 3, 4)).
+- fof(rqSucc__k1_ordinal1__r4_r5, axiom, k1_ordinal1(4)=5).
+- fof(t52_card_1, axiom, 4=k2_enumset1(k1_xboole_0, 1, 2, 3)).
+- fof(d1_ordinal1, axiom,  (! [A] : k1_ordinal1(A)=k2_xboole_0(A, k1_tarski(A))) ).
+- fof(t33_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] : k4_enumset1(A, A, B, C, D, E)=k3_enumset1(A, B, C, D, E)) ) ) ) ) ).
+- fof(l17_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] : k3_enumset1(A, B, C, D, E)=k2_xboole_0(k1_enumset1(A, B, C), k2_tarski(D, E))) ) ) ) ) ).
+- fof(t32_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k3_enumset1(A, A, B, C, D)=k2_enumset1(A, B, C, D)) ) ) ) ).
+- fof(spc5_numerals, axiom,  ( (v2_xxreal_0(5) & m2_subset_1(5, k1_numbers, k5_numbers))  &  (m1_subset_1(5, k5_numbers) & m1_subset_1(5, k1_numbers)) ) ).
+- fof(l92_finseq_1, axiom,  (r2_hidden(3, k2_finseq_1(5)) & r2_hidden(4, k2_finseq_1(5))) ).
+- fof(l91_finseq_1, axiom,  (r2_hidden(1, k2_finseq_1(5)) & r2_hidden(2, k2_finseq_1(5))) ).

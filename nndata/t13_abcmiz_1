@@ -1,0 +1,17 @@
+C fof(t13_abcmiz_1, axiom,  (! [A] :  (! [B] : k1_abcmiz_1(k3_xboole_0(k1_abcmiz_1(A), k1_abcmiz_1(B)))=k3_xboole_0(k1_abcmiz_1(A), k1_abcmiz_1(B))) ) ).
++ fof(idempotence_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, A)=A) ).
++ fof(t16_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k3_xboole_0(k3_xboole_0(A, B), C)=k3_xboole_0(A, k3_xboole_0(B, C))) ) ) ).
++ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
++ fof(t28_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => k3_xboole_0(A, B)=A) ) ) ).
++ fof(t9_abcmiz_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k1_abcmiz_1(A), k1_abcmiz_1(B))) ) ) ).
++ fof(d1_abcmiz_1, axiom,  (! [A] :  (! [B] :  (B=k1_abcmiz_1(A) <=>  (r1_tarski(A, B) &  ( (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), B) => r1_tarski(C, B)) ) )  &  (! [C] :  ( (r1_tarski(A, C) &  (! [D] :  (! [E] :  (r2_hidden(k4_tarski(D, E), C) => r1_tarski(D, C)) ) ) )  => r1_tarski(B, C)) ) ) ) ) ) ) ).
++ fof(projectivity_k1_abcmiz_1, axiom,  (! [A] : k1_abcmiz_1(k1_abcmiz_1(A))=k1_abcmiz_1(A)) ).
++ fof(t17_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(k3_xboole_0(A, B), A)) ) ).
+- fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
+- fof(t11_abcmiz_1, axiom,  (! [A] :  (! [B] : k1_abcmiz_1(k2_xboole_0(A, B))=k2_xboole_0(k1_abcmiz_1(A), k1_abcmiz_1(B))) ) ).
+- fof(t12_abcmiz_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( (! [B] :  (m1_subset_1(B, A) => k1_abcmiz_1(B)=B) )  => k1_abcmiz_1(k1_setfam_1(A))=k1_setfam_1(A)) ) ) ).
+- fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
+- fof(t10_abcmiz_1, axiom,  (! [A] : k1_abcmiz_1(k3_tarski(A))=k3_tarski(a_1_0_abcmiz_1(A))) ).
+- fof(t8_abcmiz_1, axiom, k1_abcmiz_1(k1_xboole_0)=k1_xboole_0).
+- fof(fraenkel_a_2_8_abcmiz_1, axiom,  (! [A, B, C] :  (r2_hidden(A, a_2_8_abcmiz_1(B, C)) <=>  (? [D] :  (m1_subset_1(D, k2_tarski(B, C)) & A=k1_abcmiz_1(D)) ) ) ) ).
+- fof(fraenkel_a_1_0_abcmiz_1, axiom,  (! [A, B] :  (r2_hidden(A, a_1_0_abcmiz_1(B)) <=>  (? [C] :  (m1_subset_1(C, B) & A=k1_abcmiz_1(C)) ) ) ) ).

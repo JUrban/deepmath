@@ -1,0 +1,19 @@
+C fof(t27_neckla_3, axiom,  (! [A] :  ( (v1_necklace(A) & l1_orders_2(A))  =>  (! [B] :  (! [C] :  (r1_rewrite1(u1_orders_2(A), B, C) => r1_rewrite1(u1_orders_2(A), C, B)) ) ) ) ) ).
++ fof(t62_finseq_5, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (k1_funct_1(A, 1)=k1_funct_1(k3_finseq_5(A), k3_finseq_1(A)) & k1_funct_1(A, k3_finseq_1(A))=k1_funct_1(k3_finseq_5(A), 1)) ) ) ).
++ fof(dt_m1_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m1_rewrite1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(d3_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) <=>  (? [D] :  (m1_rewrite1(D, A) &  (k1_funct_1(D, 1)=B & k1_funct_1(D, k3_finseq_1(D))=C) ) ) ) ) ) ) ) ).
++ fof(fc3_necklace, axiom,  (! [A] :  ( (v1_necklace(A) & l1_orders_2(A))  => v3_relat_2(u1_orders_2(A))) ) ).
++ fof(t9_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m1_rewrite1(B, A) => m1_rewrite1(k3_finseq_5(B), k2_relat_1(A))) ) ) ) ).
++ fof(dt_u1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => m1_subset_1(u1_orders_2(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ).
++ fof(t13_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (v3_relat_2(A) <=> A=k2_relat_1(A)) ) ) ).
++ fof(involutiveness_k3_finseq_5, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_5(k3_finseq_5(A))=A) ) ).
+- fof(t26_neckla_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_orders_2(A) &  (v4_orders_2(A) & l1_orders_2(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r1_rewrite1(u1_orders_2(A), B, C) => r2_hidden(k1_domain_1(u1_struct_0(A), u1_struct_0(A), B, C), u1_orders_2(A))) ) ) ) ) ) ) ).
+- fof(d7_oposet_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (v1_necklace(A) <=>  (v3_relat_2(u1_orders_2(A)) & m1_subset_1(u1_orders_2(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ) ) ).
+- fof(d3_necklace, axiom,  (! [A] :  (l1_orders_2(A) =>  (v1_necklace(A) <=> r3_relat_2(u1_orders_2(A), u1_struct_0(A))) ) ) ).
+- fof(t6_neckla_3, axiom,  (! [A] :  ( (v1_necklace(A) &  (v3_necklace(A) & l1_orders_2(A)) )  =>  ~ ( (k1_card_1(u1_struct_0(A))=2 &  (! [B] :  (! [C] :  ~ ( (u1_struct_0(A)=k2_tarski(B, C) &  (u1_orders_2(A)=k2_tarski(k4_tarski(B, C), k4_tarski(C, B)) | u1_orders_2(A)=k1_xboole_0) ) ) ) ) ) ) ) ) ).
+- fof(fc11_neckla_3, axiom,  (! [A] :  ( (v1_necklace(A) & l1_orders_2(A))  =>  (v1_orders_2(k3_necklace(A)) & v1_necklace(k3_necklace(A))) ) ) ).
+- fof(t8_oposet_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  ( (v1_necklace(A) & v4_orders_2(A))  => v2_oposet_1(A)) ) ) ).
+- fof(fc7_neckla_3, axiom,  (! [A, B] :  ( ( (v1_necklace(A) & l1_orders_2(A))  &  (v1_necklace(B) & l1_orders_2(B)) )  =>  (v1_orders_2(k1_neckla_2(A, B)) & v1_necklace(k1_neckla_2(A, B))) ) ) ).
+- fof(fc8_neckla_3, axiom,  (! [A, B] :  ( ( (v1_necklace(A) & l1_orders_2(A))  &  (v1_necklace(B) & l1_orders_2(B)) )  =>  (v1_orders_2(k2_neckla_2(A, B)) & v1_necklace(k2_neckla_2(A, B))) ) ) ).
+- fof(rc1_neckla_3, axiom,  (? [A] :  (l1_orders_2(A) &  ( ~ (v2_struct_0(A))  &  (v8_struct_0(A) &  (v1_orders_2(A) &  (v1_necklace(A) & v3_necklace(A)) ) ) ) ) ) ).

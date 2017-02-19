@@ -1,0 +1,9 @@
+C fof(t28_euclid_8, axiom,  (! [A] :  (m2_finseq_2(A, k1_numbers, k1_euclid(3)) => k9_euclid(3, A, 1)=A) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(t3_euclid_4, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m2_finseq_2(B, k1_numbers, k1_euclid(A)) =>  (k9_euclid(A, B, 1)=B & k9_euclid(A, B, k6_numbers)=k5_euclid(A)) ) ) ) ) ).
++ fof(spc3_numerals, axiom,  ( (v2_xxreal_0(3) & m2_subset_1(3, k1_numbers, k5_numbers))  &  (m1_subset_1(3, k5_numbers) & m1_subset_1(3, k1_numbers)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
+- fof(l2_euclid_8, axiom,  (! [A] :  (m2_finseq_2(A, k1_numbers, k1_euclid(3)) =>  (! [B] :  (v1_xreal_0(B) => k9_euclid(3, A, B)=k1_euclid_8(k11_binop_2(B, k1_seq_1(A, 1)), k11_binop_2(B, k1_seq_1(A, 2)), k11_binop_2(B, k1_seq_1(A, 3)))) ) ) ) ).
+- fof(l20_euclid_8, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m2_finseq_2(B, k1_numbers, k1_euclid(3)) =>  (! [C] :  (m2_finseq_2(C, k1_numbers, k1_euclid(3)) =>  (k5_euclid_8(k9_euclid(3, B, A), C)=k9_euclid(3, k5_euclid_8(B, C), A) & k5_euclid_8(k9_euclid(3, B, A), C)=k5_euclid_8(B, k9_euclid(3, C, A))) ) ) ) ) ) ) ).
+- fof(l8_euclid_8, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (! [D] :  (m1_subset_1(D, k1_numbers) => k9_euclid(3, k1_euclid_8(B, C, D), A)=k1_euclid_8(k11_binop_2(A, B), k11_binop_2(A, C), k11_binop_2(A, D))) ) ) ) ) ) ) ) ).
+- fof(t25_euclid_8, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k9_euclid(3, k2_euclid_8, A)=k1_euclid_8(A, k6_numbers, k6_numbers)) ) ).

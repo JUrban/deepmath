@@ -1,0 +1,7 @@
+C fof(t64_finseq_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (k1_relset_1(k5_numbers, k1_finseq_3(A, B))=k1_relset_1(k5_numbers, A) => r1_xboole_0(B, k10_xtuple_0(A))) ) ) ) ).
++ fof(t61_finseq_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (k3_finseq_1(k1_finseq_3(A, B))=k3_finseq_1(A) => r1_xboole_0(B, k10_xtuple_0(A))) ) ) ) ).
++ fof(t29_finseq_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (k3_finseq_1(A)=k3_finseq_1(B) <=> k1_relset_1(k5_numbers, A)=k1_relset_1(k5_numbers, B)) ) ) ) ) ).
++ fof(dt_k1_finseq_3, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v1_relat_1(k1_finseq_3(A, B)) &  (v1_funct_1(k1_finseq_3(A, B)) & v1_finseq_1(k1_finseq_3(A, B))) ) ) ) ).
+- fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
+- fof(dt_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => m2_subset_1(k3_finseq_1(A), k1_numbers, k5_numbers)) ) ).
+- fof(d3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (B=k3_finseq_1(A) <=> k2_finseq_1(B)=k9_xtuple_0(A)) ) ) ) ) ).

@@ -1,0 +1,5 @@
+C fof(t107_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_zfmisc_1(B) & m2_finseq_1(B, A))  =>  ~ ( ( ~ (v1_xboole_0(B))  &  (! [C] :  (m1_subset_1(C, A) =>  ~ (B=k12_finseq_1(A, C)) ) ) ) ) ) ) ) ) ).
++ fof(cc10_card_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_zfmisc_1(A))  => v3_card_1(A, 1)) ) ).
++ fof(t97_finseq_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v3_card_1(B, 1) & m2_finseq_1(B, A))  =>  (? [C] :  (m1_subset_1(C, A) & B=k12_finseq_1(A, C)) ) ) ) ) ) ).
+- fof(t16_finseq_4, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) => k7_partfun1(A, k12_finseq_1(A, B), 1)=B) ) ) ) ).
+- fof(fraenkel_a_1_0_finseq_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  =>  (r2_hidden(A, a_1_0_finseq_2(B)) <=>  (? [C] :  (m1_subset_1(C, B) & A=k12_finseq_1(B, C)) ) ) ) ) ).

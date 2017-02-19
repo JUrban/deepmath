@@ -1,0 +1,7 @@
+C fof(t26_trees_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_finset_1(A) & v1_trees_1(A)) )  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_finset_1(B) & v1_trees_1(B)) )  =>  ( ~ (v1_xboole_0(k2_xboole_0(A, B)))  &  (v1_finset_1(k2_xboole_0(A, B)) & v1_trees_1(k2_xboole_0(A, B))) ) ) ) ) ) ).
++ fof(fc9_finset_1, axiom,  (! [A, B] :  ( (v1_finset_1(A) & v1_finset_1(B))  => v1_finset_1(k2_xboole_0(A, B))) ) ).
++ fof(fc4_xboole_0, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(A))  =>  ~ (v1_xboole_0(k2_xboole_0(A, B))) ) ) ).
++ fof(fc2_trees_1, axiom,  (! [A, B] :  ( ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  &  ( ~ (v1_xboole_0(B))  & v1_trees_1(B)) )  => v1_trees_1(k2_xboole_0(A, B))) ) ).
+- fof(t24_trees_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v1_trees_1(B))  =>  ( ~ (v1_xboole_0(k2_xboole_0(A, B)))  & v1_trees_1(k2_xboole_0(A, B))) ) ) ) ) ).
+- fof(fc3_trees_1, axiom,  (! [A, B] :  ( ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  &  ( ~ (v1_xboole_0(B))  & v1_trees_1(B)) )  =>  ( ~ (v1_xboole_0(k3_xboole_0(A, B)))  & v1_trees_1(k3_xboole_0(A, B))) ) ) ).
+- fof(l3_finset_1, axiom,  (! [A] :  (! [B] :  ( (v1_finset_1(A) & v1_finset_1(B))  => v1_finset_1(k2_xboole_0(A, B))) ) ) ).

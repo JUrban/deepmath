@@ -1,0 +1,11 @@
+C fof(l2_euler_1, axiom,  ~ (v1_int_2(1)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r1_r1, axiom, r1_xxreal_0(1, 1)).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(d4_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_int_2(A) <=>  ( ~ (r1_xxreal_0(A, 1))  &  (! [B] :  (v7_ordinal1(B) =>  ~ ( (r1_int_1(B, A) &  ( ~ (B=1)  &  ~ (B=A) ) ) ) ) ) ) ) ) ) ).
+- fof(d7_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k5_numbers)) =>  (B=k11_newton(A) <=>  (! [C] :  (v7_ordinal1(C) =>  (r2_hidden(C, B) <=>  ( ~ (r1_xxreal_0(A, C))  & v1_int_2(C)) ) ) ) ) ) ) ) ) ).
+- fof(s9_nat_1__e2_36__int_2, axiom,  ( (! [A] :  (v7_ordinal1(A) =>  ( (r1_xxreal_0(2, A) &  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(2, B) =>  (r1_xxreal_0(A, B) |  (? [C] :  (v7_ordinal1(C) &  (v1_int_2(C) & r1_int_1(C, B)) ) ) ) ) ) ) )  =>  (? [D] :  (v7_ordinal1(D) &  (v1_int_2(D) & r1_int_1(D, A)) ) ) ) ) )  =>  (! [A] :  (v7_ordinal1(A) =>  (r1_xxreal_0(2, A) =>  (? [E] :  (v7_ordinal1(E) &  (v1_int_2(E) & r1_int_1(E, A)) ) ) ) ) ) ) ).
+- fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
+- fof(rc1_newton, axiom,  (? [A] :  (m1_subset_1(A, k5_numbers) &  (v1_ordinal1(A) &  (v2_ordinal1(A) &  (v3_ordinal1(A) &  (v7_ordinal1(A) &  (v1_xcmplx_0(A) &  (v1_xreal_0(A) &  (v1_xxreal_0(A) &  ( ~ (v3_xxreal_0(A))  &  (v1_int_1(A) &  (v1_int_2(A) &  (v1_rat_1(A) &  (v1_finset_1(A) &  (v1_card_1(A) &  (v1_membered(A) &  (v2_membered(A) &  (v3_membered(A) &  (v4_membered(A) &  (v5_membered(A) & v6_membered(A)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t80_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_int_2(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ~ ( (r1_nat_d(A, k3_xcmplx_0(B, C)) &  ( ~ (r1_nat_d(A, B))  &  ~ (r1_nat_d(A, C)) ) ) ) ) ) ) ) ) ) ) ).

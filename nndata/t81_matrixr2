@@ -1,0 +1,31 @@
+C fof(t81_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) =>  (v1_matrixr2(B, A) => k3_matrixr2(A, k7_matrixr2(A, B))=k2_real_1(k3_matrixr2(A, B))) ) ) ) ) ).
++ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
++ fof(dt_k7_matrixr2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & m1_matrix_1(B, k1_numbers, A, A))  => m1_matrix_1(k7_matrixr2(A, B), k1_numbers, A, A)) ) ).
++ fof(redefinition_k2_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k2_real_1(A)=k5_xcmplx_0(A)) ) ).
++ fof(t46_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) =>  (! [C] :  (m1_matrix_1(C, k1_numbers, A, A) => k3_matrixr2(A, k1_matrixr2(A, B, C))=k8_real_1(k3_matrixr2(A, B), k3_matrixr2(A, C))) ) ) ) ) ) ).
++ fof(involutiveness_k2_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k2_real_1(k2_real_1(A))=A) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(dt_k3_matrixr2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & m1_matrix_1(B, k1_numbers, A, A))  => m1_subset_1(k3_matrixr2(A, B), k1_numbers)) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(d7_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  ( ( ~ (A=k6_numbers)  =>  (B=k5_xcmplx_0(A) <=> k3_xcmplx_0(A, B)=1) )  &  (A=k6_numbers =>  (B=k5_xcmplx_0(A) <=> B=k6_numbers) ) ) ) ) ) ) ).
++ fof(d6_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) =>  (v1_matrixr2(B, A) =>  (! [C] :  (m1_matrix_1(C, k1_numbers, A, A) =>  (C=k7_matrixr2(A, B) <=>  (k1_matrixr2(A, C, B)=k4_matrixr2(A) & k1_matrixr2(A, B, C)=k4_matrixr2(A)) ) ) ) ) ) ) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(t72_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k3_matrixr2(A, k4_matrixr2(A))=1) ) ).
++ fof(redefinition_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k3_xcmplx_0(A, B)) ) ).
+- fof(d5_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) =>  (v1_matrixr2(B, A) <=>  (? [C] :  (m1_matrix_1(C, k1_numbers, A, A) &  (k1_matrixr2(A, C, B)=k4_matrixr2(A) & k1_matrixr2(A, B, C)=k4_matrixr2(A)) ) ) ) ) ) ) ) ).
+- fof(fc1_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => v1_matrixr2(k4_matrixr2(A), A)) ) ).
+- fof(t70_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) => k1_matrixr2(A, k4_matrixr2(A), B)=B) ) ) ) ).
+- fof(t79_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k7_matrixr2(A, k4_matrixr2(A))=k4_matrixr2(A)) ) ).
+- fof(t80_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) =>  (! [C] :  (m1_matrix_1(C, k1_numbers, A, A) =>  (! [D] :  (m1_matrix_1(D, k1_numbers, A, A) =>  ( (k1_matrixr2(A, C, B)=k4_matrixr2(A) & k1_matrixr2(A, B, D)=k4_matrixr2(A))  =>  (C=D & v1_matrixr2(B, A)) ) ) ) ) ) ) ) ) ) ).
+- fof(d1_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) => k3_matrixr2(A, B)=k12_matrix_3(A, k2_vectsp_1, k2_matrixr2(A, B))) ) ) ) ).
+- fof(t44_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) => k3_matrixr2(A, B)=k3_matrixr2(A, k5_matrix_1(A, k1_numbers, B))) ) ) ) ).
+- fof(t42_matrixr2, axiom,  (! [A] :  (m1_matrix_1(A, k1_numbers, k6_numbers, k6_numbers) => k3_matrixr2(k6_numbers, A)=1) ) ).
+- fof(t38_matrixr2, axiom,  (! [A] :  (m1_matrix_1(A, k1_numbers, 3, 3) => k3_matrixr2(3, A)=k7_real_1(k9_real_1(k7_real_1(k9_real_1(k9_real_1(k8_real_1(k8_real_1(k3_matrix_1(k1_numbers, A, 1, 1), k3_matrix_1(k1_numbers, A, 2, 2)), k3_matrix_1(k1_numbers, A, 3, 3)), k8_real_1(k8_real_1(k3_matrix_1(k1_numbers, A, 1, 3), k3_matrix_1(k1_numbers, A, 2, 2)), k3_matrix_1(k1_numbers, A, 3, 1))), k8_real_1(k8_real_1(k3_matrix_1(k1_numbers, A, 1, 1), k3_matrix_1(k1_numbers, A, 2, 3)), k3_matrix_1(k1_numbers, A, 3, 2))), k8_real_1(k8_real_1(k3_matrix_1(k1_numbers, A, 1, 2), k3_matrix_1(k1_numbers, A, 2, 3)), k3_matrix_1(k1_numbers, A, 3, 1))), k8_real_1(k8_real_1(k3_matrix_1(k1_numbers, A, 1, 2), k3_matrix_1(k1_numbers, A, 2, 1)), k3_matrix_1(k1_numbers, A, 3, 3))), k8_real_1(k8_real_1(k3_matrix_1(k1_numbers, A, 1, 3), k3_matrix_1(k1_numbers, A, 2, 1)), k3_matrix_1(k1_numbers, A, 3, 2)))) ) ).
+- fof(t32_matrixr2, axiom,  (! [A] :  (m1_matrix_1(A, k1_numbers, 2, 2) => k3_matrixr2(2, A)=k9_real_1(k8_real_1(k3_matrix_1(k1_numbers, A, 1, 1), k3_matrix_1(k1_numbers, A, 2, 2)), k8_real_1(k3_matrix_1(k1_numbers, A, 1, 2), k3_matrix_1(k1_numbers, A, 2, 1)))) ) ).
+- fof(t73_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  ( ~ (r1_xxreal_0(A, k6_numbers))  => k3_matrixr2(A, k5_matrixr2(A))=k6_numbers) ) ) ).
+- fof(dt_k4_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => m1_matrix_1(k4_matrixr2(A), k1_numbers, A, A)) ) ).
+- fof(t71_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) => k1_matrixr2(A, B, k4_matrixr2(A))=B) ) ) ) ).
+- fof(t28_matrixr2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) =>  (! [C] :  (m1_matrix_1(C, k1_numbers, A, A) =>  (! [D] :  (m1_matrix_1(D, k1_numbers, A, A) => k1_matrixr2(A, k1_matrixr2(A, B, C), D)=k1_matrixr2(A, B, k1_matrixr2(A, C, D))) ) ) ) ) ) ) ) ).
+- fof(s1_seq_1__e12_113_1_2__prepower, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  (? [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k1_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  &  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) => k1_seq_1(B, C)=k2_real_1(k1_seq_1(A, C))) ) ) ) ) ) ).

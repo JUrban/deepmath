@@ -1,0 +1,31 @@
+C fof(t22_uniroots, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m2_subset_1(A, k1_numbers, k5_numbers))  => r2_hidden(k1_group_1(k1_complfld), k2_uniroots(A))) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(fc1_complfld, axiom,  ( ~ (v2_struct_0(k1_complfld))  & v36_algstr_0(k1_complfld)) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(d1_complfld, axiom,  (! [A] :  ( (v36_algstr_0(A) & l6_algstr_0(A))  =>  (A=k1_complfld <=>  (u1_struct_0(A)=k2_numbers &  (u1_algstr_0(A)=k27_binop_2 &  (u2_algstr_0(A)=k29_binop_2 &  (k5_struct_0(A)=k6_complex1 & k4_struct_0(A)=k5_complex1) ) ) ) ) ) ) ).
++ fof(redefinition_m1_complfld, axiom,  (! [A, B] :  ( (m1_subset_1(A, u1_struct_0(k1_complfld)) &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k5_numbers)) )  =>  (! [C] :  (m1_complfld(C, A, B) <=> m1_comptrig(C, A, B)) ) ) ) ).
++ fof(dt_k6_complex1, axiom, m1_subset_1(k6_complex1, k2_numbers)).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(t8_uniroots, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) => k1_group_1(k1_complfld)=k2_binop_1(u1_struct_0(k1_complfld), k5_numbers, u1_struct_0(k1_complfld), k4_group_1(k1_complfld), k1_group_1(k1_complfld), A)) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(dt_k1_complfld, axiom,  (v36_algstr_0(k1_complfld) & l6_algstr_0(k1_complfld)) ).
++ fof(t21_uniroots, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m2_subset_1(A, k1_numbers, k5_numbers))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k1_complfld)) =>  (r2_hidden(B, k2_uniroots(A)) <=> m1_comptrig(B, k1_group_1(k1_complfld), A)) ) ) ) ) ).
++ fof(d2_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m2_subset_1(B, k1_numbers, k5_numbers))  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k1_complfld)) =>  (m1_complfld(C, A, B) <=> k2_binop_1(u1_struct_0(k1_complfld), k5_numbers, u1_struct_0(k1_complfld), k4_group_1(k1_complfld), C, B)=A) ) ) ) ) ) ) ).
++ fof(d4_complex1, axiom, k6_complex1=1).
++ fof(t1_matrix_5, axiom, 1=k1_group_1(k1_complfld)).
+- fof(d2_uniroots, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m2_subset_1(A, k1_numbers, k5_numbers))  => k2_uniroots(A)=a_1_0_uniroots(A)) ) ).
+- fof(fraenkel_a_1_0_uniroots, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  & m2_subset_1(B, k1_numbers, k5_numbers))  =>  (r2_hidden(A, a_1_0_uniroots(B)) <=>  (? [C] :  (m1_subset_1(C, u1_struct_0(k1_complfld)) &  (A=C & m1_comptrig(C, k1_group_1(k1_complfld), B)) ) ) ) ) ) ).
+- fof(l2_complfld, axiom, k1_group_1(k1_complfld)=k6_complex1).
+- fof(dt_k2_uniroots, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(A, k5_numbers))  => m1_subset_1(k2_uniroots(A), k1_zfmisc_1(u1_struct_0(k1_complfld)))) ) ).
+- fof(dt_k1_group_1, axiom,  (! [A] :  (l3_algstr_0(A) => m1_subset_1(k1_group_1(A), u1_struct_0(A))) ) ).
+- fof(t46_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_group_2(B, A) => r1_struct_0(B, k1_group_1(A))) ) ) ) ).
+- fof(t53_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_group_2(B, A) =>  (! [C] :  (m1_group_2(C, A) => r2_hidden(k1_group_1(A), k5_group_5(A, B, C))) ) ) ) ) ) ).
+- fof(t14_latsubgr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  ( (v15_algstr_0(B) & m1_group_2(B, A))  => r2_hidden(k1_group_1(A), k1_funct_1(k1_latsubgr(A), B))) ) ) ) ).
+- fof(t13_latsubgr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  ( (v15_algstr_0(B) & m1_group_2(B, A))  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r2_hidden(C, k1_funct_1(k1_latsubgr(A), B)) <=> r1_struct_0(B, C)) ) ) ) ) ) ) ).
+- fof(t8_complfld, axiom, k1_group_1(k1_complfld)=k6_complex1).
+- fof(t10_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => k4_algstr_0(k1_complfld, A)=k8_group_1(k1_complfld, k4_algstr_0(k1_complfld, k1_group_1(k1_complfld)), A)) ) ).
+- fof(t19_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (k2_group_5(A, k1_group_1(A), B)=k1_group_1(A) & k2_group_5(A, B, k1_group_1(A))=k1_group_1(A)) ) ) ) ) ).
+- fof(t52_group_5, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) & l3_algstr_0(B)) ) )  =>  (! [C] :  (m1_group_2(C, B) =>  (! [D] :  (m1_group_2(D, B) =>  (r2_hidden(A, k5_group_5(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, u1_struct_0(B)) &  (? [F] :  (m1_subset_1(F, u1_struct_0(B)) &  (A=k2_group_5(B, E, F) &  (r1_struct_0(C, E) & r1_struct_0(D, F)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
+- fof(s1_finseq_2__e12_94_1_1__polynom5, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, u1_struct_0(k1_complfld)) &  (v1_algseq_1(A, k1_complfld) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, u1_struct_0(k1_complfld))))) ) )  &  (m1_subset_1(B, u1_struct_0(k1_complfld)) &  ( ~ (v1_xboole_0(C))  & m2_subset_1(C, k1_numbers, k5_numbers)) ) )  =>  (? [D] :  (m2_finseq_1(D, u1_struct_0(k1_complfld)) &  (k3_finseq_1(D)=k7_nat_d(k1_algseq_1(k1_complfld, k5_polynom5(k1_complfld, A, k4_polynom5(k1_complfld, B, k1_group_1(k1_complfld)))), k2_nat_1(C, 1)) &  (! [E] :  (v7_ordinal1(E) =>  (r2_hidden(E, k4_finseq_1(D)) => k1_funct_1(D, E)=k8_group_1(k1_complfld, k3_funct_2(k5_numbers, u1_struct_0(k1_complfld), k5_polynom5(k1_complfld, A, k4_polynom5(k1_complfld, B, k1_group_1(k1_complfld))), k2_nat_1(C, E)), k2_binop_1(u1_struct_0(k1_complfld), k5_numbers, u1_struct_0(k1_complfld), k4_group_1(k1_complfld), o_3_0_polynom5(A, B, C), k2_nat_1(C, E)))) ) ) ) ) ) ) ) ).

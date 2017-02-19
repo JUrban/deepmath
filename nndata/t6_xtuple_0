@@ -1,0 +1,9 @@
+C fof(t6_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(k4_tarski(A, B), C) => r2_hidden(A, k3_tarski(k3_tarski(C)))) ) ) ) ).
++ fof(d4_tarski, axiom,  (! [A] :  (! [B] :  (B=k3_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(C, D) & r2_hidden(D, A)) ) ) ) ) ) ) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
+- fof(l1_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(A, k3_tarski(k2_tarski(B, k1_tarski(C)))) <=>  (r2_hidden(A, B) | A=C) ) ) ) ) ).
+- fof(d6_tarski, axiom,  (! [A] :  (! [B] :  (r2_tarski(A, B) <=>  (? [C] :  ( (! [D] :  ~ ( (r2_hidden(D, A) &  (! [E] :  ~ ( (r2_hidden(E, B) & r2_hidden(k4_tarski(D, E), C)) ) ) ) ) )  &  ( (! [D] :  ~ ( (r2_hidden(D, B) &  (! [E] :  ~ ( (r2_hidden(E, A) & r2_hidden(k4_tarski(E, D), C)) ) ) ) ) )  &  (! [D] :  (! [E] :  (! [F] :  (! [G] :  ( (r2_hidden(k4_tarski(D, E), C) & r2_hidden(k4_tarski(F, G), C))  =>  (D=F <=> E=G) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
+- fof(d8_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k6_xtuple_0(A, B, C, D)=k4_tarski(k3_xtuple_0(A, B, C), D)) ) ) ) ).

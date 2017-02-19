@@ -1,0 +1,5 @@
+C fof(t10_funct_5, axiom,  (! [A] :  (! [B] :  (r1_tarski(k9_xtuple_0(k2_zfmisc_1(A, B)), A) & r1_tarski(k10_xtuple_0(k2_zfmisc_1(A, B)), B)) ) ) ).
++ fof(t159_relat_1, axiom,  (! [A] :  (! [B] : r1_tarski(k10_xtuple_0(k2_zfmisc_1(A, B)), B)) ) ).
++ fof(t158_relat_1, axiom,  (! [A] :  (! [B] : r1_tarski(k9_xtuple_0(k2_zfmisc_1(A, B)), A)) ) ).
+- fof(t160_relat_1, axiom,  (! [A] :  (! [B] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( ~ (B=k1_xboole_0)  &  ~ ( (k9_xtuple_0(k2_zfmisc_1(A, B))=A & k10_xtuple_0(k2_zfmisc_1(A, B))=B) ) ) ) ) ) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).

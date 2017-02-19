@@ -1,0 +1,5 @@
+C fof(t13_scmyciel, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(k2_tarski(B, C), k1_scmyciel(A)) =>  ( ~ (B=C)  &  (r2_hidden(B, k3_tarski(A)) & r2_hidden(C, k3_tarski(A))) ) ) ) ) ) ).
++ fof(t11_scmyciel, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(B, k1_scmyciel(A)) &  (! [C] :  (! [D] :  ~ ( ( ~ (C=D)  &  (r2_hidden(C, k3_tarski(A)) &  (r2_hidden(D, k3_tarski(A)) & B=k2_tarski(C, D)) ) ) ) ) ) ) ) ) ) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
+- fof(d1_scmyciel, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (B=k1_scmyciel(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (r2_hidden(C, A) & k1_card_1(C)=2) ) ) ) ) ) ) ).
+- fof(dt_k1_scmyciel, axiom,  (! [A] : m1_subset_1(k1_scmyciel(A), k1_zfmisc_1(A))) ).

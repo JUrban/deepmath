@@ -1,0 +1,7 @@
+C fof(t74_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (k9_xtuple_0(B)=k9_xtuple_0(C) => k1_funct_4(k1_funct_4(A, B), C)=k1_funct_4(A, C)) ) ) ) ) ) ) ).
++ fof(t14_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  => k1_funct_4(k1_funct_4(A, B), C)=k1_funct_4(A, k1_funct_4(B, C))) ) ) ) ) ) ).
++ fof(t19_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_tarski(k9_xtuple_0(A), k9_xtuple_0(B)) => k1_funct_4(A, B)=B) ) ) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
+- fof(t34_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_partfun1(A, B) <=> k1_funct_4(A, B)=k1_funct_4(B, A)) ) ) ) ) ).
+- fof(t56_partfun1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) => r1_partfun1(A, B)) ) ) ) ) ).
+- fof(t30_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_partfun1(A, B) <=> k2_xboole_0(A, B)=k1_funct_4(A, B)) ) ) ) ) ).

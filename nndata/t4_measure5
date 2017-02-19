@@ -1,0 +1,9 @@
+C fof(t4_measure5, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  (! [C] :  (m1_subset_1(C, k7_numbers) =>  ~ ( ( ~ (r1_xxreal_0(C, A))  &  ( ~ (r1_xxreal_0(C, B))  &  (! [D] :  (m1_subset_1(D, k7_numbers) =>  ~ ( ( ~ (r1_xxreal_0(D, A))  &  ( ~ (r1_xxreal_0(D, B))  &  ( ~ (r1_xxreal_0(C, D))  & r2_hidden(D, k1_numbers)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t2_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, C))  => r1_xxreal_0(A, C)) ) ) ) ) ) ) ).
++ fof(cc1_xxreal_0, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => v1_xxreal_0(A)) ) ).
++ fof(t2_measure5, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  ~ ( ( ~ (r1_xxreal_0(B, A))  &  (! [C] :  (m1_subset_1(C, k7_numbers) =>  ~ ( ( ~ (r1_xxreal_0(C, A))  &  ( ~ (r1_xxreal_0(B, C))  & r2_hidden(C, k1_numbers)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
+- fof(t13_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ~ ( (r2_hidden(A, k1_numbers) &  (r1_xxreal_0(B, A) &  ( ~ (r2_hidden(B, k1_numbers))  &  ~ (B=k2_xxreal_0) ) ) ) ) ) ) ) ) ).
+- fof(l22_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  ~ ( ( ~ (r2_hidden(A, k1_numbers))  &  ( ~ (A=k1_xxreal_0)  &  ~ (A=k2_xxreal_0) ) ) ) ) ) ).
+- fof(l15_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (r2_hidden(k2_xxreal_3(A), k1_numbers) <=> r2_hidden(A, k1_numbers)) ) ) ).
+- fof(t10_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ~ ( (r2_hidden(A, k1_numbers) &  (r1_xxreal_0(A, B) &  ( ~ (r2_hidden(B, k1_numbers))  &  ~ (B=k1_xxreal_0) ) ) ) ) ) ) ) ) ).

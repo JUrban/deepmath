@@ -1,0 +1,5 @@
+C fof(t9_orders_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) =>  ( (r4_relat_2(C, A) & r1_tarski(B, A))  => r4_relat_2(C, B)) ) ) ) ) ).
++ fof(d4_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r4_relat_2(A, B) <=>  (! [C] :  (! [D] :  ( (r2_hidden(C, B) &  (r2_hidden(D, B) &  (r2_hidden(k4_tarski(C, D), A) & r2_hidden(k4_tarski(D, C), A)) ) )  => C=D) ) ) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(d12_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (v4_relat_2(A) <=> r4_relat_2(A, k1_relat_1(A))) ) ) ).
+- fof(t3_relat_2, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (r4_relat_2(B, A) <=> r5_relat_2(k4_xboole_0(B, k4_relat_1(A)), A)) ) ) ) ).

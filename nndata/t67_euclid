@@ -1,0 +1,13 @@
+C fof(t67_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => u1_struct_0(k14_euclid(A))=u1_struct_0(k15_euclid(A))) ) ).
++ fof(dt_k14_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_metric_1(k14_euclid(A)) &  (v6_metric_1(k14_euclid(A)) &  (v7_metric_1(k14_euclid(A)) &  (v8_metric_1(k14_euclid(A)) &  (v9_metric_1(k14_euclid(A)) & l1_metric_1(k14_euclid(A))) ) ) ) ) ) ) ).
++ fof(t22_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => u1_struct_0(k15_euclid(A))=k1_euclid(A)) ) ).
++ fof(free_g1_metric_1, axiom,  (! [A, B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), k1_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), k1_numbers)))) )  =>  (! [C, D] :  (g1_metric_1(A, B)=g1_metric_1(C, D) =>  (A=C & B=D) ) ) ) ) ).
++ fof(abstractness_v1_metric_1, axiom,  (! [A] :  (l1_metric_1(A) =>  (v1_metric_1(A) => A=g1_metric_1(u1_struct_0(A), u1_metric_1(A))) ) ) ).
++ fof(d7_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k14_euclid(A)=g1_metric_1(k1_euclid(A), k13_euclid(A))) ) ).
++ fof(dt_k13_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_funct_1(k13_euclid(A)) &  (v1_funct_2(k13_euclid(A), k2_zfmisc_1(k1_euclid(A), k1_euclid(A)), k1_numbers) & m1_subset_1(k13_euclid(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_euclid(A), k1_euclid(A)), k1_numbers)))) ) ) ) ).
+- fof(t63_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) =>  (! [C] :  ( ( ~ (v1_xboole_0(C))  & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k14_euclid(A)))))  =>  (B=C => k1_pre_topc(k15_euclid(A), B)=k3_pcomps_1(k1_topmetr(k14_euclid(A), C))) ) ) ) ) ) ) ).
+- fof(fc6_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v2_pre_topc(k15_euclid(A)) &  (v13_algstr_0(k15_euclid(A)) &  (v2_rlvect_1(k15_euclid(A)) &  (v3_rlvect_1(k15_euclid(A)) &  (v4_rlvect_1(k15_euclid(A)) &  (v5_rlvect_1(k15_euclid(A)) &  (v6_rlvect_1(k15_euclid(A)) &  (v7_rlvect_1(k15_euclid(A)) &  (v8_rlvect_1(k15_euclid(A)) & v5_rltopsp1(k15_euclid(A))) ) ) ) ) ) ) ) ) ) ) ).
+- fof(dt_k15_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v5_rltopsp1(k15_euclid(A)) & l1_rltopsp1(k15_euclid(A))) ) ) ).
+- fof(dt_l1_rltopsp1, axiom,  (! [A] :  (l1_rltopsp1(A) =>  (l1_rlvect_1(A) & l1_pre_topc(A)) ) ) ).
+- fof(fc5_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (v2_struct_0(k15_euclid(A)))  & v5_rltopsp1(k15_euclid(A))) ) ) ).
+- fof(d8_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v5_rltopsp1(B) & l1_rltopsp1(B))  =>  (B=k15_euclid(A) <=>  (g1_pre_topc(u1_struct_0(B), u1_pre_topc(B))=k3_pcomps_1(k14_euclid(A)) & g1_rlvect_1(u1_struct_0(B), u2_struct_0(B), u1_algstr_0(B), u1_rlvect_1(B))=k10_funcsdom(k2_finseq_1(A))) ) ) ) ) ) ).

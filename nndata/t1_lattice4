@@ -1,0 +1,15 @@
+C fof(t1_lattice4, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( (! [B] :  ~ ( ( ~ (B=k1_xboole_0)  &  (r1_tarski(B, A) &  (v6_ordinal1(B) &  (! [C] :  ~ ( (r2_hidden(C, A) &  (! [D] :  (r2_hidden(D, B) => r1_tarski(D, C)) ) ) ) ) ) ) ) ) )  &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  ~ ( (r2_hidden(C, A) &  ( ~ (C=B)  & r1_tarski(B, C)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(t65_orders_1, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( (! [B] :  ~ ( (r1_tarski(B, A) &  (v6_ordinal1(B) &  (! [C] :  ~ ( (r2_hidden(C, A) &  (! [D] :  (r2_hidden(D, B) => r1_tarski(D, C)) ) ) ) ) ) ) ) )  &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  ~ ( (r2_hidden(C, A) &  ( ~ (C=B)  & r1_tarski(B, C)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_o_1_0_lattice4, axiom,  (! [A] : m1_subset_1(o_1_0_lattice4(A), A)) ).
++ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
+- fof(d8_ordinal1, axiom,  (! [A] :  (v6_ordinal1(A) <=>  (! [B] :  (! [C] :  ( (r2_hidden(B, A) & r2_hidden(C, A))  => r3_xboole_0(B, C)) ) ) ) ) ).
+- fof(t34_trees_2, axiom,  (! [A] :  ( ( (! [B] :  (r2_hidden(B, A) =>  (v1_relat_1(B) & v1_funct_1(B)) ) )  & v6_ordinal1(A))  =>  (v1_relat_1(k3_tarski(A)) & v1_funct_1(k3_tarski(A))) ) ) ).
+- fof(t66_orders_1, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( (! [B] :  ~ ( (r1_tarski(B, A) &  (v6_ordinal1(B) &  (! [C] :  ~ ( (r2_hidden(C, A) &  (! [D] :  (r2_hidden(D, B) => r1_tarski(C, D)) ) ) ) ) ) ) ) )  &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  ~ ( (r2_hidden(C, A) &  ( ~ (C=B)  & r1_tarski(C, B)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t12_finset_1, axiom,  (! [A] :  ~ ( (v1_finset_1(A) &  ( ~ (A=k1_xboole_0)  &  (v6_ordinal1(A) &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (r2_hidden(C, A) => r1_tarski(C, B)) ) ) ) ) ) ) ) ) ) ).
+- fof(t67_orders_1, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( (! [B] :  ( (r1_tarski(B, A) & v6_ordinal1(B))  =>  (B=k1_xboole_0 | r2_hidden(k3_tarski(B), A)) ) )  &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  ~ ( (r2_hidden(C, A) &  ( ~ (C=B)  & r1_tarski(B, C)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t45_card_3, axiom,  (! [A] :  ~ ( (v6_ordinal1(A) &  (! [B] :  ~ ( (r1_tarski(B, A) &  (k3_tarski(B)=k3_tarski(A) &  (! [C] :  ~ ( (r1_tarski(C, B) &  ( ~ (C=k1_xboole_0)  &  (! [D] :  ~ ( (r2_hidden(D, C) &  (! [E] :  (r2_hidden(E, C) => r1_tarski(D, E)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t68_orders_1, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( (! [B] :  ( (r1_tarski(B, A) & v6_ordinal1(B))  =>  (B=k1_xboole_0 | r2_hidden(k1_setfam_1(B), A)) ) )  &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  ~ ( (r2_hidden(C, A) &  ( ~ (C=B)  & r1_tarski(C, B)) ) ) ) ) ) ) ) ) ) ) ).

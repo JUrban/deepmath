@@ -1,0 +1,11 @@
+C fof(t4_scmyciel, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  ( (r2_hidden(A, E) &  (r2_hidden(C, E) & k2_tarski(A, k4_tarski(B, E))=k2_tarski(C, k4_tarski(D, E))) )  =>  (A=C & B=D) ) ) ) ) ) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(t1_scmyciel, axiom,  (! [A] :  (! [B] :  ~ (r2_hidden(k4_tarski(A, B), B)) ) ) ).
++ fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(t6_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ~ ( (k2_tarski(A, B)=k2_tarski(C, D) &  ( ~ (A=C)  &  ~ (A=D) ) ) ) ) ) ) ) ).
+- fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
+- fof(l46_zf_fund1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (k9_xtuple_0(C)=k2_tarski(A, B) <=> C=k2_tarski(k4_tarski(A, k1_funct_1(C, A)), k4_tarski(B, k1_funct_1(C, B)))) ) ) ) ) ).
+- fof(l45_zf_fund1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  ( ~ (A=B)  => k3_relat_1(k2_tarski(k4_tarski(C, A), k4_tarski(D, B)), k2_tarski(k4_tarski(A, E), k4_tarski(B, F)))=k2_tarski(k4_tarski(C, E), k4_tarski(D, F))) ) ) ) ) ) ) ).
+- fof(l43_zf_fund1, axiom,  (! [A] :  (! [B] :  (! [C] : k3_relat_1(k2_tarski(k4_tarski(A, B), k4_tarski(B, B)), k1_tarski(k4_tarski(B, C)))=k2_tarski(k4_tarski(A, C), k4_tarski(B, C))) ) ) ).
+- fof(t10_relat_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (v1_relat_1(E) =>  (E=k2_tarski(k4_tarski(A, B), k4_tarski(C, D)) =>  (k9_xtuple_0(E)=k2_tarski(A, C) & k10_xtuple_0(E)=k2_tarski(B, D)) ) ) ) ) ) ) ) ).

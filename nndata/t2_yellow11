@@ -1,0 +1,27 @@
+C fof(t2_yellow11, axiom, k6_subset_1(2, 1)=k6_domain_1(k5_numbers, 1)).
++ fof(t50_card_1, axiom, 2=k2_tarski(k1_xboole_0, 1)).
++ fof(t49_card_1, axiom, 1=k1_tarski(k1_xboole_0)).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(t17_zfmisc_1, axiom,  (! [A] :  (! [B] :  ( ~ (A=B)  => k4_xboole_0(k2_tarski(A, B), k1_tarski(B))=k1_tarski(A)) ) ) ).
++ fof(de_c2__collsp, axiom, c2__collsp=k6_domain_1(k5_numbers, 1)).
++ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
++ fof(spc0_boole, axiom, v1_xboole_0(0)).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
+- fof(l4_collsp, axiom, r2_hidden(1, k6_domain_1(k5_numbers, 1))).
+- fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
+- fof(l5_collsp, axiom, r1_tarski(k1_tarski(k4_domain_1(k5_numbers, k5_numbers, k5_numbers, 1, 1, 1)), k3_zfmisc_1(k6_domain_1(k5_numbers, 1), k6_domain_1(k5_numbers, 1), k6_domain_1(k5_numbers, 1)))).
+- fof(l6_collsp, axiom,  ~ (v1_xboole_0(k6_domain_1(k5_numbers, 1))) ).
+- fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
+- fof(l19_zf_fund1, axiom,  (! [A] :  (m2_subset_1(A, k5_numbers, k1_zf_lang) => k4_zf_fund1(k6_domain_1(k1_zf_lang, A))=k6_domain_1(k5_numbers, k3_zf_fund1(A))) ) ).
+- fof(l20_zf_fund1, axiom,  (! [A] :  (m2_subset_1(A, k5_numbers, k1_zf_lang) =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) => k4_zf_fund1(k7_domain_1(k1_zf_lang, A, B))=k7_domain_1(k5_numbers, k3_zf_fund1(A), k3_zf_fund1(B))) ) ) ) ).
+- fof(t11_calcul_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  ( ~ (r1_xxreal_0(A, k6_numbers))  => k3_finseq_1(k14_finseq_1(k4_subset_1(k5_numbers, k2_finseq_1(B), k6_domain_1(k5_numbers, k2_nat_1(B, A)))))=k2_nat_1(B, 1)) ) ) ) ) ).
+- fof(redefinition_k4_domain_1, axiom,  (! [A, B, C, D, E, F] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  ( ~ (v1_xboole_0(C))  &  (m1_subset_1(D, A) &  (m1_subset_1(E, B) & m1_subset_1(F, C)) ) ) ) )  => k4_domain_1(A, B, C, D, E, F)=k3_xtuple_0(D, E, F)) ) ).
+- fof(t69_mcart_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (r2_hidden(k3_xtuple_0(A, B, C), k3_zfmisc_1(D, E, F)) <=>  (r2_hidden(A, D) &  (r2_hidden(B, E) & r2_hidden(C, F)) ) ) ) ) ) ) ) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(l32_waybel_9, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_zfmisc_1(k6_domain_1(k5_numbers, k6_numbers)))) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k6_domain_1(k5_numbers, k6_numbers), k6_domain_1(k5_numbers, k6_numbers)))) =>  ( (A=k2_tarski(k1_xboole_0, k6_domain_1(k5_numbers, k6_numbers)) & B=k6_domain_1(k2_zfmisc_1(k5_numbers, k5_numbers), k1_domain_1(k5_numbers, k5_numbers, k6_numbers, k6_numbers)))  =>  (v3_orders_2(g1_waybel_9(k6_domain_1(k5_numbers, k6_numbers), B, A)) &  (v1_tdlat_3(g1_waybel_9(k6_domain_1(k5_numbers, k6_numbers), B, A)) &  (v8_struct_0(g1_waybel_9(k6_domain_1(k5_numbers, k6_numbers), B, A)) & v13_struct_0(g1_waybel_9(k6_domain_1(k5_numbers, k6_numbers), B, A), 1)) ) ) ) ) ) ) ) ).
+- fof(t26_zf_fund1, axiom,  (! [A] :  (m2_subset_1(A, k5_numbers, k1_zf_lang) =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (k4_zf_fund1(k6_domain_1(k1_zf_lang, A))=k6_domain_1(k5_numbers, k3_zf_fund1(A)) & k4_zf_fund1(k7_domain_1(k1_zf_lang, A, B))=k7_domain_1(k5_numbers, k3_zf_fund1(A), k3_zf_fund1(B))) ) ) ) ) ).

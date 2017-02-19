@@ -1,0 +1,17 @@
+C fof(t29_sin_cos7, axiom,  (! [A] :  (v1_xreal_0(A) =>  ~ ( ( ~ (A=k6_numbers)  & k25_sin_cos(A)=1) ) ) ) ).
++ fof(t9_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (k9_prepower(k26_sin_cos(1), A)=k25_sin_cos(A) &  (k3_power(k26_sin_cos(1), A)=k25_sin_cos(A) &  (k3_power(k8_power, A)=k25_sin_cos(A) & k9_prepower(k8_power, A)=k25_sin_cos(A)) ) ) ) ) ).
++ fof(t24_power, axiom,  (! [A] :  (v1_xreal_0(A) => k3_power(A, k6_numbers)=1) ) ).
++ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
++ fof(t12_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) => k5_power(k8_power, k25_sin_cos(A))=A) ) ).
++ fof(dt_k7_power, axiom, v1_xreal_0(k7_power)).
++ fof(redefinition_k8_power, axiom, k8_power=k7_power).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
+- fof(d23_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) => k25_sin_cos(A)=k1_seq_1(k24_sin_cos, A)) ) ).
+- fof(t55_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) =>  ~ (r1_xxreal_0(k25_sin_cos(A), k6_numbers)) ) ) ).
+- fof(l10_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_rat_1(B) => k9_prepower(k25_sin_cos(A), B)=k25_sin_cos(k3_xcmplx_0(B, A))) ) ) ) ).
+- fof(fc5_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xreal_0(k25_sin_cos(A))) ) ).
+- fof(t8_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k9_prepower(k25_sin_cos(A), B)=k25_sin_cos(k3_xcmplx_0(B, A))) ) ) ) ).
+- fof(redefinition_k26_sin_cos, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k26_sin_cos(A)=k25_sin_cos(A)) ) ).
+- fof(t6_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) => k9_prepower(k25_sin_cos(A), k13_complex1(B, C))=k25_sin_cos(k3_xcmplx_0(k13_complex1(B, C), A))) ) ) ) ) ) ).
+- fof(t4_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) => k25_sin_cos(k4_xcmplx_0(A))=k10_real_1(1, k25_sin_cos(A))) ) ).

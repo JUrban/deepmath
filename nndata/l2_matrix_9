@@ -1,0 +1,11 @@
+C fof(l2_matrix_9, axiom,  ~ (k2_finseq_4(k5_numbers, 1, 2)=k2_finseq_4(k5_numbers, 2, 1)) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t17_finseq_4, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  (k7_partfun1(A, k2_finseq_4(A, B, C), 1)=B & k7_partfun1(A, k2_finseq_4(A, B, C), 2)=C) ) ) ) ) ) ) ).
++ fof(rc5_finseq_1, axiom,  (? [A] :  (v1_relat_1(A) &  (v2_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  ( ~ (v1_xboole_0(A))  &  (v1_finset_1(A) &  (v1_finseq_1(A) & v2_finseq_1(A)) ) ) ) ) ) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(cc7_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  =>  (v1_xboole_0(B) &  (v1_relat_1(B) & v4_relat_1(B, A)) ) ) ) ) ) ).
+- fof(l24_graph_2, axiom,  ( ~ (r1_xxreal_0(k3_finseq_1(k2_finseq_4(k5_numbers, 1, 2)), 1))  &  ( ~ (1=2)  & k10_xtuple_0(k2_finseq_4(k5_numbers, 1, 2))=k2_tarski(1, 2)) ) ).
+- fof(l27_graph_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ ( (r1_xxreal_0(1, A) &  (r1_xxreal_0(k1_nat_1(A, 1), k3_finseq_1(k2_finseq_4(k5_numbers, 1, 2))) & k1_recdef_1(k2_finseq_4(k5_numbers, 1, 2), A)=k1_recdef_1(k2_finseq_4(k5_numbers, 1, 2), k1_nat_1(A, 1))) ) ) ) ) ).
+- fof(l26_graph_2, axiom, v1_graph_2(k2_finseq_4(k5_numbers, 1, 2))).
+- fof(l29_graph_2, axiom, v2_graph_2(k2_finseq_4(k5_numbers, 1, 2))).
+- fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).

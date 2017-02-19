@@ -1,0 +1,11 @@
+C fof(t82_scmpds_2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  ~ (k4_struct_0(k1_scmpds_2)=k10_ami_3(A)) ) ) ).
++ fof(t1_ami_3, axiom, k4_struct_0(k1_ami_3)=k5_numbers).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(t13_ami_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (k4_struct_0(k1_ami_3)=k10_ami_3(A))  &  ~ (k4_struct_0(k1_ami_3)=A) ) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(t2_scmpds_2, axiom, k4_struct_0(k1_scmpds_2)=k5_numbers).
+- fof(t10_ami_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (A=B)  & k10_ami_3(A)=k10_ami_3(B)) ) ) ) ) ) ).
+- fof(d11_ami_3, axiom,  (! [A] :  (v7_ordinal1(A) => k10_ami_3(A)=k4_tarski(1, A)) ) ).
+- fof(l8_fib_fusc, axiom,  ~ (k10_ami_3(k6_numbers)=k10_ami_3(2)) ).
+- fof(d12_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) <=> r2_hidden(A, k4_ordinal1)) ) ).
+- fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).

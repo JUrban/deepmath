@@ -1,0 +1,43 @@
+C fof(t88_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) => k20_seq_4(A, B, k1_binop_2(k6_complex1))=k18_seq_4(A, B)) ) ) ) ).
++ fof(cc28_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v5_relat_1(A, k2_numbers))  =>  (v1_relat_1(A) & v1_valued_0(A)) ) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
++ fof(d4_complex1, axiom, k6_complex1=1).
++ fof(redefinition_k20_seq_4, axiom,  (! [A, B, C] :  ( (m1_subset_1(A, k5_numbers) &  (m1_subset_1(B, k14_seq_4(A)) & m1_subset_1(C, k2_numbers)) )  => k20_seq_4(A, B, C)=k24_valued_1(B, C)) ) ).
++ fof(dt_k14_seq_4, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => m1_finseq_2(k14_seq_4(A), k2_numbers)) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(cc3_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) => v5_relat_1(B, A)) ) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(redefinition_k18_seq_4, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & m1_subset_1(B, k14_seq_4(A)))  => k18_seq_4(A, B)=k30_valued_1(B)) ) ).
++ fof(dt_k1_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k1_binop_2(A), k2_numbers)) ) ).
++ fof(dt_m2_finseq_2, axiom,  (! [A, B] :  (m1_finseq_2(B, A) =>  (! [C] :  (m2_finseq_2(C, A, B) => m2_finseq_1(C, A)) ) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(d6_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => k30_valued_1(A)=k24_valued_1(A, k4_xcmplx_0(1))) ) ).
++ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(redefinition_k1_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_binop_2(A)=k4_xcmplx_0(A)) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(redefinition_m2_finseq_2, axiom,  (! [A, B] :  (m1_finseq_2(B, A) =>  (! [C] :  (m2_finseq_2(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
+- fof(involutiveness_k18_seq_4, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & m1_subset_1(B, k14_seq_4(A)))  => k18_seq_4(A, k18_seq_4(A, B))=B) ) ).
+- fof(dt_k18_seq_4, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & m1_subset_1(B, k14_seq_4(A)))  => m2_finseq_2(k18_seq_4(A, B), k2_numbers, k14_seq_4(A))) ) ).
+- fof(t69_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) => k19_seq_4(A, k17_seq_4(A), B)=k18_seq_4(A, B)) ) ) ) ).
+- fof(t62_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) =>  (! [C] :  (m2_finseq_2(C, k2_numbers, k14_seq_4(A)) =>  (k15_seq_4(A, B, C)=k17_seq_4(A) =>  (B=k18_seq_4(A, C) & C=k18_seq_4(A, B)) ) ) ) ) ) ) ) ).
+- fof(t64_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) =>  (! [C] :  (m2_finseq_2(C, k2_numbers, k14_seq_4(A)) =>  (k18_seq_4(A, B)=k18_seq_4(A, C) => B=C) ) ) ) ) ) ) ).
+- fof(t86_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) => k20_seq_4(A, B, k6_complex1)=B) ) ) ) ).
+- fof(t70_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) =>  (! [C] :  (m2_finseq_2(C, k2_numbers, k14_seq_4(A)) => k19_seq_4(A, B, k18_seq_4(A, C))=k15_seq_4(A, B, C)) ) ) ) ) ) ).
+- fof(t85_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m2_finseq_2(C, k2_numbers, k14_seq_4(A)) =>  (! [D] :  (m2_finseq_2(D, k2_numbers, k14_seq_4(A)) => k20_seq_4(A, k15_seq_4(A, C, D), B)=k15_seq_4(A, k20_seq_4(A, C, B), k20_seq_4(A, D, B))) ) ) ) ) ) ) ) ).
+- fof(t83_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) =>  (! [D] :  (m2_finseq_2(D, k2_numbers, k14_seq_4(A)) => k20_seq_4(A, k20_seq_4(A, D, C), B)=k20_seq_4(A, D, k5_binop_2(B, C))) ) ) ) ) ) ) ) ).
+- fof(t84_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) =>  (! [D] :  (m2_finseq_2(D, k2_numbers, k14_seq_4(A)) => k20_seq_4(A, D, k3_binop_2(B, C))=k15_seq_4(A, k20_seq_4(A, D, B), k20_seq_4(A, D, C))) ) ) ) ) ) ) ) ).
+- fof(t87_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) => k20_seq_4(A, B, k5_complex1)=k17_seq_4(A)) ) ) ) ).
+- fof(t66_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) =>  (! [C] :  (m2_finseq_2(C, k2_numbers, k14_seq_4(A)) => k18_seq_4(A, k15_seq_4(A, B, C))=k15_seq_4(A, k18_seq_4(A, B), k18_seq_4(A, C))) ) ) ) ) ) ).
+- fof(t71_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) =>  (! [C] :  (m2_finseq_2(C, k2_numbers, k14_seq_4(A)) => k18_seq_4(A, k19_seq_4(A, B, C))=k19_seq_4(A, C, B)) ) ) ) ) ) ).
+- fof(t60_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) =>  (! [D] :  (m2_finseq_2(D, k2_numbers, k14_seq_4(B)) =>  ( (r2_hidden(A, k2_finseq_1(B)) & C=k1_funct_1(D, A))  => k1_funct_1(k18_seq_4(B, D), A)=k1_binop_2(C)) ) ) ) ) ) ) ) ) ).
+- fof(t72_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) =>  (! [C] :  (m2_finseq_2(C, k2_numbers, k14_seq_4(A)) => k18_seq_4(A, k19_seq_4(A, B, C))=k15_seq_4(A, k18_seq_4(A, B), C)) ) ) ) ) ) ).
+- fof(t82_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) =>  (! [D] :  (m1_subset_1(D, k2_numbers) =>  (! [E] :  (m2_finseq_2(E, k2_numbers, k14_seq_4(B)) =>  ( (r2_hidden(A, k2_finseq_1(B)) & C=k1_funct_1(E, A))  => k1_funct_1(k20_seq_4(B, E, D), A)=k5_binop_2(D, C)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(dt_k20_seq_4, axiom,  (! [A, B, C] :  ( (m1_subset_1(A, k5_numbers) &  (m1_subset_1(B, k14_seq_4(A)) & m1_subset_1(C, k2_numbers)) )  => m2_finseq_2(k20_seq_4(A, B, C), k2_numbers, k14_seq_4(A))) ) ).
+- fof(t76_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) =>  (! [C] :  (m2_finseq_2(C, k2_numbers, k14_seq_4(A)) =>  (! [D] :  (m2_finseq_2(D, k2_numbers, k14_seq_4(A)) => k15_seq_4(A, B, k19_seq_4(A, C, D))=k19_seq_4(A, k15_seq_4(A, B, C), D)) ) ) ) ) ) ) ) ).
+- fof(t61_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) =>  (k15_seq_4(A, B, k18_seq_4(A, B))=k17_seq_4(A) & k15_seq_4(A, k18_seq_4(A, B), B)=k17_seq_4(A)) ) ) ) ) ).
+- fof(l77_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) => k18_seq_4(A, k17_seq_4(A))=k17_seq_4(A)) ) ).
+- fof(t75_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) =>  (! [C] :  (m2_finseq_2(C, k2_numbers, k14_seq_4(A)) =>  (! [D] :  (m2_finseq_2(D, k2_numbers, k14_seq_4(A)) => k19_seq_4(A, k19_seq_4(A, B, C), D)=k19_seq_4(A, B, k15_seq_4(A, C, D))) ) ) ) ) ) ) ) ).

@@ -1,0 +1,13 @@
+C fof(t3_roughs_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_2(B) &  (v1_partfun1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A)))) )  => r1_relset_1(A, A, k6_partfun1(A), B)) ) ) ).
++ fof(dt_k6_partfun1, axiom,  (! [A] :  (v1_partfun1(k6_partfun1(A), A) & m1_subset_1(k6_partfun1(A), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
++ fof(redefinition_r1_relset_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (r1_relset_1(A, B, C, D) <=> r1_tarski(C, D)) ) ) ).
++ fof(redefinition_k6_partfun1, axiom,  (! [A] : k6_partfun1(A)=k4_relat_1(A)) ).
++ fof(l6_orders_1, axiom,  (! [A] :  (! [B] :  ( (v1_partfun1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => k1_relat_1(B)=A) ) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(t1_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (v1_relat_2(A) <=> r1_tarski(k4_relat_1(k1_relat_1(A)), A)) ) ) ).
+- fof(t23_toler_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_2(B) &  (v3_relat_2(B) &  (v1_partfun1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  => r1_relset_1(A, A, k6_partfun1(A), B)) ) ) ).
+- fof(t11_functor0, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (v2_funct_2(C, B) => r1_relset_1(B, B, k6_partfun1(B), k7_relset_1(k2_zfmisc_1(A, A), k2_zfmisc_1(B, B), k16_funct_3(A, A, B, B, C, C), k6_partfun1(A)))) ) ) ) ) ).
+- fof(t3_funct_4, axiom,  (! [A] :  (! [B] :  (r1_relset_1(A, A, k6_partfun1(A), k6_partfun1(B)) <=> r1_tarski(A, B)) ) ) ).
+- fof(d9_functor0, axiom,  (! [A] :  (l1_struct_0(A) =>  (! [B] :  (l1_struct_0(B) =>  (! [C] :  (l1_functor0(C, A, B) =>  (v7_functor0(C, A, B) <=> r1_relset_1(u1_struct_0(B), u1_struct_0(B), k6_partfun1(u1_struct_0(B)), k7_relset_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A)), k2_zfmisc_1(u1_struct_0(B), u1_struct_0(B)), u1_functor0(A, B, C), k6_partfun1(u1_struct_0(A))))) ) ) ) ) ) ) ).
+- fof(t22_yellow12, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_orders_2(A) & l1_orders_2(A)) )  => r1_relset_1(u1_struct_0(A), u1_struct_0(A), k6_partfun1(u1_struct_0(A)), k9_subset_1(k2_zfmisc_1(u1_struct_0(k7_lattice3(A)), u1_struct_0(k7_lattice3(A))), u1_orders_2(A), u1_orders_2(k7_lattice3(A))))) ) ).
+- fof(t2_roughs_1, axiom,  (! [A] :  ( (v3_orders_2(A) & l1_orders_2(A))  => r1_relset_1(u1_struct_0(A), u1_struct_0(A), k6_partfun1(u1_struct_0(A)), u1_orders_2(A))) ) ).

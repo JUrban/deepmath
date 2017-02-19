@@ -1,0 +1,27 @@
+C fof(t30_card_1, axiom,  (! [A] : k1_card_1(k1_tarski(A))=1) ).
++ fof(t29_card_1, axiom,  (! [A] :  (! [B] :  (k1_card_1(A)=k1_card_1(k1_tarski(B)) <=>  (? [C] : A=k1_tarski(C)) ) ) ) ).
++ fof(fc2_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  ( ~ (v1_xboole_0(k1_ordinal1(A)))  & v3_ordinal1(k1_ordinal1(A))) ) ) ).
++ fof(l14_ordinal3, axiom, 1=k1_ordinal1(k1_xboole_0)).
++ fof(fc2_card_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k1_card_1(A)))  & v1_card_1(k1_card_1(A))) ) ) ).
++ fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
++ fof(fc2_xboole_0, axiom,  (! [A] :  ~ (v1_xboole_0(k1_tarski(A))) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(t15_ordinal3, axiom, 1=k1_tarski(k1_xboole_0)).
++ fof(t16_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  ~ ( (r1_ordinal1(A, 1) &  ( ~ (A=k1_xboole_0)  &  ~ (A=1) ) ) ) ) ) ).
++ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
++ fof(t8_card_1, axiom,  (! [A] :  (v3_ordinal1(A) => r1_ordinal1(k1_card_1(A), A)) ) ).
++ fof(d1_ordinal1, axiom,  (! [A] : k1_ordinal1(A)=k2_xboole_0(A, k1_tarski(A))) ).
++ fof(cc3_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v3_ordinal1(A)) ) ).
+- fof(t5_card_1, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, B) <=> k1_card_1(A)=k1_card_1(B)) ) ) ).
+- fof(t28_card_1, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, k1_tarski(B)) <=>  (? [C] : A=k1_tarski(C)) ) ) ) ).
+- fof(l24_card_1, axiom,  (k3_card_1(k1_xboole_0)=k1_card_1(k4_ordinal1) &  ( (! [A] :  (v3_ordinal1(A) => k3_card_1(k1_ordinal1(A))=k2_card_1(k3_tarski(k1_tarski(k3_card_1(A))))) )  &  (! [A] :  (v3_ordinal1(A) =>  (v4_ordinal1(A) =>  (A=k1_xboole_0 |  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v5_ordinal1(B)) )  =>  ( (k9_xtuple_0(B)=A &  (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(C, A) => k1_funct_1(B, C)=k3_card_1(C)) ) ) )  => k3_card_1(A)=k1_card_1(k4_ordinal2(B))) ) ) ) ) ) ) ) ) ).
+- fof(d3_card_1, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  (B=k2_card_1(A) <=>  (r2_hidden(k1_card_1(A), B) &  (! [C] :  (v1_card_1(C) =>  (r2_hidden(k1_card_1(A), C) => r1_ordinal1(B, C)) ) ) ) ) ) ) ) ).
+- fof(dt_k2_card_1, axiom,  (! [A] : v1_card_1(k2_card_1(A))) ).
+- fof(d16_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (C=k12_ordinal2(A, B) <=>  (? [D] :  ( (v5_ordinal1(D) &  (v1_relat_1(D) &  (v1_funct_1(D) & v1_ordinal2(D)) ) )  &  (C=k1_ordinal2(D) &  (k9_xtuple_0(D)=k1_ordinal1(B) &  (k1_funct_1(D, k1_xboole_0)=1 &  ( (! [E] :  (v3_ordinal1(E) =>  (r2_hidden(k1_ordinal1(E), k1_ordinal1(B)) => k1_funct_1(D, k1_ordinal1(E))=k11_ordinal2(A, k1_funct_1(D, E))) ) )  &  (! [E] :  (v3_ordinal1(E) =>  ( (r2_hidden(E, k1_ordinal1(B)) & v4_ordinal1(E))  =>  (E=k1_xboole_0 | k1_funct_1(D, E)=k8_ordinal2(k5_relat_1(D, E))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(s14_ordinal2__e2_76__ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) =>  ( (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (C=k12_ordinal2(A, B) <=>  (? [D] :  ( (v5_ordinal1(D) &  (v1_relat_1(D) &  (v1_funct_1(D) & v1_ordinal2(D)) ) )  &  (C=k1_ordinal2(D) &  (k9_xtuple_0(D)=k1_ordinal1(B) &  (k1_funct_1(D, k1_xboole_0)=1 &  ( (! [E] :  (v3_ordinal1(E) =>  (r2_hidden(k1_ordinal1(E), k1_ordinal1(B)) => k1_funct_1(D, k1_ordinal1(E))=k11_ordinal2(A, k1_funct_1(D, E))) ) )  &  (! [E] :  (v3_ordinal1(E) =>  ( (r2_hidden(E, k1_ordinal1(B)) & v4_ordinal1(E))  =>  (E=k1_xboole_0 | k1_funct_1(D, E)=k8_ordinal2(k5_relat_1(D, E))) ) ) ) ) ) ) ) ) ) ) ) ) ) )  => k12_ordinal2(A, k1_xboole_0)=1) ) ) ).
+- fof(l47_ordinal2, axiom, 1=k1_ordinal1(k1_xboole_0)).
+- fof(d2_card_1, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  (B=k1_card_1(A) <=> r2_wellord2(A, B)) ) ) ) ).
+- fof(t27_card_1, axiom, k1_card_1(k1_xboole_0)=k1_xboole_0).
+- fof(t16_card_1, axiom,  (! [A] :  (! [B] :  (k1_card_1(A)=k1_card_1(B) => k2_card_1(A)=k2_card_1(B)) ) ) ).
+- fof(projectivity_k1_card_1, axiom,  (! [A] : k1_card_1(k1_card_1(A))=k1_card_1(A)) ).
+- fof(fc1_card_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (v1_xboole_0(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).

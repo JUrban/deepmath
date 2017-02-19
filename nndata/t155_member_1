@@ -1,0 +1,15 @@
+C fof(t155_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) =>  (! [C] :  (v1_xreal_0(C) =>  (r1_tarski(k18_member_1(A, C), k18_member_1(B, C)) => r1_tarski(A, B)) ) ) ) ) ) ) ).
++ fof(cc1_xxreal_0, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => v1_xxreal_0(A)) ) ).
++ fof(d8_membered, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(t12_xxreal_3, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (k3_xxreal_3(A, B)=k3_xxreal_3(A, C) => B=C) ) ) ) ) ) ) ).
++ fof(t154_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  ~ ( (r2_hidden(C, k18_member_1(A, B)) &  (! [D] :  (m1_subset_1(D, k7_numbers) =>  ~ ( (C=k3_xxreal_3(B, D) & r2_hidden(D, A)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t152_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(B, A) => r2_hidden(k3_xxreal_3(C, B), k18_member_1(A, C))) ) ) ) ) ) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
+- fof(t153_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v1_xxreal_0(B) => k18_member_1(A, B)=a_2_10_member_1(A, B)) ) ) ) ).
+- fof(d15_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v1_xxreal_0(B) => k18_member_1(A, B)=k10_member_1(k1_tarski(B), A)) ) ) ) ).
+- fof(fraenkel_a_2_10_member_1, axiom,  (! [A, B, C] :  ( (v2_membered(B) & v1_xxreal_0(C))  =>  (r2_hidden(A, a_2_10_member_1(B, C)) <=>  (? [D] :  (m1_subset_1(D, k7_numbers) &  (A=k3_xxreal_3(C, D) & r2_hidden(D, B)) ) ) ) ) ) ).
+- fof(fc72_member_1, axiom,  (! [A, B] :  ( ( ( ~ (v1_xboole_0(A))  & v2_membered(A))  & v1_xxreal_0(B))  =>  ~ (v1_xboole_0(k18_member_1(A, B))) ) ) ).
+- fof(fc73_member_1, axiom,  (! [A, B] :  ( (v2_membered(A) & v1_xxreal_0(B))  => v2_membered(k18_member_1(A, B))) ) ).
+- fof(fc71_member_1, axiom,  (! [A, B] :  ( (v1_xboole_0(A) & v1_xxreal_0(B))  => v1_xboole_0(k18_member_1(A, B))) ) ).
+- fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).

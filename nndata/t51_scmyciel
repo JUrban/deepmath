@@ -1,0 +1,25 @@
+C fof(t51_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k3_tarski(A)) &  (r2_hidden(C, k3_tarski(A)) & r2_hidden(k2_tarski(B, C), A)) )  =>  (v4_scmyciel(k2_enumset1(k1_xboole_0, k1_tarski(B), k1_tarski(C), k2_tarski(B, C))) &  (v5_scmyciel(k2_enumset1(k1_xboole_0, k1_tarski(B), k1_tarski(C), k2_tarski(B, C))) & m1_subset_1(k2_enumset1(k1_xboole_0, k1_tarski(B), k1_tarski(C), k2_tarski(B, C)), k1_zfmisc_1(A))) ) ) ) ) ) ) ).
++ fof(dt_k5_scmyciel, axiom,  (! [A] : m1_scmyciel(k5_scmyciel(A), A)) ).
++ fof(t20_scmyciel, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes1(A))  => r2_hidden(k1_xboole_0, A)) ) ).
++ fof(d2_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (E=k2_enumset1(A, B, C, D) <=>  (! [F] :  (r2_hidden(F, E) <=>  ~ ( ( ~ (F=A)  &  ( ~ (F=B)  &  ( ~ (F=C)  &  ~ (F=D) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t24_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (r2_hidden(B, k3_tarski(A)) <=> r2_hidden(k1_tarski(B), A)) ) ) ) ).
++ fof(t37_scmyciel, axiom,  (! [A] :  (! [B] : k5_scmyciel(k2_tarski(A, B))=k2_enumset1(k1_xboole_0, k1_tarski(A), k1_tarski(B), k2_tarski(A, B))) ) ).
++ fof(cc4_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v3_scmyciel(A, 1)) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(fc14_scmyciel, axiom,  (! [A] : v5_scmyciel(k5_scmyciel(A))) ).
++ fof(dt_m1_scmyciel, axiom,  (! [A] :  (! [B] :  (m1_scmyciel(B, A) => v4_scmyciel(B)) ) ) ).
+- fof(d13_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (v5_scmyciel(A) <=> A=k5_scmyciel(k3_tarski(A))) ) ) ).
+- fof(t47_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  ( (! [B] :  (! [C] :  ( (r2_hidden(B, k3_tarski(A)) & r2_hidden(C, k3_tarski(A)))  =>  (B=C | r2_hidden(k2_tarski(B, C), k1_scmyciel(A))) ) ) )  => v5_scmyciel(A)) ) ) ).
+- fof(t36_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, A) =>  (! [E] :  (m1_subset_1(E, A) =>  ( ~ (A=k1_xboole_0)  => m1_subset_1(k2_enumset1(B, C, D, E), k1_zfmisc_1(A))) ) ) ) ) ) ) ) ) ) ).
+- fof(l8_nat_5, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v7_ordinal1(D) =>  (v1_finset_1(k2_enumset1(A, B, C, D)) & m1_subset_1(k2_enumset1(A, B, C, D), k1_zfmisc_1(k5_numbers))) ) ) ) ) ) ) ) ) ).
+- fof(l54_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k3_tarski(A)) & r2_hidden(C, k3_tarski(A)))  =>  (B=C |  (r2_hidden(k2_tarski(B, C), k1_scmyciel(A)) <=>  ~ (r2_hidden(k2_tarski(B, C), k1_scmyciel(k6_subset_1(k5_scmyciel(k3_tarski(A)), k1_scmyciel(A))))) ) ) ) ) ) ) ) ).
+- fof(t50_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (r2_hidden(B, k3_tarski(A)) =>  (v4_scmyciel(k2_tarski(k1_xboole_0, k1_tarski(B))) &  (v5_scmyciel(k2_tarski(k1_xboole_0, k1_tarski(B))) & m1_subset_1(k2_tarski(k1_xboole_0, k1_tarski(B)), k1_zfmisc_1(A))) ) ) ) ) ) ).
+- fof(t32_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  ( (! [B] :  (! [C] :  ( (r2_hidden(B, k3_tarski(A)) & r2_hidden(C, k3_tarski(A)))  => r2_hidden(k2_tarski(B, C), A)) ) )  => A=k5_scmyciel(k3_tarski(A))) ) ) ).
+- fof(d1_zfmisc_1, axiom,  (! [A] :  (! [B] :  (B=k1_zfmisc_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=> r1_tarski(C, A)) ) ) ) ) ).
+- fof(rc10_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) &  ( ~ (v1_xboole_0(B))  &  (v5_finset_1(B) &  (v2_finsub_1(B) &  ( ~ (v1_setfam_1(B))  &  (v1_classes1(B) &  (v3_scmyciel(B, 1) &  (v4_scmyciel(B) & v5_scmyciel(B)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(rc9_scmyciel, axiom,  (? [A] :  ( ~ (v1_xboole_0(A))  &  (v5_finset_1(A) &  (v2_finsub_1(A) &  ( ~ (v1_setfam_1(A))  &  (v1_classes1(A) &  (v3_scmyciel(A, 1) &  (v4_scmyciel(A) & v5_scmyciel(A)) ) ) ) ) ) ) ) ).
+- fof(d11_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => k6_scmyciel(A)=k6_subset_1(k5_scmyciel(k3_tarski(A)), k1_scmyciel(A))) ) ).
+- fof(t5_nat_5, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (v1_finset_1(k2_tarski(A, B)) & m1_subset_1(k2_tarski(A, B), k1_zfmisc_1(k5_numbers))) ) ) ) ) ).

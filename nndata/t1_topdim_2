@@ -1,0 +1,13 @@
+C fof(t1_topdim_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(B))) =>  (r1_xxreal_0(k1_topdim_2(B, C), A) => v1_topdim_2(C, B)) ) ) ) ) ) ).
++ fof(fc2_xreal_0, axiom,  ~ (v1_xreal_0(k1_xxreal_0)) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
++ fof(d2_topdim_2, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (v1_topdim_2(B, A) =>  (C=k1_topdim_2(A, B) <=>  ( (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k1_zfmisc_1(A))) =>  ( (r2_hidden(k1_xxreal_3(C, 1), k1_card_1(D)) & r1_tarski(D, B))  => v1_xboole_0(k6_setfam_1(A, D))) ) )  &  (? [D] :  (m1_subset_1(D, k1_zfmisc_1(k1_zfmisc_1(A))) &  (r1_tarski(D, B) &  (k1_card_1(D)=k1_xxreal_3(C, 1) &  ~ ( (v1_xboole_0(k6_setfam_1(A, D)) &  ~ (v1_xboole_0(D)) ) ) ) ) ) ) ) ) )  &  ( ~ (v1_topdim_2(B, A))  =>  (C=k1_topdim_2(A, B) <=> C=k1_xxreal_0) ) ) ) ) ) ) ) ).
++ fof(t4_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (r1_xxreal_0(k1_xxreal_0, A) => A=k1_xxreal_0) ) ) ).
++ fof(fc1_xxreal_0, axiom, v1_xxreal_0(k1_xxreal_0)).
+- fof(fc1_topdim_2, axiom,  (! [A, B] :  ( (v1_topdim_2(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))))  =>  (v7_ordinal1(k1_xxreal_3(k1_topdim_2(A, B), 1)) & v1_xxreal_0(k1_xxreal_3(k1_topdim_2(A, B), 1))) ) ) ).
+- fof(fc2_topdim_2, axiom,  (! [A, B] :  ( (v1_topdim_2(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))))  =>  (v1_xxreal_0(k1_topdim_2(A, B)) & v1_int_1(k1_topdim_2(A, B))) ) ) ).
+- fof(dt_k1_topdim_2, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => v1_xxreal_0(k1_topdim_2(A, B))) ) ).
+- fof(d1_topdim_2, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (v1_topdim_2(B, A) <=>  (? [C] :  (v7_ordinal1(C) &  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k1_zfmisc_1(A))) =>  ( (r1_tarski(D, B) & r2_hidden(C, k1_card_1(D)))  => v1_xboole_0(k6_setfam_1(A, D))) ) ) ) ) ) ) ) ) ).
+- fof(cc1_topdim_2, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (v1_finset_1(B) => v1_topdim_2(B, A)) ) ) ) ).
+- fof(rc1_topdim_2, axiom,  (! [A] :  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) & v1_topdim_2(B, A)) ) ) ).

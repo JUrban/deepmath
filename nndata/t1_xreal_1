@@ -1,0 +1,13 @@
+C fof(t1_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ~ ( (! [B] :  (v1_xreal_0(B) => r1_xxreal_0(B, A)) ) ) ) ) ).
++ fof(fc5_xreal_0, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => v1_xreal_0(k2_xcmplx_0(A, B))) ) ).
++ fof(l9_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  & r1_xxreal_0(k2_xcmplx_0(B, A), B)) ) ) ) ) ) ).
++ fof(rc2_xreal_0, axiom,  (? [A] :  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) &  (v2_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
++ fof(d6_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (v2_xxreal_0(A) <=>  ~ (r1_xxreal_0(A, k6_numbers)) ) ) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(t4_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( (r1_xxreal_0(A, B) &  ( ~ (v2_xxreal_0(B))  & v2_xxreal_0(A)) ) ) ) ) ) ) ).
+- fof(l5_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, A))  => A=B) ) ) ) ) ).
+- fof(t1_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( (r1_xxreal_0(A, B) & v2_xxreal_0(A))  => v2_xxreal_0(B)) ) ) ) ) ).
+- fof(l3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ~ ( ( ~ ( (r2_hidden(A, k2_arytm_2) &  (r2_hidden(B, k2_arytm_2) &  (? [C] :  (m1_subset_1(C, k2_arytm_2) &  (? [D] :  (m1_subset_1(D, k2_arytm_2) &  (A=C &  (B=D & r1_arytm_2(C, D)) ) ) ) ) ) ) ) )  &  ( ~ ( (r2_hidden(A, k2_zfmisc_1(k1_tarski(k6_numbers), k2_arytm_2)) &  (r2_hidden(B, k2_zfmisc_1(k1_tarski(k6_numbers), k2_arytm_2)) &  (? [C] :  (m1_subset_1(C, k2_arytm_2) &  (? [D] :  (m1_subset_1(D, k2_arytm_2) &  (A=k4_tarski(k6_numbers, C) &  (B=k4_tarski(k6_numbers, D) & r1_arytm_2(D, C)) ) ) ) ) ) ) ) )  &  ~ ( (r2_hidden(B, k2_arytm_2) & r2_hidden(A, k2_zfmisc_1(k1_tarski(k6_numbers), k2_arytm_2))) ) ) ) )  => r1_xxreal_0(A, B)) ) ) ) ) ).
+- fof(t7_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(A, B))  &  ( ~ (v2_xxreal_0(A))  &  ~ (v3_xxreal_0(B)) ) ) ) ) ) ) ) ).
+- fof(t2_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( (r1_xxreal_0(A, B) & v3_xxreal_0(B))  => v3_xxreal_0(A)) ) ) ) ) ).
+- fof(l7_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, C))  => r1_xxreal_0(A, C)) ) ) ) ) ) ) ).

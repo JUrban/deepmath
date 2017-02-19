@@ -1,0 +1,11 @@
+C fof(t50_jgraph_6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  ~ ( ( ~ (r1_xxreal_0(B, A))  &  ( ~ (r1_xxreal_0(D, C))  &  ~ (v1_topreal2(k1_sppol_2(A, B, C, D))) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t55_sppol_2, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  ~ ( ( ~ (A=B)  &  ( ~ (C=D)  &  ~ (v1_topreal4(k1_sppol_2(A, B, C, D))) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(dt_k1_sppol_2, axiom,  (! [A, B, C, D] :  ( (v1_xreal_0(A) &  (v1_xreal_0(B) &  (v1_xreal_0(C) & v1_xreal_0(D)) ) )  => m1_subset_1(k1_sppol_2(A, B, C, D), k1_zfmisc_1(u1_struct_0(k15_euclid(2))))) ) ).
++ fof(t5_topreal4, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))) =>  (v1_topreal4(A) => v1_topreal2(A)) ) ) ).
+- fof(t37_jgraph_6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(C, D))  => k7_pscomp_1(k1_sppol_2(A, B, C, D))=D) ) ) ) ) ) ) ) ) ).
+- fof(t36_jgraph_6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(C, D))  => k6_pscomp_1(k1_sppol_2(A, B, C, D))=A) ) ) ) ) ) ) ) ) ).
+- fof(t39_jgraph_6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(C, D))  => k9_pscomp_1(k1_sppol_2(A, B, C, D))=C) ) ) ) ) ) ) ) ) ).
+- fof(t38_jgraph_6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(C, D))  => k8_pscomp_1(k1_sppol_2(A, B, C, D))=B) ) ) ) ) ) ) ) ) ).
+- fof(t54_sppol_2, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(C, D))  => k1_sppol_2(A, B, C, D)=a_4_0_sppol_2(A, B, C, D)) ) ) ) ) ) ) ) ) ).

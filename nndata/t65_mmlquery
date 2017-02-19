@@ -1,0 +1,25 @@
+C fof(t65_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k26_mmlquery(A, k2_finseq_4(k1_zfmisc_1(A), B, C), 1)=k16_mmlquery(A, B, C)) ) ) ) ) ).
++ fof(t63_mmlquery, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, k9_setfam_1(A)) => k26_mmlquery(A, B, 1)=k5_prob_3(A, B)) ) ) ).
++ fof(redefinition_k16_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k16_mmlquery(A, B, C)=k2_xboole_0(B, C)) ) ).
++ fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
++ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
++ fof(t127_finseq_2, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k10_finseq_1(A, B))=k2_tarski(A, B)) ) ).
++ fof(dt_k2_finseq_4, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => m2_finseq_1(k2_finseq_4(A, B, C), A)) ) ).
++ fof(redefinition_k2_finseq_4, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k2_finseq_4(A, B, C)=k10_finseq_1(B, C)) ) ).
++ fof(t75_zfmisc_1, axiom,  (! [A] :  (! [B] : k3_tarski(k2_tarski(A, B))=k2_xboole_0(A, B)) ) ).
++ fof(d4_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => k3_card_3(A)=k3_tarski(k10_xtuple_0(A))) ) ).
++ fof(redefinition_k5_prob_3, axiom,  (! [A, B] :  (m1_finseq_1(B, k9_setfam_1(A)) => k5_prob_3(A, B)=k3_card_3(B)) ) ).
++ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
+- fof(t64_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k26_mmlquery(A, k2_finseq_4(k1_zfmisc_1(A), B, C), 2)=k15_mmlquery(A, B, C)) ) ) ) ) ).
+- fof(t62_mmlquery, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, k9_setfam_1(A)) =>  ( ~ (B=k1_xboole_0)  => k26_mmlquery(A, B, k3_finseq_1(B))=k6_setfam_1(A, k2_relset_1(k9_setfam_1(A), B))) ) ) ) ).
+- fof(d24_mmlquery, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, k9_setfam_1(A)) =>  (! [C] :  (v7_ordinal1(C) =>  ( ~ (A=k1_xboole_0)  => k26_mmlquery(A, B, C)=a_3_3_mmlquery(A, B, C)) ) ) ) ) ) ).
+- fof(idempotence_k16_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k16_mmlquery(A, B, B)=B) ) ).
+- fof(commutativity_k16_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k16_mmlquery(A, B, C)=k16_mmlquery(A, C, B)) ) ).
+- fof(t32_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, A))) => k1_mmlquery(A, k20_mmlquery(A, C, D), B)=k16_mmlquery(A, k1_mmlquery(A, C, B), k1_mmlquery(A, D, B))) ) ) ) ) ) ) ).
+- fof(t58_mmlquery, axiom,  (! [A] :  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (m2_finseq_1(C, k9_setfam_1(A)) => k27_mmlquery(A, C, B, k3_finseq_1(C))=k26_mmlquery(A, C, B)) ) ) ) ) ).
+- fof(t24_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  ~ ( ( ~ (B=k1_xboole_0)  &  ( ~ (C=k1_xboole_0)  &  ~ (k3_mmlquery(A, D, k16_mmlquery(A, B, C))=k15_mmlquery(A, k3_mmlquery(A, D, B), k3_mmlquery(A, D, C))) ) ) ) ) ) ) ) ) ) ) ).
+- fof(fraenkel_a_4_16_mmlquery, axiom,  (! [A, B, C, D, E] :  ( (m1_subset_1(C, k1_zfmisc_1(B)) &  (m1_subset_1(D, k1_zfmisc_1(B)) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(B, B)))) )  =>  (r2_hidden(A, a_4_16_mmlquery(B, C, D, E)) <=>  (? [F] :  (m1_subset_1(F, B) &  (A=k1_mmlquery(B, E, F) & r2_hidden(F, k16_mmlquery(B, C, D))) ) ) ) ) ) ).
+- fof(dt_k16_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k16_mmlquery(A, B, C), k1_zfmisc_1(A))) ) ).
+- fof(dt_k26_mmlquery, axiom,  (! [A, B, C] :  ( (m1_finseq_1(B, k9_setfam_1(A)) & v7_ordinal1(C))  => m1_subset_1(k26_mmlquery(A, B, C), k1_zfmisc_1(A))) ) ).
+- fof(t61_mmlquery, axiom,  (! [A] :  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (m2_finseq_1(D, k9_setfam_1(A)) => r1_tarski(k27_mmlquery(A, D, B, C), k26_mmlquery(A, D, B))) ) ) ) ) ) ) ).

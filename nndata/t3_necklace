@@ -1,0 +1,5 @@
+C fof(t3_necklace, axiom,  (! [A] :  (! [B] :  (v7_ordinal1(B) =>  (r2_hidden(A, B) => v7_ordinal1(A)) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(cc1_stirl2_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
+- fof(l15_mesfunc3, axiom,  (! [A] :  (m2_finseq_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  (! [C] :  (m1_subset_1(C, k7_numbers) =>  ( (C=k3_finseq_1(A) &  (! [D] :  (v7_ordinal1(D) =>  (r2_hidden(D, k4_finseq_1(A)) => k12_supinf_2(A, D)=B) ) ) )  => k4_extreal1(A)=k1_extreal1(C, B)) ) ) ) ) ) ) ).
+- fof(s2_finseq_1__e10_90__mesfunc5, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  &  (m2_subset_1(C, k1_zfmisc_1(A), B) &  (v1_prob_2(D) & m2_finseq_1(D, B)) ) ) )  =>  (? [E] :  ( (v1_relat_1(E) &  (v1_funct_1(E) & v1_finseq_1(E)) )  &  (k3_finseq_1(E)=k3_finseq_1(D) &  (! [F] :  (v7_ordinal1(F) =>  (r2_hidden(F, k4_finseq_1(E)) => k1_funct_1(E, F)=k9_subset_1(A, k1_funct_1(D, F), C)) ) ) ) ) ) ) ) ).

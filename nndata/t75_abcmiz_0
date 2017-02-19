@@ -1,0 +1,9 @@
+C fof(t75_abcmiz_0, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  ( (v4_rewrite1(B) & v2_rewrite1(B))  =>  (! [C] :  (m1_subset_1(C, A) => r2_hidden(k2_rewrite1(B, C), A)) ) ) ) ) ) ) ).
++ fof(t74_abcmiz_0, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (r1_rewrite1(B, C, D) => r2_hidden(D, A)) ) ) ) ) ) ) ) ).
++ fof(d6_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r4_rewrite1(A, B, C) <=>  (r3_rewrite1(A, C) & r1_rewrite1(A, B, C)) ) ) ) ) ) ).
++ fof(t54_rewrite1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v2_rewrite1(A) & v4_rewrite1(A)) )  =>  (! [B] : r4_rewrite1(A, B, k2_rewrite1(A, B))) ) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
+- fof(t55_rewrite1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v2_rewrite1(A) & v4_rewrite1(A)) )  =>  (! [B] :  (! [C] :  (r2_rewrite1(A, B, C) => k2_rewrite1(A, B)=k2_rewrite1(A, C)) ) ) ) ) ).
+- fof(d12_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  ( (r9_rewrite1(A, B) &  (! [C] :  (! [D] :  ( (r4_rewrite1(A, B, C) & r4_rewrite1(A, B, D))  => C=D) ) ) )  =>  (! [C] :  (C=k2_rewrite1(A, B) <=> r4_rewrite1(A, B, C)) ) ) ) ) ) ).
+- fof(d19_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v4_rewrite1(A) <=>  (! [B] :  (! [C] :  ( (r3_rewrite1(A, B) &  (r3_rewrite1(A, C) & r2_rewrite1(A, B, C)) )  => B=C) ) ) ) ) ) ).
+- fof(d14_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v2_rewrite1(A) <=>  (! [B] :  (r2_hidden(B, k1_relat_1(A)) => r9_rewrite1(A, B)) ) ) ) ) ).

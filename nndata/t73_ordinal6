@@ -1,0 +1,11 @@
+C fof(t73_ordinal6, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (! [D] :  (v3_ordinal1(D) =>  (r2_hidden(k12_ordinal6(A, B), k12_ordinal6(C, D)) <=>  ~ ( ( ~ ( (A=C & r2_hidden(B, D)) )  &  ( ~ ( (r2_hidden(A, C) & r2_hidden(B, k12_ordinal6(C, D))) )  &  ~ ( (r2_hidden(C, A) & r2_hidden(k12_ordinal6(A, B), D)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t70_ordinal6, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(A, B) => k12_ordinal6(A, k12_ordinal6(B, C))=k12_ordinal6(B, C)) ) ) ) ) ) ) ).
++ fof(t14_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  ~ ( ( ~ (r2_hidden(A, B))  &  ( ~ (A=B)  &  ~ (r2_hidden(B, A)) ) ) ) ) ) ) ) ).
++ fof(dt_k12_ordinal6, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  => v3_ordinal1(k12_ordinal6(A, B))) ) ).
++ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
++ fof(t72_ordinal6, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(A, B) <=> r2_hidden(k12_ordinal6(C, A), k12_ordinal6(C, B))) ) ) ) ) ) ) ).
+- fof(t71_ordinal6, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (r1_ordinal1(A, B) <=> r1_ordinal1(k12_ordinal6(C, A), k12_ordinal6(C, B))) ) ) ) ) ) ) ).
+- fof(t4_ordinal6, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r1_ordinal1(A, B) <=>  ~ (r2_hidden(B, A)) ) ) ) ) ) ).
+- fof(d16_ordinal6, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) => k12_ordinal6(A, B)=k1_funct_1(k1_funct_1(k11_ordinal6(k1_classes1(k2_xboole_0(k2_xboole_0(A, B), k4_ordinal1))), A), B)) ) ) ) ).
+- fof(t67_ordinal6, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  ( ( ~ (v1_xboole_0(C))  & v1_classes2(C))  =>  ( (r2_hidden(k4_ordinal1, C) &  (r2_hidden(A, C) & r2_hidden(B, C)) )  => k12_ordinal6(B, A)=k1_funct_1(k1_funct_1(k11_ordinal6(C), B), A)) ) ) ) ) ) ) ).
+- fof(redefinition_k13_ordinal6, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v3_ordinal1(B))  => k13_ordinal6(A, B)=k12_ordinal6(A, B)) ) ).

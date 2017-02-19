@@ -1,0 +1,15 @@
+C fof(t7_msualg_8, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k2_msualg_5(A)))) => r1_tarski(k3_tarski(B), k15_lattice3(k2_msualg_5(A), B))) ) ) ).
++ fof(dt_k15_lattice3, axiom,  (! [A, B] :  ( ( ~ (v2_struct_0(A))  & l3_lattices(A))  => m1_subset_1(k15_lattice3(A, B), u1_struct_0(A))) ) ).
++ fof(dt_k2_msualg_5, axiom,  (! [A] :  ( ~ (v2_struct_0(k2_msualg_5(A)))  &  (v3_lattices(k2_msualg_5(A)) &  (v10_lattices(k2_msualg_5(A)) & l3_lattices(k2_msualg_5(A))) ) ) ) ).
++ fof(fc2_msualg_8, axiom,  (! [A] :  ( ~ (v2_struct_0(k2_msualg_5(A)))  &  (v3_lattices(k2_msualg_5(A)) &  (v10_lattices(k2_msualg_5(A)) & v4_lattice3(k2_msualg_5(A))) ) ) ) ).
++ fof(t5_lattice5, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, u1_struct_0(k2_msualg_5(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k2_msualg_5(A))) =>  (r3_lattices(k2_msualg_5(A), B, C) <=> r1_tarski(B, C)) ) ) ) ) ) ).
++ fof(t76_zfmisc_1, axiom,  (! [A] :  (! [B] :  ( (! [C] :  (r2_hidden(C, A) => r1_tarski(C, B)) )  => r1_tarski(k3_tarski(A), B)) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(t38_lattice3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v4_lattice3(A) & l3_lattices(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (r2_hidden(B, C) =>  (r3_lattices(A, B, k15_lattice3(A, C)) & r3_lattices(A, k16_lattice3(A, C), B)) ) ) ) ) ) ) ).
+- fof(t21_msualg_5, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, u1_struct_0(k2_msualg_5(B))) <=>  (v1_partfun1(A, B) &  (v3_relat_2(A) &  (v8_relat_2(A) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(B, B)))) ) ) ) ) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(d4_tarski, axiom,  (! [A] :  (! [B] :  (B=k3_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(C, D) & r2_hidden(D, A)) ) ) ) ) ) ) ).
+- fof(t6_msualg_8, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k2_msualg_5(A)))) => m1_subset_1(k3_tarski(B), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ) ).
+- fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
+- fof(d2_msualg_5, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v3_lattices(B) &  (v10_lattices(B) & l3_lattices(B)) ) )  =>  (B=k2_msualg_5(A) <=>  (u1_struct_0(B)=a_1_0_msualg_5(A) &  (! [C] :  ( (v1_partfun1(C, A) &  (v3_relat_2(C) &  (v8_relat_2(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  =>  (! [D] :  ( (v1_partfun1(D, A) &  (v3_relat_2(D) &  (v8_relat_2(D) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  =>  (k1_binop_1(u1_lattices(B), C, D)=k4_eqrel_1(A, C, D) & k1_binop_1(u2_lattices(B), C, D)=k5_eqrel_1(A, C, D)) ) ) ) ) ) ) ) ) ) ).
+- fof(redefinition_r1_relset_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (r1_relset_1(A, B, C, D) <=> r1_tarski(C, D)) ) ) ).

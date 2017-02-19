@@ -1,0 +1,17 @@
+C fof(t3_euclid_5, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(3))) => A=k4_euclid_5(k1_euclid_5(A), k2_euclid_5(A), k3_euclid_5(A))) ) ).
++ fof(dt_k2_euclid_5, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(3))) => m1_subset_1(k2_euclid_5(A), k1_numbers)) ) ).
++ fof(dt_k1_euclid_5, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(3))) => m1_subset_1(k1_euclid_5(A), k1_numbers)) ) ).
++ fof(redefinition_k4_euclid_5, axiom,  (! [A, B, C] :  ( (v1_xreal_0(A) &  (v1_xreal_0(B) & v1_xreal_0(C)) )  => k4_euclid_5(A, B, C)=k11_finseq_1(A, B, C)) ) ).
++ fof(redefinition_k3_finseq_4, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) & m1_subset_1(D, A)) ) )  => k3_finseq_4(A, B, C, D)=k11_finseq_1(B, C, D)) ) ).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(t2_euclid_5, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (k1_euclid_5(k4_euclid_5(A, B, C))=A &  (k2_euclid_5(k4_euclid_5(A, B, C))=B & k3_euclid_5(k4_euclid_5(A, B, C))=C) ) ) ) ) ) ) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(t1_euclid_5, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(3))) =>  (? [B] :  (m1_subset_1(B, k1_numbers) &  (? [C] :  (m1_subset_1(C, k1_numbers) &  (? [D] :  (m1_subset_1(D, k1_numbers) & A=k3_finseq_4(k1_numbers, B, C, D)) ) ) ) ) ) ) ) ).
+- fof(d2_euclid_5, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(3))) => k2_euclid_5(A)=k1_seq_1(A, 2)) ) ).
+- fof(d1_euclid_5, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(3))) => k1_euclid_5(A)=k1_seq_1(A, 1)) ) ).
+- fof(d3_euclid_5, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(3))) => k3_euclid_5(A)=k1_seq_1(A, 3)) ) ).
+- fof(dt_k3_euclid_5, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(3))) => m1_subset_1(k3_euclid_5(A), k1_numbers)) ) ).
+- fof(dt_k4_euclid_5, axiom,  (! [A, B, C] :  ( (v1_xreal_0(A) &  (v1_xreal_0(B) & v1_xreal_0(C)) )  => m1_subset_1(k4_euclid_5(A, B, C), u1_struct_0(k15_euclid(3)))) ) ).
+- fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
+- fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
+- fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).

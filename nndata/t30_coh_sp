@@ -1,0 +1,9 @@
+C fof(t30_coh_sp, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r2_hidden(k1_eqrel_1(A), k15_coh_sp(B))) ) ) ).
++ fof(d1_eqrel_1, axiom,  (! [A] : k1_eqrel_1(A)=k2_zfmisc_1(A, A)) ).
++ fof(t4_eqrel_1, axiom,  (! [A] :  (v3_relat_2(k1_eqrel_1(A)) &  (v8_relat_2(k1_eqrel_1(A)) &  (v1_partfun1(k1_eqrel_1(A), A) & m1_subset_1(k1_eqrel_1(A), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ) ) ).
++ fof(fc1_eqrel_1, axiom,  (! [A] :  (v1_relat_2(k1_eqrel_1(A)) & v1_partfun1(k1_eqrel_1(A), A)) ) ).
++ fof(t27_coh_sp, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, k15_coh_sp(B)) <=>  (? [C] :  (r1_tarski(C, B) &  (v1_partfun1(A, C) &  (v1_relat_2(A) &  (v3_relat_2(A) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(C, C)))) ) ) ) ) ) ) ) ).
+- fof(t29_coh_sp, axiom,  (! [A] : r2_hidden(k1_xboole_0, k15_coh_sp(A))) ).
+- fof(d17_coh_sp, axiom,  (! [A] : k15_coh_sp(A)=k3_tarski(a_1_3_coh_sp(A))) ).
+- fof(t87_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(A, B), k2_zfmisc_1(C, D)) <=>  (r2_hidden(A, C) & r2_hidden(B, D)) ) ) ) ) ) ).
+- fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).

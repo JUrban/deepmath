@@ -1,0 +1,9 @@
+C fof(t26_conlat_1, axiom,  (! [A] :  ( ( ~ (v1_conlat_1(A))  & l1_conlat_1(A))  =>  (! [B] :  ( (v6_conlat_1(B, A) & l2_conlat_1(B, A))  =>  ~ ( ( ( ~ (v5_conlat_1(B, A))  &  (v7_conlat_1(B, A) & l2_conlat_1(B, A)) )  &  ( ~ (v8_conlat_1(B, A))  &  ~ (v9_conlat_1(B, A)) ) ) ) ) ) ) ) ).
++ fof(dt_l1_conlat_1, axiom,  (! [A] :  (l1_conlat_1(A) => l5_struct_0(A)) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t24_conlat_1, axiom,  (! [A] :  ( ( ~ (v1_conlat_1(A))  & l1_conlat_1(A))  =>  (! [B] :  ( ( ~ (v5_conlat_1(B, A))  &  (v7_conlat_1(B, A) & l2_conlat_1(B, A)) )  =>  ( (u2_conlat_1(A, B)=k1_xboole_0 => v9_conlat_1(B, A))  &  (u3_conlat_1(A, B)=k1_xboole_0 => v8_conlat_1(B, A)) ) ) ) ) ) ).
++ fof(d9_conlat_1, axiom,  (! [A] :  (l5_struct_0(A) =>  (! [B] :  (l2_conlat_1(B, A) =>  (v6_conlat_1(B, A) <=>  (v1_xboole_0(u2_conlat_1(A, B)) | v1_xboole_0(u3_conlat_1(A, B))) ) ) ) ) ) ).
+- fof(dt_k6_conlat_1, axiom,  (! [A] :  ( ( ~ (v1_conlat_1(A))  & l1_conlat_1(A))  =>  (v4_conlat_1(k6_conlat_1(A), A) &  ( ~ (v5_conlat_1(k6_conlat_1(A), A))  &  (v7_conlat_1(k6_conlat_1(A), A) &  (v9_conlat_1(k6_conlat_1(A), A) & l2_conlat_1(k6_conlat_1(A), A)) ) ) ) ) ) ).
+- fof(dt_k5_conlat_1, axiom,  (! [A] :  ( ( ~ (v1_conlat_1(A))  & l1_conlat_1(A))  =>  (v4_conlat_1(k5_conlat_1(A), A) &  ( ~ (v5_conlat_1(k5_conlat_1(A), A))  &  (v7_conlat_1(k5_conlat_1(A), A) &  (v8_conlat_1(k5_conlat_1(A), A) & l2_conlat_1(k5_conlat_1(A), A)) ) ) ) ) ) ).
+- fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
+- fof(d12_conlat_1, axiom,  (! [A] :  ( ( ~ (v1_conlat_1(A))  & l1_conlat_1(A))  =>  (! [B] :  (l2_conlat_1(B, A) =>  (v9_conlat_1(B, A) <=> u3_conlat_1(A, B)=u4_struct_0(A)) ) ) ) ) ).

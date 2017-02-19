@@ -1,0 +1,5 @@
+C fof(t13_fib_num2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_finseq_1(A)) )  => r1_tarski(k10_xtuple_0(k15_finseq_1(A)), k10_xtuple_0(A))) ) ).
++ fof(l14_pnproc_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_finseq_1(A)) )  => k10_xtuple_0(A)=k10_xtuple_0(k15_finseq_1(A))) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(d14_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_finseq_1(A)) )  => k15_finseq_1(A)=k3_relat_1(k14_finseq_1(k9_xtuple_0(A)), A)) ) ).
+- fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).

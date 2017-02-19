@@ -1,0 +1,9 @@
+C fof(t20_armstrng, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k9_setfam_1(A), k9_setfam_1(A)))) => v1_finset_1(B)) ) ) ) ).
++ fof(fc17_finset_1, axiom,  (! [A] :  (v1_finset_1(A) => v1_finset_1(k1_zfmisc_1(A))) ) ).
++ fof(cc2_finset_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_finset_1(B)) ) ) ) ).
++ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
++ fof(fc14_finset_1, axiom,  (! [A, B] :  ( (v1_finset_1(A) & v1_finset_1(B))  => v1_finset_1(k2_zfmisc_1(A, B))) ) ).
+- fof(t8_knaster, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k9_setfam_1(A), k9_setfam_1(A)) &  (v6_cohsp_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k9_setfam_1(A), k9_setfam_1(A))))) ) )  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (r2_abian(k9_setfam_1(A), C, B) =>  (r1_tarski(k1_knaster(A, B), C) & r1_tarski(C, k2_knaster(A, B))) ) ) ) ) ) ) ).
+- fof(dt_k2_knaster, axiom,  (! [A, B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k9_setfam_1(A), k9_setfam_1(A)) &  (v6_cohsp_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k9_setfam_1(A), k9_setfam_1(A))))) ) )  => m1_subset_1(k2_knaster(A, B), k1_zfmisc_1(A))) ) ).
+- fof(d2_knaster, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k9_setfam_1(A), k9_setfam_1(A)) &  (v6_cohsp_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k9_setfam_1(A), k9_setfam_1(A))))) ) )  => k1_knaster(A, B)=k1_setfam_1(a_2_0_knaster(A, B))) ) ) ).
+- fof(dt_k1_knaster, axiom,  (! [A, B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k9_setfam_1(A), k9_setfam_1(A)) &  (v6_cohsp_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k9_setfam_1(A), k9_setfam_1(A))))) ) )  => m1_subset_1(k1_knaster(A, B), k1_zfmisc_1(A))) ) ).

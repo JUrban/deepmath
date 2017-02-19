@@ -1,0 +1,11 @@
+C fof(t49_scmyciel, axiom,  (! [A] : v5_scmyciel(k5_scmyciel(A))) ).
++ fof(d13_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (v5_scmyciel(A) <=> A=k5_scmyciel(k3_tarski(A))) ) ) ).
++ fof(dt_m1_scmyciel, axiom,  (! [A] :  (! [B] :  (m1_scmyciel(B, A) => v4_scmyciel(B)) ) ) ).
++ fof(d10_scmyciel, axiom,  (! [A] : k5_scmyciel(A)=a_1_3_scmyciel(A)) ).
++ fof(l23_scmyciel, axiom,  (! [A] : k3_tarski(a_1_3_scmyciel(A))=A) ).
++ fof(dt_k5_scmyciel, axiom,  (! [A] : m1_scmyciel(k5_scmyciel(A), A)) ).
+- fof(t47_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  ( (! [B] :  (! [C] :  ( (r2_hidden(B, k3_tarski(A)) & r2_hidden(C, k3_tarski(A)))  =>  (B=C | r2_hidden(k2_tarski(B, C), k1_scmyciel(A))) ) ) )  => v5_scmyciel(A)) ) ) ).
+- fof(fraenkel_a_1_3_scmyciel, axiom,  (! [A, B] :  (r2_hidden(A, a_1_3_scmyciel(B)) <=>  (? [C] :  ( (v1_finset_1(C) & m1_subset_1(C, k1_zfmisc_1(B)))  &  (A=C & r1_xxreal_0(k5_card_1(C), 2)) ) ) ) ) ).
+- fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
+- fof(t32_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  ( (! [B] :  (! [C] :  ( (r2_hidden(B, k3_tarski(A)) & r2_hidden(C, k3_tarski(A)))  => r2_hidden(k2_tarski(B, C), A)) ) )  => A=k5_scmyciel(k3_tarski(A))) ) ) ).
+- fof(t34_scmyciel, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(B, A) & r2_hidden(C, A))  => r2_hidden(k2_tarski(B, C), k5_scmyciel(A))) ) ) ) ).

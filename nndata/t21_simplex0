@@ -1,0 +1,21 @@
+C fof(t21_simplex0, axiom,  (! [A] :  (l1_pre_topc(A) =>  (v1_matroid0(A) => g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))=k5_simplex0(u1_struct_0(A), u1_pre_topc(A))) ) ) ).
++ fof(dt_g1_pre_topc, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (v1_pre_topc(g1_pre_topc(A, B)) & l1_pre_topc(g1_pre_topc(A, B))) ) ) ).
++ fof(d1_matroid0, axiom,  (! [A] :  (l1_pre_topc(A) => k1_matroid0(A)=u1_pre_topc(A)) ) ).
++ fof(dt_k2_simplex0, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (v1_classes1(k2_simplex0(A, B)) & m1_subset_1(k2_simplex0(A, B), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ).
++ fof(fc1_matroid0, axiom,  (! [A] :  ( (v1_matroid0(A) & l1_pre_topc(A))  => v1_classes1(k1_matroid0(A))) ) ).
++ fof(dt_u1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => m1_subset_1(u1_pre_topc(A), k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A))))) ) ).
++ fof(abstractness_v1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (v1_pre_topc(A) => A=g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))) ) ) ).
++ fof(t7_simplex0, axiom,  (! [A] :  (v1_classes1(A) => k1_simplex0(A)=A) ) ).
++ fof(free_g1_pre_topc, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (! [C, D] :  (g1_pre_topc(A, B)=g1_pre_topc(C, D) =>  (A=C & B=D) ) ) ) ) ).
++ fof(redefinition_k2_simplex0, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => k2_simplex0(A, B)=k1_simplex0(B)) ) ).
++ fof(d11_simplex0, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => k5_simplex0(A, B)=g1_pre_topc(A, k2_simplex0(A, B))) ) ) ).
+- fof(fc14_simplex0, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (v1_pre_topc(k5_simplex0(A, B)) &  (v1_matroid0(k5_simplex0(A, B)) & v6_simplex0(k5_simplex0(A, B), A)) ) ) ) ).
+- fof(fc16_simplex0, axiom,  (! [A, B] :  ( (v5_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))))  =>  (v1_pre_topc(k5_simplex0(A, B)) & v3_matroid0(k5_simplex0(A, B))) ) ) ).
+- fof(dt_k5_simplex0, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (v1_pre_topc(k5_simplex0(A, B)) & m1_simplex0(k5_simplex0(A, B), A)) ) ) ).
+- fof(fc15_simplex0, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))))  =>  (v1_pre_topc(k5_simplex0(A, B)) &  ~ (v5_simplex0(k5_simplex0(A, B))) ) ) ) ).
+- fof(fc17_simplex0, axiom,  (! [A, B] :  ( (v1_finset_1(B) &  (v5_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) )  =>  (v1_pre_topc(k5_simplex0(A, B)) & v2_simplex0(k5_simplex0(A, B))) ) ) ).
+- fof(t82_tops_3, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  ( (v2_pre_topc(B) & l1_pre_topc(B))  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(B))) =>  ( (r1_tarski(D, C) &  (g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))=g1_pre_topc(u1_struct_0(B), u1_pre_topc(B)) & v2_tops_1(C, A)) )  => v2_tops_1(D, B)) ) ) ) ) ) ) ) ) ).
+- fof(t3_tsp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (l1_pre_topc(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(B))) =>  ( (g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))=g1_pre_topc(u1_struct_0(B), u1_pre_topc(B)) &  (C=D & v1_tsp_1(C, A)) )  => v1_tsp_1(D, B)) ) ) ) ) ) ) ) ) ).
+- fof(d2_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v3_pre_topc(B, A) <=> r2_hidden(B, u1_pre_topc(A))) ) ) ) ) ).
+- fof(fc6_pre_topc, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (v1_pre_topc(g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))) & v2_pre_topc(g1_pre_topc(u1_struct_0(A), u1_pre_topc(A)))) ) ) ).
+- fof(t28_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (v2_pre_topc(g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))) => v2_pre_topc(A)) ) ) ).

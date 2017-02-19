@@ -1,0 +1,15 @@
+C fof(l15_zf_fund1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => A=k3_zf_fund1(k2_zf_lang(k5_card_1(A)))) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(t57_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => k5_card_1(k2_finseq_1(A))=A) ) ).
++ fof(d1_zf_lang, axiom, k1_zf_lang=a_0_0_zf_lang).
++ fof(d3_zf_fund1, axiom,  (! [A] :  (m2_subset_1(A, k5_numbers, k1_zf_lang) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (B=k3_zf_fund1(A) <=> k2_zf_lang(B)=A) ) ) ) ) ).
++ fof(t55_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => k5_card_1(k2_finseq_1(A))=k5_card_1(A)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(dt_k2_zf_lang, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => m2_subset_1(k2_zf_lang(A), k5_numbers, k1_zf_lang)) ) ).
+- fof(d2_zf_fund1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k4_ordinal1, k1_zf_lang) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k4_ordinal1, k1_zf_lang)))) )  =>  (A=k2_zf_fund1 <=>  (! [B] :  (m1_subset_1(B, k4_ordinal1) => k3_funct_2(k4_ordinal1, k1_zf_lang, A, B)=k2_zf_lang(k5_card_1(B))) ) ) ) ) ).
+- fof(dt_k3_zf_fund1, axiom,  (! [A] :  (m1_subset_1(A, k1_zf_lang) => m1_subset_1(k3_zf_fund1(A), k5_numbers)) ) ).
+- fof(fraenkel_a_0_1_arytm_3, axiom,  (! [A] :  (r2_hidden(A, a_0_1_arytm_3) <=>  (? [B] :  (m1_subset_1(B, k4_ordinal1) & A=k4_tarski(B, 1)) ) ) ) ).
+- fof(fraenkel_a_0_0_arytm_3, axiom,  (! [A] :  (r2_hidden(A, a_0_0_arytm_3) <=>  (? [B, C] :  ( (m1_subset_1(B, k4_ordinal1) & m1_subset_1(C, k4_ordinal1))  &  (A=k4_tarski(B, C) &  (r1_arytm_3(B, C) &  ~ (C=k1_xboole_0) ) ) ) ) ) ) ).
+- fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
+- fof(cc6_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) => v3_ordinal1(A)) ) ).
+- fof(d11_ordinal1, axiom,  (! [A] :  (A=k4_ordinal1 <=>  (r2_hidden(k1_xboole_0, A) &  (v4_ordinal1(A) &  (v3_ordinal1(A) &  (! [B] :  (v3_ordinal1(B) =>  ( (r2_hidden(k1_xboole_0, B) & v4_ordinal1(B))  => r1_tarski(A, B)) ) ) ) ) ) ) ) ).

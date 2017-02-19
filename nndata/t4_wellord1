@@ -1,0 +1,15 @@
+C fof(t4_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (r2_wellord1(A, k1_relat_1(A)) <=> v2_wellord1(A)) ) ) ).
++ fof(d9_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (v1_relat_2(A) <=> r1_relat_2(A, k1_relat_1(A))) ) ) ).
++ fof(d12_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (v4_relat_2(A) <=> r4_relat_2(A, k1_relat_1(A))) ) ) ).
++ fof(d5_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r2_wellord1(A, B) <=>  (r1_relat_2(A, B) &  (r8_relat_2(A, B) &  (r4_relat_2(A, B) &  (r6_relat_2(A, B) & r1_wellord1(A, B)) ) ) ) ) ) ) ) ).
++ fof(d16_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (v8_relat_2(A) <=> r8_relat_2(A, k1_relat_1(A))) ) ) ).
++ fof(t3_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v1_wellord1(A) <=> r1_wellord1(A, k1_relat_1(A))) ) ) ).
++ fof(d4_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v2_wellord1(A) <=>  (v1_relat_2(A) &  (v8_relat_2(A) &  (v4_relat_2(A) &  (v6_relat_2(A) & v1_wellord1(A)) ) ) ) ) ) ) ).
++ fof(d14_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (v6_relat_2(A) <=> r6_relat_2(A, k1_relat_1(A))) ) ) ).
+- fof(cc2_wellord1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_relat_2(A) &  (v4_relat_2(A) &  (v6_relat_2(A) &  (v8_relat_2(A) & v1_wellord1(A)) ) ) ) )  =>  (v1_relat_1(A) & v2_wellord1(A)) ) ) ).
+- fof(cc1_wellord1, axiom,  (! [A] :  ( (v1_relat_1(A) & v2_wellord1(A))  =>  (v1_relat_1(A) &  (v1_relat_2(A) &  (v4_relat_2(A) &  (v6_relat_2(A) &  (v8_relat_2(A) & v1_wellord1(A)) ) ) ) ) ) ) ).
+- fof(d6_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => k1_relat_1(A)=k2_xboole_0(k9_xtuple_0(A), k10_xtuple_0(A))) ) ).
+- fof(d2_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v1_wellord1(A) <=>  (! [B] :  ~ ( (r1_tarski(B, k1_relat_1(A)) &  ( ~ (B=k1_xboole_0)  &  (! [C] :  ~ ( (r2_hidden(C, B) & r1_xboole_0(k1_wellord1(A, C), B)) ) ) ) ) ) ) ) ) ) ).
+- fof(d1_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r1_relat_2(A, B) <=>  (! [C] :  (r2_hidden(C, B) => r2_hidden(k4_tarski(C, C), A)) ) ) ) ) ) ).
+- fof(t15_relat_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) =>  (r2_hidden(k4_tarski(A, B), C) =>  (r2_hidden(A, k1_relat_1(C)) & r2_hidden(B, k1_relat_1(C))) ) ) ) ) ) ).
+- fof(t16_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(A, B) => r1_tarski(k1_relat_1(A), k1_relat_1(B))) ) ) ) ) ).

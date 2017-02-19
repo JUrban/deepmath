@@ -1,0 +1,23 @@
+C fof(t3_mesfunc1, axiom, r2_tarski(k5_numbers, k4_numbers)).
++ fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(dt_k1_mesfunc1, axiom, m1_subset_1(k1_mesfunc1, k1_zfmisc_1(k1_numbers))).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(symmetry_r2_wellord2, axiom,  (! [A, B] :  (r2_wellord2(A, B) => r2_wellord2(B, A)) ) ).
++ fof(t1_mesfunc1, axiom, r2_tarski(k5_numbers, k1_mesfunc1)).
++ fof(t2_mesfunc1, axiom, k4_numbers=k4_subset_1(k1_numbers, k1_mesfunc1, k5_numbers)).
++ fof(fc7_card_1, axiom,  ~ (v1_finset_1(k4_ordinal1)) ).
++ fof(redefinition_r2_wellord2, axiom,  (! [A, B] :  (r2_wellord2(A, B) <=> r2_tarski(A, B)) ) ).
++ fof(t77_card_2, axiom,  (! [A] :  (! [B] :  ~ ( ( ~ (v1_finset_1(A))  &  ( (r2_wellord2(A, B) | r2_wellord2(B, A))  &  ~ ( (r2_wellord2(k2_xboole_0(A, B), A) & k1_card_1(k2_xboole_0(A, B))=k1_card_1(A)) ) ) ) ) ) ) ).
+- fof(t56_trees_1, axiom, r2_tarski(k5_numbers, k8_trees_1)).
+- fof(d6_tarski, axiom,  (! [A] :  (! [B] :  (r2_tarski(A, B) <=>  (? [C] :  ( (! [D] :  ~ ( (r2_hidden(D, A) &  (! [E] :  ~ ( (r2_hidden(E, B) & r2_hidden(k4_tarski(D, E), C)) ) ) ) ) )  &  ( (! [D] :  ~ ( (r2_hidden(D, B) &  (! [E] :  ~ ( (r2_hidden(E, A) & r2_hidden(k4_tarski(E, D), C)) ) ) ) ) )  &  (! [D] :  (! [E] :  (! [F] :  (! [G] :  ( (r2_hidden(k4_tarski(D, E), C) & r2_hidden(k4_tarski(F, G), C))  =>  (D=F <=> E=G) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t36_classes2, axiom,  (! [A] :  (! [B] :  ~ ( (v2_classes1(A) &  (r1_tarski(B, k4_classes1(k1_card_1(A))) &  ( ~ (r2_tarski(B, k4_classes1(k1_card_1(A))))  &  ~ (r2_hidden(B, k4_classes1(k1_card_1(A)))) ) ) ) ) ) ) ).
+- fof(d2_classes1, axiom,  (! [A] :  (v2_classes1(A) <=>  (v1_classes1(A) &  ( (! [B] :  (r2_hidden(B, A) => r2_hidden(k9_setfam_1(B), A)) )  &  (! [B] :  ~ ( (r1_tarski(B, A) &  ( ~ (r2_tarski(B, A))  &  ~ (r2_hidden(B, A)) ) ) ) ) ) ) ) ) ).
+- fof(t3_tarski, axiom,  (! [A] :  (? [B] :  (r2_hidden(A, B) &  ( (! [C] :  (! [D] :  ( (r2_hidden(C, B) & r1_tarski(D, C))  => r2_hidden(D, B)) ) )  &  ( (! [C] :  ~ ( (r2_hidden(C, B) &  (! [D] :  ~ ( (r2_hidden(D, B) &  (! [E] :  (r1_tarski(E, C) => r2_hidden(E, D)) ) ) ) ) ) ) )  &  (! [C] :  ~ ( (r1_tarski(C, B) &  ( ~ (r2_tarski(C, B))  &  ~ (r2_hidden(C, B)) ) ) ) ) ) ) ) ) ) ).
+- fof(t5_card_1, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, B) <=> k1_card_1(A)=k1_card_1(B)) ) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(d1_zfmisc_1, axiom,  (! [A] :  (! [B] :  (B=k1_zfmisc_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=> r1_tarski(C, A)) ) ) ) ) ).
+- fof(fc1_classes2, axiom,  (! [A] : v2_classes1(k1_classes1(A))) ).
+- fof(t27_valued_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, k5_numbers) & v1_funct_1(B)) )  => r2_tarski(k1_relset_1(k5_numbers, B), k1_relset_1(k5_numbers, k61_valued_1(B, A)))) ) ) ) ).
+- fof(t37_trees_2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v1_trees_1(B))  =>  (! [C] :  (m2_finseq_1(C, k5_numbers) =>  (r2_hidden(C, A) =>  (! [D] :  (m1_trees_1(D, k5_trees_1(A, C, B)) =>  (! [E] :  (m1_trees_1(E, B) =>  (r2_relset_1(k5_numbers, k5_numbers, D, k8_finseq_1(k5_numbers, C, E)) => r2_tarski(k1_trees_2(k5_trees_1(A, C, B), D), k1_trees_2(B, E))) ) ) ) ) ) ) ) ) ) ) ) ).

@@ -1,0 +1,11 @@
+C fof(t50_funct_6, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => k9_funct_6(k1_xboole_0, A)=k7_funcop_1(k9_xtuple_0(A), k1_tarski(k1_xboole_0))) ) ).
++ fof(d9_funct_6, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (C=k9_funct_6(A, B) <=>  (k9_xtuple_0(C)=k9_xtuple_0(B) &  (! [D] :  (r2_hidden(D, k9_xtuple_0(B)) => k1_funct_1(C, D)=k1_funct_2(A, k1_funct_1(B, D))) ) ) ) ) ) ) ) ) ).
++ fof(t11_funcop_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) => k1_funct_1(A, C)=B) )  => A=k2_funcop_1(k9_xtuple_0(A), B)) ) ) ) ).
++ fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
++ fof(dt_k9_funct_6, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (v1_relat_1(k9_funct_6(A, B)) & v1_funct_1(k9_funct_6(A, B))) ) ) ).
++ fof(t57_funct_5, axiom,  (! [A] : k1_funct_2(k1_xboole_0, A)=k1_tarski(k1_xboole_0)) ).
+- fof(t46_funct_6, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  ( ~ (r2_hidden(k1_xboole_0, k10_xtuple_0(A)))  => k8_funct_6(A, k1_xboole_0)=k7_funcop_1(k9_xtuple_0(A), k1_xboole_0)) ) ) ).
+- fof(t80_funcop_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_funct_1(A)) )  => A=k7_funcop_1(k9_xtuple_0(A), k3_funct_1(A))) ) ).
+- fof(d2_funcop_1, axiom,  (! [A] :  (! [B] : k2_funcop_1(A, B)=k2_zfmisc_1(A, k1_tarski(B))) ) ).
+- fof(s1_classes1__e4_61__funct_6, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  ( (! [C] :  ~ ( (r2_hidden(C, k4_card_3(k9_funct_6(A, B))) &  (! [D] :  ~ ( (? [E] :  ( (v1_relat_1(E) & v1_funct_1(E))  &  (C=E & D=k6_funct_6(E)) ) ) ) ) ) ) )  =>  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  &  (k9_xtuple_0(C)=k4_card_3(k9_funct_6(A, B)) &  (! [D] :  (r2_hidden(D, k4_card_3(k9_funct_6(A, B))) =>  (? [F] :  ( (v1_relat_1(F) & v1_funct_1(F))  &  (D=F & k1_funct_1(C, D)=k6_funct_6(F)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(l63_funct_6, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  ~ ( ( ~ (B=k1_xboole_0)  &  ( ~ (A=k1_xboole_0)  &  ~ (r2_wellord2(k4_card_3(k9_funct_6(A, B)), k1_funct_2(A, k4_card_3(B)))) ) ) ) ) ) ) ).

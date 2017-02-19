@@ -1,0 +1,7 @@
+C fof(t36_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  (! [B] :  (v2_cgames_1(B) =>  (r2_hidden(A, k8_cgames_1(B)) => r1_tarski(k10_cgames_1(A), k11_cgames_1(B))) ) ) ) ) ).
++ fof(t33_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) => r1_tarski(k8_cgames_1(A), k11_cgames_1(A))) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(t35_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  (! [B] :  (v2_cgames_1(B) =>  (r2_hidden(A, k11_cgames_1(B)) => r1_tarski(k10_cgames_1(A), k11_cgames_1(B))) ) ) ) ) ).
+- fof(d13_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) => k11_cgames_1(A)=k6_subset_1(k10_cgames_1(A), k1_tarski(A))) ) ).
+- fof(t32_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  (! [B] :  (v2_cgames_1(B) =>  (r2_hidden(A, k10_cgames_1(B)) => r1_tarski(k11_cgames_1(A), k11_cgames_1(B))) ) ) ) ) ).
+- fof(t30_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  (! [B] :  ( (r2_hidden(A, B) &  (! [C] :  (v2_cgames_1(C) =>  (r2_hidden(C, B) => r1_tarski(k8_cgames_1(C), B)) ) ) )  => r1_tarski(k10_cgames_1(A), B)) ) ) ) ).

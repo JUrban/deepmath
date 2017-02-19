@@ -1,0 +1,11 @@
+C fof(t25_card_fil, axiom, v4_card_fil(k4_ordinal1)).
++ fof(fc7_card_1, axiom,  ~ (v1_finset_1(k4_ordinal1)) ).
++ fof(fc5_card_1, axiom, v2_card_1(k4_ordinal1)).
++ fof(t30_card_5, axiom,  (! [A] :  ( ( ~ (v1_finset_1(A))  & v1_card_1(A))  =>  (v1_card_5(k4_ordinal1) & v1_card_5(k2_card_1(A))) ) ) ).
++ fof(d13_card_fil, axiom,  (! [A] :  ( ( ~ (v1_finset_1(A))  & v1_card_1(A))  =>  (v4_card_fil(A) <=>  (v1_card_5(A) & v2_card_1(A)) ) ) ) ).
++ fof(fc4_card_1, axiom, v1_card_1(k4_ordinal1)).
+- fof(cc2_card_fil, axiom,  (! [A] :  ( ( ~ (v1_finset_1(A))  &  (v1_card_1(A) & v4_card_fil(A)) )  =>  ( ~ (v1_finset_1(A))  &  (v1_card_1(A) &  (v2_card_1(A) & v1_card_5(A)) ) ) ) ) ).
+- fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
+- fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
+- fof(fraenkel_a_0_0_arytm_3, axiom,  (! [A] :  (r2_hidden(A, a_0_0_arytm_3) <=>  (? [B, C] :  ( (m1_subset_1(B, k4_ordinal1) & m1_subset_1(C, k4_ordinal1))  &  (A=k4_tarski(B, C) &  (r1_arytm_3(B, C) &  ~ (C=k1_xboole_0) ) ) ) ) ) ) ).
+- fof(t7_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(A, k2_xboole_0(A, B))) ) ).

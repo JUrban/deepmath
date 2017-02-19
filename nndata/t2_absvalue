@@ -1,0 +1,11 @@
+C fof(t2_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  (A=k6_numbers <=> k18_complex1(A)=k6_numbers) ) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
++ fof(t1_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  (k18_complex1(A)=A | k18_complex1(A)=k4_xcmplx_0(A)) ) ) ).
++ fof(involutiveness_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => k4_xcmplx_0(k4_xcmplx_0(A))=A) ) ).
++ fof(t134_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (k4_xcmplx_0(A)=k6_numbers => A=k6_numbers) ) ) ).
+- fof(redefinition_k18_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k18_complex1(A)=k16_complex1(A)) ) ).
+- fof(projectivity_k18_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k18_complex1(k18_complex1(A))=k18_complex1(A)) ) ).
+- fof(d1_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( (r1_xxreal_0(k6_numbers, A) => k16_complex1(A)=A)  &  ( ~ (r1_xxreal_0(k6_numbers, A))  => k16_complex1(A)=k4_xcmplx_0(A)) ) ) ) ).
+- fof(t79_complex1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => r1_xxreal_0(k18_complex1(A), k6_square_1(k2_xcmplx_0(k3_square_1(A), k3_square_1(B))))) ) ) ) ).
+- fof(t78_complex1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => r1_xxreal_0(k6_square_1(k2_xcmplx_0(k3_square_1(A), k3_square_1(B))), k7_real_1(k18_complex1(A), k18_complex1(B)))) ) ) ) ).

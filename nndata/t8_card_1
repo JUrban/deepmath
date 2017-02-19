@@ -1,0 +1,7 @@
+C fof(t8_card_1, axiom,  (! [A] :  (v3_ordinal1(A) => r1_ordinal1(k1_card_1(A), A)) ) ).
++ fof(d2_card_1, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  (B=k1_card_1(A) <=> r2_wellord2(A, B)) ) ) ) ).
++ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
++ fof(d1_card_1, axiom,  (! [A] :  (v1_card_1(A) <=>  (? [B] :  (v3_ordinal1(B) &  (A=B &  (! [C] :  (v3_ordinal1(C) =>  (r2_wellord2(C, B) => r1_ordinal1(B, C)) ) ) ) ) ) ) ) ).
+- fof(t7_card_1, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  (r1_tarski(A, B) => r1_ordinal1(k1_card_1(A), B)) ) ) ) ).
+- fof(t15_wellord2, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_wellord2(A, B) & r2_wellord2(B, C))  => r2_wellord2(A, C)) ) ) ) ).
+- fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).

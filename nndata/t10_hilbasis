@@ -1,0 +1,7 @@
+C fof(t10_hilbasis, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  (k2_hilbasis(A, B)=k2_hilbasis(A, C) => B=C) ) ) ) ) ) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
++ fof(t8_hilbasis, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) => k1_polynom2(A, k2_hilbasis(A, B))=k6_domain_1(A, B)) ) ) ) ).
+- fof(d2_hilbasis, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, A) => k2_hilbasis(A, B)=k2_funct_7(k16_pre_poly(A), B, 1)) ) ) ).
+- fof(t9_hilbasis, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (k1_recdef_1(k2_hilbasis(A, B), B)=1 &  (! [C] :  (m1_subset_1(C, A) =>  ( ~ (B=C)  => k1_recdef_1(k2_hilbasis(A, B), C)=k6_numbers) ) ) ) ) ) ) ) ).
+- fof(dt_k2_hilbasis, axiom,  (! [A, B] :  (m1_subset_1(B, A) => m2_subset_1(k2_hilbasis(A, B), k14_pre_poly(A), k15_pre_poly(A))) ) ).

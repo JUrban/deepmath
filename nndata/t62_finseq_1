@@ -1,0 +1,15 @@
+C fof(t62_finseq_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k13_finseq_1(A), k13_finseq_1(B))) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
++ fof(d11_finseq_1, axiom,  (! [A] :  (! [B] :  (B=k13_finseq_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=> m2_finseq_1(C, A)) ) ) ) ) ).
++ fof(d4_finseq_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (m1_finseq_1(B, A) <=> r1_tarski(k10_xtuple_0(B), A)) ) ) ) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
+- fof(t49_finseq_1, axiom,  (! [A] : r2_hidden(k1_xboole_0, k13_finseq_1(A))) ).
+- fof(fc12_finseq_1, axiom,  (! [A] :  ~ (v1_xboole_0(k13_finseq_1(A))) ) ).
+- fof(dt_k6_finseq_1, axiom,  (! [A] : m2_finseq_1(k6_finseq_1(A), A)) ).
+- fof(d6_finseq_1, axiom,  (! [A] : k6_finseq_1(A)=k1_xboole_0) ).
+- fof(d2_classes1, axiom,  (! [A] :  (v2_classes1(A) <=>  (v1_classes1(A) &  ( (! [B] :  (r2_hidden(B, A) => r2_hidden(k9_setfam_1(B), A)) )  &  (! [B] :  ~ ( (r1_tarski(B, A) &  ( ~ (r2_tarski(B, A))  &  ~ (r2_hidden(B, A)) ) ) ) ) ) ) ) ) ).
+- fof(t6_finset_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  ~ ( ( ~ (B=k1_xboole_0)  &  (! [C] :  ~ ( (r2_hidden(C, B) &  (! [D] :  ( (r2_hidden(D, B) & r1_tarski(C, D))  => D=C) ) ) ) ) ) ) ) ) ) ) ).
+- fof(l69_card_2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  ( (! [B] :  (v1_finset_1(B) =>  ( (k5_card_1(B)=A &  (! [C] :  (! [D] :  ~ ( (r2_hidden(C, B) &  (r2_hidden(D, B) &  ( ~ (r1_tarski(C, D))  &  ~ (r1_tarski(D, C)) ) ) ) ) ) ) )  =>  (B=k1_xboole_0 | r2_hidden(k3_tarski(B), B)) ) ) )  =>  (! [B] :  (v1_finset_1(B) =>  ( (k5_card_1(B)=k2_nat_1(A, 1) &  (! [C] :  (! [D] :  ~ ( (r2_hidden(C, B) &  (r2_hidden(D, B) &  ( ~ (r1_tarski(C, D))  &  ~ (r1_tarski(D, C)) ) ) ) ) ) ) )  =>  (B=k1_xboole_0 | r2_hidden(k3_tarski(B), B)) ) ) ) ) ) ) ).

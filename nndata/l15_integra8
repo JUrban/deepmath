@@ -1,0 +1,23 @@
+C fof(l15_integra8, axiom,  ~ (r1_xxreal_0(k21_sin_cos(k10_real_1(k32_sin_cos, 4)), k6_numbers)) ).
++ fof(redefinition_k32_sin_cos, axiom, k32_sin_cos=k31_sin_cos).
++ fof(t29_sincos10, axiom,  (k1_seq_1(k16_sin_cos, k10_real_1(k32_sin_cos, 4))=k10_real_1(1, k7_square_1(2)) & k1_seq_1(k19_sin_cos, k10_real_1(k32_sin_cos, 4))=k10_real_1(1, k7_square_1(2))) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(l25_sin_cos9, axiom, r2_hidden(k10_real_1(k32_sin_cos, 4), k2_rcomp_1(k6_numbers, k32_sin_cos))).
++ fof(dt_k5_sin_cos9, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k5_sin_cos9(A), k1_numbers)) ) ).
++ fof(redefinition_k21_sin_cos, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k21_sin_cos(A)=k20_sin_cos(A)) ) ).
++ fof(d19_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) => k20_sin_cos(A)=k1_seq_1(k19_sin_cos, A)) ) ).
++ fof(t7_comptrig, axiom,  (! [A] :  (v1_xreal_0(A) =>  ~ ( (r2_hidden(A, k2_rcomp_1(k6_numbers, k32_sin_cos)) & r1_xxreal_0(k1_seq_1(k16_sin_cos, A), k6_numbers)) ) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t39_sin_cos9, axiom,  (k5_sin_cos9(1)=k10_real_1(k32_sin_cos, 4) & k1_seq_1(k1_sin_cos9, 1)=k10_real_1(k32_sin_cos, 4)) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
+- fof(t12_integra8, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (r1_xxreal_0(k6_numbers, k21_sin_cos(k10_real_1(A, 2))) => k21_sin_cos(k10_real_1(A, 2))=k7_square_1(k10_real_1(k7_real_1(1, k21_sin_cos(A)), 2))) ) ) ).
+- fof(t77_sin_cos, axiom,  (k21_sin_cos(k10_real_1(k32_sin_cos, 2))=k6_numbers &  (k18_sin_cos(k10_real_1(k32_sin_cos, 2))=1 &  (k21_sin_cos(k32_sin_cos)=k1_real_1(1) &  (k18_sin_cos(k32_sin_cos)=k6_numbers &  (k21_sin_cos(k7_real_1(k32_sin_cos, k10_real_1(k32_sin_cos, 2)))=k6_numbers &  (k18_sin_cos(k7_real_1(k32_sin_cos, k10_real_1(k32_sin_cos, 2)))=k1_real_1(1) &  (k21_sin_cos(k8_real_1(2, k32_sin_cos))=1 & k18_sin_cos(k8_real_1(2, k32_sin_cos))=k6_numbers) ) ) ) ) ) ) ).
+- fof(t55_comptrig, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ( ~ (B=k6_numbers)  => k1_newton(k2_xcmplx_0(k21_sin_cos(k10_real_1(k7_real_1(A, k8_real_1(k8_real_1(2, k32_sin_cos), C)), B)), k3_xcmplx_0(k18_sin_cos(k10_real_1(k7_real_1(A, k8_real_1(k8_real_1(2, k32_sin_cos), C)), B)), k7_complex1)), B)=k2_xcmplx_0(k21_sin_cos(A), k3_xcmplx_0(k18_sin_cos(A), k7_complex1))) ) ) ) ) ) ) ).
+- fof(t56_comptrig, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ( ~ (B=k6_numbers)  => A=k1_newton(k2_xcmplx_0(k8_real_1(k2_power(B, k17_complex1(A)), k21_sin_cos(k10_real_1(k7_real_1(k1_comptrig(A), k8_real_1(k8_real_1(2, k32_sin_cos), C)), B))), k3_xcmplx_0(k8_real_1(k2_power(B, k17_complex1(A)), k18_sin_cos(k10_real_1(k7_real_1(k1_comptrig(A), k8_real_1(k8_real_1(2, k32_sin_cos), C)), B))), k7_complex1)), B)) ) ) ) ) ) ) ).
+- fof(t57_comptrig, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v7_ordinal1(B))  =>  (! [C] :  (v7_ordinal1(C) => m1_comptrig(k2_xcmplx_0(k8_real_1(k2_power(B, k17_complex1(A)), k21_sin_cos(k10_real_1(k7_real_1(k1_comptrig(A), k8_real_1(k8_real_1(2, k32_sin_cos), C)), B))), k3_xcmplx_0(k8_real_1(k2_power(B, k17_complex1(A)), k18_sin_cos(k10_real_1(k7_real_1(k1_comptrig(A), k8_real_1(k8_real_1(2, k32_sin_cos), C)), B))), k7_complex1)), A, B)) ) ) ) ) ) ).
+- fof(t49_comptrig, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  ~ ( ( ~ (r1_xxreal_0(k3_complex1(A), k6_numbers))  & r1_xxreal_0(k21_sin_cos(k1_comptrig(A)), k6_numbers)) ) ) ) ).
+- fof(t52_comptrig, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (r1_xxreal_0(k3_complex1(A), k6_numbers) =>  (A=k6_numbers | r1_xxreal_0(k21_sin_cos(k1_comptrig(A)), k6_numbers)) ) ) ) ).
+- fof(t50_comptrig, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  ~ ( ( ~ (r1_xxreal_0(k6_numbers, k3_complex1(A)))  & r1_xxreal_0(k6_numbers, k21_sin_cos(k1_comptrig(A)))) ) ) ) ).
+- fof(t51_comptrig, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (r1_xxreal_0(k6_numbers, k3_complex1(A)) => r1_xxreal_0(k6_numbers, k21_sin_cos(k1_comptrig(A)))) ) ) ).
+- fof(dt_k32_sin_cos, axiom, m1_subset_1(k32_sin_cos, k1_numbers)).
+- fof(dt_k10_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k10_real_1(A, B), k1_numbers)) ) ).

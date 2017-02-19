@@ -1,0 +1,7 @@
+C fof(t27_gate_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  ( ~ (v1_xboole_0(k21_gate_1(A, B, C, D, E)))  <=>  (v1_xboole_0(A) &  (v1_xboole_0(B) &  (v1_xboole_0(C) &  (v1_xboole_0(D) & v1_xboole_0(E)) ) ) ) ) ) ) ) ) ) ).
++ fof(d21_gate_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  ( ~ ( (v1_xboole_0(A) &  (v1_xboole_0(B) &  (v1_xboole_0(C) &  (v1_xboole_0(D) &  (v1_xboole_0(E) &  ~ (k21_gate_1(A, B, C, D, E)=k1_gate_1(k1_xboole_0)) ) ) ) ) ) )  &  ( ~ ( (v1_xboole_0(A) &  (v1_xboole_0(B) &  (v1_xboole_0(C) &  (v1_xboole_0(D) & v1_xboole_0(E)) ) ) ) )  => k21_gate_1(A, B, C, D, E)=k1_xboole_0) ) ) ) ) ) ) ).
++ fof(fc1_gate_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  ~ (v1_xboole_0(k1_gate_1(A))) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
+- fof(fc25_gate_1, axiom,  (! [A, B, C] :  ( (v1_xboole_0(A) &  (v1_xboole_0(B) & v1_xboole_0(C)) )  => v1_xboole_0(k10_gate_1(A, B, C))) ) ).
+- fof(fraenkel_a_3_3_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, k1_zfmisc_1(B)) & m1_subset_1(D, k1_zfmisc_1(B))) )  =>  (r2_hidden(A, a_3_3_domain_1(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, B) &  (A=E &  (r2_hidden(E, C) &  ~ (r2_hidden(E, D)) ) ) ) ) ) ) ) ).
+- fof(redefinition_k10_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ) )  => k10_funct_2(A, B, C, D)=k7_partfun1(B, C, D)) ) ).

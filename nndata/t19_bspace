@@ -1,0 +1,13 @@
+C fof(t19_bspace, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k4_bspace(A, k5_struct_0(k2_bspace), B)=B) ) ) ).
++ fof(dt_k3_bspace, axiom,  (! [A, B] : m1_subset_1(k3_bspace(A, B), u1_struct_0(k2_bspace))) ).
++ fof(d3_bspace, axiom,  (! [A] :  (! [B] :  ( (r2_hidden(B, A) => k3_bspace(A, B)=k5_struct_0(k2_bspace))  &  ( ~ (r2_hidden(B, A))  => k3_bspace(A, B)=k4_struct_0(k2_bspace)) ) ) ) ).
++ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
++ fof(t6_bspace, axiom, k5_struct_0(k2_bspace)=1).
++ fof(d1_subset_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v1_xboole_0(A))  =>  (m1_subset_1(B, A) <=> r2_hidden(B, A)) )  &  (v1_xboole_0(A) =>  (m1_subset_1(B, A) <=> v1_xboole_0(B)) ) ) ) ) ).
++ fof(d4_bspace, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, u1_struct_0(k2_bspace)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  ( (B=k5_struct_0(k2_bspace) => k4_bspace(A, B, C)=C)  &  (B=k4_struct_0(k2_bspace) => k4_bspace(A, B, C)=k1_subset_1(A)) ) ) ) ) ) ) ).
+- fof(t18_bspace, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, u1_struct_0(k2_bspace)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k2_bspace)) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) => k4_bspace(A, k3_rlvect_1(k2_bspace, B, C), D)=k5_subset_1(A, k4_bspace(A, B, D), k4_bspace(A, C, D))) ) ) ) ) ) ) ).
+- fof(t17_bspace, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, u1_struct_0(k2_bspace)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) => k4_bspace(A, B, k5_subset_1(A, C, D))=k5_subset_1(A, k4_bspace(A, B, C), k4_bspace(A, B, D))) ) ) ) ) ) ) ).
+- fof(dt_k4_bspace, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, u1_struct_0(k2_bspace)) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k4_bspace(A, B, C), k1_zfmisc_1(A))) ) ).
+- fof(t8_bspace, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k2_bspace)) =>  (A=k4_struct_0(k2_bspace) <=>  ~ (A=k5_struct_0(k2_bspace)) ) ) ) ).
+- fof(t5_bspace, axiom, k4_struct_0(k2_bspace)=k1_xboole_0).
+- fof(t7_bspace, axiom, k3_rlvect_1(k2_bspace, k5_struct_0(k2_bspace), k5_struct_0(k2_bspace))=k4_struct_0(k2_bspace)).

@@ -1,0 +1,5 @@
+C fof(t138_finseq_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(k10_finseq_1(B, C), k4_finseq_2(2, A)) =>  (r2_hidden(B, A) & r2_hidden(C, A)) ) ) ) ) ).
++ fof(t77_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k10_finseq_1(A, B)=k10_finseq_1(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
++ fof(t137_finseq_2, axiom,  (! [A] :  (! [B] :  (r2_hidden(B, k4_finseq_2(2, A)) <=>  (? [C] :  (? [D] :  (r2_hidden(C, A) &  (r2_hidden(D, A) & B=k10_finseq_1(C, D)) ) ) ) ) ) ) ).
+- fof(t99_finseq_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k4_finseq_2(2, A)=a_1_1_finseq_2(A)) ) ).
+- fof(t101_finseq_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) => r2_hidden(k10_finseq_1(B, C), k4_finseq_2(2, A))) ) ) ) ) ) ).

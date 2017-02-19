@@ -1,0 +1,5 @@
+C fof(l34_mod_2, axiom,  (? [A] :  (m1_subset_1(A, k1_enumset1(k6_numbers, 1, 2)) & A=k6_numbers) ) ).
++ fof(d1_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (D=k1_enumset1(A, B, C) <=>  (! [E] :  (r2_hidden(E, D) <=>  ~ ( ( ~ (E=A)  &  ( ~ (E=B)  &  ~ (E=C) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
+- fof(t3_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] : k1_enumset1(A, B, C)=k2_xboole_0(k2_tarski(A, B), k1_tarski(C))) ) ) ).
+- fof(t1_finseq_3, axiom, k2_finseq_1(3)=k1_enumset1(1, 2, 3)).

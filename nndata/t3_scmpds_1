@@ -1,0 +1,15 @@
+C fof(t3_scmpds_1, axiom,  (! [A] :  (m2_subset_1(A, k1_ami_2, k2_ami_2) => r2_hidden(A, k2_xboole_0(k2_ami_2, k4_numbers))) ) ).
++ fof(redefinition_k2_ami_2, axiom, k2_ami_2=k2_scm_inst).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(fc1_ami_2, axiom,  ~ (v1_xboole_0(k1_ami_2)) ).
++ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(fc1_scm_inst, axiom,  ~ (v1_xboole_0(k2_scm_inst)) ).
++ fof(dt_k2_ami_2, axiom, m1_subset_1(k2_ami_2, k1_zfmisc_1(k1_ami_2))).
+- fof(d8_ami_2, axiom,  (! [A] :  (m1_subset_1(A, k4_card_3(k3_relat_1(k3_ami_2, k4_ami_2))) =>  (! [B] :  (m2_subset_1(B, k1_ami_2, k2_ami_2) =>  (! [C] :  (v1_int_1(C) => k7_ami_2(A, B, C)=k1_funct_4(A, k16_funcop_1(B, C))) ) ) ) ) ) ).
+- fof(t10_ami_2, axiom,  (! [A] :  (m2_subset_1(A, k1_ami_2, k2_ami_2) => k5_card_3(A, k4_card_3(k3_relat_1(k3_ami_2, k4_ami_2)))=k4_numbers) ) ).
+- fof(t8_ami_2, axiom,  (! [A] :  (m2_subset_1(A, k1_ami_2, k2_ami_2) => k1_funct_1(k3_relat_1(k3_ami_2, k4_ami_2), A)=k4_numbers) ) ).
+- fof(fraenkel_a_0_5_ami_3, axiom,  (! [A] :  (r2_hidden(A, a_0_5_ami_3) <=>  (? [B, C, D] :  ( (m1_subset_1(B, k7_card_1(9)) &  (m2_subset_1(C, k1_ami_2, k2_ami_2) & m2_subset_1(D, k1_ami_2, k2_ami_2)) )  &  (A=k3_xtuple_0(B, k1_xboole_0, k10_finseq_1(C, D)) & r2_hidden(B, k3_enumset1(1, 2, 3, 4, 5))) ) ) ) ) ).
+- fof(fraenkel_a_0_4_ami_3, axiom,  (! [A] :  (r2_hidden(A, a_0_4_ami_3) <=>  (? [B, C, D] :  ( (m1_subset_1(B, k7_card_1(9)) &  (m2_subset_1(C, k1_numbers, k5_numbers) & m2_subset_1(D, k1_ami_2, k2_ami_2)) )  &  (A=k3_xtuple_0(B, k12_finseq_1(k5_numbers, C), k12_finseq_1(k2_ami_2, D)) & r2_hidden(B, k2_tarski(7, 8))) ) ) ) ) ).
+- fof(t16_ami_2, axiom,  (! [A] :  (m1_subset_1(A, k4_card_3(k3_relat_1(k3_ami_2, k4_ami_2))) =>  (! [B] :  (m2_subset_1(B, k1_ami_2, k2_ami_2) =>  (! [C] :  (v1_int_1(C) =>  (! [D] :  (m2_subset_1(D, k1_ami_2, k2_ami_2) =>  ( ~ (D=B)  => k1_funct_1(k7_ami_2(A, B, C), D)=k1_funct_1(A, D)) ) ) ) ) ) ) ) ) ).
+- fof(t12_ami_2, axiom,  (! [A] :  (m1_subset_1(A, k4_card_3(k3_relat_1(k3_ami_2, k4_ami_2))) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (m2_subset_1(C, k1_ami_2, k2_ami_2) => k1_funct_1(k6_ami_2(A, B), C)=k1_funct_1(A, C)) ) ) ) ) ) ).

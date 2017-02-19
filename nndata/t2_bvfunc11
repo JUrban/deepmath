@@ -1,0 +1,7 @@
+C fof(t2_bvfunc11, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_eqrel_1(C, A) =>  (! [D] :  (m1_eqrel_1(D, A) => r1_tarski(k15_bvfunc_1(A, B, C), k15_bvfunc_1(A, B, k3_partit1(A, C, D)))) ) ) ) ) ) ) ) ).
++ fof(dt_k3_partit1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_eqrel_1(B, A) & m1_eqrel_1(C, A)) )  => m1_eqrel_1(k3_partit1(A, B, C), A)) ) ).
++ fof(t1_bvfunc11, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_eqrel_1(C, A) =>  (! [D] :  (m1_eqrel_1(D, A) =>  (r1_setfam_1(C, D) => r1_tarski(k15_bvfunc_1(A, B, C), k15_bvfunc_1(A, B, D))) ) ) ) ) ) ) ) ) ).
++ fof(t16_partit1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_eqrel_1(B, A) =>  (! [C] :  (m1_eqrel_1(C, A) => r1_setfam_1(B, k3_partit1(A, B, C))) ) ) ) ) ) ).
+- fof(redefinition_k15_bvfunc_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_eqrel_1(C, A)) )  => k15_bvfunc_1(A, B, C)=k11_eqrel_1(A, B, C)) ) ).
+- fof(t18_partit1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (m1_eqrel_1(E, A) =>  (! [F] :  (m1_eqrel_1(F, A) =>  ( (r1_setfam_1(E, F) &  (r2_hidden(B, F) &  (r2_hidden(C, E) &  (r2_hidden(D, B) & r2_hidden(D, C)) ) ) )  => r1_tarski(C, B)) ) ) ) ) ) ) ) ) ) ).
+- fof(dt_k11_eqrel_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_eqrel_1(C, A)) )  => m1_subset_1(k11_eqrel_1(A, B, C), k1_zfmisc_1(A))) ) ).

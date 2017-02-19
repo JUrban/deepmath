@@ -1,0 +1,7 @@
+C fof(t22_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(k10_ordinal2(A, B), k10_ordinal2(A, C)) => r2_hidden(B, C)) ) ) ) ) ) ) ).
++ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
++ fof(t32_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(A, B) => r2_hidden(k10_ordinal2(C, A), k10_ordinal2(C, B))) ) ) ) ) ) ) ).
++ fof(t14_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  ~ ( ( ~ (r2_hidden(A, B))  &  ( ~ (A=B)  &  ~ (r2_hidden(B, A)) ) ) ) ) ) ) ) ).
+- fof(s2_ordinal1__e2_65__ordinal2, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  ( (! [C] :  (v3_ordinal1(C) =>  ( (! [D] :  (v3_ordinal1(D) =>  (r2_hidden(D, C) =>  (r2_hidden(A, D) => r2_hidden(k10_ordinal2(B, A), k10_ordinal2(B, D))) ) ) )  =>  (r2_hidden(A, C) => r2_hidden(k10_ordinal2(B, A), k10_ordinal2(B, C))) ) ) )  =>  (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(A, C) => r2_hidden(k10_ordinal2(B, A), k10_ordinal2(B, C))) ) ) ) ) ) ).
+- fof(t17_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (! [D] :  (v3_ordinal1(D) =>  (r2_hidden(C, D) =>  ( ( ~ (r1_ordinal1(A, B))  &  ~ (r2_hidden(A, B)) )  | r2_hidden(k10_ordinal2(A, C), k10_ordinal2(B, D))) ) ) ) ) ) ) ) ) ) ).
+- fof(dt_k10_ordinal2, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  => v3_ordinal1(k10_ordinal2(A, B))) ) ).

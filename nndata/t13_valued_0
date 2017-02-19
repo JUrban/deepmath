@@ -1,0 +1,5 @@
+C fof(t13_valued_0, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_relat_1(A) &  (v1_funct_1(A) &  (v3_funct_1(A) & v1_valued_0(A)) ) ) )  =>  (? [B] :  (v1_xcmplx_0(B) &  (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) => k1_funct_1(A, C)=B) ) ) ) ) ) ).
++ fof(t78_funcop_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v3_funct_1(A) &  ~ (v1_xboole_0(A)) ) ) )  =>  (? [B] :  (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) => k1_funct_1(A, C)=B) ) ) ) ) ).
++ fof(fc61_valued_0, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => v1_xcmplx_0(k1_funct_1(A, B))) ) ).
+- fof(d10_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v3_funct_1(A) <=>  (! [B] :  (! [C] :  ( (r2_hidden(B, k9_xtuple_0(A)) & r2_hidden(C, k9_xtuple_0(A)))  => k1_funct_1(A, B)=k1_funct_1(A, C)) ) ) ) ) ) ).
+- fof(d1_valued_0, axiom,  (! [A] :  (v1_relat_1(A) =>  (v1_valued_0(A) <=> r1_tarski(k10_xtuple_0(A), k2_numbers)) ) ) ).

@@ -1,0 +1,9 @@
+C fof(t14_borsuk_6, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (v3_topmetr(A) <=>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => v1_xreal_0(B)) ) ) ) ) ).
++ fof(d3_membered, axiom,  (! [A] :  (v3_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_xreal_0(B)) ) ) ) ).
++ fof(d8_topmetr, axiom,  (! [A] :  (l1_struct_0(A) =>  (v3_topmetr(A) <=> v3_membered(u1_struct_0(A))) ) ) ).
++ fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
+- fof(rc3_topmetr, axiom,  (? [A] :  (l1_struct_0(A) &  ( ~ (v2_struct_0(A))  & v3_topmetr(A)) ) ) ).
+- fof(fc4_topmetr, axiom,  (! [A] :  ( (v3_topmetr(A) & l1_struct_0(A))  => v3_membered(u1_struct_0(A))) ) ).
+- fof(rc4_topmetr, axiom,  (? [A] :  (l1_pre_topc(A) &  ( ~ (v2_struct_0(A))  &  (v1_pre_topc(A) &  (v2_pre_topc(A) & v3_topmetr(A)) ) ) ) ) ).
+- fof(cc1_topmetr, axiom,  (! [A] :  ( (v3_topmetr(A) & l1_pre_topc(A))  =>  (! [B] :  (m1_pre_topc(B, A) => v3_topmetr(B)) ) ) ) ).

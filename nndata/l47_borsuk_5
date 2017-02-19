@@ -1,0 +1,9 @@
+C fof(l47_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) => v2_rcomp_1(k3_rcomp_1(A, k1_xxreal_0))) ) ).
++ fof(d2_limfunc1, axiom,  (! [A] :  (v1_xreal_0(A) => k2_limfunc1(A)=k2_xxreal_1(A, k1_xxreal_0)) ) ).
++ fof(fc3_fcont_3, axiom,  (! [A] :  (v1_xreal_0(A) => v2_rcomp_1(k2_limfunc1(A))) ) ).
++ fof(fc1_xxreal_0, axiom, v1_xxreal_0(k1_xxreal_0)).
++ fof(redefinition_k3_rcomp_1, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xxreal_0(B))  => k3_rcomp_1(A, B)=k2_xxreal_1(A, B)) ) ).
+- fof(t11_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( (r1_xxreal_0(A, C) & r1_xxreal_0(C, B))  => k4_subset_1(k1_numbers, k1_rcomp_1(A, B), k3_rcomp_1(C, k1_xxreal_0))=k3_rcomp_1(A, k1_xxreal_0)) ) ) ) ) ) ) ).
+- fof(t12_borsuk_4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ~ (A=B)  => k6_measure6(k3_rcomp_1(A, B))=k1_rcomp_1(A, B)) ) ) ) ) ).
+- fof(dt_k3_rcomp_1, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xxreal_0(B))  => m1_subset_1(k3_rcomp_1(A, B), k1_zfmisc_1(k1_numbers))) ) ).
+- fof(t17_topmetr, axiom, u1_struct_0(k3_topmetr)=k1_numbers).

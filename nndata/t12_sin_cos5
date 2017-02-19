@@ -1,0 +1,21 @@
+C fof(t12_sin_cos5, axiom,  (! [A] :  (v1_xreal_0(A) => k2_sin_cos4(A)=k10_real_1(1, k1_sin_cos4(A))) ) ).
++ fof(t57_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k7_xcmplx_0(1, k7_xcmplx_0(A, B))=k7_xcmplx_0(B, A)) ) ) ) ).
++ fof(redefinition_k10_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k10_real_1(A, B)=k7_xcmplx_0(A, B)) ) ).
++ fof(dt_k1_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) => m1_subset_1(k1_sin_cos4(A), k1_numbers)) ) ).
++ fof(d1_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) => k1_sin_cos4(A)=k7_xcmplx_0(k17_sin_cos(A), k20_sin_cos(A))) ) ).
++ fof(d2_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) => k2_sin_cos4(A)=k7_xcmplx_0(k20_sin_cos(A), k17_sin_cos(A))) ) ).
++ fof(fc3_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xreal_0(k17_sin_cos(A))) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(fc4_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xreal_0(k20_sin_cos(A))) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
+- fof(t1_sin_cos5, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ (k20_sin_cos(A)=k6_numbers)  => k3_sin_cos4(A)=k10_real_1(k4_sin_cos4(A), k1_sin_cos4(A))) ) ) ).
+- fof(t21_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (k20_sin_cos(A)=k6_numbers)  &  ( ~ (k17_sin_cos(B)=k6_numbers)  &  ~ (k2_xcmplx_0(k1_sin_cos4(A), k2_sin_cos4(B))=k7_xcmplx_0(k20_sin_cos(k6_xcmplx_0(A, B)), k3_xcmplx_0(k20_sin_cos(A), k17_sin_cos(B)))) ) ) ) ) ) ) ) ).
+- fof(t22_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (k20_sin_cos(A)=k6_numbers)  &  ( ~ (k17_sin_cos(B)=k6_numbers)  &  ~ (k6_xcmplx_0(k1_sin_cos4(A), k2_sin_cos4(B))=k4_xcmplx_0(k7_xcmplx_0(k20_sin_cos(k2_xcmplx_0(A, B)), k3_xcmplx_0(k20_sin_cos(A), k17_sin_cos(B))))) ) ) ) ) ) ) ) ).
+- fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
+- fof(t10_sin_cos5, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ (k17_sin_cos(A)=k6_numbers)  => k2_sin_cos4(k8_real_1(2, A))=k10_real_1(k9_real_1(k5_square_1(k2_sin_cos4(A)), 1), k8_real_1(2, k2_sin_cos4(A)))) ) ) ).
+- fof(t10_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (k17_sin_cos(A)=k6_numbers)  &  ( ~ (k17_sin_cos(B)=k6_numbers)  &  ~ (k2_sin_cos4(k6_xcmplx_0(A, B))=k7_xcmplx_0(k2_xcmplx_0(k3_xcmplx_0(k2_sin_cos4(A), k2_sin_cos4(B)), 1), k6_xcmplx_0(k2_sin_cos4(B), k2_sin_cos4(A)))) ) ) ) ) ) ) ) ).
+- fof(t9_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (k17_sin_cos(A)=k6_numbers)  &  ( ~ (k17_sin_cos(B)=k6_numbers)  &  ~ (k2_sin_cos4(k2_xcmplx_0(A, B))=k7_xcmplx_0(k6_xcmplx_0(k3_xcmplx_0(k2_sin_cos4(A), k2_sin_cos4(B)), 1), k2_xcmplx_0(k2_sin_cos4(B), k2_sin_cos4(A)))) ) ) ) ) ) ) ) ).
+- fof(t14_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ~ ( ( ~ (k17_sin_cos(A)=k6_numbers)  &  ( ~ (k17_sin_cos(B)=k6_numbers)  &  ( ~ (k17_sin_cos(C)=k6_numbers)  &  ~ (k2_sin_cos4(k2_xcmplx_0(k2_xcmplx_0(A, B), C))=k7_xcmplx_0(k6_xcmplx_0(k6_xcmplx_0(k6_xcmplx_0(k3_xcmplx_0(k3_xcmplx_0(k2_sin_cos4(A), k2_sin_cos4(B)), k2_sin_cos4(C)), k2_sin_cos4(A)), k2_sin_cos4(B)), k2_sin_cos4(C)), k6_xcmplx_0(k2_xcmplx_0(k2_xcmplx_0(k3_xcmplx_0(k2_sin_cos4(B), k2_sin_cos4(C)), k3_xcmplx_0(k2_sin_cos4(C), k2_sin_cos4(A))), k3_xcmplx_0(k2_sin_cos4(A), k2_sin_cos4(B))), 1))) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t3_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) => k2_sin_cos4(k4_xcmplx_0(A))=k4_xcmplx_0(k2_sin_cos4(A))) ) ).
+- fof(t48_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ~ (k17_sin_cos(k7_xcmplx_0(k2_xcmplx_0(A, B), 2))=k6_numbers)  => k7_xcmplx_0(k2_xcmplx_0(k17_sin_cos(A), k17_sin_cos(B)), k6_xcmplx_0(k20_sin_cos(B), k20_sin_cos(A)))=k2_sin_cos4(k7_xcmplx_0(k6_xcmplx_0(A, B), 2))) ) ) ) ) ).

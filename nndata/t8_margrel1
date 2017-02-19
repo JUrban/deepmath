@@ -1,0 +1,5 @@
+C fof(t8_margrel1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) => m1_subset_1(k1_tarski(k10_finseq_1(B, C)), k3_margrel1(A))) ) ) ) ) ) ).
++ fof(t13_finseq_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) => m2_finseq_1(k10_finseq_1(B, C), A)) ) ) ) ) ) ).
++ fof(t7_margrel1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m2_finseq_1(B, A) => m1_subset_1(k1_tarski(B), k3_margrel1(A))) ) ) ) ).
+- fof(d7_margrel1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (B=k3_margrel1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (r1_tarski(C, k3_finseq_2(A)) &  (! [D] :  (m2_finseq_1(D, A) =>  (! [E] :  (m2_finseq_1(E, A) =>  ( (r2_hidden(D, C) & r2_hidden(E, C))  => k3_finseq_1(D)=k3_finseq_1(E)) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).

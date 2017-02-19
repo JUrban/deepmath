@@ -1,0 +1,7 @@
+C fof(t107_zfmisc_1, axiom,  (! [A] :  (! [B] :  ( ~ (A=k1_xboole_0)  =>  ( ~ (k2_zfmisc_1(k1_tarski(B), A)=k1_xboole_0)  &  ~ (k2_zfmisc_1(A, k1_tarski(B))=k1_xboole_0) ) ) ) ) ).
++ fof(t90_zfmisc_1, axiom,  (! [A] :  (! [B] :  (k2_zfmisc_1(A, B)=k1_xboole_0 <=>  (A=k1_xboole_0 | B=k1_xboole_0) ) ) ) ).
++ fof(t1_boole, axiom,  (! [A] : k2_xboole_0(A, k1_xboole_0)=A) ).
++ fof(t43_zfmisc_1, axiom,  (! [A] :  (! [B] :  ~ (k2_xboole_0(k1_tarski(A), B)=k1_xboole_0) ) ) ).
+- fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
+- fof(l46_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(A, B), k2_zfmisc_1(C, D)) <=>  (r2_hidden(A, C) & r2_hidden(B, D)) ) ) ) ) ) ).
+- fof(d2_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_zfmisc_1(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (? [E] :  (? [F] :  (r2_hidden(E, A) &  (r2_hidden(F, B) & D=k4_tarski(E, F)) ) ) ) ) ) ) ) ) ) ).

@@ -1,0 +1,15 @@
+C fof(t3_prob_4, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (r1_xboole_0(B, C) => v1_prob_2(k13_funct_7(B, C, k1_xboole_0))) ) ) ) ) ) ).
++ fof(t8_dynkin, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (r1_xboole_0(B, C) => v1_prob_2(k1_dynkin(A, B, C, k1_subset_1(A)))) ) ) ) ) ) ) ).
++ fof(t4_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  ~ ( ( ~ (B=k1_xboole_0)  &  (! [C] :  (m1_subset_1(C, A) =>  ~ (r2_hidden(C, B)) ) ) ) ) ) ) ) ).
++ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
++ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
++ fof(redefinition_k1_dynkin, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, k1_zfmisc_1(A)) &  (m1_subset_1(C, k1_zfmisc_1(A)) & m1_subset_1(D, k1_zfmisc_1(A))) ) )  => k1_dynkin(A, B, C, D)=k13_funct_7(B, C, D)) ) ).
++ fof(t1_subset_1, axiom,  (! [A] : m1_subset_1(k1_xboole_0, k1_zfmisc_1(A))) ).
++ fof(d2_subset_1, axiom,  (! [A] : k1_subset_1(A)=k1_xboole_0) ).
+- fof(t3_dynkin, axiom,  (! [A] :  (! [B] : k3_card_3(k13_funct_7(A, B, k1_xboole_0))=k2_xboole_0(A, B)) ) ).
+- fof(fc14_funct_7, axiom,  (! [A, B, C] :  (v1_relat_1(k13_funct_7(A, B, C)) & v1_funct_1(k13_funct_7(A, B, C))) ) ).
+- fof(t127_funct_7, axiom,  (! [A] :  (! [B] :  (! [C] : k10_xtuple_0(k13_funct_7(A, B, C))=k1_enumset1(A, B, C)) ) ) ).
+- fof(t75_zfmisc_1, axiom,  (! [A] :  (! [B] : k3_tarski(k2_tarski(A, B))=k2_xboole_0(A, B)) ) ).
+- fof(d4_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => k3_card_3(A)=k3_tarski(k10_xtuple_0(A))) ) ).
+- fof(t1_measure1, axiom,  (! [A] :  (! [B] : k3_tarski(k1_enumset1(A, B, k1_xboole_0))=k3_tarski(k2_tarski(A, B))) ) ).
+- fof(d14_funct_7, axiom,  (! [A] :  (! [B] :  (! [C] : k13_funct_7(A, B, C)=k1_funct_4(k7_funcop_1(k5_numbers, C), k4_funct_4(k6_numbers, 1, A, B))) ) ) ).

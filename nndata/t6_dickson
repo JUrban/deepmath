@@ -1,0 +1,11 @@
+C fof(t6_dickson, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (! [C] :  ( (r1_xboole_0(k1_wellord1(u1_orders_2(A), C), B) & r2_hidden(C, B))  <=> r4_waybel_4(B, C, u1_orders_2(A))) ) ) ) ) ).
++ fof(t1_wellord1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) =>  (r2_hidden(A, k1_wellord1(C, B)) <=>  ( ~ (A=B)  & r2_hidden(k4_tarski(A, B), C)) ) ) ) ) ) ).
++ fof(t3_xboole_0, axiom,  (! [A] :  (! [B] :  ( ~ ( ( ~ (r1_xboole_0(A, B))  &  (! [C] :  ~ ( (r2_hidden(C, A) & r2_hidden(C, B)) ) ) ) )  &  ~ ( ( (? [C] :  (r2_hidden(C, A) & r2_hidden(C, B)) )  & r1_xboole_0(A, B)) ) ) ) ) ).
++ fof(d25_waybel_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) =>  (r4_waybel_4(A, B, C) <=>  (r2_hidden(B, A) &  (! [D] :  ~ ( (r2_hidden(D, A) &  ( ~ (D=B)  & r2_hidden(k4_tarski(D, B), C)) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_u1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => m1_subset_1(u1_orders_2(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
+- fof(d26_waybel_4, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r5_waybel_4(A, B, C) <=> r4_waybel_4(B, C, u1_orders_2(A))) ) ) ) ) ) ).
+- fof(d3_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r1_wellord1(A, B) <=>  (! [C] :  ~ ( (r1_tarski(C, B) &  ( ~ (C=k1_xboole_0)  &  (! [D] :  ~ ( (r2_hidden(D, C) & r1_xboole_0(k1_wellord1(A, D), C)) ) ) ) ) ) ) ) ) ) ) ).
+- fof(d2_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v1_wellord1(A) <=>  (! [B] :  ~ ( (r1_tarski(B, k1_relat_1(A)) &  ( ~ (B=k1_xboole_0)  &  (! [C] :  ~ ( (r2_hidden(C, B) & r1_xboole_0(k1_wellord1(A, C), B)) ) ) ) ) ) ) ) ) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(t9_wellfnd1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (r1_tarski(k1_wellord1(u1_orders_2(A), B), k1_wellfnd1(A)) => r2_hidden(B, k1_wellfnd1(A))) ) ) ) ) ).

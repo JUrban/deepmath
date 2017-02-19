@@ -1,0 +1,7 @@
+C fof(t15_topgen_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r2_hidden(k19_euclid(A, B), k1_topgen_5) <=> B=k6_numbers) ) ) ) ) ).
++ fof(redefinition_k19_euclid, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k19_euclid(A, B)=k10_finseq_1(A, B)) ) ).
++ fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
++ fof(t14_topgen_5, axiom,  (! [A] :  (! [B] :  (r2_hidden(k10_finseq_1(A, B), k1_topgen_5) <=>  (r2_hidden(A, k1_numbers) & B=k6_numbers) ) ) ) ).
+- fof(d1_topgen_5, axiom, k1_topgen_5=a_0_0_topgen_5).
+- fof(dt_k1_topgen_5, axiom, m1_subset_1(k1_topgen_5, k1_zfmisc_1(u1_struct_0(k15_euclid(2))))).
+- fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).

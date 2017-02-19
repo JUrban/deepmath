@@ -1,0 +1,19 @@
+C fof(l106_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  ( (v3_card_1(C, A) & m2_finseq_1(C, B))  => r2_hidden(C, k4_finseq_2(A, B))) ) ) ) ) ) ).
++ fof(t92_finseq_2, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) => m2_finseq_2(B, A, k4_finseq_2(k3_finseq_1(B), A))) ) ) ).
++ fof(dt_k4_finseq_2, axiom,  (! [A, B] :  (v7_ordinal1(A) => m1_finseq_2(k4_finseq_2(A, B), B)) ) ).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
++ fof(fc5_finseq_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) &  ~ (v1_xboole_0(B)) )  =>  ~ (v1_xboole_0(k4_finseq_2(A, B))) ) ) ).
++ fof(redefinition_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_1(A)=k1_card_1(A)) ) ).
++ fof(redefinition_m2_finseq_2, axiom,  (! [A, B] :  (m1_finseq_2(B, A) =>  (! [C] :  (m2_finseq_2(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(d7_card_1, axiom,  (! [A] :  (! [B] :  (v3_card_1(B, A) <=> k1_card_1(B)=A) ) ) ).
++ fof(d1_subset_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v1_xboole_0(A))  =>  (m1_subset_1(B, A) <=> r2_hidden(B, A)) )  &  (v1_xboole_0(A) =>  (m1_subset_1(B, A) <=> v1_xboole_0(B)) ) ) ) ) ).
+- fof(cc1_finseq_2, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(B))  =>  (! [C] :  (m1_subset_1(C, k4_finseq_2(B, A)) => v3_card_1(C, B)) ) ) ) ).
+- fof(d4_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] : k4_finseq_2(A, B)=a_2_0_finseq_2(A, B)) ) ) ).
+- fof(cc9_card_1, axiom,  (! [A] :  (v3_card_1(A, 1) =>  ( ~ (v1_xboole_0(A))  & v1_zfmisc_1(A)) ) ) ).
+- fof(t93_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] : k4_finseq_2(A, B)=k1_funct_2(k2_finseq_1(A), B)) ) ) ).
+- fof(t96_finseq_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k4_finseq_2(1, A)=a_1_0_finseq_2(A)) ) ).
+- fof(t94_finseq_2, axiom,  (! [A] : k4_finseq_2(k6_numbers, A)=k6_domain_1(k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)), k6_finseq_1(A))) ).
+- fof(t47_subset_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A)))  =>  ~ ( (v1_zfmisc_1(B) &  (! [C] :  (m1_subset_1(C, A) =>  ~ (B=k1_tarski(C)) ) ) ) ) ) ) ) ) ).
+- fof(cc7_card_1, axiom,  (! [A] :  (v3_card_1(A, k1_xboole_0) => v1_xboole_0(A)) ) ).
+- fof(t95_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  ( (v3_card_1(C, k6_numbers) & m2_finseq_1(C, B))  =>  (! [D] :  ( (v3_card_1(D, A) & m2_finseq_1(D, B))  =>  (k8_finseq_1(B, C, D)=D & k8_finseq_1(B, D, C)=D) ) ) ) ) ) ) ) ) ).

@@ -1,0 +1,13 @@
+C fof(t1_seq_2, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ( ~ (r1_xxreal_0(B, k4_xcmplx_0(A)))  &  ~ (r1_xxreal_0(A, B)) )  <=>  ~ (r1_xxreal_0(A, k18_complex1(B))) ) ) ) ) ) ).
++ fof(t5_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( (r1_xxreal_0(k4_xcmplx_0(A), B) & r1_xxreal_0(B, A))  <=> r1_xxreal_0(k18_complex1(B), A)) ) ) ) ) ).
++ fof(t1_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  (k18_complex1(A)=A | k18_complex1(A)=k4_xcmplx_0(A)) ) ) ).
++ fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
++ fof(t25_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, k4_xcmplx_0(B)) => r1_xxreal_0(B, k4_xcmplx_0(A))) ) ) ) ) ).
++ fof(t24_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, B) <=> r1_xxreal_0(k4_xcmplx_0(B), k4_xcmplx_0(A))) ) ) ) ) ).
++ fof(t26_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(k4_xcmplx_0(A), B) => r1_xxreal_0(k4_xcmplx_0(B), A)) ) ) ) ) ).
+- fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
+- fof(redefinition_k18_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k18_complex1(A)=k16_complex1(A)) ) ).
+- fof(redefinition_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k17_complex1(A)=k16_complex1(A)) ) ).
+- fof(t4_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  (r1_xxreal_0(k1_real_1(k18_complex1(A)), A) & r1_xxreal_0(A, k18_complex1(A))) ) ) ).
+- fof(d3_comseq_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  =>  (v1_comseq_2(A) <=>  (? [B] :  (v1_xreal_0(B) &  (! [C] :  ~ ( (r2_hidden(C, k9_xtuple_0(A)) & r1_xxreal_0(B, k18_complex1(k1_funct_1(A, C)))) ) ) ) ) ) ) ) ).
+- fof(l90_complex1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (r1_xxreal_0(k1_real_1(k17_complex1(A)), A) & r1_xxreal_0(A, k17_complex1(A))) ) ) ).

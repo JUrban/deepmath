@@ -1,0 +1,17 @@
+C fof(t20_rat_1, axiom,  (! [A] :  (v1_rat_1(A) =>  (r1_xxreal_0(k6_numbers, A) =>  ( ( ~ (k2_rat_1(A)=A)  &  ~ (k1_rat_1(A)=1) )  | m2_subset_1(A, k1_numbers, k5_numbers)) ) ) ) ).
++ fof(t3_int_1, axiom,  (! [A] :  (v1_int_1(A) =>  (r1_xxreal_0(k6_numbers, A) => r2_hidden(A, k5_numbers)) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t18_rat_1, axiom,  (! [A] :  (v1_rat_1(A) =>  ( (k2_rat_1(A)=A | k1_rat_1(A)=1)  => v1_int_1(A)) ) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
+- fof(t17_rat_1, axiom,  (! [A] :  (v1_rat_1(A) =>  (v1_int_1(A) =>  (k1_rat_1(A)=1 & k2_rat_1(A)=A) ) ) ) ).
+- fof(t15_rat_1, axiom,  (! [A] :  (v1_rat_1(A) =>  (A=k6_real_1(k2_rat_1(A), k1_rat_1(A)) &  (A=k4_real_1(k2_rat_1(A), k2_real_1(k1_rat_1(A))) & A=k8_real_1(k2_real_1(k1_rat_1(A)), k2_rat_1(A))) ) ) ) ).
+- fof(dt_k2_rat_1, axiom,  (! [A] :  (v1_rat_1(A) => v1_int_1(k2_rat_1(A))) ) ).
+- fof(t19_rat_1, axiom,  (! [A] :  (v1_rat_1(A) =>  (k2_rat_1(A)=A <=> k1_rat_1(A)=1) ) ) ).
+- fof(d4_rat_1, axiom,  (! [A] :  (v1_rat_1(A) => k2_rat_1(A)=k8_real_1(k1_rat_1(A), A)) ) ).
+- fof(dt_k1_rat_1, axiom,  (! [A] :  (v1_rat_1(A) => m2_subset_1(k1_rat_1(A), k1_numbers, k5_numbers)) ) ).
+- fof(cc2_rat_1, axiom,  (! [A] :  (v1_int_1(A) => v1_rat_1(A)) ) ).
+- fof(d3_rat_1, axiom,  (! [A] :  (v1_rat_1(A) =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (B=k1_rat_1(A) <=>  ( ~ (B=k6_numbers)  &  ( (? [C] :  (v1_int_1(C) & A=k6_real_1(C, B)) )  &  (! [C] :  (v1_int_1(C) =>  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (A=k6_real_1(C, D) =>  (D=k6_numbers | r1_xxreal_0(B, D)) ) ) ) ) ) ) ) ) ) ) ) ) ).

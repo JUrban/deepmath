@@ -1,0 +1,5 @@
+C fof(t3_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (k3_xtuple_0(A, B, C)=k3_xtuple_0(D, E, F) =>  (A=D &  (B=E & C=F) ) ) ) ) ) ) ) ) ).
++ fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
++ fof(d4_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] : k3_xtuple_0(A, B, C)=k4_tarski(k4_tarski(A, B), C)) ) ) ).
+- fof(fc2_xtuple_0, axiom,  (! [A, B, C] : v2_xtuple_0(k3_xtuple_0(A, B, C))) ).
+- fof(d8_xboole_0, axiom,  (! [A] :  (! [B] :  (r2_xboole_0(A, B) <=>  (r1_tarski(A, B) &  ~ (A=B) ) ) ) ) ).

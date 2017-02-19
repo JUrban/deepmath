@@ -1,0 +1,9 @@
+C fof(t5_rpr_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v3_card_1(B, 1) & m1_subset_1(B, k1_zfmisc_1(A)))  =>  (! [C] :  ( (v3_card_1(C, 1) & m1_subset_1(C, k1_zfmisc_1(A)))  =>  (r1_tarski(B, C) => B=C) ) ) ) ) ) ) ).
++ fof(t131_zfmisc_1, axiom,  (! [A] :  ~ ( ( ~ (v1_xboole_0(A))  &  (v1_zfmisc_1(A) &  (! [B] :  ~ (A=k1_tarski(B)) ) ) ) ) ) ).
++ fof(cc9_card_1, axiom,  (! [A] :  (v3_card_1(A, 1) =>  ( ~ (v1_xboole_0(A))  & v1_zfmisc_1(A)) ) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(t47_subset_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A)))  =>  ~ ( (v1_zfmisc_1(B) &  (! [C] :  (m1_subset_1(C, A) =>  ~ (B=k1_tarski(C)) ) ) ) ) ) ) ) ) ).
+- fof(t1_rpr_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A)))  =>  ( (v3_card_1(B, 1) & m1_subset_1(B, k1_zfmisc_1(A)))  <=>  (! [C] :  (r1_tarski(C, B) <=>  (C=k1_xboole_0 | C=B) ) ) ) ) ) ) ) ).
+- fof(fc13_card_1, axiom,  (! [A] : v3_card_1(k1_tarski(A), 1)) ).
+- fof(rc7_card_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) & v3_card_1(B, 1)) ) ) ) ).

@@ -1,0 +1,5 @@
+C fof(t2_zfrefle1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k9_zf_lang)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k9_zf_lang)) =>  ( (r1_tarski(B, C) & r1_zfrefle1(A, C))  => r1_zfrefle1(A, B)) ) ) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d1_zfrefle1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k9_zf_lang)) =>  (r1_zfrefle1(A, B) <=>  (! [C] :  ( (v1_zf_lang(C) & m2_finseq_1(C, k5_numbers))  =>  (r2_hidden(C, B) => r2_zf_model(A, C)) ) ) ) ) ) ) ) ).
+- fof(t1_zfrefle1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => r1_zfrefle1(A, k1_subset_1(k9_zf_lang))) ) ).
+- fof(dt_k2_zfrefle1, axiom, m1_subset_1(k2_zfrefle1, k1_zfmisc_1(k9_zf_lang))).

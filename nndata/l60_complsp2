@@ -1,0 +1,9 @@
+C fof(l60_complsp2, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) => k18_seq_4(k3_finseq_1(A), k17_seq_4(k3_finseq_1(A)))=k17_seq_4(k3_finseq_1(A))) ) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(l77_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) => k18_seq_4(A, k17_seq_4(A))=k17_seq_4(A)) ) ).
++ fof(dt_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => m2_subset_1(k3_finseq_1(A), k1_numbers, k5_numbers)) ) ).
+- fof(t61_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k2_numbers, k14_seq_4(A)) =>  (k15_seq_4(A, B, k18_seq_4(A, B))=k17_seq_4(A) & k15_seq_4(A, k18_seq_4(A, B), B)=k17_seq_4(A)) ) ) ) ) ).
+- fof(t41_complsp2, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (v1_xcmplx_0(B) => k12_seq_4(k17_seq_4(k3_finseq_1(A)), B)=k17_seq_4(k3_finseq_1(A))) ) ) ) ).
+- fof(t34_complsp2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v1_valued_0(A)) ) )  => k1_valued_1(A, k30_valued_1(A))=k17_seq_4(k3_finseq_1(A))) ) ).
+- fof(t32_complsp2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v1_valued_0(A)) ) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) &  (v1_finseq_1(B) & v1_valued_0(B)) ) )  =>  ( (k3_finseq_1(A)=k3_finseq_1(B) & k1_valued_1(A, B)=k17_seq_4(k3_finseq_1(A)))  =>  (A=k30_valued_1(B) & B=k30_valued_1(A)) ) ) ) ) ) ).

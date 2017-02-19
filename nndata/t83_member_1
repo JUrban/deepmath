@@ -1,0 +1,13 @@
+C fof(t83_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) =>  (! [C] :  (v2_membered(C) => r1_tarski(k12_member_1(A, k3_xboole_0(B, C)), k3_xboole_0(k12_member_1(A, B), k12_member_1(A, C)))) ) ) ) ) ) ).
++ fof(t19_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(A, C))  => r1_tarski(A, k3_xboole_0(B, C))) ) ) ) ).
++ fof(t81_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) =>  (! [C] :  (v2_membered(C) =>  (! [D] :  (v2_membered(D) =>  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k12_member_1(A, C), k12_member_1(B, D))) ) ) ) ) ) ) ) ) ).
++ fof(fc33_membered, axiom,  (! [A, B] :  (v2_membered(A) => v2_membered(k3_xboole_0(A, B))) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t17_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(k3_xboole_0(A, B), A)) ) ).
++ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
+- fof(d9_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) => k12_member_1(A, B)=a_2_4_member_1(A, B)) ) ) ) ).
+- fof(commutativity_k12_member_1, axiom,  (! [A, B] :  ( (v2_membered(A) & v2_membered(B))  => k12_member_1(A, B)=k12_member_1(B, A)) ) ).
+- fof(fc41_member_1, axiom,  (! [A, B] :  ( (v2_membered(A) & v2_membered(B))  => v2_membered(k12_member_1(A, B))) ) ).
+- fof(fraenkel_a_2_4_member_1, axiom,  (! [A, B, C] :  ( (v2_membered(B) & v2_membered(C))  =>  (r2_hidden(A, a_2_4_member_1(B, C)) <=>  (? [D, E] :  ( (m1_subset_1(D, k7_numbers) & m1_subset_1(E, k7_numbers))  &  (A=k3_member_1(D, E) &  (r2_hidden(D, B) & r2_hidden(E, C)) ) ) ) ) ) ) ).
+- fof(d4_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k3_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) & r2_hidden(D, B)) ) ) ) ) ) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).

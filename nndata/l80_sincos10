@@ -1,0 +1,21 @@
+C fof(l80_sincos10, axiom, k1_relset_1(k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k2_fdiff_9, k1_rcomp_1(k10_real_1(k32_sin_cos, 4), k10_real_1(k32_sin_cos, 2))))=k1_rcomp_1(k10_real_1(k32_sin_cos, 4), k10_real_1(k32_sin_cos, 2))).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(dt_k2_fdiff_9, axiom,  (v1_funct_1(k2_fdiff_9) & m1_subset_1(k2_fdiff_9, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ).
++ fof(t4_sincos10, axiom, r1_tarski(k4_rcomp_1(k6_numbers, k10_real_1(k32_sin_cos, 2)), k1_relset_1(k1_numbers, k2_fdiff_9))).
++ fof(redefinition_k2_partfun1, axiom,  (! [A, B, C, D] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  => k2_partfun1(A, B, C, D)=k5_relat_1(C, D)) ) ).
++ fof(dt_k2_partfun1, axiom,  (! [A, B, C, D] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  =>  (v1_funct_1(k2_partfun1(A, B, C, D)) & m1_subset_1(k2_partfun1(A, B, C, D), k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ) ).
++ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
++ fof(t62_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(A, k9_xtuple_0(B)) => k9_xtuple_0(k5_relat_1(B, A))=A) ) ) ) ).
++ fof(l32_sincos10, axiom, r1_tarski(k1_rcomp_1(k10_real_1(k32_sin_cos, 4), k10_real_1(k32_sin_cos, 2)), k4_rcomp_1(k6_numbers, k10_real_1(k32_sin_cos, 2)))).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
++ fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
+- fof(l79_sincos10, axiom, k1_relset_1(k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k2_fdiff_9, k1_rcomp_1(k1_real_1(k10_real_1(k32_sin_cos, 2)), k1_real_1(k10_real_1(k32_sin_cos, 4)))))=k1_rcomp_1(k1_real_1(k10_real_1(k32_sin_cos, 2)), k1_real_1(k10_real_1(k32_sin_cos, 4)))).
+- fof(l77_sincos10, axiom, k1_relset_1(k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k1_fdiff_9, k1_rcomp_1(k6_numbers, k10_real_1(k32_sin_cos, 4))))=k1_rcomp_1(k6_numbers, k10_real_1(k32_sin_cos, 4))).
+- fof(l27_sin_cos9, axiom, k1_relset_1(k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k29_sin_cos, k1_rcomp_1(k1_real_1(k10_real_1(k32_sin_cos, 4)), k10_real_1(k32_sin_cos, 4))))=k1_rcomp_1(k1_real_1(k10_real_1(k32_sin_cos, 4)), k10_real_1(k32_sin_cos, 4))).
+- fof(l28_sin_cos9, axiom, k1_relset_1(k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k30_sin_cos, k1_rcomp_1(k10_real_1(k32_sin_cos, 4), k8_real_1(k10_real_1(3, 4), k32_sin_cos))))=k1_rcomp_1(k10_real_1(k32_sin_cos, 4), k8_real_1(k10_real_1(3, 4), k32_sin_cos))).
+- fof(l78_sincos10, axiom, k1_relset_1(k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k1_fdiff_9, k1_rcomp_1(k8_real_1(k10_real_1(3, 4), k32_sin_cos), k32_sin_cos)))=k1_rcomp_1(k8_real_1(k10_real_1(3, 4), k32_sin_cos), k32_sin_cos)).
+- fof(l114_sin_cos, axiom,  (k1_relset_1(k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k29_sin_cos, k1_rcomp_1(k6_numbers, 1)))=k1_rcomp_1(k6_numbers, 1) &  (! [A] :  (v1_xreal_0(A) =>  (r2_hidden(A, k1_rcomp_1(k6_numbers, 1)) => k1_seq_1(k2_partfun1(k1_numbers, k1_numbers, k29_sin_cos, k1_rcomp_1(k6_numbers, 1)), A)=k1_seq_1(k29_sin_cos, A)) ) ) ) ).
+- fof(l37_sincos10, axiom, k2_rcomp_1(k1_real_1(k10_real_1(k32_sin_cos, 2)), k6_numbers)=k1_relset_1(k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k2_fdiff_9, k2_rcomp_1(k1_real_1(k10_real_1(k32_sin_cos, 2)), k6_numbers)))).
+- fof(l39_sincos10, axiom, k2_rcomp_1(k6_numbers, k10_real_1(k32_sin_cos, 2))=k1_relset_1(k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k2_fdiff_9, k2_rcomp_1(k6_numbers, k10_real_1(k32_sin_cos, 2))))).
+- fof(t36_sincos10, axiom,  (! [A] :  (r2_hidden(A, k1_rcomp_1(k10_real_1(k32_sin_cos, 4), k10_real_1(k32_sin_cos, 2))) => r2_hidden(k1_seq_1(k2_fdiff_9, A), k1_rcomp_1(1, k7_square_1(2)))) ) ).
+- fof(t74_relat_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) =>  (r1_tarski(A, B) => k5_relat_1(k5_relat_1(C, B), A)=k5_relat_1(C, A)) ) ) ) ) ).

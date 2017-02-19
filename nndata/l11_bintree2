@@ -1,0 +1,5 @@
+C fof(l11_bintree2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m2_finseq_1(B, A) => m2_finseq_1(k4_finseq_5(A, B), A)) ) ) ) ).
++ fof(dt_k4_finseq_5, axiom,  (! [A, B] :  (m1_finseq_1(B, A) => m2_finseq_1(k4_finseq_5(A, B), A)) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
+- fof(t84_finseq_6, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (! [D] :  (m2_finseq_1(D, C) =>  (k2_xcmplx_0(A, B)=k3_finseq_1(D) => k4_finseq_5(C, k2_rfinseq(C, B, D))=k17_finseq_1(C, A, k4_finseq_5(C, D))) ) ) ) ) ) ) ) ) ).
+- fof(t30_jordan4, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v3_funct_1(A))  &  (v1_finseq_6(A, u1_struct_0(k15_euclid(2))) &  (v1_topreal1(A) &  (v2_topreal1(A) &  (v1_goboard5(A) &  (v2_goboard5(A) & m2_finseq_1(A, u1_struct_0(k15_euclid(2)))) ) ) ) ) ) )  =>  (! [B] :  (m2_finseq_1(B, u1_struct_0(k15_euclid(2))) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (! [D] :  (m1_subset_1(D, k5_numbers) =>  (r2_jordan4(A, B, C, D) => r1_jordan4(A, k4_finseq_5(u1_struct_0(k15_euclid(2)), B), D, C)) ) ) ) ) ) ) ) ) ).

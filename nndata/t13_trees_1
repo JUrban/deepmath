@@ -1,0 +1,11 @@
+C fof(t13_trees_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  ~ ( (r2_hidden(A, k1_trees_1(B)) & r1_xxreal_0(k3_finseq_1(B), k3_finseq_1(A))) ) ) ) ) ) ).
++ fof(t12_trees_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (r2_hidden(A, k1_trees_1(B)) <=> r2_xboole_0(A, B)) ) ) ) ) ).
++ fof(cc2_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v1_relat_1(A) &  (v1_funct_1(A) & v1_finset_1(A)) ) ) ) ).
++ fof(redefinition_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_1(A)=k1_card_1(A)) ) ).
++ fof(t6_trees_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (v1_finset_1(B) =>  ~ ( (r2_xboole_0(A, B) & r1_xxreal_0(k5_card_1(B), k5_card_1(A))) ) ) ) ) ) ).
++ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
+- fof(d2_trees_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (B=k1_trees_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  ( (v1_relat_1(D) &  (v1_funct_1(D) & v1_finseq_1(D)) )  &  (C=D & r2_xboole_0(D, A)) ) ) ) ) ) ) ) ) ).
+- fof(t11_trees_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (r2_hidden(A, k1_trees_1(B)) =>  (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) ) ) ) ) ) ).
+- fof(t63_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (r1_tarski(A, B) => r1_xxreal_0(k3_finseq_1(A), k3_finseq_1(B))) ) ) ) ) ).
+- fof(t58_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (r1_xxreal_0(k3_finseq_1(B), A) => k16_finseq_1(A, B)=B) ) ) ) ) ).
+- fof(t59_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) => r1_tarski(k5_relat_1(B, A), B)) ) ) ).

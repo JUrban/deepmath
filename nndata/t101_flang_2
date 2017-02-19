@@ -1,0 +1,9 @@
+C fof(t101_flang_2, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k8_afinsq_1(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k8_afinsq_1(A))) =>  (r1_tarski(B, k6_flang_1(A, B, k2_flang_2(A, C))) & r1_tarski(B, k6_flang_1(A, k2_flang_2(A, C), B))) ) ) ) ) ) ).
++ fof(redefinition_k3_catalan2, axiom,  (! [A] : k3_catalan2(A)=k8_afinsq_1(A)) ).
++ fof(dt_k2_flang_2, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k8_afinsq_1(A))) => m1_subset_1(k2_flang_2(A, B), k1_zfmisc_1(k8_afinsq_1(A)))) ) ).
++ fof(t78_flang_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k8_afinsq_1(B))) =>  (r2_hidden(A, k2_flang_2(B, C)) <=>  (A=k2_flang_1(B) | r2_hidden(A, C)) ) ) ) ) ) ).
++ fof(t16_flang_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_catalan2(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k3_catalan2(A))) =>  (r2_hidden(k2_flang_1(A), B) =>  (r1_tarski(C, k6_flang_1(A, C, B)) & r1_tarski(C, k6_flang_1(A, B, C))) ) ) ) ) ) ) ).
+- fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
+- fof(t91_flang_2, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k8_afinsq_1(A))) => k6_flang_1(A, k2_flang_2(A, B), B)=k6_flang_1(A, B, k2_flang_2(A, B))) ) ) ).
+- fof(t93_flang_2, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k8_afinsq_1(A))) => k6_flang_1(A, k2_flang_2(A, B), k2_flang_2(A, B))=k1_flang_2(A, B, k6_numbers, 2)) ) ) ).
+- fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).

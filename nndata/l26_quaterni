@@ -1,0 +1,7 @@
+C fof(l26_quaterni, axiom, k6_numbers=k6_quaterni(k6_numbers, k6_numbers, k6_numbers, k6_numbers)).
++ fof(l6_xcmplx_0, axiom, k6_numbers=k5_arytm_0(k6_numbers, k6_numbers)).
++ fof(l15_quaterni, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) => k6_quaterni(A, B, k6_numbers, k6_numbers)=k5_arytm_0(A, B)) ) ) ) ).
++ fof(l19_arytm_0, axiom, m1_subset_1(k6_numbers, k1_numbers)).
+- fof(d6_quaterni, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  (! [E] :  (m1_subset_1(E, k1_quaterni) =>  ( ( (C=k6_numbers & D=k6_numbers)  =>  (E=k6_quaterni(A, B, C, D) <=>  (? [F] :  (m1_subset_1(F, k1_numbers) &  (? [G] :  (m1_subset_1(G, k1_numbers) &  (F=A &  (G=B & E=k5_arytm_0(F, G)) ) ) ) ) ) ) )  &  ( ~ ( (C=k6_numbers & D=k6_numbers) )  =>  (E=k6_quaterni(A, B, C, D) <=> E=k2_quaterni(k6_numbers, 1, 2, 3, A, B, C, D)) ) ) ) ) ) ) ) ) ) ) ) ) ).
+- fof(dt_k6_quaterni, axiom,  (! [A, B, C, D] :  ( (v1_xreal_0(A) &  (v1_xreal_0(B) &  (v1_xreal_0(C) & v1_xreal_0(D)) ) )  => m1_subset_1(k6_quaterni(A, B, C, D), k1_quaterni)) ) ).
+- fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).

@@ -1,0 +1,13 @@
+C fof(t43_rvsum_2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) &  (v1_finseq_1(B) & v1_valued_0(B)) ) )  => k19_rvsum_1(k7_finseq_1(k9_finseq_1(A), B))=k5_binop_2(A, k19_rvsum_1(B))) ) ) ) ).
++ fof(dt_k9_finseq_1, axiom,  (! [A] :  (v1_relat_1(k9_finseq_1(A)) & v1_funct_1(k9_finseq_1(A))) ) ).
++ fof(t97_rvsum_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_valued_0(A) & v1_finseq_1(A)) ) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) &  (v1_valued_0(B) & v1_finseq_1(B)) ) )  => k19_rvsum_1(k7_finseq_1(A, B))=k5_binop_2(k19_rvsum_1(A), k19_rvsum_1(B))) ) ) ) ).
++ fof(fc7_finseq_1, axiom,  (! [A] : v1_finseq_1(k5_finseq_1(A))) ).
++ fof(fc10_rvsum_1, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_valued_0(k5_finseq_1(A))) ) ).
++ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
++ fof(t95_rvsum_1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k19_rvsum_1(k9_finseq_1(A))=A) ) ).
+- fof(t96_rvsum_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_valued_0(A) & v1_finseq_1(A)) ) )  =>  (! [B] :  (v1_xcmplx_0(B) => k19_rvsum_1(k7_finseq_1(A, k9_finseq_1(B)))=k5_binop_2(k19_rvsum_1(A), B)) ) ) ) ).
+- fof(t98_rvsum_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) &  (v3_valued_0(B) & v1_finseq_1(B)) ) )  => k19_rvsum_1(k7_finseq_1(k9_finseq_1(A), B))=k11_binop_2(A, k19_rvsum_1(B))) ) ) ) ).
+- fof(l111_rvsum_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_xboole_0(A) & v1_finseq_1(A)) ) )  => k19_rvsum_1(A)=1) ) ).
+- fof(fc9_rvsum_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v3_valued_0(A) & v1_finseq_1(A)) ) )  =>  (v1_xcmplx_0(k19_rvsum_1(A)) & v1_xreal_0(k19_rvsum_1(A))) ) ) ).
+- fof(t99_rvsum_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k19_rvsum_1(k10_finseq_1(A, B))=k5_binop_2(A, B)) ) ) ) ).
+- fof(redefinition_k11_binop_2, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k11_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).

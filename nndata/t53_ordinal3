@@ -1,0 +1,19 @@
+C fof(t53_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(A, B) =>  ( ( ~ (r1_ordinal1(C, A))  &  ~ (r2_hidden(C, A)) )  | r2_hidden(k5_ordinal3(A, C), k5_ordinal3(B, C))) ) ) ) ) ) ) ) ).
++ fof(t16_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r1_ordinal1(A, B) | r2_hidden(B, A)) ) ) ) ) ).
++ fof(dt_k5_ordinal3, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  => v3_ordinal1(k5_ordinal3(A, B))) ) ).
++ fof(t22_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(k10_ordinal2(A, B), k10_ordinal2(A, C)) => r2_hidden(B, C)) ) ) ) ) ) ) ).
++ fof(connectedness_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) | r1_ordinal1(B, A)) ) ) ).
++ fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
++ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
++ fof(t13_ordinal1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, B) => v3_ordinal1(A)) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d5_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  ( (r1_ordinal1(B, A) =>  (C=k5_ordinal3(A, B) <=> A=k10_ordinal2(B, C)) )  &  ( ~ (r1_ordinal1(B, A))  =>  (C=k5_ordinal3(A, B) <=> C=k1_xboole_0) ) ) ) ) ) ) ) ) ).
+- fof(t51_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, B) => B=k10_ordinal2(A, k5_ordinal3(B, A))) ) ) ) ) ).
+- fof(d7_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) => k7_ordinal3(A, B)=k5_ordinal3(A, k11_ordinal2(k6_ordinal3(A, B), B))) ) ) ) ).
+- fof(t52_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) => k5_ordinal3(k10_ordinal2(A, B), A)=B) ) ) ) ).
+- fof(dt_k10_ordinal2, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  => v3_ordinal1(k10_ordinal2(A, B))) ) ).
+- fof(t24_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r1_ordinal1(A, k10_ordinal2(A, B)) & r1_ordinal1(B, k10_ordinal2(A, B))) ) ) ) ) ).
+- fof(t34_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (r1_ordinal1(A, B) => r1_ordinal1(k10_ordinal2(A, C), k10_ordinal2(B, C))) ) ) ) ) ) ) ).
+- fof(d9_ordinal1, axiom,  (! [A] :  (! [B] :  (B=k2_ordinal1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (r2_hidden(C, A) & v3_ordinal1(C)) ) ) ) ) ) ).
+- fof(t20_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  ( (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(C, B) => r2_hidden(C, A)) ) )  => r1_ordinal1(k3_ordinal2(B), A)) ) ) ) ).
+- fof(reflexivity_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  => r1_ordinal1(A, A)) ) ).
