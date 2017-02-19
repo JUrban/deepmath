@@ -1,10 +1,10 @@
 C fof(t4_scmring2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  ( ( ~ (v2_struct_0(C))  &  (v13_algstr_0(C) &  (v2_rlvect_1(C) &  (v3_rlvect_1(C) &  (v4_rlvect_1(C) &  (v3_group_1(C) &  (v4_vectsp_1(C) &  (v5_vectsp_1(C) & l6_algstr_0(C)) ) ) ) ) ) ) )  =>  (! [D] :  ( (v1_ami_2(D) & m1_subset_1(D, u1_struct_0(k1_scmring2(C))))  => r2_hidden(k3_xtuple_0(5, k1_xboole_0, k10_finseq_1(D, B)), k1_scmringi(A))) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k2_ami_2, axiom, k2_ami_2=k2_scm_inst).
 + fof(d16_ami_2, axiom,  (! [A] :  (v1_ami_2(A) <=> r2_hidden(A, k2_ami_2)) ) ).
-+ fof(t9_scmringi, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, k2_scm_inst) => r2_hidden(k3_xtuple_0(5, k1_xboole_0, k7_scmringi(A, C, B)), k1_scmringi(A))) ) ) ) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(redefinition_k2_ami_2, axiom, k2_ami_2=k2_scm_inst).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(redefinition_k7_scmringi, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  &  (m1_subset_1(B, k2_scm_inst) & m1_subset_1(C, u1_struct_0(A))) )  => k7_scmringi(A, B, C)=k10_finseq_1(B, C)) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t9_scmringi, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, k2_scm_inst) => r2_hidden(k3_xtuple_0(5, k1_xboole_0, k7_scmringi(A, C, B)), k1_scmringi(A))) ) ) ) ) ) ).
 - fof(t3_scmring2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (! [B] :  (! [C] :  ( ( ~ (v2_struct_0(C))  &  (v13_algstr_0(C) &  (v2_rlvect_1(C) &  (v3_rlvect_1(C) &  (v4_rlvect_1(C) &  (v3_group_1(C) &  (v4_vectsp_1(C) &  (v5_vectsp_1(C) & l6_algstr_0(C)) ) ) ) ) ) ) )  =>  (! [D] :  ( (v1_ami_2(D) & m1_subset_1(D, u1_struct_0(k1_scmring2(C))))  =>  (! [E] :  ( (v1_ami_2(E) & m1_subset_1(E, u1_struct_0(k1_scmring2(C))))  =>  (r2_hidden(B, k9_domain_1(k5_numbers, 1, 2, 3, 4)) => r2_hidden(k3_xtuple_0(B, k1_xboole_0, k10_finseq_1(D, E)), k1_scmringi(A))) ) ) ) ) ) ) ) ) ) ).
 - fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
 - fof(d1_scmringi, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  => k1_scmringi(A)=k2_xboole_0(k2_xboole_0(k2_xboole_0(k2_xboole_0(k1_tarski(k3_xtuple_0(k6_numbers, k1_xboole_0, k1_xboole_0)), a_0_0_scmringi), a_0_1_scmringi), a_0_2_scmringi), a_1_0_scmringi(A))) ) ).

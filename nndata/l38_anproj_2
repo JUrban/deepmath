@@ -1,18 +1,18 @@
 C fof(l38_anproj_2, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  ~ ( ( ~ (A=k6_numbers)  &  ( ~ (B=C)  &  ( ~ (D=k6_numbers)  & k8_real_1(D, k2_real_1(k9_real_1(k8_real_1(C, A), k8_real_1(B, A))))=k6_numbers) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t202_xcmplx_1, axiom, k5_xcmplx_0(k6_numbers)=k6_numbers).
-+ fof(l36_anproj_2, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  ~ ( ( ~ (A=B)  &  ( ~ (C=k6_numbers)  & k9_real_1(k8_real_1(B, C), k8_real_1(A, C))=k6_numbers) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k3_xcmplx_0(A, B)) ) ).
-+ fof(fc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k5_xcmplx_0(A)) & v1_xreal_0(k5_xcmplx_0(A))) ) ) ).
-+ fof(t4_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k6_xcmplx_0(A, k6_numbers)=A) ) ).
++ fof(cc1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(commutativity_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k8_real_1(B, A)) ) ).
++ fof(dt_k2_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k2_real_1(A), k1_numbers)) ) ).
 + fof(dt_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k8_real_1(A, B), k1_numbers)) ) ).
 + fof(dt_k9_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k9_real_1(A, B), k1_numbers)) ) ).
-+ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
-+ fof(commutativity_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k8_real_1(B, A)) ) ).
++ fof(fc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k5_xcmplx_0(A)) & v1_xreal_0(k5_xcmplx_0(A))) ) ) ).
 + fof(involutiveness_k2_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k2_real_1(k2_real_1(A))=A) ) ).
++ fof(l36_anproj_2, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  ~ ( ( ~ (A=B)  &  ( ~ (C=k6_numbers)  & k9_real_1(k8_real_1(B, C), k8_real_1(A, C))=k6_numbers) ) ) ) ) ) ) ) ) ).
 + fof(redefinition_k2_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k2_real_1(A)=k5_xcmplx_0(A)) ) ).
-+ fof(dt_k2_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k2_real_1(A), k1_numbers)) ) ).
++ fof(redefinition_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k3_xcmplx_0(A, B)) ) ).
 + fof(redefinition_k9_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k9_real_1(A, B)=k6_xcmplx_0(A, B)) ) ).
-+ fof(cc1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(t202_xcmplx_1, axiom, k5_xcmplx_0(k6_numbers)=k6_numbers).
++ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
++ fof(t4_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k6_xcmplx_0(A, k6_numbers)=A) ) ).
 - fof(l37_anproj_2, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  (! [E] :  (m1_subset_1(E, k1_numbers) =>  (! [F] :  (m1_subset_1(F, k1_numbers) =>  (! [G] :  (m1_subset_1(G, k1_numbers) =>  (! [H] :  (m1_subset_1(H, k1_numbers) =>  ( (k7_real_1(E, G)=k7_real_1(F, H) &  (k8_real_1(E, A)=k8_real_1(F, B) & k8_real_1(G, C)=k8_real_1(H, D)) )  =>  (A=B |  (D=k6_numbers | E=k8_real_1(k8_real_1(k9_real_1(k8_real_1(B, C), k8_real_1(B, D)), k2_real_1(k9_real_1(k8_real_1(B, D), k8_real_1(A, D)))), G)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t15_rat_1, axiom,  (! [A] :  (v1_rat_1(A) =>  (A=k6_real_1(k2_rat_1(A), k1_rat_1(A)) &  (A=k4_real_1(k2_rat_1(A), k2_real_1(k1_rat_1(A))) & A=k8_real_1(k2_real_1(k1_rat_1(A)), k2_rat_1(A))) ) ) ) ).
 - fof(l9_anproj_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) & l1_rlvect_1(A)) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (! [E] :  (m1_subset_1(E, k1_numbers) =>  (! [F] :  (m1_subset_1(F, k1_numbers) =>  (! [G] :  (m1_subset_1(G, k1_numbers) =>  (k3_rlvect_1(A, k3_rlvect_1(A, k1_rlvect_1(A, B, E), k1_rlvect_1(A, C, F)), k1_rlvect_1(A, D, G))=k4_struct_0(A) =>  (E=k6_numbers | B=k3_rlvect_1(A, k1_rlvect_1(A, C, k1_real_1(k8_real_1(k2_real_1(E), F))), k1_rlvect_1(A, D, k1_real_1(k8_real_1(k2_real_1(E), G))))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

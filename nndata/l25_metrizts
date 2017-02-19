@@ -1,17 +1,17 @@
 C fof(l25_metrizts, axiom,  (! [A] :  ( (v2_pre_topc(A) &  (v3_pcomps_1(A) & l1_pre_topc(A)) )  =>  (! [B] :  ( ( ~ (v1_finset_1(B))  & v1_card_1(B))  =>  (r1_ordinal1(k4_topgen_1(A), B) => r1_ordinal1(k2_waybel23(A), B)) ) ) ) ) ).
-+ fof(l18_metrizts, axiom,  (! [A] :  ( ( ~ (v1_finset_1(A))  & v1_card_1(A))  => k2_card_2(k4_ordinal1, A)=A) ) ).
-+ fof(t17_metrizts, axiom,  (! [A] :  ( (v2_pre_topc(A) &  (v3_pcomps_1(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v1_tops_1(B, A) => r1_ordinal1(k2_waybel23(A), k2_card_2(k4_ordinal1, k1_card_1(B)))) ) ) ) ) ).
-+ fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
-+ fof(reflexivity_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  => r1_ordinal1(A, A)) ) ).
-+ fof(fc4_card_1, axiom, v1_card_1(k4_ordinal1)).
-+ fof(d12_topgen_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (v1_card_1(B) =>  (B=k4_topgen_1(A) <=>  ( (? [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) &  (v1_tops_1(C, A) & B=k1_card_1(C)) ) )  &  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (v1_tops_1(C, A) => r1_ordinal1(B, k1_card_1(C))) ) ) ) ) ) ) ) ) ).
 + fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
++ fof(d12_topgen_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (v1_card_1(B) =>  (B=k4_topgen_1(A) <=>  ( (? [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) &  (v1_tops_1(C, A) & B=k1_card_1(C)) ) )  &  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (v1_tops_1(C, A) => r1_ordinal1(B, k1_card_1(C))) ) ) ) ) ) ) ) ) ).
 + fof(dt_k2_card_2, axiom,  (! [A, B] :  ( (v1_card_1(A) & v1_card_1(B))  => v1_card_1(k2_card_2(A, B))) ) ).
-+ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(t90_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (v1_card_1(C) =>  (! [D] :  (v1_card_1(D) =>  ( ~ ( ( ~ ( (r2_hidden(A, B) & r2_hidden(C, D)) )  &  ( ~ ( (r1_ordinal1(A, B) & r2_hidden(C, D)) )  &  ( ~ ( (r2_hidden(A, B) & r1_ordinal1(C, D)) )  &  ~ ( (r1_ordinal1(A, B) & r1_ordinal1(C, D)) ) ) ) ) )  =>  (r1_ordinal1(k2_card_2(A, C), k2_card_2(B, D)) & r1_ordinal1(k2_card_2(C, A), k2_card_2(B, D))) ) ) ) ) ) ) ) ) ) ).
 + fof(dt_k2_waybel23, axiom,  (! [A] :  (l1_pre_topc(A) => v1_card_1(k2_waybel23(A))) ) ).
 + fof(dt_k4_topgen_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  => v1_card_1(k4_topgen_1(A))) ) ).
++ fof(fc4_card_1, axiom, v1_card_1(k4_ordinal1)).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(l18_metrizts, axiom,  (! [A] :  ( ( ~ (v1_finset_1(A))  & v1_card_1(A))  => k2_card_2(k4_ordinal1, A)=A) ) ).
++ fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
++ fof(reflexivity_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  => r1_ordinal1(A, A)) ) ).
++ fof(t17_metrizts, axiom,  (! [A] :  ( (v2_pre_topc(A) &  (v3_pcomps_1(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v1_tops_1(B, A) => r1_ordinal1(k2_waybel23(A), k2_card_2(k4_ordinal1, k1_card_1(B)))) ) ) ) ) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
++ fof(t90_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (v1_card_1(C) =>  (! [D] :  (v1_card_1(D) =>  ( ~ ( ( ~ ( (r2_hidden(A, B) & r2_hidden(C, D)) )  &  ( ~ ( (r1_ordinal1(A, B) & r2_hidden(C, D)) )  &  ( ~ ( (r2_hidden(A, B) & r1_ordinal1(C, D)) )  &  ~ ( (r1_ordinal1(A, B) & r1_ordinal1(C, D)) ) ) ) ) )  =>  (r1_ordinal1(k2_card_2(A, C), k2_card_2(B, D)) & r1_ordinal1(k2_card_2(C, A), k2_card_2(B, D))) ) ) ) ) ) ) ) ) ) ).
 - fof(t5_topgen_4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  => r1_ordinal1(k4_topgen_1(A), k2_waybel23(A))) ) ).
 - fof(l23_metrizts, axiom,  (! [A] :  ( (v2_pre_topc(A) &  (v3_pcomps_1(A) & l1_pre_topc(A)) )  =>  (! [B] :  ( ( ~ (v1_finset_1(B))  & v1_card_1(B))  =>  ( (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A)))) =>  ( (v1_tops_2(C, A) &  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(A))) =>  (! [E] :  (m1_subset_1(E, k1_zfmisc_1(u1_struct_0(A))) =>  ( (r2_hidden(D, C) & r2_hidden(E, C))  =>  (D=E | r1_xboole_0(D, E)) ) ) ) ) ) )  =>  (r2_hidden(k1_xboole_0, C) | r1_ordinal1(k1_card_1(C), B)) ) ) )  => r1_ordinal1(k4_topgen_1(A), B)) ) ) ) ) ).
 - fof(d13_topgen_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (v7_topgen_1(A) <=> r1_ordinal1(k4_topgen_1(A), k4_ordinal1)) ) ) ).

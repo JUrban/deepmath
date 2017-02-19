@@ -1,8 +1,8 @@
 C fof(t4_sin_cos6, axiom,  (! [A] :  (v1_xreal_0(A) => r1_xxreal_0(k17_sin_cos(A), 1)) ) ).
-+ fof(t27_sin_cos, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (k17_complex1(k15_sin_cos(k3_xcmplx_0(A, k7_complex1)))=1 &  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(k18_complex1(k17_sin_cos(B)), 1) & r1_xxreal_0(k18_complex1(k20_sin_cos(B)), 1)) ) ) ) ) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
 + fof(fc3_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xreal_0(k17_sin_cos(A))) ) ).
 + fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t27_sin_cos, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (k17_complex1(k15_sin_cos(k3_xcmplx_0(A, k7_complex1)))=1 &  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(k18_complex1(k17_sin_cos(B)), 1) & r1_xxreal_0(k18_complex1(k20_sin_cos(B)), 1)) ) ) ) ) ) ).
 + fof(t5_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( (r1_xxreal_0(k4_xcmplx_0(A), B) & r1_xxreal_0(B, A))  <=> r1_xxreal_0(k18_complex1(B), A)) ) ) ) ) ).
 - fof(t3_sin_cos6, axiom,  (! [A] :  (v1_xreal_0(A) => r1_xxreal_0(k1_real_1(1), k17_sin_cos(A))) ) ).
 - fof(t6_complex2, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( (r2_hidden(A, k2_rcomp_1(k6_numbers, k13_complex1(k32_sin_cos, 2))) & r2_hidden(B, k2_rcomp_1(k6_numbers, k13_complex1(k32_sin_cos, 2))))  =>  ( ~ ( ( ~ (r1_xxreal_0(B, A))  & r1_xxreal_0(k17_sin_cos(B), k17_sin_cos(A))) )  &  ~ ( ( ~ (r1_xxreal_0(k17_sin_cos(B), k17_sin_cos(A)))  & r1_xxreal_0(B, A)) ) ) ) ) ) ) ) ).

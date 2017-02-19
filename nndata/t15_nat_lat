@@ -1,7 +1,7 @@
 C fof(t15_nat_lat, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  => m2_nat_lat(A, A)) ) ).
 + fof(d12_nat_lat, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v10_lattices(B) & l3_lattices(B)) )  =>  (m2_nat_lat(B, A) <=>  (r1_tarski(u1_struct_0(B), u1_struct_0(A)) &  (u2_lattices(B)=k1_realset1(u2_lattices(A), u1_struct_0(B)) & u1_lattices(B)=k1_realset1(u1_lattices(A), u1_struct_0(B))) ) ) ) ) ) ) ).
-+ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
 + fof(l30_nat_lat, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  (u2_lattices(A)=k1_realset1(u2_lattices(A), u1_struct_0(A)) & u1_lattices(A)=k1_realset1(u1_lattices(A), u1_struct_0(A))) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
 - fof(existence_m2_nat_lat, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  (? [B] : m2_nat_lat(B, A)) ) ) ).
 - fof(rc1_nat_lat, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  (? [B] :  (m2_nat_lat(B, A) &  ( ~ (v2_struct_0(B))  &  (v3_lattices(B) &  (v4_lattices(B) &  (v5_lattices(B) &  (v6_lattices(B) &  (v7_lattices(B) &  (v8_lattices(B) &  (v9_lattices(B) & v10_lattices(B)) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(dt_m2_nat_lat, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  (! [B] :  (m2_nat_lat(B, A) =>  ( ~ (v2_struct_0(B))  &  (v10_lattices(B) & l3_lattices(B)) ) ) ) ) ) ).

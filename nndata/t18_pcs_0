@@ -1,20 +1,20 @@
 C fof(t18_pcs_0, axiom,  (! [A] :  ( (v14_pcs_0(A) & l2_pcs_0(A))  =>  (! [B] :  ( (v14_pcs_0(B) & l2_pcs_0(B))  =>  (r1_tsep_1(A, B) => v8_relat_2(u1_orders_2(k18_pcs_0(A, B)))) ) ) ) ) ).
-+ fof(fc5_orders_2, axiom,  (! [A] :  ( (v2_orders_2(A) &  (v4_orders_2(A) & l1_orders_2(A)) )  => v8_relat_2(u1_orders_2(A))) ) ).
-+ fof(dt_l1_pcs_0, axiom,  (! [A] :  (l1_pcs_0(A) => l1_struct_0(A)) ) ).
-+ fof(cc1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) =>  (v3_orders_2(A) => v2_orders_2(A)) ) ) ).
-+ fof(dt_g2_pcs_0, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  =>  (v12_pcs_0(g2_pcs_0(A, B, C)) & l2_pcs_0(g2_pcs_0(A, B, C))) ) ) ).
-+ fof(dt_u1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => m1_subset_1(u1_orders_2(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ).
-+ fof(redefinition_k2_pcs_0, axiom,  (! [A, B, C, D, E, F] :  ( (m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(A, B))) & m1_subset_1(F, k1_zfmisc_1(k2_zfmisc_1(C, D))))  => k2_pcs_0(A, B, C, D, E, F)=k2_xboole_0(E, F)) ) ).
-+ fof(t1_pcs_0, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v8_relat_2(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  =>  (! [D] :  ( (v8_relat_2(D) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(B, B))))  =>  (r1_xboole_0(A, B) => v8_relat_2(k2_pcs_0(A, A, B, B, C, D))) ) ) ) ) ) ) ).
-+ fof(dt_l2_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  (l1_orders_2(A) & l1_pcs_0(A)) ) ) ).
-+ fof(free_g2_pcs_0, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  =>  (! [D, E, F] :  (g2_pcs_0(A, B, C)=g2_pcs_0(D, E, F) =>  (A=D &  (B=E & C=F) ) ) ) ) ) ).
 + fof(abstractness_v12_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  (v12_pcs_0(A) => A=g2_pcs_0(u1_struct_0(A), u1_orders_2(A), u1_pcs_0(A))) ) ) ).
-+ fof(dt_k2_pcs_0, axiom,  (! [A, B, C, D, E, F] :  ( (m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(A, B))) & m1_subset_1(F, k1_zfmisc_1(k2_zfmisc_1(C, D))))  => m1_subset_1(k2_pcs_0(A, B, C, D, E, F), k1_zfmisc_1(k2_zfmisc_1(k2_xboole_0(A, C), k2_xboole_0(B, D))))) ) ).
-+ fof(dt_u1_pcs_0, axiom,  (! [A] :  (l1_pcs_0(A) => m1_subset_1(u1_pcs_0(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ).
-+ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(cc1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) =>  (v3_orders_2(A) => v2_orders_2(A)) ) ) ).
 + fof(cc7_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  (v14_pcs_0(A) =>  (v3_orders_2(A) &  (v4_orders_2(A) &  (v4_pcs_0(A) &  (v6_pcs_0(A) & v13_pcs_0(A)) ) ) ) ) ) ) ).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
 + fof(d3_tsep_1, axiom,  (! [A] :  (l1_struct_0(A) =>  (! [B] :  (l1_struct_0(B) =>  (r1_tsep_1(A, B) <=> r1_xboole_0(u1_struct_0(A), u1_struct_0(B))) ) ) ) ) ).
++ fof(dt_g2_pcs_0, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  =>  (v12_pcs_0(g2_pcs_0(A, B, C)) & l2_pcs_0(g2_pcs_0(A, B, C))) ) ) ).
++ fof(dt_k2_pcs_0, axiom,  (! [A, B, C, D, E, F] :  ( (m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(A, B))) & m1_subset_1(F, k1_zfmisc_1(k2_zfmisc_1(C, D))))  => m1_subset_1(k2_pcs_0(A, B, C, D, E, F), k1_zfmisc_1(k2_zfmisc_1(k2_xboole_0(A, C), k2_xboole_0(B, D))))) ) ).
++ fof(dt_l1_pcs_0, axiom,  (! [A] :  (l1_pcs_0(A) => l1_struct_0(A)) ) ).
++ fof(dt_l2_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  (l1_orders_2(A) & l1_pcs_0(A)) ) ) ).
++ fof(dt_u1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => m1_subset_1(u1_orders_2(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ).
++ fof(dt_u1_pcs_0, axiom,  (! [A] :  (l1_pcs_0(A) => m1_subset_1(u1_pcs_0(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ).
++ fof(fc5_orders_2, axiom,  (! [A] :  ( (v2_orders_2(A) &  (v4_orders_2(A) & l1_orders_2(A)) )  => v8_relat_2(u1_orders_2(A))) ) ).
++ fof(free_g2_pcs_0, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  =>  (! [D, E, F] :  (g2_pcs_0(A, B, C)=g2_pcs_0(D, E, F) =>  (A=D &  (B=E & C=F) ) ) ) ) ) ).
++ fof(redefinition_k2_pcs_0, axiom,  (! [A, B, C, D, E, F] :  ( (m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(A, B))) & m1_subset_1(F, k1_zfmisc_1(k2_zfmisc_1(C, D))))  => k2_pcs_0(A, B, C, D, E, F)=k2_xboole_0(E, F)) ) ).
 + fof(t15_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  (! [B] :  (l2_pcs_0(B) => k18_pcs_0(A, B)=g2_pcs_0(k2_xboole_0(u1_struct_0(A), u1_struct_0(B)), k2_pcs_0(u1_struct_0(A), u1_struct_0(A), u1_struct_0(B), u1_struct_0(B), u1_orders_2(A), u1_orders_2(B)), k2_pcs_0(u1_struct_0(A), u1_struct_0(A), u1_struct_0(B), u1_struct_0(B), u1_pcs_0(A), u1_pcs_0(B)))) ) ) ) ).
++ fof(t1_pcs_0, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v8_relat_2(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  =>  (! [D] :  ( (v8_relat_2(D) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(B, B))))  =>  (r1_xboole_0(A, B) => v8_relat_2(k2_pcs_0(A, A, B, B, C, D))) ) ) ) ) ) ) ).
 - fof(t14_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  (! [B] :  (l2_pcs_0(B) =>  (u1_struct_0(k18_pcs_0(A, B))=k2_xboole_0(u1_struct_0(A), u1_struct_0(B)) &  (u1_orders_2(k18_pcs_0(A, B))=k2_pcs_0(u1_struct_0(A), u1_struct_0(A), u1_struct_0(B), u1_struct_0(B), u1_orders_2(A), u1_orders_2(B)) & u1_pcs_0(k18_pcs_0(A, B))=k2_pcs_0(u1_struct_0(A), u1_struct_0(A), u1_struct_0(B), u1_struct_0(B), u1_pcs_0(A), u1_pcs_0(B))) ) ) ) ) ) ).
 - fof(cc8_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  ( (v3_orders_2(A) &  (v4_orders_2(A) &  (v4_pcs_0(A) &  (v6_pcs_0(A) & v13_pcs_0(A)) ) ) )  => v14_pcs_0(A)) ) ) ).
 - fof(rc11_pcs_0, axiom,  (? [A] :  (l2_pcs_0(A) &  ( ~ (v2_struct_0(A))  &  (v12_pcs_0(A) & v14_pcs_0(A)) ) ) ) ).

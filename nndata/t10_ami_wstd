@@ -1,22 +1,22 @@
 C fof(t10_ami_wstd, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) &  (v2_ami_wstd(B, A) & l1_extpro_1(B, A)) ) ) )  => v1_ami_wstd(B, A)) ) ) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(cc18_membered, axiom,  (! [A] :  (v1_xboole_0(A) => v6_membered(A)) ) ).
-+ fof(dt_k3_ami_wstd, axiom,  (! [A, B, C] :  ( ( ~ (v1_setfam_1(A))  &  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) &  (v2_ami_wstd(B, A) & l1_extpro_1(B, A)) ) ) )  & v7_ordinal1(C)) )  => m2_subset_1(k3_ami_wstd(A, B, C), k1_numbers, k5_numbers)) ) ).
-+ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(fc11_xxreal_2, axiom,  ( ~ (v3_xxreal_2(k1_numbers))  &  ~ (v4_xxreal_2(k1_numbers)) ) ).
-+ fof(cc9_xxreal_2, axiom,  (! [A] :  (v6_membered(A) =>  (v6_membered(A) & v3_xxreal_2(A)) ) ) ).
-+ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(t7_ami_wstd, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) &  (v2_ami_wstd(B, A) & l1_extpro_1(B, A)) ) ) )  =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (k3_ami_wstd(A, B, C)=k3_ami_wstd(A, B, D) => C=D) ) ) ) ) ) ) ) ) ).
 + fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
-+ fof(t1_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, A))  => A=B) ) ) ) ) ).
-+ fof(t9_ami_wstd, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) &  (v2_ami_wstd(B, A) & l1_extpro_1(B, A)) ) ) )  =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (r1_xxreal_0(k3_ami_wstd(A, B, C), k3_ami_wstd(A, B, D)) <=> r1_ami_wstd(A, B, C, D)) ) ) ) ) ) ) ) ) ).
++ fof(cc18_membered, axiom,  (! [A] :  (v1_xboole_0(A) => v6_membered(A)) ) ).
 + fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
-+ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
-+ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(cc9_xxreal_2, axiom,  (! [A] :  (v6_membered(A) =>  (v6_membered(A) & v3_xxreal_2(A)) ) ) ).
 + fof(d2_ami_wstd, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (v1_ami_wstd(B, A) <=>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  ( (r1_ami_wstd(A, B, C, D) & r1_ami_wstd(A, B, D, C))  => C=D) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k3_ami_wstd, axiom,  (! [A, B, C] :  ( ( ~ (v1_setfam_1(A))  &  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) &  (v2_ami_wstd(B, A) & l1_extpro_1(B, A)) ) ) )  & v7_ordinal1(C)) )  => m2_subset_1(k3_ami_wstd(A, B, C), k1_numbers, k5_numbers)) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
++ fof(fc11_xxreal_2, axiom,  ( ~ (v3_xxreal_2(k1_numbers))  &  ~ (v4_xxreal_2(k1_numbers)) ) ).
++ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
 + fof(fc7_card_1, axiom,  ~ (v1_finset_1(k4_ordinal1)) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t1_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, A))  => A=B) ) ) ) ) ).
++ fof(t7_ami_wstd, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) &  (v2_ami_wstd(B, A) & l1_extpro_1(B, A)) ) ) )  =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (k3_ami_wstd(A, B, C)=k3_ami_wstd(A, B, D) => C=D) ) ) ) ) ) ) ) ) ).
++ fof(t9_ami_wstd, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) &  (v2_ami_wstd(B, A) & l1_extpro_1(B, A)) ) ) )  =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (r1_xxreal_0(k3_ami_wstd(A, B, C), k3_ami_wstd(A, B, D)) <=> r1_ami_wstd(A, B, C, D)) ) ) ) ) ) ) ) ) ).
 - fof(d3_ami_wstd, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (v2_ami_wstd(B, A) <=>  (? [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k5_numbers, k5_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k5_numbers)))) )  &  (v3_funct_2(C, k5_numbers, k5_numbers) &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (! [E] :  (m2_subset_1(E, k1_numbers, k5_numbers) =>  (r1_xxreal_0(D, E) <=> r1_ami_wstd(A, B, k3_funct_2(k5_numbers, k5_numbers, C, D), k3_funct_2(k5_numbers, k5_numbers, C, E))) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(dt_k2_ami_wstd, axiom,  (! [A, B, C] :  ( ( ~ (v1_setfam_1(A))  &  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) &  (v2_ami_wstd(B, A) & l1_extpro_1(B, A)) ) ) )  & v7_ordinal1(C)) )  => v7_ordinal1(k2_ami_wstd(A, B, C))) ) ).
 - fof(d5_ami_wstd, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) &  (v2_ami_wstd(B, A) & l1_extpro_1(B, A)) ) ) )  =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v7_ordinal1(D) =>  (D=k2_ami_wstd(A, B, C) <=> k1_ami_wstd(A, B, D)=C) ) ) ) ) ) ) ) ) ).

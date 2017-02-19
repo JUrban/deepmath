@@ -1,18 +1,18 @@
 C fof(t1_rcomp_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (r2_hidden(A, k2_rcomp_1(k6_xcmplx_0(B, C), k2_xcmplx_0(B, C))) <=>  ~ (r1_xxreal_0(C, k18_complex1(k6_xcmplx_0(A, B)))) ) ) ) ) ) ) ) ).
-+ fof(t19_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (r1_xxreal_0(k2_xcmplx_0(A, B), C) <=> r1_xxreal_0(A, k6_xcmplx_0(C, B))) ) ) ) ) ) ) ).
 + fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
-+ fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
-+ fof(t20_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (r1_xxreal_0(A, k2_xcmplx_0(B, C)) <=> r1_xxreal_0(k6_xcmplx_0(A, B), C)) ) ) ) ) ) ) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(fc5_xreal_0, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => v1_xreal_0(k2_xcmplx_0(A, B))) ) ).
-+ fof(t1_seq_2, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ( ~ (r1_xxreal_0(B, k4_xcmplx_0(A)))  &  ~ (r1_xxreal_0(A, B)) )  <=>  ~ (r1_xxreal_0(A, k18_complex1(B))) ) ) ) ) ) ).
-+ fof(spc1_arithm, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, k4_xcmplx_0(B))=k6_xcmplx_0(A, B)) ) ).
-+ fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
-+ fof(d2_rcomp_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) => k2_rcomp_1(A, B)=a_2_1_rcomp_1(A, B)) ) ) ) ).
-+ fof(fc7_xreal_0, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => v1_xreal_0(k6_xcmplx_0(A, B))) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
 + fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
++ fof(d2_rcomp_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) => k2_rcomp_1(A, B)=a_2_1_rcomp_1(A, B)) ) ) ) ).
++ fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
++ fof(fc5_xreal_0, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => v1_xreal_0(k2_xcmplx_0(A, B))) ) ).
++ fof(fc7_xreal_0, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => v1_xreal_0(k6_xcmplx_0(A, B))) ) ).
 + fof(fraenkel_a_2_1_rcomp_1, axiom,  (! [A, B, C] :  ( (v1_xxreal_0(B) & v1_xxreal_0(C))  =>  (r2_hidden(A, a_2_1_rcomp_1(B, C)) <=>  (? [D] :  (m1_subset_1(D, k1_numbers) &  (A=D &  ( ~ (r1_xxreal_0(D, B))  &  ~ (r1_xxreal_0(C, D)) ) ) ) ) ) ) ) ).
++ fof(spc1_arithm, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, k4_xcmplx_0(B))=k6_xcmplx_0(A, B)) ) ).
++ fof(t19_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (r1_xxreal_0(k2_xcmplx_0(A, B), C) <=> r1_xxreal_0(A, k6_xcmplx_0(C, B))) ) ) ) ) ) ) ).
++ fof(t1_seq_2, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ( ~ (r1_xxreal_0(B, k4_xcmplx_0(A)))  &  ~ (r1_xxreal_0(A, B)) )  <=>  ~ (r1_xxreal_0(A, k18_complex1(B))) ) ) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t20_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (r1_xxreal_0(A, k2_xcmplx_0(B, C)) <=> r1_xxreal_0(k6_xcmplx_0(A, B), C)) ) ) ) ) ) ) ).
 - fof(t2_seq_2, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (A=k6_numbers)  &  ( ~ (B=k6_numbers)  &  ~ (k18_complex1(k6_xcmplx_0(k5_xcmplx_0(A), k5_xcmplx_0(B)))=k10_real_1(k18_complex1(k6_xcmplx_0(A, B)), k8_real_1(k18_complex1(A), k18_complex1(B)))) ) ) ) ) ) ) ) ).
 - fof(dt_k2_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => m1_subset_1(k2_rcomp_1(A, B), k1_zfmisc_1(k1_numbers))) ) ).
 - fof(redefinition_k2_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k2_rcomp_1(A, B)=k4_xxreal_1(A, B)) ) ).

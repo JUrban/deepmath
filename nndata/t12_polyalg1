@@ -1,20 +1,20 @@
 C fof(t12_polyalg1, axiom,  (! [A] :  (l1_struct_0(A) =>  (! [B] :  (l1_polyalg1(B, A) =>  (! [C] :  (l1_polyalg1(C, A) =>  (! [D] :  (l1_polyalg1(D, A) =>  ( (m1_polyalg1(B, A, C) & m1_polyalg1(C, A, D))  => m1_polyalg1(B, A, D)) ) ) ) ) ) ) ) ) ).
-+ fof(d2_realset1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] : k1_realset1(A, B)=k5_relat_1(A, k2_zfmisc_1(B, B))) ) ) ).
-+ fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
-+ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
-+ fof(redefinition_k2_partfun1, axiom,  (! [A, B, C, D] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  => k2_partfun1(A, B, C, D)=k5_relat_1(C, D)) ) ).
-+ fof(dt_u1_vectsp_1, axiom,  (! [A, B] :  ( (l1_struct_0(A) & l1_vectsp_1(B, A))  =>  (v1_funct_1(u1_vectsp_1(A, B)) &  (v1_funct_2(u1_vectsp_1(A, B), k2_zfmisc_1(u1_struct_0(A), u1_struct_0(B)), u1_struct_0(B)) & m1_subset_1(u1_vectsp_1(A, B), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(B)), u1_struct_0(B))))) ) ) ) ).
 + fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(t96_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k2_zfmisc_1(A, C), k2_zfmisc_1(B, D))) ) ) ) ) ).
++ fof(d2_realset1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] : k1_realset1(A, B)=k5_relat_1(A, k2_zfmisc_1(B, B))) ) ) ).
++ fof(d3_polyalg1, axiom,  (! [A] :  (l1_struct_0(A) =>  (! [B] :  (l1_polyalg1(B, A) =>  (! [C] :  (l1_polyalg1(C, A) =>  (m1_polyalg1(C, A, B) <=>  (r1_tarski(u1_struct_0(C), u1_struct_0(B)) &  (k5_struct_0(C)=k5_struct_0(B) &  (k4_struct_0(C)=k4_struct_0(B) &  (u1_algstr_0(C)=k1_realset1(u1_algstr_0(B), u1_struct_0(C)) &  (u2_algstr_0(C)=k1_realset1(u2_algstr_0(B), u1_struct_0(C)) & u1_vectsp_1(A, C)=k2_partfun1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(B)), u1_struct_0(B), u1_vectsp_1(A, B), k2_zfmisc_1(u1_struct_0(A), u1_struct_0(C)))) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_l1_polyalg1, axiom,  (! [A] :  (l1_struct_0(A) =>  (! [B] :  (l1_polyalg1(B, A) =>  (l6_algstr_0(B) & l1_vectsp_1(B, A)) ) ) ) ) ).
++ fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
++ fof(dt_l4_algstr_0, axiom,  (! [A] :  (l4_algstr_0(A) =>  (l3_struct_0(A) & l3_algstr_0(A)) ) ) ).
 + fof(dt_l5_algstr_0, axiom,  (! [A] :  (l5_algstr_0(A) =>  (l4_algstr_0(A) & l4_struct_0(A)) ) ) ).
 + fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
-+ fof(t51_funct_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (r1_tarski(A, B) =>  (k5_relat_1(k5_relat_1(C, A), B)=k5_relat_1(C, A) & k5_relat_1(k5_relat_1(C, B), A)=k5_relat_1(C, A)) ) ) ) ) ) ).
-+ fof(dt_l4_algstr_0, axiom,  (! [A] :  (l4_algstr_0(A) =>  (l3_struct_0(A) & l3_algstr_0(A)) ) ) ).
-+ fof(dt_l1_polyalg1, axiom,  (! [A] :  (l1_struct_0(A) =>  (! [B] :  (l1_polyalg1(B, A) =>  (l6_algstr_0(B) & l1_vectsp_1(B, A)) ) ) ) ) ).
-+ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
 + fof(dt_u1_algstr_0, axiom,  (! [A] :  (l1_algstr_0(A) =>  (v1_funct_1(u1_algstr_0(A)) &  (v1_funct_2(u1_algstr_0(A), k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A)), u1_struct_0(A)) & m1_subset_1(u1_algstr_0(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A)), u1_struct_0(A))))) ) ) ) ).
++ fof(dt_u1_vectsp_1, axiom,  (! [A, B] :  ( (l1_struct_0(A) & l1_vectsp_1(B, A))  =>  (v1_funct_1(u1_vectsp_1(A, B)) &  (v1_funct_2(u1_vectsp_1(A, B), k2_zfmisc_1(u1_struct_0(A), u1_struct_0(B)), u1_struct_0(B)) & m1_subset_1(u1_vectsp_1(A, B), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(B)), u1_struct_0(B))))) ) ) ) ).
 + fof(dt_u2_algstr_0, axiom,  (! [A] :  (l3_algstr_0(A) =>  (v1_funct_1(u2_algstr_0(A)) &  (v1_funct_2(u2_algstr_0(A), k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A)), u1_struct_0(A)) & m1_subset_1(u2_algstr_0(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A)), u1_struct_0(A))))) ) ) ) ).
-+ fof(d3_polyalg1, axiom,  (! [A] :  (l1_struct_0(A) =>  (! [B] :  (l1_polyalg1(B, A) =>  (! [C] :  (l1_polyalg1(C, A) =>  (m1_polyalg1(C, A, B) <=>  (r1_tarski(u1_struct_0(C), u1_struct_0(B)) &  (k5_struct_0(C)=k5_struct_0(B) &  (k4_struct_0(C)=k4_struct_0(B) &  (u1_algstr_0(C)=k1_realset1(u1_algstr_0(B), u1_struct_0(C)) &  (u2_algstr_0(C)=k1_realset1(u2_algstr_0(B), u1_struct_0(C)) & u1_vectsp_1(A, C)=k2_partfun1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(B)), u1_struct_0(B), u1_vectsp_1(A, B), k2_zfmisc_1(u1_struct_0(A), u1_struct_0(C)))) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(redefinition_k2_partfun1, axiom,  (! [A, B, C, D] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  => k2_partfun1(A, B, C, D)=k5_relat_1(C, D)) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
++ fof(t51_funct_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (r1_tarski(A, B) =>  (k5_relat_1(k5_relat_1(C, A), B)=k5_relat_1(C, A) & k5_relat_1(k5_relat_1(C, B), A)=k5_relat_1(C, A)) ) ) ) ) ) ).
++ fof(t96_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k2_zfmisc_1(A, C), k2_zfmisc_1(B, D))) ) ) ) ) ).
 - fof(dt_m1_polyalg1, axiom,  (! [A, B] :  ( (l1_struct_0(A) & l1_polyalg1(B, A))  =>  (! [C] :  (m1_polyalg1(C, A, B) => l1_polyalg1(C, A)) ) ) ) ).
 - fof(existence_m1_polyalg1, axiom,  (! [A, B] :  ( (l1_struct_0(A) & l1_polyalg1(B, A))  =>  (? [C] : m1_polyalg1(C, A, B)) ) ) ).
 - fof(t11_polyalg1, axiom,  (! [A] :  (l1_struct_0(A) =>  (! [B] :  (l1_polyalg1(B, A) => m1_polyalg1(B, A, B)) ) ) ) ).

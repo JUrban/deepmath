@@ -1,20 +1,20 @@
 C fof(t6_dtconstr, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_trees_2(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v3_trees_2(B)) )  => k14_trees_3(k10_finseq_1(A, B))=k10_finseq_1(k1_funct_1(A, k1_xboole_0), k1_funct_1(B, k1_xboole_0))) ) ) ) ).
-+ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
-+ fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
-+ fof(d18_trees_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v6_trees_3(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (B=k14_trees_3(A) <=>  (k1_relset_1(k5_numbers, B)=k1_relset_1(k5_numbers, A) &  (! [C] :  (m1_subset_1(C, k5_numbers) =>  ~ ( (r2_hidden(C, k1_relset_1(k5_numbers, A)) &  (! [D] :  ( (v1_relat_1(D) &  (v1_funct_1(D) & v3_trees_2(D)) )  =>  ~ ( (D=k1_funct_1(A, C) & k1_funct_1(B, C)=k1_funct_1(D, k1_xboole_0)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(d9_finseq_1, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B))) ) ).
 + fof(cc5_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) & v1_finseq_1(A)) ) ) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(d18_trees_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v6_trees_3(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (B=k14_trees_3(A) <=>  (k1_relset_1(k5_numbers, B)=k1_relset_1(k5_numbers, A) &  (! [C] :  (m1_subset_1(C, k5_numbers) =>  ~ ( (r2_hidden(C, k1_relset_1(k5_numbers, A)) &  (! [D] :  ( (v1_relat_1(D) &  (v1_funct_1(D) & v3_trees_2(D)) )  =>  ~ ( (D=k1_funct_1(A, C) & k1_funct_1(B, C)=k1_funct_1(D, k1_xboole_0)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
++ fof(d3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (B=k3_finseq_1(A) <=> k2_finseq_1(B)=k9_xtuple_0(A)) ) ) ) ) ).
++ fof(d9_finseq_1, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B))) ) ).
++ fof(dt_k14_trees_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v1_relat_1(k14_trees_3(A)) &  (v1_funct_1(k14_trees_3(A)) & v1_finseq_1(k14_trees_3(A))) ) ) ) ).
++ fof(dt_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => m1_subset_1(k1_relset_1(A, B), k1_zfmisc_1(A))) ) ).
++ fof(fc10_finseq_1, axiom,  (! [A, B] : v1_finseq_1(k10_finseq_1(A, B))) ).
++ fof(fc16_trees_3, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_trees_2(A)) )  &  (v1_relat_1(B) &  (v1_funct_1(B) & v3_trees_2(B)) ) )  =>  ( ~ (v1_xboole_0(k10_finseq_1(A, B)))  & v6_trees_3(k10_finseq_1(A, B))) ) ) ).
++ fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
++ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
 + fof(t2_finseq_1, axiom,  (k2_finseq_1(1)=k1_tarski(1) & k2_finseq_1(2)=k2_tarski(1, 2)) ).
 + fof(t44_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  =>  (C=k10_finseq_1(A, B) <=>  (k3_finseq_1(C)=2 &  (k1_funct_1(C, 1)=A & k1_funct_1(C, 2)=B) ) ) ) ) ) ) ).
-+ fof(fc16_trees_3, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_trees_2(A)) )  &  (v1_relat_1(B) &  (v1_funct_1(B) & v3_trees_2(B)) ) )  =>  ( ~ (v1_xboole_0(k10_finseq_1(A, B)))  & v6_trees_3(k10_finseq_1(A, B))) ) ) ).
-+ fof(dt_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => m1_subset_1(k1_relset_1(A, B), k1_zfmisc_1(A))) ) ).
-+ fof(d3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (B=k3_finseq_1(A) <=> k2_finseq_1(B)=k9_xtuple_0(A)) ) ) ) ) ).
-+ fof(fc10_finseq_1, axiom,  (! [A, B] : v1_finseq_1(k10_finseq_1(A, B))) ).
-+ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
 + fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
-+ fof(dt_k14_trees_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v1_relat_1(k14_trees_3(A)) &  (v1_funct_1(k14_trees_3(A)) & v1_finseq_1(k14_trees_3(A))) ) ) ) ).
 - fof(t144_finseq_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (k9_xtuple_0(k7_funct_6(k10_finseq_1(A, B)))=k4_card_3(k10_finseq_1(k9_xtuple_0(A), k9_xtuple_0(B))) &  (k10_xtuple_0(k7_funct_6(k10_finseq_1(A, B)))=k4_card_3(k10_finseq_1(k10_xtuple_0(A), k10_xtuple_0(B))) &  (! [C] :  (! [D] :  ( (r2_hidden(C, k9_xtuple_0(A)) & r2_hidden(D, k9_xtuple_0(B)))  => k1_funct_1(k7_funct_6(k10_finseq_1(A, B)), k10_finseq_1(C, D))=k10_finseq_1(k1_funct_1(A, C), k1_funct_1(B, D))) ) ) ) ) ) ) ) ) ).
 - fof(t142_finseq_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (k9_xtuple_0(k6_funct_6(k10_finseq_1(A, B)))=k3_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) &  (! [C] :  (r2_hidden(C, k3_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B))) => k1_funct_1(k6_funct_6(k10_finseq_1(A, B)), C)=k10_finseq_1(k1_funct_1(A, C), k1_funct_1(B, C))) ) ) ) ) ) ) ).
 - fof(t125_finseq_2, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k9_xtuple_0(A)) & r2_hidden(C, k9_xtuple_0(A)))  => k3_relat_1(k10_finseq_1(B, C), A)=k10_finseq_1(k1_funct_1(A, B), k1_funct_1(A, C))) ) ) ) ) ).

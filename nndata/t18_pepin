@@ -1,10 +1,10 @@
 C fof(t18_pepin, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (r1_xxreal_0(A, k6_numbers))  => v1_abian(k3_power(2, A))) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(fc2_series_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  =>  (v7_ordinal1(k3_power(A, B)) & v1_xreal_0(k3_power(A, B))) ) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(fc2_series_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  =>  (v7_ordinal1(k3_power(A, B)) & v1_xreal_0(k3_power(A, B))) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
 + fof(t17_nat_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (r1_xxreal_0(A, k6_numbers))  => k4_nat_d(k3_power(2, A), 2)=k6_numbers) ) ) ).
 + fof(t21_nat_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_abian(A) <=> k4_nat_d(A, 2)=k6_numbers) ) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
 - fof(t10_nat_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) => k3_power(2, B)=k3_xcmplx_0(k3_power(2, A), k3_power(2, k7_nat_d(B, A)))) ) ) ) ) ).
 - fof(t11_nat_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) => r1_nat_d(k3_power(2, A), k3_power(2, B))) ) ) ) ) ).
 - fof(t37_asympt_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k1_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  ~ ( ( (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  ( ~ (r1_xxreal_0(C, k6_numbers))  => k1_seq_1(A, C)=k3_power(C, k3_power(2, k1_int_1(k6_power(2, C))))) ) )  &  ( (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  ( ~ (r1_xxreal_0(C, k6_numbers))  => k1_seq_1(B, C)=k5_series_1(C, C)) ) )  &  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k5_numbers, k1_numbers) &  (v4_asympt_0(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) ) )  =>  ~ ( (r2_funct_2(k5_numbers, k1_numbers, C, B) &  (r2_hidden(A, k11_asympt_0(C, k6_asympt_1)) &  ( ~ (r2_hidden(A, k8_asympt_0(C)))  &  (v6_asympt_0(A) &  (v6_asympt_0(C) &  ~ (r2_asympt_0(C, 2)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

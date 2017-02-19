@@ -1,10 +1,10 @@
 C fof(t24_card_fil, axiom,  (! [A] :  (v1_card_1(A) => r1_ordinal1(k2_card_1(A), k3_card_2(2, A))) ) ).
-+ fof(t90_card_3, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (r2_hidden(A, B) <=> r1_ordinal1(k2_card_1(A), B)) ) ) ) ) ).
-+ fof(reflexivity_r2_wellord2, axiom,  (! [A, B] : r2_wellord2(A, A)) ).
-+ fof(t31_card_2, axiom,  (! [A] : k3_card_2(2, k1_card_1(A))=k1_card_1(k1_zfmisc_1(A))) ).
-+ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
 + fof(d2_card_1, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  (B=k1_card_1(A) <=> r2_wellord2(A, B)) ) ) ) ).
++ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
++ fof(reflexivity_r2_wellord2, axiom,  (! [A, B] : r2_wellord2(A, A)) ).
 + fof(t14_card_5, axiom,  (! [A] :  (v1_card_1(A) => r2_hidden(A, k3_card_2(2, A))) ) ).
++ fof(t31_card_2, axiom,  (! [A] : k3_card_2(2, k1_card_1(A))=k1_card_1(k1_zfmisc_1(A))) ).
++ fof(t90_card_3, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (r2_hidden(A, B) <=> r1_ordinal1(k2_card_1(A), B)) ) ) ) ) ).
 - fof(t92_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (v1_card_1(C) =>  (! [D] :  (v1_card_1(D) =>  ~ ( ( ~ ( ( ~ ( (r2_hidden(A, B) & r2_hidden(C, D)) )  &  ( ~ ( (r1_ordinal1(A, B) & r2_hidden(C, D)) )  &  ( ~ ( (r2_hidden(A, B) & r1_ordinal1(C, D)) )  &  ~ ( (r1_ordinal1(A, B) & r1_ordinal1(C, D)) ) ) ) ) )  &  ( ~ (A=k6_numbers)  &  ~ (r1_ordinal1(k3_card_2(A, C), k3_card_2(B, D))) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
 - fof(t93_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (v1_card_1(C) =>  ~ ( ( (r2_hidden(A, B) | r1_ordinal1(A, B))  &  ( ~ (C=k6_numbers)  &  ~ ( (r1_ordinal1(k3_card_2(C, A), k3_card_2(C, B)) & r1_ordinal1(k3_card_2(A, C), k3_card_2(B, C))) ) ) ) ) ) ) ) ) ) ) ).

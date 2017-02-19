@@ -1,18 +1,18 @@
 C fof(t9_jordan3, axiom,  (! [A] :  (m2_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (r2_hidden(B, k3_topreal1(2, A)) => r2_hidden(B, k2_topreal1(2, A, k1_jordan3(A, B)))) ) ) ) ) ).
-+ fof(redefinition_k6_seq_4, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v6_membered(A))  => k6_seq_4(A)=k2_xxreal_2(A)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(fraenkel_a_2_0_jordan3, axiom,  (! [A, B, C] :  ( (m2_finseq_1(B, u1_struct_0(k15_euclid(2))) & m1_subset_1(C, u1_struct_0(k15_euclid(2))))  =>  (r2_hidden(A, a_2_0_jordan3(B, C)) <=>  (? [D] :  (m1_subset_1(D, k5_numbers) &  (A=D & r2_hidden(C, k2_topreal1(2, B, D))) ) ) ) ) ) ).
-+ fof(cc3_xxreal_2, axiom,  (! [A] :  ( (v6_membered(A) &  ~ (v1_xboole_0(A)) )  =>  (v6_membered(A) &  ( ~ (v1_xboole_0(A))  & v1_xxreal_2(A)) ) ) ) ).
-+ fof(dt_k1_jordan3, axiom,  (! [A, B] :  ( (m1_finseq_1(A, u1_struct_0(k15_euclid(2))) & m1_subset_1(B, u1_struct_0(k15_euclid(2))))  => m1_subset_1(k1_jordan3(A, B), k5_numbers)) ) ).
 + fof(cc11_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k5_numbers)) => v6_membered(A)) ) ).
-+ fof(d1_jordan3, axiom,  (! [A] :  (m2_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (r2_hidden(B, k3_topreal1(2, A)) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (C=k1_jordan3(A, B) <=>  (? [D] :  ( ( ~ (v1_xboole_0(D))  & m1_subset_1(D, k1_zfmisc_1(k5_numbers)))  &  (C=k6_seq_4(D) & D=a_2_0_jordan3(A, B)) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(cc4_membered, axiom,  (! [A] :  (v3_membered(A) => v2_membered(A)) ) ).
-+ fof(d7_xxreal_2, axiom,  (! [A] :  ( (v2_membered(A) & v1_xxreal_2(A))  =>  (! [B] :  (v1_xxreal_0(B) =>  (B=k2_xxreal_2(A) <=>  (r2_hidden(B, A) &  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(C, A) => r1_xxreal_0(B, C)) ) ) ) ) ) ) ) ) ).
 + fof(cc1_membered, axiom,  (! [A] :  (v6_membered(A) => v5_membered(A)) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(cc3_membered, axiom,  (! [A] :  (v4_membered(A) => v3_membered(A)) ) ).
-+ fof(fc6_xxreal_2, axiom,  (! [A] :  ( (v6_membered(A) & v1_xxreal_2(A))  =>  (v1_xxreal_0(k2_xxreal_2(A)) & v7_ordinal1(k2_xxreal_2(A))) ) ) ).
 + fof(cc2_membered, axiom,  (! [A] :  (v5_membered(A) => v4_membered(A)) ) ).
++ fof(cc3_membered, axiom,  (! [A] :  (v4_membered(A) => v3_membered(A)) ) ).
++ fof(cc3_xxreal_2, axiom,  (! [A] :  ( (v6_membered(A) &  ~ (v1_xboole_0(A)) )  =>  (v6_membered(A) &  ( ~ (v1_xboole_0(A))  & v1_xxreal_2(A)) ) ) ) ).
++ fof(cc4_membered, axiom,  (! [A] :  (v3_membered(A) => v2_membered(A)) ) ).
++ fof(d1_jordan3, axiom,  (! [A] :  (m2_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (r2_hidden(B, k3_topreal1(2, A)) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (C=k1_jordan3(A, B) <=>  (? [D] :  ( ( ~ (v1_xboole_0(D))  & m1_subset_1(D, k1_zfmisc_1(k5_numbers)))  &  (C=k6_seq_4(D) & D=a_2_0_jordan3(A, B)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d7_xxreal_2, axiom,  (! [A] :  ( (v2_membered(A) & v1_xxreal_2(A))  =>  (! [B] :  (v1_xxreal_0(B) =>  (B=k2_xxreal_2(A) <=>  (r2_hidden(B, A) &  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(C, A) => r1_xxreal_0(B, C)) ) ) ) ) ) ) ) ) ).
++ fof(dt_k1_jordan3, axiom,  (! [A, B] :  ( (m1_finseq_1(A, u1_struct_0(k15_euclid(2))) & m1_subset_1(B, u1_struct_0(k15_euclid(2))))  => m1_subset_1(k1_jordan3(A, B), k5_numbers)) ) ).
++ fof(fc6_xxreal_2, axiom,  (! [A] :  ( (v6_membered(A) & v1_xxreal_2(A))  =>  (v1_xxreal_0(k2_xxreal_2(A)) & v7_ordinal1(k2_xxreal_2(A))) ) ) ).
++ fof(fraenkel_a_2_0_jordan3, axiom,  (! [A, B, C] :  ( (m2_finseq_1(B, u1_struct_0(k15_euclid(2))) & m1_subset_1(C, u1_struct_0(k15_euclid(2))))  =>  (r2_hidden(A, a_2_0_jordan3(B, C)) <=>  (? [D] :  (m1_subset_1(D, k5_numbers) &  (A=D & r2_hidden(C, k2_topreal1(2, B, D))) ) ) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_seq_4, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v6_membered(A))  => k6_seq_4(A)=k2_xxreal_2(A)) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 - fof(t7_jordan3, axiom,  (! [A] :  (m2_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (r2_hidden(B, k2_topreal1(2, A, C)) => r1_xxreal_0(k1_jordan3(A, B), C)) ) ) ) ) ) ) ).
 - fof(t8_jordan3, axiom,  (! [A] :  (m2_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (r2_hidden(B, k3_topreal1(2, A)) =>  (r1_xxreal_0(1, k1_jordan3(A, B)) &  ~ (r1_xxreal_0(k3_finseq_1(A), k1_jordan3(A, B))) ) ) ) ) ) ) ).
 - fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).

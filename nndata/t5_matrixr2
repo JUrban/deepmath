@@ -1,8 +1,8 @@
 C fof(t5_matrixr2, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  ( (v1_matrix_1(B) & m2_finseq_1(B, k3_finseq_2(k1_numbers)))  =>  (k3_finseq_1(k7_matrixr1(A, B))=k3_finseq_1(B) & k1_matrix_1(k7_matrixr1(A, B))=k1_matrix_1(B)) ) ) ) ) ).
-+ fof(t27_matrixr1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  ( (v1_matrix_1(B) & m2_finseq_1(B, k3_finseq_2(k1_numbers)))  =>  (k3_finseq_1(k7_matrixr1(A, B))=k3_finseq_1(B) & k1_matrix_1(k7_matrixr1(A, B))=k1_matrix_1(B)) ) ) ) ) ).
-+ fof(redefinition_k3_finseq_2, axiom,  (! [A] : k3_finseq_2(A)=k13_finseq_1(A)) ).
 + fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
++ fof(redefinition_k3_finseq_2, axiom,  (! [A] : k3_finseq_2(A)=k13_finseq_1(A)) ).
 + fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t27_matrixr1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  ( (v1_matrix_1(B) & m2_finseq_1(B, k3_finseq_2(k1_numbers)))  =>  (k3_finseq_1(k7_matrixr1(A, B))=k3_finseq_1(B) & k1_matrix_1(k7_matrixr1(A, B))=k1_matrix_1(B)) ) ) ) ) ).
 - fof(t29_matrixr1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  ( (v1_matrix_1(B) & m2_finseq_1(B, k3_finseq_2(k1_numbers)))  =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v7_ordinal1(D) =>  (r2_hidden(k4_tarski(C, D), k2_matrix_1(B)) => k3_matrix_1(k1_numbers, k7_matrixr1(A, B), C, D)=k8_real_1(A, k3_matrix_1(k1_numbers, B, C, D))) ) ) ) ) ) ) ) ) ).
 - fof(d7_matrixr1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  ( (v1_matrix_1(B) & m2_finseq_1(B, k3_finseq_2(k1_numbers)))  =>  (! [C] :  ( (v1_matrix_1(C) & m2_finseq_1(C, k3_finseq_2(k1_numbers)))  =>  (C=k7_matrixr1(A, B) <=>  (! [D] :  (m1_subset_1(D, u1_struct_0(k2_vectsp_1)) =>  (D=A => C=k2_matrixr1(k6_matrix_3(k2_vectsp_1, k1_matrixr1(B), D))) ) ) ) ) ) ) ) ) ) ).
 - fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).

@@ -1,16 +1,16 @@
 C fof(t10_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  ( ~ (r1_xxreal_0(B, k3_extreal1(A)))  =>  ( ~ (r1_xxreal_0(A, k2_supinf_2(B)))  &  ~ (r1_xxreal_0(B, A)) ) ) ) ) ) ) ).
-+ fof(t9_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (r1_xxreal_0(k2_supinf_2(k3_extreal1(A)), A) & r1_xxreal_0(A, k3_extreal1(A))) ) ) ).
-+ fof(dt_k3_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => m1_subset_1(k3_extreal1(A), k7_numbers)) ) ).
-+ fof(dt_k2_supinf_2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => m1_subset_1(k2_supinf_2(A), k7_numbers)) ) ).
-+ fof(t2_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (k3_extreal1(A)=A | k3_extreal1(A)=k2_supinf_2(A)) ) ) ).
 + fof(cc1_xxreal_0, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => v1_xxreal_0(A)) ) ).
++ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
++ fof(dt_k2_supinf_2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => m1_subset_1(k2_supinf_2(A), k7_numbers)) ) ).
++ fof(dt_k3_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => m1_subset_1(k3_extreal1(A), k7_numbers)) ) ).
++ fof(involutiveness_k2_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) => k2_xxreal_3(k2_xxreal_3(A))=A) ) ).
++ fof(projectivity_k3_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => k3_extreal1(k3_extreal1(A))=k3_extreal1(A)) ) ).
 + fof(redefinition_k2_supinf_2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => k2_supinf_2(A)=k2_xxreal_3(A)) ) ).
 + fof(t1_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, A))  => A=B) ) ) ) ) ).
-+ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
-+ fof(t38_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (r1_xxreal_0(A, B) <=> r1_xxreal_0(k2_xxreal_3(B), k2_xxreal_3(A))) ) ) ) ) ).
++ fof(t2_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (k3_extreal1(A)=A | k3_extreal1(A)=k2_supinf_2(A)) ) ) ).
 + fof(t2_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, C))  => r1_xxreal_0(A, C)) ) ) ) ) ) ) ).
-+ fof(projectivity_k3_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => k3_extreal1(k3_extreal1(A))=k3_extreal1(A)) ) ).
-+ fof(involutiveness_k2_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) => k2_xxreal_3(k2_xxreal_3(A))=A) ) ).
++ fof(t38_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (r1_xxreal_0(A, B) <=> r1_xxreal_0(k2_xxreal_3(B), k2_xxreal_3(A))) ) ) ) ) ).
++ fof(t9_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (r1_xxreal_0(k2_supinf_2(k3_extreal1(A)), A) & r1_xxreal_0(A, k3_extreal1(A))) ) ) ).
 - fof(d1_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  ( (r1_xxreal_0(k6_numbers, A) => k3_extreal1(A)=A)  &  ( ~ (r1_xxreal_0(k6_numbers, A))  => k3_extreal1(A)=k2_supinf_2(A)) ) ) ) ).
 - fof(t3_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => r1_xxreal_0(k6_numbers, k3_extreal1(A))) ) ).
 - fof(t4_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  ~ ( ( ~ (A=k6_numbers)  & r1_xxreal_0(k3_extreal1(A), k6_numbers)) ) ) ) ).

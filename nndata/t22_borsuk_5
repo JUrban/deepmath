@@ -1,9 +1,9 @@
 C fof(t22_borsuk_5, axiom,  (! [A] :  (v1_rat_1(A) =>  (! [B] :  ( (v1_xreal_0(B) &  ~ (v1_rat_1(B)) )  =>  ~ ( ( ~ (A=k6_numbers)  & v1_rat_1(k3_xcmplx_0(A, B))) ) ) ) ) ) ).
-+ fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
 + fof(cc1_rat_1, axiom,  (! [A] :  (v1_rat_1(A) => v1_xreal_0(A)) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
 + fof(fc4_rat_1, axiom,  (! [A, B] :  ( (v1_rat_1(A) & v1_rat_1(B))  => v1_rat_1(k7_xcmplx_0(A, B))) ) ).
 + fof(t89_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  ( ~ (A=k6_numbers)  => B=k7_xcmplx_0(k3_xcmplx_0(B, A), A)) ) ) ) ) ).
-+ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
 - fof(fc1_rat_1, axiom,  (! [A, B] :  ( (v1_rat_1(A) & v1_rat_1(B))  => v1_rat_1(k3_xcmplx_0(A, B))) ) ).
 - fof(t42_real_3, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_rat_1(A) <=>  (? [B] :  (v7_ordinal1(B) &  (! [C] :  (v7_ordinal1(C) =>  (r1_xxreal_0(B, C) => k1_seq_1(k4_real_3(A), C)=k6_numbers) ) ) ) ) ) ) ) ).
 - fof(l10_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_rat_1(B) => k9_prepower(k25_sin_cos(A), B)=k25_sin_cos(k3_xcmplx_0(B, A))) ) ) ) ).

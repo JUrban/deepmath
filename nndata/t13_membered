@@ -1,8 +1,8 @@
 C fof(t13_membered, axiom,  (! [A] :  (v1_membered(A) =>  ( (! [B] :  (v1_xcmplx_0(B) => r2_hidden(B, A)) )  => A=k2_numbers) ) ) ).
-+ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 + fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
-+ fof(t1_membered, axiom,  (! [A] :  (v1_membered(A) => r1_tarski(A, k2_numbers)) ) ).
 + fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(t1_membered, axiom,  (! [A] :  (v1_membered(A) => r1_tarski(A, k2_numbers)) ) ).
 - fof(d1_membered, axiom,  (! [A] :  (v1_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_xcmplx_0(B)) ) ) ) ).
 - fof(antisymmetry_r2_xboole_0, axiom,  (! [A, B] :  (r2_xboole_0(A, B) =>  ~ (r2_xboole_0(B, A)) ) ) ).
 - fof(d8_xboole_0, axiom,  (! [A] :  (! [B] :  (r2_xboole_0(A, B) <=>  (r1_tarski(A, B) &  ~ (A=B) ) ) ) ) ).

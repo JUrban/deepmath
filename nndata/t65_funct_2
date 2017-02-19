@@ -1,5 +1,5 @@
 C fof(t65_funct_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, A, B) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (! [E] :  ~ ( (r2_hidden(E, k7_relset_1(A, B, D, C)) &  (! [F] :  (m1_subset_1(F, A) =>  ~ ( (r2_hidden(F, C) & E=k1_funct_1(D, F)) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t64_funct_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, A, B) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (! [E] :  ~ ( (r2_hidden(E, k7_relset_1(A, B, D, C)) &  (! [F] :  ~ ( (r2_hidden(F, A) &  (r2_hidden(F, C) & E=k1_funct_1(D, F)) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t64_funct_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, A, B) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (! [E] :  ~ ( (r2_hidden(E, k7_relset_1(A, B, D, C)) &  (! [F] :  ~ ( (r2_hidden(F, A) &  (r2_hidden(F, C) & E=k1_funct_1(D, F)) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(redefinition_k7_relset_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => k7_relset_1(A, B, C, D)=k7_relat_1(C, D)) ) ).
 - fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).

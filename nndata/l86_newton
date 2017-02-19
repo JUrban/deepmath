@@ -1,17 +1,17 @@
 C fof(l86_newton, axiom,  (! [A] :  (v7_ordinal1(A) => k11_newton(A)=a_1_1_newton(A)) ) ).
-+ fof(fraenkel_a_1_1_newton, axiom,  (! [A, B] :  (v7_ordinal1(B) =>  (r2_hidden(A, a_1_1_newton(B)) <=>  (? [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) &  (A=C &  ( ~ (r1_xxreal_0(B, C))  & v1_int_2(C)) ) ) ) ) ) ) ).
-+ fof(dt_k11_newton, axiom,  (! [A] :  (v7_ordinal1(A) => m1_subset_1(k11_newton(A), k1_zfmisc_1(k5_numbers))) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(d7_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k5_numbers)) =>  (B=k11_newton(A) <=>  (! [C] :  (v7_ordinal1(C) =>  (r2_hidden(C, B) <=>  ( ~ (r1_xxreal_0(A, C))  & v1_int_2(C)) ) ) ) ) ) ) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
 + fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(d7_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k5_numbers)) =>  (B=k11_newton(A) <=>  (! [C] :  (v7_ordinal1(C) =>  (r2_hidden(C, B) <=>  ( ~ (r1_xxreal_0(A, C))  & v1_int_2(C)) ) ) ) ) ) ) ) ) ).
++ fof(dt_k11_newton, axiom,  (! [A] :  (v7_ordinal1(A) => m1_subset_1(k11_newton(A), k1_zfmisc_1(k5_numbers))) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
 + fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(fraenkel_a_1_1_newton, axiom,  (! [A, B] :  (v7_ordinal1(B) =>  (r2_hidden(A, a_1_1_newton(B)) <=>  (? [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) &  (A=C &  ( ~ (r1_xxreal_0(B, C))  & v1_int_2(C)) ) ) ) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 + fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
 - fof(t70_newton, axiom,  (! [A] :  (v7_ordinal1(A) => r1_tarski(k11_newton(A), k2_finseq_1(A))) ) ).
 - fof(t74_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( (r1_xxreal_0(B, A) & r2_hidden(A, k11_newton(B))) ) ) ) ) ) ).
 - fof(l80_newton, axiom, k11_newton(2)=k1_xboole_0).

@@ -1,13 +1,13 @@
 C fof(t21_arytm_3, axiom,  (! [A] :  ( (v3_ordinal1(A) & v7_ordinal1(A))  =>  (! [B] :  ( (v3_ordinal1(B) & v7_ordinal1(B))  => k9_ordinal3(k4_arytm_3(A, B), k3_arytm_3(A, B))=A) ) ) ) ).
-+ fof(fc1_arytm_3, axiom,  (! [A, B] :  ( ( (v3_ordinal1(A) & v7_ordinal1(A))  &  (v3_ordinal1(B) & v7_ordinal1(B)) )  =>  (v3_ordinal1(k6_ordinal3(A, B)) & v7_ordinal1(k6_ordinal3(A, B))) ) ) ).
-+ fof(d5_arytm_3, axiom,  (! [A] :  ( (v3_ordinal1(A) & v7_ordinal1(A))  =>  (! [B] :  ( (v3_ordinal1(B) & v7_ordinal1(B))  =>  (! [C] :  (m1_subset_1(C, k4_ordinal1) =>  (C=k3_arytm_3(A, B) <=>  (r2_arytm_3(C, A) &  (r2_arytm_3(C, B) &  (! [D] :  ( (v3_ordinal1(D) & v7_ordinal1(D))  =>  ( (r2_arytm_3(D, A) & r2_arytm_3(D, B))  => r2_arytm_3(D, C)) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(d6_arytm_3, axiom,  (! [A] :  ( (v3_ordinal1(A) & v7_ordinal1(A))  =>  (! [B] :  ( (v3_ordinal1(B) & v7_ordinal1(B))  => k4_arytm_3(A, B)=k6_ordinal3(A, k3_arytm_3(A, B))) ) ) ) ).
-+ fof(commutativity_k9_ordinal3, axiom,  (! [A, B] :  ( ( (v3_ordinal1(A) & v7_ordinal1(A))  &  (v3_ordinal1(B) & v7_ordinal1(B)) )  => k9_ordinal3(A, B)=k9_ordinal3(B, A)) ) ).
++ fof(cc6_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) => v3_ordinal1(A)) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(commutativity_k3_arytm_3, axiom,  (! [A, B] :  ( ( (v3_ordinal1(A) & v7_ordinal1(A))  &  (v3_ordinal1(B) & v7_ordinal1(B)) )  => k3_arytm_3(A, B)=k3_arytm_3(B, A)) ) ).
-+ fof(cc6_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) => v3_ordinal1(A)) ) ).
-+ fof(t7_arytm_3, axiom,  (! [A] :  ( (v3_ordinal1(A) & v7_ordinal1(A))  =>  (! [B] :  ( (v3_ordinal1(B) & v7_ordinal1(B))  =>  (r2_arytm_3(B, A) <=> A=k9_ordinal3(B, k6_ordinal3(A, B))) ) ) ) ) ).
++ fof(commutativity_k9_ordinal3, axiom,  (! [A, B] :  ( ( (v3_ordinal1(A) & v7_ordinal1(A))  &  (v3_ordinal1(B) & v7_ordinal1(B)) )  => k9_ordinal3(A, B)=k9_ordinal3(B, A)) ) ).
++ fof(d5_arytm_3, axiom,  (! [A] :  ( (v3_ordinal1(A) & v7_ordinal1(A))  =>  (! [B] :  ( (v3_ordinal1(B) & v7_ordinal1(B))  =>  (! [C] :  (m1_subset_1(C, k4_ordinal1) =>  (C=k3_arytm_3(A, B) <=>  (r2_arytm_3(C, A) &  (r2_arytm_3(C, B) &  (! [D] :  ( (v3_ordinal1(D) & v7_ordinal1(D))  =>  ( (r2_arytm_3(D, A) & r2_arytm_3(D, B))  => r2_arytm_3(D, C)) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d6_arytm_3, axiom,  (! [A] :  ( (v3_ordinal1(A) & v7_ordinal1(A))  =>  (! [B] :  ( (v3_ordinal1(B) & v7_ordinal1(B))  => k4_arytm_3(A, B)=k6_ordinal3(A, k3_arytm_3(A, B))) ) ) ) ).
 + fof(dt_k3_arytm_3, axiom,  (! [A, B] :  ( ( (v3_ordinal1(A) & v7_ordinal1(A))  &  (v3_ordinal1(B) & v7_ordinal1(B)) )  => m1_subset_1(k3_arytm_3(A, B), k4_ordinal1)) ) ).
++ fof(fc1_arytm_3, axiom,  (! [A, B] :  ( ( (v3_ordinal1(A) & v7_ordinal1(A))  &  (v3_ordinal1(B) & v7_ordinal1(B)) )  =>  (v3_ordinal1(k6_ordinal3(A, B)) & v7_ordinal1(k6_ordinal3(A, B))) ) ) ).
++ fof(t7_arytm_3, axiom,  (! [A] :  ( (v3_ordinal1(A) & v7_ordinal1(A))  =>  (! [B] :  ( (v3_ordinal1(B) & v7_ordinal1(B))  =>  (r2_arytm_3(B, A) <=> A=k9_ordinal3(B, k6_ordinal3(A, B))) ) ) ) ) ).
 - fof(t17_arytm_3, axiom,  (! [A] :  ( (v3_ordinal1(A) & v7_ordinal1(A))  =>  (! [B] :  ( (v3_ordinal1(B) & v7_ordinal1(B))  =>  (! [C] :  ( (v3_ordinal1(C) & v7_ordinal1(C))  => k3_arytm_3(k9_ordinal3(A, B), k9_ordinal3(C, B))=k9_ordinal3(k3_arytm_3(A, C), B)) ) ) ) ) ) ).
 - fof(dt_k4_arytm_3, axiom,  (! [A, B] :  ( ( (v3_ordinal1(A) & v7_ordinal1(A))  &  (v3_ordinal1(B) & v7_ordinal1(B)) )  => m1_subset_1(k4_arytm_3(A, B), k4_ordinal1)) ) ).
 - fof(redefinition_k9_ordinal3, axiom,  (! [A, B] :  ( ( (v3_ordinal1(A) & v7_ordinal1(A))  &  (v3_ordinal1(B) & v7_ordinal1(B)) )  => k9_ordinal3(A, B)=k11_ordinal2(A, B)) ) ).

@@ -1,11 +1,11 @@
 C fof(t2_latsum_1, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (l1_orders_2(B) =>  (r1_relset_1(u1_struct_0(A), u1_struct_0(A), u1_orders_2(A), u1_orders_2(k1_latsum_1(A, B))) & r1_relset_1(u1_struct_0(B), u1_struct_0(B), u1_orders_2(B), u1_orders_2(k1_latsum_1(A, B)))) ) ) ) ) ).
-+ fof(t7_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(A, k2_xboole_0(A, B))) ) ).
-+ fof(d2_latsum_1, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (l1_orders_2(B) =>  (! [C] :  ( (v1_orders_2(C) & l1_orders_2(C))  =>  (C=k1_latsum_1(A, B) <=>  (u1_struct_0(C)=k2_xboole_0(u1_struct_0(A), u1_struct_0(B)) & u1_orders_2(C)=k2_xboole_0(k2_xboole_0(u1_orders_2(A), u1_orders_2(B)), k4_relset_1(u1_struct_0(A), u1_struct_0(A), u1_struct_0(B), u1_struct_0(B), u1_orders_2(A), u1_orders_2(B)))) ) ) ) ) ) ) ) ).
-+ fof(dt_u1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => m1_subset_1(u1_orders_2(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ).
 + fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(d2_latsum_1, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (l1_orders_2(B) =>  (! [C] :  ( (v1_orders_2(C) & l1_orders_2(C))  =>  (C=k1_latsum_1(A, B) <=>  (u1_struct_0(C)=k2_xboole_0(u1_struct_0(A), u1_struct_0(B)) & u1_orders_2(C)=k2_xboole_0(k2_xboole_0(u1_orders_2(A), u1_orders_2(B)), k4_relset_1(u1_struct_0(A), u1_struct_0(A), u1_struct_0(B), u1_struct_0(B), u1_orders_2(A), u1_orders_2(B)))) ) ) ) ) ) ) ) ).
++ fof(dt_k1_latsum_1, axiom,  (! [A, B] :  ( (l1_orders_2(A) & l1_orders_2(B))  =>  (v1_orders_2(k1_latsum_1(A, B)) & l1_orders_2(k1_latsum_1(A, B))) ) ) ).
++ fof(dt_u1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => m1_subset_1(u1_orders_2(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ).
 + fof(redefinition_r1_relset_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (r1_relset_1(A, B, C, D) <=> r1_tarski(C, D)) ) ) ).
 + fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
-+ fof(dt_k1_latsum_1, axiom,  (! [A, B] :  ( (l1_orders_2(A) & l1_orders_2(B))  =>  (v1_orders_2(k1_latsum_1(A, B)) & l1_orders_2(k1_latsum_1(A, B))) ) ) ).
++ fof(t7_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(A, k2_xboole_0(A, B))) ) ).
 - fof(t28_dickson, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (l1_orders_2(B) =>  ( (r1_relset_1(u1_struct_0(A), u1_struct_0(A), u1_orders_2(A), u1_orders_2(B)) &  (v4_dickson(A) & u1_struct_0(A)=u1_struct_0(B)) )  => v4_dickson(B)) ) ) ) ) ).
 - fof(t33_dickson, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  ( (v3_dickson(A) & v4_dickson(A))  => v1_wellfnd1(k5_dickson(A))) ) ) ).
 - fof(fc1_latsum_1, axiom,  (! [A, B] :  ( (l1_orders_2(A) &  ( ~ (v2_struct_0(B))  & l1_orders_2(B)) )  =>  ( ~ (v2_struct_0(k1_latsum_1(A, B)))  & v1_orders_2(k1_latsum_1(A, B))) ) ) ).

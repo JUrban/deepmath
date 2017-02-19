@@ -1,12 +1,12 @@
 C fof(t14_lopclset, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  => m1_subset_1(k1_struct_0(A), u1_struct_0(k6_lopclset(A)))) ) ).
++ fof(cc1_tops_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v1_xboole_0(B) => v3_pre_topc(B, A)) ) ) ) ) ).
++ fof(cc2_pre_topc, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v1_xboole_0(B) => v4_pre_topc(B, A)) ) ) ) ) ).
 + fof(dt_k1_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => m1_subset_1(k1_struct_0(A), k1_zfmisc_1(u1_struct_0(A)))) ) ).
 + fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
++ fof(fc3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => v1_xboole_0(k1_struct_0(A))) ) ).
 + fof(t12_lopclset, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  => u1_struct_0(k6_lopclset(A))=k1_lopclset(A)) ) ).
-+ fof(cc2_pre_topc, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v1_xboole_0(B) => v4_pre_topc(B, A)) ) ) ) ) ).
-+ fof(cc1_tops_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v1_xboole_0(B) => v3_pre_topc(B, A)) ) ) ) ) ).
 + fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 + fof(t3_lopclset, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  ( (v3_pre_topc(B, A) & v4_pre_topc(B, A))  => r2_hidden(B, k1_lopclset(A))) ) ) ) ) ).
-+ fof(fc3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => v1_xboole_0(k1_struct_0(A))) ) ).
 - fof(d4_lopclset, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  => k6_lopclset(A)=g3_lattices(k1_lopclset(A), k4_lopclset(A), k5_lopclset(A))) ) ).
 - fof(t11_lopclset, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k6_lopclset(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k6_lopclset(A))) => k4_lattices(k6_lopclset(A), B, C)=k3_xboole_0(B, C)) ) ) ) ) ) ).
 - fof(t13_lopclset, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  => m1_subset_1(k2_struct_0(A), u1_struct_0(k6_lopclset(A)))) ) ).

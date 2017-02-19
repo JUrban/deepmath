@@ -1,9 +1,9 @@
 C fof(t83_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (v6_xxreal_2(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(B, k2_xxreal_2(A)))  &  ( ~ (r1_xxreal_0(k1_xxreal_2(A), B))  &  ~ (r2_hidden(B, A)) ) ) ) ) ) ) ) ) ).
-+ fof(d4_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (B=k2_xxreal_2(A) <=>  (m2_xxreal_2(B, A) &  (! [C] :  (m2_xxreal_2(C, A) => r1_xxreal_0(C, B)) ) ) ) ) ) ) ) ).
-+ fof(t81_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (v6_xxreal_2(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r2_hidden(B, A) & r1_xxreal_0(B, C))  =>  (r1_xxreal_0(k1_xxreal_2(A), C) | r2_hidden(C, A)) ) ) ) ) ) ) ) ) ).
 + fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
 + fof(d2_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (m2_xxreal_2(B, A) <=>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(C, A) => r1_xxreal_0(B, C)) ) ) ) ) ) ) ) ).
++ fof(d4_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (B=k2_xxreal_2(A) <=>  (m2_xxreal_2(B, A) &  (! [C] :  (m2_xxreal_2(C, A) => r1_xxreal_0(C, B)) ) ) ) ) ) ) ) ).
 + fof(dt_k2_xxreal_2, axiom,  (! [A] :  (v2_membered(A) => v1_xxreal_0(k2_xxreal_2(A))) ) ).
++ fof(t81_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (v6_xxreal_2(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r2_hidden(B, A) & r1_xxreal_0(B, C))  =>  (r1_xxreal_0(k1_xxreal_2(A), C) | r2_hidden(C, A)) ) ) ) ) ) ) ) ) ).
 - fof(dt_k1_xxreal_2, axiom,  (! [A] :  (v2_membered(A) => v1_xxreal_0(k1_xxreal_2(A))) ) ).
 - fof(d3_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (B=k1_xxreal_2(A) <=>  (m1_xxreal_2(B, A) &  (! [C] :  (m1_xxreal_2(C, A) => r1_xxreal_0(B, C)) ) ) ) ) ) ) ) ).
 - fof(d1_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (m1_xxreal_2(B, A) <=>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(C, A) => r1_xxreal_0(C, B)) ) ) ) ) ) ) ) ).

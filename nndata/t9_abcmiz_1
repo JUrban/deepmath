@@ -1,5 +1,5 @@
 C fof(t9_abcmiz_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k1_abcmiz_1(A), k1_abcmiz_1(B))) ) ) ).
-+ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
 + fof(d1_abcmiz_1, axiom,  (! [A] :  (! [B] :  (B=k1_abcmiz_1(A) <=>  (r1_tarski(A, B) &  ( (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), B) => r1_tarski(C, B)) ) )  &  (! [C] :  ( (r1_tarski(A, C) &  (! [D] :  (! [E] :  (r2_hidden(k4_tarski(D, E), C) => r1_tarski(D, C)) ) ) )  => r1_tarski(B, C)) ) ) ) ) ) ) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
 - fof(projectivity_k1_abcmiz_1, axiom,  (! [A] : k1_abcmiz_1(k1_abcmiz_1(A))=k1_abcmiz_1(A)) ).
 - fof(t8_abcmiz_1, axiom, k1_abcmiz_1(k1_xboole_0)=k1_xboole_0).

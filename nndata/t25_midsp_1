@@ -1,13 +1,13 @@
 C fof(t25_midsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_midsp_1(A) & l1_midsp_1(A)) )  =>  (! [B] :  (m1_subset_1(B, k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))) =>  ( ~ (v1_xboole_0(a_2_0_midsp_1(A, B)))  & m1_subset_1(a_2_0_midsp_1(A, B), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ) ) ) ).
-+ fof(reflexivity_r2_midsp_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_midsp_1(A) & l1_midsp_1(A)) )  &  (m1_subset_1(B, k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))) & m1_subset_1(C, k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A)))) )  => r2_midsp_1(A, B, B)) ) ).
-+ fof(dt_l1_midsp_1, axiom,  (! [A] :  (l1_midsp_1(A) => l1_struct_0(A)) ) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 + fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(fraenkel_a_2_0_midsp_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(B))  &  (v2_midsp_1(B) & l1_midsp_1(B)) )  & m1_subset_1(C, k2_zfmisc_1(u1_struct_0(B), u1_struct_0(B))))  =>  (r2_hidden(A, a_2_0_midsp_1(B, C)) <=>  (? [D] :  (m1_subset_1(D, k2_zfmisc_1(u1_struct_0(B), u1_struct_0(B))) &  (A=D & r2_midsp_1(B, D, C)) ) ) ) ) ) ).
-+ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(dt_l1_midsp_1, axiom,  (! [A] :  (l1_midsp_1(A) => l1_struct_0(A)) ) ).
 + fof(fc10_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  ~ (v1_xboole_0(k2_zfmisc_1(A, B))) ) ) ).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(fraenkel_a_2_0_midsp_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(B))  &  (v2_midsp_1(B) & l1_midsp_1(B)) )  & m1_subset_1(C, k2_zfmisc_1(u1_struct_0(B), u1_struct_0(B))))  =>  (r2_hidden(A, a_2_0_midsp_1(B, C)) <=>  (? [D] :  (m1_subset_1(D, k2_zfmisc_1(u1_struct_0(B), u1_struct_0(B))) &  (A=D & r2_midsp_1(B, D, C)) ) ) ) ) ) ).
++ fof(reflexivity_r2_midsp_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_midsp_1(A) & l1_midsp_1(A)) )  &  (m1_subset_1(B, k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))) & m1_subset_1(C, k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A)))) )  => r2_midsp_1(A, B, B)) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(d4_midsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_midsp_1(A) & l1_midsp_1(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (! [E] :  (m1_subset_1(E, u1_struct_0(A)) =>  (r1_midsp_1(A, B, C, D, E) <=> k3_midsp_1(A, B, E)=k3_midsp_1(A, C, D)) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t21_midsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_midsp_1(A) & l1_midsp_1(A)) )  =>  (! [B] :  (m1_subset_1(B, k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))) =>  (! [C] :  (m1_subset_1(C, k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))) =>  (! [D] :  (m1_subset_1(D, k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))) =>  ( (r2_midsp_1(A, B, C) & r2_midsp_1(A, B, D))  => r2_midsp_1(A, C, D)) ) ) ) ) ) ) ) ) ).
 - fof(symmetry_r2_midsp_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_midsp_1(A) & l1_midsp_1(A)) )  &  (m1_subset_1(B, k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))) & m1_subset_1(C, k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A)))) )  =>  (r2_midsp_1(A, B, C) => r2_midsp_1(A, C, B)) ) ) ).

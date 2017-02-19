@@ -1,18 +1,18 @@
 C fof(t54_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_group_2(B, A) =>  (k5_group_5(A, k6_group_2(A), B)=k6_domain_1(u1_struct_0(A), k1_group_1(A)) & k5_group_5(A, B, k6_group_2(A))=k6_domain_1(u1_struct_0(A), k1_group_1(A))) ) ) ) ) ).
-+ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
-+ fof(t53_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_group_2(B, A) =>  (! [C] :  (m1_group_2(C, A) => r2_hidden(k1_group_1(A), k5_group_5(A, B, C))) ) ) ) ) ) ).
-+ fof(d5_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_group_2(B, A) =>  (! [C] :  (m1_group_2(C, A) => k5_group_5(A, B, C)=k4_group_5(A, k8_group_2(A, B), k8_group_2(A, C))) ) ) ) ) ) ).
 + fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
-+ fof(t52_group_5, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) & l3_algstr_0(B)) ) )  =>  (! [C] :  (m1_group_2(C, B) =>  (! [D] :  (m1_group_2(D, B) =>  (r2_hidden(A, k5_group_5(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, u1_struct_0(B)) &  (? [F] :  (m1_subset_1(F, u1_struct_0(B)) &  (A=k2_group_5(B, E, F) &  (r1_struct_0(C, E) & r1_struct_0(D, F)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k1_group_1, axiom,  (! [A] :  (l3_algstr_0(A) => m1_subset_1(k1_group_1(A), u1_struct_0(A))) ) ).
-+ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
-+ fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
 + fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d5_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_group_2(B, A) =>  (! [C] :  (m1_group_2(C, A) => k5_group_5(A, B, C)=k4_group_5(A, k8_group_2(A, B), k8_group_2(A, C))) ) ) ) ) ) ).
++ fof(dt_k1_group_1, axiom,  (! [A] :  (l3_algstr_0(A) => m1_subset_1(k1_group_1(A), u1_struct_0(A))) ) ).
 + fof(dt_k6_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (v15_algstr_0(k6_group_2(A)) & m1_group_2(k6_group_2(A), A)) ) ) ).
-+ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
-+ fof(t1_group_5, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) & l3_algstr_0(B)) ) )  =>  (r1_struct_0(k6_group_2(B), A) <=> A=k1_group_1(B)) ) ) ) ).
-+ fof(t19_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (k2_group_5(A, k1_group_1(A), B)=k1_group_1(A) & k2_group_5(A, B, k1_group_1(A))=k1_group_1(A)) ) ) ) ) ).
 + fof(dt_l3_algstr_0, axiom,  (! [A] :  (l3_algstr_0(A) => l1_struct_0(A)) ) ).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
++ fof(t19_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (k2_group_5(A, k1_group_1(A), B)=k1_group_1(A) & k2_group_5(A, B, k1_group_1(A))=k1_group_1(A)) ) ) ) ) ).
++ fof(t1_group_5, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) & l3_algstr_0(B)) ) )  =>  (r1_struct_0(k6_group_2(B), A) <=> A=k1_group_1(B)) ) ) ) ).
++ fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
++ fof(t52_group_5, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) & l3_algstr_0(B)) ) )  =>  (! [C] :  (m1_group_2(C, B) =>  (! [D] :  (m1_group_2(D, B) =>  (r2_hidden(A, k5_group_5(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, u1_struct_0(B)) &  (? [F] :  (m1_subset_1(F, u1_struct_0(B)) &  (A=k2_group_5(B, E, F) &  (r1_struct_0(C, E) & r1_struct_0(D, F)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t53_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_group_2(B, A) =>  (! [C] :  (m1_group_2(C, A) => r2_hidden(k1_group_1(A), k5_group_5(A, B, C))) ) ) ) ) ) ).
 - fof(d7_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  ( (v15_algstr_0(B) & m1_group_2(B, A))  =>  (B=k6_group_2(A) <=> u1_struct_0(B)=k6_domain_1(u1_struct_0(A), k1_group_1(A))) ) ) ) ) ).
 - fof(t63_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_group_2(B, A) => k6_group_2(B)=k6_group_2(A)) ) ) ) ).
 - fof(dt_k5_group_5, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  &  (m1_group_2(B, A) & m1_group_2(C, A)) )  => m1_subset_1(k5_group_5(A, B, C), k1_zfmisc_1(u1_struct_0(A)))) ) ).

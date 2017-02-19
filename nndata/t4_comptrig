@@ -1,5 +1,5 @@
 C fof(t4_comptrig, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(k6_numbers, A) =>  (B=k6_numbers | k1_newton(k1_power(B, A), B)=A) ) ) ) ) ) ).
-+ fof(t4_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( ~ ( ( ~ ( (r1_xxreal_0(1, B) & r1_xxreal_0(k6_numbers, A)) )  & v1_abian(B)) )  =>  (k1_newton(k1_power(B, A), B)=A & k1_power(B, k1_newton(A, B))=A) ) ) ) ) ) ).
 + fof(t14_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (r1_xxreal_0(1, A))  => A=k6_numbers) ) ) ).
++ fof(t4_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( ~ ( ( ~ ( (r1_xxreal_0(1, B) & r1_xxreal_0(k6_numbers, A)) )  & v1_abian(B)) )  =>  (k1_newton(k1_power(B, A), B)=A & k1_power(B, k1_newton(A, B))=A) ) ) ) ) ) ).
 - fof(d1_power, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ( (r1_xxreal_0(k6_numbers, B) & r1_xxreal_0(1, A))  => k1_power(A, B)=k2_prepower(A, B))  &  ~ ( ( ~ (r1_xxreal_0(k6_numbers, B))  &  ( ~ (v1_abian(A))  &  ~ (k1_power(A, B)=k4_xcmplx_0(k2_prepower(A, k4_xcmplx_0(B)))) ) ) ) ) ) ) ) ) ).
 - fof(dt_k1_power, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v1_xreal_0(B))  => v1_xreal_0(k1_power(A, B))) ) ).

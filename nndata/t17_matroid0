@@ -1,17 +1,17 @@
 C fof(t17_matroid0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v3_pencil_1(A))  &  (v1_matroid0(A) &  (v2_matroid0(A) &  (v4_matroid0(A) & l1_pre_topc(A)) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (! [C] :  ( (v3_pre_topc(C, A) & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))))  =>  (r1_tarski(C, B) => r1_xxreal_0(k5_card_1(C), k4_matroid0(A, B))) ) ) ) ) ) ) ).
-+ fof(d11_matroid0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v3_pencil_1(A))  &  (v1_matroid0(A) &  (v2_matroid0(A) &  (v4_matroid0(A) & l1_pre_topc(A)) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k4_matroid0(A, B)=k3_tarski(a_2_1_matroid0(A, B))) ) ) ) ).
-+ fof(dt_k4_matroid0, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v3_pencil_1(A))  &  (v1_matroid0(A) &  (v2_matroid0(A) &  (v4_matroid0(A) & l1_pre_topc(A)) ) ) ) )  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => v7_ordinal1(k4_matroid0(A, B))) ) ).
-+ fof(fraenkel_a_2_1_matroid0, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(B))  &  ( ~ (v3_pencil_1(B))  &  (v1_matroid0(B) &  (v2_matroid0(B) &  (v4_matroid0(B) & l1_pre_topc(B)) ) ) ) )  & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))))  =>  (r2_hidden(A, a_2_1_matroid0(B, C)) <=>  (? [D] :  ( (v3_pre_topc(D, B) & m1_subset_1(D, k1_zfmisc_1(u1_struct_0(B))))  &  (A=k5_card_1(D) & r1_tarski(D, C)) ) ) ) ) ) ).
-+ fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
-+ fof(t74_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => r1_tarski(A, k3_tarski(B))) ) ) ).
 + fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
-+ fof(t39_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) <=> r1_ordinal1(A, B)) ) ) ) ) ).
-+ fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
-+ fof(dt_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => m1_subset_1(k5_card_1(A), k4_ordinal1)) ) ).
-+ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
++ fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
 + fof(cc2_matroid0, axiom,  (! [A] :  (l1_pre_topc(A) =>  (v4_matroid0(A) => v3_matroid0(A)) ) ) ).
 + fof(cc3_card_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_card_1(A)) ) ).
 + fof(cc6_matroid0, axiom,  (! [A] :  ( ( ~ (v3_pencil_1(A))  &  (v3_matroid0(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v3_pre_topc(B, A) =>  (v1_finset_1(B) & v3_pre_topc(B, A)) ) ) ) ) ) ).
++ fof(d11_matroid0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v3_pencil_1(A))  &  (v1_matroid0(A) &  (v2_matroid0(A) &  (v4_matroid0(A) & l1_pre_topc(A)) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k4_matroid0(A, B)=k3_tarski(a_2_1_matroid0(A, B))) ) ) ) ).
++ fof(dt_k4_matroid0, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v3_pencil_1(A))  &  (v1_matroid0(A) &  (v2_matroid0(A) &  (v4_matroid0(A) & l1_pre_topc(A)) ) ) ) )  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => v7_ordinal1(k4_matroid0(A, B))) ) ).
++ fof(dt_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => m1_subset_1(k5_card_1(A), k4_ordinal1)) ) ).
++ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
++ fof(fraenkel_a_2_1_matroid0, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(B))  &  ( ~ (v3_pencil_1(B))  &  (v1_matroid0(B) &  (v2_matroid0(B) &  (v4_matroid0(B) & l1_pre_topc(B)) ) ) ) )  & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))))  =>  (r2_hidden(A, a_2_1_matroid0(B, C)) <=>  (? [D] :  ( (v3_pre_topc(D, B) & m1_subset_1(D, k1_zfmisc_1(u1_struct_0(B))))  &  (A=k5_card_1(D) & r1_tarski(D, C)) ) ) ) ) ) ).
++ fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
++ fof(t39_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) <=> r1_ordinal1(A, B)) ) ) ) ) ).
++ fof(t74_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => r1_tarski(A, k3_tarski(B))) ) ) ).
 - fof(cc4_matroid0, axiom,  (! [A] :  (l1_pre_topc(A) =>  (v1_tdlat_3(A) =>  (v1_tdlat_3(A) &  ( ~ (v3_pencil_1(A))  &  (v1_matroid0(A) & v2_matroid0(A)) ) ) ) ) ) ).
 - fof(t16_matroid0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v3_pencil_1(A))  &  (v1_matroid0(A) &  (v4_matroid0(A) & l1_pre_topc(A)) ) ) )  =>  ( ( ~ (v2_struct_0(A))  &  ( ~ (v3_pencil_1(A))  &  (v1_matroid0(A) &  (v2_matroid0(A) & l1_pre_topc(A)) ) ) )  <=>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (! [C] :  ( (v3_pre_topc(C, A) & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))))  =>  (! [D] :  ( (v3_pre_topc(D, A) & m1_subset_1(D, k1_zfmisc_1(u1_struct_0(A))))  =>  ( (r1_matroid0(A, C, B) & r1_matroid0(A, D, B))  => k5_card_1(C)=k5_card_1(D)) ) ) ) ) ) ) ) ) ) ).
 - fof(t1_matroid0, axiom,  (! [A] :  ( ( ~ (v3_pencil_1(A))  &  (v1_matroid0(A) & l1_pre_topc(A)) )  =>  (! [B] :  ( (v3_pre_topc(B, A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (! [C] :  (r1_tarski(C, B) =>  (v3_pre_topc(C, A) & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A)))) ) ) ) ) ) ) ).

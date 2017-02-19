@@ -1,16 +1,16 @@
 C fof(t15_heyting1, axiom,  (! [A] :  (m2_subset_1(A, k2_zfmisc_1(k5_finsub_1(k1_xboole_0), k5_finsub_1(k1_xboole_0)), k7_normform(k1_xboole_0)) => A=k4_tarski(k1_xboole_0, k1_xboole_0)) ) ).
-+ fof(t29_zfmisc_1, axiom,  (! [A] :  (! [B] : k2_zfmisc_1(k1_tarski(A), k1_tarski(B))=k1_tarski(k4_tarski(A, B))) ) ).
++ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(dt_k7_normform, axiom,  (! [A] : m1_subset_1(k7_normform(A), k1_zfmisc_1(k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A))))) ).
++ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
 + fof(dt_o_1_2_funct_1, axiom,  (! [A] : m1_subset_1(o_1_2_funct_1(A), A)) ).
 + fof(fc2_normform, axiom,  (! [A] :  ~ (v1_xboole_0(k7_normform(A))) ) ).
-+ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
-+ fof(t49_card_1, axiom, 1=k1_tarski(k1_xboole_0)).
-+ fof(t15_finsub_1, axiom, k5_finsub_1(k1_xboole_0)=k1_tarski(k1_xboole_0)).
-+ fof(dt_k7_normform, axiom,  (! [A] : m1_subset_1(k7_normform(A), k1_zfmisc_1(k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A))))) ).
-+ fof(t19_partit_2, axiom, k8_funct_5=k1_tarski(k4_tarski(k1_xboole_0, k1_xboole_0))).
-+ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 + fof(fc2_xboole_0, axiom,  (! [A] :  ~ (v1_xboole_0(k1_tarski(A))) ) ).
++ fof(t15_finsub_1, axiom, k5_finsub_1(k1_xboole_0)=k1_tarski(k1_xboole_0)).
++ fof(t19_partit_2, axiom, k8_funct_5=k1_tarski(k4_tarski(k1_xboole_0, k1_xboole_0))).
++ fof(t29_zfmisc_1, axiom,  (! [A] :  (! [B] : k2_zfmisc_1(k1_tarski(A), k1_tarski(B))=k1_tarski(k4_tarski(A, B))) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t49_card_1, axiom, 1=k1_tarski(k1_xboole_0)).
 - fof(t36_normform, axiom,  (! [A] :  (! [B] :  (m2_subset_1(B, k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k7_normform(A)) =>  (! [C] :  (m2_subset_1(C, k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k7_normform(A)) =>  (! [D] :  (m1_subset_1(D, k5_finsub_1(k7_normform(A))) =>  (r2_hidden(B, k9_normform(A, D)) =>  (r2_hidden(B, D) &  ( (r2_hidden(C, D) & r1_normform(k5_finsub_1(A), k5_finsub_1(A), C, B))  => C=B) ) ) ) ) ) ) ) ) ) ).
 - fof(t12_heyting1, axiom,  (! [A] : m2_subset_1(k4_tarski(k1_xboole_0, k1_xboole_0), k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k7_normform(A))) ).
 - fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).

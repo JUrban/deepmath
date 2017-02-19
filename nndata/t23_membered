@@ -1,5 +1,5 @@
 C fof(t23_membered, axiom,  (! [A] :  (! [B] :  (v5_membered(B) =>  (r1_tarski(A, B) => v5_membered(A)) ) ) ) ).
-+ fof(d5_membered, axiom,  (! [A] :  (v5_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_int_1(B)) ) ) ) ).
 + fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d5_membered, axiom,  (! [A] :  (v5_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_int_1(B)) ) ) ) ).
 - fof(d2_int_1, axiom,  (! [A] :  (v1_int_1(A) <=> r2_hidden(A, k4_numbers)) ) ).
 - fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).

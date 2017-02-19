@@ -1,23 +1,23 @@
 C fof(t22_comseq_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) &  (v2_comseq_2(A) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) ) )  => k3_comseq_2(k31_valued_1(k5_numbers, k2_numbers, A))=k10_complex1(k3_comseq_2(A))) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(cc28_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v5_relat_1(A, k2_numbers))  =>  (v1_relat_1(A) & v1_valued_0(A)) ) ) ).
++ fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
++ fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
++ fof(d4_complex1, axiom, k6_complex1=1).
++ fof(d6_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => k30_valued_1(A)=k24_valued_1(A, k4_xcmplx_0(1))) ) ).
++ fof(dt_k3_comseq_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  => m1_subset_1(k3_comseq_2(A), k2_numbers)) ) ).
++ fof(dt_k6_complex1, axiom, m1_subset_1(k6_complex1, k2_numbers)).
++ fof(fc1_membered, axiom, v1_membered(k2_numbers)).
++ fof(fc4_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => v1_xcmplx_0(k6_xcmplx_0(A, B))) ) ).
++ fof(redefinition_k10_complex1, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => k10_complex1(A)=k4_xcmplx_0(A)) ) ).
++ fof(redefinition_k25_valued_1, axiom,  (! [A, B, C, D] :  ( (v1_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xcmplx_0(D)) )  => k25_valued_1(A, B, C, D)=k24_valued_1(C, D)) ) ).
 + fof(redefinition_k31_valued_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  => k31_valued_1(A, B, C)=k30_valued_1(C)) ) ).
++ fof(rqRealDiff__k6_xcmplx_0__r1_r2_rm1, axiom, k6_xcmplx_0(1, 2)=k4_xcmplx_0(1)).
 + fof(spc2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k4_xcmplx_0(1))=k4_xcmplx_0(A)) ) ).
 + fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(cc28_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v5_relat_1(A, k2_numbers))  =>  (v1_relat_1(A) & v1_valued_0(A)) ) ) ).
-+ fof(dt_k3_comseq_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  => m1_subset_1(k3_comseq_2(A), k2_numbers)) ) ).
-+ fof(redefinition_k10_complex1, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => k10_complex1(A)=k4_xcmplx_0(A)) ) ).
-+ fof(dt_k6_complex1, axiom, m1_subset_1(k6_complex1, k2_numbers)).
-+ fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
-+ fof(fc4_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => v1_xcmplx_0(k6_xcmplx_0(A, B))) ) ).
-+ fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(d4_complex1, axiom, k6_complex1=1).
-+ fof(redefinition_k25_valued_1, axiom,  (! [A, B, C, D] :  ( (v1_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xcmplx_0(D)) )  => k25_valued_1(A, B, C, D)=k24_valued_1(C, D)) ) ).
-+ fof(d6_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => k30_valued_1(A)=k24_valued_1(A, k4_xcmplx_0(1))) ) ).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(rqRealDiff__k6_xcmplx_0__r1_r2_rm1, axiom, k6_xcmplx_0(1, 2)=k4_xcmplx_0(1)).
-+ fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
 + fof(t18_comseq_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) &  (v2_comseq_2(A) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) ) )  =>  (! [B] :  (v1_xcmplx_0(B) => k3_comseq_2(k25_valued_1(k5_numbers, k2_numbers, A, B))=k3_xcmplx_0(B, k3_comseq_2(A))) ) ) ) ).
-+ fof(fc1_membered, axiom, v1_membered(k2_numbers)).
 - fof(t12_comseq_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  =>  (v2_comseq_2(A) => k3_comseq_2(k2_comseq_2(k5_numbers, A))=k15_complex1(k3_comseq_2(A))) ) ) ).
 - fof(t14_comseq_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) &  (v2_comseq_2(A) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) ) )  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k2_numbers) &  (v2_comseq_2(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) ) )  => k3_comseq_2(k2_valued_1(k5_numbers, k2_numbers, k2_numbers, A, B))=k8_complex1(k3_comseq_2(A), k3_comseq_2(B))) ) ) ) ).
 - fof(t11_comseq_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  => r2_relset_1(k5_numbers, k2_numbers, k31_valued_1(k5_numbers, k2_numbers, A), k25_valued_1(k5_numbers, k2_numbers, A, k10_complex1(k6_complex1)))) ) ).

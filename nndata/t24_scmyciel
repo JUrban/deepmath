@@ -1,9 +1,9 @@
 C fof(t24_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (r2_hidden(B, k3_tarski(A)) <=> r2_hidden(k1_tarski(B), A)) ) ) ) ).
-+ fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
 + fof(cc4_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v3_scmyciel(A, 1)) ) ) ) ).
-+ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
-+ fof(d4_tarski, axiom,  (! [A] :  (! [B] :  (B=k3_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(C, D) & r2_hidden(D, A)) ) ) ) ) ) ) ).
 + fof(d1_classes1, axiom,  (! [A] :  (v1_classes1(A) <=>  (! [B] :  (! [C] :  ( (r2_hidden(B, A) & r1_tarski(C, B))  => r2_hidden(C, A)) ) ) ) ) ).
++ fof(d4_tarski, axiom,  (! [A] :  (! [B] :  (B=k3_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(C, D) & r2_hidden(D, A)) ) ) ) ) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
 - fof(t7_finset_1, axiom,  (! [A] :  ( (v1_finset_1(A) &  (! [B] :  (r2_hidden(B, A) => v1_finset_1(B)) ) )  <=> v1_finset_1(k3_tarski(A))) ) ).
 - fof(cc5_scmyciel, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v3_scmyciel(A, 1)) )  => v4_scmyciel(A)) ) ).
 - fof(t23_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (v1_finset_1(k3_tarski(A)) => v1_finset_1(A)) ) ) ).

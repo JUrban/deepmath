@@ -1,20 +1,20 @@
 C fof(l69_modal_1, axiom, m1_subset_1(k1_domain_1(k5_numbers, k5_numbers, k6_numbers, k6_numbers), k4_modal_1)).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(dt_k8_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) & m1_subset_1(D, A)) ) )  => m1_subset_1(k8_domain_1(A, B, C, D), k1_zfmisc_1(A))) ) ).
-+ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(d4_modal_1, axiom, k4_modal_1=k8_mcart_1(k5_numbers, k1_numbers, k8_domain_1(k5_numbers, k6_numbers, 1, 2), k5_numbers)).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(redefinition_k8_mcart_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(A)) & m1_subset_1(D, k1_zfmisc_1(B)))  => k8_mcart_1(A, B, C, D)=k2_zfmisc_1(C, D)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(dt_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => m1_subset_1(k1_domain_1(A, B, C, D), k2_zfmisc_1(A, B))) ) ).
-+ fof(fc2_subset_1, axiom,  (! [A, B, C] :  ~ (v1_xboole_0(k1_enumset1(A, B, C))) ) ).
-+ fof(redefinition_k8_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) & m1_subset_1(D, A)) ) )  => k8_domain_1(A, B, C, D)=k1_enumset1(B, C, D)) ) ).
 + fof(d1_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (D=k1_enumset1(A, B, C) <=>  (! [E] :  (r2_hidden(E, D) <=>  ~ ( ( ~ (E=A)  &  ( ~ (E=B)  &  ~ (E=C) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d4_modal_1, axiom, k4_modal_1=k8_mcart_1(k5_numbers, k1_numbers, k8_domain_1(k5_numbers, k6_numbers, 1, 2), k5_numbers)).
++ fof(dt_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => m1_subset_1(k1_domain_1(A, B, C, D), k2_zfmisc_1(A, B))) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(dt_k8_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) & m1_subset_1(D, A)) ) )  => m1_subset_1(k8_domain_1(A, B, C, D), k1_zfmisc_1(A))) ) ).
++ fof(fc2_subset_1, axiom,  (! [A, B, C] :  ~ (v1_xboole_0(k1_enumset1(A, B, C))) ) ).
 + fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_k8_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) & m1_subset_1(D, A)) ) )  => k8_domain_1(A, B, C, D)=k1_enumset1(B, C, D)) ) ).
++ fof(redefinition_k8_mcart_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(A)) & m1_subset_1(D, k1_zfmisc_1(B)))  => k8_mcart_1(A, B, C, D)=k2_zfmisc_1(C, D)) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 - fof(d5_modal_1, axiom,  (! [A] :  (m1_trees_3(A, k8_mcart_1(k1_numbers, k1_numbers, k5_numbers, k5_numbers)) =>  (A=k6_modal_1 <=>  ( (! [B] :  ( (v1_relat_1(B) &  (v5_relat_1(B, k8_mcart_1(k1_numbers, k1_numbers, k5_numbers, k5_numbers)) &  (v1_funct_1(B) & v3_trees_2(B)) ) )  =>  (r2_hidden(B, A) => v1_finset_1(B)) ) )  &  (! [B] :  ( (v1_relat_1(B) &  (v5_relat_1(B, k8_mcart_1(k1_numbers, k1_numbers, k5_numbers, k5_numbers)) &  (v1_funct_1(B) &  (v1_finset_1(B) & v3_trees_2(B)) ) ) )  =>  (r2_hidden(B, A) <=>  (! [C] :  (m1_trees_1(C, k9_xtuple_0(B)) =>  (r1_xxreal_0(k5_modal_1(k9_xtuple_0(B), C), 2) &  ( ~ ( (k5_modal_1(k9_xtuple_0(B), C)=k6_numbers &  ( ~ (k3_trees_2(k8_mcart_1(k1_numbers, k1_numbers, k5_numbers, k5_numbers), B, C)=k1_domain_1(k5_numbers, k5_numbers, k6_numbers, k6_numbers))  &  (! [D] :  (m1_subset_1(D, k5_numbers) =>  ~ (k3_trees_2(k8_mcart_1(k1_numbers, k1_numbers, k5_numbers, k5_numbers), B, C)=k1_domain_1(k5_numbers, k5_numbers, 3, D)) ) ) ) ) )  &  ( ~ ( (k5_modal_1(k9_xtuple_0(B), C)=1 &  ( ~ (k3_trees_2(k8_mcart_1(k1_numbers, k1_numbers, k5_numbers, k5_numbers), B, C)=k1_domain_1(k5_numbers, k5_numbers, 1, k6_numbers))  &  ~ (k3_trees_2(k8_mcart_1(k1_numbers, k1_numbers, k5_numbers, k5_numbers), B, C)=k1_domain_1(k5_numbers, k5_numbers, 1, 1)) ) ) )  &  (k5_modal_1(k9_xtuple_0(B), C)=2 => k3_trees_2(k8_mcart_1(k1_numbers, k1_numbers, k5_numbers, k5_numbers), B, C)=k1_domain_1(k5_numbers, k5_numbers, 2, k6_numbers)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t31_modal_1, axiom, m1_subset_1(k8_funcop_1(k2_zfmisc_1(k5_numbers, k5_numbers), k2_trees_1(k6_numbers), k1_domain_1(k5_numbers, k5_numbers, k6_numbers, k6_numbers)), k6_modal_1)).
 - fof(d15_modal_1, axiom, k17_modal_1=k8_funcop_1(k2_zfmisc_1(k5_numbers, k5_numbers), k2_trees_1(k6_numbers), k1_domain_1(k5_numbers, k5_numbers, k6_numbers, k6_numbers))).

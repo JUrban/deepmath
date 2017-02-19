@@ -1,16 +1,16 @@
 C fof(t36_topgen_4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  => v6_topgen_4(k2_struct_0(A), A)) ) ).
-+ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
-+ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
++ fof(cc6_card_3, axiom,  (! [A] :  (v1_finset_1(A) => v4_card_3(A)) ) ).
 + fof(d7_topgen_4, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v6_topgen_4(B, A) <=>  (? [C] :  ( (v4_card_3(C) &  (v1_tops_2(C, A) & m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A))))) )  & B=k6_setfam_1(u1_struct_0(A), C)) ) ) ) ) ) ) ).
 + fof(dt_k2_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => m1_subset_1(k2_struct_0(A), k1_zfmisc_1(u1_struct_0(A)))) ) ).
-+ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
 + fof(dt_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m1_subset_1(k6_domain_1(A, B), k1_zfmisc_1(A))) ) ).
++ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
 + fof(fc10_tops_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  => v3_pre_topc(k2_struct_0(A), A)) ) ).
-+ fof(t19_topgen_4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A)))) =>  (C=k6_domain_1(k1_zfmisc_1(u1_struct_0(A)), B) =>  (v3_pre_topc(B, A) <=> v1_tops_2(C, A)) ) ) ) ) ) ) ) ).
++ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
++ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
++ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
 + fof(redefinition_k6_setfam_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => k6_setfam_1(A, B)=k1_setfam_1(B)) ) ).
 + fof(t10_setfam_1, axiom,  (! [A] : k1_setfam_1(k1_tarski(A))=A) ).
-+ fof(cc6_card_3, axiom,  (! [A] :  (v1_finset_1(A) => v4_card_3(A)) ) ).
-+ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
++ fof(t19_topgen_4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A)))) =>  (C=k6_domain_1(k1_zfmisc_1(u1_struct_0(A)), B) =>  (v3_pre_topc(B, A) <=> v1_tops_2(C, A)) ) ) ) ) ) ) ) ).
 - fof(cc11_topgen_4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v1_xboole_0(B) =>  (v5_topgen_4(B, A) & v6_topgen_4(B, A)) ) ) ) ) ) ).
 - fof(t27_yellow19, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v4_pre_topc(B, A) <=>  (! [C] :  ( ( ~ (v1_xboole_0(C))  &  (v1_subset_1(C, u1_struct_0(k3_yellow_1(k2_struct_0(A)))) &  (v2_waybel_0(C, k3_yellow_1(k2_struct_0(A))) &  (v13_waybel_0(C, k3_yellow_1(k2_struct_0(A))) & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k3_yellow_1(k2_struct_0(A)))))) ) ) )  =>  (r2_hidden(B, C) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (r1_waybel_7(A, C, D) => r2_hidden(D, B)) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t16_yellow19, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_subset_1(B, u1_struct_0(k3_yellow_1(k2_struct_0(A)))) &  (v2_waybel_0(B, k3_yellow_1(k2_struct_0(A))) &  (v13_waybel_0(B, k3_yellow_1(k2_struct_0(A))) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k3_yellow_1(k2_struct_0(A)))))) ) ) )  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r3_waybel_9(A, k3_yellow19(A, k2_struct_0(A), B), C) <=> r1_waybel_7(A, B, C)) ) ) ) ) ) ) ).

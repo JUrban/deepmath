@@ -1,10 +1,10 @@
 C fof(t1_calcul_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (r2_hidden(A, k2_calcul_2(B, C)) <=>  (r1_xxreal_0(k2_nat_1(1, B), A) & r1_xxreal_0(A, k2_xcmplx_0(C, B))) ) ) ) ) ) ) ) ).
 + fof(d12_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) <=> r2_hidden(A, k4_ordinal1)) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(d1_calcul_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) => k1_calcul_2(A, B)=a_2_0_calcul_2(A, B)) ) ) ) ).
 + fof(fraenkel_a_2_0_calcul_2, axiom,  (! [A, B, C] :  ( (v7_ordinal1(B) & v7_ordinal1(C))  =>  (r2_hidden(A, a_2_0_calcul_2(B, C)) <=>  (? [D] :  (m1_subset_1(D, k5_numbers) &  (A=D &  (r1_xxreal_0(k2_nat_1(1, B), D) & r1_xxreal_0(D, k2_xcmplx_0(C, B))) ) ) ) ) ) ) ).
 + fof(redefinition_k2_calcul_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k2_calcul_2(A, B)=k1_calcul_2(A, B)) ) ).
-+ fof(d1_calcul_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) => k1_calcul_2(A, B)=a_2_0_calcul_2(A, B)) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 - fof(dt_k2_calcul_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => m1_subset_1(k2_calcul_2(A, B), k1_zfmisc_1(k5_numbers))) ) ).
 - fof(fraenkel_a_1_0_zf_lang, axiom,  (! [A, B] :  (m1_subset_1(B, k5_numbers) =>  (r2_hidden(A, a_1_0_zf_lang(B)) <=>  (? [C] :  (m1_subset_1(C, k5_numbers) &  (A=C &  (r1_xxreal_0(1, C) & r1_xxreal_0(C, k2_nat_1(1, B))) ) ) ) ) ) ) ).
 - fof(s5_nat_1__e3_48_1_3__seq_4, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  &  (m2_subset_1(B, k1_numbers, k5_numbers) & m2_subset_1(C, k1_numbers, k5_numbers)) )  =>  ( (? [D] :  (v7_ordinal1(D) &  ( ~ (r1_xxreal_0(D, C))  & r1_xxreal_0(k8_nat_1(k1_numbers, k1_valued_0(k1_numbers, A, k2_nat_1(1, B)), D), k8_nat_1(k1_numbers, k1_valued_0(k1_numbers, A, k2_nat_1(1, B)), C))) ) )  =>  (? [D] :  (v7_ordinal1(D) &  ( ( ~ (r1_xxreal_0(D, C))  & r1_xxreal_0(k8_nat_1(k1_numbers, k1_valued_0(k1_numbers, A, k2_nat_1(1, B)), D), k8_nat_1(k1_numbers, k1_valued_0(k1_numbers, A, k2_nat_1(1, B)), C)))  &  (! [E] :  (v7_ordinal1(E) =>  ( ( ~ (r1_xxreal_0(E, C))  & r1_xxreal_0(k8_nat_1(k1_numbers, k1_valued_0(k1_numbers, A, k2_nat_1(1, B)), E), k8_nat_1(k1_numbers, k1_valued_0(k1_numbers, A, k2_nat_1(1, B)), C)))  => r1_xxreal_0(D, E)) ) ) ) ) ) ) ) ) ).

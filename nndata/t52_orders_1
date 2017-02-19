@@ -1,6 +1,6 @@
 C fof(t52_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r4_orders_1(k2_relat_1(A), B) <=> r5_orders_1(A, B)) ) ) ) ).
-+ fof(involutiveness_k2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => k2_relat_1(k2_relat_1(A))=A) ) ).
 + fof(dt_k2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k2_relat_1(A))) ) ).
++ fof(involutiveness_k2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => k2_relat_1(k2_relat_1(A))=A) ) ).
 + fof(t51_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r4_orders_1(A, B) <=> r5_orders_1(k2_relat_1(A), B)) ) ) ) ).
 - fof(d9_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r4_orders_1(A, B) <=>  (! [C] :  ~ ( (r1_tarski(C, B) &  (v3_orders_1(k2_wellord1(A, C)) &  (! [D] :  ~ ( (r2_hidden(D, B) &  (! [E] :  (r2_hidden(E, C) => r2_hidden(k4_tarski(E, D), A)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(d10_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r5_orders_1(A, B) <=>  (! [C] :  ~ ( (r1_tarski(C, B) &  (v3_orders_1(k2_wellord1(A, C)) &  (! [D] :  ~ ( (r2_hidden(D, B) &  (! [E] :  (r2_hidden(E, C) => r2_hidden(k4_tarski(D, E), A)) ) ) ) ) ) ) ) ) ) ) ) ) ).

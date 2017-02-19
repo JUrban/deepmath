@@ -1,31 +1,31 @@
 C fof(t28_grcat_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  =>  (? [B] :  (r2_hidden(B, A) & r1_grcat_1(B, k3_algstr_0)) ) ) ) ).
-+ fof(redefinition_r1_funct_2, axiom,  (! [A, B, C, D, E, F] :  ( ( ~ (v1_xboole_0(B))  &  ( ~ (v1_xboole_0(D))  &  ( (v1_funct_1(E) &  (v1_funct_2(E, A, B) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  &  (v1_funct_1(F) &  (v1_funct_2(F, C, D) & m1_subset_1(F, k1_zfmisc_1(k2_zfmisc_1(C, D)))) ) ) ) )  =>  (r1_funct_2(A, B, C, D, E, F) <=> E=F) ) ) ).
-+ fof(t49_card_1, axiom, 1=k1_tarski(k1_xboole_0)).
-+ fof(fc9_algstr_0, axiom,  (v13_struct_0(k3_algstr_0, 1) & v8_algstr_0(k3_algstr_0)) ).
-+ fof(t3_grcat_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  =>  (r2_hidden(k1_tarski(k1_xboole_0), A) &  (r2_hidden(k4_tarski(k1_tarski(k1_xboole_0), k1_tarski(k1_xboole_0)), A) &  (r2_hidden(k2_zfmisc_1(k1_tarski(k1_xboole_0), k1_tarski(k1_xboole_0)), A) &  (r2_hidden(k9_funct_5, A) & r2_hidden(k8_funct_5, A)) ) ) ) ) ) ).
-+ fof(t56_classes2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  => r2_hidden(k1_xboole_0, A)) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(dt_k8_funct_5, axiom,  (v1_funct_1(k8_funct_5) &  (v1_funct_2(k8_funct_5, 1, 1) & m1_subset_1(k8_funct_5, k1_zfmisc_1(k2_zfmisc_1(1, 1)))) ) ).
-+ fof(d6_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => k4_struct_0(A)=u2_struct_0(A)) ) ).
-+ fof(dt_k9_funct_5, axiom,  (v1_funct_1(k9_funct_5) &  (v1_funct_2(k9_funct_5, k2_zfmisc_1(1, 1), 1) & m1_subset_1(k9_funct_5, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(1, 1), 1)))) ) ).
-+ fof(spc1_boole, axiom,  ~ (v1_xboole_0(1)) ).
 + fof(abstractness_v8_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (v8_algstr_0(A) => A=g2_algstr_0(u1_struct_0(A), u1_algstr_0(A), u2_struct_0(A))) ) ) ).
-+ fof(d23_grcat_1, axiom,  (! [A] :  (! [B] :  (r1_grcat_1(A, B) <=>  (? [C] :  (? [D] :  (? [E] :  (? [F] :  (A=k6_xtuple_0(C, D, E, F) &  (? [G] :  ( ( ~ (v2_struct_0(G))  &  (v8_algstr_0(G) &  (v13_algstr_0(G) &  (v3_rlvect_1(G) &  (v4_rlvect_1(G) & l2_algstr_0(G)) ) ) ) )  &  (B=G &  (C=u1_struct_0(G) &  (D=u1_algstr_0(G) &  (E=k5_vectsp_1(G) & F=k4_struct_0(G)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(d9_algstr_0, axiom, k3_algstr_0=g2_algstr_0(1, k9_funct_5, k5_funct_5)).
-+ fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
-+ fof(t1_grcat_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, A) =>  (! [E] :  (m1_subset_1(E, A) =>  (r2_hidden(k3_xtuple_0(B, C, D), A) & r2_hidden(k6_xtuple_0(B, C, D, E), A)) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
-+ fof(d4_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] : k3_xtuple_0(A, B, C)=k4_tarski(k4_tarski(A, B), C)) ) ) ).
-+ fof(free_g2_algstr_0, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  & m1_subset_1(C, A))  =>  (! [D, E, F] :  (g2_algstr_0(A, B, C)=g2_algstr_0(D, E, F) =>  (A=D &  (B=E & C=F) ) ) ) ) ) ).
-+ fof(d8_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k6_xtuple_0(A, B, C, D)=k4_tarski(k3_xtuple_0(A, B, C), D)) ) ) ) ).
-+ fof(dt_k5_funct_5, axiom, m1_subset_1(k5_funct_5, 1)).
-+ fof(fc6_algstr_0, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  & m1_subset_1(C, A)) )  =>  ( ~ (v2_struct_0(g2_algstr_0(A, B, C)))  & v8_algstr_0(g2_algstr_0(A, B, C))) ) ) ).
-+ fof(t6_grcat_1, axiom, r1_funct_2(u1_struct_0(k3_algstr_0), u1_struct_0(k3_algstr_0), 1, 1, k5_vectsp_1(k3_algstr_0), k8_funct_5)).
-+ fof(dt_k3_algstr_0, axiom, l2_algstr_0(k3_algstr_0)).
-+ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
 + fof(cc7_algstr_1, axiom,  (! [A] :  (l2_algstr_0(A) =>  (v13_struct_0(A, 1) =>  (v13_struct_0(A, 1) &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) & v4_rlvect_1(A)) ) ) ) ) ) ) ).
-+ fof(redefinition_k5_funct_5, axiom, k5_funct_5=k1_xboole_0).
++ fof(d23_grcat_1, axiom,  (! [A] :  (! [B] :  (r1_grcat_1(A, B) <=>  (? [C] :  (? [D] :  (? [E] :  (? [F] :  (A=k6_xtuple_0(C, D, E, F) &  (? [G] :  ( ( ~ (v2_struct_0(G))  &  (v8_algstr_0(G) &  (v13_algstr_0(G) &  (v3_rlvect_1(G) &  (v4_rlvect_1(G) & l2_algstr_0(G)) ) ) ) )  &  (B=G &  (C=u1_struct_0(G) &  (D=u1_algstr_0(G) &  (E=k5_vectsp_1(G) & F=k4_struct_0(G)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d4_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] : k3_xtuple_0(A, B, C)=k4_tarski(k4_tarski(A, B), C)) ) ) ).
++ fof(d6_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => k4_struct_0(A)=u2_struct_0(A)) ) ).
++ fof(d8_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k6_xtuple_0(A, B, C, D)=k4_tarski(k3_xtuple_0(A, B, C), D)) ) ) ) ).
++ fof(d9_algstr_0, axiom, k3_algstr_0=g2_algstr_0(1, k9_funct_5, k5_funct_5)).
++ fof(dt_k3_algstr_0, axiom, l2_algstr_0(k3_algstr_0)).
++ fof(dt_k5_funct_5, axiom, m1_subset_1(k5_funct_5, 1)).
 + fof(dt_k5_vectsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  =>  (v1_funct_1(k5_vectsp_1(A)) &  (v1_funct_2(k5_vectsp_1(A), u1_struct_0(A), u1_struct_0(A)) & m1_subset_1(k5_vectsp_1(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ) ) ).
++ fof(dt_k8_funct_5, axiom,  (v1_funct_1(k8_funct_5) &  (v1_funct_2(k8_funct_5, 1, 1) & m1_subset_1(k8_funct_5, k1_zfmisc_1(k2_zfmisc_1(1, 1)))) ) ).
++ fof(dt_k9_funct_5, axiom,  (v1_funct_1(k9_funct_5) &  (v1_funct_2(k9_funct_5, k2_zfmisc_1(1, 1), 1) & m1_subset_1(k9_funct_5, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(1, 1), 1)))) ) ).
++ fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
++ fof(fc6_algstr_0, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  & m1_subset_1(C, A)) )  =>  ( ~ (v2_struct_0(g2_algstr_0(A, B, C)))  & v8_algstr_0(g2_algstr_0(A, B, C))) ) ) ).
++ fof(fc9_algstr_0, axiom,  (v13_struct_0(k3_algstr_0, 1) & v8_algstr_0(k3_algstr_0)) ).
++ fof(free_g2_algstr_0, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  & m1_subset_1(C, A))  =>  (! [D, E, F] :  (g2_algstr_0(A, B, C)=g2_algstr_0(D, E, F) =>  (A=D &  (B=E & C=F) ) ) ) ) ) ).
++ fof(redefinition_k5_funct_5, axiom, k5_funct_5=k1_xboole_0).
++ fof(redefinition_r1_funct_2, axiom,  (! [A, B, C, D, E, F] :  ( ( ~ (v1_xboole_0(B))  &  ( ~ (v1_xboole_0(D))  &  ( (v1_funct_1(E) &  (v1_funct_2(E, A, B) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  &  (v1_funct_1(F) &  (v1_funct_2(F, C, D) & m1_subset_1(F, k1_zfmisc_1(k2_zfmisc_1(C, D)))) ) ) ) )  =>  (r1_funct_2(A, B, C, D, E, F) <=> E=F) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(spc1_boole, axiom,  ~ (v1_xboole_0(1)) ).
++ fof(t1_grcat_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, A) =>  (! [E] :  (m1_subset_1(E, A) =>  (r2_hidden(k3_xtuple_0(B, C, D), A) & r2_hidden(k6_xtuple_0(B, C, D, E), A)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t3_grcat_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  =>  (r2_hidden(k1_tarski(k1_xboole_0), A) &  (r2_hidden(k4_tarski(k1_tarski(k1_xboole_0), k1_tarski(k1_xboole_0)), A) &  (r2_hidden(k2_zfmisc_1(k1_tarski(k1_xboole_0), k1_tarski(k1_xboole_0)), A) &  (r2_hidden(k9_funct_5, A) & r2_hidden(k8_funct_5, A)) ) ) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t49_card_1, axiom, 1=k1_tarski(k1_xboole_0)).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(t56_classes2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_classes2(A))  => r2_hidden(k1_xboole_0, A)) ) ).
++ fof(t6_grcat_1, axiom, r1_funct_2(u1_struct_0(k3_algstr_0), u1_struct_0(k3_algstr_0), 1, 1, k5_vectsp_1(k3_algstr_0), k8_funct_5)).
 - fof(t27_grcat_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_grcat_1(A, B) & r1_grcat_1(A, C))  => B=C) ) ) ) ).
 - fof(t4_algstr_1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k3_algstr_0)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k3_algstr_0)) => A=B) ) ) ) ).
 - fof(t5_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (! [G] :  (! [H] :  (k6_xtuple_0(A, B, C, D)=k6_xtuple_0(E, F, G, H) =>  (A=E &  (B=F &  (C=G & D=H) ) ) ) ) ) ) ) ) ) ) ) ).

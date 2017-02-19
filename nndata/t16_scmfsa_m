@@ -1,16 +1,16 @@
 C fof(t16_scmfsa_m, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k3_scmfsa_2)))  =>  ~ (r2_hidden(k3_scmfsa_m(A), A)) ) ) ).
-+ fof(fraenkel_a_1_1_scmfsa_m, axiom,  (! [A, B] :  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(k3_scmfsa_2)))  =>  (r2_hidden(A, a_1_1_scmfsa_m(B)) <=>  (? [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) &  (A=C &  ~ (r2_hidden(k5_scmfsa_2(C), B)) ) ) ) ) ) ) ).
++ fof(cc11_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k5_numbers)) => v6_membered(A)) ) ).
 + fof(cc1_membered, axiom,  (! [A] :  (v6_membered(A) => v5_membered(A)) ) ).
-+ fof(d7_xxreal_2, axiom,  (! [A] :  ( (v2_membered(A) & v1_xxreal_2(A))  =>  (! [B] :  (v1_xxreal_0(B) =>  (B=k2_xxreal_2(A) <=>  (r2_hidden(B, A) &  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(C, A) => r1_xxreal_0(B, C)) ) ) ) ) ) ) ) ) ).
 + fof(cc2_membered, axiom,  (! [A] :  (v5_membered(A) => v4_membered(A)) ) ).
 + fof(cc3_membered, axiom,  (! [A] :  (v4_membered(A) => v3_membered(A)) ) ).
-+ fof(fc6_xxreal_2, axiom,  (! [A] :  ( (v6_membered(A) & v1_xxreal_2(A))  =>  (v1_xxreal_0(k2_xxreal_2(A)) & v7_ordinal1(k2_xxreal_2(A))) ) ) ).
-+ fof(cc11_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k5_numbers)) => v6_membered(A)) ) ).
-+ fof(d4_scmfsa_m, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k3_scmfsa_2)))  =>  (! [B] :  (m1_scmfsa_2(B) =>  (B=k3_scmfsa_m(A) <=>  (? [C] :  ( ( ~ (v1_xboole_0(C))  & m1_subset_1(C, k1_zfmisc_1(k5_numbers)))  &  (B=k5_scmfsa_2(k6_seq_4(C)) & C=a_1_1_scmfsa_m(A)) ) ) ) ) ) ) ) ).
-+ fof(dt_k3_scmfsa_m, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k3_scmfsa_2)))  => m1_scmfsa_2(k3_scmfsa_m(A))) ) ).
 + fof(cc3_xxreal_2, axiom,  (! [A] :  ( (v6_membered(A) &  ~ (v1_xboole_0(A)) )  =>  (v6_membered(A) &  ( ~ (v1_xboole_0(A))  & v1_xxreal_2(A)) ) ) ) ).
-+ fof(redefinition_k6_seq_4, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v6_membered(A))  => k6_seq_4(A)=k2_xxreal_2(A)) ) ).
 + fof(cc4_membered, axiom,  (! [A] :  (v3_membered(A) => v2_membered(A)) ) ).
++ fof(d4_scmfsa_m, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k3_scmfsa_2)))  =>  (! [B] :  (m1_scmfsa_2(B) =>  (B=k3_scmfsa_m(A) <=>  (? [C] :  ( ( ~ (v1_xboole_0(C))  & m1_subset_1(C, k1_zfmisc_1(k5_numbers)))  &  (B=k5_scmfsa_2(k6_seq_4(C)) & C=a_1_1_scmfsa_m(A)) ) ) ) ) ) ) ) ).
++ fof(d7_xxreal_2, axiom,  (! [A] :  ( (v2_membered(A) & v1_xxreal_2(A))  =>  (! [B] :  (v1_xxreal_0(B) =>  (B=k2_xxreal_2(A) <=>  (r2_hidden(B, A) &  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(C, A) => r1_xxreal_0(B, C)) ) ) ) ) ) ) ) ) ).
++ fof(dt_k3_scmfsa_m, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k3_scmfsa_2)))  => m1_scmfsa_2(k3_scmfsa_m(A))) ) ).
++ fof(fc6_xxreal_2, axiom,  (! [A] :  ( (v6_membered(A) & v1_xxreal_2(A))  =>  (v1_xxreal_0(k2_xxreal_2(A)) & v7_ordinal1(k2_xxreal_2(A))) ) ) ).
++ fof(fraenkel_a_1_1_scmfsa_m, axiom,  (! [A, B] :  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(k3_scmfsa_2)))  =>  (r2_hidden(A, a_1_1_scmfsa_m(B)) <=>  (? [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) &  (A=C &  ~ (r2_hidden(k5_scmfsa_2(C), B)) ) ) ) ) ) ) ).
++ fof(redefinition_k6_seq_4, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v6_membered(A))  => k6_seq_4(A)=k2_xxreal_2(A)) ) ).
 - fof(dt_k3_scmfsa_2, axiom, m1_subset_1(k3_scmfsa_2, k1_zfmisc_1(u1_struct_0(k1_scmfsa_2)))).
 - fof(t46_scmfsa_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, u1_struct_0(k1_scmfsa_2)) &  (v1_funct_1(A) &  (v5_funct_1(A, k2_memstr_0(3, k1_scmfsa_2)) & v1_partfun1(A, u1_struct_0(k1_scmfsa_2))) ) ) )  => r1_tarski(k3_scmfsa_2, k1_relset_1(u1_struct_0(k1_scmfsa_2), A))) ) ).
 - fof(fc3_scmfsa_2, axiom,  ~ (v1_finset_1(k3_scmfsa_2)) ).

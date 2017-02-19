@@ -1,13 +1,13 @@
 C fof(l51_fib_num4, axiom,  ~ (r1_xxreal_0(k4_power(2, 2), k3_square_1(k6_xcmplx_0(1, k7_square_1(5))))) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
 + fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(l50_fib_num4, axiom,  ~ (r1_xxreal_0(k1_pepin(2), k3_square_1(k6_xcmplx_0(1, k7_square_1(5))))) ).
++ fof(redefinition_k1_pepin, axiom,  (! [A] :  (v1_int_1(A) => k1_pepin(A)=k3_square_1(A)) ) ).
 + fof(redefinition_k4_power, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => k4_power(A, B)=k3_power(A, B)) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
 + fof(t46_power, axiom,  (! [A] :  (v1_xreal_0(A) => k3_power(A, 2)=k3_square_1(A)) ) ).
-+ fof(l50_fib_num4, axiom,  ~ (r1_xxreal_0(k1_pepin(2), k3_square_1(k6_xcmplx_0(1, k7_square_1(5))))) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(redefinition_k1_pepin, axiom,  (! [A] :  (v1_int_1(A) => k1_pepin(A)=k3_square_1(A)) ) ).
 - fof(l42_fib_num4, axiom,  ~ (r1_xxreal_0(k3_square_1(k6_xcmplx_0(1, k7_square_1(5))), k6_numbers)) ).
 - fof(t60_power, axiom, k4_power(2, 2)=4).
 - fof(l58_asympt_1, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  ~ ( (r1_xxreal_0(10, A) & r1_xxreal_0(k4_power(2, k9_real_1(A, 1)), k5_square_1(k4_nat_1(2, A)))) ) ) ) ).

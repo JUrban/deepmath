@@ -1,9 +1,9 @@
 C fof(l3_ortsp_1, axiom,  (? [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_zfmisc_1(c1__ortsp_1, c1__ortsp_1), c1__ortsp_1) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(c1__ortsp_1, c1__ortsp_1), c1__ortsp_1)))) )  &  (! [B] :  (m1_subset_1(B, c1__ortsp_1) =>  (! [C] :  (m1_subset_1(C, c1__ortsp_1) => k5_binop_1(c1__ortsp_1, A, B, C)=c2__ortsp_1) ) ) ) ) ) ).
-+ fof(dt_c2__ortsp_1, axiom, m1_subset_1(c2__ortsp_1, c1__ortsp_1)).
 + fof(dt_c1__ortsp_1, axiom,  ~ (v1_xboole_0(c1__ortsp_1)) ).
-+ fof(s4_binop_1__e3__ortsp_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  =>  (? [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (! [D] :  (m1_subset_1(D, A) =>  (! [E] :  (m1_subset_1(E, A) => k2_binop_1(A, A, A, C, D, E)=B) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k5_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
++ fof(dt_c2__ortsp_1, axiom, m1_subset_1(c2__ortsp_1, c1__ortsp_1)).
 + fof(redefinition_k2_binop_1, axiom,  (! [A, B, C, D, E, F] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  ( (v1_funct_1(D) &  (v1_funct_2(D, k2_zfmisc_1(A, B), C) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, B), C)))) )  &  (m1_subset_1(E, A) & m1_subset_1(F, B)) ) ) )  => k2_binop_1(A, B, C, D, E, F)=k1_binop_1(D, E, F)) ) ).
++ fof(redefinition_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k5_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
++ fof(s4_binop_1__e3__ortsp_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  =>  (? [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (! [D] :  (m1_subset_1(D, A) =>  (! [E] :  (m1_subset_1(E, A) => k2_binop_1(A, A, A, C, D, E)=B) ) ) ) ) ) ) ) ).
 - fof(de_c1__ortsp_1, axiom, c1__ortsp_1=k1_tarski(k6_numbers)).
 - fof(l2_ortsp_1, axiom, m1_subset_1(k6_numbers, c1__ortsp_1)).
 - fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).

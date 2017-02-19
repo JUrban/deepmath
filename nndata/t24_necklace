@@ -1,18 +1,18 @@
 C fof(t24_necklace, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ~ ( (r2_hidden(k4_tarski(B, C), u1_orders_2(k4_necklace(A))) &  ( ~ (B=k1_nat_1(C, 1))  &  ~ (C=k1_nat_1(B, 1)) ) ) ) ) ) ) ) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(redefinition_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k2_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
-+ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(t18_necklace, axiom,  (! [A] :  (v7_ordinal1(A) => u1_orders_2(k4_necklace(A))=k2_xboole_0(a_1_0_necklace(A), a_1_1_necklace(A))) ) ).
++ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(fraenkel_a_1_0_necklace, axiom,  (! [A, B] :  (v7_ordinal1(B) =>  (r2_hidden(A, a_1_0_necklace(B)) <=>  (? [C] :  (m1_subset_1(C, k5_numbers) &  (A=k4_tarski(C, k2_nat_1(C, 1)) &  ~ (r1_xxreal_0(B, k2_nat_1(C, 1))) ) ) ) ) ) ) ).
 + fof(fraenkel_a_1_1_necklace, axiom,  (! [A, B] :  (v7_ordinal1(B) =>  (r2_hidden(A, a_1_1_necklace(B)) <=>  (? [C] :  (m1_subset_1(C, k5_numbers) &  (A=k4_tarski(k2_nat_1(C, 1), C) &  ~ (r1_xxreal_0(B, k2_nat_1(C, 1))) ) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
++ fof(redefinition_k1_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k5_numbers))  => k1_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k2_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(fraenkel_a_1_0_necklace, axiom,  (! [A, B] :  (v7_ordinal1(B) =>  (r2_hidden(A, a_1_0_necklace(B)) <=>  (? [C] :  (m1_subset_1(C, k5_numbers) &  (A=k4_tarski(C, k2_nat_1(C, 1)) &  ~ (r1_xxreal_0(B, k2_nat_1(C, 1))) ) ) ) ) ) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
-+ fof(redefinition_k1_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k5_numbers))  => k1_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(t18_necklace, axiom,  (! [A] :  (v7_ordinal1(A) => u1_orders_2(k4_necklace(A))=k2_xboole_0(a_1_0_necklace(A), a_1_1_necklace(A))) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 + fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(t21_necklace, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( ~ (r1_xxreal_0(A, k1_nat_1(B, 1)))  => r2_hidden(k4_tarski(B, k1_nat_1(B, 1)), u1_orders_2(k4_necklace(A)))) ) ) ) ) ).
 - fof(t19_necklace, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (r2_hidden(B, u1_orders_2(k4_necklace(A))) <=>  (? [C] :  (m1_subset_1(C, k5_numbers) &  ( ~ (r1_xxreal_0(A, k2_nat_1(C, 1)))  &  (B=k4_tarski(C, k2_nat_1(C, 1)) | B=k4_tarski(k2_nat_1(C, 1), C)) ) ) ) ) ) ) ) ).
 - fof(t20_necklace, axiom,  (! [A] :  (v7_ordinal1(A) => u1_struct_0(k4_necklace(A))=A) ) ).

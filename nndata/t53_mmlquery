@@ -1,16 +1,16 @@
 C fof(t53_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))) => r1_relset_1(A, A, k19_mmlquery(A, k20_mmlquery(A, B, C), k18_mmlquery(A, B)), C)) ) ) ) ) ).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
++ fof(dt_k18_mmlquery, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => m1_subset_1(k18_mmlquery(A, B), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
++ fof(dt_k19_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => m1_subset_1(k19_mmlquery(A, B, C), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
 + fof(dt_k20_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => m1_subset_1(k20_mmlquery(A, B, C), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
 + fof(redefinition_k19_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => k19_mmlquery(A, B, C)=k3_xboole_0(B, C)) ) ).
 + fof(redefinition_k20_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => k20_mmlquery(A, B, C)=k2_xboole_0(B, C)) ) ).
-+ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
-+ fof(t1_boole, axiom,  (! [A] : k2_xboole_0(A, k1_xboole_0)=A) ).
-+ fof(t17_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(k3_xboole_0(A, B), A)) ) ).
-+ fof(t52_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => k19_mmlquery(A, B, k18_mmlquery(A, B))=k1_xboole_0) ) ) ).
-+ fof(t23_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k3_xboole_0(A, k2_xboole_0(B, C))=k2_xboole_0(k3_xboole_0(A, B), k3_xboole_0(A, C))) ) ) ).
-+ fof(dt_k19_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => m1_subset_1(k19_mmlquery(A, B, C), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
 + fof(redefinition_r1_relset_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (r1_relset_1(A, B, C, D) <=> r1_tarski(C, D)) ) ) ).
-+ fof(dt_k18_mmlquery, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => m1_subset_1(k18_mmlquery(A, B), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
-+ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
++ fof(t17_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(k3_xboole_0(A, B), A)) ) ).
++ fof(t1_boole, axiom,  (! [A] : k2_xboole_0(A, k1_xboole_0)=A) ).
++ fof(t23_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k3_xboole_0(A, k2_xboole_0(B, C))=k2_xboole_0(k3_xboole_0(A, B), k3_xboole_0(A, C))) ) ) ).
++ fof(t52_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => k19_mmlquery(A, B, k18_mmlquery(A, B))=k1_xboole_0) ) ) ).
 - fof(t43_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))) => r2_relset_1(A, A, k18_mmlquery(A, k20_mmlquery(A, B, C)), k19_mmlquery(A, k18_mmlquery(A, B), k18_mmlquery(A, C)))) ) ) ) ) ).
 - fof(t42_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))) => r1_relset_1(A, A, k20_mmlquery(A, k18_mmlquery(A, B), k18_mmlquery(A, C)), k18_mmlquery(A, k19_mmlquery(A, B, C)))) ) ) ) ) ).
 - fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).

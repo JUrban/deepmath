@@ -1,26 +1,26 @@
 C fof(t6_bintree2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  =>  ( (! [B] :  (m1_trees_1(B, A) => k1_trees_2(A, B)=k7_domain_1(k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k5_numbers)), k8_finseq_1(k5_numbers, B, k10_binarith(k5_numbers, k6_numbers)), k8_finseq_1(k5_numbers, B, k10_binarith(k5_numbers, 1)))) )  => k3_trees_1(A)=k1_xboole_0) ) ) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(redefinition_k7_domain_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k7_domain_1(A, B, C)=k2_tarski(B, C)) ) ).
 + fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
-+ fof(dt_m1_trees_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  =>  (! [B] :  (m1_trees_1(B, A) => m2_finseq_1(B, k5_numbers)) ) ) ) ).
-+ fof(redefinition_m1_trees_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  =>  (! [B] :  (m1_trees_1(B, A) <=> m1_subset_1(B, A)) ) ) ) ).
-+ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
-+ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
-+ fof(t3_bintree1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  =>  (! [B] :  (m1_trees_1(B, A) =>  (k1_trees_2(A, B)=k1_xboole_0 <=> r2_hidden(B, k3_trees_1(A))) ) ) ) ) ).
-+ fof(dt_k10_binarith, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  =>  (v3_card_1(k10_binarith(A, B), 1) & m2_finseq_1(k10_binarith(A, B), A)) ) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(dt_k8_finseq_1, axiom,  (! [A, B, C] :  ( (m1_finseq_1(B, A) & m1_finseq_1(C, A))  => m2_finseq_1(k8_finseq_1(A, B, C), A)) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
-+ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(dt_k10_binarith, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  =>  (v3_card_1(k10_binarith(A, B), 1) & m2_finseq_1(k10_binarith(A, B), A)) ) ) ).
 + fof(dt_k3_trees_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  => m1_subset_1(k3_trees_1(A), k1_zfmisc_1(A))) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
++ fof(dt_k8_finseq_1, axiom,  (! [A, B, C] :  ( (m1_finseq_1(B, A) & m1_finseq_1(C, A))  => m2_finseq_1(k8_finseq_1(A, B, C), A)) ) ).
++ fof(dt_m1_trees_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  =>  (! [B] :  (m1_trees_1(B, A) => m2_finseq_1(B, k5_numbers)) ) ) ) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
++ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
 + fof(fc3_xboole_0, axiom,  (! [A, B] :  ~ (v1_xboole_0(k2_tarski(A, B))) ) ).
 + fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_k7_domain_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k7_domain_1(A, B, C)=k2_tarski(B, C)) ) ).
++ fof(redefinition_m1_trees_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  =>  (! [B] :  (m1_trees_1(B, A) <=> m1_subset_1(B, A)) ) ) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
++ fof(t3_bintree1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  =>  (! [B] :  (m1_trees_1(B, A) =>  (k1_trees_2(A, B)=k1_xboole_0 <=> r2_hidden(B, k3_trees_1(A))) ) ) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
 - fof(t28_binari_3, axiom,  (! [A] :  (v7_ordinal1(A) => k1_binari_3(k2_xcmplx_0(A, 1), k5_series_1(2, A))=k7_finseq_1(k5_euclid(A), k10_binarith(k5_numbers, 1))) ) ).
 - fof(fraenkel_a_2_1_bintree2, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(B))  & v1_trees_1(B))  & m1_trees_1(C, B))  =>  (r2_hidden(A, a_2_1_bintree2(B, C)) <=>  (? [D] :  (m1_subset_1(D, k5_numbers) &  (A=k8_finseq_1(k5_numbers, C, k10_binarith(k5_numbers, D)) & r2_hidden(k8_finseq_1(k5_numbers, C, k10_binarith(k5_numbers, D)), B)) ) ) ) ) ) ).
 - fof(fraenkel_a_2_0_bintree2, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(B))  &  (v1_trees_1(B) & v1_bintree1(B)) )  & m2_finseq_1(C, k5_numbers))  =>  (r2_hidden(A, a_2_0_bintree2(B, C)) <=>  (? [D] :  (m1_subset_1(D, k5_numbers) &  (A=k8_finseq_1(k5_numbers, C, k10_binarith(k5_numbers, D)) & r2_hidden(k8_finseq_1(k5_numbers, C, k10_binarith(k5_numbers, D)), B)) ) ) ) ) ) ).

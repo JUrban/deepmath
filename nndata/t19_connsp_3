@@ -1,9 +1,9 @@
 C fof(t19_connsp_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  => m1_connsp_3(k1_struct_0(A), A)) ) ).
++ fof(d2_connsp_3, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (m1_connsp_3(B, A) <=>  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A)))) &  ( (! [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(A))) =>  (r2_hidden(D, C) => v3_connsp_1(D, A)) ) )  & B=k5_setfam_1(u1_struct_0(A), C)) ) ) ) ) ) ) ) ).
 + fof(d2_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => k1_struct_0(A)=k1_xboole_0) ) ).
-+ fof(l20_connsp_3, axiom,  (! [A] :  (l1_pre_topc(A) =>  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A)))) &  ( (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (r2_hidden(C, B) => v3_connsp_1(C, A)) ) )  & k1_struct_0(A)=k5_setfam_1(u1_struct_0(A), B)) ) ) ) ) ).
 + fof(dt_k1_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => m1_subset_1(k1_struct_0(A), k1_zfmisc_1(u1_struct_0(A)))) ) ).
 + fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
-+ fof(d2_connsp_3, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (m1_connsp_3(B, A) <=>  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A)))) &  ( (! [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(A))) =>  (r2_hidden(D, C) => v3_connsp_1(D, A)) ) )  & B=k5_setfam_1(u1_struct_0(A), C)) ) ) ) ) ) ) ) ).
++ fof(l20_connsp_3, axiom,  (! [A] :  (l1_pre_topc(A) =>  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A)))) &  ( (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (r2_hidden(C, B) => v3_connsp_1(C, A)) ) )  & k1_struct_0(A)=k5_setfam_1(u1_struct_0(A), B)) ) ) ) ) ).
 - fof(dt_m1_connsp_3, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_connsp_3(B, A) => m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A)))) ) ) ) ).
 - fof(existence_m1_connsp_3, axiom,  (! [A] :  (l1_pre_topc(A) =>  (? [B] : m1_connsp_3(B, A)) ) ) ).
 - fof(fc3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => v1_xboole_0(k1_struct_0(A))) ) ).

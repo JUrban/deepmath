@@ -1,9 +1,9 @@
 C fof(t62_measure6, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_numbers)) =>  (r1_tarski(A, B) => r1_tarski(k6_measure6(A), k6_measure6(B))) ) ) ) ) ).
 + fof(dt_k6_measure6, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => m1_subset_1(k6_measure6(A), k1_zfmisc_1(k1_numbers))) ) ).
-+ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
-+ fof(t58_measure6, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => r1_tarski(A, k6_measure6(A))) ) ).
 + fof(fc6_measure6, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v2_rcomp_1(k6_measure6(A))) ) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
 + fof(t57_measure6, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (! [B] :  ( (v2_rcomp_1(B) & m1_subset_1(B, k1_zfmisc_1(k1_numbers)))  =>  (r1_tarski(A, B) => r1_tarski(k6_measure6(A), B)) ) ) ) ) ).
++ fof(t58_measure6, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => r1_tarski(A, k6_measure6(A))) ) ).
 - fof(d9_measure6, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => k6_measure6(A)=k1_setfam_1(a_1_1_measure6(A))) ) ).
 - fof(fraenkel_a_1_1_measure6, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_numbers)) =>  (r2_hidden(A, a_1_1_measure6(B)) <=>  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_numbers)) &  (A=C &  (r1_tarski(B, C) & v2_rcomp_1(C)) ) ) ) ) ) ) ).
 - fof(t3_setfam_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => r1_tarski(k1_setfam_1(B), A)) ) ) ).

@@ -1,18 +1,18 @@
 C fof(t14_lattice4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v13_lattices(A) & l3_lattices(A)) ) )  =>  (! [B] :  (m1_subset_1(B, k5_finsub_1(u1_struct_0(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => k1_lattice4(A, k5_setwiseo(u1_struct_0(A), B, k2_setwiseo(u1_struct_0(A), C)))=k3_lattices(A, k1_lattice4(A, B), C)) ) ) ) ) ) ).
-+ fof(dt_l2_lattices, axiom,  (! [A] :  (l2_lattices(A) => l1_struct_0(A)) ) ).
-+ fof(t13_lattice4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v13_lattices(A) & l3_lattices(A)) ) )  =>  (! [B] :  (m1_subset_1(B, k5_finsub_1(u1_struct_0(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, u1_struct_0(A), u1_struct_0(A)) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) )  => k2_lattice2(u1_struct_0(A), A, k5_setwiseo(u1_struct_0(A), B, k2_setwiseo(u1_struct_0(A), C)), D)=k3_lattices(A, k2_lattice2(u1_struct_0(A), A, B, D), k3_funct_2(u1_struct_0(A), u1_struct_0(A), D, C))) ) ) ) ) ) ) ) ).
-+ fof(dt_l3_lattices, axiom,  (! [A] :  (l3_lattices(A) =>  (l1_lattices(A) & l2_lattices(A)) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(dt_k5_setwiseo, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k5_finsub_1(A)) & m1_subset_1(C, k5_finsub_1(A)))  => m1_subset_1(k5_setwiseo(A, B, C), k5_finsub_1(A))) ) ).
-+ fof(dt_k2_setwiseo, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m1_subset_1(k2_setwiseo(A, B), k5_finsub_1(A))) ) ).
 + fof(d4_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => k3_struct_0(A)=k6_partfun1(u1_struct_0(A))) ) ).
-+ fof(redefinition_k3_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) )  => k3_funct_2(A, B, C, D)=k1_funct_1(C, D)) ) ).
-+ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
-+ fof(t18_funct_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => k1_funct_1(k4_relat_1(B), A)=A) ) ) ).
-+ fof(redefinition_k6_partfun1, axiom,  (! [A] : k6_partfun1(A)=k4_relat_1(A)) ).
-+ fof(dt_k3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) =>  (v1_funct_1(k3_struct_0(A)) &  (v1_funct_2(k3_struct_0(A), u1_struct_0(A), u1_struct_0(A)) & m1_subset_1(k3_struct_0(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ) ) ).
-+ fof(dt_k6_partfun1, axiom,  (! [A] :  (v1_partfun1(k6_partfun1(A), A) & m1_subset_1(k6_partfun1(A), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
 + fof(d7_lattice4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  (! [B] :  (m1_subset_1(B, k5_finsub_1(u1_struct_0(A))) => k1_lattice4(A, B)=k2_lattice2(u1_struct_0(A), A, B, k3_struct_0(A))) ) ) ) ).
++ fof(dt_k2_setwiseo, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m1_subset_1(k2_setwiseo(A, B), k5_finsub_1(A))) ) ).
++ fof(dt_k3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) =>  (v1_funct_1(k3_struct_0(A)) &  (v1_funct_2(k3_struct_0(A), u1_struct_0(A), u1_struct_0(A)) & m1_subset_1(k3_struct_0(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ) ) ).
++ fof(dt_k5_setwiseo, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k5_finsub_1(A)) & m1_subset_1(C, k5_finsub_1(A)))  => m1_subset_1(k5_setwiseo(A, B, C), k5_finsub_1(A))) ) ).
++ fof(dt_k6_partfun1, axiom,  (! [A] :  (v1_partfun1(k6_partfun1(A), A) & m1_subset_1(k6_partfun1(A), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
++ fof(dt_l2_lattices, axiom,  (! [A] :  (l2_lattices(A) => l1_struct_0(A)) ) ).
++ fof(dt_l3_lattices, axiom,  (! [A] :  (l3_lattices(A) =>  (l1_lattices(A) & l2_lattices(A)) ) ) ).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(redefinition_k3_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) )  => k3_funct_2(A, B, C, D)=k1_funct_1(C, D)) ) ).
++ fof(redefinition_k6_partfun1, axiom,  (! [A] : k6_partfun1(A)=k4_relat_1(A)) ).
++ fof(t13_lattice4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v13_lattices(A) & l3_lattices(A)) ) )  =>  (! [B] :  (m1_subset_1(B, k5_finsub_1(u1_struct_0(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, u1_struct_0(A), u1_struct_0(A)) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) )  => k2_lattice2(u1_struct_0(A), A, k5_setwiseo(u1_struct_0(A), B, k2_setwiseo(u1_struct_0(A), C)), D)=k3_lattices(A, k2_lattice2(u1_struct_0(A), A, B, D), k3_funct_2(u1_struct_0(A), u1_struct_0(A), D, C))) ) ) ) ) ) ) ) ).
++ fof(t18_funct_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => k1_funct_1(k4_relat_1(B), A)=A) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 - fof(t9_lattice4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k1_lattice4(A, k2_setwiseo(u1_struct_0(A), B))=B) ) ) ) ).
 - fof(dt_k1_lattice4, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  & m1_subset_1(B, k5_finsub_1(u1_struct_0(A))))  => m1_subset_1(k1_lattice4(A, B), u1_struct_0(A))) ) ).
 - fof(rd3_lattices, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v13_lattices(A) & l3_lattices(A)) ) )  & m1_subset_1(B, u1_struct_0(A)))  => k3_lattices(A, k5_lattices(A), B)=B) ) ).

@@ -1,15 +1,15 @@
 C fof(t22_comput_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v2_margrel1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k3_finseq_2(A), A)))) )  =>  ( (v3_margrel1(B, A) &  ~ (v1_xboole_0(B)) )  <=> k1_relset_1(k3_finseq_2(A), B)=k4_finseq_2(k19_margrel1(B), A)) ) ) ) ).
-+ fof(fc10_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_xboole_0(k9_xtuple_0(A))) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
 + fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
++ fof(cc4_relset_1, axiom,  (! [A, B] :  (v1_xboole_0(A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, A))) => v1_xboole_0(C)) ) ) ) ).
++ fof(fc10_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_xboole_0(k9_xtuple_0(A))) ) ).
++ fof(fc2_xboole_0, axiom,  (! [A] :  ~ (v1_xboole_0(k1_tarski(A))) ) ).
++ fof(l24_comput_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v2_margrel1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k3_finseq_2(A), A)))) )  =>  ( (v3_margrel1(B, A) &  ~ (v1_xboole_0(B)) )  <=> k1_relset_1(k3_finseq_2(A), B)=k4_finseq_2(k19_margrel1(B), A)) ) ) ) ) ).
++ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(t18_comput_1, axiom, k19_margrel1(k1_xboole_0)=k6_numbers).
 + fof(t5_comput_1, axiom,  (! [A] : k4_finseq_2(k6_numbers, A)=k1_tarski(k1_xboole_0)) ).
-+ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
-+ fof(fc2_xboole_0, axiom,  (! [A] :  ~ (v1_xboole_0(k1_tarski(A))) ) ).
-+ fof(cc4_relset_1, axiom,  (! [A, B] :  (v1_xboole_0(A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, A))) => v1_xboole_0(C)) ) ) ) ).
-+ fof(l24_comput_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v2_margrel1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k3_finseq_2(A), A)))) )  =>  ( (v3_margrel1(B, A) &  ~ (v1_xboole_0(B)) )  <=> k1_relset_1(k3_finseq_2(A), B)=k4_finseq_2(k19_margrel1(B), A)) ) ) ) ) ).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 - fof(t22_margrel1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  ( ~ (v1_xboole_0(B))  &  (v2_margrel1(B) &  (v3_margrel1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k3_finseq_2(A), A)))) ) ) )  => k9_xtuple_0(B)=k4_finseq_2(k19_margrel1(B), A)) ) ) ) ).
 - fof(d8_alg_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (! [B] :  (m1_alg_1(B, A) =>  (! [C] :  (m5_margrel1(C, u1_struct_0(A), k1_unialg_2(A)) =>  (! [D] :  ( ( ~ (v1_xboole_0(D))  &  (v1_funct_1(D) &  (v2_margrel1(D) &  (v3_margrel1(D, k8_eqrel_1(u1_struct_0(A), B)) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k3_finseq_2(k8_eqrel_1(u1_struct_0(A), B)), k8_eqrel_1(u1_struct_0(A), B))))) ) ) )  =>  (D=k2_alg_1(A, B, C) <=>  (k1_relset_1(k3_finseq_2(k8_eqrel_1(u1_struct_0(A), B)), D)=k4_finseq_2(k19_margrel1(C), k8_eqrel_1(u1_struct_0(A), B)) &  (! [E] :  (m2_finseq_1(E, k8_eqrel_1(u1_struct_0(A), B)) =>  (r2_hidden(E, k1_relset_1(k3_finseq_2(k8_eqrel_1(u1_struct_0(A), B)), D)) =>  (! [F] :  (m2_finseq_1(F, u1_struct_0(A)) =>  (r1_finseq_3(u1_struct_0(A), B, E, F) => k1_funct_1(D, E)=k6_eqrel_1(u1_struct_0(A), u1_struct_0(A), B, k1_funct_1(C, F))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(l8_msualg_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_funct_1(B) &  (v2_margrel1(B) &  (v3_margrel1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k3_finseq_2(A), A)))) ) ) )  => k9_xtuple_0(B)=k4_finseq_2(k19_margrel1(B), A)) ) ) ) ).

@@ -1,17 +1,17 @@
 C fof(l5_heyting1, axiom,  (! [A] :  (! [B] :  (m2_subset_1(B, k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k7_normform(A)) => m2_subset_1(k6_domain_1(k7_normform(A), B), k5_finsub_1(k7_normform(A)), k8_normform(A))) ) ) ).
-+ fof(redefinition_k2_setwiseo, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k2_setwiseo(A, B)=k1_tarski(B)) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(fc3_normform, axiom,  (! [A] :  ~ (v1_xboole_0(k8_normform(A))) ) ).
++ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
 + fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
-+ fof(fc2_normform, axiom,  (! [A] :  ~ (v1_xboole_0(k7_normform(A))) ) ).
 + fof(d9_normform, axiom,  (! [A] : k8_normform(A)=a_1_1_normform(A)) ).
-+ fof(dt_k8_normform, axiom,  (! [A] : m1_subset_1(k8_normform(A), k1_zfmisc_1(k5_finsub_1(k7_normform(A))))) ).
++ fof(dt_k2_setwiseo, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m1_subset_1(k2_setwiseo(A, B), k5_finsub_1(A))) ) ).
 + fof(dt_k7_normform, axiom,  (! [A] : m1_subset_1(k7_normform(A), k1_zfmisc_1(k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A))))) ).
++ fof(dt_k8_normform, axiom,  (! [A] : m1_subset_1(k8_normform(A), k1_zfmisc_1(k5_finsub_1(k7_normform(A))))) ).
++ fof(fc2_normform, axiom,  (! [A] :  ~ (v1_xboole_0(k7_normform(A))) ) ).
++ fof(fc3_normform, axiom,  (! [A] :  ~ (v1_xboole_0(k8_normform(A))) ) ).
 + fof(fraenkel_a_1_1_normform, axiom,  (! [A, B] :  (r2_hidden(A, a_1_1_normform(B)) <=>  (? [C] :  (m1_subset_1(C, k5_finsub_1(k7_normform(B))) &  (A=C &  (! [D] :  (m2_subset_1(D, k2_zfmisc_1(k5_finsub_1(B), k5_finsub_1(B)), k7_normform(B)) =>  (! [E] :  (m2_subset_1(E, k2_zfmisc_1(k5_finsub_1(B), k5_finsub_1(B)), k7_normform(B)) =>  ( (r2_hidden(D, C) &  (r2_hidden(E, C) & r1_normform(k5_finsub_1(B), k5_finsub_1(B), D, E)) )  => D=E) ) ) ) ) ) ) ) ) ) ).
++ fof(redefinition_k2_setwiseo, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k2_setwiseo(A, B)=k1_tarski(B)) ) ).
 + fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
 + fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(dt_k2_setwiseo, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m1_subset_1(k2_setwiseo(A, B), k5_finsub_1(A))) ) ).
-+ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 - fof(t36_normform, axiom,  (! [A] :  (! [B] :  (m2_subset_1(B, k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k7_normform(A)) =>  (! [C] :  (m2_subset_1(C, k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k7_normform(A)) =>  (! [D] :  (m1_subset_1(D, k5_finsub_1(k7_normform(A))) =>  (r2_hidden(B, k9_normform(A, D)) =>  (r2_hidden(B, D) &  ( (r2_hidden(C, D) & r1_normform(k5_finsub_1(A), k5_finsub_1(A), C, B))  => C=B) ) ) ) ) ) ) ) ) ) ).
 - fof(dt_k9_normform, axiom,  (! [A, B] :  (m1_subset_1(B, k5_finsub_1(k7_normform(A))) => m2_subset_1(k9_normform(A, B), k5_finsub_1(k7_normform(A)), k8_normform(A))) ) ).
 - fof(fraenkel_a_2_0_normform, axiom,  (! [A, B, C] :  (m1_subset_1(C, k5_finsub_1(k7_normform(B))) =>  (r2_hidden(A, a_2_0_normform(B, C)) <=>  (? [D] :  (m2_subset_1(D, k2_zfmisc_1(k5_finsub_1(B), k5_finsub_1(B)), k7_normform(B)) &  (A=D &  (! [E] :  (m2_subset_1(E, k2_zfmisc_1(k5_finsub_1(B), k5_finsub_1(B)), k7_normform(B)) =>  ( (r2_hidden(E, C) & r1_normform(k5_finsub_1(B), k5_finsub_1(B), E, D))  <=> E=D) ) ) ) ) ) ) ) ) ).

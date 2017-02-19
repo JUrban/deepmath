@@ -1,8 +1,8 @@
 C fof(t24_valued_0, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) )  =>  ( (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v7_ordinal1(D) => k8_nat_1(A, B, C)=k8_nat_1(A, B, D)) ) ) )  => v3_funct_1(B)) ) ) ) ) ).
 + fof(d18_valued_0, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) )  =>  (v3_funct_1(B) <=>  (? [C] :  (m1_subset_1(C, A) &  (! [D] :  (v7_ordinal1(D) => k8_nat_1(A, B, D)=C) ) ) ) ) ) ) ) ) ).
 + fof(dt_k8_nat_1, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) )  & v7_ordinal1(C))  => m1_subset_1(k8_nat_1(A, B, C), A)) ) ).
-+ fof(rc5_ordinal1, axiom,  (? [A] :  ( ~ (v1_xboole_0(A))  & v7_ordinal1(A)) ) ).
 + fof(rc4_ordinal1, axiom,  (? [A] : v7_ordinal1(A)) ).
++ fof(rc5_ordinal1, axiom,  (? [A] :  ( ~ (v1_xboole_0(A))  & v7_ordinal1(A)) ) ).
 - fof(redefinition_k8_nat_1, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) )  & v7_ordinal1(C))  => k8_nat_1(A, B, C)=k1_funct_1(B, C)) ) ).
 - fof(t23_valued_0, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (! [D] :  ( (v1_funct_1(D) &  (v3_funct_1(D) &  (v1_funct_2(D, k5_numbers, C) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, C)))) ) )  => k8_nat_1(C, D, A)=k8_nat_1(C, D, B)) ) ) ) ) ) ) ).
 - fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).

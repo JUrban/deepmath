@@ -1,15 +1,15 @@
 C fof(t59_card_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ~ ( ( ~ (A=B)  &  ( ~ (A=C)  &  ( ~ (A=D)  &  ( ~ (B=C)  &  ( ~ (B=D)  &  ( ~ (C=D)  &  ~ (k5_card_1(k2_enumset1(A, B, C, D))=4) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(spc3_numerals, axiom,  ( (v2_xxreal_0(3) & m2_subset_1(3, k1_numbers, k5_numbers))  &  (m1_subset_1(3, k5_numbers) & m1_subset_1(3, k1_numbers)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(d1_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (D=k1_enumset1(A, B, C) <=>  (! [E] :  (r2_hidden(E, D) <=>  ~ ( ( ~ (E=A)  &  ( ~ (E=B)  &  ~ (E=C) ) ) ) ) ) ) ) ) ) ) ).
 + fof(fc3_finset_1, axiom,  (! [A, B, C] : v1_finset_1(k1_enumset1(A, B, C))) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(redefinition_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k2_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(rqRealAdd__k2_xcmplx_0__r3_r1_r4, axiom, k2_xcmplx_0(3, 1)=4).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(spc3_numerals, axiom,  ( (v2_xxreal_0(3) & m2_subset_1(3, k1_numbers, k5_numbers))  &  (m1_subset_1(3, k5_numbers) & m1_subset_1(3, k1_numbers)) ) ).
 + fof(t41_card_2, axiom,  (! [A] :  (! [B] :  (v1_finset_1(B) =>  ( ~ (r2_hidden(A, B))  => k5_card_1(k2_xboole_0(B, k1_tarski(A)))=k2_nat_1(k5_card_1(B), 1)) ) ) ) ).
 + fof(t58_card_2, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( ( ~ (A=B)  &  ( ~ (A=C)  &  ( ~ (B=C)  &  ~ (k5_card_1(k1_enumset1(A, B, C))=3) ) ) ) ) ) ) ) ).
 + fof(t6_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k2_enumset1(A, B, C, D)=k2_xboole_0(k1_enumset1(A, B, C), k1_tarski(D))) ) ) ) ).
-+ fof(rqRealAdd__k2_xcmplx_0__r3_r1_r4, axiom, k2_xcmplx_0(3, 1)=4).
-+ fof(d1_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (D=k1_enumset1(A, B, C) <=>  (! [E] :  (r2_hidden(E, D) <=>  ~ ( ( ~ (E=A)  &  ( ~ (E=B)  &  ~ (E=C) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k2_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 - fof(t52_card_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : r1_xxreal_0(k5_card_1(k2_enumset1(A, B, C, D)), 4)) ) ) ) ).
 - fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
 - fof(t40_card_2, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (v1_finset_1(B) =>  (r1_xboole_0(A, B) => k5_card_1(k2_xboole_0(A, B))=k2_nat_1(k5_card_1(A), k5_card_1(B))) ) ) ) ) ).

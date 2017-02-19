@@ -1,5 +1,5 @@
 C fof(t23_numbers, axiom,  ~ (k3_numbers=k2_numbers) ).
-+ fof(t3_numbers, axiom, r2_xboole_0(k3_numbers, k2_numbers)).
 + fof(d8_xboole_0, axiom,  (! [A] :  (! [B] :  (r2_xboole_0(A, B) <=>  (r1_tarski(A, B) &  ~ (A=B) ) ) ) ) ).
++ fof(t3_numbers, axiom, r2_xboole_0(k3_numbers, k2_numbers)).
 - fof(antisymmetry_r2_xboole_0, axiom,  (! [A, B] :  (r2_xboole_0(A, B) =>  ~ (r2_xboole_0(B, A)) ) ) ).
 - fof(t1_numbers, axiom, r2_xboole_0(k1_numbers, k2_numbers)).

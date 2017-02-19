@@ -1,11 +1,11 @@
 C fof(t10_card_fin, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_finset_1(C) =>  (! [D] :  (v7_ordinal1(D) =>  ( ~ (r1_xxreal_0(D, k5_card_1(C)))  => v1_xboole_0(k1_card_fin(C, D, A, B))) ) ) ) ) ) ) ).
-+ fof(t43_nat_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (v1_finset_1(B) =>  (r1_tarski(A, B) => r1_xxreal_0(k5_card_1(A), k5_card_1(B))) ) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(cc2_finset_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_finset_1(B)) ) ) ) ).
 + fof(d1_card_fin, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (! [D] :  (! [E] :  (m1_subset_1(E, k1_zfmisc_1(k9_funct_2(A, k2_tarski(C, D)))) =>  (E=k1_card_fin(A, B, C, D) <=>  (! [F] :  (r2_hidden(F, E) <=>  (? [G] :  ( (v1_funct_1(G) &  (v1_funct_2(G, A, k2_tarski(C, D)) & m1_subset_1(G, k1_zfmisc_1(k2_zfmisc_1(A, k2_tarski(C, D))))) )  &  (G=F & k5_card_1(k8_relset_1(A, k2_tarski(C, D), G, k1_tarski(C)))=B) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
-+ fof(dt_k8_relset_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => m1_subset_1(k8_relset_1(A, B, C, D), k1_zfmisc_1(A))) ) ).
 + fof(dt_k1_card_fin, axiom,  (! [A, B, C, D] :  ( (v1_finset_1(A) & v7_ordinal1(B))  => m1_subset_1(k1_card_fin(A, B, C, D), k1_zfmisc_1(k9_funct_2(A, k2_tarski(C, D))))) ) ).
-+ fof(cc2_finset_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_finset_1(B)) ) ) ) ).
++ fof(dt_k8_relset_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => m1_subset_1(k8_relset_1(A, B, C, D), k1_zfmisc_1(A))) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t43_nat_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (v1_finset_1(B) =>  (r1_tarski(A, B) => r1_xxreal_0(k5_card_1(A), k5_card_1(B))) ) ) ) ) ).
 - fof(t9_card_fin, axiom,  (! [A] :  (! [B] :  (v1_finset_1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ( ~ (k5_card_1(B)=C)  => v1_xboole_0(k1_card_fin(B, C, A, A))) ) ) ) ) ) ).
 - fof(t48_card_2, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (v1_finset_1(B) =>  (r2_xboole_0(A, B) =>  ( ~ (r1_xxreal_0(k5_card_1(B), k5_card_1(A)))  & r2_hidden(k5_card_1(A), k5_card_1(B))) ) ) ) ) ) ).
 - fof(t16_pre_circ, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_finset_1(A) & v1_trees_1(A)) )  =>  (! [B] :  (m1_trees_1(B, A) =>  ~ ( ( ~ (B=k1_xboole_0)  & r1_xxreal_0(k5_card_1(A), k5_card_1(k4_trees_1(A, B)))) ) ) ) ) ) ).

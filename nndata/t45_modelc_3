@@ -1,11 +1,11 @@
 C fof(t45_modelc_3, axiom,  (! [A] :  (! [B] :  ( (v1_modelc_2(B) & m2_finseq_1(B, k5_numbers))  =>  (m1_subset_1(A, k23_modelc_3(B)) <=>  (? [C] :  ( (v1_modelc_3(C, B) &  (v3_modelc_3(C, B) & l1_modelc_3(C, B)) )  & C=A) ) ) ) ) ) ).
-+ fof(t44_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  ( (v1_modelc_3(B, A) &  (v3_modelc_3(B, A) & l1_modelc_3(B, A)) )  => m1_subset_1(B, k23_modelc_3(A))) ) ) ) ).
 + fof(d31_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  => k23_modelc_3(A)=a_1_0_modelc_3(A)) ) ).
 + fof(dt_k23_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m1_finseq_1(A, k5_numbers))  =>  ~ (v1_xboole_0(k23_modelc_3(A))) ) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 + fof(fraenkel_a_1_0_modelc_3, axiom,  (! [A, B] :  ( (v1_modelc_2(B) & m2_finseq_1(B, k5_numbers))  =>  (r2_hidden(A, a_1_0_modelc_3(B)) <=>  (? [C] :  (m1_subset_1(C, k22_modelc_3(B)) &  (A=C &  (v1_modelc_3(C, B) &  (v3_modelc_3(C, B) & l1_modelc_3(C, B)) ) ) ) ) ) ) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 + fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t44_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  ( (v1_modelc_3(B, A) &  (v3_modelc_3(B, A) & l1_modelc_3(B, A)) )  => m1_subset_1(B, k23_modelc_3(A))) ) ) ) ).
 - fof(d30_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (B=k22_modelc_3(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  ( (v1_modelc_3(D, A) & l1_modelc_3(D, A))  & C=D) ) ) ) ) ) ) ) ) ).
 - fof(t43_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  => m1_subset_1(k11_modelc_3(A), k23_modelc_3(A))) ) ).
 - fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).

@@ -1,14 +1,14 @@
 C fof(l3_int_4, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k4_numbers)) => r1_tarski(k2_measure6(B, A), k4_numbers)) ) ) ) ).
-+ fof(t5_membered, axiom,  (! [A] :  (v5_membered(A) => r1_tarski(A, k4_numbers)) ) ).
 + fof(cc10_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k4_numbers)) => v5_membered(A)) ) ).
 + fof(cc21_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v3_membered(B)) ) ) ) ).
 + fof(cc2_membered, axiom,  (! [A] :  (v5_membered(A) => v4_membered(A)) ) ).
++ fof(cc3_int_1, axiom,  (! [A] :  (v1_int_1(A) => v1_xreal_0(A)) ) ).
 + fof(cc3_membered, axiom,  (! [A] :  (v4_membered(A) => v3_membered(A)) ) ).
++ fof(fc5_membered, axiom, v5_membered(k4_numbers)).
++ fof(fc69_member_1, axiom,  (! [A, B] :  ( (v5_membered(A) & v1_int_1(B))  => v5_membered(k17_member_1(A, B))) ) ).
 + fof(redefinition_k2_measure6, axiom,  (! [A, B] :  ( (v3_membered(A) & v1_xreal_0(B))  => k2_measure6(A, B)=k17_member_1(A, B)) ) ).
 + fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(fc69_member_1, axiom,  (! [A, B] :  ( (v5_membered(A) & v1_int_1(B))  => v5_membered(k17_member_1(A, B))) ) ).
-+ fof(cc3_int_1, axiom,  (! [A] :  (v1_int_1(A) => v1_xreal_0(A)) ) ).
-+ fof(fc5_membered, axiom, v5_membered(k4_numbers)).
++ fof(t5_membered, axiom,  (! [A] :  (v5_membered(A) => r1_tarski(A, k4_numbers)) ) ).
 - fof(l9_numbers, axiom, r1_tarski(k5_numbers, k4_numbers)).
 - fof(d11_graph_2, axiom,  (! [A] :  (m2_finseq_1(A, k4_numbers) =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  ( (r1_xxreal_0(1, B) &  (r1_xxreal_0(B, C) & r1_xxreal_0(C, k3_finseq_1(A))) )  =>  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (D=k8_graph_2(A, B, C) <=>  (? [E] :  ( ( ~ (v1_xboole_0(E))  &  (v1_finset_1(E) & m1_subset_1(E, k1_zfmisc_1(k4_numbers))) )  &  (E=k10_xtuple_0(k2_graph_2(k4_numbers, A, B, C)) & k2_nat_1(D, 1)=k2_nat_1(k4_finseq_4(k2_graph_2(k4_numbers, A, B, C), k2_xxreal_2(E)), B)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t17_numbers, axiom, r1_tarski(k5_numbers, k4_numbers)).

@@ -1,19 +1,19 @@
 C fof(t21_sin_cos6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_int_1(B) =>  ~ ( (r1_xxreal_0(k8_real_1(k8_real_1(2, k32_sin_cos), B), A) &  ( ~ (r1_xxreal_0(k7_real_1(k8_real_1(2, k32_sin_cos), k8_real_1(k8_real_1(2, k32_sin_cos), B)), A))  &  (k17_sin_cos(A)=k6_numbers &  ( ~ (A=k8_real_1(k8_real_1(2, k32_sin_cos), B))  &  ~ (A=k7_real_1(k32_sin_cos, k8_real_1(k8_real_1(2, k32_sin_cos), B))) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k7_real_1(A, B), k1_numbers)) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(t12_sin_cos6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_int_1(B) =>  ~ ( ( ~ (r1_xxreal_0(A, k7_real_1(k32_sin_cos, k8_real_1(k8_real_1(2, k32_sin_cos), B))))  &  ( ~ (r1_xxreal_0(k7_real_1(k8_real_1(2, k32_sin_cos), k8_real_1(k8_real_1(2, k32_sin_cos), B)), A))  & r1_xxreal_0(k6_numbers, k17_sin_cos(A))) ) ) ) ) ) ) ).
 + fof(cc3_int_1, axiom,  (! [A] :  (v1_int_1(A) => v1_xreal_0(A)) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r0_r0, axiom, r1_xxreal_0(0, 0)).
-+ fof(l13_xreal_0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=k6_numbers).
-+ fof(fc1_sin_cos6, axiom,  (v1_xreal_0(k31_sin_cos) & v2_xxreal_0(k31_sin_cos)) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(rqRealAdd__k2_xcmplx_0__r1_rm1_r0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=0).
-+ fof(redefinition_k32_sin_cos, axiom, k32_sin_cos=k31_sin_cos).
 + fof(dt_k32_sin_cos, axiom, m1_subset_1(k32_sin_cos, k1_numbers)).
++ fof(dt_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k7_real_1(A, B), k1_numbers)) ) ).
 + fof(dt_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k8_real_1(A, B), k1_numbers)) ) ).
-+ fof(t1_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, A))  => A=B) ) ) ) ) ).
++ fof(fc1_sin_cos6, axiom,  (v1_xreal_0(k31_sin_cos) & v2_xxreal_0(k31_sin_cos)) ).
++ fof(l13_xreal_0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=k6_numbers).
++ fof(redefinition_k32_sin_cos, axiom, k32_sin_cos=k31_sin_cos).
++ fof(rqLessOrEqual__r1_xxreal_0__r0_r0, axiom, r1_xxreal_0(0, 0)).
++ fof(rqRealAdd__k2_xcmplx_0__r1_rm1_r0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=0).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
 + fof(t11_sin_cos6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_int_1(B) =>  ~ ( ( ~ (r1_xxreal_0(A, k8_real_1(k8_real_1(2, k32_sin_cos), B)))  &  ( ~ (r1_xxreal_0(k7_real_1(k32_sin_cos, k8_real_1(k8_real_1(2, k32_sin_cos), B)), A))  & r1_xxreal_0(k17_sin_cos(A), k6_numbers)) ) ) ) ) ) ) ).
++ fof(t12_sin_cos6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_int_1(B) =>  ~ ( ( ~ (r1_xxreal_0(A, k7_real_1(k32_sin_cos, k8_real_1(k8_real_1(2, k32_sin_cos), B))))  &  ( ~ (r1_xxreal_0(k7_real_1(k8_real_1(2, k32_sin_cos), k8_real_1(k8_real_1(2, k32_sin_cos), B)), A))  & r1_xxreal_0(k6_numbers, k17_sin_cos(A))) ) ) ) ) ) ) ).
++ fof(t1_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, A))  => A=B) ) ) ) ) ).
 - fof(t16_sin_cos6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_int_1(B) =>  ( (r1_xxreal_0(k8_real_1(k8_real_1(2, k32_sin_cos), B), A) & r1_xxreal_0(A, k7_real_1(k32_sin_cos, k8_real_1(k8_real_1(2, k32_sin_cos), B))))  => r1_xxreal_0(k6_numbers, k17_sin_cos(A))) ) ) ) ) ).
 - fof(t17_sin_cos6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_int_1(B) =>  ( (r1_xxreal_0(k7_real_1(k32_sin_cos, k8_real_1(k8_real_1(2, k32_sin_cos), B)), A) & r1_xxreal_0(A, k7_real_1(k8_real_1(2, k32_sin_cos), k8_real_1(k8_real_1(2, k32_sin_cos), B))))  => r1_xxreal_0(k17_sin_cos(A), k6_numbers)) ) ) ) ) ).
 - fof(t15_sin_cos6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_int_1(B) =>  ~ ( ( ~ (r1_xxreal_0(A, k7_real_1(k8_real_1(k10_real_1(3, 2), k32_sin_cos), k8_real_1(k8_real_1(2, k32_sin_cos), B))))  &  ( ~ (r1_xxreal_0(k7_real_1(k8_real_1(2, k32_sin_cos), k8_real_1(k8_real_1(2, k32_sin_cos), B)), A))  & r1_xxreal_0(k20_sin_cos(A), k6_numbers)) ) ) ) ) ) ) ).

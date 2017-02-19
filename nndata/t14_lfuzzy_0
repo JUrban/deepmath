@@ -1,19 +1,19 @@
 C fof(t14_lfuzzy_0, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => u1_struct_0(k4_lfuzzy_0(A))=k9_funct_2(A, k1_rcomp_1(k6_numbers, 1))) ) ).
 + fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
++ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
++ fof(d3_lfuzzy_0, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (! [B] :  ( (v1_orders_2(B) &  (v1_lfuzzy_0(B) & l1_orders_2(B)) )  =>  (B=k1_lfuzzy_0(A) <=> u1_struct_0(B)=A) ) ) ) ) ).
++ fof(d4_lfuzzy_0, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k4_lfuzzy_0(A)=k6_yellow_1(A, k1_lfuzzy_0(k1_rcomp_1(k6_numbers, 1)))) ) ).
 + fof(dt_k1_lfuzzy_0, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (v1_orders_2(k1_lfuzzy_0(A)) &  (v1_lfuzzy_0(k1_lfuzzy_0(A)) & l1_orders_2(k1_lfuzzy_0(A))) ) ) ) ).
-+ fof(redefinition_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => k9_funct_2(A, B)=k1_funct_2(A, B)) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(dt_k1_rcomp_1, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => m1_subset_1(k1_rcomp_1(A, B), k1_zfmisc_1(k1_numbers))) ) ).
 + fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(d4_lfuzzy_0, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k4_lfuzzy_0(A)=k6_yellow_1(A, k1_lfuzzy_0(k1_rcomp_1(k6_numbers, 1)))) ) ).
-+ fof(t28_yellow_1, axiom,  (! [A] :  (! [B] :  (l1_orders_2(B) => k1_funct_2(A, u1_struct_0(B))=u1_struct_0(k6_yellow_1(A, B))) ) ) ).
-+ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
-+ fof(redefinition_k1_rcomp_1, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k1_rcomp_1(A, B)=k1_xxreal_1(A, B)) ) ).
-+ fof(d3_lfuzzy_0, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (! [B] :  ( (v1_orders_2(B) &  (v1_lfuzzy_0(B) & l1_orders_2(B)) )  =>  (B=k1_lfuzzy_0(A) <=> u1_struct_0(B)=A) ) ) ) ) ).
 + fof(fc2_lfuzzy_0, axiom,  ~ (v1_xboole_0(k1_xxreal_1(k6_numbers, 1))) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(redefinition_k1_rcomp_1, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k1_rcomp_1(A, B)=k1_xxreal_1(A, B)) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => k9_funct_2(A, B)=k1_funct_2(A, B)) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
 + fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
++ fof(t28_yellow_1, axiom,  (! [A] :  (! [B] :  (l1_orders_2(B) => k1_funct_2(A, u1_struct_0(B))=u1_struct_0(k6_yellow_1(A, B))) ) ) ).
 - fof(dt_k4_lfuzzy_0, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (v3_orders_2(k4_lfuzzy_0(A)) &  (v4_orders_2(k4_lfuzzy_0(A)) &  (v5_orders_2(k4_lfuzzy_0(A)) &  (v1_lattice3(k4_lfuzzy_0(A)) &  (v2_lattice3(k4_lfuzzy_0(A)) &  (v3_lattice3(k4_lfuzzy_0(A)) &  (v9_waybel_1(k4_lfuzzy_0(A)) & l1_orders_2(k4_lfuzzy_0(A))) ) ) ) ) ) ) ) ) ).
 - fof(t17_monoid_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  & l3_algstr_0(B))  =>  (u1_struct_0(k9_monoid_1(B, A))=k9_funct_2(A, u1_struct_0(B)) & r1_funct_2(k2_zfmisc_1(u1_struct_0(k9_monoid_1(B, A)), u1_struct_0(k9_monoid_1(B, A))), u1_struct_0(k9_monoid_1(B, A)), k2_zfmisc_1(k9_funct_2(A, u1_struct_0(B)), k9_funct_2(A, u1_struct_0(B))), k9_funct_2(A, u1_struct_0(B)), u2_algstr_0(k9_monoid_1(B, A)), k8_monoid_1(u1_struct_0(B), u1_struct_0(B), u1_struct_0(B), u2_algstr_0(B), A))) ) ) ) ).
 - fof(t26_monoid_1, axiom,  (! [A] :  (u1_struct_0(k13_monoid_1(A))=k9_funct_2(A, k5_numbers) &  (r1_funct_2(k2_zfmisc_1(u1_struct_0(k13_monoid_1(A)), u1_struct_0(k13_monoid_1(A))), u1_struct_0(k13_monoid_1(A)), k2_zfmisc_1(k9_funct_2(A, k5_numbers), k9_funct_2(A, k5_numbers)), k9_funct_2(A, k5_numbers), u2_algstr_0(k13_monoid_1(A)), k8_monoid_1(k5_numbers, k5_numbers, k5_numbers, k47_binop_2, A)) & k5_struct_0(k13_monoid_1(A))=k5_monoid_1(k5_numbers, A, k6_numbers)) ) ) ).

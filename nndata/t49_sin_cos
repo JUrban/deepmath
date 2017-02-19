@@ -1,15 +1,15 @@
 C fof(t49_sin_cos, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k15_sin_cos(A)=k26_sin_cos(A)) ) ).
-+ fof(dt_k13_sin_cos, axiom,  (v1_funct_1(k13_sin_cos) &  (v1_funct_2(k13_sin_cos, k2_numbers, k2_numbers) & m1_subset_1(k13_sin_cos, k1_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers)))) ) ).
 + fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(redefinition_k15_sin_cos, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_sin_cos(A)=k14_sin_cos(A)) ) ).
-+ fof(d15_sin_cos, axiom,  (! [A] :  (v1_xcmplx_0(A) => k14_sin_cos(A)=k1_funct_1(k13_sin_cos, A)) ) ).
-+ fof(redefinition_k26_sin_cos, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k26_sin_cos(A)=k25_sin_cos(A)) ) ).
-+ fof(dt_k24_sin_cos, axiom,  (v1_funct_1(k24_sin_cos) &  (v1_funct_2(k24_sin_cos, k1_numbers, k1_numbers) & m1_subset_1(k24_sin_cos, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ) ).
-+ fof(d14_sin_cos, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers)))) )  =>  (A=k13_sin_cos <=>  (! [B] :  (v1_xcmplx_0(B) => k1_funct_1(A, B)=k11_comseq_3(k3_sin_cos(B))) ) ) ) ) ).
-+ fof(d22_sin_cos, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k1_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) )  =>  (A=k24_sin_cos <=>  (! [B] :  (v1_xreal_0(B) => k1_seq_1(A, B)=k4_series_1(k4_sin_cos(B))) ) ) ) ) ).
-+ fof(l78_sin_cos, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k11_comseq_3(k3_sin_cos(A))=k4_series_1(k4_sin_cos(A))) ) ).
-+ fof(d23_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) => k25_sin_cos(A)=k1_seq_1(k24_sin_cos, A)) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(d14_sin_cos, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers)))) )  =>  (A=k13_sin_cos <=>  (! [B] :  (v1_xcmplx_0(B) => k1_funct_1(A, B)=k11_comseq_3(k3_sin_cos(B))) ) ) ) ) ).
++ fof(d15_sin_cos, axiom,  (! [A] :  (v1_xcmplx_0(A) => k14_sin_cos(A)=k1_funct_1(k13_sin_cos, A)) ) ).
++ fof(d22_sin_cos, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k1_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) )  =>  (A=k24_sin_cos <=>  (! [B] :  (v1_xreal_0(B) => k1_seq_1(A, B)=k4_series_1(k4_sin_cos(B))) ) ) ) ) ).
++ fof(d23_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) => k25_sin_cos(A)=k1_seq_1(k24_sin_cos, A)) ) ).
++ fof(dt_k13_sin_cos, axiom,  (v1_funct_1(k13_sin_cos) &  (v1_funct_2(k13_sin_cos, k2_numbers, k2_numbers) & m1_subset_1(k13_sin_cos, k1_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers)))) ) ).
++ fof(dt_k24_sin_cos, axiom,  (v1_funct_1(k24_sin_cos) &  (v1_funct_2(k24_sin_cos, k1_numbers, k1_numbers) & m1_subset_1(k24_sin_cos, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ) ).
++ fof(l78_sin_cos, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k11_comseq_3(k3_sin_cos(A))=k4_series_1(k4_sin_cos(A))) ) ).
++ fof(redefinition_k15_sin_cos, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_sin_cos(A)=k14_sin_cos(A)) ) ).
++ fof(redefinition_k26_sin_cos, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k26_sin_cos(A)=k25_sin_cos(A)) ) ).
 - fof(dt_k26_sin_cos, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k26_sin_cos(A), k1_numbers)) ) ).
 - fof(dt_k15_sin_cos, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k15_sin_cos(A), k2_numbers)) ) ).
 - fof(t23_sin_cos, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k15_sin_cos(k2_xcmplx_0(A, B))=k9_complex1(k15_sin_cos(A), k15_sin_cos(B))) ) ) ) ).

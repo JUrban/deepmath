@@ -1,16 +1,16 @@
 C fof(t24_c0sp2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, u1_struct_0(A), k1_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), k1_numbers)))) )  => r1_tarski(k13_pre_poly(k26_valued_1(u1_struct_0(A), k1_numbers, C, B)), k13_pre_poly(C))) ) ) ) ) ) ).
-+ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(t6_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] : k1_funct_1(k24_valued_1(A, B), C)=k3_xcmplx_0(B, k1_funct_1(A, C))) ) ) ) ) ).
 + fof(cc16_valued_0, axiom,  (! [A, B] :  (v1_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_valued_0(C)) ) ) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
-+ fof(dt_k26_valued_1, axiom,  (! [A, B, C, D] :  ( (v3_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xreal_0(D)) )  =>  (v1_funct_1(k26_valued_1(A, B, C, D)) & m1_subset_1(k26_valued_1(A, B, C, D), k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) ) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
 + fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 + fof(d7_pre_poly, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (B=k13_pre_poly(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  ~ (k1_funct_1(A, C)=k6_numbers) ) ) ) ) ) ) ).
-+ fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
++ fof(dt_k26_valued_1, axiom,  (! [A, B, C, D] :  ( (v3_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xreal_0(D)) )  =>  (v1_funct_1(k26_valued_1(A, B, C, D)) & m1_subset_1(k26_valued_1(A, B, C, D), k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) ) ) ).
++ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
 + fof(redefinition_k26_valued_1, axiom,  (! [A, B, C, D] :  ( (v3_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xreal_0(D)) )  => k26_valued_1(A, B, C, D)=k24_valued_1(C, D)) ) ).
 + fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
++ fof(t6_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] : k1_funct_1(k24_valued_1(A, B), C)=k3_xcmplx_0(B, k1_funct_1(A, C))) ) ) ) ) ).
 - fof(t37_pre_poly, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => r1_tarski(k13_pre_poly(A), k9_xtuple_0(A))) ) ).
 - fof(t23_c0sp2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, u1_struct_0(A), k1_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), k1_numbers)))) )  =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, u1_struct_0(A), k1_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), k1_numbers)))) )  => r1_tarski(k13_pre_poly(k3_valued_1(u1_struct_0(A), k1_numbers, k1_numbers, B, C)), k2_xboole_0(k13_pre_poly(B), k13_pre_poly(C)))) ) ) ) ) ) ).
 - fof(t14_uproots, axiom,  (! [A] :  (! [B] :  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(A)))  =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) &  (v1_partfun1(C, A) &  (v3_valued_0(C) & v2_pre_poly(C)) ) ) ) )  =>  ~ ( (r1_tarski(k13_pre_poly(C), B) &  (! [D] :  (m2_finseq_1(D, k1_numbers) =>  ~ ( (D=k3_relat_1(k1_uproots(B), C) & k3_uproots(A, C)=k18_rvsum_1(D)) ) ) ) ) ) ) ) ) ) ) ).

@@ -1,17 +1,17 @@
 C fof(t40_setwiseo, axiom,  (! [A] : r3_binop_1(k5_finsub_1(A), k1_setwiseo(A), k9_setwiseo(A))) ).
-+ fof(t1_boole, axiom,  (! [A] : k2_xboole_0(A, k1_xboole_0)=A) ).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(dt_k1_setwiseo, axiom,  (! [A] :  (v1_xboole_0(k1_setwiseo(A)) & m1_subset_1(k1_setwiseo(A), k5_finsub_1(A))) ) ).
-+ fof(t4_binop_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (! [C] :  (m1_subset_1(C, A) =>  (v1_binop_1(B, A) =>  (r3_binop_1(A, C, B) <=>  (! [D] :  (m1_subset_1(D, A) => k3_binop_1(A, B, C, D)=D) ) ) ) ) ) ) ) ) ).
-+ fof(t38_setwiseo, axiom,  (! [A] : v1_binop_1(k9_setwiseo(A), k5_finsub_1(A))) ).
-+ fof(redefinition_k5_setwiseo, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k5_finsub_1(A)) & m1_subset_1(C, k5_finsub_1(A)))  => k5_setwiseo(A, B, C)=k2_xboole_0(B, C)) ) ).
-+ fof(dt_k9_setwiseo, axiom,  (! [A] :  (v1_funct_1(k9_setwiseo(A)) &  (v1_funct_2(k9_setwiseo(A), k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k5_finsub_1(A)) & m1_subset_1(k9_setwiseo(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k5_finsub_1(A))))) ) ) ).
-+ fof(d1_setwiseo, axiom,  (! [A] : k1_setwiseo(A)=k1_xboole_0) ).
-+ fof(redefinition_k3_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k3_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
-+ fof(d2_binop_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (v1_binop_1(B, A) <=>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, A) => k3_binop_1(A, B, C, D)=k3_binop_1(A, B, D, C)) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k5_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
-+ fof(d4_setwiseo, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k5_finsub_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k5_finsub_1(A))))) )  =>  (B=k9_setwiseo(A) <=>  (! [C] :  (m1_subset_1(C, k5_finsub_1(A)) =>  (! [D] :  (m1_subset_1(D, k5_finsub_1(A)) => k5_binop_1(k5_finsub_1(A), B, C, D)=k5_setwiseo(A, C, D)) ) ) ) ) ) ) ) ).
 + fof(commutativity_k5_setwiseo, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k5_finsub_1(A)) & m1_subset_1(C, k5_finsub_1(A)))  => k5_setwiseo(A, B, C)=k5_setwiseo(A, C, B)) ) ).
++ fof(d1_setwiseo, axiom,  (! [A] : k1_setwiseo(A)=k1_xboole_0) ).
++ fof(d2_binop_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (v1_binop_1(B, A) <=>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, A) => k3_binop_1(A, B, C, D)=k3_binop_1(A, B, D, C)) ) ) ) ) ) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(d4_setwiseo, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k5_finsub_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k5_finsub_1(A))))) )  =>  (B=k9_setwiseo(A) <=>  (! [C] :  (m1_subset_1(C, k5_finsub_1(A)) =>  (! [D] :  (m1_subset_1(D, k5_finsub_1(A)) => k5_binop_1(k5_finsub_1(A), B, C, D)=k5_setwiseo(A, C, D)) ) ) ) ) ) ) ) ).
++ fof(dt_k1_setwiseo, axiom,  (! [A] :  (v1_xboole_0(k1_setwiseo(A)) & m1_subset_1(k1_setwiseo(A), k5_finsub_1(A))) ) ).
++ fof(dt_k9_setwiseo, axiom,  (! [A] :  (v1_funct_1(k9_setwiseo(A)) &  (v1_funct_2(k9_setwiseo(A), k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k5_finsub_1(A)) & m1_subset_1(k9_setwiseo(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k5_finsub_1(A), k5_finsub_1(A)), k5_finsub_1(A))))) ) ) ).
++ fof(redefinition_k3_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k3_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
++ fof(redefinition_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k5_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
++ fof(redefinition_k5_setwiseo, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k5_finsub_1(A)) & m1_subset_1(C, k5_finsub_1(A)))  => k5_setwiseo(A, B, C)=k2_xboole_0(B, C)) ) ).
++ fof(t1_boole, axiom,  (! [A] : k2_xboole_0(A, k1_xboole_0)=A) ).
++ fof(t38_setwiseo, axiom,  (! [A] : v1_binop_1(k9_setwiseo(A), k5_finsub_1(A))) ).
++ fof(t4_binop_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (! [C] :  (m1_subset_1(C, A) =>  (v1_binop_1(B, A) =>  (r3_binop_1(A, C, B) <=>  (! [D] :  (m1_subset_1(D, A) => k3_binop_1(A, B, C, D)=D) ) ) ) ) ) ) ) ) ).
 - fof(t3_binop_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (! [C] :  (m1_subset_1(C, A) =>  (r3_binop_1(A, C, B) <=>  (! [D] :  (m1_subset_1(D, A) =>  (k3_binop_1(A, B, C, D)=D & k3_binop_1(A, B, D, C)=D) ) ) ) ) ) ) ) ) ).
 - fof(t37_setwiseo, axiom,  (! [A] : v3_binop_1(k9_setwiseo(A), k5_finsub_1(A))) ).
 - fof(t39_setwiseo, axiom,  (! [A] : v2_binop_1(k9_setwiseo(A), k5_finsub_1(A))) ).

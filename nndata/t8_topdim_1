@@ -1,25 +1,25 @@
 C fof(t8_topdim_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  ~ (r1_xxreal_0(k5_card_1(B), k2_topdim_1(A, B))) ) ) ) ) ).
-+ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
-+ fof(l8_topdim_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (v1_topdim_1(B, A) & r2_hidden(B, k13_prob_1(u1_struct_0(A), k5_numbers, k9_setfam_1(u1_struct_0(A)), k1_topdim_1(A), k5_card_1(B)))) ) ) ) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(cc3_int_1, axiom,  (! [A] :  (v1_int_1(A) => v1_xreal_0(A)) ) ).
-+ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
-+ fof(dt_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => m1_subset_1(k5_card_1(A), k4_ordinal1)) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(spc0_boole, axiom, v1_xboole_0(0)).
-+ fof(dt_k2_topdim_1, axiom,  (! [A, B] :  ( ( (v2_pre_topc(A) & l1_pre_topc(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => v1_int_1(k2_topdim_1(A, B))) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(t4_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k6_xcmplx_0(A, k6_numbers)=A) ) ).
-+ fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r1_r0, axiom,  ~ (r1_xxreal_0(1, 0)) ).
-+ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
-+ fof(redefinition_k5_real_1, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & m1_subset_1(B, k1_numbers))  => k5_real_1(A, B)=k6_xcmplx_0(A, B)) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
++ fof(cc3_int_1, axiom,  (! [A] :  (v1_int_1(A) => v1_xreal_0(A)) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(t15_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  ~ ( (r1_xxreal_0(A, B) &  ( ~ (r1_xxreal_0(D, C))  & r1_xxreal_0(k6_xcmplx_0(B, C), k6_xcmplx_0(A, D))) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t7_topdim_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v1_topdim_1(C, A) & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))))  =>  (r1_xxreal_0(k2_topdim_1(A, C), k5_real_1(B, 1)) <=> r2_hidden(C, k13_prob_1(u1_struct_0(A), k5_numbers, k9_setfam_1(u1_struct_0(A)), k1_topdim_1(A), B))) ) ) ) ) ) ) ).
++ fof(dt_k2_topdim_1, axiom,  (! [A, B] :  ( ( (v2_pre_topc(A) & l1_pre_topc(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => v1_int_1(k2_topdim_1(A, B))) ) ).
++ fof(dt_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => m1_subset_1(k5_card_1(A), k4_ordinal1)) ) ).
++ fof(l8_topdim_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (v1_topdim_1(B, A) & r2_hidden(B, k13_prob_1(u1_struct_0(A), k5_numbers, k9_setfam_1(u1_struct_0(A)), k1_topdim_1(A), k5_card_1(B)))) ) ) ) ) ).
++ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k5_real_1, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & m1_subset_1(B, k1_numbers))  => k5_real_1(A, B)=k6_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r1_r0, axiom,  ~ (r1_xxreal_0(1, 0)) ).
++ fof(spc0_boole, axiom, v1_xboole_0(0)).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t15_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  ~ ( (r1_xxreal_0(A, B) &  ( ~ (r1_xxreal_0(D, C))  & r1_xxreal_0(k6_xcmplx_0(B, C), k6_xcmplx_0(A, D))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t4_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k6_xcmplx_0(A, k6_numbers)=A) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t7_topdim_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v1_topdim_1(C, A) & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))))  =>  (r1_xxreal_0(k2_topdim_1(A, C), k5_real_1(B, 1)) <=> r2_hidden(C, k13_prob_1(u1_struct_0(A), k5_numbers, k9_setfam_1(u1_struct_0(A)), k1_topdim_1(A), B))) ) ) ) ) ) ) ).
 - fof(t5_topdim_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  ( (v1_topdim_1(B, A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => r1_xxreal_0(k1_real_1(1), k2_topdim_1(A, B))) ) ) ) ).
 - fof(t6_topdim_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  ( (v1_topdim_1(B, A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (k2_topdim_1(A, B)=k1_real_1(1) <=> v1_xboole_0(B)) ) ) ) ) ).
 - fof(l14_topdim_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  ( (v1_topdim_1(B, A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => v7_ordinal1(k3_real_1(k2_topdim_1(A, B), 1))) ) ) ) ).

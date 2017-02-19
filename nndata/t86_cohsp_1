@@ -1,13 +1,13 @@
 C fof(t86_cohsp_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_classes1(B) & v1_coh_sp(B)) )  =>  (! [C] :  (! [D] :  (r2_hidden(k14_cohsp_1(C, D), k16_cohsp_1(A, B)) <=>  ( (r2_hidden(C, A) & D=k1_xboole_0)  |  (C=k1_xboole_0 & r2_hidden(D, B)) ) ) ) ) ) ) ) ) ).
 + fof(d24_cohsp_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_classes1(B) & v1_coh_sp(B)) )  => k16_cohsp_1(A, B)=k2_xboole_0(a_1_1_cohsp_1(A), a_1_2_cohsp_1(B))) ) ) ) ).
 + fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(fraenkel_a_1_1_cohsp_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_classes1(B) & v1_coh_sp(B)) )  =>  (r2_hidden(A, a_1_1_cohsp_1(B)) <=>  (? [C] :  (m1_subset_1(C, B) & A=k14_cohsp_1(C, k1_xboole_0)) ) ) ) ) ).
 + fof(fraenkel_a_1_2_cohsp_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_classes1(B) & v1_coh_sp(B)) )  =>  (r2_hidden(A, a_1_2_cohsp_1(B)) <=>  (? [C] :  (m1_subset_1(C, B) & A=k14_cohsp_1(k1_xboole_0, C)) ) ) ) ) ).
 + fof(rc1_xboole_0, axiom,  (? [A] : v1_xboole_0(A)) ).
-+ fof(t80_cohsp_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k14_cohsp_1(A, B)=k14_cohsp_1(C, D) <=>  (A=C & B=D) ) ) ) ) ) ).
-+ fof(fraenkel_a_1_1_cohsp_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_classes1(B) & v1_coh_sp(B)) )  =>  (r2_hidden(A, a_1_1_cohsp_1(B)) <=>  (? [C] :  (m1_subset_1(C, B) & A=k14_cohsp_1(C, k1_xboole_0)) ) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 + fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t80_cohsp_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k14_cohsp_1(A, B)=k14_cohsp_1(C, D) <=>  (A=C & B=D) ) ) ) ) ) ).
 - fof(t73_cohsp_1, axiom,  (! [A] :  (! [B] : k14_cohsp_1(A, B)=k2_xboole_0(k2_zfmisc_1(A, k1_tarski(1)), k2_zfmisc_1(B, k1_tarski(2)))) ) ).
 - fof(fraenkel_a_2_0_cohsp_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(B))  &  (v1_classes1(B) & v1_coh_sp(B)) )  &  ( ~ (v1_xboole_0(C))  &  (v1_classes1(C) & v1_coh_sp(C)) ) )  =>  (r2_hidden(A, a_2_0_cohsp_1(B, C)) <=>  (? [D, E] :  ( (m1_subset_1(D, B) & m1_subset_1(E, C))  & A=k14_cohsp_1(D, E)) ) ) ) ) ).
 - fof(t83_cohsp_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_classes1(B) & v1_coh_sp(B)) )  =>  (! [C] :  (r2_hidden(C, k15_cohsp_1(A, B)) <=>  (? [D] :  (m1_subset_1(D, A) &  (? [E] :  (m1_subset_1(E, B) & C=k14_cohsp_1(D, E)) ) ) ) ) ) ) ) ) ) ).

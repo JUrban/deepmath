@@ -1,8 +1,8 @@
 C fof(t1_matrix13, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (m1_matrix_1(D, A, B, C) =>  ( (B=k6_numbers => C=k6_numbers)  <=>  (k3_finseq_1(D)=B & k1_matrix_1(D)=C) ) ) ) ) ) ) ) ) ) ).
-+ fof(t25_matrix_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (! [D] :  (m1_matrix_1(D, C, A, B) =>  (k3_finseq_1(D)=A & k2_matrix_1(D)=k2_zfmisc_1(k2_finseq_1(A), k2_finseq_1(k1_matrix_1(D)))) ) ) ) ) ) ) ) ) ).
-+ fof(t22_matrix_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m1_matrix_1(C, B, k1_xboole_0, A) =>  (k3_finseq_1(C)=k1_xboole_0 &  (k1_matrix_1(C)=k1_xboole_0 & k2_matrix_1(C)=k1_xboole_0) ) ) ) ) ) ) ) ).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t22_matrix_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m1_matrix_1(C, B, k1_xboole_0, A) =>  (k3_finseq_1(C)=k1_xboole_0 &  (k1_matrix_1(C)=k1_xboole_0 & k2_matrix_1(C)=k1_xboole_0) ) ) ) ) ) ) ) ).
 + fof(t23_matrix_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  ( ~ (r1_xxreal_0(A, k1_xboole_0))  =>  (! [D] :  (m1_matrix_1(D, C, A, B) =>  (k3_finseq_1(D)=A &  (k1_matrix_1(D)=B & k2_matrix_1(D)=k2_zfmisc_1(k2_finseq_1(A), k2_finseq_1(B))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t25_matrix_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (! [D] :  (m1_matrix_1(D, C, A, B) =>  (k3_finseq_1(D)=A & k2_matrix_1(D)=k2_zfmisc_1(k2_finseq_1(A), k2_finseq_1(k1_matrix_1(D)))) ) ) ) ) ) ) ) ) ).
 + fof(t3_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ ( ( ~ (k6_numbers=A)  & r1_xxreal_0(A, k6_numbers)) ) ) ) ).
 - fof(t24_matrix_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m1_matrix_1(C, B, A, A) =>  (k3_finseq_1(C)=A &  (k1_matrix_1(C)=A & k2_matrix_1(C)=k2_zfmisc_1(k2_finseq_1(A), k2_finseq_1(A))) ) ) ) ) ) ) ) ).
 - fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).

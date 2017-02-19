@@ -1,7 +1,7 @@
 C fof(t57_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  ( (r2_hidden(B, C) &  (r8_orders_1(A, B) &  (r1_tarski(C, k1_relat_1(A)) & v1_relat_2(A)) ) )  => r4_orders_1(A, C)) ) ) ) ) ).
-+ fof(d9_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r4_orders_1(A, B) <=>  (! [C] :  ~ ( (r1_tarski(C, B) &  (v3_orders_1(k2_wellord1(A, C)) &  (! [D] :  ~ ( (r2_hidden(D, B) &  (! [E] :  (r2_hidden(E, C) => r2_hidden(k4_tarski(E, D), A)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(d13_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r8_orders_1(A, B) <=>  (r2_hidden(B, k1_relat_1(A)) &  (! [C] :  (r2_hidden(C, k1_relat_1(A)) =>  (C=B | r2_hidden(k4_tarski(C, B), A)) ) ) ) ) ) ) ) ).
 + fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d9_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r4_orders_1(A, B) <=>  (! [C] :  ~ ( (r1_tarski(C, B) &  (v3_orders_1(k2_wellord1(A, C)) &  (! [D] :  ~ ( (r2_hidden(D, B) &  (! [E] :  (r2_hidden(E, C) => r2_hidden(k4_tarski(E, D), A)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(l1_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v1_relat_2(A) <=>  (! [B] :  (r2_hidden(B, k1_relat_1(A)) => r2_hidden(k4_tarski(B, B), A)) ) ) ) ) ).
 - fof(d11_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r6_orders_1(A, B) <=>  (r2_hidden(B, k1_relat_1(A)) &  (! [C] :  ~ ( (r2_hidden(C, k1_relat_1(A)) &  ( ~ (C=B)  & r2_hidden(k4_tarski(B, C), A)) ) ) ) ) ) ) ) ) ).
 - fof(t51_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r4_orders_1(A, B) <=> r5_orders_1(k2_relat_1(A), B)) ) ) ) ).

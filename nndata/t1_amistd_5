@@ -1,18 +1,18 @@
 C fof(t1_amistd_5, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (! [C] :  (m1_subset_1(C, u1_compos_1(B)) =>  (v2_amistd_1(C, A, B) =>  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) => v2_amistd_1(k5_compos_0(u1_compos_1(B), C, D), A, B)) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(cc18_membered, axiom,  (! [A] :  (v1_xboole_0(A) => v6_membered(A)) ) ).
 + fof(cc2_compos_0, axiom,  (! [A] :  (v5_compos_0(A) =>  ~ (v1_xboole_0(A)) ) ) ).
-+ fof(dt_k5_compos_0, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(A))  &  (v1_compos_0(A) &  (v2_compos_0(A) & v3_compos_0(A)) ) )  &  (m1_subset_1(B, A) & v7_ordinal1(C)) )  => m1_subset_1(k5_compos_0(A, B, C), A)) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(fc11_xxreal_2, axiom,  ( ~ (v3_xxreal_2(k1_numbers))  &  ~ (v4_xxreal_2(k1_numbers)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(cc9_xxreal_2, axiom,  (! [A] :  (v6_membered(A) =>  (v6_membered(A) & v3_xxreal_2(A)) ) ) ).
-+ fof(dt_u1_compos_1, axiom,  (! [A] :  (l1_compos_1(A) =>  (v1_compos_0(u1_compos_1(A)) &  (v2_compos_0(u1_compos_1(A)) &  (v3_compos_0(u1_compos_1(A)) & v5_compos_0(u1_compos_1(A))) ) ) ) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(dt_l1_extpro_1, axiom,  (! [A] :  (! [B] :  (l1_extpro_1(B, A) =>  (l1_memstr_0(B, A) & l1_compos_1(B)) ) ) ) ).
 + fof(d2_amistd_1, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) & l1_extpro_1(B, A)) )  =>  (! [C] :  (m1_subset_1(C, u1_compos_1(B)) =>  (v2_amistd_1(C, A, B) <=> v1_amistd_1(k2_compos_0(u1_compos_1(B), C), A, B)) ) ) ) ) ) ) ).
 + fof(d9_compos_0, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_compos_0(A) &  (v2_compos_0(A) & v3_compos_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (m1_subset_1(D, A) =>  (D=k5_compos_0(A, B, C) <=>  (k2_compos_0(A, D)=k2_compos_0(A, B) &  (k2_xtuple_0(D)=k2_xtuple_0(B) & k5_xtuple_0(D)=k7_valued_1(k5_xtuple_0(B), C)) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(dt_k5_compos_0, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(A))  &  (v1_compos_0(A) &  (v2_compos_0(A) & v3_compos_0(A)) ) )  &  (m1_subset_1(B, A) & v7_ordinal1(C)) )  => m1_subset_1(k5_compos_0(A, B, C), A)) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(dt_l1_extpro_1, axiom,  (! [A] :  (! [B] :  (l1_extpro_1(B, A) =>  (l1_memstr_0(B, A) & l1_compos_1(B)) ) ) ) ).
++ fof(dt_u1_compos_1, axiom,  (! [A] :  (l1_compos_1(A) =>  (v1_compos_0(u1_compos_1(A)) &  (v2_compos_0(u1_compos_1(A)) &  (v3_compos_0(u1_compos_1(A)) & v5_compos_0(u1_compos_1(A))) ) ) ) ) ).
++ fof(fc11_xxreal_2, axiom,  ( ~ (v3_xxreal_2(k1_numbers))  &  ~ (v4_xxreal_2(k1_numbers)) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 - fof(t50_compos_2, axiom,  (! [A] :  ( (v1_amistd_4(A) & l1_compos_1(A))  =>  (! [B] :  ( (v6_compos_0(B, u1_compos_1(A)) & m1_subset_1(B, u1_compos_1(A)))  =>  (! [C] :  ( ( ~ (v1_xboole_0(C))  &  (v1_relat_1(C) &  (v4_relat_1(C, k5_numbers) &  (v5_relat_1(C, u1_compos_1(A)) &  (v1_funct_1(C) &  (v1_finset_1(C) &  (v1_afinsq_1(C) &  (v3_compos_1(C, A) & v4_compos_1(C, A)) ) ) ) ) ) ) )  => k1_funct_1(k2_compos_2(A, C, B), k62_valued_1(C))=k5_compos_0(u1_compos_1(A), B, k62_valued_1(C))) ) ) ) ) ) ).
 - fof(dt_k3_compos_2, axiom,  (! [A, B, C] :  ( ( (v1_amistd_4(A) & l1_compos_1(A))  &  ( (v6_compos_0(B, u1_compos_1(A)) & m1_subset_1(B, u1_compos_1(A)))  &  (v6_compos_0(C, u1_compos_1(A)) & m1_subset_1(C, u1_compos_1(A))) ) )  =>  ( ~ (v1_xboole_0(k3_compos_2(A, B, C)))  &  (v1_relat_1(k3_compos_2(A, B, C)) &  (v4_relat_1(k3_compos_2(A, B, C), k5_numbers) &  (v5_relat_1(k3_compos_2(A, B, C), u1_compos_1(A)) &  (v1_funct_1(k3_compos_2(A, B, C)) &  (v1_finset_1(k3_compos_2(A, B, C)) &  (v1_afinsq_1(k3_compos_2(A, B, C)) &  (v3_compos_1(k3_compos_2(A, B, C), A) & v4_compos_1(k3_compos_2(A, B, C), A)) ) ) ) ) ) ) ) ) ) ).
 - fof(t19_amistd_4, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (! [C] :  (m1_subset_1(C, u1_compos_1(B)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(B)) =>  ( (v2_amistd_1(C, A, B) & r2_hidden(D, k2_amistd_4(A, B, C)))  => D=k4_struct_0(B)) ) ) ) ) ) ) ) ) ).

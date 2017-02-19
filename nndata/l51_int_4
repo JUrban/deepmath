@@ -1,14 +1,14 @@
 C fof(l51_int_4, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (r1_int_1(A, B) => B=k3_xcmplx_0(k5_int_1(B, A), A)) ) ) ) ) ).
-+ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
 + fof(cc3_int_1, axiom,  (! [A] :  (v1_int_1(A) => v1_xreal_0(A)) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(dt_k5_int_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => v1_int_1(k5_int_1(A, B))) ) ).
 + fof(fc2_int_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => v1_int_1(k3_xcmplx_0(A, B))) ) ).
-+ fof(t59_int_1, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  ( ~ (A=k6_numbers)  => B=k2_xcmplx_0(k3_xcmplx_0(k5_int_1(B, A), A), k6_int_1(B, A))) ) ) ) ) ).
 + fof(l50_int_4, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  ( (r1_int_1(A, B) => k6_int_1(B, A)=k6_numbers)  &  (k6_int_1(B, A)=k6_numbers =>  (A=k6_numbers | r1_int_1(A, B)) ) ) ) ) ) ) ).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
-+ fof(dt_k5_int_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => v1_int_1(k5_int_1(A, B))) ) ).
 + fof(t1_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k2_xcmplx_0(A, k6_numbers)=A) ) ).
++ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
 + fof(t3_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (r1_int_1(k6_numbers, A) <=> A=k6_numbers) ) ) ).
++ fof(t59_int_1, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  ( ~ (A=k6_numbers)  => B=k2_xcmplx_0(k3_xcmplx_0(k5_int_1(B, A), A), k6_int_1(B, A))) ) ) ) ) ).
 - fof(d10_int_1, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  ( ( ~ (B=k6_numbers)  => k6_int_1(A, B)=k6_xcmplx_0(A, k3_xcmplx_0(k5_int_1(A, B), B)))  &  (B=k6_numbers => k6_int_1(A, B)=k6_numbers) ) ) ) ) ) ).
 - fof(t66_newton, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  ( ~ (A=k6_numbers)  => B=k2_xcmplx_0(k3_xcmplx_0(k5_int_1(B, A), A), k6_int_1(B, A))) ) ) ) ) ).
 - fof(s2_finseq_1__e15_64_1_2__wsierp_1, axiom,  (! [A, B, C, D] :  ( (v7_ordinal1(A) &  (v1_int_1(B) &  (m2_subset_1(C, k1_numbers, k5_numbers) & m2_subset_1(D, k1_numbers, k5_numbers)) ) )  =>  (? [E] :  ( (v1_relat_1(E) &  (v1_funct_1(E) & v1_finseq_1(E)) )  &  (k3_finseq_1(E)=D &  (! [F] :  (v7_ordinal1(F) =>  (r2_hidden(F, k4_finseq_1(E)) => k1_funct_1(E, F)=k7_real_1(1, k6_int_1(k2_xcmplx_0(k3_xcmplx_0(B, k5_int_1(k5_real_1(F, 1), C)), k6_int_1(k5_real_1(F, 1), C)), A))) ) ) ) ) ) ) ) ).

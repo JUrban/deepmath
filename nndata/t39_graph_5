@@ -1,9 +1,9 @@
 C fof(t39_graph_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => r1_tarski(k4_graph_5(A, B, C), k7_graph_5(A))) ) ) ) ) ) ).
++ fof(d11_graph_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  => k7_graph_5(A)=a_1_0_graph_5(A)) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d8_graph_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => k4_graph_5(A, B, C)=a_3_1_graph_5(A, B, C)) ) ) ) ) ) ).
 + fof(fraenkel_a_1_0_graph_5, axiom,  (! [A, B] :  ( ( ~ (v2_struct_0(B))  & l1_graph_1(B))  =>  (r2_hidden(A, a_1_0_graph_5(B)) <=>  (? [C] :  ( (v7_graph_1(C, B) &  (v1_graph_4(C, B) & m2_graph_1(C, B)) )  & A=C) ) ) ) ) ).
 + fof(fraenkel_a_3_1_graph_5, axiom,  (! [A, B, C, D] :  ( ( ( ~ (v2_struct_0(B))  & l1_graph_1(B))  &  (m1_subset_1(C, u1_struct_0(B)) & m1_subset_1(D, u1_struct_0(B))) )  =>  (r2_hidden(A, a_3_1_graph_5(B, C, D)) <=>  (? [E] :  ( (v7_graph_1(E, B) &  (v1_graph_4(E, B) & m2_graph_1(E, B)) )  &  (A=E & r3_graph_5(B, E, C, D)) ) ) ) ) ) ).
-+ fof(d8_graph_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => k4_graph_5(A, B, C)=a_3_1_graph_5(A, B, C)) ) ) ) ) ) ).
-+ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
-+ fof(d11_graph_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  => k7_graph_5(A)=a_1_0_graph_5(A)) ) ).
 - fof(t37_graph_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => r1_tarski(k4_graph_5(A, B, C), k3_graph_5(A, B, C))) ) ) ) ) ) ).
 - fof(t38_graph_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  ( (v7_graph_1(B, A) & m2_graph_1(B, A))  => r1_tarski(k6_graph_5(A, B), k7_graph_5(A))) ) ) ) ).
 - fof(dt_k4_graph_5, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k4_graph_5(A, B, C), k1_zfmisc_1(k3_finseq_2(u4_struct_0(A))))) ) ).

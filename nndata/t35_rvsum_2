@@ -1,13 +1,13 @@
 C fof(t35_rvsum_2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) => k16_rvsum_1(k11_finseq_1(A, B, C))=k3_binop_2(k3_binop_2(A, B), C)) ) ) ) ) ) ).
++ fof(d10_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] : k11_finseq_1(A, B, C)=k7_finseq_1(k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B)), k9_finseq_1(C))) ) ) ).
++ fof(d9_finseq_1, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B))) ) ).
 + fof(dt_k9_finseq_1, axiom,  (! [A] :  (v1_relat_1(k9_finseq_1(A)) & v1_funct_1(k9_finseq_1(A))) ) ).
 + fof(fc10_rvsum_1, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_valued_0(k5_finseq_1(A))) ) ).
 + fof(fc13_rvsum_1, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_valued_0(A) & v1_finseq_1(A)) ) )  &  (v1_relat_1(B) &  (v1_funct_1(B) &  (v1_valued_0(B) & v1_finseq_1(B)) ) ) )  =>  (v1_relat_1(k7_finseq_1(A, B)) &  (v1_funct_1(k7_finseq_1(A, B)) &  (v1_valued_0(k7_finseq_1(A, B)) & v1_finseq_1(k7_finseq_1(A, B))) ) ) ) ) ).
-+ fof(t31_rvsum_2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) &  (v1_finseq_1(B) & v1_valued_0(B)) ) )  => k16_rvsum_1(k7_finseq_1(B, k9_finseq_1(A)))=k3_binop_2(k16_rvsum_1(B), A)) ) ) ) ).
 + fof(fc7_finseq_1, axiom,  (! [A] : v1_finseq_1(k5_finseq_1(A))) ).
-+ fof(d10_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] : k11_finseq_1(A, B, C)=k7_finseq_1(k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B)), k9_finseq_1(C))) ) ) ).
 + fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
++ fof(t31_rvsum_2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) &  (v1_finseq_1(B) & v1_valued_0(B)) ) )  => k16_rvsum_1(k7_finseq_1(B, k9_finseq_1(A)))=k3_binop_2(k16_rvsum_1(B), A)) ) ) ) ).
 + fof(t34_rvsum_2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k16_rvsum_1(k10_finseq_1(A, B))=k3_binop_2(A, B)) ) ) ) ).
-+ fof(d9_finseq_1, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B))) ) ).
 - fof(t78_rvsum_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) => k16_rvsum_1(k11_finseq_1(A, B, C))=k9_binop_2(k9_binop_2(A, B), C)) ) ) ) ) ) ).
 - fof(d3_polyeq_3, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (! [D] :  (v1_xcmplx_0(D) =>  (! [E] :  (v1_xcmplx_0(E) => k7_polyeq_1(A, B, C, D, E)=k3_binop_2(k3_binop_2(k3_binop_2(k5_binop_2(A, k3_polyeq_3(E)), k5_binop_2(B, k3_square_1(E))), k5_binop_2(C, E)), D)) ) ) ) ) ) ) ) ) ) ).
 - fof(t74_rvsum_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) &  (v3_valued_0(B) & v1_finseq_1(B)) ) )  => k16_rvsum_1(k7_finseq_1(B, k9_finseq_1(A)))=k9_binop_2(k16_rvsum_1(B), A)) ) ) ) ).

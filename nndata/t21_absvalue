@@ -1,19 +1,19 @@
 C fof(t21_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ (A=k6_numbers)  => k3_xcmplx_0(k1_absvalue(A), k1_absvalue(k13_complex1(1, A)))=1) ) ) ).
-+ fof(redefinition_k13_complex1, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k13_complex1(A, B)=k7_xcmplx_0(A, B)) ) ).
-+ fof(rqRealAdd__k2_xcmplx_0__r1_rm1_r0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=0).
-+ fof(d2_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ( ~ (r1_xxreal_0(A, k6_numbers))  => k1_absvalue(A)=1)  &  ( ( ~ (r1_xxreal_0(k6_numbers, A))  => k1_absvalue(A)=k1_real_1(1))  &  ( (r1_xxreal_0(A, k6_numbers) & r1_xxreal_0(k6_numbers, A))  => k1_absvalue(A)=k6_numbers) ) ) ) ) ).
-+ fof(t106_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  ( ~ (A=k6_numbers)  => k3_xcmplx_0(A, k7_xcmplx_0(1, A))=1) ) ) ).
-+ fof(spc3_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k7_xcmplx_0(1, A)=k5_xcmplx_0(A)) ) ).
 + fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(fc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k5_xcmplx_0(A)) & v1_xreal_0(k5_xcmplx_0(A))) ) ) ).
-+ fof(spc3_numerals, axiom,  ( (v2_xxreal_0(3) & m2_subset_1(3, k1_numbers, k5_numbers))  &  (m1_subset_1(3, k5_numbers) & m1_subset_1(3, k1_numbers)) ) ).
-+ fof(projectivity_k1_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) => k1_absvalue(k1_absvalue(A))=k1_absvalue(A)) ) ).
-+ fof(t18_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k1_absvalue(k3_xcmplx_0(A, B))=k3_xcmplx_0(k1_absvalue(A), k1_absvalue(B))) ) ) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r3_r0, axiom,  ~ (r1_xxreal_0(3, 0)) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(d2_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ( ~ (r1_xxreal_0(A, k6_numbers))  => k1_absvalue(A)=1)  &  ( ( ~ (r1_xxreal_0(k6_numbers, A))  => k1_absvalue(A)=k1_real_1(1))  &  ( (r1_xxreal_0(A, k6_numbers) & r1_xxreal_0(k6_numbers, A))  => k1_absvalue(A)=k6_numbers) ) ) ) ) ).
++ fof(fc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k5_xcmplx_0(A)) & v1_xreal_0(k5_xcmplx_0(A))) ) ) ).
 + fof(l13_xreal_0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=k6_numbers).
++ fof(projectivity_k1_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) => k1_absvalue(k1_absvalue(A))=k1_absvalue(A)) ) ).
++ fof(redefinition_k13_complex1, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k13_complex1(A, B)=k7_xcmplx_0(A, B)) ) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r3_r0, axiom,  ~ (r1_xxreal_0(3, 0)) ).
++ fof(rqRealAdd__k2_xcmplx_0__r1_rm1_r0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=0).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(spc3_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k7_xcmplx_0(1, A)=k5_xcmplx_0(A)) ) ).
++ fof(spc3_numerals, axiom,  ( (v2_xxreal_0(3) & m2_subset_1(3, k1_numbers, k5_numbers))  &  (m1_subset_1(3, k5_numbers) & m1_subset_1(3, k1_numbers)) ) ).
++ fof(t106_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  ( ~ (A=k6_numbers)  => k3_xcmplx_0(A, k7_xcmplx_0(1, A))=1) ) ) ).
++ fof(t18_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k1_absvalue(k3_xcmplx_0(A, B))=k3_xcmplx_0(k1_absvalue(A), k1_absvalue(B))) ) ) ) ).
 - fof(t80_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k17_complex1(k13_complex1(1, A))=k13_complex1(1, k17_complex1(A))) ) ).
 - fof(t6_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ (A=k6_numbers)  => k8_real_1(k18_complex1(A), k18_complex1(k13_complex1(1, A)))=1) ) ) ).
 - fof(t7_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) => k18_complex1(k13_complex1(1, A))=k13_complex1(1, k18_complex1(A))) ) ).

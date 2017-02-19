@@ -1,16 +1,16 @@
 C fof(t20_rlaffin1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) & l2_algstr_0(A)) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => r1_rlvect_2(A, k1_rlaffin1(A, k4_rlvect_2(A), B), k4_rlvect_2(A))) ) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
 + fof(d5_rlvect_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  =>  (! [B] :  (m1_rlvect_2(B, A) =>  (B=k4_rlvect_2(A) <=> k3_rlvect_2(A, B)=k1_xboole_0) ) ) ) ) ).
++ fof(dt_k1_rlaffin1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) & l2_algstr_0(A)) ) ) ) )  &  (m1_rlvect_2(B, A) & m1_subset_1(C, u1_struct_0(A))) )  => m1_rlvect_2(k1_rlaffin1(A, B, C), A)) ) ).
 + fof(dt_k4_rlvect_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  => m1_rlvect_2(k4_rlvect_2(A), A)) ) ).
-+ fof(fc3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => v1_xboole_0(k1_struct_0(A))) ) ).
 + fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
 + fof(dt_l2_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => l1_struct_0(A)) ) ).
-+ fof(t16_rlaffin1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) & l2_algstr_0(A)) ) ) ) )  =>  (! [B] :  (m1_rlvect_2(B, A) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => k3_rlvect_2(A, k1_rlaffin1(A, B, C))=k5_rusub_4(A, k3_rlvect_2(A, B), C)) ) ) ) ) ) ).
 + fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
-+ fof(dt_k1_rlaffin1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) & l2_algstr_0(A)) ) ) ) )  &  (m1_rlvect_2(B, A) & m1_subset_1(C, u1_struct_0(A))) )  => m1_rlvect_2(k1_rlaffin1(A, B, C), A)) ) ).
++ fof(fc3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => v1_xboole_0(k1_struct_0(A))) ) ).
++ fof(redefinition_r1_rlvect_2, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  &  (m1_rlvect_2(B, A) & m1_rlvect_2(C, A)) )  =>  (r1_rlvect_2(A, B, C) <=> B=C) ) ) ).
++ fof(t16_rlaffin1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) & l2_algstr_0(A)) ) ) ) )  =>  (! [B] :  (m1_rlvect_2(B, A) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => k3_rlvect_2(A, k1_rlaffin1(A, B, C))=k5_rusub_4(A, k3_rlvect_2(A, B), C)) ) ) ) ) ) ).
 + fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
 + fof(t8_rlaffin1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k5_rusub_4(A, k1_struct_0(A), B)=k1_struct_0(A)) ) ) ) ).
-+ fof(redefinition_r1_rlvect_2, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  &  (m1_rlvect_2(B, A) & m1_rlvect_2(C, A)) )  =>  (r1_rlvect_2(A, B, C) <=> B=C) ) ) ).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
 - fof(l38_rlvect_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) & l1_rlvect_1(A)) ) ) ) ) ) ) ) )  => k6_rlvect_2(A, k4_rlvect_2(A))=k4_struct_0(A)) ) ).
 - fof(t57_rlvect_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) & l1_rlvect_1(A)) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_rlvect_2(B, A) => r1_rlvect_2(A, k10_rlvect_2(A, B, B), k4_rlvect_2(A))) ) ) ) ).
 - fof(t50_rlvect_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) & l1_rlvect_1(A)) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_rlvect_2(B, A) =>  (! [C] :  (m1_rlvect_2(C, A) =>  (r1_rlvect_2(A, k7_rlvect_2(A, B, C), k4_rlvect_2(A)) => r1_rlvect_2(A, C, k9_rlvect_2(A, B))) ) ) ) ) ) ) ).

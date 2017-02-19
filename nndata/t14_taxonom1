@@ -1,8 +1,8 @@
 C fof(t14_taxonom1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_partit1(A))) =>  (B=k2_tarski(k1_tarski(A), k10_eqrel_1(A)) => m1_taxonom1(B, A)) ) ) ) ) ).
 + fof(d1_taxonom1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_partit1(A))) =>  (m1_taxonom1(B, A) <=>  (! [C] :  (m1_eqrel_1(C, A) =>  (! [D] :  (m1_eqrel_1(D, A) =>  ~ ( (r2_hidden(C, B) &  (r2_hidden(D, B) &  ( ~ (r1_setfam_1(C, D))  &  ~ (r1_setfam_1(D, C)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
 + fof(reflexivity_r1_setfam_1, axiom,  (! [A, B] : r1_setfam_1(A, A)) ).
 + fof(t11_taxonom1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => r1_setfam_1(k10_eqrel_1(A), k1_tarski(A))) ) ).
-+ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
 - fof(redefinition_k1_bvfunc_2, axiom,  (! [A] : k1_bvfunc_2(A)=k1_partit1(A)) ).
 - fof(dt_m1_taxonom1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_taxonom1(B, A) => m1_subset_1(B, k1_zfmisc_1(k1_partit1(A)))) ) ) ) ).
 - fof(t13_taxonom1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => m1_taxonom1(k1_tarski(k10_eqrel_1(A)), A)) ) ).

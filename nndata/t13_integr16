@@ -1,8 +1,8 @@
 C fof(t13_integr16, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v2_measure5(A) & m1_subset_1(A, k1_zfmisc_1(k1_numbers))) )  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k2_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k2_numbers)))) )  =>  (v1_comseq_2(B) <=>  (v1_comseq_2(k5_comseq_3(A, B)) & v1_comseq_2(k6_comseq_3(A, B))) ) ) ) ) ) ).
-+ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 + fof(t11_integr16, axiom,  (! [A] :  ( (v1_funct_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k2_numbers))))  =>  (v1_comseq_2(A) <=>  (v1_comseq_2(k5_comseq_3(k1_numbers, A)) & v1_comseq_2(k6_comseq_3(k1_numbers, A))) ) ) ) ).
 + fof(t12_integr16, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(A, k1_zfmisc_1(k1_numbers)))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k2_numbers))))  =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, A, k2_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k2_numbers)))) )  =>  (B=C =>  (k5_comseq_3(k1_numbers, B)=k5_comseq_3(A, C) & k6_comseq_3(k1_numbers, B)=k6_comseq_3(A, C)) ) ) ) ) ) ) ) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 + fof(t95_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_tarski(A, B) =>  (r1_tarski(k2_zfmisc_1(A, C), k2_zfmisc_1(B, C)) & r1_tarski(k2_zfmisc_1(C, A), k2_zfmisc_1(C, B))) ) ) ) ) ).
 - fof(redefinition_k5_comseq_3, axiom,  (! [A, B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k2_numbers))))  => k5_comseq_3(A, B)=k3_comseq_3(B)) ) ).
 - fof(redefinition_k6_comseq_3, axiom,  (! [A, B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k2_numbers))))  => k6_comseq_3(A, B)=k4_comseq_3(B)) ) ).

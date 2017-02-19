@@ -1,15 +1,15 @@
 C fof(t7_procal_1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m2_subset_1(B, k9_qc_lang1(A), k3_cqc_lang(A)) =>  (! [C] :  (m2_subset_1(C, k9_qc_lang1(A), k3_cqc_lang(A)) => r2_hidden(k8_cqc_lang(A, k7_cqc_lang(A, k6_cqc_lang(A, B), k6_cqc_lang(A, C)), k6_cqc_lang(A, k9_cqc_lang(A, B, C))), k4_cqc_the1(A))) ) ) ) ) ) ).
-+ fof(redefinition_k9_cqc_lang, axiom,  (! [A, B, C] :  ( (m1_qc_lang1(A) &  (m1_subset_1(B, k3_cqc_lang(A)) & m1_subset_1(C, k3_cqc_lang(A))) )  => k9_cqc_lang(A, B, C)=k3_qc_lang2(A, B, C)) ) ).
-+ fof(fc2_cqc_lang, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k3_cqc_lang(A))) ) ) ).
 + fof(d3_qc_lang2, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k9_qc_lang1(A)) =>  (! [C] :  (m1_subset_1(C, k9_qc_lang1(A)) => k3_qc_lang2(A, B, C)=k13_qc_lang1(A, k14_qc_lang1(A, k13_qc_lang1(A, B), k13_qc_lang1(A, C)))) ) ) ) ) ) ).
-+ fof(redefinition_k7_cqc_lang, axiom,  (! [A, B, C] :  ( (m1_qc_lang1(A) &  (m1_subset_1(B, k3_cqc_lang(A)) & m1_subset_1(C, k3_cqc_lang(A))) )  => k7_cqc_lang(A, B, C)=k14_qc_lang1(A, B, C)) ) ).
-+ fof(dt_k9_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k9_qc_lang1(A))) ) ) ).
-+ fof(dt_k7_cqc_lang, axiom,  (! [A, B, C] :  ( (m1_qc_lang1(A) &  (m1_subset_1(B, k3_cqc_lang(A)) & m1_subset_1(C, k3_cqc_lang(A))) )  => m2_subset_1(k7_cqc_lang(A, B, C), k9_qc_lang1(A), k3_cqc_lang(A))) ) ).
-+ fof(dt_k6_cqc_lang, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k3_cqc_lang(A)))  => m2_subset_1(k6_cqc_lang(A, B), k9_qc_lang1(A), k3_cqc_lang(A))) ) ).
 + fof(dt_k3_cqc_lang, axiom,  (! [A] :  (m1_qc_lang1(A) => m1_subset_1(k3_cqc_lang(A), k1_zfmisc_1(k9_qc_lang1(A)))) ) ).
++ fof(dt_k6_cqc_lang, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k3_cqc_lang(A)))  => m2_subset_1(k6_cqc_lang(A, B), k9_qc_lang1(A), k3_cqc_lang(A))) ) ).
++ fof(dt_k7_cqc_lang, axiom,  (! [A, B, C] :  ( (m1_qc_lang1(A) &  (m1_subset_1(B, k3_cqc_lang(A)) & m1_subset_1(C, k3_cqc_lang(A))) )  => m2_subset_1(k7_cqc_lang(A, B, C), k9_qc_lang1(A), k3_cqc_lang(A))) ) ).
++ fof(dt_k9_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k9_qc_lang1(A))) ) ) ).
 + fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(fc2_cqc_lang, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k3_cqc_lang(A))) ) ) ).
 + fof(redefinition_k6_cqc_lang, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k3_cqc_lang(A)))  => k6_cqc_lang(A, B)=k13_qc_lang1(A, B)) ) ).
++ fof(redefinition_k7_cqc_lang, axiom,  (! [A, B, C] :  ( (m1_qc_lang1(A) &  (m1_subset_1(B, k3_cqc_lang(A)) & m1_subset_1(C, k3_cqc_lang(A))) )  => k7_cqc_lang(A, B, C)=k14_qc_lang1(A, B, C)) ) ).
++ fof(redefinition_k9_cqc_lang, axiom,  (! [A, B, C] :  ( (m1_qc_lang1(A) &  (m1_subset_1(B, k3_cqc_lang(A)) & m1_subset_1(C, k3_cqc_lang(A))) )  => k9_cqc_lang(A, B, C)=k3_qc_lang2(A, B, C)) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(t27_lukasi_1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m2_subset_1(B, k9_qc_lang1(A), k3_cqc_lang(A)) => r2_hidden(k8_cqc_lang(A, B, k6_cqc_lang(A, k6_cqc_lang(A, B))), k4_cqc_the1(A))) ) ) ) ).
 - fof(t6_procal_1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m2_subset_1(B, k9_qc_lang1(A), k3_cqc_lang(A)) =>  (! [C] :  (m2_subset_1(C, k9_qc_lang1(A), k3_cqc_lang(A)) => r2_hidden(k8_cqc_lang(A, k6_cqc_lang(A, k9_cqc_lang(A, B, C)), k7_cqc_lang(A, k6_cqc_lang(A, B), k6_cqc_lang(A, C))), k4_cqc_the1(A))) ) ) ) ) ) ).
 - fof(l2_procal_1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m2_subset_1(B, k9_qc_lang1(A), k3_cqc_lang(A)) =>  (! [C] :  (m2_subset_1(C, k9_qc_lang1(A), k3_cqc_lang(A)) => k9_cqc_lang(A, B, C)=k8_cqc_lang(A, k6_cqc_lang(A, B), C)) ) ) ) ) ) ).

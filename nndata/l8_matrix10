@@ -1,5 +1,5 @@
 C fof(l8_matrix10, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_matrix_1(B, k1_numbers, A, A) =>  (! [C] :  (m1_matrix_1(C, k1_numbers, A, A) =>  (k3_finseq_1(B)=k3_finseq_1(C) & k1_matrix_1(B)=k1_matrix_1(C)) ) ) ) ) ) ) ).
-+ fof(t24_matrix_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m1_matrix_1(C, B, A, A) =>  (k3_finseq_1(C)=A &  (k1_matrix_1(C)=A & k2_matrix_1(C)=k2_zfmisc_1(k2_finseq_1(A), k2_finseq_1(A))) ) ) ) ) ) ) ) ).
 + fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(t24_matrix_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m1_matrix_1(C, B, A, A) =>  (k3_finseq_1(C)=A &  (k1_matrix_1(C)=A & k2_matrix_1(C)=k2_zfmisc_1(k2_finseq_1(A), k2_finseq_1(A))) ) ) ) ) ) ) ) ).
 - fof(t25_matrprob, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (m1_matrix_1(D, k1_numbers, B, A) =>  (! [E] :  (m1_matrix_1(E, k1_numbers, C, A) => k3_matrprob(k8_matrlin(k1_numbers, B, C, A, D, E))=k8_finseq_1(k1_numbers, k3_matrprob(D), k3_matrprob(E))) ) ) ) ) ) ) ) ) ) ).
 - fof(redefinition_k2_matrix10, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_matrix_1(B, k1_numbers, A, A))  => k2_matrix10(A, B)=k4_matrixr1(B)) ) ).

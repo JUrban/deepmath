@@ -1,7 +1,7 @@
 C fof(t64_asympt_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(k6_numbers, C))  =>  (r1_xxreal_0(A, k6_numbers) | r1_xxreal_0(k4_power(A, C), k4_power(B, C))) ) ) ) ) ) ) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
 + fof(l13_asympt_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(k6_numbers, C))  =>  (r1_xxreal_0(A, k6_numbers) | r1_xxreal_0(k3_power(A, C), k3_power(B, C))) ) ) ) ) ) ) ) ).
 + fof(redefinition_k4_power, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => k4_power(A, B)=k3_power(A, B)) ) ).
-+ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
 - fof(l72_asympt_1, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (r1_xxreal_0(1, A) => r1_xxreal_0(k4_power(k10_real_1(k2_nat_1(A, 1), A), A), k4_power(k10_real_1(k2_nat_1(A, 2), k2_nat_1(A, 1)), k2_nat_1(A, 1)))) ) ) ).
 - fof(l61_asympt_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  ~ ( ( ~ (r1_xxreal_0(A, 9))  & r1_xxreal_0(k4_power(2, A), k5_square_1(k8_real_1(2, A)))) ) ) ) ).
 - fof(l58_asympt_1, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  ~ ( (r1_xxreal_0(10, A) & r1_xxreal_0(k4_power(2, k9_real_1(A, 1)), k5_square_1(k4_nat_1(2, A)))) ) ) ) ).

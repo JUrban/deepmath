@@ -1,31 +1,31 @@
 C fof(t5_ens_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, B, C) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(B, C)))) )  =>  ( (C=k1_xboole_0 => B=k1_xboole_0)  => r2_hidden(k1_domain_1(k2_zfmisc_1(A, A), k1_zfmisc_1(k2_zfmisc_1(B, C)), k1_domain_1(A, A, B, C), D), k2_ens_1(A))) ) ) ) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(cc4_relset_1, axiom,  (! [A, B] :  (v1_xboole_0(A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, A))) => v1_xboole_0(C)) ) ) ) ).
-+ fof(cc8_funct_2, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  ( (v1_funct_1(C) & v1_funct_2(C, A, B))  =>  (v1_funct_1(C) &  ( ~ (v1_xboole_0(C))  & v1_funct_2(C, A, B)) ) ) ) ) ) ) ).
-+ fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
-+ fof(fraenkel_a_1_1_ens_1, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  =>  (r2_hidden(A, a_1_1_ens_1(B)) <=>  (? [C, D, E] :  ( (m1_subset_1(C, B) &  (m1_subset_1(D, B) & m1_subset_1(E, k1_ens_1(B))) )  &  (A=k1_domain_1(k2_zfmisc_1(B, B), k1_ens_1(B), k1_domain_1(B, B, C, D), E) &  ( (D=k1_xboole_0 => C=k1_xboole_0)  &  (v1_funct_1(E) &  (v1_funct_2(E, C, D) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(C, D)))) ) ) ) ) ) ) ) ) ).
-+ fof(fc1_ens_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (v4_funct_1(k1_ens_1(A)) &  ~ (v1_xboole_0(k1_ens_1(A))) ) ) ) ).
-+ fof(rc1_xboole_0, axiom,  (? [A] : v1_xboole_0(A)) ).
-+ fof(cc3_relset_1, axiom,  (! [A, B] :  (v1_xboole_0(A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_xboole_0(C)) ) ) ) ).
-+ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
-+ fof(dt_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => m1_subset_1(k1_domain_1(A, B, C, D), k2_zfmisc_1(A, B))) ) ).
-+ fof(rc1_relset_1, axiom,  (! [A, B] :  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) &  (v1_xboole_0(C) &  (v1_relat_1(C) &  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ) ) ).
-+ fof(existence_m1_subset_1, axiom,  (! [A] :  (? [B] : m1_subset_1(B, A)) ) ).
-+ fof(rc1_subset_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) &  ~ (v1_xboole_0(B)) ) ) ) ) ).
-+ fof(cc2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_relat_1(B)) ) ) ) ).
-+ fof(cc7_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  =>  (v1_xboole_0(B) &  (v1_relat_1(B) & v4_relat_1(B, A)) ) ) ) ) ) ).
-+ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
-+ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(t1_ens_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (r2_hidden(B, k1_ens_1(A)) <=>  (? [C] :  (m1_subset_1(C, A) &  (? [D] :  (m1_subset_1(D, A) &  ( (D=k1_xboole_0 => C=k1_xboole_0)  &  (v1_funct_1(B) &  (v1_funct_2(B, C, D) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(C, D)))) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(fc10_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  ~ (v1_xboole_0(k2_zfmisc_1(A, B))) ) ) ).
-+ fof(d2_ens_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k2_ens_1(A)=a_1_1_ens_1(A)) ) ).
 + fof(cc1_funct_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_funct_1(A)) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(cc2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_relat_1(B)) ) ) ) ).
 + fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
++ fof(cc3_relset_1, axiom,  (! [A, B] :  (v1_xboole_0(A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_xboole_0(C)) ) ) ) ).
++ fof(cc4_relset_1, axiom,  (! [A, B] :  (v1_xboole_0(A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, A))) => v1_xboole_0(C)) ) ) ) ).
 + fof(cc5_relat_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(B)) => v4_relat_1(C, A)) ) ) ) ).
++ fof(cc7_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  =>  (v1_xboole_0(B) &  (v1_relat_1(B) & v4_relat_1(B, A)) ) ) ) ) ) ).
++ fof(cc8_funct_2, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  ( (v1_funct_1(C) & v1_funct_2(C, A, B))  =>  (v1_funct_1(C) &  ( ~ (v1_xboole_0(C))  & v1_funct_2(C, A, B)) ) ) ) ) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(d2_ens_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k2_ens_1(A)=a_1_1_ens_1(A)) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(dt_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => m1_subset_1(k1_domain_1(A, B, C, D), k2_zfmisc_1(A, B))) ) ).
++ fof(existence_m1_subset_1, axiom,  (! [A] :  (? [B] : m1_subset_1(B, A)) ) ).
++ fof(fc10_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  ~ (v1_xboole_0(k2_zfmisc_1(A, B))) ) ) ).
++ fof(fc1_ens_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (v4_funct_1(k1_ens_1(A)) &  ~ (v1_xboole_0(k1_ens_1(A))) ) ) ) ).
++ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
++ fof(fraenkel_a_1_1_ens_1, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  =>  (r2_hidden(A, a_1_1_ens_1(B)) <=>  (? [C, D, E] :  ( (m1_subset_1(C, B) &  (m1_subset_1(D, B) & m1_subset_1(E, k1_ens_1(B))) )  &  (A=k1_domain_1(k2_zfmisc_1(B, B), k1_ens_1(B), k1_domain_1(B, B, C, D), E) &  ( (D=k1_xboole_0 => C=k1_xboole_0)  &  (v1_funct_1(E) &  (v1_funct_2(E, C, D) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(C, D)))) ) ) ) ) ) ) ) ) ).
++ fof(rc1_relset_1, axiom,  (! [A, B] :  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) &  (v1_xboole_0(C) &  (v1_relat_1(C) &  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ) ) ).
++ fof(rc1_subset_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) &  ~ (v1_xboole_0(B)) ) ) ) ) ).
++ fof(rc1_xboole_0, axiom,  (? [A] : v1_xboole_0(A)) ).
++ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
++ fof(t1_ens_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (r2_hidden(B, k1_ens_1(A)) <=>  (? [C] :  (m1_subset_1(C, A) &  (? [D] :  (m1_subset_1(D, A) &  ( (D=k1_xboole_0 => C=k1_xboole_0)  &  (v1_funct_1(B) &  (v1_funct_2(B, C, D) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(C, D)))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
 - fof(fc2_ens_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ~ (v1_xboole_0(k2_ens_1(A))) ) ) ).
 - fof(t4_ens_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k2_ens_1(A)) =>  (? [C] :  (m1_subset_1(C, k1_ens_1(A)) &  (? [D] :  (m1_subset_1(D, A) &  (? [E] :  (m1_subset_1(E, A) &  (B=k1_domain_1(k2_zfmisc_1(A, A), k1_ens_1(A), k1_domain_1(A, A, D, E), C) &  ( (E=k1_xboole_0 => D=k1_xboole_0)  &  (v1_funct_1(C) &  (v1_funct_2(C, D, E) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(D, E)))) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(l14_qmax_1, axiom,  (k10_xtuple_0(k6_domain_1(k2_zfmisc_1(k2_zfmisc_1(k5_numbers, k5_numbers), k1_zfmisc_1(k2_zfmisc_1(k12_prob_1, k1_numbers))), k1_domain_1(k2_zfmisc_1(k5_numbers, k5_numbers), k1_zfmisc_1(k2_zfmisc_1(k12_prob_1, k1_numbers)), k1_domain_1(k5_numbers, k5_numbers, k6_numbers, k6_numbers), c3__qmax_1)))=k6_domain_1(k1_zfmisc_1(k2_zfmisc_1(k12_prob_1, k1_numbers)), c3__qmax_1) & r2_hidden(c3__qmax_1, k1_qmax_1(k1_numbers, k12_prob_1))) ).

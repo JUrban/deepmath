@@ -1,10 +1,10 @@
 C fof(t31_rfinseq2, axiom,  (! [A] :  (m2_finseq_1(A, k1_numbers) =>  (k4_finseq_1(k6_rfinseq2(A))=k4_finseq_1(A) & k3_finseq_1(k6_rfinseq2(A))=k3_finseq_1(A)) ) ) ).
-+ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
-+ fof(t3_rfinseq, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (r2_classes1(A, B) =>  (k3_finseq_1(A)=k3_finseq_1(B) & k4_finseq_1(A)=k4_finseq_1(B)) ) ) ) ) ) ).
 + fof(d6_rfinseq2, axiom,  (! [A] :  (m2_finseq_1(A, k1_numbers) =>  (! [B] :  ( (v1_integra2(B) & m2_finseq_1(B, k1_numbers))  =>  (B=k6_rfinseq2(A) <=> r2_classes1(A, B)) ) ) ) ) ).
-+ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 + fof(dt_k6_rfinseq2, axiom,  (! [A] :  (m1_finseq_1(A, k1_numbers) =>  (v1_integra2(k6_rfinseq2(A)) & m2_finseq_1(k6_rfinseq2(A), k1_numbers)) ) ) ).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(t3_rfinseq, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (r2_classes1(A, B) =>  (k3_finseq_1(A)=k3_finseq_1(B) & k4_finseq_1(A)=k4_finseq_1(B)) ) ) ) ) ) ).
 - fof(t28_rfinseq2, axiom,  (! [A] :  (m2_finseq_1(A, k1_numbers) => k5_rfinseq2(k6_rvsum_1(A))=k6_rvsum_1(k6_rfinseq2(A))) ) ).
 - fof(t3_integra2, axiom,  (! [A] :  (m2_finseq_1(A, k1_numbers) =>  (? [B] :  ( (v1_integra2(B) & m2_finseq_1(B, k1_numbers))  & r2_classes1(A, B)) ) ) ) ).
 - fof(t21_rfinseq2, axiom,  (! [A] :  ( (v1_integra2(A) & m2_finseq_1(A, k1_numbers))  => k6_rfinseq2(A)=A) ) ).

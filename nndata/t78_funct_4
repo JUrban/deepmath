@@ -1,9 +1,9 @@
 C fof(t78_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] : k5_relat_1(A, k2_xboole_0(B, C))=k1_funct_4(k5_relat_1(A, B), k5_relat_1(A, C))) ) ) ) ).
-+ fof(t78_relat_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) => k5_relat_1(C, k2_xboole_0(A, B))=k2_xboole_0(k5_relat_1(C, A), k5_relat_1(C, B))) ) ) ) ).
-+ fof(t30_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_partfun1(A, B) <=> k2_xboole_0(A, B)=k1_funct_4(A, B)) ) ) ) ) ).
 + fof(fc8_funct_1, axiom,  (! [A, B] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_relat_1(k5_relat_1(A, B)) & v1_funct_1(k5_relat_1(A, B))) ) ) ).
++ fof(t30_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_partfun1(A, B) <=> k2_xboole_0(A, B)=k1_funct_4(A, B)) ) ) ) ) ).
 + fof(t52_partfun1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_partfun1(A, B) <=>  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  &  (r1_tarski(A, C) & r1_tarski(B, C)) ) ) ) ) ) ) ) ).
 + fof(t59_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) => r1_tarski(k5_relat_1(B, A), B)) ) ) ).
++ fof(t78_relat_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) => k5_relat_1(C, k2_xboole_0(A, B))=k2_xboole_0(k5_relat_1(C, A), k5_relat_1(C, B))) ) ) ) ).
 - fof(t71_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] : k5_relat_1(k1_funct_4(A, B), C)=k1_funct_4(k5_relat_1(A, C), k5_relat_1(B, C))) ) ) ) ) ).
 - fof(t70_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  (r1_tarski(k9_xtuple_0(A), k2_xboole_0(B, C)) => k1_funct_4(k5_relat_1(A, B), k5_relat_1(A, C))=A) ) ) ) ) ).
 - fof(t150_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (! [C] :  (! [D] :  ( (k5_relat_1(A, C)=k5_relat_1(B, C) & k5_relat_1(A, D)=k5_relat_1(B, D))  => k5_relat_1(A, k2_xboole_0(C, D))=k5_relat_1(B, k2_xboole_0(C, D))) ) ) ) ) ) ) ).

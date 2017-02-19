@@ -1,13 +1,13 @@
 C fof(t21_moebius1, axiom, v1_moebius1(k6_numbers)).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(t28_int_2, axiom, v1_int_2(2)).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(d1_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_moebius1(A) <=>  (? [B] :  ( (v7_ordinal1(B) & v1_int_2(B))  & r1_nat_d(k1_newton(B, 2), A)) ) ) ) ) ).
-+ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(t6_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (r1_nat_d(A, k6_numbers) & r1_nat_d(1, A)) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(d1_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_moebius1(A) <=>  (? [B] :  ( (v7_ordinal1(B) & v1_int_2(B))  & r1_nat_d(k1_newton(B, 2), A)) ) ) ) ) ).
 + fof(fc4_newton, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k1_newton(A, B))) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
++ fof(t28_int_2, axiom, v1_int_2(2)).
++ fof(t6_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (r1_nat_d(A, k6_numbers) & r1_nat_d(1, A)) ) ) ).
 - fof(t20_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( (? [B] :  ( ( ~ (v1_xboole_0(B))  & v7_ordinal1(B))  &  ( ~ (B=1)  & r1_nat_d(k1_newton(B, 2), A)) ) )  => v1_moebius1(A)) ) ) ).
 - fof(l5_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ ( ( ~ (A=1)  &  (! [B] :  ( (v7_ordinal1(B) & v1_int_2(B))  =>  ~ (r1_nat_d(B, A)) ) ) ) ) ) ) ).
 - fof(t4_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ( (r1_nat_d(A, B) & r1_nat_d(B, C))  => r1_nat_d(A, C)) ) ) ) ) ) ) ).

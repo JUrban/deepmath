@@ -1,6 +1,6 @@
 C fof(l2_modelc_3, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (r2_hidden(A, k2_xboole_0(k6_subset_1(B, C), k6_subset_1(D, E))) <=>  ( (r2_hidden(A, B) &  ~ (r2_hidden(A, C)) )  |  (r2_hidden(A, D) &  ~ (r2_hidden(A, E)) ) ) ) ) ) ) ) ) ).
-+ fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
 + fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
 + fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
 - fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
 - fof(l4_rlvect_5, axiom,  (! [A] :  (! [B] :  (r2_hidden(B, A) => k2_xboole_0(k6_subset_1(A, k1_tarski(B)), k1_tarski(B))=A) ) ) ).

@@ -1,12 +1,12 @@
 C fof(t3_quaterni, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (! [G] :  (! [H] :  (r2_zfmisc_1(A, B, C, D) =>  (k1_funct_1(k2_quaterni(A, B, C, D, E, F, G, H), A)=E &  (k1_funct_1(k2_quaterni(A, B, C, D, E, F, G, H), B)=F &  (k1_funct_1(k2_quaterni(A, B, C, D, E, F, G, H), C)=G & k1_funct_1(k2_quaterni(A, B, C, D, E, F, G, H), D)=H) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(d6_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_zfmisc_1(A, B, C, D) <=>  ( ~ (A=B)  &  ( ~ (A=C)  &  ( ~ (A=D)  &  ( ~ (B=C)  &  ( ~ (B=D)  &  ~ (C=D) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
 + fof(d3_quaterni, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (! [G] :  (! [H] : k2_quaterni(A, B, C, D, E, F, G, H)=k1_funct_4(k4_funct_4(A, B, E, F), k4_funct_4(C, D, G, H))) ) ) ) ) ) ) ) ).
-+ fof(t63_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ( ~ (A=B)  => k1_funct_1(k4_funct_4(A, B, C, D), A)=C)  & k1_funct_1(k4_funct_4(A, B, C, D), B)=D) ) ) ) ) ).
++ fof(d6_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_zfmisc_1(A, B, C, D) <=>  ( ~ (A=B)  &  ( ~ (A=C)  &  ( ~ (A=D)  &  ( ~ (B=C)  &  ( ~ (B=D)  &  ~ (C=D) ) ) ) ) ) ) ) ) ) ) ).
++ fof(fc1_funct_4, axiom,  (! [A, B, C, D] :  (v1_relat_1(k4_funct_4(A, B, C, D)) & v1_funct_1(k4_funct_4(A, B, C, D))) ) ).
 + fof(t11_funct_4, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  ( ~ (r2_hidden(A, k9_xtuple_0(B)))  => k1_funct_1(k1_funct_4(C, B), A)=k1_funct_1(C, A)) ) ) ) ) ) ).
 + fof(t13_funct_4, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (r2_hidden(A, k9_xtuple_0(B)) => k1_funct_1(k1_funct_4(C, B), A)=k1_funct_1(B, A)) ) ) ) ) ) ).
 + fof(t62_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k9_xtuple_0(k4_funct_4(A, B, C, D))=k2_tarski(A, B) & r1_tarski(k10_xtuple_0(k4_funct_4(A, B, C, D)), k2_tarski(C, D))) ) ) ) ) ).
-+ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
-+ fof(fc1_funct_4, axiom,  (! [A, B, C, D] :  (v1_relat_1(k4_funct_4(A, B, C, D)) & v1_funct_1(k4_funct_4(A, B, C, D))) ) ).
++ fof(t63_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ( ~ (A=B)  => k1_funct_1(k4_funct_4(A, B, C, D), A)=C)  & k1_funct_1(k4_funct_4(A, B, C, D), B)=D) ) ) ) ) ).
 - fof(fc2_quaterni, axiom,  (! [A, B, C, D, E, F, G, H] :  (v1_relat_1(k2_quaterni(A, B, C, D, E, F, G, H)) & v1_funct_1(k2_quaterni(A, B, C, D, E, F, G, H))) ) ).
 - fof(l6_quaterni, axiom, r2_zfmisc_1(k6_numbers, 1, 2, 3)).
 - fof(t1_quaterni, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (! [G] :  (! [H] : k9_xtuple_0(k2_quaterni(A, B, C, D, E, F, G, H))=k2_enumset1(A, B, C, D)) ) ) ) ) ) ) ) ).

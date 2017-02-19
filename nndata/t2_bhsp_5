@@ -1,8 +1,8 @@
 C fof(t2_bhsp_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) &  (v2_bhsp_1(A) & l1_bhsp_1(A)) ) ) ) ) ) ) ) ) )  => m1_bhsp_5(k1_xboole_0, A)) ) ).
-+ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
 + fof(d8_bhsp_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) &  (v2_bhsp_1(A) & l1_bhsp_1(A)) ) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (m1_bhsp_5(B, A) <=>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  ( (r2_hidden(C, B) & r2_hidden(D, B))  =>  (C=D | k2_bhsp_1(A, C, D)=k6_numbers) ) ) ) ) ) ) ) ) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
 + fof(t1_subset_1, axiom,  (! [A] : m1_subset_1(k1_xboole_0, k1_zfmisc_1(A))) ).
++ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
 - fof(dt_m1_bhsp_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) &  (v2_bhsp_1(A) & l1_bhsp_1(A)) ) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_bhsp_5(B, A) => m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A)))) ) ) ) ).
 - fof(existence_m1_bhsp_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) &  (v2_bhsp_1(A) & l1_bhsp_1(A)) ) ) ) ) ) ) ) ) )  =>  (? [B] : m1_bhsp_5(B, A)) ) ) ).
 - fof(dt_l1_bhsp_1, axiom,  (! [A] :  (l1_bhsp_1(A) => l1_rlvect_1(A)) ) ).

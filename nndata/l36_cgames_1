@@ -1,11 +1,11 @@
 C fof(l36_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  (? [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) &  ( ~ (v1_xboole_0(B))  &  (v1_finseq_1(B) &  (v3_cgames_1(B) & v4_cgames_1(B)) ) ) ) )  &  (k1_funct_1(B, 1)=A & k1_funct_1(B, k3_finseq_1(B))=A) ) ) ) ) ).
 + fof(fc16_finseq_1, axiom,  (! [A] :  ~ (v1_xboole_0(k5_finseq_1(A))) ) ).
-+ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
-+ fof(fc6_finseq_1, axiom,  (! [A] :  (v1_relat_1(k5_finseq_1(A)) & v1_funct_1(k5_finseq_1(A))) ) ).
-+ fof(t40_finseq_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (B=k9_finseq_1(A) <=>  (k3_finseq_1(B)=1 & k1_funct_1(B, 1)=A) ) ) ) ) ).
-+ fof(fc7_finseq_1, axiom,  (! [A] : v1_finseq_1(k5_finseq_1(A))) ).
 + fof(fc6_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) => v3_cgames_1(k5_finseq_1(A))) ) ).
++ fof(fc6_finseq_1, axiom,  (! [A] :  (v1_relat_1(k5_finseq_1(A)) & v1_funct_1(k5_finseq_1(A))) ) ).
++ fof(fc7_finseq_1, axiom,  (! [A] : v1_finseq_1(k5_finseq_1(A))) ).
 + fof(fc8_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) => v4_cgames_1(k5_finseq_1(A))) ) ).
++ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
++ fof(t40_finseq_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (B=k9_finseq_1(A) <=>  (k3_finseq_1(B)=1 & k1_funct_1(B, 1)=A) ) ) ) ) ).
 - fof(t21_cgames_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  ( ~ (v1_xboole_0(A))  &  (v1_finseq_1(A) &  (v3_cgames_1(A) & v4_cgames_1(A)) ) ) ) )  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k4_finseq_1(A)) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k4_finseq_1(A)) =>  ( ~ (r1_xxreal_0(C, B))  => r2_hidden(k9_cgames_1(k1_funct_1(A, B)), k9_cgames_1(k1_funct_1(A, C)))) ) ) ) ) ) ) ).
 - fof(t22_cgames_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  ( ~ (v1_xboole_0(A))  &  (v1_finseq_1(A) &  (v3_cgames_1(A) & v4_cgames_1(A)) ) ) ) )  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k4_finseq_1(A)) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k4_finseq_1(A)) =>  (r1_xxreal_0(B, C) => r1_ordinal1(k9_cgames_1(k1_funct_1(A, B)), k9_cgames_1(k1_funct_1(A, C)))) ) ) ) ) ) ) ).
 - fof(t23_cgames_1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) &  ( ~ (v1_xboole_0(B))  &  (v1_finseq_1(B) &  (v3_cgames_1(B) & v4_cgames_1(B)) ) ) ) )  =>  (r2_hidden(k1_funct_1(B, k3_finseq_1(B)), k2_cgames_1(A)) => r2_hidden(k1_funct_1(B, 1), k2_cgames_1(A))) ) ) ) ) ).

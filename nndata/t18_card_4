@@ -1,10 +1,10 @@
 C fof(t18_card_4, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  =>  (r2_wellord2(k2_zfmisc_1(A, A), A) & k1_card_1(k2_zfmisc_1(A, A))=k1_card_1(A)) ) ) ).
 + fof(d2_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) => k2_card_2(A, B)=k1_card_1(k2_zfmisc_1(A, B))) ) ) ) ).
-+ fof(t15_card_4, axiom,  (! [A] :  (v1_card_1(A) =>  ( ~ (v1_finset_1(A))  => k2_card_2(A, A)=A) ) ) ).
++ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
 + fof(fc8_card_1, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  =>  ( ~ (v1_finset_1(k1_card_1(A)))  & v1_card_1(k1_card_1(A))) ) ) ).
++ fof(t15_card_4, axiom,  (! [A] :  (v1_card_1(A) =>  ( ~ (v1_finset_1(A))  => k2_card_2(A, A)=A) ) ) ).
 + fof(t5_card_1, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, B) <=> k1_card_1(A)=k1_card_1(B)) ) ) ).
 + fof(t7_card_2, axiom,  (! [A] :  (! [B] :  (r2_wellord2(k2_zfmisc_1(A, B), k2_zfmisc_1(k1_card_1(A), B)) &  (r2_wellord2(k2_zfmisc_1(A, B), k2_zfmisc_1(A, k1_card_1(B))) &  (r2_wellord2(k2_zfmisc_1(A, B), k2_zfmisc_1(k1_card_1(A), k1_card_1(B))) &  (k1_card_1(k2_zfmisc_1(A, B))=k1_card_1(k2_zfmisc_1(k1_card_1(A), B)) &  (k1_card_1(k2_zfmisc_1(A, B))=k1_card_1(k2_zfmisc_1(A, k1_card_1(B))) & k1_card_1(k2_zfmisc_1(A, B))=k1_card_1(k2_zfmisc_1(k1_card_1(A), k1_card_1(B)))) ) ) ) ) ) ) ).
-+ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
 - fof(l5_card_2, axiom,  (! [A] :  (! [B] :  (r2_wellord2(k2_zfmisc_1(A, B), k2_zfmisc_1(B, A)) & k1_card_1(k2_zfmisc_1(A, B))=k1_card_1(k2_zfmisc_1(B, A))) ) ) ).
 - fof(t69_card_1, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, k2_zfmisc_1(A, k1_tarski(B))) & k1_card_1(A)=k1_card_1(k2_zfmisc_1(A, k1_tarski(B)))) ) ) ).
 - fof(l12_card_2, axiom,  (! [A] :  (! [B] : r2_wellord2(k2_zfmisc_1(A, B), k2_zfmisc_1(k1_card_1(A), B))) ) ).

@@ -1,20 +1,20 @@
 C fof(t182_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  ~ ( (k3_xcmplx_0(A, A)=1 &  ( ~ (A=1)  &  ~ (A=k4_xcmplx_0(1)) ) ) ) ) ) ).
-+ fof(spc5_arithm, axiom,  (! [A, B, C] :  ( (v1_xcmplx_0(A) &  (v1_xcmplx_0(B) & v1_xcmplx_0(C)) )  => k3_xcmplx_0(k2_xcmplx_0(A, B), C)=k2_xcmplx_0(k3_xcmplx_0(A, C), k3_xcmplx_0(B, C))) ) ).
-+ fof(fc2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => v1_xcmplx_0(k2_xcmplx_0(A, B))) ) ).
-+ fof(dt_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k4_xcmplx_0(A))) ) ).
-+ fof(l136_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k4_xcmplx_0(k7_xcmplx_0(A, B))=k7_xcmplx_0(k4_xcmplx_0(A), B)) ) ) ) ).
-+ fof(fc3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => v1_xcmplx_0(k3_xcmplx_0(A, B))) ) ).
++ fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
++ fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
 + fof(d6_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (B=k4_xcmplx_0(A) <=> k2_xcmplx_0(A, B)=k6_numbers) ) ) ) ) ).
++ fof(dt_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k4_xcmplx_0(A))) ) ).
++ fof(fc2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => v1_xcmplx_0(k2_xcmplx_0(A, B))) ) ).
++ fof(fc3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => v1_xcmplx_0(k3_xcmplx_0(A, B))) ) ).
++ fof(fc5_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => v1_xcmplx_0(k7_xcmplx_0(A, B))) ) ).
++ fof(involutiveness_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => k4_xcmplx_0(k4_xcmplx_0(A))=A) ) ).
++ fof(l136_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k4_xcmplx_0(k7_xcmplx_0(A, B))=k7_xcmplx_0(k4_xcmplx_0(A), B)) ) ) ) ).
++ fof(l13_xreal_0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=k6_numbers).
 + fof(l96_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k3_xcmplx_0(A, k7_xcmplx_0(1, B))=k7_xcmplx_0(A, B)) ) ) ) ).
 + fof(rqRealDiv__k7_xcmplx_0__r1_r1_r1, axiom, k7_xcmplx_0(1, 1)=1).
-+ fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
-+ fof(fc5_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => v1_xcmplx_0(k7_xcmplx_0(A, B))) ) ).
 + fof(spc2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k4_xcmplx_0(1))=k4_xcmplx_0(A)) ) ).
-+ fof(involutiveness_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => k4_xcmplx_0(k4_xcmplx_0(A))=A) ) ).
-+ fof(t73_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (k3_xcmplx_0(A, B)=1 => A=k7_xcmplx_0(1, B)) ) ) ) ) ).
-+ fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
++ fof(spc5_arithm, axiom,  (! [A, B, C] :  ( (v1_xcmplx_0(A) &  (v1_xcmplx_0(B) & v1_xcmplx_0(C)) )  => k3_xcmplx_0(k2_xcmplx_0(A, B), C)=k2_xcmplx_0(k3_xcmplx_0(A, C), k3_xcmplx_0(B, C))) ) ).
 + fof(t3_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(1, A)=A) ) ).
-+ fof(l13_xreal_0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=k6_numbers).
++ fof(t73_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (k3_xcmplx_0(A, B)=1 => A=k7_xcmplx_0(1, B)) ) ) ) ) ).
 + fof(t7_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (k3_xcmplx_0(B, A)=A =>  (A=k6_numbers | B=1) ) ) ) ) ) ).
 - fof(l29_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  ( ~ (A=k6_numbers)  => k7_xcmplx_0(A, A)=1) ) ) ).
 - fof(d7_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  ( ( ~ (A=k6_numbers)  =>  (B=k5_xcmplx_0(A) <=> k3_xcmplx_0(A, B)=1) )  &  (A=k6_numbers =>  (B=k5_xcmplx_0(A) <=> B=k6_numbers) ) ) ) ) ) ) ).

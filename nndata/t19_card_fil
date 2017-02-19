@@ -1,17 +1,17 @@
 C fof(t19_card_fil, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (r2_hidden(B, k5_card_fil(A)) <=> r2_hidden(k1_card_1(B), k1_card_1(A))) ) ) ) ) ).
-+ fof(involutiveness_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, k3_subset_1(A, B))=B) ) ).
++ fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
++ fof(d11_card_fil, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  => k5_card_fil(A)=k1_card_fil(A, k4_card_fil(A))) ) ).
 + fof(d4_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, B)=k4_xboole_0(A, B)) ) ) ).
-+ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(d7_setfam_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (C=k7_setfam_1(A, B) <=>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) =>  (r2_hidden(D, C) <=> r2_hidden(k3_subset_1(A, D), B)) ) ) ) ) ) ) ) ) ).
 + fof(dt_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_subset_1(k3_subset_1(A, B), k1_zfmisc_1(A))) ) ).
 + fof(dt_k4_card_fil, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  => m1_card_fil(k4_card_fil(A), A)) ) ).
-+ fof(dt_m1_card_fil, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_card_fil(B, A) =>  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ) ) ).
 + fof(dt_k7_setfam_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => m1_subset_1(k7_setfam_1(A, B), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ).
-+ fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(dt_m1_card_fil, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_card_fil(B, A) =>  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ) ) ).
++ fof(involutiveness_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, k3_subset_1(A, B))=B) ) ).
 + fof(redefinition_k1_card_fil, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_card_fil(B, A))  => k1_card_fil(A, B)=k7_setfam_1(A, B)) ) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
 + fof(t18_card_fil, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (r2_hidden(B, k4_card_fil(A)) <=> r2_hidden(k1_card_1(k6_subset_1(A, B)), k1_card_1(A))) ) ) ) ) ).
-+ fof(d11_card_fil, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  => k5_card_fil(A)=k1_card_fil(A, k4_card_fil(A))) ) ).
-+ fof(d7_setfam_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (C=k7_setfam_1(A, B) <=>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) =>  (r2_hidden(D, C) <=> r2_hidden(k3_subset_1(A, D), B)) ) ) ) ) ) ) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 - fof(dt_k5_card_fil, axiom,  (! [A] :  ( ~ (v1_finset_1(A))  => m2_card_fil(k5_card_fil(A), A)) ) ).
 - fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
 - fof(s1_card_fil__e3_31_1__card_fil, axiom,  (! [A, B] :  ( ( ~ (v1_finset_1(A))  & m1_subset_1(B, k1_zfmisc_1(A)))  =>  (r2_hidden(B, a_1_1_card_fil(A)) => r2_hidden(k1_card_1(k6_subset_1(A, B)), k1_card_1(A))) ) ) ).

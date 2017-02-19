@@ -1,15 +1,15 @@
 C fof(t96_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m2_subset_1(B, k1_zfmisc_1(k1_euclid(A)), k1_euclidlp(A)) =>  (! [C] :  (m2_subset_1(C, k1_zfmisc_1(k1_euclid(A)), k1_euclidlp(A)) =>  (r7_euclidlp(A, B, C) <=>  (? [D] :  (m2_subset_1(D, k1_zfmisc_1(k1_euclid(A)), k5_euclidlp(A)) &  (r1_tarski(B, D) & r1_tarski(C, D)) ) ) ) ) ) ) ) ) ) ).
-+ fof(d11_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k5_euclidlp(A)=a_1_1_euclidlp(A)) ) ).
-+ fof(fc3_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  ~ (v1_xboole_0(k5_euclidlp(A))) ) ) ).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(d11_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k5_euclidlp(A)=a_1_1_euclidlp(A)) ) ).
 + fof(d12_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m2_subset_1(B, k1_zfmisc_1(k1_euclid(A)), k1_euclidlp(A)) =>  (! [C] :  (m2_subset_1(C, k1_zfmisc_1(k1_euclid(A)), k1_euclidlp(A)) =>  (r7_euclidlp(A, B, C) <=>  (? [D] :  (m2_finseq_2(D, k1_numbers, k1_euclid(A)) &  (? [E] :  (m2_finseq_2(E, k1_numbers, k1_euclid(A)) &  (? [F] :  (m2_finseq_2(F, k1_numbers, k1_euclid(A)) &  (r1_tarski(B, k4_euclidlp(A, D, E, F)) & r1_tarski(C, k4_euclidlp(A, D, E, F))) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(dt_k5_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => m1_subset_1(k5_euclidlp(A), k1_zfmisc_1(k1_zfmisc_1(k1_euclid(A))))) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(fc3_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  ~ (v1_xboole_0(k5_euclidlp(A))) ) ) ).
 + fof(fraenkel_a_1_1_euclidlp, axiom,  (! [A, B] :  (m1_subset_1(B, k5_numbers) =>  (r2_hidden(A, a_1_1_euclidlp(B)) <=>  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_euclid(B))) &  (A=C &  (? [D] :  (m2_finseq_2(D, k1_numbers, k1_euclid(B)) &  (? [E] :  (m2_finseq_2(E, k1_numbers, k1_euclid(B)) &  (? [F] :  (m2_finseq_2(F, k1_numbers, k1_euclid(B)) & C=k4_euclidlp(B, D, E, F)) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 + fof(t90_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k1_numbers, k1_euclid(A)) =>  (! [C] :  (m2_finseq_2(C, k1_numbers, k1_euclid(A)) =>  (! [D] :  (m2_finseq_2(D, k1_numbers, k1_euclid(A)) => r2_hidden(k4_euclidlp(A, B, C, D), k5_euclidlp(A))) ) ) ) ) ) ) ) ).
 - fof(t91_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k1_numbers, k1_euclid(A)) =>  (! [C] :  (m2_finseq_2(C, k1_numbers, k1_euclid(A)) =>  (! [D] :  (m2_finseq_2(D, k1_numbers, k1_euclid(A)) =>  (! [E] :  (m2_subset_1(E, k1_zfmisc_1(k1_euclid(A)), k5_euclidlp(A)) =>  ( (r2_hidden(B, E) &  (r2_hidden(C, E) & r2_hidden(D, E)) )  => r1_tarski(k4_euclidlp(A, B, C, D), E)) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t92_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m2_finseq_2(B, k1_numbers, k1_euclid(A)) =>  (! [C] :  (m2_finseq_2(C, k1_numbers, k1_euclid(A)) =>  (! [D] :  (m2_finseq_2(D, k1_numbers, k1_euclid(A)) =>  (! [E] :  (m2_subset_1(E, k1_zfmisc_1(k1_euclid(A)), k5_euclidlp(A)) =>  ( (r2_hidden(B, E) &  (r2_hidden(C, E) &  (r2_hidden(D, E) & r3_euclidlp(A, k8_euclid(A, C, B), k8_euclid(A, D, B))) ) )  => E=k4_euclidlp(A, B, C, D)) ) ) ) ) ) ) ) ) ) ) ).

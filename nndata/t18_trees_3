@@ -1,5 +1,5 @@
 C fof(t18_trees_3, axiom,  (! [A] :  (! [B] :  ( (v1_trees_3(A) & r1_tarski(B, A))  => v1_trees_3(B)) ) ) ).
-+ fof(t3_trees_3, axiom,  (! [A] :  (! [B] :  ( (v1_trees_3(A) & v1_trees_3(B))  <=> v1_trees_3(k2_xboole_0(A, B))) ) ) ).
 + fof(t12_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => k2_xboole_0(A, B)=B) ) ) ).
++ fof(t3_trees_3, axiom,  (! [A] :  (! [B] :  ( (v1_trees_3(A) & v1_trees_3(B))  <=> v1_trees_3(k2_xboole_0(A, B))) ) ) ).
 - fof(d3_trees_3, axiom,  (! [A] :  (v1_trees_3(A) <=>  (! [B] :  (r2_hidden(B, A) =>  ( ~ (v1_xboole_0(B))  & v1_trees_1(B)) ) ) ) ) ).
 - fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).

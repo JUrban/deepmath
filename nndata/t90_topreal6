@@ -1,16 +1,16 @@
 C fof(t90_topreal6, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) =>  ~ ( ( ~ (v9_rltopsp1(B, k15_euclid(A)))  &  (v9_rltopsp1(C, k15_euclid(A)) & v9_rltopsp1(k7_subset_1(u1_struct_0(k15_euclid(A)), B, C), k15_euclid(A))) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => m1_subset_1(k9_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
 + fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
++ fof(dt_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_subset_1(k7_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
++ fof(dt_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => m1_subset_1(k9_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
++ fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
++ fof(redefinition_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k7_subset_1(A, B, C)=k4_xboole_0(B, C)) ) ).
++ fof(redefinition_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k9_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t37_xboole_1, axiom,  (! [A] :  (! [B] :  (k4_xboole_0(A, B)=k1_xboole_0 <=> r1_tarski(A, B)) ) ) ).
 + fof(t3_boole, axiom,  (! [A] : k4_xboole_0(A, k1_xboole_0)=A) ).
 + fof(t52_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k4_xboole_0(A, k4_xboole_0(B, C))=k2_xboole_0(k4_xboole_0(A, B), k3_xboole_0(A, C))) ) ) ).
-+ fof(redefinition_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k7_subset_1(A, B, C)=k4_xboole_0(B, C)) ) ).
-+ fof(dt_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_subset_1(k7_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
-+ fof(t37_xboole_1, axiom,  (! [A] :  (! [B] :  (k4_xboole_0(A, B)=k1_xboole_0 <=> r1_tarski(A, B)) ) ) ).
 + fof(t67_topreal6, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) =>  ( (v9_rltopsp1(B, k15_euclid(A)) & v9_rltopsp1(C, k15_euclid(A)))  => v9_rltopsp1(k4_subset_1(u1_struct_0(k15_euclid(A)), B, C), k15_euclid(A))) ) ) ) ) ) ) ).
-+ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
-+ fof(redefinition_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k9_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
 + fof(t89_topreal6, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) =>  ( (v9_rltopsp1(B, k15_euclid(A)) | v9_rltopsp1(C, k15_euclid(A)))  => v9_rltopsp1(k9_subset_1(u1_struct_0(k15_euclid(A)), B, C), k15_euclid(A))) ) ) ) ) ) ) ).
-+ fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
 - fof(t12_jordan2c, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) =>  ( (v9_rltopsp1(C, k15_euclid(A)) & r1_tarski(B, C))  => v9_rltopsp1(B, k15_euclid(A))) ) ) ) ) ) ) ).
 - fof(t11_jordan2c, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) =>  (v9_rltopsp1(B, k15_euclid(A)) <=>  (v6_tbsp_1(B, k14_euclid(A)) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k14_euclid(A))))) ) ) ) ) ) ).
 - fof(t68_jordan2c, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) =>  ( (r1_xxreal_0(2, A) & v9_rltopsp1(B, k15_euclid(A)))  => r2_jordan2c(A, B, k2_jordan2c(A, B))) ) ) ) ) ).

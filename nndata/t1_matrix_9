@@ -1,8 +1,8 @@
 C fof(t1_matrix_9, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => r2_hidden(k1_tarski(A), k5_finsub_1(B))) ) ) ).
-+ fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
-+ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
 + fof(d5_finsub_1, axiom,  (! [A] :  (! [B] :  (v4_finsub_1(B) =>  (B=k5_finsub_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (r1_tarski(C, A) & v1_finset_1(C)) ) ) ) ) ) ) ).
 + fof(dt_k5_finsub_1, axiom,  (! [A] : v4_finsub_1(k5_finsub_1(A))) ).
++ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
++ fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
 - fof(t1_yellow_8, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(B, k5_finsub_1(A)) & r1_tarski(C, B))  => r2_hidden(C, k5_finsub_1(A))) ) ) ) ).
 - fof(t2_yellow_8, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (r1_tarski(B, k5_finsub_1(A)) => r2_hidden(k6_setfam_1(A, B), k5_finsub_1(A))) ) ) ) ).
 - fof(s2_funct_2__e12_39__matrix_7, axiom,  (! [A, B, C] :  ( (m1_subset_1(A, k5_numbers) &  ( ( ~ (v2_struct_0(B))  &  ( ~ (v6_struct_0(B))  &  (v13_algstr_0(B) &  (v33_algstr_0(B) &  (v3_group_1(B) &  (v5_group_1(B) &  (v2_rlvect_1(B) &  (v3_rlvect_1(B) &  (v4_rlvect_1(B) &  (v4_vectsp_1(B) &  (v5_vectsp_1(B) & l6_algstr_0(B)) ) ) ) ) ) ) ) ) ) )  &  (v1_funct_1(C) &  (v1_funct_2(C, k5_finsub_1(k12_matrix_2(A)), u1_struct_0(B)) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_finsub_1(k12_matrix_2(A)), u1_struct_0(B))))) ) ) )  =>  ( (! [D] :  (r2_hidden(D, k5_finsub_1(k12_matrix_2(A))) => r2_hidden(k1_funct_1(C, a_2_0_matrix_7(A, D)), u1_struct_0(B))) )  =>  (? [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, k5_finsub_1(k12_matrix_2(A)), u1_struct_0(B)) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k5_finsub_1(k12_matrix_2(A)), u1_struct_0(B))))) )  &  (! [E] :  (r2_hidden(E, k5_finsub_1(k12_matrix_2(A))) => k1_funct_1(D, E)=k1_funct_1(C, a_2_0_matrix_7(A, E))) ) ) ) ) ) ) ).

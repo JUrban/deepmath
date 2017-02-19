@@ -1,9 +1,9 @@
 C fof(t1_arytm_3, axiom,  ~ (r1_arytm_3(k1_xboole_0, k1_xboole_0)) ).
 + fof(cc3_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v3_ordinal1(A)) ) ).
 + fof(d2_arytm_3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r1_arytm_3(A, B) <=>  (! [C] :  (v3_ordinal1(C) =>  (! [D] :  (v3_ordinal1(D) =>  (! [E] :  (v3_ordinal1(E) =>  ( (A=k11_ordinal2(C, D) & B=k11_ordinal2(C, E))  => C=1) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t35_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) => k11_ordinal2(k1_xboole_0, A)=k1_xboole_0) ) ).
-+ fof(spc1_boole, axiom,  ~ (v1_xboole_0(1)) ).
 + fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(spc1_boole, axiom,  ~ (v1_xboole_0(1)) ).
++ fof(t35_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) => k11_ordinal2(k1_xboole_0, A)=k1_xboole_0) ) ).
 - fof(symmetry_r1_arytm_3, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_arytm_3(A, B) => r1_arytm_3(B, A)) ) ) ).
 - fof(d23_gate_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  ( ( ~ ( (v1_xboole_0(A) &  (v1_xboole_0(B) &  (v1_xboole_0(C) &  (v1_xboole_0(D) &  (v1_xboole_0(E) & v1_xboole_0(F)) ) ) ) ) )  => k23_gate_1(A, B, C, D, E, F)=k1_gate_1(k1_xboole_0))  &  ~ ( (v1_xboole_0(A) &  (v1_xboole_0(B) &  (v1_xboole_0(C) &  (v1_xboole_0(D) &  (v1_xboole_0(E) &  (v1_xboole_0(F) &  ~ (k23_gate_1(A, B, C, D, E, F)=k1_xboole_0) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(s2_funct_1__e8_19_1__card_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  ( ( (! [C] :  (! [D] :  (! [E] :  ( (r2_hidden(C, A) &  ( ( (r2_hidden(C, k10_xtuple_0(B)) & D=k1_funct_1(k2_funct_1(B), C))  |  ( ~ (r2_hidden(C, k10_xtuple_0(B)))  & D=k1_xboole_0) )  &  ( (r2_hidden(C, k10_xtuple_0(B)) & E=k1_funct_1(k2_funct_1(B), C))  |  ( ~ (r2_hidden(C, k10_xtuple_0(B)))  & E=k1_xboole_0) ) ) )  => D=E) ) ) )  &  (! [C] :  ~ ( (r2_hidden(C, A) &  (! [D] :  ~ ( ( (r2_hidden(C, k10_xtuple_0(B)) & D=k1_funct_1(k2_funct_1(B), C))  |  ( ~ (r2_hidden(C, k10_xtuple_0(B)))  & D=k1_xboole_0) ) ) ) ) ) ) )  =>  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  &  (k9_xtuple_0(C)=A &  (! [D] :  (r2_hidden(D, A) =>  ( (r2_hidden(D, k10_xtuple_0(B)) & k1_funct_1(C, D)=k1_funct_1(k2_funct_1(B), D))  |  ( ~ (r2_hidden(D, k10_xtuple_0(B)))  & k1_funct_1(C, D)=k1_xboole_0) ) ) ) ) ) ) ) ) ) ).

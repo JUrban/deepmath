@@ -1,10 +1,10 @@
 C fof(t1_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (A=B => k3_extreal1(A)=k18_complex1(B)) ) ) ) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
 + fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
 + fof(d1_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( (r1_xxreal_0(k6_numbers, A) => k16_complex1(A)=A)  &  ( ~ (r1_xxreal_0(k6_numbers, A))  => k16_complex1(A)=k4_xcmplx_0(A)) ) ) ) ).
-+ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
 + fof(d1_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  ( (r1_xxreal_0(k6_numbers, A) => k3_extreal1(A)=A)  &  ( ~ (r1_xxreal_0(k6_numbers, A))  => k3_extreal1(A)=k2_supinf_2(A)) ) ) ) ).
-+ fof(redefinition_k18_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k18_complex1(A)=k16_complex1(A)) ) ).
 + fof(ie2_xxreal_3, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xcmplx_0(B))  =>  (A=B => k2_xxreal_3(A)=k4_xcmplx_0(B)) ) ) ).
++ fof(redefinition_k18_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k18_complex1(A)=k16_complex1(A)) ) ).
 + fof(redefinition_k2_supinf_2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => k2_supinf_2(A)=k2_xxreal_3(A)) ) ).
 - fof(t3_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (r1_xxreal_0(k6_numbers, A) => k3_extreal1(A)=A) ) ) ).
 - fof(t4_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  ( ~ (r1_xxreal_0(k6_numbers, A))  => k3_extreal1(A)=k2_supinf_2(A)) ) ) ).

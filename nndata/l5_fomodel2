@@ -1,18 +1,18 @@
 C fof(l5_fomodel2, axiom,  (! [A] :  ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m3_fomodel2(C, A, B) => r1_tarski(k37_fomodel1(A), k9_xtuple_0(C))) ) ) ) ) ) ).
-+ fof(redefinition_m2_fomodel2, axiom,  (! [A, B, C] :  ( ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  &  ( ~ (v1_xboole_0(B))  &  (v10_fomodel1(C, A) & m1_subset_1(C, k1_fomodel1(A))) ) )  =>  (! [D] :  (m2_fomodel2(D, A, B, C) <=> m1_fomodel2(D, A, B, C)) ) ) ) ).
-+ fof(d2_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k9_xtuple_0(A)) =>  (C=k1_funct_1(A, B) <=> r2_hidden(k4_tarski(B, C), A)) )  &  ( ~ (r2_hidden(B, k9_xtuple_0(A)))  =>  (C=k1_funct_1(A, B) <=> C=k1_xboole_0) ) ) ) ) ) ) ).
-+ fof(d1_fomodel1, axiom,  (! [A] :  (l1_fomodel1(A) => k1_fomodel1(A)=u1_struct_0(A)) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 + fof(cc2_fomodel1, axiom,  (! [A] :  ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_fomodel1(A)) =>  (v9_fomodel1(B, A) => v10_fomodel1(B, A)) ) ) ) ) ).
-+ fof(redefinition_k37_fomodel1, axiom,  (! [A] :  ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  => k37_fomodel1(A)=k9_fomodel1(A)) ) ).
-+ fof(d19_fomodel1, axiom,  (! [A] :  (l1_fomodel1(A) =>  (! [B] :  (m1_subset_1(B, k1_fomodel1(A)) =>  (v9_fomodel1(B, A) <=> r2_hidden(B, k9_fomodel1(A))) ) ) ) ) ).
-+ fof(d3_fomodel2, axiom,  (! [A] :  ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (m3_fomodel2(C, A, B) <=>  (! [D] :  ( (v9_fomodel1(D, A) & m1_subset_1(D, k1_fomodel1(A)))  => m2_fomodel2(k1_funct_1(C, D), A, B, D)) ) ) ) ) ) ) ) ) ).
-+ fof(dt_m3_fomodel2, axiom,  (! [A, B] :  ( ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  &  ~ (v1_xboole_0(B)) )  =>  (! [C] :  (m3_fomodel2(C, A, B) =>  (v1_relat_1(C) & v1_funct_1(C)) ) ) ) ) ).
-+ fof(dt_k6_subset_1, axiom,  (! [A, B] : m1_subset_1(k6_subset_1(A, B), k1_zfmisc_1(A))) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
 + fof(cc4_fomodel2, axiom,  (! [A, B, C] :  ( ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  &  ( ~ (v1_xboole_0(B))  &  (v9_fomodel1(C, A) & m1_subset_1(C, k1_fomodel1(A))) ) )  =>  (! [D] :  (m1_fomodel2(D, A, B, C) =>  ~ (v1_xboole_0(D)) ) ) ) ) ).
++ fof(d19_fomodel1, axiom,  (! [A] :  (l1_fomodel1(A) =>  (! [B] :  (m1_subset_1(B, k1_fomodel1(A)) =>  (v9_fomodel1(B, A) <=> r2_hidden(B, k9_fomodel1(A))) ) ) ) ) ).
++ fof(d1_fomodel1, axiom,  (! [A] :  (l1_fomodel1(A) => k1_fomodel1(A)=u1_struct_0(A)) ) ).
++ fof(d2_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k9_xtuple_0(A)) =>  (C=k1_funct_1(A, B) <=> r2_hidden(k4_tarski(B, C), A)) )  &  ( ~ (r2_hidden(B, k9_xtuple_0(A)))  =>  (C=k1_funct_1(A, B) <=> C=k1_xboole_0) ) ) ) ) ) ) ).
++ fof(d3_fomodel2, axiom,  (! [A] :  ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (m3_fomodel2(C, A, B) <=>  (! [D] :  ( (v9_fomodel1(D, A) & m1_subset_1(D, k1_fomodel1(A)))  => m2_fomodel2(k1_funct_1(C, D), A, B, D)) ) ) ) ) ) ) ) ) ).
 + fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 + fof(d9_fomodel1, axiom,  (! [A] :  (l1_fomodel1(A) => k9_fomodel1(A)=k6_subset_1(u1_struct_0(A), k2_tarski(u2_struct_0(A), u3_struct_0(A)))) ) ).
++ fof(dt_k6_subset_1, axiom,  (! [A, B] : m1_subset_1(k6_subset_1(A, B), k1_zfmisc_1(A))) ).
++ fof(dt_m3_fomodel2, axiom,  (! [A, B] :  ( ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  &  ~ (v1_xboole_0(B)) )  =>  (! [C] :  (m3_fomodel2(C, A, B) =>  (v1_relat_1(C) & v1_funct_1(C)) ) ) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(redefinition_k37_fomodel1, axiom,  (! [A] :  ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  => k37_fomodel1(A)=k9_fomodel1(A)) ) ).
++ fof(redefinition_m2_fomodel2, axiom,  (! [A, B, C] :  ( ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  &  ( ~ (v1_xboole_0(B))  &  (v10_fomodel1(C, A) & m1_subset_1(C, k1_fomodel1(A))) ) )  =>  (! [D] :  (m2_fomodel2(D, A, B, C) <=> m1_fomodel2(D, A, B, C)) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 + fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 - fof(existence_m3_fomodel2, axiom,  (! [A, B] :  ( ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  &  ~ (v1_xboole_0(B)) )  =>  (? [C] : m3_fomodel2(C, A, B)) ) ) ).
 - fof(d4_fomodel2, axiom,  (! [A] :  ( ( ~ (v6_struct_0(A))  &  (v11_fomodel1(A) & l1_fomodel1(A)) )  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (v1_fomodel2(C, A, B) <=>  (m3_fomodel2(C, A, B) & v1_funcop_1(C)) ) ) ) ) ) ) ) ).

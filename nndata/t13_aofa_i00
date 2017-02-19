@@ -1,10 +1,10 @@
 C fof(t13_aofa_i00, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) => k3_power(k3_power(A, B), C)=k3_power(A, k3_xcmplx_0(B, C))) ) ) ) ) ) ).
 + fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
-+ fof(t45_prepower, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) => k4_prepower(k4_prepower(A, B), C)=k4_prepower(A, k3_xcmplx_0(B, C))) ) ) ) ) ) ).
-+ fof(d2_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( ( ~ (r1_xxreal_0(A, k6_numbers))  =>  (C=k3_power(A, B) <=> C=k9_prepower(A, B)) )  &  ( (A=k6_numbers =>  (r1_xxreal_0(B, k6_numbers) |  (C=k3_power(A, B) <=> C=k6_numbers) ) )  &  (v1_int_1(B) =>  (C=k3_power(A, B) <=>  (? [D] :  (v1_int_1(D) &  (D=B & C=k4_prepower(A, D)) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(fc2_prepower, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_int_1(B))  => v1_xreal_0(k4_prepower(A, B))) ) ).
-+ fof(fc2_int_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => v1_int_1(k3_xcmplx_0(A, B))) ) ).
 + fof(cc3_int_1, axiom,  (! [A] :  (v1_int_1(A) => v1_xreal_0(A)) ) ).
++ fof(d2_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( ( ~ (r1_xxreal_0(A, k6_numbers))  =>  (C=k3_power(A, B) <=> C=k9_prepower(A, B)) )  &  ( (A=k6_numbers =>  (r1_xxreal_0(B, k6_numbers) |  (C=k3_power(A, B) <=> C=k6_numbers) ) )  &  (v1_int_1(B) =>  (C=k3_power(A, B) <=>  (? [D] :  (v1_int_1(D) &  (D=B & C=k4_prepower(A, D)) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(fc2_int_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => v1_int_1(k3_xcmplx_0(A, B))) ) ).
++ fof(fc2_prepower, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_int_1(B))  => v1_xreal_0(k4_prepower(A, B))) ) ).
++ fof(t45_prepower, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) => k4_prepower(k4_prepower(A, B), C)=k4_prepower(A, k3_xcmplx_0(B, C))) ) ) ) ) ) ).
 - fof(t6_fib_num2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v1_xreal_0(B))  =>  (! [C] :  ( (v1_int_1(C) &  ~ (v1_abian(C)) )  => k3_power(k3_power(B, C), A)=k3_power(B, k3_xcmplx_0(C, A))) ) ) ) ) ) ).
 - fof(t33_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( ~ (r1_xxreal_0(A, k6_numbers))  => k3_power(k3_power(A, B), C)=k3_power(A, k3_xcmplx_0(B, C))) ) ) ) ) ) ) ).
 - fof(t35_fib_num2, axiom,  (! [A] :  (v7_ordinal1(A) => k3_power(k4_xcmplx_0(k1_fib_num), k3_xcmplx_0(k4_xcmplx_0(1), A))=k3_power(k3_power(k4_xcmplx_0(k1_fib_num), k4_xcmplx_0(1)), A)) ) ).

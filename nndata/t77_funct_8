@@ -1,10 +1,10 @@
 C fof(t77_funct_8, axiom,  (! [A] :  ( (v1_funct_8(A) & m1_subset_1(A, k1_zfmisc_1(k1_numbers)))  => r2_funct_8(A, k1_numbers, k1_numbers, k32_valued_1(k1_numbers, k1_numbers, k16_sin_cos))) ) ).
-+ fof(t65_funct_8, axiom,  (! [A] :  ( (v1_funct_8(A) & m1_subset_1(A, k1_zfmisc_1(k1_numbers)))  => r2_funct_8(A, k1_numbers, k1_numbers, k16_sin_cos)) ) ).
-+ fof(t16_funct_8, axiom,  (! [A] :  ( (v1_funct_8(A) & m1_subset_1(A, k1_zfmisc_1(k2_numbers)))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  =>  (r2_funct_8(A, k1_numbers, k1_numbers, B) => r2_funct_8(A, k1_numbers, k1_numbers, k32_valued_1(k1_numbers, k1_numbers, B))) ) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
-+ fof(t11_numbers, axiom, r1_tarski(k1_numbers, k2_numbers)).
 + fof(dt_k16_sin_cos, axiom,  (v1_funct_1(k16_sin_cos) &  (v1_funct_2(k16_sin_cos, k1_numbers, k1_numbers) & m1_subset_1(k16_sin_cos, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ) ).
++ fof(t11_numbers, axiom, r1_tarski(k1_numbers, k2_numbers)).
++ fof(t16_funct_8, axiom,  (! [A] :  ( (v1_funct_8(A) & m1_subset_1(A, k1_zfmisc_1(k2_numbers)))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  =>  (r2_funct_8(A, k1_numbers, k1_numbers, B) => r2_funct_8(A, k1_numbers, k1_numbers, k32_valued_1(k1_numbers, k1_numbers, B))) ) ) ) ) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t65_funct_8, axiom,  (! [A] :  ( (v1_funct_8(A) & m1_subset_1(A, k1_zfmisc_1(k1_numbers)))  => r2_funct_8(A, k1_numbers, k1_numbers, k16_sin_cos)) ) ).
 - fof(t14_funct_8, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  ( (v1_funct_8(B) & m1_subset_1(B, k1_zfmisc_1(k2_numbers)))  =>  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  =>  (r2_funct_8(B, k1_numbers, k1_numbers, C) => r2_funct_8(B, k1_numbers, k1_numbers, k26_valued_1(k1_numbers, k1_numbers, C, A))) ) ) ) ) ) ) ).
 - fof(t18_funct_8, axiom,  (! [A] :  ( (v1_funct_8(A) & m1_subset_1(A, k1_zfmisc_1(k2_numbers)))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  =>  (r2_funct_8(A, k1_numbers, k1_numbers, B) => r2_funct_8(A, k1_numbers, k1_numbers, k37_valued_1(k1_numbers, k1_numbers, B))) ) ) ) ) ).
 - fof(fc3_membered, axiom, v3_membered(k1_numbers)).

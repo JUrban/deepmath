@@ -1,18 +1,18 @@
 C fof(l24_graph_2, axiom,  ( ~ (r1_xxreal_0(k3_finseq_1(k2_finseq_4(k5_numbers, 1, 2)), 1))  &  ( ~ (1=2)  & k10_xtuple_0(k2_finseq_4(k5_numbers, 1, 2))=k2_tarski(1, 2)) ) ).
++ fof(d9_finseq_1, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B))) ) ).
++ fof(fc10_finseq_1, axiom,  (! [A, B] : v1_finseq_1(k10_finseq_1(A, B))) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
++ fof(l13_finseq_2, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k10_finseq_1(A, B))=k2_tarski(A, B)) ) ).
++ fof(redefinition_k2_finseq_4, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k2_finseq_4(A, B, C)=k10_finseq_1(B, C)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r2_r1, axiom,  ~ (r1_xxreal_0(2, 1)) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t126_funct_7, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k11_funct_7(A, B))=k2_tarski(A, B)) ) ).
 + fof(t2_finseq_1, axiom,  (k2_finseq_1(1)=k1_tarski(1) & k2_finseq_1(2)=k2_tarski(1, 2)) ).
 + fof(t44_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  =>  (C=k10_finseq_1(A, B) <=>  (k3_finseq_1(C)=2 &  (k1_funct_1(C, 1)=A & k1_funct_1(C, 2)=B) ) ) ) ) ) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
-+ fof(d9_finseq_1, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B))) ) ).
-+ fof(t126_funct_7, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k11_funct_7(A, B))=k2_tarski(A, B)) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
-+ fof(redefinition_k2_finseq_4, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k2_finseq_4(A, B, C)=k10_finseq_1(B, C)) ) ).
-+ fof(l13_finseq_2, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k10_finseq_1(A, B))=k2_tarski(A, B)) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r2_r1, axiom,  ~ (r1_xxreal_0(2, 1)) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(fc10_finseq_1, axiom,  (! [A, B] : v1_finseq_1(k10_finseq_1(A, B))) ).
 - fof(t21_finseq_3, axiom,  (! [A] :  (! [B] :  (! [C] :  (v7_ordinal1(C) =>  (k2_finseq_1(C)=k2_tarski(A, B) =>  (A=B |  (C=2 & k2_tarski(A, B)=k2_tarski(1, 2)) ) ) ) ) ) ) ).
 - fof(t127_finseq_2, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k10_finseq_1(A, B))=k2_tarski(A, B)) ) ).
 - fof(t10_bintree1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_dtconstr(A) &  (v2_dtconstr(A) &  (v3_bintree1(A) & l1_lang1(A)) ) ) )  =>  (! [B] :  (m1_trees_4(B, k5_trees_3(u1_struct_0(A)), k4_dtconstr(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r1_lang1(A, C, k1_dtconstr(u1_struct_0(A), k5_trees_3(u1_struct_0(A)), B)) =>  (m2_subset_1(C, u1_struct_0(A), k7_dtconstr(A)) &  (k4_finseq_1(B)=k2_tarski(1, 2) &  (r2_hidden(1, k4_finseq_1(B)) &  (r2_hidden(2, k4_finseq_1(B)) &  (? [D] :  (m1_dtconstr(D, u1_struct_0(A), k5_trees_3(u1_struct_0(A)), k4_dtconstr(A)) &  (? [E] :  (m1_dtconstr(E, u1_struct_0(A), k5_trees_3(u1_struct_0(A)), k4_dtconstr(A)) &  (k1_dtconstr(u1_struct_0(A), k5_trees_3(u1_struct_0(A)), B)=k4_pre_poly(u1_struct_0(A), k1_bintree1(u1_struct_0(A), D), k1_bintree1(u1_struct_0(A), E)) &  (D=k1_funct_1(B, 1) &  (E=k1_funct_1(B, 2) &  (k8_trees_4(u1_struct_0(A), C, B)=k6_trees_4(C, D, E) &  (r2_hidden(D, k2_relset_1(k5_trees_3(u1_struct_0(A)), B)) & r2_hidden(E, k2_relset_1(k5_trees_3(u1_struct_0(A)), B))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

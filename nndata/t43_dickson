@@ -1,20 +1,20 @@
 C fof(t43_dickson, axiom, r1_relat_2(k10_dickson, k5_numbers)).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
-+ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
-+ fof(fraenkel_a_0_0_dickson, axiom,  (! [A] :  (r2_hidden(A, a_0_0_dickson) <=>  (? [B, C] :  ( (m1_subset_1(B, k5_numbers) & m1_subset_1(C, k5_numbers))  &  (A=k1_domain_1(k5_numbers, k5_numbers, B, C) & r1_xxreal_0(B, C)) ) ) ) ) ).
-+ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
-+ fof(rc1_xxreal_0, axiom,  (? [A] : v1_xxreal_0(A)) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
-+ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(d1_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r1_relat_2(A, B) <=>  (! [C] :  (r2_hidden(C, B) => r2_hidden(k4_tarski(C, C), A)) ) ) ) ) ) ).
-+ fof(d14_dickson, axiom, k10_dickson=a_0_0_dickson).
 + fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
-+ fof(dt_k10_dickson, axiom, m1_subset_1(k10_dickson, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k5_numbers)))).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
 + fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(d14_dickson, axiom, k10_dickson=a_0_0_dickson).
++ fof(d1_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r1_relat_2(A, B) <=>  (! [C] :  (r2_hidden(C, B) => r2_hidden(k4_tarski(C, C), A)) ) ) ) ) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(dt_k10_dickson, axiom, m1_subset_1(k10_dickson, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k5_numbers)))).
++ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
++ fof(fraenkel_a_0_0_dickson, axiom,  (! [A] :  (r2_hidden(A, a_0_0_dickson) <=>  (? [B, C] :  ( (m1_subset_1(B, k5_numbers) & m1_subset_1(C, k5_numbers))  &  (A=k1_domain_1(k5_numbers, k5_numbers, B, C) & r1_xxreal_0(B, C)) ) ) ) ) ).
++ fof(rc1_xxreal_0, axiom,  (? [A] : v1_xxreal_0(A)) ).
++ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(t13_orders_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (r1_relat_2(B, A) =>  (k1_relset_1(A, B)=A & k1_relat_1(B)=A) ) ) ) ) ).
 - fof(l46_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r1_relat_2(A, B) => v1_relat_2(k2_wellord1(A, B))) ) ) ) ).
 - fof(t22_taxonom1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), k1_numbers))))  =>  (! [C] :  (v1_xreal_0(C) =>  ( (r1_relat_2(k1_taxonom1(A, B, C), A) & v4_metric_1(B, A))  =>  (v1_partfun1(k13_lang1(A, k1_taxonom1(A, B, C)), A) &  (v3_relat_2(k13_lang1(A, k1_taxonom1(A, B, C))) &  (v8_relat_2(k13_lang1(A, k1_taxonom1(A, B, C))) & m1_subset_1(k13_lang1(A, k1_taxonom1(A, B, C)), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ) ) ) ) ) ) ) ) ).

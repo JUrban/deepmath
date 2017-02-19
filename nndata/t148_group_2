@@ -1,30 +1,30 @@
 C fof(t148_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v8_struct_0(A) &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) ) )  =>  (! [B] :  (m1_group_2(B, A) => r1_nat_d(k7_group_1(B), k7_group_1(A))) ) ) ) ).
-+ fof(t147_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v8_struct_0(A) &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) ) )  =>  (! [B] :  (m1_group_2(B, A) => k7_group_1(A)=k4_nat_1(k7_group_1(B), k18_group_2(A, B))) ) ) ) ).
-+ fof(dt_k18_group_2, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  & m1_group_2(B, A))  => m1_subset_1(k18_group_2(A, B), k5_numbers)) ) ).
-+ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
-+ fof(cc3_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v8_struct_0(A) &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) ) )  =>  (! [B] :  (m1_group_2(B, A) => v8_struct_0(B)) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(fc17_struct_0, axiom,  (! [A] :  ( (v8_struct_0(A) & l1_struct_0(A))  =>  (v7_ordinal1(k7_struct_0(A)) & v1_card_1(k7_struct_0(A))) ) ) ).
-+ fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
-+ fof(dt_m1_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) & l3_algstr_0(A)) )  =>  (! [B] :  (m1_group_2(B, A) =>  ( ~ (v2_struct_0(B))  &  (v2_group_1(B) & l3_algstr_0(B)) ) ) ) ) ) ).
-+ fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
-+ fof(d3_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_nat_d(A, B) <=>  (? [C] :  (v7_ordinal1(C) & B=k3_xcmplx_0(A, C)) ) ) ) ) ) ) ).
-+ fof(dt_k7_group_1, axiom,  (! [A] :  ( (v8_struct_0(A) & l1_struct_0(A))  => m2_subset_1(k7_group_1(A), k1_numbers, k5_numbers)) ) ).
-+ fof(commutativity_k4_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k4_nat_1(A, B)=k4_nat_1(B, A)) ) ).
-+ fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
-+ fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
 + fof(cc12_membered, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xcmplx_0(B)) ) ) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
-+ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
-+ fof(dt_l3_algstr_0, axiom,  (! [A] :  (l3_algstr_0(A) => l1_struct_0(A)) ) ).
-+ fof(cc3_membered, axiom,  (! [A] :  (v4_membered(A) => v3_membered(A)) ) ).
-+ fof(redefinition_k4_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k4_nat_1(A, B)=k3_xcmplx_0(A, B)) ) ).
-+ fof(fc7_card_1, axiom,  ~ (v1_finset_1(k4_ordinal1)) ).
-+ fof(cc2_membered, axiom,  (! [A] :  (v5_membered(A) => v4_membered(A)) ) ).
++ fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
++ fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
 + fof(cc1_membered, axiom,  (! [A] :  (v6_membered(A) => v5_membered(A)) ) ).
++ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(cc2_membered, axiom,  (! [A] :  (v5_membered(A) => v4_membered(A)) ) ).
++ fof(cc3_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v8_struct_0(A) &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) ) )  =>  (! [B] :  (m1_group_2(B, A) => v8_struct_0(B)) ) ) ) ).
++ fof(cc3_membered, axiom,  (! [A] :  (v4_membered(A) => v3_membered(A)) ) ).
++ fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
++ fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
++ fof(commutativity_k4_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k4_nat_1(A, B)=k4_nat_1(B, A)) ) ).
++ fof(d3_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_nat_d(A, B) <=>  (? [C] :  (v7_ordinal1(C) & B=k3_xcmplx_0(A, C)) ) ) ) ) ) ) ).
++ fof(dt_k18_group_2, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  & m1_group_2(B, A))  => m1_subset_1(k18_group_2(A, B), k5_numbers)) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(dt_k7_group_1, axiom,  (! [A] :  ( (v8_struct_0(A) & l1_struct_0(A))  => m2_subset_1(k7_group_1(A), k1_numbers, k5_numbers)) ) ).
++ fof(dt_l3_algstr_0, axiom,  (! [A] :  (l3_algstr_0(A) => l1_struct_0(A)) ) ).
++ fof(dt_m1_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) & l3_algstr_0(A)) )  =>  (! [B] :  (m1_group_2(B, A) =>  ( ~ (v2_struct_0(B))  &  (v2_group_1(B) & l3_algstr_0(B)) ) ) ) ) ) ).
++ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
++ fof(fc17_struct_0, axiom,  (! [A] :  ( (v8_struct_0(A) & l1_struct_0(A))  =>  (v7_ordinal1(k7_struct_0(A)) & v1_card_1(k7_struct_0(A))) ) ) ).
++ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
++ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
++ fof(fc7_card_1, axiom,  ~ (v1_finset_1(k4_ordinal1)) ).
++ fof(redefinition_k4_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k4_nat_1(A, B)=k3_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(redefinition_k7_group_1, axiom,  (! [A] :  ( (v8_struct_0(A) & l1_struct_0(A))  => k7_group_1(A)=k7_struct_0(A)) ) ).
++ fof(t147_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v8_struct_0(A) &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) ) )  =>  (! [B] :  (m1_group_2(B, A) => k7_group_1(A)=k4_nat_1(k7_group_1(B), k18_group_2(A, B))) ) ) ) ).
 - fof(t39_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) & l3_algstr_0(A)) )  =>  (! [B] :  (m1_group_2(B, A) =>  (v8_struct_0(A) => v8_struct_0(B)) ) ) ) ) ).
 - fof(t72_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v8_struct_0(A) &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) ) )  =>  (! [B] :  (m1_group_2(B, A) => r1_xxreal_0(k7_group_1(B), k7_group_1(A))) ) ) ) ).
 - fof(t133_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  ( (v8_struct_0(C) & m1_group_2(C, A))  =>  (? [D] :  (v1_finset_1(D) &  (? [E] :  (v1_finset_1(E) &  (D=k13_group_2(A, C, B) &  (E=k14_group_2(A, C, B) &  (k7_group_1(C)=k5_card_1(D) & k7_group_1(C)=k5_card_1(E)) ) ) ) ) ) ) ) ) ) ) ) ) ).

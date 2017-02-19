@@ -1,22 +1,22 @@
 C fof(t24_bhsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) &  (v2_bhsp_1(A) & l1_bhsp_1(A)) ) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r1_bhsp_1(A, B, C) => k2_bhsp_1(A, k3_rlvect_1(A, B, C), k3_rlvect_1(A, B, C))=k7_real_1(k2_bhsp_1(A, B, B), k2_bhsp_1(A, C, C))) ) ) ) ) ) ) ).
-+ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
++ fof(cc12_membered, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xcmplx_0(B)) ) ) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(commutativity_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k8_real_1(B, A)) ) ).
 + fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
-+ fof(t16_bhsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) &  (v2_bhsp_1(A) & l1_bhsp_1(A)) ) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => k2_bhsp_1(A, k3_rlvect_1(A, B, C), k3_rlvect_1(A, B, C))=k7_real_1(k7_real_1(k2_bhsp_1(A, B, B), k8_real_1(2, k2_bhsp_1(A, B, C))), k2_bhsp_1(A, C, C))) ) ) ) ) ) ).
++ fof(commutativity_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k8_real_1(B, A)) ) ).
++ fof(d3_bhsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) &  (v2_bhsp_1(A) & l1_bhsp_1(A)) ) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r1_bhsp_1(A, B, C) <=> k2_bhsp_1(A, B, C)=k6_numbers) ) ) ) ) ) ) ).
++ fof(dt_k1_bhsp_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l1_bhsp_1(A))  &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k1_bhsp_1(A, B, C), k1_numbers)) ) ).
++ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
 + fof(redefinition_k2_bhsp_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) &  (v2_bhsp_1(A) & l1_bhsp_1(A)) ) ) ) ) ) ) ) ) )  &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => k2_bhsp_1(A, B, C)=k1_bhsp_1(A, B, C)) ) ).
-+ fof(spc0_boole, axiom, v1_xboole_0(0)).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k7_real_1(A, B)=k2_xcmplx_0(A, B)) ) ).
 + fof(redefinition_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k3_xcmplx_0(A, B)) ) ).
 + fof(rqRealMult__k3_xcmplx_0__r0_r2_r0, axiom, k3_xcmplx_0(0, 2)=0).
-+ fof(cc12_membered, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xcmplx_0(B)) ) ) ) ).
-+ fof(d3_bhsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) &  (v2_bhsp_1(A) & l1_bhsp_1(A)) ) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r1_bhsp_1(A, B, C) <=> k2_bhsp_1(A, B, C)=k6_numbers) ) ) ) ) ) ) ).
++ fof(spc0_boole, axiom, v1_xboole_0(0)).
 + fof(spc0_numerals, axiom,  (m2_subset_1(0, k1_numbers, k5_numbers) &  (m1_subset_1(0, k5_numbers) & m1_subset_1(0, k1_numbers)) ) ).
-+ fof(dt_k1_bhsp_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l1_bhsp_1(A))  &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k1_bhsp_1(A, B, C), k1_numbers)) ) ).
-+ fof(redefinition_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k7_real_1(A, B)=k2_xcmplx_0(A, B)) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t16_bhsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) &  (v2_bhsp_1(A) & l1_bhsp_1(A)) ) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => k2_bhsp_1(A, k3_rlvect_1(A, B, C), k3_rlvect_1(A, B, C))=k7_real_1(k7_real_1(k2_bhsp_1(A, B, B), k8_real_1(2, k2_bhsp_1(A, B, C))), k2_bhsp_1(A, C, C))) ) ) ) ) ) ).
 + fof(t1_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k2_xcmplx_0(A, k6_numbers)=A) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 - fof(dt_l1_bhsp_1, axiom,  (! [A] :  (l1_bhsp_1(A) => l1_rlvect_1(A)) ) ).
 - fof(dt_l1_rlvect_1, axiom,  (! [A] :  (l1_rlvect_1(A) => l2_algstr_0(A)) ) ).
 - fof(t2_bhsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) &  (v2_bhsp_1(A) & l1_bhsp_1(A)) ) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) => k2_bhsp_1(A, B, k3_rlvect_1(A, C, D))=k7_real_1(k2_bhsp_1(A, B, C), k2_bhsp_1(A, B, D))) ) ) ) ) ) ) ) ).

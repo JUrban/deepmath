@@ -1,8 +1,8 @@
 C fof(t1_facirc_2, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( ( ~ (A=C)  &  ( ~ (B=C)  &  ~ (k6_subset_1(k2_tarski(A, B), k1_tarski(C))=k2_tarski(A, B)) ) ) ) ) ) ) ).
++ fof(l1_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
 + fof(l33_rusub_3, axiom,  (! [A] :  (! [B] :  ( ~ (r2_hidden(B, A))  => k6_subset_1(A, k1_tarski(B))=A) ) ) ).
 + fof(t22_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ~ ( (r1_tarski(k2_tarski(A, B), k2_tarski(C, D)) &  ( ~ (A=C)  &  ~ (A=D) ) ) ) ) ) ) ) ).
 + fof(t29_enumset1, axiom,  (! [A] : k2_tarski(A, A)=k1_tarski(A)) ).
-+ fof(l1_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
 - fof(d18_bvfunc_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k6_margrel1) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k6_margrel1)))) )  => k18_bvfunc_1(A, B)=k6_subset_1(k2_tarski(a_2_0_bvfunc_1(A, B), a_2_1_bvfunc_1(A, B)), k1_tarski(k1_xboole_0))) ) ) ) ).
 - fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
 - fof(l2_rusub_4, axiom,  (! [A] :  (! [B] :  (r2_hidden(B, A) => k2_xboole_0(k6_subset_1(A, k1_tarski(B)), k1_tarski(B))=A) ) ) ).

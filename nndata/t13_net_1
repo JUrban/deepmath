@@ -1,10 +1,10 @@
 C fof(t13_net_1, axiom,  (! [A] :  (! [B] :  ( (v1_net_1(B) & l1_petri(B))  =>  (! [C] :  (m1_subset_1(C, k2_net_1(B)) =>  (r2_hidden(C, u4_struct_0(B)) =>  (r2_hidden(A, k3_net_1(B, C)) <=> r1_net_1(B, C, A)) ) ) ) ) ) ) ).
-+ fof(t6_net_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_net_1(C) & l1_petri(C))  =>  ( (r2_hidden(k4_tarski(A, B), k1_net_1(C)) & r2_hidden(B, u4_struct_0(C)))  => r2_hidden(A, u1_struct_0(C))) ) ) ) ) ).
 + fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
-+ fof(d6_net_1, axiom,  (! [A] :  (l1_petri(A) =>  (! [B] :  (m1_subset_1(B, k2_net_1(A)) =>  (! [C] :  (C=k3_net_1(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, k2_net_1(A)) & r2_hidden(k4_tarski(D, B), k1_net_1(A))) ) ) ) ) ) ) ) ) ).
-+ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
 + fof(d3_net_1, axiom,  (! [A] :  (l1_petri(A) => k2_net_1(A)=k2_xboole_0(u1_struct_0(A), u4_struct_0(A))) ) ).
++ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
 + fof(d4_net_1, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  =>  (! [B] :  (! [C] :  (r1_net_1(A, B, C) <=>  (r2_hidden(k4_tarski(C, B), k1_net_1(A)) & r2_hidden(B, u4_struct_0(A))) ) ) ) ) ) ).
++ fof(d6_net_1, axiom,  (! [A] :  (l1_petri(A) =>  (! [B] :  (m1_subset_1(B, k2_net_1(A)) =>  (! [C] :  (C=k3_net_1(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, k2_net_1(A)) & r2_hidden(k4_tarski(D, B), k1_net_1(A))) ) ) ) ) ) ) ) ) ).
++ fof(t6_net_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_net_1(C) & l1_petri(C))  =>  ( (r2_hidden(k4_tarski(A, B), k1_net_1(C)) & r2_hidden(B, u4_struct_0(C)))  => r2_hidden(A, u1_struct_0(C))) ) ) ) ) ).
 - fof(t9_net_1, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  =>  (! [B] :  (m1_subset_1(B, k2_net_1(A)) => r1_tarski(k3_net_1(A, B), k2_net_1(A))) ) ) ) ).
 - fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 - fof(t11_net_1, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  =>  (! [B] :  (m1_subset_1(B, k2_net_1(A)) => r1_tarski(k4_net_1(A, B), k2_net_1(A))) ) ) ) ).

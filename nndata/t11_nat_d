@@ -1,14 +1,14 @@
 C fof(t11_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ( (r1_nat_d(A, B) & r1_nat_d(A, C))  => r1_nat_d(A, k4_nat_d(B, C))) ) ) ) ) ) ) ).
++ fof(cc7_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v7_ordinal1(A)) ) ).
++ fof(d2_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (C=k2_nat_d(A, B) <=>  ~ ( ( (! [D] :  (v7_ordinal1(D) =>  ~ ( (A=k2_xcmplx_0(k3_xcmplx_0(B, D), C) &  ~ (r1_xxreal_0(B, C)) ) ) ) )  &  ~ ( (C=k6_numbers & B=k6_numbers) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k2_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k2_nat_d(A, B))) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
 + fof(fc2_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k3_xcmplx_0(A, B))) ) ).
 + fof(redefinition_k2_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k2_nat_d(A, B)=k6_int_1(A, B)) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(d2_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (C=k2_nat_d(A, B) <=>  ~ ( ( (! [D] :  (v7_ordinal1(D) =>  ~ ( (A=k2_xcmplx_0(k3_xcmplx_0(B, D), C) &  ~ (r1_xxreal_0(B, C)) ) ) ) )  &  ~ ( (C=k6_numbers & B=k6_numbers) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t9_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (r1_nat_d(A, B) => r1_nat_d(A, k3_xcmplx_0(B, C))) ) ) ) ) ) ) ).
 + fof(redefinition_k4_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k4_nat_d(A, B)=k6_int_1(A, B)) ) ).
-+ fof(cc7_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v7_ordinal1(A)) ) ).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(t10_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ( (r1_nat_d(A, B) & r1_nat_d(A, k2_xcmplx_0(B, C)))  => r1_nat_d(A, C)) ) ) ) ) ) ) ).
-+ fof(dt_k2_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k2_nat_d(A, B))) ) ).
++ fof(t9_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (r1_nat_d(A, B) => r1_nat_d(A, k3_xcmplx_0(B, C))) ) ) ) ) ) ) ).
 - fof(redefinition_r1_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  =>  (r1_nat_d(A, B) <=> r1_int_1(A, B)) ) ) ).
 - fof(dt_k4_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => m1_subset_1(k4_nat_d(A, B), k5_numbers)) ) ).
 - fof(t1_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  & r1_xxreal_0(A, k4_nat_d(B, A))) ) ) ) ) ) ).

@@ -1,16 +1,16 @@
 C fof(l13_modelc_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m2_finseq_1(B, k5_numbers) =>  (! [C] :  (m2_finseq_1(C, k5_numbers) => k3_finseq_1(k8_finseq_1(k5_numbers, k8_finseq_1(k5_numbers, k12_finseq_1(k5_numbers, A), B), C))=k2_nat_1(k2_nat_1(1, k3_finseq_1(B)), k3_finseq_1(C))) ) ) ) ) ) ).
-+ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
-+ fof(dt_k8_finseq_1, axiom,  (! [A, B, C] :  ( (m1_finseq_1(B, A) & m1_finseq_1(C, A))  => m2_finseq_1(k8_finseq_1(A, B, C), A)) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(t22_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  => k3_finseq_1(k7_finseq_1(A, B))=k2_nat_1(k3_finseq_1(A), k3_finseq_1(B))) ) ) ) ).
-+ fof(redefinition_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k12_finseq_1(A, B)=k5_finseq_1(B)) ) ).
-+ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
-+ fof(t8_finseq_5, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  => k3_finseq_1(k7_finseq_1(k9_finseq_1(A), B))=k2_nat_1(1, k3_finseq_1(B))) ) ) ).
 + fof(dt_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m2_finseq_1(k12_finseq_1(A, B), A)) ) ).
++ fof(dt_k8_finseq_1, axiom,  (! [A, B, C] :  ( (m1_finseq_1(B, A) & m1_finseq_1(C, A))  => m2_finseq_1(k8_finseq_1(A, B, C), A)) ) ).
 + fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k12_finseq_1(A, B)=k5_finseq_1(B)) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(redefinition_k8_finseq_1, axiom,  (! [A, B, C] :  ( (m1_finseq_1(B, A) & m1_finseq_1(C, A))  => k8_finseq_1(A, B, C)=k7_finseq_1(B, C)) ) ).
++ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(t22_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  => k3_finseq_1(k7_finseq_1(A, B))=k2_nat_1(k3_finseq_1(A), k3_finseq_1(B))) ) ) ) ).
++ fof(t8_finseq_5, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  => k3_finseq_1(k7_finseq_1(k9_finseq_1(A), B))=k2_nat_1(1, k3_finseq_1(B))) ) ) ).
 - fof(t1_modal_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m2_finseq_1(C, k5_numbers) =>  ~ ( ( ~ (A=B)  & r3_xboole_0(k12_finseq_1(k5_numbers, A), k8_finseq_1(k5_numbers, k12_finseq_1(k5_numbers, B), C))) ) ) ) ) ) ) ) ).
 - fof(s1_finseq_1__e9_35_1_2__eqrel_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  ( (! [B] :  (v7_ordinal1(B) =>  ~ ( (r2_hidden(B, k2_finseq_1(k3_finseq_1(A))) &  (! [C] :  ~ (C=k1_funct_1(A, k6_xcmplx_0(k2_nat_1(1, k3_finseq_1(A)), B))) ) ) ) ) )  =>  (? [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  &  (k4_finseq_1(B)=k2_finseq_1(k3_finseq_1(A)) &  (! [C] :  (v7_ordinal1(C) =>  (r2_hidden(C, k2_finseq_1(k3_finseq_1(A))) => k1_funct_1(B, C)=k1_funct_1(A, k6_xcmplx_0(k2_nat_1(1, k3_finseq_1(A)), C))) ) ) ) ) ) ) ) ) ).
 - fof(d8_modelc_1, axiom,  (! [A] :  (m2_finseq_1(A, k5_numbers) =>  (! [B] :  (m2_finseq_1(B, k5_numbers) => k8_modelc_1(A, B)=k8_finseq_1(k5_numbers, k8_finseq_1(k5_numbers, k12_finseq_1(k5_numbers, 1), A), B)) ) ) ) ).

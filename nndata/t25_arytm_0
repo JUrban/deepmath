@@ -1,12 +1,12 @@
 C fof(t25_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) => k3_arytm_0(k1_arytm_0(A, B))=k1_arytm_0(k3_arytm_0(A), k3_arytm_0(B))) ) ) ) ).
-+ fof(t23_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) => k1_arytm_0(A, k1_arytm_0(B, C))=k1_arytm_0(k1_arytm_0(A, B), C)) ) ) ) ) ) ).
-+ fof(dt_k1_arytm_0, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => m1_subset_1(k1_arytm_0(A, B), k1_numbers)) ) ).
 + fof(commutativity_k1_arytm_0, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => k1_arytm_0(A, B)=k1_arytm_0(B, A)) ) ).
 + fof(d3_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (B=k3_arytm_0(A) <=> k1_arytm_0(A, B)=k6_numbers) ) ) ) ) ).
-+ fof(dt_c2__arytm_0, axiom, m1_subset_1(c2__arytm_0, k1_numbers)).
-+ fof(t11_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (B=k6_numbers => k1_arytm_0(A, B)=A) ) ) ) ) ).
 + fof(de_c2__arytm_0, axiom, c2__arytm_0=k6_numbers).
++ fof(dt_c2__arytm_0, axiom, m1_subset_1(c2__arytm_0, k1_numbers)).
++ fof(dt_k1_arytm_0, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => m1_subset_1(k1_arytm_0(A, B), k1_numbers)) ) ).
 + fof(dt_k3_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k3_arytm_0(A), k1_numbers)) ) ).
++ fof(t11_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (B=k6_numbers => k1_arytm_0(A, B)=A) ) ) ) ) ).
++ fof(t23_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) => k1_arytm_0(A, k1_arytm_0(B, C))=k1_arytm_0(k1_arytm_0(A, B), C)) ) ) ) ) ) ).
 - fof(t14_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) => k2_arytm_0(A, k1_arytm_0(B, C))=k1_arytm_0(k2_arytm_0(A, B), k2_arytm_0(A, C))) ) ) ) ) ) ).
 - fof(t15_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) => k2_arytm_0(k3_arytm_0(A), B)=k3_arytm_0(k2_arytm_0(A, B))) ) ) ) ).
 - fof(involutiveness_k3_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k3_arytm_0(k3_arytm_0(A))=A) ) ).

@@ -1,8 +1,8 @@
 C fof(l5_calcul_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (? [C] :  (m1_subset_1(C, k5_numbers) &  (r2_hidden(C, k1_relset_1(k5_numbers, A)) & k1_funct_1(A, C)=B) ) )  => r1_calcul_1(A, B)) ) ) ) ).
-+ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
++ fof(cc5_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) & v1_finseq_1(A)) ) ) ) ) ).
 + fof(d3_calcul_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r1_calcul_1(A, B) <=> r2_hidden(B, k10_xtuple_0(A))) ) ) ) ).
 + fof(d3_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (B=k10_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(D, k9_xtuple_0(A)) & C=k1_funct_1(A, D)) ) ) ) ) ) ) ) ).
-+ fof(cc5_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) & v1_finseq_1(A)) ) ) ) ) ).
++ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
 - fof(l4_calcul_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ~ ( (r1_calcul_1(A, B) &  (! [C] :  (m1_subset_1(C, k5_numbers) =>  ~ ( (r2_hidden(C, k1_relset_1(k5_numbers, A)) & k1_funct_1(A, C)=B) ) ) ) ) ) ) ) ) ).
 - fof(t23_finseq_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (r2_hidden(B, k1_relset_1(k5_numbers, A)) => m1_subset_1(B, k5_numbers)) ) ) ) ).
 - fof(l98_finseq_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (! [C] :  (k3_finseq_1(B)=A =>  (! [D] :  (v7_ordinal1(D) =>  (r2_hidden(D, k1_relset_1(k5_numbers, B)) =>  (! [E] :  (v1_finset_1(E) =>  ~ ( (E=a_3_0_finseq_3(B, C, D) &  ( ~ (r2_hidden(k1_funct_1(B, D), C))  &  ~ (k1_funct_1(k1_finseq_3(B, C), k6_xcmplx_0(D, k5_card_1(E)))=k1_funct_1(B, D)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

@@ -1,5 +1,5 @@
 C fof(t28_topreala, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k19_euclid(A, B)=k4_funct_4(1, 2, A, B)) ) ) ) ).
-+ fof(t4_topreala, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k4_funct_4(1, 2, A, B)) ) ).
 + fof(redefinition_k19_euclid, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k19_euclid(A, B)=k10_finseq_1(A, B)) ) ).
++ fof(t4_topreala, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k4_funct_4(1, 2, A, B)) ) ).
 - fof(t67_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ~ (A=C)  => k4_funct_4(A, C, B, D)=k2_tarski(k4_tarski(A, B), k4_tarski(C, D))) ) ) ) ) ).
 - fof(t63_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ( ~ (A=B)  => k1_funct_1(k4_funct_4(A, B, C, D), A)=C)  & k1_funct_1(k4_funct_4(A, B, C, D), B)=D) ) ) ) ) ).

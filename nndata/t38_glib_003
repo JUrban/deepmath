@@ -1,13 +1,13 @@
 C fof(t38_glib_003, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) &  (v1_glib_000(A) & v3_glib_003(A)) ) ) ) )  =>  (! [B] :  (! [C] :  (r2_hidden(B, k6_glib_000(A)) => k7_glib_003(k13_glib_003(A, B, C))=k1_funct_4(k7_glib_003(A), k16_funcop_1(B, C))) ) ) ) ) ).
-+ fof(d9_glib_003, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) &  (v1_glib_000(A) & v3_glib_003(A)) ) ) ) )  => k7_glib_003(A)=k1_funct_1(A, k4_glib_003)) ) ).
-+ fof(d9_funcop_1, axiom,  (! [A] :  (! [B] : k16_funcop_1(A, B)=k7_funcop_1(k1_tarski(A), B)) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(d3_glib_003, axiom, k4_glib_003=7).
-+ fof(t8_glib_000, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) & v1_finset_1(A)) ) )  =>  (! [B] :  (! [C] :  (v7_ordinal1(C) => k1_funct_1(k13_glib_000(A, C, B), C)=B) ) ) ) ) ).
-+ fof(spc7_numerals, axiom,  ( (v2_xxreal_0(7) & m2_subset_1(7, k1_numbers, k5_numbers))  &  (m1_subset_1(7, k5_numbers) & m1_subset_1(7, k1_numbers)) ) ).
 + fof(d22_glib_003, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) &  (v1_glib_000(A) & v3_glib_003(A)) ) ) ) )  =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k6_glib_000(A)) => k13_glib_003(A, B, C)=k13_glib_000(A, k4_glib_003, k1_funct_4(k7_glib_003(A), k16_funcop_1(B, C))))  &  ( ~ (r2_hidden(B, k6_glib_000(A)))  => k13_glib_003(A, B, C)=A) ) ) ) ) ) ).
++ fof(d3_glib_003, axiom, k4_glib_003=7).
++ fof(d9_funcop_1, axiom,  (! [A] :  (! [B] : k16_funcop_1(A, B)=k7_funcop_1(k1_tarski(A), B)) ) ).
++ fof(d9_glib_003, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) &  (v1_glib_000(A) & v3_glib_003(A)) ) ) ) )  => k7_glib_003(A)=k1_funct_1(A, k4_glib_003)) ) ).
 + fof(dt_k13_glib_003, axiom,  (! [A, B, C] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) &  (v1_glib_000(A) & v3_glib_003(A)) ) ) ) )  =>  (v1_relat_1(k13_glib_003(A, B, C)) &  (v4_relat_1(k13_glib_003(A, B, C), k5_numbers) &  (v1_funct_1(k13_glib_003(A, B, C)) &  (v1_finset_1(k13_glib_003(A, B, C)) &  (v1_glib_000(k13_glib_003(A, B, C)) & v3_glib_003(k13_glib_003(A, B, C))) ) ) ) ) ) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(spc7_numerals, axiom,  ( (v2_xxreal_0(7) & m2_subset_1(7, k1_numbers, k5_numbers))  &  (m1_subset_1(7, k5_numbers) & m1_subset_1(7, k1_numbers)) ) ).
++ fof(t8_glib_000, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) & v1_finset_1(A)) ) )  =>  (! [B] :  (! [C] :  (v7_ordinal1(C) => k1_funct_1(k13_glib_000(A, C, B), C)=B) ) ) ) ) ).
 - fof(l13_glib_003, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) &  (v1_glib_000(A) & v3_glib_003(A)) ) ) ) )  => r1_tarski(k9_xtuple_0(k7_glib_003(A)), k6_glib_000(A))) ) ).
 - fof(l38_glib_001, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  =>  (! [B] :  (m3_glib_001(B, A) =>  (! [C] :  ( ( ~ (v1_abian(C))  & m1_subset_1(C, k5_numbers))  =>  (r1_xxreal_0(C, k3_finseq_1(B)) => r2_hidden(k1_funct_1(B, C), k6_glib_000(A))) ) ) ) ) ) ) ).
 - fof(d6_glib_003, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) & v1_finset_1(A)) ) )  =>  (v3_glib_003(A) <=>  (r2_hidden(k4_glib_003, k1_relset_1(k5_numbers, A)) &  (? [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  &  (k1_funct_1(A, k4_glib_003)=B & r1_tarski(k9_xtuple_0(B), k6_glib_000(A))) ) ) ) ) ) ) ).

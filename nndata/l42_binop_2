@@ -1,18 +1,18 @@
 C fof(l42_binop_2, axiom, r3_binop_1(k5_numbers, 1, k48_binop_2)).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(dt_k48_binop_2, axiom,  (v1_funct_1(k48_binop_2) &  (v1_funct_2(k48_binop_2, k2_zfmisc_1(k5_numbers, k5_numbers), k5_numbers) & m1_subset_1(k48_binop_2, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k5_numbers, k5_numbers), k5_numbers)))) ) ).
-+ fof(d7_binop_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (r3_binop_1(A, B, C) <=>  (r1_binop_1(A, B, C) & r2_binop_1(A, B, C)) ) ) ) ) ) ) ).
-+ fof(d24_binop_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_zfmisc_1(k5_numbers, k5_numbers), k5_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k5_numbers, k5_numbers), k5_numbers)))) )  =>  (A=k48_binop_2 <=>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) => k1_binop_1(A, B, C)=k24_binop_2(B, C)) ) ) ) ) ) ) ).
-+ fof(d17_binop_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (r2_binop_1(A, B, C) <=>  (! [D] :  (m1_subset_1(D, A) => k3_binop_1(A, C, D, B)=D) ) ) ) ) ) ) ) ) ).
-+ fof(commutativity_k24_binop_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k24_binop_2(A, B)=k24_binop_2(B, A)) ) ).
-+ fof(t3_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(1, A)=A) ) ).
-+ fof(redefinition_k3_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k3_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
-+ fof(redefinition_k24_binop_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k24_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(d16_binop_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (r1_binop_1(A, B, C) <=>  (! [D] :  (m1_subset_1(D, A) => k3_binop_1(A, C, B, D)=D) ) ) ) ) ) ) ) ) ).
 + fof(cc2_xcmplx_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xcmplx_0(A)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(commutativity_k24_binop_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k24_binop_2(A, B)=k24_binop_2(B, A)) ) ).
++ fof(d16_binop_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (r1_binop_1(A, B, C) <=>  (! [D] :  (m1_subset_1(D, A) => k3_binop_1(A, C, B, D)=D) ) ) ) ) ) ) ) ) ).
++ fof(d17_binop_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (r2_binop_1(A, B, C) <=>  (! [D] :  (m1_subset_1(D, A) => k3_binop_1(A, C, D, B)=D) ) ) ) ) ) ) ) ) ).
++ fof(d24_binop_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_zfmisc_1(k5_numbers, k5_numbers), k5_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k5_numbers, k5_numbers), k5_numbers)))) )  =>  (A=k48_binop_2 <=>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) => k1_binop_1(A, B, C)=k24_binop_2(B, C)) ) ) ) ) ) ) ).
++ fof(d7_binop_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (r3_binop_1(A, B, C) <=>  (r1_binop_1(A, B, C) & r2_binop_1(A, B, C)) ) ) ) ) ) ) ).
++ fof(dt_k48_binop_2, axiom,  (v1_funct_1(k48_binop_2) &  (v1_funct_2(k48_binop_2, k2_zfmisc_1(k5_numbers, k5_numbers), k5_numbers) & m1_subset_1(k48_binop_2, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k5_numbers, k5_numbers), k5_numbers)))) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k24_binop_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k24_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k3_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k3_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t3_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(1, A)=A) ) ).
 - fof(l33_binop_2, axiom, r3_binop_1(k5_numbers, k6_numbers, k47_binop_2)).
 - fof(l37_binop_2, axiom, r3_binop_1(k1_numbers, 1, k35_binop_2)).
 - fof(t3_binop_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (! [C] :  (m1_subset_1(C, A) =>  (r3_binop_1(A, C, B) <=>  (! [D] :  (m1_subset_1(D, A) =>  (k3_binop_1(A, B, C, D)=D & k3_binop_1(A, B, D, C)=D) ) ) ) ) ) ) ) ) ).

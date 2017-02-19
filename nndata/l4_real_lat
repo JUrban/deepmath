@@ -1,9 +1,9 @@
 C fof(l4_real_lat, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k3_real_lat)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k3_real_lat)) => k1_lattices(k3_real_lat, A, B)=k1_lattices(k3_real_lat, B, A)) ) ) ) ).
 + fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
-+ fof(ie1_real_lat, axiom,  (! [A, B] :  ( (m1_subset_1(A, u1_struct_0(k3_real_lat)) & m1_subset_1(B, u1_struct_0(k3_real_lat)))  => k1_lattices(k3_real_lat, A, B)=k4_xxreal_0(A, B)) ) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
 + fof(commutativity_k4_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k4_xxreal_0(A, B)=k4_xxreal_0(B, A)) ) ).
 + fof(fc1_real_lat, axiom, v3_membered(u1_struct_0(k3_real_lat))).
++ fof(ie1_real_lat, axiom,  (! [A, B] :  ( (m1_subset_1(A, u1_struct_0(k3_real_lat)) & m1_subset_1(B, u1_struct_0(k3_real_lat)))  => k1_lattices(k3_real_lat, A, B)=k4_xxreal_0(A, B)) ) ).
 - fof(ie2_real_lat, axiom,  (! [A, B] :  ( (m1_subset_1(A, u1_struct_0(k3_real_lat)) & m1_subset_1(B, u1_struct_0(k3_real_lat)))  => k2_lattices(k3_real_lat, A, B)=k3_xxreal_0(A, B)) ) ).
 - fof(d5_lattices, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_lattices(A))  =>  (v5_lattices(A) <=>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) => k1_lattices(A, B, k1_lattices(A, C, D))=k1_lattices(A, k1_lattices(A, B, C), D)) ) ) ) ) ) ) ) ) ).
 - fof(t34_robbins1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_robbins1(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(k8_robbins1(A))) =>  (! [E] :  (m1_subset_1(E, u1_struct_0(k8_robbins1(A))) =>  ( (B=D & C=E)  =>  (k4_robbins1(A, B, C)=k2_lattices(k8_robbins1(A), D, E) &  (k1_lattices(A, B, C)=k1_lattices(k8_robbins1(A), D, E) & k3_robbins1(A, B)=k3_robbins1(k8_robbins1(A), D)) ) ) ) ) ) ) ) ) ) ) ) ) ).

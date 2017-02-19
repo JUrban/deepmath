@@ -1,9 +1,9 @@
 C fof(t17_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) => k1_xxreal_1(A, A)=k1_tarski(A)) ) ).
-+ fof(d2_membered, axiom,  (! [A] :  (v2_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_xxreal_0(B)) ) ) ) ).
-+ fof(t1_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, A))  => A=B) ) ) ) ) ).
 + fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
 + fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(d2_membered, axiom,  (! [A] :  (v2_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_xxreal_0(B)) ) ) ) ).
 + fof(fc1_xxreal_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => v2_membered(k1_xxreal_1(A, B))) ) ).
++ fof(t1_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, A))  => A=B) ) ) ) ) ).
 + fof(t1_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(A, k1_xxreal_1(B, C)) <=>  (r1_xxreal_0(B, A) & r1_xxreal_0(A, C)) ) ) ) ) ) ) ) ).
 - fof(d1_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) => k1_xxreal_1(A, B)=a_2_0_xxreal_1(A, B)) ) ) ) ).
 - fof(t12_xxreal_1, axiom,  (! [A] :  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(A, k3_xxreal_1(B, C)) =>  (r2_hidden(A, k1_xxreal_1(B, C)) &  ~ (A=B) ) ) ) ) ) ) ) ).

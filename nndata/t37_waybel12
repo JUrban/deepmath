@@ -1,9 +1,9 @@
 C fof(t37_waybel12, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v3_orders_2(A) &  (v4_orders_2(A) &  (v5_orders_2(A) &  (v3_yellow_0(A) &  (v2_lattice3(A) & l1_orders_2(A)) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  ~ ( (v2_waybel12(B, A) & B=k3_yellow_0(A)) ) ) ) ) ) ).
 + fof(cc2_lattice3, axiom,  (! [A] :  (l1_orders_2(A) =>  (v2_lattice3(A) =>  ~ (v2_struct_0(A)) ) ) ) ).
 + fof(cc4_yellow_0, axiom,  (! [A] :  (l1_orders_2(A) =>  (v3_yellow_0(A) =>  (v1_yellow_0(A) & v2_yellow_0(A)) ) ) ) ).
-+ fof(dt_l1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => l1_struct_0(A)) ) ).
-+ fof(d4_waybel12, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (v2_waybel12(B, A) <=>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  ~ ( ( ~ (C=k3_yellow_0(A))  & k11_lattice3(A, B, C)=k3_yellow_0(A)) ) ) ) ) ) ) ) ) ).
 + fof(d10_struct_0, axiom,  (! [A] :  (l1_struct_0(A) =>  (v7_struct_0(A) <=>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => B=C) ) ) ) ) ) ) ).
++ fof(d4_waybel12, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (v2_waybel12(B, A) <=>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  ~ ( ( ~ (C=k3_yellow_0(A))  & k11_lattice3(A, B, C)=k3_yellow_0(A)) ) ) ) ) ) ) ) ) ).
++ fof(dt_l1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => l1_struct_0(A)) ) ).
 + fof(t3_waybel_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v5_orders_2(A) &  (v1_yellow_0(A) & l1_orders_2(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  ( (v2_lattice3(A) => k11_lattice3(A, k3_yellow_0(A), B)=k3_yellow_0(A))  &  ( (v1_lattice3(A) &  (v3_orders_2(A) & v4_orders_2(A)) )  => k10_lattice3(A, k3_yellow_0(A), B)=B) ) ) ) ) ) ).
 - fof(rc2_waybel12, axiom,  (! [A] :  ( (v3_orders_2(A) &  (v4_orders_2(A) &  (v5_orders_2(A) &  (v2_yellow_0(A) &  (v2_lattice3(A) & l1_orders_2(A)) ) ) ) )  =>  (? [B] :  (m1_subset_1(B, u1_struct_0(A)) & v2_waybel12(B, A)) ) ) ) ).
 - fof(fc2_waybel12, axiom,  (! [A] :  ( (v3_orders_2(A) &  (v4_orders_2(A) &  (v5_orders_2(A) &  (v2_yellow_0(A) &  (v2_lattice3(A) & l1_orders_2(A)) ) ) ) )  => v2_waybel12(k4_yellow_0(A), A)) ) ).

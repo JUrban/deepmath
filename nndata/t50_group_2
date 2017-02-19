@@ -1,10 +1,10 @@
 C fof(t50_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_group_2(D, A) =>  ( (r1_struct_0(D, B) & r1_struct_0(D, C))  => r1_struct_0(D, k6_algstr_0(A, B, C))) ) ) ) ) ) ) ) ) ).
-+ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
-+ fof(dt_l3_algstr_0, axiom,  (! [A] :  (l3_algstr_0(A) => l1_struct_0(A)) ) ).
-+ fof(dt_m1_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) & l3_algstr_0(A)) )  =>  (! [B] :  (m1_group_2(B, A) =>  ( ~ (v2_struct_0(B))  &  (v2_group_1(B) & l3_algstr_0(B)) ) ) ) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 + fof(d5_struct_0, axiom,  (! [A] :  (l1_struct_0(A) =>  (! [B] :  (r1_struct_0(A, B) <=> r2_hidden(B, u1_struct_0(A))) ) ) ) ).
 + fof(dt_k6_algstr_0, axiom,  (! [A, B, C] :  ( (l3_algstr_0(A) &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k6_algstr_0(A, B, C), u1_struct_0(A))) ) ).
++ fof(dt_l3_algstr_0, axiom,  (! [A] :  (l3_algstr_0(A) => l1_struct_0(A)) ) ).
++ fof(dt_m1_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) & l3_algstr_0(A)) )  =>  (! [B] :  (m1_group_2(B, A) =>  ( ~ (v2_struct_0(B))  &  (v2_group_1(B) & l3_algstr_0(B)) ) ) ) ) ) ).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 + fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 + fof(t43_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) & l3_algstr_0(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_group_2(D, A) =>  (! [E] :  (m1_subset_1(E, u1_struct_0(D)) =>  (! [F] :  (m1_subset_1(F, u1_struct_0(D)) =>  ( (E=B & F=C)  => k6_algstr_0(D, E, F)=k6_algstr_0(A, B, C)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t44_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_group_2(B, A) => k1_group_1(B)=k1_group_1(A)) ) ) ) ).

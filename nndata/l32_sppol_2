@@ -1,14 +1,14 @@
 C fof(l32_sppol_2, axiom,  (! [A] :  (m2_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (v2_topreal1(A) => v2_topreal1(k1_finseq_5(u1_struct_0(k15_euclid(2)), A, B))) ) ) ) ) ).
-+ fof(l29_sppol_2, axiom,  (! [A] :  (m2_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (v2_topreal1(A) => v2_topreal1(k17_finseq_1(u1_struct_0(k15_euclid(2)), B, A))) ) ) ) ) ).
-+ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(fc4_topreal1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  ~ (v1_xboole_0(k4_topreal1(A))) ) ) ).
-+ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
 + fof(d1_finseq_5, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m2_finseq_1(B, A) =>  (! [C] : k1_finseq_5(A, B, C)=k17_finseq_1(A, k4_finseq_4(B, C), B)) ) ) ) ) ).
 + fof(dt_k4_finseq_4, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => m1_subset_1(k4_finseq_4(A, B), k5_numbers)) ) ).
-+ fof(t31_topreal1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => k4_topreal1(A)=a_1_1_topreal1(A)) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 + fof(dt_k4_topreal1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => m1_subset_1(k4_topreal1(A), k1_zfmisc_1(u1_struct_0(k15_euclid(2))))) ) ).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(fc4_topreal1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  ~ (v1_xboole_0(k4_topreal1(A))) ) ) ).
++ fof(l29_sppol_2, axiom,  (! [A] :  (m2_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (v2_topreal1(A) => v2_topreal1(k17_finseq_1(u1_struct_0(k15_euclid(2)), B, A))) ) ) ) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(t31_topreal1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => k4_topreal1(A)=a_1_1_topreal1(A)) ) ).
 - fof(t9_sppol_2, axiom,  (! [A] :  (m2_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (! [C] :  (v7_ordinal1(C) =>  (r1_xxreal_0(k1_nat_1(C, 1), k3_finseq_1(k1_finseq_5(u1_struct_0(k15_euclid(2)), A, B))) => k2_topreal1(2, k1_finseq_5(u1_struct_0(k15_euclid(2)), A, B), C)=k2_topreal1(2, A, C)) ) ) ) ) ) ) ).
 - fof(t24_sppol_2, axiom,  (! [A] :  (m2_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (r2_hidden(B, k10_xtuple_0(A)) => k3_topreal1(2, A)=k4_subset_1(u1_struct_0(k15_euclid(2)), k3_topreal1(2, k1_finseq_5(u1_struct_0(k15_euclid(2)), A, B)), k3_topreal1(2, k2_finseq_5(u1_struct_0(k15_euclid(2)), A, B)))) ) ) ) ) ).
 - fof(l30_sppol_2, axiom,  (! [A] :  (m2_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (v2_topreal1(A) => v2_topreal1(k2_rfinseq(u1_struct_0(k15_euclid(2)), B, A))) ) ) ) ) ).

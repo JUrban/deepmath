@@ -1,15 +1,15 @@
 C fof(t9_unialg_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k1_unialg_3(A))))  =>  ~ (v1_xboole_0(k7_relset_1(k1_unialg_3(A), k9_setfam_1(u1_struct_0(A)), k3_unialg_3(A), B))) ) ) ) ) ).
-+ fof(t35_funct_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, A, B) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  ( ~ (B=k1_xboole_0)  =>  (! [E] :  ( (? [F] :  (r2_hidden(F, A) &  (r2_hidden(F, C) & E=k1_funct_1(D, F)) ) )  => r2_hidden(E, k7_relset_1(A, B, D, C))) ) ) ) ) ) ) ) ).
-+ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
-+ fof(existence_m1_subset_1, axiom,  (! [A] :  (? [B] : m1_subset_1(B, A)) ) ).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
-+ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 + fof(dt_k3_unialg_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (v1_funct_1(k3_unialg_3(A)) &  (v1_funct_2(k3_unialg_3(A), k1_unialg_3(A), k9_setfam_1(u1_struct_0(A))) & m1_subset_1(k3_unialg_3(A), k1_zfmisc_1(k2_zfmisc_1(k1_unialg_3(A), k9_setfam_1(u1_struct_0(A)))))) ) ) ) ).
 + fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
++ fof(existence_m1_subset_1, axiom,  (! [A] :  (? [B] : m1_subset_1(B, A)) ) ).
++ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
++ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t35_funct_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, A, B) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  ( ~ (B=k1_xboole_0)  =>  (! [E] :  ( (? [F] :  (r2_hidden(F, A) &  (r2_hidden(F, C) & E=k1_funct_1(D, F)) ) )  => r2_hidden(E, k7_relset_1(A, B, D, C))) ) ) ) ) ) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(redefinition_k1_unialg_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  => k1_unialg_3(A)=k9_unialg_2(A)) ) ).
 - fof(d4_unialg_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k1_unialg_3(A), k9_setfam_1(u1_struct_0(A))) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_unialg_3(A), k9_setfam_1(u1_struct_0(A)))))) )  =>  (B=k3_unialg_3(A) <=>  (! [C] :  (m2_unialg_3(C, A, k1_unialg_3(A)) =>  (! [D] :  (m1_unialg_2(D, A) =>  (C=D => k3_funct_2(k1_unialg_3(A), k9_setfam_1(u1_struct_0(A)), B, C)=u1_struct_0(D)) ) ) ) ) ) ) ) ) ) ).
 - fof(d14_unialg_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (! [B] :  (B=k9_unialg_2(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (v1_unialg_1(C) & m1_unialg_2(C, A)) ) ) ) ) ) ) ).

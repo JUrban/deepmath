@@ -1,11 +1,11 @@
 C fof(l17_polyeq_1, axiom,  ~ (v1_abian(3)) ).
-+ fof(reflexivity_r1_int_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => r1_int_1(A, A)) ) ).
++ fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(d1_abian, axiom,  (! [A] :  (v1_int_1(A) =>  (v1_abian(A) <=> r1_int_1(2, A)) ) ) ).
 + fof(fc2_abian, axiom,  (! [A] :  ( (v1_int_1(A) & v1_abian(A))  =>  ~ (v1_abian(k2_xcmplx_0(A, 1))) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(reflexivity_r1_int_1, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => r1_int_1(A, A)) ) ).
 + fof(rqRealAdd__k2_xcmplx_0__r2_r1_r3, axiom, k2_xcmplx_0(2, 1)=3).
-+ fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
 + fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
 - fof(l2_abian, axiom,  (! [A] :  (v1_int_1(A) =>  (v1_abian(A) <=>  (? [B] :  (v1_int_1(B) & A=k3_xcmplx_0(2, B)) ) ) ) ) ).
 - fof(fc11_abian, axiom,  (! [A, B] :  ( ( (v1_int_1(A) & v1_abian(A))  &  (v1_int_1(B) &  ~ (v1_abian(B)) ) )  =>  ~ (v1_abian(k2_xcmplx_0(B, A))) ) ) ).

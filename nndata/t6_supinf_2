@@ -1,6 +1,6 @@
 C fof(t6_supinf_2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(A, k1_zfmisc_1(k7_numbers)))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k7_numbers)))  =>  (r1_tarski(A, B) <=> r1_tarski(k6_supinf_2(A), k6_supinf_2(B))) ) ) ) ) ).
-+ fof(redefinition_k6_supinf_2, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k7_numbers)) => k6_supinf_2(A)=k4_member_1(A)) ) ).
 + fof(cc7_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k7_numbers)) => v2_membered(A)) ) ).
++ fof(redefinition_k6_supinf_2, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k7_numbers)) => k6_supinf_2(A)=k4_member_1(A)) ) ).
 + fof(t3_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) =>  (r1_tarski(A, B) <=> r1_tarski(k4_member_1(A), k4_member_1(B))) ) ) ) ) ).
 - fof(t5_supinf_2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(A, k1_zfmisc_1(k7_numbers)))  =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  (r2_hidden(B, A) <=> r2_hidden(k2_supinf_2(B), k6_supinf_2(A))) ) ) ) ) ).
 - fof(involutiveness_k6_supinf_2, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k7_numbers)) => k6_supinf_2(k6_supinf_2(A))=A) ) ).

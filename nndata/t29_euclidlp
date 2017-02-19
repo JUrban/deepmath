@@ -1,19 +1,19 @@
 C fof(t29_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  ~ ( (r1_xxreal_0(1, A) & k21_euclid(A)=k5_euclid(A)) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(t7_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k12_euclid(k5_euclid(A))=k6_numbers) ) ).
++ fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
++ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(d1_xboolean, axiom, k1_xboolean=k6_numbers).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(t24_square_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( (r1_xxreal_0(k6_numbers, A) & k6_square_1(A)=k6_numbers)  => A=k6_numbers) ) ) ).
 + fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
 + fof(l13_xreal_0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=k6_numbers).
-+ fof(t2_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) => r1_xxreal_0(k6_numbers, A)) ) ).
-+ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(rqRealAdd__k2_xcmplx_0__r1_rm1_r0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=0).
 + fof(rqLessOrEqual__r1_xxreal_0__r1_r0, axiom,  ~ (r1_xxreal_0(1, 0)) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(rqRealAdd__k2_xcmplx_0__r1_rm1_r0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=0).
++ fof(t24_square_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( (r1_xxreal_0(k6_numbers, A) & k6_square_1(A)=k6_numbers)  => A=k6_numbers) ) ) ).
++ fof(t2_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) => r1_xxreal_0(k6_numbers, A)) ) ).
 + fof(t73_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k12_euclid(k21_euclid(A))=k6_square_1(A)) ) ).
-+ fof(d1_xboolean, axiom, k1_xboolean=k6_numbers).
-+ fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
++ fof(t7_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k12_euclid(k5_euclid(A))=k6_numbers) ) ).
 - fof(redefinition_k21_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k21_euclid(A)=k20_euclid(A)) ) ).
 - fof(d12_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k22_euclid(A)=k21_euclid(A)) ) ).
 - fof(t72_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k10_euclid(A, k21_euclid(A))=k5_finseq_2(k1_numbers, A, 1)) ) ).

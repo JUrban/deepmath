@@ -1,8 +1,8 @@
 C fof(t45_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (r1_tarski(k9_xtuple_0(C), k2_zfmisc_1(A, B)) => r1_tarski(k9_xtuple_0(k2_funct_4(C)), k2_zfmisc_1(B, A))) ) ) ) ) ).
 + fof(d2_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (B=k2_funct_4(A) <=>  ( (! [C] :  (r2_hidden(C, k9_xtuple_0(B)) <=>  (? [D] :  (? [E] :  (C=k4_tarski(E, D) & r2_hidden(k4_tarski(D, E), k9_xtuple_0(A))) ) ) ) )  &  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), k9_xtuple_0(A)) => k1_binop_1(B, D, C)=k1_binop_1(A, C, D)) ) ) ) ) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 + fof(dt_k2_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_relat_1(k2_funct_4(A)) & v1_funct_1(k2_funct_4(A))) ) ) ).
 + fof(t88_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(A, B), k2_zfmisc_1(C, D)) => r2_hidden(k4_tarski(B, A), k2_zfmisc_1(D, C))) ) ) ) ) ).
-+ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 - fof(t44_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (? [B] :  (? [C] : r1_tarski(k9_xtuple_0(k2_funct_4(A)), k2_zfmisc_1(B, C))) ) ) ) ).
 - fof(t1_funct_4, axiom,  (! [A] :  ~ ( ( (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (! [D] :  ~ (B=k4_tarski(C, D)) ) ) ) ) )  &  (! [B] :  (! [C] :  ~ (r1_tarski(A, k2_zfmisc_1(B, C))) ) ) ) ) ) ).
 - fof(t42_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (r2_hidden(k4_tarski(A, B), k9_xtuple_0(C)) <=> r2_hidden(k4_tarski(B, A), k9_xtuple_0(k2_funct_4(C)))) ) ) ) ) ).

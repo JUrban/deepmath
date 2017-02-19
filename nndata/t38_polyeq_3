@@ -1,9 +1,9 @@
 C fof(t38_polyeq_3, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(A, k5_numbers))  =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (m1_comptrig(C, B, A) =>  (C=k6_numbers => B=k6_numbers) ) ) ) ) ) ) ).
-+ fof(t60_comptrig, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m1_comptrig(C, B, A) =>  (C=k6_numbers => B=k6_numbers) ) ) ) ) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(t60_comptrig, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m1_comptrig(C, B, A) =>  (C=k6_numbers => B=k6_numbers) ) ) ) ) ) ) ).
 - fof(t59_comptrig, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  (! [B] :  (m1_comptrig(B, k6_numbers, A) => B=k6_numbers) ) ) ) ).
 - fof(t58_comptrig, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) =>  (! [B] :  (m1_comptrig(B, A, 1) => B=A) ) ) ) ).
 - fof(d2_comptrig, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v7_ordinal1(B))  =>  (! [C] :  (v1_xcmplx_0(C) =>  (m1_comptrig(C, A, B) <=> k1_newton(C, B)=A) ) ) ) ) ) ) ).

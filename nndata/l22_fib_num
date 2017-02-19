@@ -1,12 +1,12 @@
 C fof(l22_fib_num, axiom,  ~ (r1_xxreal_0(k1_fib_num, k6_numbers)) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(dt_k1_fib_num, axiom, v1_xreal_0(k1_fib_num)).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(t1_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( (r1_xxreal_0(A, B) & v2_xxreal_0(A))  => v2_xxreal_0(B)) ) ) ) ) ).
 + fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
-+ fof(l21_fib_num, axiom,  ~ (r1_xxreal_0(k1_fib_num, 1)) ).
 + fof(d6_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (v2_xxreal_0(A) <=>  ~ (r1_xxreal_0(A, k6_numbers)) ) ) ) ).
++ fof(dt_k1_fib_num, axiom, v1_xreal_0(k1_fib_num)).
++ fof(l21_fib_num, axiom,  ~ (r1_xxreal_0(k1_fib_num, 1)) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t1_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( (r1_xxreal_0(A, B) & v2_xxreal_0(A))  => v2_xxreal_0(B)) ) ) ) ) ).
 - fof(d1_fib_num, axiom, k1_fib_num=k13_complex1(k2_xcmplx_0(1, k7_square_1(5)), 2)).
 - fof(l17_fib_num, axiom,  (k3_square_1(k1_fib_num)=k2_xcmplx_0(k1_fib_num, 1) & k3_square_1(k2_fib_num)=k2_xcmplx_0(k2_fib_num, 1)) ).
 - fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).

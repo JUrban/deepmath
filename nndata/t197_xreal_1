@@ -1,14 +1,14 @@
 C fof(t197_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  &  ( ~ (r1_xxreal_0(B, k4_xcmplx_0(A)))  & r1_xxreal_0(k7_xcmplx_0(B, A), k4_xcmplx_0(1))) ) ) ) ) ) ) ).
-+ fof(t25_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, k4_xcmplx_0(B)) => r1_xxreal_0(B, k4_xcmplx_0(A))) ) ) ) ) ).
-+ fof(t187_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k4_xcmplx_0(k7_xcmplx_0(A, B))=k7_xcmplx_0(k4_xcmplx_0(A), B)) ) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t60_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  ( ~ (A=k6_numbers)  => k7_xcmplx_0(A, A)=1) ) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
 + fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
 + fof(fc8_xreal_0, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => v1_xreal_0(k7_xcmplx_0(A, B))) ) ).
-+ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(t187_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k4_xcmplx_0(k7_xcmplx_0(A, B))=k7_xcmplx_0(k4_xcmplx_0(A), B)) ) ) ) ).
 + fof(t191_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  &  ( ~ (r1_xxreal_0(A, B))  & r1_xxreal_0(1, k7_xcmplx_0(B, A))) ) ) ) ) ) ) ).
++ fof(t25_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, k4_xcmplx_0(B)) => r1_xxreal_0(B, k4_xcmplx_0(A))) ) ) ) ) ).
++ fof(t60_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  ( ~ (A=k6_numbers)  => k7_xcmplx_0(A, A)=1) ) ) ).
 - fof(rqLessOrEqual__r1_xxreal_0__rn1d4_rm1, axiom,  ~ (r1_xxreal_0(k7_xcmplx_0(1, 4), k4_xcmplx_0(1))) ).
 - fof(rqLessOrEqual__r1_xxreal_0__rn3d4_rm1, axiom,  ~ (r1_xxreal_0(k7_xcmplx_0(3, 4), k4_xcmplx_0(1))) ).
 - fof(rqLessOrEqual__r1_xxreal_0__rnm1d4_rm1, axiom,  ~ (r1_xxreal_0(k7_xcmplx_0(k4_xcmplx_0(1), 4), k4_xcmplx_0(1))) ).

@@ -1,10 +1,10 @@
 C fof(t46_newton, axiom,  (! [A] :  (v7_ordinal1(A) => k5_nat_d(A, 1)=A) ) ).
++ fof(cc1_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => v7_ordinal1(A)) ) ).
 + fof(commutativity_k5_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k5_nat_d(A, B)=k5_nat_d(B, A)) ) ).
-+ fof(t6_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (r1_nat_d(A, k6_numbers) & r1_nat_d(1, A)) ) ) ).
++ fof(d2_xboolean, axiom, k2_xboolean=1).
 + fof(fc2_xboolean, axiom, v1_xboolean(k2_xboolean)).
 + fof(t44_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_nat_d(A, B) <=> k5_nat_d(A, B)=B) ) ) ) ) ).
-+ fof(cc1_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => v7_ordinal1(A)) ) ).
-+ fof(d2_xboolean, axiom, k2_xboolean=1).
++ fof(t6_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (r1_nat_d(A, k6_numbers) & r1_nat_d(1, A)) ) ) ).
 - fof(redefinition_k5_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k5_nat_d(A, B)=k2_int_2(A, B)) ) ).
 - fof(d4_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (C=k2_int_2(A, B) <=>  (r1_nat_d(A, C) &  (r1_nat_d(B, C) &  (! [D] :  (v7_ordinal1(D) =>  ( (r1_nat_d(A, D) & r1_nat_d(B, D))  => r1_nat_d(C, D)) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(reflexivity_r1_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => r1_nat_d(A, A)) ) ).

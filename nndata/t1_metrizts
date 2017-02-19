@@ -1,18 +1,18 @@
 C fof(t1_metrizts, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  ( (v2_pre_topc(B) & l1_pre_topc(B))  =>  (r1_borsuk_3(A, B) <=> r1_metrizts(A, B, k2_struct_0(A), k2_struct_0(B))) ) ) ) ) ).
-+ fof(redefinition_r1_borsuk_3, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & l1_pre_topc(B))  =>  (r1_borsuk_3(A, B) <=> r1_t_0topsp(A, B)) ) ) ).
++ fof(abstractness_v1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (v1_pre_topc(A) => A=g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))) ) ) ).
++ fof(d1_metrizts, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  ( (v2_pre_topc(B) & l1_pre_topc(B))  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(B))) =>  (r1_metrizts(A, B, C, D) <=> r1_borsuk_3(k1_pre_topc(A, C), k1_pre_topc(B, D))) ) ) ) ) ) ) ) ) ).
++ fof(dt_k1_pre_topc, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (v1_pre_topc(k1_pre_topc(A, B)) & m1_pre_topc(k1_pre_topc(A, B), A)) ) ) ).
++ fof(dt_k2_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => m1_subset_1(k2_struct_0(A), k1_zfmisc_1(u1_struct_0(A)))) ) ).
++ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
++ fof(dt_m1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_pre_topc(B, A) => l1_pre_topc(B)) ) ) ) ).
 + fof(fc3_pre_topc, axiom,  (! [A, B] :  ( ( (v2_pre_topc(A) & l1_pre_topc(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (v1_pre_topc(k1_pre_topc(A, B)) & v2_pre_topc(k1_pre_topc(A, B))) ) ) ).
++ fof(fc7_pre_topc, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_pre_topc(A))  =>  ( ~ (v2_struct_0(g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))))  & v1_pre_topc(g1_pre_topc(u1_struct_0(A), u1_pre_topc(A)))) ) ) ).
++ fof(l2_metrizts, axiom,  (! [A] :  ( (v2_struct_0(A) &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  ( (v2_struct_0(B) &  (v2_pre_topc(B) & l1_pre_topc(B)) )  => r1_borsuk_3(A, B)) ) ) ) ).
++ fof(redefinition_r1_borsuk_3, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & l1_pre_topc(B))  =>  (r1_borsuk_3(A, B) <=> r1_t_0topsp(A, B)) ) ) ).
++ fof(reflexivity_r1_borsuk_3, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & l1_pre_topc(B))  => r1_borsuk_3(A, A)) ) ).
 + fof(t15_topreala, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_pre_topc(B) & l1_pre_topc(B)) )  =>  (r1_t_0topsp(A, B) <=> r1_t_0topsp(g1_pre_topc(u1_struct_0(A), u1_pre_topc(A)), g1_pre_topc(u1_struct_0(B), u1_pre_topc(B)))) ) ) ) ) ).
 + fof(t18_yellow14, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (l1_pre_topc(B) =>  ( ~ ( ( ~ (r1_t_0topsp(A, B))  &  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, u1_struct_0(A), u1_struct_0(B)) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(B))))) )  =>  ~ ( (k1_relset_1(u1_struct_0(A), C)=k2_struct_0(A) & k2_relset_1(u1_struct_0(B), C)=k2_struct_0(B)) ) ) ) ) )  =>  (v2_struct_0(A) <=> v2_struct_0(B)) ) ) ) ) ) ).
-+ fof(l2_metrizts, axiom,  (! [A] :  ( (v2_struct_0(A) &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  ( (v2_struct_0(B) &  (v2_pre_topc(B) & l1_pre_topc(B)) )  => r1_borsuk_3(A, B)) ) ) ) ).
-+ fof(dt_k2_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => m1_subset_1(k2_struct_0(A), k1_zfmisc_1(u1_struct_0(A)))) ) ).
-+ fof(dt_k1_pre_topc, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (v1_pre_topc(k1_pre_topc(A, B)) & m1_pre_topc(k1_pre_topc(A, B), A)) ) ) ).
-+ fof(d1_metrizts, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  ( (v2_pre_topc(B) & l1_pre_topc(B))  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(B))) =>  (r1_metrizts(A, B, C, D) <=> r1_borsuk_3(k1_pre_topc(A, C), k1_pre_topc(B, D))) ) ) ) ) ) ) ) ) ).
-+ fof(dt_m1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_pre_topc(B, A) => l1_pre_topc(B)) ) ) ) ).
 + fof(t93_tsep_1, axiom,  (! [A] :  (l1_pre_topc(A) => k1_pre_topc(A, k2_struct_0(A))=g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))) ) ).
-+ fof(fc7_pre_topc, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_pre_topc(A))  =>  ( ~ (v2_struct_0(g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))))  & v1_pre_topc(g1_pre_topc(u1_struct_0(A), u1_pre_topc(A)))) ) ) ).
-+ fof(reflexivity_r1_borsuk_3, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & l1_pre_topc(B))  => r1_borsuk_3(A, A)) ) ).
-+ fof(abstractness_v1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (v1_pre_topc(A) => A=g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))) ) ) ).
-+ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
 - fof(t19_waybel25, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  ( (v2_pre_topc(B) & l1_pre_topc(B))  =>  (r1_borsuk_3(A, B) => r5_waybel_1(k1_waybel25(A), k1_waybel25(B))) ) ) ) ) ).
 - fof(d1_t_0topsp, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (l1_pre_topc(B) =>  (r1_t_0topsp(A, B) <=>  (? [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, u1_struct_0(A), u1_struct_0(B)) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(B))))) )  & v3_tops_2(C, A, B)) ) ) ) ) ) ) ).
 - fof(t40_borsuk_4, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(A))) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(k15_euclid(A))) =>  (r1_topreal1(k15_euclid(A), C, D, B) => r1_borsuk_3(k5_topmetr, k1_pre_topc(k15_euclid(A), B))) ) ) ) ) ) ) ) ) ).

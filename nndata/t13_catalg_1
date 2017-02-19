@@ -1,8 +1,8 @@
 C fof(t13_catalg_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (k7_catalg_1(A, C, E)=k7_catalg_1(B, D, F) =>  (A=B &  (C=D & E=F) ) ) ) ) ) ) ) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
-+ fof(d10_catalg_1, axiom,  (! [A] :  (! [B] :  (! [C] : k7_catalg_1(A, B, C)=k4_tarski(2, k11_finseq_1(A, B, C))) ) ) ).
-+ fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(d10_catalg_1, axiom,  (! [A] :  (! [B] :  (! [C] : k7_catalg_1(A, B, C)=k4_tarski(2, k11_finseq_1(A, B, C))) ) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
 + fof(t78_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (k11_finseq_1(A, B, C)=k11_finseq_1(D, E, F) =>  (A=D &  (B=E & C=F) ) ) ) ) ) ) ) ) ).
 - fof(redefinition_k10_catalg_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) & m1_subset_1(D, A)) ) )  => k10_catalg_1(A, B, C, D)=k7_catalg_1(B, C, D)) ) ).
 - fof(t10_catalg_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_catalg_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  (r2_hidden(k5_catalg_1(C), u4_struct_0(B)) &  (! [D] :  (m1_subset_1(D, A) =>  (r2_hidden(k6_catalg_1(C, D), u1_struct_0(B)) &  (! [E] :  (m1_subset_1(E, A) => r2_hidden(k7_catalg_1(C, D, E), u4_struct_0(B))) ) ) ) ) ) ) ) ) ) ) ) ).

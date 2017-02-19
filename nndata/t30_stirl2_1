@@ -1,14 +1,14 @@
 C fof(t30_stirl2_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (k3_stirl2_1(A, k6_numbers)=1 <=> A=k6_numbers) ) ) ).
-+ fof(t26_stirl2_1, axiom,  (! [A] :  (v7_ordinal1(A) => k3_stirl2_1(A, A)=1) ) ).
-+ fof(fraenkel_a_2_0_stirl2_1, axiom,  (! [A, B, C] :  ( (v7_ordinal1(B) & v7_ordinal1(C))  =>  (r2_hidden(A, a_2_0_stirl2_1(B, C)) <=>  (? [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, B, C) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(B, C)))) )  &  (A=D &  (v2_funct_2(D, C) & v1_stirl2_1(D, B, C)) ) ) ) ) ) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
-+ fof(fc1_card_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (v1_xboole_0(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
 + fof(cc7_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v7_ordinal1(A)) ) ).
 + fof(d1_stirl2_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (v1_stirl2_1(C, A, B) <=>  ( (A=k6_numbers => B=k6_numbers)  &  ( (B=k6_numbers => A=k6_numbers)  &  (! [D] :  (v7_ordinal1(D) =>  (! [E] :  (v7_ordinal1(E) =>  ~ ( (r2_hidden(D, k2_relset_1(B, C)) &  (r2_hidden(E, k2_relset_1(B, C)) &  ( ~ (r1_xxreal_0(E, D))  & r1_xxreal_0(k5_nat_1(k1_stirl2_1(A, B, C, k1_seq_4(E))), k5_nat_1(k1_stirl2_1(A, B, C, k1_seq_4(D))))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
 + fof(d2_stirl2_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) => k3_stirl2_1(A, B)=k1_card_1(a_2_0_stirl2_1(A, B))) ) ) ) ).
++ fof(fc1_card_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (v1_xboole_0(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(fraenkel_a_2_0_stirl2_1, axiom,  (! [A, B, C] :  ( (v7_ordinal1(B) & v7_ordinal1(C))  =>  (r2_hidden(A, a_2_0_stirl2_1(B, C)) <=>  (? [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, B, C) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(B, C)))) )  &  (A=D &  (v2_funct_2(D, C) & v1_stirl2_1(D, B, C)) ) ) ) ) ) ) ).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(spc1_boole, axiom,  ~ (v1_xboole_0(1)) ).
++ fof(t26_stirl2_1, axiom,  (! [A] :  (v7_ordinal1(A) => k3_stirl2_1(A, A)=1) ) ).
 - fof(t27_stirl2_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (A=k6_numbers)  => k3_stirl2_1(k6_numbers, A)=k6_numbers) ) ) ).
 - fof(t28_stirl2_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (k3_stirl2_1(k6_numbers, A)=1 <=> A=k6_numbers) ) ) ).
 - fof(t29_stirl2_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( ~ (r1_xxreal_0(B, A))  => k3_stirl2_1(A, B)=k6_numbers) ) ) ) ) ).

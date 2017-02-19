@@ -1,9 +1,9 @@
 C fof(t4_matrix_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(1, 1), k2_matrix_1(k3_matrix_2(A, B, C, D))) &  (r2_hidden(k4_tarski(1, 2), k2_matrix_1(k3_matrix_2(A, B, C, D))) &  (r2_hidden(k4_tarski(2, 1), k2_matrix_1(k3_matrix_2(A, B, C, D))) & r2_hidden(k4_tarski(2, 2), k2_matrix_1(k3_matrix_2(A, B, C, D)))) ) ) ) ) ) ) ).
-+ fof(t2_finseq_1, axiom,  (k2_finseq_1(1)=k1_tarski(1) & k2_finseq_1(2)=k2_tarski(1, 2)) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
 + fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
-+ fof(t87_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(A, B), k2_zfmisc_1(C, D)) <=>  (r2_hidden(A, C) & r2_hidden(B, D)) ) ) ) ) ) ).
++ fof(t2_finseq_1, axiom,  (k2_finseq_1(1)=k1_tarski(1) & k2_finseq_1(2)=k2_tarski(1, 2)) ).
 + fof(t3_matrix_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k3_finseq_1(k3_matrix_2(A, B, C, D))=2 &  (k1_matrix_1(k3_matrix_2(A, B, C, D))=2 & k2_matrix_1(k3_matrix_2(A, B, C, D))=k2_zfmisc_1(k2_finseq_1(2), k2_finseq_1(2))) ) ) ) ) ) ).
++ fof(t87_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(A, B), k2_zfmisc_1(C, D)) <=>  (r2_hidden(A, C) & r2_hidden(B, D)) ) ) ) ) ) ).
 - fof(dt_k3_matrix_2, axiom,  (! [A, B, C, D] :  (v1_relat_1(k3_matrix_2(A, B, C, D)) &  (v1_funct_1(k3_matrix_2(A, B, C, D)) &  (v1_finseq_1(k3_matrix_2(A, B, C, D)) & v1_matrix_1(k3_matrix_2(A, B, C, D))) ) ) ) ).
 - fof(d2_matrix_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k3_matrix_2(A, B, C, D)=k10_finseq_1(k10_finseq_1(A, B), k10_finseq_1(C, D))) ) ) ) ).
 - fof(l39_arytm_3, axiom, r2_hidden(k4_tarski(1, 1), a_0_0_arytm_3)).

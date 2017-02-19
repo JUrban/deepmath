@@ -1,8 +1,8 @@
 C fof(t37_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  ( (r5_rewrite1(A, B, C) | r6_rewrite1(A, B, C))  => r2_rewrite1(A, B, C)) ) ) ) ) ).
-+ fof(t30_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (! [D] :  ( (r2_rewrite1(A, B, C) & r2_rewrite1(A, C, D))  => r2_rewrite1(A, B, D)) ) ) ) ) ) ).
++ fof(d7_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r5_rewrite1(A, B, C) <=>  (? [D] :  (r1_rewrite1(A, B, D) & r1_rewrite1(A, C, D)) ) ) ) ) ) ) ).
 + fof(d8_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r6_rewrite1(A, B, C) <=>  (? [D] :  (r1_rewrite1(A, D, B) & r1_rewrite1(A, D, C)) ) ) ) ) ) ) ).
 + fof(t25_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) =>  (r2_rewrite1(A, B, C) & r2_rewrite1(A, C, B)) ) ) ) ) ) ).
-+ fof(d7_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r5_rewrite1(A, B, C) <=>  (? [D] :  (r1_rewrite1(A, B, D) & r1_rewrite1(A, C, D)) ) ) ) ) ) ) ).
++ fof(t30_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (! [D] :  ( (r2_rewrite1(A, B, C) & r2_rewrite1(A, C, D))  => r2_rewrite1(A, B, D)) ) ) ) ) ) ).
 - fof(t12_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] : r1_rewrite1(A, B, B)) ) ) ).
 - fof(t36_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) =>  (r5_rewrite1(A, B, C) &  (r6_rewrite1(A, B, C) &  (r5_rewrite1(A, C, B) & r6_rewrite1(A, C, B)) ) ) ) ) ) ) ) ).
 - fof(l33_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r2_rewrite1(A, B, C) => r2_rewrite1(A, C, B)) ) ) ) ) ).

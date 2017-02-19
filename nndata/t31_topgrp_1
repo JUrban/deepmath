@@ -1,17 +1,17 @@
 C fof(t31_topgrp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m3_topgrp_1(B, A) =>  (! [C] :  (m3_topgrp_1(C, A) => m3_topgrp_1(k1_partfun1(u1_struct_0(A), u1_struct_0(A), u1_struct_0(A), u1_struct_0(A), C, B), A)) ) ) ) ) ) ).
++ fof(cc3_relset_1, axiom,  (! [A, B] :  (v1_xboole_0(A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_xboole_0(C)) ) ) ) ).
++ fof(cc4_topgrp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m2_topgrp_1(B, A) => v3_tops_2(B, A, A)) ) ) ) ).
++ fof(d4_topgrp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, u1_struct_0(A), u1_struct_0(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) )  =>  (m2_topgrp_1(B, A) <=> v3_tops_2(B, A, A)) ) ) ) ) ).
++ fof(dt_k1_partfun1, axiom,  (! [A, B, C, D, E, F] :  ( ( (v1_funct_1(E) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(A, B))))  &  (v1_funct_1(F) & m1_subset_1(F, k1_zfmisc_1(k2_zfmisc_1(C, D)))) )  =>  (v1_funct_1(k1_partfun1(A, B, C, D, E, F)) & m1_subset_1(k1_partfun1(A, B, C, D, E, F), k1_zfmisc_1(k2_zfmisc_1(A, D)))) ) ) ).
++ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
++ fof(dt_m2_topgrp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m2_topgrp_1(B, A) =>  (v1_funct_1(B) &  (v1_funct_2(B, u1_struct_0(A), u1_struct_0(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ) ) ) ) ).
++ fof(fc1_struct_0, axiom,  (! [A] :  ( (v2_struct_0(A) & l1_struct_0(A))  => v1_xboole_0(u1_struct_0(A))) ) ).
++ fof(fc4_funct_2, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  &  (v1_funct_1(D) &  (v1_funct_2(D, A, A) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  =>  (v1_funct_1(k3_relat_1(D, C)) & v1_funct_2(k3_relat_1(D, C), A, B)) ) ) ).
++ fof(redefinition_k1_partfun1, axiom,  (! [A, B, C, D, E, F] :  ( ( (v1_funct_1(E) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(A, B))))  &  (v1_funct_1(F) & m1_subset_1(F, k1_zfmisc_1(k2_zfmisc_1(C, D)))) )  => k1_partfun1(A, B, C, D, E, F)=k3_relat_1(E, F)) ) ).
++ fof(redefinition_m3_topgrp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m3_topgrp_1(B, A) <=> m2_topgrp_1(B, A)) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 + fof(t57_tops_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_pre_topc(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & l1_pre_topc(B))  =>  (! [C] :  ( ( ~ (v2_struct_0(C))  & l1_pre_topc(C))  =>  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, u1_struct_0(A), u1_struct_0(B)) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(B))))) )  =>  (! [E] :  ( (v1_funct_1(E) &  (v1_funct_2(E, u1_struct_0(B), u1_struct_0(C)) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(B), u1_struct_0(C))))) )  =>  ( (v3_tops_2(D, A, B) & v3_tops_2(E, B, C))  => v3_tops_2(k1_partfun1(u1_struct_0(A), u1_struct_0(B), u1_struct_0(B), u1_struct_0(C), D, E), A, C)) ) ) ) ) ) ) ) ) ) ) ).
 + fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(dt_m2_topgrp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m2_topgrp_1(B, A) =>  (v1_funct_1(B) &  (v1_funct_2(B, u1_struct_0(A), u1_struct_0(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ) ) ) ) ).
-+ fof(redefinition_k1_partfun1, axiom,  (! [A, B, C, D, E, F] :  ( ( (v1_funct_1(E) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(A, B))))  &  (v1_funct_1(F) & m1_subset_1(F, k1_zfmisc_1(k2_zfmisc_1(C, D)))) )  => k1_partfun1(A, B, C, D, E, F)=k3_relat_1(E, F)) ) ).
-+ fof(dt_k1_partfun1, axiom,  (! [A, B, C, D, E, F] :  ( ( (v1_funct_1(E) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(A, B))))  &  (v1_funct_1(F) & m1_subset_1(F, k1_zfmisc_1(k2_zfmisc_1(C, D)))) )  =>  (v1_funct_1(k1_partfun1(A, B, C, D, E, F)) & m1_subset_1(k1_partfun1(A, B, C, D, E, F), k1_zfmisc_1(k2_zfmisc_1(A, D)))) ) ) ).
-+ fof(redefinition_m3_topgrp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m3_topgrp_1(B, A) <=> m2_topgrp_1(B, A)) ) ) ) ).
-+ fof(d4_topgrp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, u1_struct_0(A), u1_struct_0(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) )  =>  (m2_topgrp_1(B, A) <=> v3_tops_2(B, A, A)) ) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(cc4_topgrp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m2_topgrp_1(B, A) => v3_tops_2(B, A, A)) ) ) ) ).
-+ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
-+ fof(fc1_struct_0, axiom,  (! [A] :  ( (v2_struct_0(A) & l1_struct_0(A))  => v1_xboole_0(u1_struct_0(A))) ) ).
-+ fof(cc3_relset_1, axiom,  (! [A, B] :  (v1_xboole_0(A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_xboole_0(C)) ) ) ) ).
-+ fof(fc4_funct_2, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  &  (v1_funct_1(D) &  (v1_funct_2(D, A, A) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  =>  (v1_funct_1(k3_relat_1(D, C)) & v1_funct_2(k3_relat_1(D, C), A, B)) ) ) ).
 - fof(t30_topgrp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m3_topgrp_1(B, A) => m3_topgrp_1(k2_tops_2(u1_struct_0(A), u1_struct_0(A), B), A)) ) ) ) ).
 - fof(dt_m3_topgrp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m3_topgrp_1(B, A) => m1_topgrp_1(B, A, A)) ) ) ) ).
 - fof(existence_m3_topgrp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (? [B] : m3_topgrp_1(B, A)) ) ) ).

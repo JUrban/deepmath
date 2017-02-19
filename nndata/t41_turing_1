@@ -1,14 +1,14 @@
 C fof(t41_turing_1, axiom,  (! [A] :  (l1_turing_1(A) =>  (! [B] :  (l1_turing_1(B) =>  (! [C] :  (m1_subset_1(C, u2_turing_1(B)) => r2_hidden(k1_domain_1(u2_turing_1(A), u2_turing_1(B), u5_turing_1(A), C), k21_turing_1(A, B))) ) ) ) ) ) ).
-+ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(t105_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(A, B), k2_zfmisc_1(k1_tarski(C), D)) <=>  (A=C & r2_hidden(B, D)) ) ) ) ) ) ).
-+ fof(t98_xboole_1, axiom,  (! [A] :  (! [B] : k2_xboole_0(A, B)=k5_xboole_0(A, k4_xboole_0(B, A))) ) ).
-+ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
 + fof(d22_turing_1, axiom,  (! [A] :  (l1_turing_1(A) =>  (! [B] :  (l1_turing_1(B) => k21_turing_1(A, B)=k2_xboole_0(k2_zfmisc_1(u2_turing_1(A), k6_domain_1(u2_turing_1(B), u4_turing_1(B))), k2_zfmisc_1(k6_domain_1(u2_turing_1(A), u5_turing_1(A)), u2_turing_1(B)))) ) ) ) ).
-+ fof(t100_xboole_1, axiom,  (! [A] :  (! [B] : k4_xboole_0(A, B)=k5_xboole_0(A, k3_xboole_0(A, B))) ) ).
-+ fof(dt_u5_turing_1, axiom,  (! [A] :  (l1_turing_1(A) => m1_subset_1(u5_turing_1(A), u2_turing_1(A))) ) ).
-+ fof(dt_u2_turing_1, axiom,  (! [A] :  (l1_turing_1(A) =>  ( ~ (v1_xboole_0(u2_turing_1(A)))  & v1_finset_1(u2_turing_1(A))) ) ) ).
 + fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(dt_u2_turing_1, axiom,  (! [A] :  (l1_turing_1(A) =>  ( ~ (v1_xboole_0(u2_turing_1(A)))  & v1_finset_1(u2_turing_1(A))) ) ) ).
++ fof(dt_u5_turing_1, axiom,  (! [A] :  (l1_turing_1(A) => m1_subset_1(u5_turing_1(A), u2_turing_1(A))) ) ).
++ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
++ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
++ fof(t100_xboole_1, axiom,  (! [A] :  (! [B] : k4_xboole_0(A, B)=k5_xboole_0(A, k3_xboole_0(A, B))) ) ).
++ fof(t105_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(A, B), k2_zfmisc_1(k1_tarski(C), D)) <=>  (A=C & r2_hidden(B, D)) ) ) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t98_xboole_1, axiom,  (! [A] :  (! [B] : k2_xboole_0(A, B)=k5_xboole_0(A, k4_xboole_0(B, A))) ) ).
 - fof(t39_turing_1, axiom,  (! [A] :  (l1_turing_1(A) =>  (! [B] :  (l1_turing_1(B) =>  (r2_hidden(k1_domain_1(u2_turing_1(A), u2_turing_1(B), u4_turing_1(A), u4_turing_1(B)), k21_turing_1(A, B)) & r2_hidden(k1_domain_1(u2_turing_1(A), u2_turing_1(B), u5_turing_1(A), u5_turing_1(B)), k21_turing_1(A, B))) ) ) ) ) ).
 - fof(t40_turing_1, axiom,  (! [A] :  (l1_turing_1(A) =>  (! [B] :  (l1_turing_1(B) =>  (! [C] :  (m1_subset_1(C, u2_turing_1(A)) => r2_hidden(k1_domain_1(u2_turing_1(A), u2_turing_1(B), C, u4_turing_1(B)), k21_turing_1(A, B))) ) ) ) ) ) ).
 - fof(d6_turing_1, axiom,  (! [A] :  (l1_turing_1(A) =>  (! [B] :  (m1_subset_1(B, k3_zfmisc_1(u2_turing_1(A), k4_numbers, k9_funct_2(k4_numbers, u1_turing_1(A)))) =>  ( ( ~ (k1_mcart_1(u2_turing_1(A), k4_numbers, k9_funct_2(k4_numbers, u1_turing_1(A)), B)=u5_turing_1(A))  => k9_turing_1(A, B)=k3_xtuple_0(k1_mcart_1(u2_turing_1(A), u1_turing_1(A), k8_domain_1(k1_numbers, k1_real_1(1), k6_numbers, 1), k8_turing_1(A, B)), k2_xcmplx_0(k7_turing_1(A, B), k6_turing_1(A, k8_turing_1(A, B))), k5_turing_1(A, k3_mcart_1(u2_turing_1(A), k4_numbers, k9_funct_2(k4_numbers, u1_turing_1(A)), B), k7_turing_1(A, B), k2_mcart_1(u2_turing_1(A), u1_turing_1(A), k8_domain_1(k1_numbers, k1_real_1(1), k6_numbers, 1), k8_turing_1(A, B)))))  &  (k1_mcart_1(u2_turing_1(A), k4_numbers, k9_funct_2(k4_numbers, u1_turing_1(A)), B)=u5_turing_1(A) => k9_turing_1(A, B)=B) ) ) ) ) ) ).

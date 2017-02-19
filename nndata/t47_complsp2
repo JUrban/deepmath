@@ -1,9 +1,9 @@
 C fof(t47_complsp2, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) =>  (! [C] :  (m2_finseq_1(C, k1_numbers) =>  (! [D] :  (m2_finseq_1(D, k1_numbers) =>  ( (A=C &  (B=D & k3_finseq_1(A)=k3_finseq_1(D)) )  => k9_seq_4(A, B)=k4_rvsum_1(C, D)) ) ) ) ) ) ) ) ) ).
 + fof(cc4_seqm_3, axiom,  (! [A] :  (m1_finseq_1(A, k1_numbers) => v3_valued_0(A)) ) ).
-+ fof(redefinition_k4_rvsum_1, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v3_valued_0(A) & v1_finseq_1(A)) ) )  &  (v1_relat_1(B) &  (v1_funct_1(B) &  (v3_valued_0(B) & v1_finseq_1(B)) ) ) )  => k4_rvsum_1(A, B)=k1_valued_1(A, B)) ) ).
 + fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(redefinition_k4_rvsum_1, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v3_valued_0(A) & v1_finseq_1(A)) ) )  &  (v1_relat_1(B) &  (v1_funct_1(B) &  (v3_valued_0(B) & v1_finseq_1(B)) ) ) )  => k4_rvsum_1(A, B)=k1_valued_1(A, B)) ) ).
 + fof(redefinition_k9_seq_4, axiom,  (! [A, B] :  ( (m1_finseq_1(A, k2_numbers) & m1_finseq_1(B, k2_numbers))  => k9_seq_4(A, B)=k1_valued_1(A, B)) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 - fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
 - fof(t30_complsp2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) =>  (! [C] :  (m2_finseq_1(C, k2_numbers) =>  (k3_finseq_1(B)=k3_finseq_1(C) => k12_seq_4(k9_seq_4(B, C), A)=k9_seq_4(k12_seq_4(B, A), k12_seq_4(C, A))) ) ) ) ) ) ) ).
 - fof(t19_complsp2, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) =>  (k3_finseq_1(A)=k3_finseq_1(B) => k1_complsp2(k9_seq_4(A, B))=k9_seq_4(k1_complsp2(A), k1_complsp2(B))) ) ) ) ) ).

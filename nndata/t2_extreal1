@@ -1,10 +1,10 @@
 C fof(t2_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  ( (A=C & B=D)  => k2_extreal1(A, B)=k12_binop_2(C, D)) ) ) ) ) ) ) ) ) ).
++ fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
 + fof(fc3_membered, axiom, v3_membered(k1_numbers)).
 + fof(ie6_xxreal_3, axiom,  (! [A, B, C, D] :  ( (v1_xreal_0(A) &  (v1_xreal_0(B) &  (v1_xcmplx_0(C) & v1_xcmplx_0(D)) ) )  =>  ( (A=C & B=D)  => k6_xxreal_3(A, B)=k7_xcmplx_0(C, D)) ) ) ).
-+ fof(redefinition_k2_extreal1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k2_extreal1(A, B)=k6_xxreal_3(A, B)) ) ).
-+ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
 + fof(redefinition_k12_binop_2, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k12_binop_2(A, B)=k7_xcmplx_0(A, B)) ) ).
-+ fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
++ fof(redefinition_k2_extreal1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k2_extreal1(A, B)=k6_xxreal_3(A, B)) ) ).
 - fof(dt_k2_extreal1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => m1_subset_1(k2_extreal1(A, B), k7_numbers)) ) ).
 - fof(t31_seq_4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k5_numbers, k1_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  ( (r1_xxreal_0(k6_numbers, A) &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) => k8_nat_1(k1_numbers, C, D)=k12_binop_2(B, k9_binop_2(D, A))) ) )  =>  (v2_comseq_2(C) & k2_seq_2(C)=k6_numbers) ) ) ) ) ) ) ) ).
 - fof(t35_seq_4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k5_numbers, k1_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  ( (r1_xxreal_0(k6_numbers, A) &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) => k8_nat_1(k1_numbers, C, D)=k12_binop_2(B, k9_binop_2(k4_nat_1(D, D), A))) ) )  =>  (v2_comseq_2(C) & k2_seq_2(C)=k6_numbers) ) ) ) ) ) ) ) ).

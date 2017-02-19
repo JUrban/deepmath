@@ -1,13 +1,13 @@
 C fof(t30_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (k3_tarski(A)=k1_tarski(B) => A=k2_tarski(k1_xboole_0, k1_tarski(B))) ) ) ) ).
-+ fof(t27_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => A=k2_xboole_0(k2_xboole_0(k1_tarski(k1_xboole_0), k9_bspace(k3_tarski(A))), k1_scmyciel(A))) ) ).
-+ fof(t6_scmyciel, axiom,  (! [A] : k9_bspace(k1_tarski(A))=k1_tarski(k1_tarski(A))) ).
-+ fof(redefinition_k9_bspace, axiom,  (! [A] : k9_bspace(A)=k8_bspace(A)) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
 + fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
++ fof(redefinition_k9_bspace, axiom,  (! [A] : k9_bspace(A)=k8_bspace(A)) ).
++ fof(t11_scmyciel, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(B, k1_scmyciel(A)) &  (! [C] :  (! [D] :  ~ ( ( ~ (C=D)  &  (r2_hidden(C, k3_tarski(A)) &  (r2_hidden(D, k3_tarski(A)) & B=k2_tarski(C, D)) ) ) ) ) ) ) ) ) ) ).
 + fof(t1_boole, axiom,  (! [A] : k2_xboole_0(A, k1_xboole_0)=A) ).
 + fof(t1_enumset1, axiom,  (! [A] :  (! [B] : k2_tarski(A, B)=k2_xboole_0(k1_tarski(A), k1_tarski(B))) ) ).
-+ fof(t11_scmyciel, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(B, k1_scmyciel(A)) &  (! [C] :  (! [D] :  ~ ( ( ~ (C=D)  &  (r2_hidden(C, k3_tarski(A)) &  (r2_hidden(D, k3_tarski(A)) & B=k2_tarski(C, D)) ) ) ) ) ) ) ) ) ) ).
++ fof(t27_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => A=k2_xboole_0(k2_xboole_0(k1_tarski(k1_xboole_0), k9_bspace(k3_tarski(A))), k1_scmyciel(A))) ) ).
 + fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(t6_scmyciel, axiom,  (! [A] : k9_bspace(k1_tarski(A))=k1_tarski(k1_tarski(A))) ).
 - fof(t24_zfmisc_1, axiom,  (! [A] : k1_zfmisc_1(k1_tarski(A))=k2_tarski(k1_xboole_0, k1_tarski(A))) ).
 - fof(t81_zfmisc_1, axiom,  (! [A] : k3_tarski(k1_zfmisc_1(A))=A) ).
 - fof(t8_scmyciel, axiom,  (! [A] : k3_tarski(k2_tarski(k1_xboole_0, k1_tarski(A)))=k1_tarski(A)) ).

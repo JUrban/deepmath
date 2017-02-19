@@ -1,9 +1,9 @@
 C fof(t5_necklace, axiom,  (! [A] : k1_card_1(k6_partfun1(A))=k1_card_1(A)) ).
-+ fof(redefinition_k6_partfun1, axiom,  (! [A] : k6_partfun1(A)=k4_relat_1(A)) ).
 + fof(dt_k4_relat_1, axiom,  (! [A] : v1_relat_1(k4_relat_1(A))) ).
-+ fof(rd1_relat_1, axiom,  (! [A] : k9_xtuple_0(k4_relat_1(A))=A) ).
-+ fof(t62_card_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => k1_card_1(A)=k1_card_1(k9_xtuple_0(A))) ) ).
 + fof(fc3_funct_1, axiom,  (! [A] :  (v1_relat_1(k4_relat_1(A)) & v1_funct_1(k4_relat_1(A))) ) ).
++ fof(rd1_relat_1, axiom,  (! [A] : k9_xtuple_0(k4_relat_1(A))=A) ).
++ fof(redefinition_k6_partfun1, axiom,  (! [A] : k6_partfun1(A)=k4_relat_1(A)) ).
++ fof(t62_card_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => k1_card_1(A)=k1_card_1(k9_xtuple_0(A))) ) ).
 - fof(t5_card_1, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, B) <=> k1_card_1(A)=k1_card_1(B)) ) ) ).
 - fof(l30_group_10, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ~ (v1_xboole_0(B))  => k1_card_1(a_2_2_group_10(A, B))=k1_card_1(B)) ) ) ) ).
 - fof(l34_group_10, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => k1_card_1(B)=k1_card_1(k5_group_2(A, C, B))) ) ) ) ) ) ).

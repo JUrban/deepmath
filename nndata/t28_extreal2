@@ -1,13 +1,13 @@
 C fof(t28_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) => k3_supinf_2(k2_extreal2(A, B), k1_extreal2(A, B))=k3_supinf_2(A, B)) ) ) ) ).
-+ fof(redefinition_k2_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k2_extreal2(A, B)=k3_xxreal_0(A, B)) ) ).
-+ fof(dt_k2_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => m1_subset_1(k2_extreal2(A, B), k7_numbers)) ) ).
-+ fof(d10_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(B, A) => k4_xxreal_0(A, B)=A)  &  ( ~ (r1_xxreal_0(B, A))  => k4_xxreal_0(A, B)=B) ) ) ) ) ) ).
-+ fof(commutativity_k3_supinf_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k3_supinf_2(A, B)=k3_supinf_2(B, A)) ) ).
-+ fof(d9_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(A, B) => k3_xxreal_0(A, B)=A)  &  ( ~ (r1_xxreal_0(A, B))  => k3_xxreal_0(A, B)=B) ) ) ) ) ) ).
-+ fof(commutativity_k2_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k2_extreal2(A, B)=k2_extreal2(B, A)) ) ).
-+ fof(redefinition_k1_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k1_extreal2(A, B)=k4_xxreal_0(A, B)) ) ).
-+ fof(dt_k1_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => m1_subset_1(k1_extreal2(A, B), k7_numbers)) ) ).
 + fof(cc1_xxreal_0, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => v1_xxreal_0(A)) ) ).
++ fof(commutativity_k2_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k2_extreal2(A, B)=k2_extreal2(B, A)) ) ).
++ fof(commutativity_k3_supinf_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k3_supinf_2(A, B)=k3_supinf_2(B, A)) ) ).
++ fof(d10_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(B, A) => k4_xxreal_0(A, B)=A)  &  ( ~ (r1_xxreal_0(B, A))  => k4_xxreal_0(A, B)=B) ) ) ) ) ) ).
++ fof(d9_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(A, B) => k3_xxreal_0(A, B)=A)  &  ( ~ (r1_xxreal_0(A, B))  => k3_xxreal_0(A, B)=B) ) ) ) ) ) ).
++ fof(dt_k1_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => m1_subset_1(k1_extreal2(A, B), k7_numbers)) ) ).
++ fof(dt_k2_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => m1_subset_1(k2_extreal2(A, B), k7_numbers)) ) ).
++ fof(redefinition_k1_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k1_extreal2(A, B)=k4_xxreal_0(A, B)) ) ).
++ fof(redefinition_k2_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k2_extreal2(A, B)=k3_xxreal_0(A, B)) ) ).
 - fof(idempotence_k2_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k2_extreal2(A, A)=A) ) ).
 - fof(commutativity_k1_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k1_extreal2(A, B)=k1_extreal2(B, A)) ) ).
 - fof(idempotence_k1_extreal2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k1_extreal2(A, A)=A) ) ).

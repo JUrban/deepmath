@@ -1,9 +1,9 @@
 C fof(t117_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (! [C] :  (v1_membered(C) =>  (! [D] :  (v1_membered(D) =>  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k15_member_1(A, C), k15_member_1(B, D))) ) ) ) ) ) ) ) ) ).
-+ fof(l36_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (r1_tarski(A, B) => r1_tarski(k7_member_1(A), k7_member_1(B))) ) ) ) ) ).
-+ fof(t91_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (! [C] :  (v1_membered(C) =>  (! [D] :  (v1_membered(D) =>  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k13_member_1(A, C), k13_member_1(B, D))) ) ) ) ) ) ) ) ) ).
-+ fof(t19_membered, axiom,  (! [A] :  (! [B] :  (v1_membered(B) =>  (r1_tarski(A, B) => v1_membered(A)) ) ) ) ).
-+ fof(dt_k7_member_1, axiom,  (! [A] :  (v1_membered(A) => v1_membered(k7_member_1(A))) ) ).
 + fof(d12_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) => k15_member_1(A, B)=k13_member_1(A, k7_member_1(B))) ) ) ) ).
++ fof(dt_k7_member_1, axiom,  (! [A] :  (v1_membered(A) => v1_membered(k7_member_1(A))) ) ).
++ fof(l36_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (r1_tarski(A, B) => r1_tarski(k7_member_1(A), k7_member_1(B))) ) ) ) ) ).
++ fof(t19_membered, axiom,  (! [A] :  (! [B] :  (v1_membered(B) =>  (r1_tarski(A, B) => v1_membered(A)) ) ) ) ).
++ fof(t91_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (! [C] :  (v1_membered(C) =>  (! [D] :  (v1_membered(D) =>  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k13_member_1(A, C), k13_member_1(B, D))) ) ) ) ) ) ) ) ) ).
 - fof(t115_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) => k15_member_1(A, B)=a_2_7_member_1(A, B)) ) ) ) ).
 - fof(fc56_member_1, axiom,  (! [A, B] :  ( (v1_xboole_0(A) & v1_membered(B))  => v1_xboole_0(k15_member_1(B, A))) ) ).
 - fof(fc57_member_1, axiom,  (! [A, B] :  ( ( ( ~ (v1_xboole_0(A))  & v1_membered(A))  &  ( ~ (v1_xboole_0(B))  & v1_membered(B)) )  =>  ~ (v1_xboole_0(k15_member_1(A, B))) ) ) ).

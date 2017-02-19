@@ -1,15 +1,15 @@
 C fof(t13_openlatt, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v11_lattices(A) & l3_lattices(A)) ) )  =>  (! [B] :  (r2_hidden(B, k9_openlatt(A)) <=>  (? [C] :  (m1_subset_1(C, u1_struct_0(A)) & B=k1_funct_1(k8_openlatt(A), C)) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(d6_openlatt, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v11_lattices(A) & l3_lattices(A)) ) )  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (B=k8_openlatt(A) <=>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (k9_xtuple_0(B)=u1_struct_0(A) & k1_funct_1(B, C)=a_2_0_openlatt(A, C)) ) ) ) ) ) ) ) ).
-+ fof(dt_k8_openlatt, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v11_lattices(A) & l3_lattices(A)) ) )  =>  (v1_relat_1(k8_openlatt(A)) & v1_funct_1(k8_openlatt(A))) ) ) ).
 + fof(d3_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (B=k10_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(D, k9_xtuple_0(A)) & C=k1_funct_1(A, D)) ) ) ) ) ) ) ) ).
-+ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
++ fof(d6_openlatt, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v11_lattices(A) & l3_lattices(A)) ) )  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (B=k8_openlatt(A) <=>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (k9_xtuple_0(B)=u1_struct_0(A) & k1_funct_1(B, C)=a_2_0_openlatt(A, C)) ) ) ) ) ) ) ) ).
 + fof(d7_openlatt, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v11_lattices(A) & l3_lattices(A)) ) )  => k9_openlatt(A)=k10_xtuple_0(k8_openlatt(A))) ) ).
++ fof(dt_k8_openlatt, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v11_lattices(A) & l3_lattices(A)) ) )  =>  (v1_relat_1(k8_openlatt(A)) & v1_funct_1(k8_openlatt(A))) ) ) ).
 + fof(existence_m1_subset_1, axiom,  (! [A] :  (? [B] : m1_subset_1(B, A)) ) ).
 + fof(fc4_openlatt, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v11_lattices(A) & l3_lattices(A)) ) )  =>  ~ (v1_xboole_0(k9_openlatt(A))) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
 - fof(fraenkel_a_2_0_openlatt, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(B))  &  (v10_lattices(B) &  (v11_lattices(B) & l3_lattices(B)) ) )  & m1_subset_1(C, u1_struct_0(B)))  =>  (r2_hidden(A, a_2_0_openlatt(B, C)) <=>  (? [D] :  ( ( ~ (v1_xboole_0(D))  &  (v19_lattices(D, B) &  (v20_lattices(D, B) & m1_subset_1(D, k1_zfmisc_1(u1_struct_0(B)))) ) )  &  (A=D &  (r2_hidden(D, k7_openlatt(B)) & r2_hidden(C, D)) ) ) ) ) ) ) ).
 - fof(t11_openlatt, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v11_lattices(A) & l3_lattices(A)) ) )  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v19_lattices(B, A) &  (v20_lattices(B, A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A)))) ) )  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r2_hidden(B, k1_funct_1(k8_openlatt(A), C)) <=>  (r2_hidden(B, k7_openlatt(A)) & r2_hidden(C, B)) ) ) ) ) ) ) ) ).
 - fof(t12_openlatt, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) &  (v11_lattices(A) & l3_lattices(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (r2_hidden(C, k1_funct_1(k8_openlatt(A), B)) <=>  (? [D] :  ( ( ~ (v1_xboole_0(D))  &  (v19_lattices(D, A) &  (v20_lattices(D, A) & m1_subset_1(D, k1_zfmisc_1(u1_struct_0(A)))) ) )  &  (D=C &  ( ~ (D=u1_struct_0(A))  &  (v2_filter_0(D, A) & r2_hidden(B, D)) ) ) ) ) ) ) ) ) ) ) ).

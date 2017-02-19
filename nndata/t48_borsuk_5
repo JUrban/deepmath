@@ -1,10 +1,10 @@
 C fof(t48_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  ~ (k2_rcomp_1(k2_xxreal_0, A)=k1_numbers) ) ) ).
-+ fof(redefinition_k2_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k2_rcomp_1(A, B)=k4_xxreal_1(A, B)) ) ).
-+ fof(fc2_xxreal_0, axiom, v1_xxreal_0(k2_xxreal_0)).
-+ fof(t233_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r2_hidden(B, k4_xxreal_1(k2_xxreal_0, A)) <=>  ~ (r1_xxreal_0(A, B)) ) ) ) ) ) ).
-+ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
 + fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
++ fof(fc2_xxreal_0, axiom, v1_xxreal_0(k2_xxreal_0)).
++ fof(redefinition_k2_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k2_rcomp_1(A, B)=k4_xxreal_1(A, B)) ) ).
++ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(t233_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r2_hidden(B, k4_xxreal_1(k2_xxreal_0, A)) <=>  ~ (r1_xxreal_0(A, B)) ) ) ) ) ) ).
 - fof(t44_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) => k4_rcomp_1(k2_xxreal_0, A)=k4_subset_1(k1_numbers, k1_seq_4(A), k2_rcomp_1(k2_xxreal_0, A))) ) ).
 - fof(t52_funct_2, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A)))) )  => k1_relset_1(A, B)=A) ) ) ).
 - fof(redefinition_k4_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xreal_0(B))  => k4_rcomp_1(A, B)=k3_xxreal_1(A, B)) ) ).

@@ -1,7 +1,7 @@
 C fof(t7_tex_3, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_subset_1(B, u1_struct_0(A)) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A)))) )  =>  (? [C] :  ( ( ~ (v2_struct_0(C))  &  (v1_pre_topc(C) &  (v1_tex_2(C, A) & m1_pre_topc(C, A)) ) )  & B=u1_struct_0(C)) ) ) ) ) ) ).
 + fof(cc17_struct_0, axiom,  (! [A] :  (l1_struct_0(A) =>  ( ~ (v7_struct_0(A))  =>  ~ (v2_struct_0(A)) ) ) ) ).
-+ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
 + fof(d1_tex_2, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_pre_topc(B, A) =>  (v1_tex_2(B, A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (C=u1_struct_0(B) => v1_subset_1(C, u1_struct_0(A))) ) ) ) ) ) ) ) ).
++ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
 + fof(t10_tsep_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_pre_topc(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (? [C] :  ( ( ~ (v2_struct_0(C))  &  (v1_pre_topc(C) & m1_pre_topc(C, A)) )  & B=u1_struct_0(C)) ) ) ) ) ) ).
 - fof(d6_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (v1_subset_1(B, A) <=>  ~ (B=A) ) ) ) ) ).
 - fof(fc17_tex_4, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l1_pre_topc(A))  &  ( ~ (v1_subset_1(B, u1_struct_0(A)))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A)))) )  =>  (v1_pre_topc(k1_pre_topc(A, B)) &  ~ (v1_tex_2(k1_pre_topc(A, B), A)) ) ) ) ).

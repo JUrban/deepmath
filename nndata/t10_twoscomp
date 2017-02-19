@@ -1,28 +1,28 @@
 C fof(t10_twoscomp, axiom,  (k1_funct_1(k8_twoscomp, k10_finseq_1(k6_numbers, k6_numbers))=k6_numbers &  (k1_funct_1(k8_twoscomp, k10_finseq_1(k6_numbers, 1))=1 &  (k1_funct_1(k8_twoscomp, k10_finseq_1(1, k6_numbers))=1 &  (k1_funct_1(k8_twoscomp, k10_finseq_1(1, 1))=1 &  (k1_funct_1(k9_twoscomp, k10_finseq_1(k6_numbers, k6_numbers))=1 &  (k1_funct_1(k9_twoscomp, k10_finseq_1(k6_numbers, 1))=1 &  (k1_funct_1(k9_twoscomp, k10_finseq_1(1, k6_numbers))=k6_numbers &  (k1_funct_1(k9_twoscomp, k10_finseq_1(1, 1))=1 &  (k1_funct_1(k10_twoscomp, k10_finseq_1(k6_numbers, k6_numbers))=1 &  (k1_funct_1(k10_twoscomp, k10_finseq_1(k6_numbers, 1))=1 &  (k1_funct_1(k10_twoscomp, k10_finseq_1(1, k6_numbers))=1 & k1_funct_1(k10_twoscomp, k10_finseq_1(1, 1))=k6_numbers) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k10_margrel1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k6_margrel1) & m1_subset_1(B, k6_margrel1))  => k10_margrel1(A, B)=k4_xboolean(A, B)) ) ).
-+ fof(dt_k7_margrel1, axiom, m1_subset_1(k7_margrel1, k6_margrel1)).
-+ fof(t7_twoscomp, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) =>  (! [B] :  (m1_subset_1(B, k6_margrel1) =>  (k1_funct_1(k8_twoscomp, k10_finseq_1(A, B))=k1_funct_1(k7_twoscomp, k10_finseq_1(A, B)) &  (k1_funct_1(k9_twoscomp, k10_finseq_1(A, B))=k1_funct_1(k6_twoscomp, k10_finseq_1(B, A)) & k1_funct_1(k10_twoscomp, k10_finseq_1(A, B))=k1_funct_1(k5_twoscomp, k10_finseq_1(A, B))) ) ) ) ) ) ).
 + fof(commutativity_k1_binarith, axiom,  (! [A, B] :  ( (m1_subset_1(A, k6_margrel1) & m1_subset_1(B, k6_margrel1))  => k1_binarith(A, B)=k1_binarith(B, A)) ) ).
-+ fof(d4_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => k3_xboolean(A)=k6_xcmplx_0(1, A)) ) ).
-+ fof(idempotence_k10_margrel1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k6_margrel1) & m1_subset_1(B, k6_margrel1))  => k10_margrel1(A, A)=A) ) ).
-+ fof(redefinition_k9_margrel1, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) => k9_margrel1(A)=k3_xboolean(A)) ) ).
-+ fof(dt_k5_twoscomp, axiom,  (v1_funct_1(k5_twoscomp) &  (v1_funct_2(k5_twoscomp, k4_finseq_2(2, k6_margrel1), k6_margrel1) & m1_subset_1(k5_twoscomp, k1_zfmisc_1(k2_zfmisc_1(k4_finseq_2(2, k6_margrel1), k6_margrel1)))) ) ).
-+ fof(redefinition_k7_margrel1, axiom, k7_margrel1=k1_xboolean).
-+ fof(fc1_xboolean, axiom, v1_xboolean(k1_xboolean)).
-+ fof(d4_twoscomp, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k4_finseq_2(2, k6_margrel1), k6_margrel1) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k4_finseq_2(2, k6_margrel1), k6_margrel1)))) )  =>  (A=k5_twoscomp <=>  (! [B] :  (m1_subset_1(B, k6_margrel1) =>  (! [C] :  (m1_subset_1(C, k6_margrel1) => k1_funct_1(A, k10_finseq_1(B, C))=k9_margrel1(k10_margrel1(B, C))) ) ) ) ) ) ) ).
-+ fof(rqRealMult__k3_xcmplx_0__r0_r1_r0, axiom, k3_xcmplx_0(0, 1)=0).
 + fof(d1_xboolean, axiom, k1_xboolean=k6_numbers).
-+ fof(redefinition_k1_binarith, axiom,  (! [A, B] :  ( (m1_subset_1(A, k6_margrel1) & m1_subset_1(B, k6_margrel1))  => k1_binarith(A, B)=k5_xboolean(A, B)) ) ).
-+ fof(rqRealDiff__k6_xcmplx_0__r1_r0_r1, axiom, k6_xcmplx_0(1, 0)=1).
-+ fof(involutiveness_k3_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => k3_xboolean(k3_xboolean(A))=A) ) ).
-+ fof(spc0_boole, axiom, v1_xboole_0(0)).
-+ fof(dt_k3_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => v1_xboolean(k3_xboolean(A))) ) ).
-+ fof(t3_twoscomp, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) =>  (! [B] :  (m1_subset_1(B, k6_margrel1) =>  (k1_funct_1(k8_twoscomp, k10_finseq_1(A, B))=k1_binarith(A, B) &  (k1_funct_1(k9_twoscomp, k10_finseq_1(A, B))=k1_binarith(k9_margrel1(A), B) & k1_funct_1(k10_twoscomp, k10_finseq_1(A, B))=k1_binarith(k9_margrel1(A), k9_margrel1(B))) ) ) ) ) ) ).
-+ fof(d6_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k5_xboolean(A, B)=k3_xboolean(k4_xboolean(k3_xboolean(A), k3_xboolean(B)))) ) ) ) ).
-+ fof(dt_k9_margrel1, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) => m1_subset_1(k9_margrel1(A), k6_margrel1)) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(d4_twoscomp, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k4_finseq_2(2, k6_margrel1), k6_margrel1) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k4_finseq_2(2, k6_margrel1), k6_margrel1)))) )  =>  (A=k5_twoscomp <=>  (! [B] :  (m1_subset_1(B, k6_margrel1) =>  (! [C] :  (m1_subset_1(C, k6_margrel1) => k1_funct_1(A, k10_finseq_1(B, C))=k9_margrel1(k10_margrel1(B, C))) ) ) ) ) ) ) ).
++ fof(d4_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => k3_xboolean(A)=k6_xcmplx_0(1, A)) ) ).
 + fof(d5_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k4_xboolean(A, B)=k3_xcmplx_0(A, B)) ) ) ) ).
++ fof(d6_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) => k5_xboolean(A, B)=k3_xboolean(k4_xboolean(k3_xboolean(A), k3_xboolean(B)))) ) ) ) ).
++ fof(dt_k3_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => v1_xboolean(k3_xboolean(A))) ) ).
++ fof(dt_k5_twoscomp, axiom,  (v1_funct_1(k5_twoscomp) &  (v1_funct_2(k5_twoscomp, k4_finseq_2(2, k6_margrel1), k6_margrel1) & m1_subset_1(k5_twoscomp, k1_zfmisc_1(k2_zfmisc_1(k4_finseq_2(2, k6_margrel1), k6_margrel1)))) ) ).
++ fof(dt_k7_margrel1, axiom, m1_subset_1(k7_margrel1, k6_margrel1)).
++ fof(dt_k9_margrel1, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) => m1_subset_1(k9_margrel1(A), k6_margrel1)) ) ).
++ fof(fc1_xboolean, axiom, v1_xboolean(k1_xboolean)).
++ fof(idempotence_k10_margrel1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k6_margrel1) & m1_subset_1(B, k6_margrel1))  => k10_margrel1(A, A)=A) ) ).
++ fof(involutiveness_k3_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => k3_xboolean(k3_xboolean(A))=A) ) ).
++ fof(redefinition_k10_margrel1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k6_margrel1) & m1_subset_1(B, k6_margrel1))  => k10_margrel1(A, B)=k4_xboolean(A, B)) ) ).
++ fof(redefinition_k1_binarith, axiom,  (! [A, B] :  ( (m1_subset_1(A, k6_margrel1) & m1_subset_1(B, k6_margrel1))  => k1_binarith(A, B)=k5_xboolean(A, B)) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_k7_margrel1, axiom, k7_margrel1=k1_xboolean).
++ fof(redefinition_k9_margrel1, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) => k9_margrel1(A)=k3_xboolean(A)) ) ).
++ fof(rqRealDiff__k6_xcmplx_0__r1_r0_r1, axiom, k6_xcmplx_0(1, 0)=1).
++ fof(rqRealMult__k3_xcmplx_0__r0_r1_r0, axiom, k3_xcmplx_0(0, 1)=0).
++ fof(spc0_boole, axiom, v1_xboole_0(0)).
++ fof(t3_twoscomp, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) =>  (! [B] :  (m1_subset_1(B, k6_margrel1) =>  (k1_funct_1(k8_twoscomp, k10_finseq_1(A, B))=k1_binarith(A, B) &  (k1_funct_1(k9_twoscomp, k10_finseq_1(A, B))=k1_binarith(k9_margrel1(A), B) & k1_funct_1(k10_twoscomp, k10_finseq_1(A, B))=k1_binarith(k9_margrel1(A), k9_margrel1(B))) ) ) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t7_twoscomp, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) =>  (! [B] :  (m1_subset_1(B, k6_margrel1) =>  (k1_funct_1(k8_twoscomp, k10_finseq_1(A, B))=k1_funct_1(k7_twoscomp, k10_finseq_1(A, B)) &  (k1_funct_1(k9_twoscomp, k10_finseq_1(A, B))=k1_funct_1(k6_twoscomp, k10_finseq_1(B, A)) & k1_funct_1(k10_twoscomp, k10_finseq_1(A, B))=k1_funct_1(k5_twoscomp, k10_finseq_1(A, B))) ) ) ) ) ) ).
 - fof(t9_twoscomp, axiom,  (k1_funct_1(k2_twoscomp, k10_finseq_1(k6_numbers, k6_numbers))=k6_numbers &  (k1_funct_1(k2_twoscomp, k10_finseq_1(k6_numbers, 1))=k6_numbers &  (k1_funct_1(k2_twoscomp, k10_finseq_1(1, k6_numbers))=k6_numbers &  (k1_funct_1(k2_twoscomp, k10_finseq_1(1, 1))=1 &  (k1_funct_1(k3_twoscomp, k10_finseq_1(k6_numbers, k6_numbers))=k6_numbers &  (k1_funct_1(k3_twoscomp, k10_finseq_1(k6_numbers, 1))=1 &  (k1_funct_1(k3_twoscomp, k10_finseq_1(1, k6_numbers))=k6_numbers &  (k1_funct_1(k3_twoscomp, k10_finseq_1(1, 1))=k6_numbers &  (k1_funct_1(k4_twoscomp, k10_finseq_1(k6_numbers, k6_numbers))=1 &  (k1_funct_1(k4_twoscomp, k10_finseq_1(k6_numbers, 1))=k6_numbers &  (k1_funct_1(k4_twoscomp, k10_finseq_1(1, k6_numbers))=k6_numbers & k1_funct_1(k4_twoscomp, k10_finseq_1(1, 1))=k6_numbers) ) ) ) ) ) ) ) ) ) ) ).
 - fof(d8_twoscomp, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k4_finseq_2(2, k6_margrel1), k6_margrel1) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k4_finseq_2(2, k6_margrel1), k6_margrel1)))) )  =>  (A=k9_twoscomp <=>  (! [B] :  (m1_subset_1(B, k6_margrel1) =>  (! [C] :  (m1_subset_1(C, k6_margrel1) => k1_funct_1(A, k10_finseq_1(B, C))=k1_binarith(k9_margrel1(B), C)) ) ) ) ) ) ) ).
 - fof(d7_twoscomp, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k4_finseq_2(2, k6_margrel1), k6_margrel1) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k4_finseq_2(2, k6_margrel1), k6_margrel1)))) )  =>  (A=k8_twoscomp <=>  (! [B] :  (m1_subset_1(B, k6_margrel1) =>  (! [C] :  (m1_subset_1(C, k6_margrel1) => k1_funct_1(A, k10_finseq_1(B, C))=k1_binarith(B, C)) ) ) ) ) ) ) ).

@@ -1,18 +1,18 @@
 C fof(t53_kurato_1, axiom, r1_subset_1(k4_enumset1(k1_tops_1(k3_topmetr, k6_kurato_1), k1_tops_1(k3_topmetr, k2_pre_topc(k3_topmetr, k6_kurato_1)), k1_tops_1(k3_topmetr, k2_pre_topc(k3_topmetr, k1_tops_1(k3_topmetr, k6_kurato_1))), k2_pre_topc(k3_topmetr, k6_kurato_1), k2_pre_topc(k3_topmetr, k1_tops_1(k3_topmetr, k6_kurato_1)), k2_pre_topc(k3_topmetr, k1_tops_1(k3_topmetr, k2_pre_topc(k3_topmetr, k6_kurato_1)))), k1_tarski(k6_kurato_1))).
-+ fof(dt_k2_pre_topc, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => m1_subset_1(k2_pre_topc(A, B), k1_zfmisc_1(u1_struct_0(A)))) ) ).
-+ fof(dt_k1_tops_1, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => m1_subset_1(k1_tops_1(A, B), k1_zfmisc_1(u1_struct_0(A)))) ) ).
-+ fof(projectivity_k1_tops_1, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => k1_tops_1(A, k1_tops_1(A, B))=k1_tops_1(A, B)) ) ).
-+ fof(fc4_kurato_1, axiom,  ( ~ (v3_pre_topc(k6_kurato_1, k3_topmetr))  &  ~ (v4_pre_topc(k6_kurato_1, k3_topmetr)) ) ).
 + fof(d4_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (! [G] :  (G=k4_enumset1(A, B, C, D, E, F) <=>  (! [H] :  (r2_hidden(H, G) <=>  ~ ( ( ~ (H=A)  &  ( ~ (H=B)  &  ( ~ (H=C)  &  ( ~ (H=D)  &  ( ~ (H=E)  &  ~ (H=F) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t50_zfmisc_1, axiom,  (! [A] :  (! [B] :  ( ~ (r2_hidden(A, B))  => r1_xboole_0(k1_tarski(A), B)) ) ) ).
++ fof(dt_k1_tops_1, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => m1_subset_1(k1_tops_1(A, B), k1_zfmisc_1(u1_struct_0(A)))) ) ).
++ fof(dt_k2_pre_topc, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => m1_subset_1(k2_pre_topc(A, B), k1_zfmisc_1(u1_struct_0(A)))) ) ).
 + fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).
-+ fof(redefinition_r1_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  (r1_subset_1(A, B) <=> r1_xboole_0(A, B)) ) ) ).
-+ fof(fc1_tops_1, axiom,  (! [A, B] :  ( ( (v2_pre_topc(A) & l1_pre_topc(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => v4_pre_topc(k2_pre_topc(A, B), A)) ) ).
-+ fof(fc5_subset_1, axiom,  (! [A, B, C, D, E, F] :  ~ (v1_xboole_0(k4_enumset1(A, B, C, D, E, F))) ) ).
-+ fof(symmetry_r1_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  (r1_subset_1(A, B) => r1_subset_1(B, A)) ) ) ).
-+ fof(fc2_xboole_0, axiom,  (! [A] :  ~ (v1_xboole_0(k1_tarski(A))) ) ).
 + fof(dt_k6_kurato_1, axiom, m1_subset_1(k6_kurato_1, k1_zfmisc_1(u1_struct_0(k3_topmetr)))).
++ fof(fc1_tops_1, axiom,  (! [A, B] :  ( ( (v2_pre_topc(A) & l1_pre_topc(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => v4_pre_topc(k2_pre_topc(A, B), A)) ) ).
++ fof(fc2_xboole_0, axiom,  (! [A] :  ~ (v1_xboole_0(k1_tarski(A))) ) ).
++ fof(fc4_kurato_1, axiom,  ( ~ (v3_pre_topc(k6_kurato_1, k3_topmetr))  &  ~ (v4_pre_topc(k6_kurato_1, k3_topmetr)) ) ).
++ fof(fc5_subset_1, axiom,  (! [A, B, C, D, E, F] :  ~ (v1_xboole_0(k4_enumset1(A, B, C, D, E, F))) ) ).
 + fof(fc9_tops_1, axiom,  (! [A, B] :  ( ( (v2_pre_topc(A) & l1_pre_topc(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => v3_pre_topc(k1_tops_1(A, B), A)) ) ).
++ fof(projectivity_k1_tops_1, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => k1_tops_1(A, k1_tops_1(A, B))=k1_tops_1(A, B)) ) ).
++ fof(redefinition_r1_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  (r1_subset_1(A, B) <=> r1_xboole_0(A, B)) ) ) ).
++ fof(symmetry_r1_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  (r1_subset_1(A, B) => r1_subset_1(B, A)) ) ) ).
++ fof(t50_zfmisc_1, axiom,  (! [A] :  (! [B] :  ( ~ (r2_hidden(A, B))  => r1_xboole_0(k1_tarski(A), B)) ) ) ).
 - fof(t31_kurato_1, axiom,  ~ (k2_pre_topc(k3_topmetr, k1_tops_1(k3_topmetr, k2_pre_topc(k3_topmetr, k6_kurato_1)))=k2_pre_topc(k3_topmetr, k1_tops_1(k3_topmetr, k6_kurato_1))) ).
 - fof(t51_kurato_1, axiom, r1_subset_1(k1_enumset1(k1_tops_1(k3_topmetr, k6_kurato_1), k1_tops_1(k3_topmetr, k2_pre_topc(k3_topmetr, k6_kurato_1)), k1_tops_1(k3_topmetr, k2_pre_topc(k3_topmetr, k1_tops_1(k3_topmetr, k6_kurato_1)))), k1_enumset1(k2_pre_topc(k3_topmetr, k6_kurato_1), k2_pre_topc(k3_topmetr, k1_tops_1(k3_topmetr, k6_kurato_1)), k2_pre_topc(k3_topmetr, k1_tops_1(k3_topmetr, k2_pre_topc(k3_topmetr, k6_kurato_1)))))).
 - fof(t47_kurato_1, axiom, r1_zfmisc_1(k2_pre_topc(k3_topmetr, k6_kurato_1), k2_pre_topc(k3_topmetr, k1_tops_1(k3_topmetr, k6_kurato_1)), k2_pre_topc(k3_topmetr, k1_tops_1(k3_topmetr, k2_pre_topc(k3_topmetr, k6_kurato_1))))).

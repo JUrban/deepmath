@@ -1,7 +1,7 @@
 C fof(t55_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, B) =>  ( ~ (k5_ordinal3(B, A)=k1_xboole_0)  & r2_hidden(k1_xboole_0, k5_ordinal3(B, A))) ) ) ) ) ) ).
-+ fof(t27_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) => k10_ordinal2(A, k1_xboole_0)=A) ) ).
-+ fof(dt_k5_ordinal3, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  => v3_ordinal1(k5_ordinal3(A, B))) ) ).
 + fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
++ fof(dt_k5_ordinal3, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  => v3_ordinal1(k5_ordinal3(A, B))) ) ).
++ fof(t27_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) => k10_ordinal2(A, k1_xboole_0)=A) ) ).
 + fof(t51_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, B) => B=k10_ordinal2(A, k5_ordinal3(B, A))) ) ) ) ) ).
 + fof(t8_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  ( ~ (A=k1_xboole_0)  => r2_hidden(k1_xboole_0, A)) ) ) ).
 - fof(d5_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  ( (r1_ordinal1(B, A) =>  (C=k5_ordinal3(A, B) <=> A=k10_ordinal2(B, C)) )  &  ( ~ (r1_ordinal1(B, A))  =>  (C=k5_ordinal3(A, B) <=> C=k1_xboole_0) ) ) ) ) ) ) ) ) ).

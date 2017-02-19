@@ -1,12 +1,12 @@
 C fof(t17_osalg_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  &  (v4_osalg_1(A) &  (v5_osalg_1(A) & l3_osalg_1(A)) ) ) )  =>  (! [B] :  ( (v12_osalg_1(B, A) & l3_msualg_1(B, A))  =>  (v13_osalg_1(B, A) <=> v13_osalg_1(g3_msualg_1(A, u3_msualg_1(A, B), u4_msualg_1(A, B)), A)) ) ) ) ) ).
 + fof(cc1_osalg_3, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  &  (v4_osalg_1(A) &  (v5_osalg_1(A) & l3_osalg_1(A)) ) ) )  &  (v12_osalg_1(B, A) &  (v13_osalg_1(B, A) & l3_msualg_1(B, A)) ) )  =>  (! [C] :  (m1_msualg_2(C, A, B) =>  (v12_osalg_1(C, A) =>  (v12_osalg_1(C, A) & v13_osalg_1(C, A)) ) ) ) ) ) ).
-+ fof(t26_instalg1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_msualg_1(A))  =>  (! [B] :  (l3_msualg_1(B, A) => k2_instalg1(A, A, B)=g3_msualg_1(A, u3_msualg_1(A, B), u4_msualg_1(A, B))) ) ) ) ).
-+ fof(l14_msualg_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_msualg_1(A)) )  =>  (! [B] :  (l3_msualg_1(B, A) => m1_msualg_2(g3_msualg_1(A, u3_msualg_1(A, B), u4_msualg_1(A, B)), A, B)) ) ) ) ).
-+ fof(fc2_osalg_3, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  &  (v4_osalg_1(A) &  (v5_osalg_1(A) & l3_osalg_1(A)) ) ) )  &  (v12_osalg_1(B, A) & l3_msualg_1(B, A)) )  =>  (v3_msualg_1(g3_msualg_1(A, u3_msualg_1(A, B), u4_msualg_1(A, B)), A) & v12_osalg_1(g3_msualg_1(A, u3_msualg_1(A, B), u4_msualg_1(A, B)), A)) ) ) ).
++ fof(dt_l1_osalg_1, axiom,  (! [A] :  (l1_osalg_1(A) => l1_msualg_1(A)) ) ).
 + fof(dt_l3_osalg_1, axiom,  (! [A] :  (l3_osalg_1(A) =>  (l1_osalg_1(A) & l2_osalg_1(A)) ) ) ).
 + fof(dt_m1_msualg_2, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_msualg_1(A)) )  & l3_msualg_1(B, A))  =>  (! [C] :  (m1_msualg_2(C, A, B) => l3_msualg_1(C, A)) ) ) ) ).
-+ fof(dt_l1_osalg_1, axiom,  (! [A] :  (l1_osalg_1(A) => l1_msualg_1(A)) ) ).
++ fof(fc2_osalg_3, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  &  (v4_osalg_1(A) &  (v5_osalg_1(A) & l3_osalg_1(A)) ) ) )  &  (v12_osalg_1(B, A) & l3_msualg_1(B, A)) )  =>  (v3_msualg_1(g3_msualg_1(A, u3_msualg_1(A, B), u4_msualg_1(A, B)), A) & v12_osalg_1(g3_msualg_1(A, u3_msualg_1(A, B), u4_msualg_1(A, B)), A)) ) ) ).
++ fof(l14_msualg_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_msualg_1(A)) )  =>  (! [B] :  (l3_msualg_1(B, A) => m1_msualg_2(g3_msualg_1(A, u3_msualg_1(A, B), u4_msualg_1(A, B)), A, B)) ) ) ) ).
 + fof(t17_equation, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_msualg_1(A)) )  =>  (! [B] :  (l3_msualg_1(B, A) => m1_msualg_2(B, A, g3_msualg_1(A, u3_msualg_1(A, B), u4_msualg_1(A, B)))) ) ) ) ).
++ fof(t26_instalg1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_msualg_1(A))  =>  (! [B] :  (l3_msualg_1(B, A) => k2_instalg1(A, A, B)=g3_msualg_1(A, u3_msualg_1(A, B), u4_msualg_1(A, B))) ) ) ) ).
 - fof(dt_l5_struct_0, axiom,  (! [A] :  (l5_struct_0(A) => l1_struct_0(A)) ) ).
 - fof(dt_l1_msualg_1, axiom,  (! [A] :  (l1_msualg_1(A) => l5_struct_0(A)) ) ).
 - fof(dt_u3_msualg_1, axiom,  (! [A, B] :  ( (l1_struct_0(A) & l2_msualg_1(B, A))  =>  (v1_relat_1(u3_msualg_1(A, B)) &  (v4_relat_1(u3_msualg_1(A, B), u1_struct_0(A)) &  (v1_funct_1(u3_msualg_1(A, B)) & v1_partfun1(u3_msualg_1(A, B), u1_struct_0(A))) ) ) ) ) ).

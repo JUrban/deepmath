@@ -1,10 +1,10 @@
 C fof(t3_wsierp_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v7_ordinal1(C) =>  ( (r1_xxreal_0(k6_numbers, A) &  (r1_xxreal_0(k6_numbers, B) & k1_newton(A, C)=k1_newton(B, C)) )  =>  (r1_xxreal_0(C, k6_numbers) | A=B) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(t19_prepower, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( (r1_xxreal_0(k6_numbers, A) & r1_xxreal_0(1, B))  =>  (k1_newton(k2_prepower(B, A), B)=A & k2_prepower(B, k1_newton(A, B))=A) ) ) ) ) ) ).
-+ fof(t14_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (r1_xxreal_0(1, A))  => A=k6_numbers) ) ) ).
-+ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
 + fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
++ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t14_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (r1_xxreal_0(1, A))  => A=k6_numbers) ) ) ).
++ fof(t19_prepower, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( (r1_xxreal_0(k6_numbers, A) & r1_xxreal_0(1, B))  =>  (k1_newton(k2_prepower(B, A), B)=A & k2_prepower(B, k1_newton(A, B))=A) ) ) ) ) ) ).
 - fof(ie1_power, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v7_ordinal1(B))  => k3_power(A, B)=k1_newton(A, B)) ) ).
 - fof(t81_newton, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (k1_newton(A, 2)=k3_xcmplx_0(A, A) & k3_square_1(A)=k1_newton(A, 2)) ) ) ).
 - fof(t2_wsierp_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) =>  (k1_newton(k4_xcmplx_0(A), k4_nat_1(2, B))=k1_newton(A, k4_nat_1(2, B)) & k1_newton(k4_xcmplx_0(A), k2_nat_1(k4_nat_1(2, B), 1))=k4_xcmplx_0(k1_newton(A, k2_nat_1(k4_nat_1(2, B), 1)))) ) ) ) ) ).

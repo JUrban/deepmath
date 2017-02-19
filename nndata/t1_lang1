@@ -1,12 +1,12 @@
 C fof(t1_lang1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_lang1(A))  => k2_xboole_0(k1_lang1(A), k2_lang1(A))=u1_struct_0(A)) ) ).
 + fof(d2_lang1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_lang1(A))  => k1_lang1(A)=a_1_0_lang1(A)) ) ).
-+ fof(fraenkel_a_1_0_lang1, axiom,  (! [A, B] :  ( ( ~ (v2_struct_0(B))  & l1_lang1(B))  =>  (r2_hidden(A, a_1_0_lang1(B)) <=>  (? [C] :  (m1_subset_1(C, u1_struct_0(B)) &  (A=C &  (! [D] :  ( (v1_relat_1(D) &  (v1_funct_1(D) & v1_finseq_1(D)) )  =>  ~ (r1_lang1(B, C, D)) ) ) ) ) ) ) ) ) ).
-+ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
 + fof(d3_lang1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_lang1(A))  => k2_lang1(A)=a_1_1_lang1(A)) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(fraenkel_a_1_1_lang1, axiom,  (! [A, B] :  ( ( ~ (v2_struct_0(B))  & l1_lang1(B))  =>  (r2_hidden(A, a_1_1_lang1(B)) <=>  (? [C] :  (m1_subset_1(C, u1_struct_0(B)) &  (A=C &  (? [D] :  ( (v1_relat_1(D) &  (v1_funct_1(D) & v1_finseq_1(D)) )  & r1_lang1(B, C, D)) ) ) ) ) ) ) ) ).
 + fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
 + fof(dt_l1_lang1, axiom,  (! [A] :  (l1_lang1(A) => l1_struct_0(A)) ) ).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(fraenkel_a_1_0_lang1, axiom,  (! [A, B] :  ( ( ~ (v2_struct_0(B))  & l1_lang1(B))  =>  (r2_hidden(A, a_1_0_lang1(B)) <=>  (? [C] :  (m1_subset_1(C, u1_struct_0(B)) &  (A=C &  (! [D] :  ( (v1_relat_1(D) &  (v1_funct_1(D) & v1_finseq_1(D)) )  =>  ~ (r1_lang1(B, C, D)) ) ) ) ) ) ) ) ) ).
++ fof(fraenkel_a_1_1_lang1, axiom,  (! [A, B] :  ( ( ~ (v2_struct_0(B))  & l1_lang1(B))  =>  (r2_hidden(A, a_1_1_lang1(B)) <=>  (? [C] :  (m1_subset_1(C, u1_struct_0(B)) &  (A=C &  (? [D] :  ( (v1_relat_1(D) &  (v1_funct_1(D) & v1_finseq_1(D)) )  & r1_lang1(B, C, D)) ) ) ) ) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 + fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 - fof(d1_lang1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_lang1(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  =>  (r1_lang1(A, B, C) <=> r2_hidden(k4_tarski(B, C), u1_lang1(A))) ) ) ) ) ) ) ).
 - fof(abstractness_v1_lang1, axiom,  (! [A] :  (l1_lang1(A) =>  (v1_lang1(A) => A=g1_lang1(u1_struct_0(A), u1_lang1(A))) ) ) ).

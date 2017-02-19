@@ -1,25 +1,25 @@
 C fof(t27_comseq_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  =>  (v2_relat_1(A) => v2_relat_1(k36_valued_1(k5_numbers, k2_numbers, A))) ) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
 + fof(cc16_valued_0, axiom,  (! [A, B] :  (v1_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_valued_0(C)) ) ) ) ).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(dt_k36_valued_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (v1_funct_1(k36_valued_1(A, B, C)) & m1_subset_1(k36_valued_1(A, B, C), k1_zfmisc_1(k2_zfmisc_1(A, k2_numbers)))) ) ) ).
-+ fof(involutiveness_k35_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => k35_valued_1(k35_valued_1(A))=A) ) ).
-+ fof(t4_comseq_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  =>  (v2_relat_1(A) <=>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  ~ (k8_nat_1(k2_numbers, A, B)=k5_complex1) ) ) ) ) ) ).
-+ fof(fc66_valued_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(B))  & v1_membered(B))  &  (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) )  =>  (v1_funct_1(k35_valued_1(C)) & v1_partfun1(k35_valued_1(C), A)) ) ) ).
-+ fof(fc1_membered, axiom, v1_membered(k2_numbers)).
-+ fof(redefinition_k5_complex1, axiom, k5_complex1=k1_xboole_0).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(cc1_funct_2, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v1_partfun1(C, A) => v1_funct_2(C, A, B)) ) ) ) ).
-+ fof(t202_xcmplx_1, axiom, k5_xcmplx_0(k6_numbers)=k6_numbers).
-+ fof(t10_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  =>  (! [B] : k1_funct_1(k35_valued_1(A), B)=k5_xcmplx_0(k1_funct_1(A, B))) ) ) ).
-+ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(redefinition_k36_valued_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  => k36_valued_1(A, B, C)=k35_valued_1(C)) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(dt_k36_valued_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (v1_funct_1(k36_valued_1(A, B, C)) & m1_subset_1(k36_valued_1(A, B, C), k1_zfmisc_1(k2_zfmisc_1(A, k2_numbers)))) ) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(fc1_membered, axiom, v1_membered(k2_numbers)).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
 + fof(fc2_numbers, axiom,  ~ (v1_xboole_0(k2_numbers)) ).
++ fof(fc66_valued_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(B))  & v1_membered(B))  &  (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) )  =>  (v1_funct_1(k35_valued_1(C)) & v1_partfun1(k35_valued_1(C), A)) ) ) ).
 + fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(involutiveness_k35_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => k35_valued_1(k35_valued_1(A))=A) ) ).
++ fof(redefinition_k36_valued_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  => k36_valued_1(A, B, C)=k35_valued_1(C)) ) ).
++ fof(redefinition_k5_complex1, axiom, k5_complex1=k1_xboole_0).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(redefinition_k8_nat_1, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) )  & v7_ordinal1(C))  => k8_nat_1(A, B, C)=k1_funct_1(B, C)) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t10_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  =>  (! [B] : k1_funct_1(k35_valued_1(A), B)=k5_xcmplx_0(k1_funct_1(A, B))) ) ) ).
++ fof(t202_xcmplx_1, axiom, k5_xcmplx_0(k6_numbers)=k6_numbers).
++ fof(t4_comseq_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  =>  (v2_relat_1(A) <=>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  ~ (k8_nat_1(k2_numbers, A, B)=k5_complex1) ) ) ) ) ) ).
 - fof(involutiveness_k36_valued_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  => k36_valued_1(A, B, k36_valued_1(A, B, C))=C) ) ).
 - fof(t2_comseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  <=>  (k9_xtuple_0(A)=k5_numbers &  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) => m1_subset_1(k1_funct_1(A, B), k2_numbers)) ) ) ) ) ) ).
 - fof(t3_comseq_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  =>  (v2_relat_1(A) <=>  (! [B] :  ~ ( (r2_hidden(B, k5_numbers) & k1_funct_1(A, B)=k5_complex1) ) ) ) ) ) ).

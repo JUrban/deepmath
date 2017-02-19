@@ -1,17 +1,17 @@
 C fof(t72_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  ( (v4_scmyciel(B) &  (v5_scmyciel(B) & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (v9_scmyciel(k3_tarski(B), k6_scmyciel(A)) & m1_subset_1(k3_tarski(B), k1_zfmisc_1(k3_tarski(k6_scmyciel(A))))) ) ) ) ) ).
-+ fof(d19_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_tarski(A))) =>  (v9_scmyciel(B, A) <=>  (! [C] :  (! [D] :  ~ ( ( ~ (C=D)  &  (r2_hidden(C, B) &  (r2_hidden(D, B) & r2_hidden(k2_tarski(C, D), A)) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
-+ fof(t53_scmyciel, axiom,  (! [A] :  ( (v4_scmyciel(A) & v5_scmyciel(A))  =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k3_tarski(A)) & r2_hidden(C, k3_tarski(A)))  => r2_hidden(k2_tarski(B, C), A)) ) ) ) ) ).
-+ fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
 + fof(d11_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => k6_scmyciel(A)=k6_subset_1(k5_scmyciel(k3_tarski(A)), k1_scmyciel(A))) ) ).
-+ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
-+ fof(t77_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k3_tarski(A), k3_tarski(B))) ) ) ).
-+ fof(t12_scmyciel, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(k2_tarski(B, C), A) =>  (B=C | r2_hidden(k2_tarski(B, C), k1_scmyciel(A))) ) ) ) ) ).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(d19_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_tarski(A))) =>  (v9_scmyciel(B, A) <=>  (! [C] :  (! [D] :  ~ ( ( ~ (C=D)  &  (r2_hidden(C, B) &  (r2_hidden(D, B) & r2_hidden(k2_tarski(C, D), A)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
 + fof(dt_k6_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => v4_scmyciel(k6_scmyciel(A))) ) ).
 + fof(l53_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => k3_tarski(A)=k3_tarski(k6_subset_1(k5_scmyciel(k3_tarski(A)), k1_scmyciel(A)))) ) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(t12_scmyciel, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(k2_tarski(B, C), A) =>  (B=C | r2_hidden(k2_tarski(B, C), k1_scmyciel(A))) ) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(t53_scmyciel, axiom,  (! [A] :  ( (v4_scmyciel(A) & v5_scmyciel(A))  =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k3_tarski(A)) & r2_hidden(C, k3_tarski(A)))  => r2_hidden(k2_tarski(B, C), A)) ) ) ) ) ).
++ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
++ fof(t77_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k3_tarski(A), k3_tarski(B))) ) ) ).
 - fof(t63_scmyciel, axiom,  (! [A] :  ( (v4_scmyciel(A) & v6_scmyciel(A))  =>  (k8_scmyciel(A)=1 =>  (v9_scmyciel(k3_tarski(A), A) & m1_subset_1(k3_tarski(A), k1_zfmisc_1(k3_tarski(A)))) ) ) ) ).
 - fof(t40_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => k3_tarski(A)=k3_tarski(k6_scmyciel(A))) ) ).
 - fof(d13_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (v5_scmyciel(A) <=> A=k5_scmyciel(k3_tarski(A))) ) ) ).

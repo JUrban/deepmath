@@ -1,10 +1,10 @@
 C fof(t21_prob_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (! [C] :  (m1_prob_1(C, A, B) =>  (! [D] :  (m1_prob_1(D, A, B) => m1_prob_1(k4_subset_1(A, C, D), A, B)) ) ) ) ) ) ) ).
-+ fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
-+ fof(dt_m1_prob_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (! [C] :  (m1_prob_1(C, A, B) => m1_subset_1(C, k1_zfmisc_1(A))) ) ) ) ).
 + fof(cc1_prob_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) & v4_prob_1(B, A)) )  =>  ( ~ (v1_xboole_0(B))  &  (v2_finsub_1(B) &  (v1_prob_1(B, A) & v4_prob_1(B, A)) ) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(dt_m1_prob_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (! [C] :  (m1_prob_1(C, A, B) => m1_subset_1(C, k1_zfmisc_1(A))) ) ) ) ).
++ fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
 + fof(redefinition_m1_prob_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (! [C] :  (m1_prob_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(t18_prob_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( ( ~ (v1_xboole_0(C))  &  (v1_prob_1(C, A) &  (v4_prob_1(C, A) & m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (r2_hidden(B, C) => m1_prob_1(B, A, C)) ) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 + fof(t3_prob_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v2_finsub_1(B) &  (v1_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (! [C] :  (! [D] :  ( (r2_hidden(C, B) & r2_hidden(D, B))  => r2_hidden(k2_xboole_0(C, D), B)) ) ) ) ) ) ).
 - fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 - fof(d1_prob_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (v1_prob_1(B, A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (r2_hidden(C, B) => r2_hidden(k3_subset_1(A, C), B)) ) ) ) ) ) ) ).

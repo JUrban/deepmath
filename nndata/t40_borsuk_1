@@ -1,14 +1,14 @@
 C fof(t40_borsuk_1, axiom, u1_struct_0(k17_borsuk_1)=k1_rcomp_1(k6_numbers, 1)).
 + fof(d13_borsuk_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (A=k17_borsuk_1 <=>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k3_pcomps_1(k8_metric_1)))) =>  (B=k1_rcomp_1(k6_numbers, 1) => A=k1_pre_topc(k3_pcomps_1(k8_metric_1), B)) ) ) ) ) ) ).
-+ fof(rc12_pre_topc, axiom,  (? [A] :  (l1_pre_topc(A) &  (v2_struct_0(A) &  (v1_pre_topc(A) & v2_pre_topc(A)) ) ) ) ).
-+ fof(dt_k17_borsuk_1, axiom, l1_pre_topc(k17_borsuk_1)).
-+ fof(dt_k8_metric_1, axiom,  (v1_metric_1(k8_metric_1) & l1_metric_1(k8_metric_1)) ).
-+ fof(dt_k3_pcomps_1, axiom,  (! [A] :  (l1_metric_1(A) => l1_pre_topc(k3_pcomps_1(A))) ) ).
 + fof(d3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => k2_struct_0(A)=u1_struct_0(A)) ) ).
-+ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
 + fof(d5_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (! [C] :  ( (v1_pre_topc(C) & m1_pre_topc(C, A))  =>  (C=k1_pre_topc(A, B) <=> k2_struct_0(C)=B) ) ) ) ) ) ) ).
-+ fof(fc9_borsuk_1, axiom,  ( ~ (v2_struct_0(k17_borsuk_1))  &  (v1_pre_topc(k17_borsuk_1) & v2_pre_topc(k17_borsuk_1)) ) ).
++ fof(dt_k17_borsuk_1, axiom, l1_pre_topc(k17_borsuk_1)).
 + fof(dt_k1_pre_topc, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (v1_pre_topc(k1_pre_topc(A, B)) & m1_pre_topc(k1_pre_topc(A, B), A)) ) ) ).
++ fof(dt_k3_pcomps_1, axiom,  (! [A] :  (l1_metric_1(A) => l1_pre_topc(k3_pcomps_1(A))) ) ).
++ fof(dt_k8_metric_1, axiom,  (v1_metric_1(k8_metric_1) & l1_metric_1(k8_metric_1)) ).
++ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
++ fof(fc9_borsuk_1, axiom,  ( ~ (v2_struct_0(k17_borsuk_1))  &  (v1_pre_topc(k17_borsuk_1) & v2_pre_topc(k17_borsuk_1)) ) ).
++ fof(rc12_pre_topc, axiom,  (? [A] :  (l1_pre_topc(A) &  (v2_struct_0(A) &  (v1_pre_topc(A) & v2_pre_topc(A)) ) ) ) ).
 - fof(t56_integra8, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v2_measure5(A) & m1_subset_1(A, k1_zfmisc_1(k1_numbers))) )  =>  (A=k1_rcomp_1(k6_numbers, 1) => k2_integra5(A, k1_sin_cos2)=k10_real_1(k5_square_1(k9_real_1(k8_power, 1)), k8_real_1(2, k8_power))) ) ) ).
 - fof(t54_integra8, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v2_measure5(A) & m1_subset_1(A, k1_zfmisc_1(k1_numbers))) )  =>  (A=k1_rcomp_1(k6_numbers, 1) => k2_integra5(A, k24_sin_cos)=k9_real_1(k8_power, 1)) ) ) ).
 - fof(l114_sin_cos, axiom,  (k1_relset_1(k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k29_sin_cos, k1_rcomp_1(k6_numbers, 1)))=k1_rcomp_1(k6_numbers, 1) &  (! [A] :  (v1_xreal_0(A) =>  (r2_hidden(A, k1_rcomp_1(k6_numbers, 1)) => k1_seq_1(k2_partfun1(k1_numbers, k1_numbers, k29_sin_cos, k1_rcomp_1(k6_numbers, 1)), A)=k1_seq_1(k29_sin_cos, A)) ) ) ) ).

@@ -1,11 +1,11 @@
 C fof(t62_abcmiz_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_orders_2(A) &  (v4_orders_2(A) &  ( ~ (v4_abcmiz_0(A))  & l3_abcmiz_0(A)) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_abcmiz_0(A))) =>  (r6_abcmiz_0(A, B, C) => v1_finset_1(C)) ) ) ) ) ) ) ).
-+ fof(fc22_finset_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_finset_1(A))  => v1_finset_1(k10_xtuple_0(A))) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
-+ fof(redefinition_k2_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v5_relat_1(B, A))  => k2_relset_1(A, B)=k10_xtuple_0(B)) ) ).
-+ fof(d29_abcmiz_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_orders_2(A) &  (v4_orders_2(A) &  ( ~ (v4_abcmiz_0(A))  & l3_abcmiz_0(A)) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_abcmiz_0(A))) =>  (r6_abcmiz_0(A, B, C) <=>  (? [D] :  (m2_finseq_1(D, u1_abcmiz_0(A)) &  (k2_relset_1(u1_abcmiz_0(A), D)=C & r5_abcmiz_0(A, B, D)) ) ) ) ) ) ) ) ) ) ).
 + fof(cc2_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v1_relat_1(A) &  (v1_funct_1(A) & v1_finset_1(A)) ) ) ) ).
 + fof(cc3_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) => v5_relat_1(B, A)) ) ) ).
++ fof(d29_abcmiz_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_orders_2(A) &  (v4_orders_2(A) &  ( ~ (v4_abcmiz_0(A))  & l3_abcmiz_0(A)) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_abcmiz_0(A))) =>  (r6_abcmiz_0(A, B, C) <=>  (? [D] :  (m2_finseq_1(D, u1_abcmiz_0(A)) &  (k2_relset_1(u1_abcmiz_0(A), D)=C & r5_abcmiz_0(A, B, D)) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
++ fof(fc22_finset_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_finset_1(A))  => v1_finset_1(k10_xtuple_0(A))) ) ).
++ fof(redefinition_k2_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v5_relat_1(B, A))  => k2_relset_1(A, B)=k10_xtuple_0(B)) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 - fof(d28_abcmiz_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_orders_2(A) &  (v4_orders_2(A) &  ( ~ (v4_abcmiz_0(A))  & l3_abcmiz_0(A)) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m2_finseq_1(C, u1_abcmiz_0(A)) =>  (r5_abcmiz_0(A, B, C) <=>  (! [D] :  (v7_ordinal1(D) =>  (! [E] :  (m1_subset_1(E, u1_abcmiz_0(A)) =>  (! [F] :  (m1_subset_1(F, u1_struct_0(A)) =>  ( (r2_hidden(D, k4_finseq_1(C)) &  (E=k1_funct_1(C, D) & F=k1_funct_1(k7_abcmiz_0(A, B, C), D)) )  => r4_abcmiz_0(A, F, E)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(d27_abcmiz_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v4_abcmiz_0(A))  & l3_abcmiz_0(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_abcmiz_0(A)) =>  (r4_abcmiz_0(A, B, C) <=>  (r1_orders_2(A, B, k10_abcmiz_0(A, C)) & r1_abcmiz_0(A, B, C)) ) ) ) ) ) ) ) ).
 - fof(dt_l3_abcmiz_0, axiom,  (! [A] :  (l3_abcmiz_0(A) => l2_abcmiz_0(A)) ) ).

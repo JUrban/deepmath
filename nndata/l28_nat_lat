@@ -1,12 +1,12 @@
 C fof(l28_nat_lat, axiom,  ( (! [A] :  (m1_subset_1(A, u1_struct_0(k10_nat_lat)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k10_nat_lat)) => k1_lattices(k10_nat_lat, k2_lattices(k10_nat_lat, A, B), B)=B) ) ) )  &  (! [A] :  (m1_subset_1(A, u1_struct_0(k10_nat_lat)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k10_nat_lat)) => k2_lattices(k10_nat_lat, A, B)=k2_lattices(k10_nat_lat, B, A)) ) ) ) ) ).
-+ fof(ie3_nat_lat, axiom,  (! [A, B] :  ( (m1_subset_1(A, u1_struct_0(k10_nat_lat)) & m1_subset_1(B, u1_struct_0(k10_nat_lat)))  => k1_lattices(k10_nat_lat, A, B)=k5_nat_d(A, B)) ) ).
-+ fof(fc6_nat_lat, axiom,  ( ~ (v2_struct_0(k10_nat_lat))  & v3_lattices(k10_nat_lat)) ).
++ fof(cc4_nat_lat, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k10_nat_lat)) =>  ( ~ (v1_xboole_0(A))  & v7_ordinal1(A)) ) ) ).
 + fof(commutativity_k6_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k6_nat_d(A, B)=k6_nat_d(B, A)) ) ).
-+ fof(ie4_nat_lat, axiom,  (! [A, B] :  ( (m1_subset_1(A, u1_struct_0(k10_nat_lat)) & m1_subset_1(B, u1_struct_0(k10_nat_lat)))  => k2_lattices(k10_nat_lat, A, B)=k6_nat_d(A, B)) ) ).
++ fof(dt_k10_nat_lat, axiom,  (v3_lattices(k10_nat_lat) & l3_lattices(k10_nat_lat)) ).
 + fof(dt_k2_lattices, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l1_lattices(A))  &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k2_lattices(A, B, C), u1_struct_0(A))) ) ).
 + fof(dt_l3_lattices, axiom,  (! [A] :  (l3_lattices(A) =>  (l1_lattices(A) & l2_lattices(A)) ) ) ).
-+ fof(dt_k10_nat_lat, axiom,  (v3_lattices(k10_nat_lat) & l3_lattices(k10_nat_lat)) ).
-+ fof(cc4_nat_lat, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k10_nat_lat)) =>  ( ~ (v1_xboole_0(A))  & v7_ordinal1(A)) ) ) ).
++ fof(fc6_nat_lat, axiom,  ( ~ (v2_struct_0(k10_nat_lat))  & v3_lattices(k10_nat_lat)) ).
++ fof(ie3_nat_lat, axiom,  (! [A, B] :  ( (m1_subset_1(A, u1_struct_0(k10_nat_lat)) & m1_subset_1(B, u1_struct_0(k10_nat_lat)))  => k1_lattices(k10_nat_lat, A, B)=k5_nat_d(A, B)) ) ).
++ fof(ie4_nat_lat, axiom,  (! [A, B] :  ( (m1_subset_1(A, u1_struct_0(k10_nat_lat)) & m1_subset_1(B, u1_struct_0(k10_nat_lat)))  => k2_lattices(k10_nat_lat, A, B)=k6_nat_d(A, B)) ) ).
 + fof(t53_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) => k5_nat_d(k6_nat_d(A, B), B)=B) ) ) ) ).
 - fof(d11_nat_lat, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k10_nat_lat)) => k11_nat_lat(A)=A) ) ).
 - fof(t14_nat_lat, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k10_nat_lat)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k10_nat_lat)) => k2_lattices(k10_nat_lat, A, B)=k6_nat_d(k11_nat_lat(A), k11_nat_lat(B))) ) ) ) ).

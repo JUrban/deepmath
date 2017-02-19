@@ -1,44 +1,44 @@
 C fof(l57_descip_1, axiom,  (m1_subset_1(k6_numbers, 16) &  (m1_subset_1(1, 16) &  (m1_subset_1(2, 16) &  (m1_subset_1(3, 16) &  (m1_subset_1(4, 16) &  (m1_subset_1(5, 16) &  (m1_subset_1(6, 16) &  (m1_subset_1(7, 16) &  (m1_subset_1(8, 16) &  (m1_subset_1(9, 16) &  (m1_subset_1(10, 16) &  (m1_subset_1(11, 16) &  (m1_subset_1(12, 16) &  (m1_subset_1(13, 16) &  (m1_subset_1(14, 16) & m1_subset_1(15, 16)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(spc11_numerals, axiom,  ( (v2_xxreal_0(11) & m2_subset_1(11, k1_numbers, k5_numbers))  &  (m1_subset_1(11, k5_numbers) & m1_subset_1(11, k1_numbers)) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r8, axiom,  ~ (r1_xxreal_0(16, 8)) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r0, axiom,  ~ (r1_xxreal_0(16, 0)) ).
-+ fof(t44_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r2_hidden(A, B) <=>  ~ (r1_xxreal_0(B, A)) ) ) ) ) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(spc0_boole, axiom, v1_xboole_0(0)).
-+ fof(spc15_numerals, axiom,  ( (v2_xxreal_0(15) & m2_subset_1(15, k1_numbers, k5_numbers))  &  (m1_subset_1(15, k5_numbers) & m1_subset_1(15, k1_numbers)) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r6, axiom,  ~ (r1_xxreal_0(16, 6)) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r10, axiom,  ~ (r1_xxreal_0(16, 10)) ).
-+ fof(spc4_numerals, axiom,  ( (v2_xxreal_0(4) & m2_subset_1(4, k1_numbers, k5_numbers))  &  (m1_subset_1(4, k5_numbers) & m1_subset_1(4, k1_numbers)) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r4, axiom,  ~ (r1_xxreal_0(16, 4)) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r14, axiom,  ~ (r1_xxreal_0(16, 14)) ).
-+ fof(spc7_numerals, axiom,  ( (v2_xxreal_0(7) & m2_subset_1(7, k1_numbers, k5_numbers))  &  (m1_subset_1(7, k5_numbers) & m1_subset_1(7, k1_numbers)) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r15, axiom,  ~ (r1_xxreal_0(16, 15)) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r1, axiom,  ~ (r1_xxreal_0(16, 1)) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r11, axiom,  ~ (r1_xxreal_0(16, 11)) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r7, axiom,  ~ (r1_xxreal_0(16, 7)) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r3, axiom,  ~ (r1_xxreal_0(16, 3)) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(spc10_numerals, axiom,  ( (v2_xxreal_0(10) & m2_subset_1(10, k1_numbers, k5_numbers))  &  (m1_subset_1(10, k5_numbers) & m1_subset_1(10, k1_numbers)) ) ).
-+ fof(spc0_numerals, axiom,  (m2_subset_1(0, k1_numbers, k5_numbers) &  (m1_subset_1(0, k5_numbers) & m1_subset_1(0, k1_numbers)) ) ).
-+ fof(spc12_numerals, axiom,  ( (v2_xxreal_0(12) & m2_subset_1(12, k1_numbers, k5_numbers))  &  (m1_subset_1(12, k5_numbers) & m1_subset_1(12, k1_numbers)) ) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r0, axiom,  ~ (r1_xxreal_0(16, 0)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r1, axiom,  ~ (r1_xxreal_0(16, 1)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r10, axiom,  ~ (r1_xxreal_0(16, 10)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r11, axiom,  ~ (r1_xxreal_0(16, 11)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r12, axiom,  ~ (r1_xxreal_0(16, 12)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r13, axiom,  ~ (r1_xxreal_0(16, 13)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r14, axiom,  ~ (r1_xxreal_0(16, 14)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r15, axiom,  ~ (r1_xxreal_0(16, 15)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r2, axiom,  ~ (r1_xxreal_0(16, 2)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r3, axiom,  ~ (r1_xxreal_0(16, 3)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r4, axiom,  ~ (r1_xxreal_0(16, 4)) ).
 + fof(rqLessOrEqual__r1_xxreal_0__r16_r5, axiom,  ~ (r1_xxreal_0(16, 5)) ).
-+ fof(spc16_numerals, axiom,  ( (v2_xxreal_0(16) & m2_subset_1(16, k1_numbers, k5_numbers))  &  (m1_subset_1(16, k5_numbers) & m1_subset_1(16, k1_numbers)) ) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r6, axiom,  ~ (r1_xxreal_0(16, 6)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r7, axiom,  ~ (r1_xxreal_0(16, 7)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r16_r8, axiom,  ~ (r1_xxreal_0(16, 8)) ).
 + fof(rqLessOrEqual__r1_xxreal_0__r16_r9, axiom,  ~ (r1_xxreal_0(16, 9)) ).
++ fof(spc0_boole, axiom, v1_xboole_0(0)).
++ fof(spc0_numerals, axiom,  (m2_subset_1(0, k1_numbers, k5_numbers) &  (m1_subset_1(0, k5_numbers) & m1_subset_1(0, k1_numbers)) ) ).
++ fof(spc10_numerals, axiom,  ( (v2_xxreal_0(10) & m2_subset_1(10, k1_numbers, k5_numbers))  &  (m1_subset_1(10, k5_numbers) & m1_subset_1(10, k1_numbers)) ) ).
++ fof(spc11_numerals, axiom,  ( (v2_xxreal_0(11) & m2_subset_1(11, k1_numbers, k5_numbers))  &  (m1_subset_1(11, k5_numbers) & m1_subset_1(11, k1_numbers)) ) ).
++ fof(spc12_numerals, axiom,  ( (v2_xxreal_0(12) & m2_subset_1(12, k1_numbers, k5_numbers))  &  (m1_subset_1(12, k5_numbers) & m1_subset_1(12, k1_numbers)) ) ).
 + fof(spc13_numerals, axiom,  ( (v2_xxreal_0(13) & m2_subset_1(13, k1_numbers, k5_numbers))  &  (m1_subset_1(13, k5_numbers) & m1_subset_1(13, k1_numbers)) ) ).
 + fof(spc14_numerals, axiom,  ( (v2_xxreal_0(14) & m2_subset_1(14, k1_numbers, k5_numbers))  &  (m1_subset_1(14, k5_numbers) & m1_subset_1(14, k1_numbers)) ) ).
-+ fof(spc8_numerals, axiom,  ( (v2_xxreal_0(8) & m2_subset_1(8, k1_numbers, k5_numbers))  &  (m1_subset_1(8, k5_numbers) & m1_subset_1(8, k1_numbers)) ) ).
-+ fof(spc6_numerals, axiom,  ( (v2_xxreal_0(6) & m2_subset_1(6, k1_numbers, k5_numbers))  &  (m1_subset_1(6, k5_numbers) & m1_subset_1(6, k1_numbers)) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(spc9_numerals, axiom,  ( (v2_xxreal_0(9) & m2_subset_1(9, k1_numbers, k5_numbers))  &  (m1_subset_1(9, k5_numbers) & m1_subset_1(9, k1_numbers)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r13, axiom,  ~ (r1_xxreal_0(16, 13)) ).
++ fof(spc15_numerals, axiom,  ( (v2_xxreal_0(15) & m2_subset_1(15, k1_numbers, k5_numbers))  &  (m1_subset_1(15, k5_numbers) & m1_subset_1(15, k1_numbers)) ) ).
++ fof(spc16_numerals, axiom,  ( (v2_xxreal_0(16) & m2_subset_1(16, k1_numbers, k5_numbers))  &  (m1_subset_1(16, k5_numbers) & m1_subset_1(16, k1_numbers)) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
 + fof(spc3_numerals, axiom,  ( (v2_xxreal_0(3) & m2_subset_1(3, k1_numbers, k5_numbers))  &  (m1_subset_1(3, k5_numbers) & m1_subset_1(3, k1_numbers)) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r2, axiom,  ~ (r1_xxreal_0(16, 2)) ).
++ fof(spc4_numerals, axiom,  ( (v2_xxreal_0(4) & m2_subset_1(4, k1_numbers, k5_numbers))  &  (m1_subset_1(4, k5_numbers) & m1_subset_1(4, k1_numbers)) ) ).
 + fof(spc5_numerals, axiom,  ( (v2_xxreal_0(5) & m2_subset_1(5, k1_numbers, k5_numbers))  &  (m1_subset_1(5, k5_numbers) & m1_subset_1(5, k1_numbers)) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r16_r12, axiom,  ~ (r1_xxreal_0(16, 12)) ).
++ fof(spc6_numerals, axiom,  ( (v2_xxreal_0(6) & m2_subset_1(6, k1_numbers, k5_numbers))  &  (m1_subset_1(6, k5_numbers) & m1_subset_1(6, k1_numbers)) ) ).
++ fof(spc7_numerals, axiom,  ( (v2_xxreal_0(7) & m2_subset_1(7, k1_numbers, k5_numbers))  &  (m1_subset_1(7, k5_numbers) & m1_subset_1(7, k1_numbers)) ) ).
++ fof(spc8_numerals, axiom,  ( (v2_xxreal_0(8) & m2_subset_1(8, k1_numbers, k5_numbers))  &  (m1_subset_1(8, k5_numbers) & m1_subset_1(8, k1_numbers)) ) ).
++ fof(spc9_numerals, axiom,  ( (v2_xxreal_0(9) & m2_subset_1(9, k1_numbers, k5_numbers))  &  (m1_subset_1(9, k5_numbers) & m1_subset_1(9, k1_numbers)) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t44_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r2_hidden(A, B) <=>  ~ (r1_xxreal_0(B, A)) ) ) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 - fof(l10_topalg_4, axiom,  (m1_subset_1(k6_numbers, u1_struct_0(k17_borsuk_1)) & m1_subset_1(1, u1_struct_0(k17_borsuk_1))) ).
 - fof(l2_topalg_3, axiom,  (m1_subset_1(k6_numbers, u1_struct_0(k17_borsuk_1)) & m1_subset_1(1, u1_struct_0(k17_borsuk_1))) ).
 - fof(dt_k15_descip_1, axiom,  (! [A, B] :  ( (v1_funct_1(A) &  (v1_funct_2(A, 64, 16) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(64, 16)))) )  => m1_subset_1(k15_descip_1(A, B), 16)) ) ).

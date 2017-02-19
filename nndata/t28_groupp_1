@@ -1,16 +1,16 @@
 C fof(t28_groupp_1, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v8_struct_0(B) &  (v15_algstr_0(B) &  (v2_group_1(B) &  (v3_group_1(B) & l3_algstr_0(B)) ) ) ) )  =>  (k7_group_1(B)=A => v3_groupp_1(B, A)) ) ) ) ) ).
-+ fof(redefinition_k7_group_1, axiom,  (! [A] :  ( (v8_struct_0(A) & l1_struct_0(A))  => k7_group_1(A)=k7_struct_0(A)) ) ).
-+ fof(t5_newton, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_newton(A, 1)=A) ) ).
-+ fof(dt_l3_algstr_0, axiom,  (! [A] :  (l3_algstr_0(A) => l1_struct_0(A)) ) ).
-+ fof(d17_group_10, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) & l3_algstr_0(B)) ) )  =>  (v2_group_10(B, A) <=>  (? [C] :  (v7_ordinal1(C) & k7_struct_0(B)=k1_newton(A, C)) ) ) ) ) ) ) ).
 + fof(cc1_gr_cy_1, axiom,  (! [A] :  (l3_algstr_0(A) =>  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & v1_gr_cy_1(A)) ) )  =>  ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & v5_group_1(A)) ) ) ) ) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
-+ fof(cc6_groupp_1, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  (l3_algstr_0(B) =>  ( ( ~ (v2_struct_0(B))  &  (v8_struct_0(B) &  (v2_group_1(B) &  (v3_group_1(B) &  (v5_group_1(B) & v2_group_10(B, A)) ) ) ) )  =>  ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) & v3_groupp_1(B, A)) ) ) ) ) ) ) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(cc6_groupp_1, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  (l3_algstr_0(B) =>  ( ( ~ (v2_struct_0(B))  &  (v8_struct_0(B) &  (v2_group_1(B) &  (v3_group_1(B) &  (v5_group_1(B) & v2_group_10(B, A)) ) ) ) )  =>  ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) & v3_groupp_1(B, A)) ) ) ) ) ) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(d17_group_10, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) & l3_algstr_0(B)) ) )  =>  (v2_group_10(B, A) <=>  (? [C] :  (v7_ordinal1(C) & k7_struct_0(B)=k1_newton(A, C)) ) ) ) ) ) ) ).
++ fof(dt_l3_algstr_0, axiom,  (! [A] :  (l3_algstr_0(A) => l1_struct_0(A)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k7_group_1, axiom,  (! [A] :  ( (v8_struct_0(A) & l1_struct_0(A))  => k7_group_1(A)=k7_struct_0(A)) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
 + fof(t21_gr_cy_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v8_struct_0(A) &  (v15_algstr_0(A) &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) ) ) )  =>  (v1_int_2(k7_group_1(A)) =>  ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) &  (v1_gr_cy_1(A) & l3_algstr_0(A)) ) ) ) ) ) ) ).
++ fof(t5_newton, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_newton(A, 1)=A) ) ).
 - fof(t28_int_2, axiom, v1_int_2(2)).
 - fof(rc3_groupp_1, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (? [B] :  (l3_algstr_0(B) &  ( ~ (v2_struct_0(B))  &  (v8_struct_0(B) &  (v1_group_1(B) &  (v2_group_1(B) &  (v3_group_1(B) &  (v5_group_1(B) &  (v1_gr_cy_1(B) & v3_groupp_1(B, A)) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t17_gr_cy_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v8_struct_0(A) &  (v15_algstr_0(A) &  (v2_group_1(A) &  (v3_group_1(A) &  (v1_gr_cy_1(A) & l3_algstr_0(A)) ) ) ) ) )  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v8_struct_0(B) &  (v15_algstr_0(B) &  (v2_group_1(B) &  (v3_group_1(B) &  (v1_gr_cy_1(B) & l3_algstr_0(B)) ) ) ) ) )  =>  (k7_group_1(B)=k7_group_1(A) => r2_group_6(B, A)) ) ) ) ) ).

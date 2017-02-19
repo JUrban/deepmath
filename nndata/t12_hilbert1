@@ -1,7 +1,7 @@
 C fof(t12_hilbert1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_hilbert1)) =>  (v6_hilbert1(A) <=> k5_hilbert1(A)=A) ) ) ).
 + fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
-+ fof(t8_hilbert1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_hilbert1)) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_hilbert1)) =>  ( (v6_hilbert1(A) & r1_tarski(B, A))  => r1_tarski(k5_hilbert1(B), A)) ) ) ) ) ).
 + fof(fc3_hilbert1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_hilbert1)) => v6_hilbert1(k5_hilbert1(A))) ) ).
++ fof(t8_hilbert1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_hilbert1)) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_hilbert1)) =>  ( (v6_hilbert1(A) & r1_tarski(B, A))  => r1_tarski(k5_hilbert1(B), A)) ) ) ) ) ).
 + fof(t9_hilbert1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_hilbert1)) => r1_tarski(A, k5_hilbert1(A))) ) ).
 - fof(dt_k5_hilbert1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_hilbert1)) => m1_subset_1(k5_hilbert1(A), k1_zfmisc_1(k1_hilbert1))) ) ).
 - fof(d11_hilbert1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_hilbert1)) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_hilbert1)) =>  (B=k5_hilbert1(A) <=>  (! [C] :  (m1_subset_1(C, k1_hilbert1) =>  (r2_hidden(C, B) <=>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k1_hilbert1)) =>  ( (v6_hilbert1(D) & r1_tarski(A, D))  => r2_hidden(C, D)) ) ) ) ) ) ) ) ) ) ) ).

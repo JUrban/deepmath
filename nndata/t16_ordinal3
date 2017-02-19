@@ -1,11 +1,11 @@
 C fof(t16_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  ~ ( (r1_ordinal1(A, 1) &  ( ~ (A=k1_xboole_0)  &  ~ (A=1) ) ) ) ) ) ).
-+ fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
-+ fof(l3_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, k1_tarski(B)) <=>  (A=k1_xboole_0 | A=k1_tarski(B)) ) ) ) ).
 + fof(fc2_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  ( ~ (v1_xboole_0(k1_ordinal1(A)))  & v3_ordinal1(k1_ordinal1(A))) ) ) ).
-+ fof(t13_ordinal1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, B) => v3_ordinal1(A)) ) ) ) ).
-+ fof(t8_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  ( ~ (A=k1_xboole_0)  => r2_hidden(k1_xboole_0, A)) ) ) ).
 + fof(l14_ordinal3, axiom, 1=k1_ordinal1(k1_xboole_0)).
++ fof(l3_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, k1_tarski(B)) <=>  (A=k1_xboole_0 | A=k1_tarski(B)) ) ) ) ).
++ fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
++ fof(t13_ordinal1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, B) => v3_ordinal1(A)) ) ) ) ).
 + fof(t15_ordinal3, axiom, 1=k1_tarski(k1_xboole_0)).
++ fof(t8_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  ( ~ (A=k1_xboole_0)  => r2_hidden(k1_xboole_0, A)) ) ) ).
 - fof(d16_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (C=k12_ordinal2(A, B) <=>  (? [D] :  ( (v5_ordinal1(D) &  (v1_relat_1(D) &  (v1_funct_1(D) & v1_ordinal2(D)) ) )  &  (C=k1_ordinal2(D) &  (k9_xtuple_0(D)=k1_ordinal1(B) &  (k1_funct_1(D, k1_xboole_0)=1 &  ( (! [E] :  (v3_ordinal1(E) =>  (r2_hidden(k1_ordinal1(E), k1_ordinal1(B)) => k1_funct_1(D, k1_ordinal1(E))=k11_ordinal2(A, k1_funct_1(D, E))) ) )  &  (! [E] :  (v3_ordinal1(E) =>  ( (r2_hidden(E, k1_ordinal1(B)) & v4_ordinal1(E))  =>  (E=k1_xboole_0 | k1_funct_1(D, E)=k8_ordinal2(k5_relat_1(D, E))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(s14_ordinal2__e2_76__ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) =>  ( (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (C=k12_ordinal2(A, B) <=>  (? [D] :  ( (v5_ordinal1(D) &  (v1_relat_1(D) &  (v1_funct_1(D) & v1_ordinal2(D)) ) )  &  (C=k1_ordinal2(D) &  (k9_xtuple_0(D)=k1_ordinal1(B) &  (k1_funct_1(D, k1_xboole_0)=1 &  ( (! [E] :  (v3_ordinal1(E) =>  (r2_hidden(k1_ordinal1(E), k1_ordinal1(B)) => k1_funct_1(D, k1_ordinal1(E))=k11_ordinal2(A, k1_funct_1(D, E))) ) )  &  (! [E] :  (v3_ordinal1(E) =>  ( (r2_hidden(E, k1_ordinal1(B)) & v4_ordinal1(E))  =>  (E=k1_xboole_0 | k1_funct_1(D, E)=k8_ordinal2(k5_relat_1(D, E))) ) ) ) ) ) ) ) ) ) ) ) ) ) )  => k12_ordinal2(A, k1_xboole_0)=1) ) ) ).
 - fof(l47_ordinal2, axiom, 1=k1_ordinal1(k1_xboole_0)).

@@ -1,7 +1,7 @@
 C fof(l26_dist_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (v1_prob_2(A) => v1_prob_2(k5_relat_1(A, B))) ) ) ) ).
-+ fof(t6_roughs_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  ( (v1_prob_2(B) & r1_tarski(A, B))  => v1_prob_2(A)) ) ) ) ) ).
 + fof(fc8_funct_1, axiom,  (! [A, B] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_relat_1(k5_relat_1(A, B)) & v1_funct_1(k5_relat_1(A, B))) ) ) ).
 + fof(t59_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) => r1_tarski(k5_relat_1(B, A), B)) ) ) ).
++ fof(t6_roughs_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  ( (v1_prob_2(B) & r1_tarski(A, B))  => v1_prob_2(A)) ) ) ) ) ).
 - fof(t33_mesfunc2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v1_relat_1(D) =>  ( (v1_prob_2(D) & m2_finseq_1(D, B))  =>  (v1_prob_2(k5_relat_1(D, k2_finseq_1(C))) & m2_finseq_1(k5_relat_1(D, k2_finseq_1(C)), B)) ) ) ) ) ) ) ) ) ) ).
 - fof(d2_prob_2, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_prob_2(A) <=>  (! [B] :  (! [C] :  ( ~ (B=C)  => r1_xboole_0(k1_funct_1(A, B), k1_funct_1(A, C))) ) ) ) ) ) ).
 - fof(symmetry_r1_xboole_0, axiom,  (! [A, B] :  (r1_xboole_0(A, B) => r1_xboole_0(B, A)) ) ).

@@ -1,15 +1,15 @@
 C fof(t49_topgen_1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (A=k3_numbers => k1_tops_1(k3_topmetr, A)=k1_xboole_0) ) ) ).
-+ fof(t37_xboole_1, axiom,  (! [A] :  (! [B] :  (k4_xboole_0(A, B)=k1_xboole_0 <=> r1_tarski(A, B)) ) ) ).
-+ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(d1_borsuk_5, axiom, k1_borsuk_5=k6_subset_1(k1_numbers, k3_numbers)).
 + fof(d4_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, B)=k4_xboole_0(A, B)) ) ) ).
++ fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).
 + fof(dt_k6_subset_1, axiom,  (! [A, B] : m1_subset_1(k6_subset_1(A, B), k1_zfmisc_1(A))) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
 + fof(t17_topmetr, axiom, u1_struct_0(k3_topmetr)=k1_numbers).
 + fof(t28_borsuk_5, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (A=k1_borsuk_5 => k2_pre_topc(k3_topmetr, A)=u1_struct_0(k3_topmetr)) ) ) ).
-+ fof(d1_borsuk_5, axiom, k1_borsuk_5=k6_subset_1(k1_numbers, k3_numbers)).
-+ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
-+ fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).
-+ fof(t3_topgen_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k1_tops_1(A, B)=k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), B)))) ) ) ) ).
++ fof(t37_xboole_1, axiom,  (! [A] :  (! [B] :  (k4_xboole_0(A, B)=k1_xboole_0 <=> r1_tarski(A, B)) ) ) ).
 + fof(t3_boole, axiom,  (! [A] : k4_xboole_0(A, k1_xboole_0)=A) ).
++ fof(t3_topgen_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k1_tops_1(A, B)=k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), B)))) ) ) ) ).
 - fof(antisymmetry_r2_xboole_0, axiom,  (! [A, B] :  (r2_xboole_0(A, B) =>  ~ (r2_xboole_0(B, A)) ) ) ).
 - fof(d1_rat_1, axiom,  (! [A] :  (A=k3_numbers <=>  (! [B] :  (r2_hidden(B, A) <=>  (? [C] :  (v1_int_1(C) &  (? [D] :  (v1_int_1(D) & B=k7_xcmplx_0(C, D)) ) ) ) ) ) ) ) ).
 - fof(t4_numbers, axiom, r2_xboole_0(k4_numbers, k3_numbers)).

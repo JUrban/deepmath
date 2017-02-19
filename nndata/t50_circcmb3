@@ -1,5 +1,5 @@
 C fof(t50_circcmb3, axiom,  (! [A] :  ( ~ (v1_xtuple_0(A))  =>  (! [B] :  (v1_relat_1(B) =>  ~ (r2_hidden(A, B)) ) ) ) ) ).
-+ fof(d1_xtuple_0, axiom,  (! [A] :  (v1_xtuple_0(A) <=>  (? [B] :  (? [C] : A=k4_tarski(B, C)) ) ) ) ).
 + fof(d1_relat_1, axiom,  (! [A] :  (v1_relat_1(A) <=>  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (! [D] :  ~ (B=k4_tarski(C, D)) ) ) ) ) ) ) ) ).
++ fof(d1_xtuple_0, axiom,  (! [A] :  (v1_xtuple_0(A) <=>  (? [B] :  (? [C] : A=k4_tarski(B, C)) ) ) ) ).
 - fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
 - fof(d33_twoscomp, axiom,  (! [A] :  (! [B] : k34_twoscomp(A, B)=k5_circcomb(k15_twoscomp, k10_finseq_1(A, B))) ) ).

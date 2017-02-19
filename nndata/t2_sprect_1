@@ -1,11 +1,11 @@
 C fof(t2_sprect_1, axiom,  (! [A] :  (! [B] :  (v3_funct_1(k10_finseq_1(A, B)) => A=B) ) ) ).
 + fof(fc12_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_funct_1(A)) )  => v1_zfmisc_1(k10_xtuple_0(A))) ) ).
++ fof(fc3_xboole_0, axiom,  (! [A, B] :  ~ (v1_xboole_0(k2_tarski(A, B))) ) ).
++ fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
 + fof(l13_finseq_2, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k10_finseq_1(A, B))=k2_tarski(A, B)) ) ).
 + fof(l3_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (k1_tarski(A)=k2_tarski(B, C) => B=C) ) ) ) ).
-+ fof(fc3_xboole_0, axiom,  (! [A, B] :  ~ (v1_xboole_0(k2_tarski(A, B))) ) ).
-+ fof(t46_subset_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_zfmisc_1(A))  =>  (? [B] :  (m1_subset_1(B, A) & A=k1_tarski(B)) ) ) ) ).
 + fof(t29_enumset1, axiom,  (! [A] : k2_tarski(A, A)=k1_tarski(A)) ).
-+ fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
++ fof(t46_subset_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_zfmisc_1(A))  =>  (? [B] :  (m1_subset_1(B, A) & A=k1_tarski(B)) ) ) ) ).
 - fof(t62_facirc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, k4_finseq_2(2, k6_margrel1), k6_margrel1) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k4_finseq_2(2, k6_margrel1), k6_margrel1)))) )  =>  (! [E] :  (m1_subset_1(E, k4_card_3(u3_msualg_1(k8_facirc_1(B, C, A, D), k10_facirc_1(B, C, A, D)))) =>  ( ~ (A=k4_tarski(k10_finseq_1(B, C), D))  =>  (k11_facirc_1(k8_facirc_1(B, C, A, D), k10_facirc_1(B, C, A, D), k5_facirc_1(k8_facirc_1(B, C, A, D), k10_facirc_1(B, C, A, D), E, 2), k9_facirc_1(B, C, A, D))=k1_funct_1(D, k10_finseq_1(k1_funct_1(D, k10_finseq_1(k1_funct_1(E, B), k1_funct_1(E, C))), k1_funct_1(E, A))) &  (k1_funct_1(k5_facirc_1(k8_facirc_1(B, C, A, D), k10_facirc_1(B, C, A, D), E, 2), k4_tarski(k10_finseq_1(B, C), D))=k1_funct_1(D, k10_finseq_1(k1_funct_1(E, B), k1_funct_1(E, C))) &  (k1_funct_1(k5_facirc_1(k8_facirc_1(B, C, A, D), k10_facirc_1(B, C, A, D), E, 2), B)=k1_funct_1(E, B) &  (k1_funct_1(k5_facirc_1(k8_facirc_1(B, C, A, D), k10_facirc_1(B, C, A, D), E, 2), C)=k1_funct_1(E, C) & k1_funct_1(k5_facirc_1(k8_facirc_1(B, C, A, D), k10_facirc_1(B, C, A, D), E, 2), A)=k1_funct_1(E, A)) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(fc10_finseq_1, axiom,  (! [A, B] : v1_finseq_1(k10_finseq_1(A, B))) ).
 - fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).

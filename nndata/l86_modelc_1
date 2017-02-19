@@ -1,14 +1,14 @@
 C fof(l86_modelc_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  ( ~ (k3_funct_2(A, k6_margrel1, k31_modelc_1(A, C), B)=k8_margrel1)  => k3_funct_2(A, k6_margrel1, k31_modelc_1(A, C), B)=k7_margrel1) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(dt_k3_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) )  => m1_subset_1(k3_funct_2(A, B, C, D), B)) ) ).
-+ fof(fc3_xboole_0, axiom,  (! [A, B] :  ~ (v1_xboole_0(k2_tarski(A, B))) ) ).
-+ fof(redefinition_k8_margrel1, axiom, k8_margrel1=k2_xboolean).
-+ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
 + fof(d11_margrel1, axiom, k6_margrel1=k2_tarski(k6_numbers, 1)).
 + fof(d1_xboolean, axiom, k1_xboolean=k6_numbers).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
 + fof(d2_xboolean, axiom, k2_xboolean=1).
-+ fof(redefinition_k7_margrel1, axiom, k7_margrel1=k1_xboolean).
 + fof(dt_k31_modelc_1, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(A))  =>  (v1_funct_1(k31_modelc_1(A, B)) &  (v1_funct_2(k31_modelc_1(A, B), A, k6_margrel1) & m1_subset_1(k31_modelc_1(A, B), k1_zfmisc_1(k2_zfmisc_1(A, k6_margrel1)))) ) ) ) ).
++ fof(dt_k3_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) )  => m1_subset_1(k3_funct_2(A, B, C, D), B)) ) ).
++ fof(fc3_xboole_0, axiom,  (! [A, B] :  ~ (v1_xboole_0(k2_tarski(A, B))) ) ).
++ fof(redefinition_k7_margrel1, axiom, k7_margrel1=k1_xboolean).
++ fof(redefinition_k8_margrel1, axiom, k8_margrel1=k2_xboolean).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 - fof(d41_modelc_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (r2_hidden(B, k30_modelc_1(A)) => k31_modelc_1(A, B)=B)  &  ( ~ (r2_hidden(B, k30_modelc_1(A)))  => k31_modelc_1(A, B)=k1_margrel1(k6_margrel1, A, k7_margrel1)) ) ) ) ) ).
 - fof(d16_bvfunc_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k6_margrel1) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k6_margrel1)))) )  =>  (! [C] :  (m1_eqrel_1(C, A) =>  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, A, k6_margrel1) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, k6_margrel1)))) )  =>  (D=k16_bvfunc_1(A, B, C) <=>  (! [E] :  (m1_subset_1(E, A) =>  ( ( (! [F] :  (m1_subset_1(F, A) =>  (r2_hidden(F, k15_bvfunc_1(A, E, C)) => k3_funct_2(A, k6_margrel1, B, F)=k8_margrel1) ) )  => k3_funct_2(A, k6_margrel1, D, E)=k8_margrel1)  &  ( (? [F] :  (m1_subset_1(F, A) &  (r2_hidden(F, k15_bvfunc_1(A, E, C)) &  ~ (k3_funct_2(A, k6_margrel1, B, F)=k8_margrel1) ) ) )  => k3_funct_2(A, k6_margrel1, D, E)=k7_margrel1) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(d17_bvfunc_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k6_margrel1) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k6_margrel1)))) )  =>  (! [C] :  (m1_eqrel_1(C, A) =>  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, A, k6_margrel1) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, k6_margrel1)))) )  =>  (D=k17_bvfunc_1(A, B, C) <=>  (! [E] :  (m1_subset_1(E, A) =>  ( ( (? [F] :  (m1_subset_1(F, A) &  (r2_hidden(F, k15_bvfunc_1(A, E, C)) & k3_funct_2(A, k6_margrel1, B, F)=k8_margrel1) ) )  => k3_funct_2(A, k6_margrel1, D, E)=k8_margrel1)  &  ( (! [F] :  (m1_subset_1(F, A) =>  ~ ( (r2_hidden(F, k15_bvfunc_1(A, E, C)) & k3_funct_2(A, k6_margrel1, B, F)=k8_margrel1) ) ) )  => k3_funct_2(A, k6_margrel1, D, E)=k7_margrel1) ) ) ) ) ) ) ) ) ) ) ) ) ).

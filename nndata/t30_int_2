@@ -1,10 +1,10 @@
 C fof(t30_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( (v1_int_2(A) &  (v1_int_2(B) &  ( ~ (r1_int_2(A, B))  &  ~ (A=B) ) ) ) ) ) ) ) ) ).
++ fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
++ fof(commutativity_k3_int_2, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => k3_int_2(A, B)=k3_int_2(B, A)) ) ).
++ fof(d3_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (r1_int_2(A, B) <=> k3_int_2(A, B)=1) ) ) ) ) ).
 + fof(d4_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_int_2(A) <=>  ( ~ (r1_xxreal_0(A, 1))  &  (! [B] :  (v7_ordinal1(B) =>  ~ ( (r1_int_1(B, A) &  ( ~ (B=1)  &  ~ (B=A) ) ) ) ) ) ) ) ) ) ).
 + fof(dt_k3_int_2, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => v7_ordinal1(k3_int_2(A, B))) ) ).
-+ fof(d3_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (r1_int_2(A, B) <=> k3_int_2(A, B)=1) ) ) ) ) ).
-+ fof(commutativity_k3_int_2, axiom,  (! [A, B] :  ( (v1_int_1(A) & v1_int_1(B))  => k3_int_2(A, B)=k3_int_2(B, A)) ) ).
 + fof(t21_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) => r1_int_1(k3_int_2(A, B), A)) ) ) ) ).
-+ fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
 - fof(rc1_int_2, axiom,  (? [A] :  (v1_xxreal_0(A) &  ( ~ (v3_xxreal_0(A))  &  (v1_ordinal1(A) &  (v2_ordinal1(A) &  (v3_ordinal1(A) &  (v7_ordinal1(A) &  (v1_xcmplx_0(A) &  (v1_xreal_0(A) &  (v1_int_1(A) & v1_int_2(A)) ) ) ) ) ) ) ) ) ) ).
 - fof(rc2_int_2, axiom,  (? [A] :  (v1_xxreal_0(A) &  ( ~ (v3_xxreal_0(A))  &  ( ~ (v1_xboole_0(A))  &  (v1_ordinal1(A) &  (v2_ordinal1(A) &  (v3_ordinal1(A) &  (v7_ordinal1(A) &  (v1_xcmplx_0(A) &  (v1_xreal_0(A) &  (v1_int_1(A) &  ~ (v1_int_2(A)) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t24_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_int_1(C) =>  (r1_int_2(A, B) =>  (k3_int_2(k3_xcmplx_0(C, A), k3_xcmplx_0(C, B))=k1_int_2(C) &  (k3_int_2(k3_xcmplx_0(C, A), k3_xcmplx_0(B, C))=k1_int_2(C) &  (k3_int_2(k3_xcmplx_0(A, C), k3_xcmplx_0(C, B))=k1_int_2(C) & k3_int_2(k3_xcmplx_0(A, C), k3_xcmplx_0(B, C))=k1_int_2(C)) ) ) ) ) ) ) ) ) ) ).

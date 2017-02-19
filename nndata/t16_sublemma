@@ -1,27 +1,27 @@
 C fof(t16_sublemma, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m2_subset_1(B, k16_substut1(A), k38_substut1(A)) =>  (k18_substut1(A, k20_substut1(A, B))=k6_cqc_lang(A, k2_sublemma(A, B)) & k19_substut1(A, k20_substut1(A, B))=k19_substut1(A, B)) ) ) ) ) ).
-+ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
-+ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
-+ fof(redefinition_k2_sublemma, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k38_substut1(A)))  => k2_sublemma(A, B)=k1_xtuple_0(B)) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
-+ fof(redefinition_k6_cqc_lang, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k3_cqc_lang(A)))  => k6_cqc_lang(A, B)=k13_qc_lang1(A, B)) ) ).
-+ fof(dt_k2_sublemma, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k38_substut1(A)))  => m2_subset_1(k2_sublemma(A, B), k9_qc_lang1(A), k3_cqc_lang(A))) ) ).
-+ fof(fc2_cqc_lang, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k3_cqc_lang(A))) ) ) ).
-+ fof(dt_k13_qc_lang1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k9_qc_lang1(A)))  => m1_subset_1(k13_qc_lang1(A, B), k9_qc_lang1(A))) ) ).
-+ fof(dt_k20_substut1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k16_substut1(A)))  => m1_subset_1(k20_substut1(A, B), k16_substut1(A))) ) ).
-+ fof(redefinition_k18_substut1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k16_substut1(A)))  => k18_substut1(A, B)=k1_xtuple_0(B)) ) ).
-+ fof(dt_k9_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k9_qc_lang1(A))) ) ) ).
-+ fof(dt_k18_substut1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k16_substut1(A)))  => m1_subset_1(k18_substut1(A, B), k9_qc_lang1(A))) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(fc1_substut1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k1_substut1(A))) ) ) ).
-+ fof(dt_k19_substut1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k16_substut1(A)))  => m1_subset_1(k19_substut1(A, B), k1_substut1(A))) ) ).
-+ fof(dt_k3_cqc_lang, axiom,  (! [A] :  (m1_qc_lang1(A) => m1_subset_1(k3_cqc_lang(A), k1_zfmisc_1(k9_qc_lang1(A)))) ) ).
-+ fof(t7_mcart_1, axiom,  (! [A] :  (! [B] :  (k1_xtuple_0(k4_tarski(A, B))=A & k2_xtuple_0(k4_tarski(A, B))=B) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
 + fof(d20_substut1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k16_substut1(A)) => k20_substut1(A, B)=k1_domain_1(k9_qc_lang1(A), k1_substut1(A), k13_qc_lang1(A, k18_substut1(A, B)), k19_substut1(A, B))) ) ) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(dt_k13_qc_lang1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k9_qc_lang1(A)))  => m1_subset_1(k13_qc_lang1(A, B), k9_qc_lang1(A))) ) ).
++ fof(dt_k18_substut1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k16_substut1(A)))  => m1_subset_1(k18_substut1(A, B), k9_qc_lang1(A))) ) ).
++ fof(dt_k19_substut1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k16_substut1(A)))  => m1_subset_1(k19_substut1(A, B), k1_substut1(A))) ) ).
++ fof(dt_k20_substut1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k16_substut1(A)))  => m1_subset_1(k20_substut1(A, B), k16_substut1(A))) ) ).
++ fof(dt_k2_sublemma, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k38_substut1(A)))  => m2_subset_1(k2_sublemma(A, B), k9_qc_lang1(A), k3_cqc_lang(A))) ) ).
 + fof(dt_k38_substut1, axiom,  (! [A] :  (m1_qc_lang1(A) => m1_subset_1(k38_substut1(A), k1_zfmisc_1(k16_substut1(A)))) ) ).
++ fof(dt_k3_cqc_lang, axiom,  (! [A] :  (m1_qc_lang1(A) => m1_subset_1(k3_cqc_lang(A), k1_zfmisc_1(k9_qc_lang1(A)))) ) ).
++ fof(dt_k9_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k9_qc_lang1(A))) ) ) ).
++ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
++ fof(fc1_substut1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k1_substut1(A))) ) ) ).
++ fof(fc2_cqc_lang, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k3_cqc_lang(A))) ) ) ).
 + fof(fc7_substut1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k38_substut1(A))) ) ) ).
++ fof(redefinition_k18_substut1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k16_substut1(A)))  => k18_substut1(A, B)=k1_xtuple_0(B)) ) ).
 + fof(redefinition_k19_substut1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k16_substut1(A)))  => k19_substut1(A, B)=k2_xtuple_0(B)) ) ).
++ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
++ fof(redefinition_k2_sublemma, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k38_substut1(A)))  => k2_sublemma(A, B)=k1_xtuple_0(B)) ) ).
++ fof(redefinition_k6_cqc_lang, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_subset_1(B, k3_cqc_lang(A)))  => k6_cqc_lang(A, B)=k13_qc_lang1(A, B)) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t7_mcart_1, axiom,  (! [A] :  (! [B] :  (k1_xtuple_0(k4_tarski(A, B))=A & k2_xtuple_0(k4_tarski(A, B))=B) ) ) ).
 - fof(d27_substut1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k16_substut1(A)) =>  (v6_substut1(B, A) <=>  (? [C] :  (m1_subset_1(C, k16_substut1(A)) &  (? [D] :  (m1_subset_1(D, k16_substut1(A)) &  (B=k21_substut1(A, C, D) & k19_substut1(A, C)=k19_substut1(A, D)) ) ) ) ) ) ) ) ) ) ).
 - fof(dt_k21_substut1, axiom,  (! [A, B, C] :  ( (m1_qc_lang1(A) &  (m1_subset_1(B, k16_substut1(A)) & m1_subset_1(C, k16_substut1(A))) )  => m1_subset_1(k21_substut1(A, B, C), k16_substut1(A))) ) ).
 - fof(t6_sublemma, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m2_subset_1(B, k16_substut1(A), k38_substut1(A)) =>  (v4_substut1(B, A) => k39_substut1(A, B)=k10_qc_lang1(A, k16_qc_lang1(A, k2_sublemma(A, B)), k3_substut1(A, k26_substut1(A, B), k19_substut1(A, B)))) ) ) ) ) ).

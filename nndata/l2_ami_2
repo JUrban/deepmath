@@ -1,11 +1,11 @@
 C fof(l2_ami_2, axiom,  (! [A] :  (m1_subset_1(A, k1_ami_2) =>  (A=k5_numbers | r2_hidden(A, k2_ami_2)) ) ) ).
-+ fof(redefinition_k2_ami_2, axiom, k2_ami_2=k2_scm_inst).
 + fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
 + fof(d1_ami_2, axiom, k1_ami_2=k2_xboole_0(k1_tarski(k5_numbers), k2_scm_inst)).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
 + fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(redefinition_k2_ami_2, axiom, k2_ami_2=k2_scm_inst).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(dt_k2_ami_2, axiom, m1_subset_1(k2_ami_2, k1_zfmisc_1(k1_ami_2))).
 - fof(fc1_ami_2, axiom,  ~ (v1_xboole_0(k1_ami_2)) ).
 - fof(t1_seq_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  <=>  (k9_xtuple_0(A)=k5_numbers &  (! [B] :  (r2_hidden(B, k5_numbers) => v1_xreal_0(k1_funct_1(A, B))) ) ) ) ) ) ).

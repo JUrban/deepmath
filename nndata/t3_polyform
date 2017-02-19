@@ -1,15 +1,15 @@
 C fof(t3_polyform, axiom,  (! [A] :  (v1_int_1(A) =>  (r1_xxreal_0(1, A) => v7_ordinal1(A)) ) ) ).
++ fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
 + fof(cc3_int_1, axiom,  (! [A] :  (v1_int_1(A) => v1_xreal_0(A)) ) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
-+ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
 + fof(d1_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( (r1_xxreal_0(k6_numbers, A) => k16_complex1(A)=A)  &  ( ~ (r1_xxreal_0(k6_numbers, A))  => k16_complex1(A)=k4_xcmplx_0(A)) ) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(l1_euler_2, axiom,  (! [A] :  (v1_int_1(A) =>  ( ~ (r1_xxreal_0(1, A))  <=> r1_xxreal_0(A, k1_xboole_0)) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
 + fof(fc1_prepower, axiom,  (! [A] :  (v1_int_1(A) =>  (v7_ordinal1(k16_complex1(A)) & v1_xreal_0(k16_complex1(A))) ) ) ).
++ fof(l1_euler_2, axiom,  (! [A] :  (v1_int_1(A) =>  ( ~ (r1_xxreal_0(1, A))  <=> r1_xxreal_0(A, k1_xboole_0)) ) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
 - fof(t7_prgcor_1, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  ( (r1_xxreal_0(1, A) & r1_xxreal_0(A, k3_finseq_1(B)))  => r2_hidden(A, k4_finseq_1(B))) ) ) ) ) ).
 - fof(l13_int_1, axiom,  (! [A] :  (v1_int_1(A) =>  ( ~ (r1_xxreal_0(A, k6_numbers))  => r1_xxreal_0(1, A)) ) ) ).
 - fof(l196_group_9, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) &  (v3_group_9(B, A) & l1_group_9(B, A)) ) ) )  =>  (! [C] :  (v1_int_1(C) =>  (! [D] :  (v7_ordinal1(D) =>  (! [E] :  (v7_ordinal1(E) =>  (! [F] :  ( (v8_group_9(F, A, B) & m2_finseq_1(F, k6_group_9(A, B)))  =>  (! [G] :  ( (v8_group_9(G, A, B) & m2_finseq_1(G, k6_group_9(A, B)))  =>  ( (C=k2_xcmplx_0(k3_xcmplx_0(k6_xcmplx_0(D, 1), k6_xcmplx_0(k3_finseq_1(G), 1)), E) &  (r1_xxreal_0(1, D) &  (r1_xxreal_0(D, k6_xcmplx_0(k3_finseq_1(F), 1)) &  (r1_xxreal_0(1, E) & r1_xxreal_0(E, k6_xcmplx_0(k3_finseq_1(G), 1))) ) ) )  =>  (r1_xxreal_0(k3_finseq_1(G), 1) |  (r1_xxreal_0(1, C) & r1_xxreal_0(C, k3_xcmplx_0(k6_xcmplx_0(k3_finseq_1(F), 1), k6_xcmplx_0(k3_finseq_1(G), 1)))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

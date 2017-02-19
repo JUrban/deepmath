@@ -1,17 +1,17 @@
 C fof(l45_jgraph_2, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) => k5_square_1(k12_euclid(k5_algstr_0(k15_euclid(2), A, B)))=k7_real_1(k5_square_1(k18_euclid(k5_algstr_0(k15_euclid(2), A, B))), k5_square_1(k17_euclid(k5_algstr_0(k15_euclid(2), A, B))))) ) ) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(dt_k5_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k5_square_1(A), k1_numbers)) ) ).
-+ fof(dt_l1_rlvect_1, axiom,  (! [A] :  (l1_rlvect_1(A) => l2_algstr_0(A)) ) ).
-+ fof(dt_k5_algstr_0, axiom,  (! [A, B, C] :  ( (l2_algstr_0(A) &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k5_algstr_0(A, B, C), u1_struct_0(A))) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(dt_k15_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v5_rltopsp1(k15_euclid(A)) & l1_rltopsp1(k15_euclid(A))) ) ) ).
-+ fof(commutativity_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k7_real_1(A, B)=k7_real_1(B, A)) ) ).
-+ fof(dt_l1_rltopsp1, axiom,  (! [A] :  (l1_rltopsp1(A) =>  (l1_rlvect_1(A) & l1_pre_topc(A)) ) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(dt_k18_euclid, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => m1_subset_1(k18_euclid(A), k1_numbers)) ) ).
 + fof(cc1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(t29_jgraph_1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => k5_square_1(k12_euclid(A))=k7_real_1(k5_square_1(k17_euclid(A)), k5_square_1(k18_euclid(A)))) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(commutativity_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k7_real_1(A, B)=k7_real_1(B, A)) ) ).
++ fof(dt_k15_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v5_rltopsp1(k15_euclid(A)) & l1_rltopsp1(k15_euclid(A))) ) ) ).
 + fof(dt_k17_euclid, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => m1_subset_1(k17_euclid(A), k1_numbers)) ) ).
++ fof(dt_k18_euclid, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => m1_subset_1(k18_euclid(A), k1_numbers)) ) ).
++ fof(dt_k5_algstr_0, axiom,  (! [A, B, C] :  ( (l2_algstr_0(A) &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k5_algstr_0(A, B, C), u1_struct_0(A))) ) ).
++ fof(dt_k5_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k5_square_1(A), k1_numbers)) ) ).
++ fof(dt_l1_rltopsp1, axiom,  (! [A] :  (l1_rltopsp1(A) =>  (l1_rlvect_1(A) & l1_pre_topc(A)) ) ) ).
++ fof(dt_l1_rlvect_1, axiom,  (! [A] :  (l1_rlvect_1(A) => l2_algstr_0(A)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t29_jgraph_1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => k5_square_1(k12_euclid(A))=k7_real_1(k5_square_1(k17_euclid(A)), k5_square_1(k18_euclid(A)))) ) ).
 - fof(l2_goboard6, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (k17_euclid(k5_algstr_0(k15_euclid(2), A, B))=k9_real_1(k17_euclid(A), k17_euclid(B)) & k18_euclid(k5_algstr_0(k15_euclid(2), A, B))=k9_real_1(k18_euclid(A), k18_euclid(B))) ) ) ) ) ).
 - fof(l42_jgraph_2, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) => k5_square_1(k12_euclid(k5_algstr_0(k15_euclid(2), A, B)))=k7_real_1(k5_square_1(k17_euclid(k5_algstr_0(k15_euclid(2), A, B))), k5_square_1(k18_euclid(k5_algstr_0(k15_euclid(2), A, B))))) ) ) ) ).
 - fof(t3_topreal3, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (k17_euclid(k5_algstr_0(k15_euclid(2), A, B))=k9_real_1(k17_euclid(A), k17_euclid(B)) & k18_euclid(k5_algstr_0(k15_euclid(2), A, B))=k9_real_1(k18_euclid(A), k18_euclid(B))) ) ) ) ) ).

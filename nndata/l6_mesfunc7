@@ -1,17 +1,17 @@
 C fof(l6_mesfunc7, axiom, r3_binop_1(k7_numbers, k8_mesfunc1, k1_mesfunc7)).
-+ fof(redefinition_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k5_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
 + fof(cc1_xxreal_0, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => v1_xxreal_0(A)) ) ).
-+ fof(dt_k1_mesfunc7, axiom,  (v1_funct_1(k1_mesfunc7) &  (v1_funct_2(k1_mesfunc7, k2_zfmisc_1(k7_numbers, k7_numbers), k7_numbers) & m1_subset_1(k1_mesfunc7, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k7_numbers, k7_numbers), k7_numbers)))) ) ).
-+ fof(redefinition_k3_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k3_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
-+ fof(d2_binop_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (v1_binop_1(B, A) <=>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, A) => k3_binop_1(A, B, C, D)=k3_binop_1(A, B, D, C)) ) ) ) ) ) ) ) ).
++ fof(commutativity_k1_extreal1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k1_extreal1(A, B)=k1_extreal1(B, A)) ) ).
 + fof(d1_mesfunc7, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_zfmisc_1(k7_numbers, k7_numbers), k7_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k7_numbers, k7_numbers), k7_numbers)))) )  =>  (A=k1_mesfunc7 <=>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  (! [C] :  (m1_subset_1(C, k7_numbers) => k5_binop_1(k7_numbers, A, B, C)=k1_extreal1(B, C)) ) ) ) ) ) ) ).
-+ fof(t81_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) => k4_xxreal_3(1, A)=A) ) ).
++ fof(d2_binop_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (v1_binop_1(B, A) <=>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, A) => k3_binop_1(A, B, C, D)=k3_binop_1(A, B, D, C)) ) ) ) ) ) ) ) ).
++ fof(d8_mesfunc1, axiom, k8_mesfunc1=1).
++ fof(dt_k1_mesfunc7, axiom,  (v1_funct_1(k1_mesfunc7) &  (v1_funct_2(k1_mesfunc7, k2_zfmisc_1(k7_numbers, k7_numbers), k7_numbers) & m1_subset_1(k1_mesfunc7, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k7_numbers, k7_numbers), k7_numbers)))) ) ).
++ fof(dt_k8_mesfunc1, axiom, m1_subset_1(k8_mesfunc1, k7_numbers)).
 + fof(fc2_mesfunc7, axiom,  (v1_funct_1(k1_mesfunc7) &  (v1_funct_2(k1_mesfunc7, k2_zfmisc_1(k7_numbers, k7_numbers), k7_numbers) &  (v1_binop_1(k1_mesfunc7, k7_numbers) & v2_binop_1(k1_mesfunc7, k7_numbers)) ) ) ).
 + fof(redefinition_k1_extreal1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k1_extreal1(A, B)=k4_xxreal_3(A, B)) ) ).
-+ fof(d8_mesfunc1, axiom, k8_mesfunc1=1).
-+ fof(commutativity_k1_extreal1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k1_extreal1(A, B)=k1_extreal1(B, A)) ) ).
++ fof(redefinition_k3_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k3_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
++ fof(redefinition_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k5_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
 + fof(t4_binop_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (! [C] :  (m1_subset_1(C, A) =>  (v1_binop_1(B, A) =>  (r3_binop_1(A, C, B) <=>  (! [D] :  (m1_subset_1(D, A) => k3_binop_1(A, B, C, D)=D) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k8_mesfunc1, axiom, m1_subset_1(k8_mesfunc1, k7_numbers)).
++ fof(t81_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) => k4_xxreal_3(1, A)=A) ) ).
 - fof(t3_binop_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (! [C] :  (m1_subset_1(C, A) =>  (r3_binop_1(A, C, B) <=>  (! [D] :  (m1_subset_1(D, A) =>  (k3_binop_1(A, B, C, D)=D & k3_binop_1(A, B, D, C)=D) ) ) ) ) ) ) ) ) ).
 - fof(l37_binop_2, axiom, r3_binop_1(k1_numbers, 1, k35_binop_2)).
 - fof(t5_binop_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (! [C] :  (m1_subset_1(C, A) =>  (v1_binop_1(B, A) =>  (r3_binop_1(A, C, B) <=>  (! [D] :  (m1_subset_1(D, A) => k3_binop_1(A, B, D, C)=D) ) ) ) ) ) ) ) ) ).

@@ -1,11 +1,11 @@
 C fof(l35_dtconstr, axiom, m2_subset_1(c2__dtconstr, u1_struct_0(k5_dtconstr), k6_dtconstr(k5_dtconstr))).
-+ fof(dt_k5_dtconstr, axiom,  ( ~ (v2_struct_0(k5_dtconstr))  &  (v1_lang1(k5_dtconstr) & l1_lang1(k5_dtconstr)) ) ).
-+ fof(fc4_dtconstr, axiom,  ( ~ (v2_struct_0(k5_dtconstr))  &  (v1_lang1(k5_dtconstr) &  (v1_dtconstr(k5_dtconstr) &  (v2_dtconstr(k5_dtconstr) & v3_dtconstr(k5_dtconstr)) ) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(redefinition_k6_dtconstr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_dtconstr(A) & l1_lang1(A)) )  => k6_dtconstr(A)=k1_lang1(A)) ) ).
-+ fof(l20_dtconstr, axiom, r2_hidden(c2__dtconstr, k1_lang1(k5_dtconstr))).
++ fof(dt_k5_dtconstr, axiom,  ( ~ (v2_struct_0(k5_dtconstr))  &  (v1_lang1(k5_dtconstr) & l1_lang1(k5_dtconstr)) ) ).
 + fof(dt_k6_dtconstr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_dtconstr(A) & l1_lang1(A)) )  =>  ( ~ (v1_xboole_0(k6_dtconstr(A)))  & m1_subset_1(k6_dtconstr(A), k1_zfmisc_1(u1_struct_0(A)))) ) ) ).
++ fof(fc4_dtconstr, axiom,  ( ~ (v2_struct_0(k5_dtconstr))  &  (v1_lang1(k5_dtconstr) &  (v1_dtconstr(k5_dtconstr) &  (v2_dtconstr(k5_dtconstr) & v3_dtconstr(k5_dtconstr)) ) ) ) ).
++ fof(l20_dtconstr, axiom, r2_hidden(c2__dtconstr, k1_lang1(k5_dtconstr))).
++ fof(redefinition_k6_dtconstr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_dtconstr(A) & l1_lang1(A)) )  => k6_dtconstr(A)=k1_lang1(A)) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 - fof(l14_dtconstr, axiom, r1_lang1(k5_dtconstr, c3__dtconstr, k3_pre_poly(u1_struct_0(k5_dtconstr), c2__dtconstr))).
 - fof(t9_dtconstr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_dtconstr(A) & l1_lang1(A)) )  =>  (! [B] :  (m1_dtconstr(B, u1_struct_0(A), k5_trees_3(u1_struct_0(A)), k4_dtconstr(A)) =>  (! [C] :  (m2_subset_1(C, u1_struct_0(A), k6_dtconstr(A)) =>  (k1_funct_1(B, k1_xboole_0)=C => B=k8_dtconstr(A, C)) ) ) ) ) ) ) ).

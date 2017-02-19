@@ -1,12 +1,12 @@
 C fof(t3_midsp_1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k2_midsp_1)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k2_midsp_1)) => k1_midsp_1(k2_midsp_1, A, B)=k1_binop_1(k9_funct_5, A, B)) ) ) ) ).
 + fof(abstractness_v1_midsp_1, axiom,  (! [A] :  (l1_midsp_1(A) =>  (v1_midsp_1(A) => A=g1_midsp_1(u1_struct_0(A), u1_midsp_1(A))) ) ) ).
-+ fof(dt_k9_funct_5, axiom,  (v1_funct_1(k9_funct_5) &  (v1_funct_2(k9_funct_5, k2_zfmisc_1(1, 1), 1) & m1_subset_1(k9_funct_5, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(1, 1), 1)))) ) ).
-+ fof(redefinition_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k5_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
-+ fof(fc1_midsp_1, axiom,  ( ~ (v2_struct_0(k2_midsp_1))  & v1_midsp_1(k2_midsp_1)) ).
 + fof(d1_midsp_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_midsp_1(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => k1_midsp_1(A, B, C)=k5_binop_1(u1_struct_0(A), u1_midsp_1(A), B, C)) ) ) ) ) ) ).
-+ fof(dt_k2_midsp_1, axiom, l1_midsp_1(k2_midsp_1)).
 + fof(d2_midsp_1, axiom, k2_midsp_1=g1_midsp_1(1, k9_funct_5)).
++ fof(dt_k2_midsp_1, axiom, l1_midsp_1(k2_midsp_1)).
++ fof(dt_k9_funct_5, axiom,  (v1_funct_1(k9_funct_5) &  (v1_funct_2(k9_funct_5, k2_zfmisc_1(1, 1), 1) & m1_subset_1(k9_funct_5, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(1, 1), 1)))) ) ).
++ fof(fc1_midsp_1, axiom,  ( ~ (v2_struct_0(k2_midsp_1))  & v1_midsp_1(k2_midsp_1)) ).
 + fof(free_g1_midsp_1, axiom,  (! [A, B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (! [C, D] :  (g1_midsp_1(A, B)=g1_midsp_1(C, D) =>  (A=C & B=D) ) ) ) ) ).
++ fof(redefinition_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k5_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
 - fof(t2_midsp_1, axiom, r1_funct_2(k2_zfmisc_1(u1_struct_0(k2_midsp_1), u1_struct_0(k2_midsp_1)), u1_struct_0(k2_midsp_1), k2_zfmisc_1(1, 1), 1, u1_midsp_1(k2_midsp_1), k9_funct_5)).
 - fof(dt_k1_midsp_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l1_midsp_1(A))  &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k1_midsp_1(A, B, C), u1_struct_0(A))) ) ).
 - fof(t1_midsp_1, axiom, u1_struct_0(k2_midsp_1)=1).

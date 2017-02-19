@@ -1,12 +1,12 @@
 C fof(t13_amistd_4, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (! [C] :  (m1_subset_1(C, u1_compos_1(B)) =>  (v2_extpro_1(C, A, B) => v1_xboole_0(k5_amistd_4(A, B, C))) ) ) ) ) ) ) ).
-+ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
-+ fof(t4_boole, axiom,  (! [A] : k4_xboole_0(k1_xboole_0, A)=k1_xboole_0) ).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
 + fof(d6_amistd_4, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (! [C] :  (m1_subset_1(C, u1_compos_1(B)) => k5_amistd_4(A, B, C)=k7_subset_1(u1_struct_0(B), k4_amistd_4(A, B, C), k3_amistd_4(A, B, C))) ) ) ) ) ) ).
 + fof(dt_k4_amistd_4, axiom,  (! [A, B, C] :  ( ( ~ (v1_setfam_1(A))  &  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  & m1_subset_1(C, u1_compos_1(B))) )  => m1_subset_1(k4_amistd_4(A, B, C), k1_zfmisc_1(u1_struct_0(B)))) ) ).
-+ fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
-+ fof(t12_amistd_4, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (! [C] :  (m1_subset_1(C, u1_compos_1(B)) =>  (v2_extpro_1(C, A, B) => v1_xboole_0(k4_amistd_4(A, B, C))) ) ) ) ) ) ) ).
++ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
 + fof(redefinition_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k7_subset_1(A, B, C)=k4_xboole_0(B, C)) ) ).
++ fof(t12_amistd_4, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (! [C] :  (m1_subset_1(C, u1_compos_1(B)) =>  (v2_extpro_1(C, A, B) => v1_xboole_0(k4_amistd_4(A, B, C))) ) ) ) ) ) ) ).
++ fof(t4_boole, axiom,  (! [A] : k4_xboole_0(k1_xboole_0, A)=k1_xboole_0) ).
++ fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
 - fof(l21_ami_3, axiom,  (! [A] :  (m1_subset_1(A, u1_compos_1(k1_ami_3)) =>  ~ ( ( (? [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, u1_struct_0(k1_ami_3)) &  (v1_funct_1(B) &  (v5_funct_1(B, k2_memstr_0(2, k1_ami_3)) & v1_partfun1(B, u1_struct_0(k1_ami_3))) ) ) )  & k1_funct_1(k2_extpro_1(2, k1_ami_3, A, B), k4_struct_0(k1_ami_3))=k4_card_1(k5_memstr_0(2, k1_ami_3, B))) )  & v2_extpro_1(A, 2, k1_ami_3)) ) ) ) ).
 - fof(t2_amistd_1, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (! [D] :  (m1_subset_1(D, u1_compos_1(B)) =>  (v2_extpro_1(D, A, B) => k1_amistd_1(A, B, C, D)=k6_domain_1(k5_numbers, C)) ) ) ) ) ) ) ) ) ).
 - fof(dt_k5_amistd_4, axiom,  (! [A, B, C] :  ( ( ~ (v1_setfam_1(A))  &  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  & m1_subset_1(C, u1_compos_1(B))) )  => m1_subset_1(k5_amistd_4(A, B, C), k1_zfmisc_1(u1_struct_0(B)))) ) ).

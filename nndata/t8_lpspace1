@@ -1,17 +1,17 @@
 C fof(t8_lpspace1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ~ (k5_lpspace1(A)=k6_lpspace1(A)) ) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(spc1_boole, axiom,  ~ (v1_xboole_0(1)) ).
-+ fof(t7_funcop_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(B, A) => k1_funct_1(k2_funcop_1(A, C), B)=C) ) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(d5_lpspace1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k5_lpspace1(A)=k8_funcop_1(k5_numbers, A, k6_numbers)) ) ).
 + fof(d6_lpspace1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k6_lpspace1(A)=k8_funcop_1(k5_numbers, A, 1)) ) ).
 + fof(dt_o_1_0_lpspace1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => m1_subset_1(o_1_0_lpspace1(A), A)) ) ).
-+ fof(d5_lpspace1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k5_lpspace1(A)=k8_funcop_1(k5_numbers, A, k6_numbers)) ) ).
-+ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
 + fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(redefinition_k8_funcop_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(C, A))  => k8_funcop_1(A, B, C)=k2_funcop_1(B, C)) ) ).
++ fof(spc1_boole, axiom,  ~ (v1_xboole_0(1)) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t7_funcop_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(B, A) => k1_funct_1(k2_funcop_1(A, C), B)=C) ) ) ) ).
 - fof(dt_k6_lpspace1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => m2_rfunct_3(k6_lpspace1(A), A, k1_numbers, k3_rfunct_3(A, k1_numbers))) ) ).
 - fof(dt_k5_lpspace1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => m2_rfunct_3(k5_lpspace1(A), A, k1_numbers, k3_rfunct_3(A, k1_numbers))) ) ).
 - fof(fraenkel_a_5_0_waybel_3, axiom,  (! [A, B, C, D, E, F] :  ( ( ~ (v1_xboole_0(B))  &  ( (v1_relat_1(C) &  (v4_relat_1(C, B) &  (v1_funct_1(C) &  (v1_partfun1(C, B) &  (v1_yellow_1(C) &  (v4_waybel_3(C) & v5_waybel_3(C)) ) ) ) ) )  &  (m1_subset_1(D, u1_struct_0(k5_yellow_1(B, C))) &  (m1_subset_1(E, B) &  ( ~ (v1_xboole_0(F))  &  (v1_waybel_0(F, k3_waybel_3(B, C, E)) & m1_subset_1(F, k1_zfmisc_1(u1_struct_0(k3_waybel_3(B, C, E))))) ) ) ) ) )  =>  (r2_hidden(A, a_5_0_waybel_3(B, C, D, E, F)) <=>  (? [G] :  (m1_subset_1(G, u1_struct_0(k3_waybel_3(B, C, E))) &  (A=k2_funct_7(D, E, G) & r2_hidden(G, F)) ) ) ) ) ) ).

@@ -1,10 +1,10 @@
 C fof(l15_quaterni, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) => k6_quaterni(A, B, k6_numbers, k6_numbers)=k5_arytm_0(A, B)) ) ) ) ).
-+ fof(dt_k6_quaterni, axiom,  (! [A, B, C, D] :  ( (v1_xreal_0(A) &  (v1_xreal_0(B) &  (v1_xreal_0(C) & v1_xreal_0(D)) ) )  => m1_subset_1(k6_quaterni(A, B, C, D), k1_quaterni)) ) ).
 + fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
 + fof(d6_quaterni, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  (! [E] :  (m1_subset_1(E, k1_quaterni) =>  ( ( (C=k6_numbers & D=k6_numbers)  =>  (E=k6_quaterni(A, B, C, D) <=>  (? [F] :  (m1_subset_1(F, k1_numbers) &  (? [G] :  (m1_subset_1(G, k1_numbers) &  (F=A &  (G=B & E=k5_arytm_0(F, G)) ) ) ) ) ) ) )  &  ( ~ ( (C=k6_numbers & D=k6_numbers) )  =>  (E=k6_quaterni(A, B, C, D) <=> E=k2_quaterni(k6_numbers, 1, 2, 3, A, B, C, D)) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(dt_k6_quaterni, axiom,  (! [A, B, C, D] :  ( (v1_xreal_0(A) &  (v1_xreal_0(B) &  (v1_xreal_0(C) & v1_xreal_0(D)) ) )  => m1_subset_1(k6_quaterni(A, B, C, D), k1_quaterni)) ) ).
 + fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
 + fof(l19_arytm_0, axiom, m1_subset_1(k6_numbers, k1_numbers)).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 - fof(d5_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  ( (B=k6_numbers => k5_arytm_0(A, B)=A)  &  ( ~ (B=k6_numbers)  => k5_arytm_0(A, B)=k5_funct_4(k1_numbers, k6_numbers, 1, A, B)) ) ) ) ) ) ).
 - fof(l2_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (A=k5_arytm_0(B, C) =>  (C=k6_numbers & A=B) ) ) ) ) ) ) ) ).
 - fof(t24_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (r2_hidden(k5_arytm_0(A, B), k1_numbers) => B=k6_numbers) ) ) ) ) ).

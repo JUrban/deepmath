@@ -1,20 +1,20 @@
 C fof(l13_glib_000, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) & v1_finset_1(A)) ) )  =>  (v1_glib_000(A) <=>  (r1_tarski(k5_glib_000, k1_relset_1(k5_numbers, A)) &  ( ~ (v1_xboole_0(k6_glib_000(A)))  &  ( (v1_funct_1(k8_glib_000(A)) &  (v1_funct_2(k8_glib_000(A), k7_glib_000(A), k6_glib_000(A)) & m1_subset_1(k8_glib_000(A), k1_zfmisc_1(k2_zfmisc_1(k7_glib_000(A), k6_glib_000(A))))) )  &  (v1_funct_1(k9_glib_000(A)) &  (v1_funct_2(k9_glib_000(A), k7_glib_000(A), k6_glib_000(A)) & m1_subset_1(k9_glib_000(A), k1_zfmisc_1(k2_zfmisc_1(k7_glib_000(A), k6_glib_000(A))))) ) ) ) ) ) ) ) ).
-+ fof(d5_glib_000, axiom, k5_glib_000=k9_domain_1(k5_numbers, k1_glib_000, k2_glib_000, k3_glib_000, k4_glib_000)).
-+ fof(d2_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (E=k2_enumset1(A, B, C, D) <=>  (! [F] :  (r2_hidden(F, E) <=>  ~ ( ( ~ (F=A)  &  ( ~ (F=B)  &  ( ~ (F=C)  &  ~ (F=D) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k9_domain_1, axiom,  (! [A, B, C, D, E] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) &  (m1_subset_1(D, A) & m1_subset_1(E, A)) ) ) )  => k9_domain_1(A, B, C, D, E)=k2_enumset1(B, C, D, E)) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(d1_glib_000, axiom, k1_glib_000=1).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(dt_k9_domain_1, axiom,  (! [A, B, C, D, E] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) &  (m1_subset_1(D, A) & m1_subset_1(E, A)) ) ) )  => m1_subset_1(k9_domain_1(A, B, C, D, E), k1_zfmisc_1(A))) ) ).
-+ fof(dt_k2_glib_000, axiom, m1_subset_1(k2_glib_000, k5_numbers)).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
 + fof(d10_glib_000, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) & v1_finset_1(A)) ) )  =>  (v1_glib_000(A) <=>  (r2_hidden(k1_glib_000, k1_relset_1(k5_numbers, A)) &  (r2_hidden(k2_glib_000, k1_relset_1(k5_numbers, A)) &  (r2_hidden(k3_glib_000, k1_relset_1(k5_numbers, A)) &  (r2_hidden(k4_glib_000, k1_relset_1(k5_numbers, A)) &  ( ~ (v1_xboole_0(k6_glib_000(A)))  &  ( (v1_funct_1(k8_glib_000(A)) &  (v1_funct_2(k8_glib_000(A), k7_glib_000(A), k6_glib_000(A)) & m1_subset_1(k8_glib_000(A), k1_zfmisc_1(k2_zfmisc_1(k7_glib_000(A), k6_glib_000(A))))) )  &  (v1_funct_1(k9_glib_000(A)) &  (v1_funct_2(k9_glib_000(A), k7_glib_000(A), k6_glib_000(A)) & m1_subset_1(k9_glib_000(A), k1_zfmisc_1(k2_zfmisc_1(k7_glib_000(A), k6_glib_000(A))))) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k4_glib_000, axiom, m1_subset_1(k4_glib_000, k5_numbers)).
++ fof(d1_glib_000, axiom, k1_glib_000=1).
++ fof(d2_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (E=k2_enumset1(A, B, C, D) <=>  (! [F] :  (r2_hidden(F, E) <=>  ~ ( ( ~ (F=A)  &  ( ~ (F=B)  &  ( ~ (F=C)  &  ~ (F=D) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d5_glib_000, axiom, k5_glib_000=k9_domain_1(k5_numbers, k1_glib_000, k2_glib_000, k3_glib_000, k4_glib_000)).
++ fof(dt_k2_glib_000, axiom, m1_subset_1(k2_glib_000, k5_numbers)).
 + fof(dt_k3_glib_000, axiom, m1_subset_1(k3_glib_000, k5_numbers)).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(dt_k4_glib_000, axiom, m1_subset_1(k4_glib_000, k5_numbers)).
++ fof(dt_k9_domain_1, axiom,  (! [A, B, C, D, E] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) &  (m1_subset_1(D, A) & m1_subset_1(E, A)) ) ) )  => m1_subset_1(k9_domain_1(A, B, C, D, E), k1_zfmisc_1(A))) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k9_domain_1, axiom,  (! [A, B, C, D, E] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) &  (m1_subset_1(D, A) & m1_subset_1(E, A)) ) ) )  => k9_domain_1(A, B, C, D, E)=k2_enumset1(B, C, D, E)) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(dt_k11_glib_000, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  =>  (v1_funct_1(k11_glib_000(A)) &  (v1_funct_2(k11_glib_000(A), k7_glib_000(A), k6_glib_000(A)) & m1_subset_1(k11_glib_000(A), k1_zfmisc_1(k2_zfmisc_1(k7_glib_000(A), k6_glib_000(A))))) ) ) ) ).
 - fof(dt_k10_glib_000, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  =>  (v1_funct_1(k10_glib_000(A)) &  (v1_funct_2(k10_glib_000(A), k7_glib_000(A), k6_glib_000(A)) & m1_subset_1(k10_glib_000(A), k1_zfmisc_1(k2_zfmisc_1(k7_glib_000(A), k6_glib_000(A))))) ) ) ) ).
 - fof(fc1_glib_000, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  =>  ~ (v1_xboole_0(k6_glib_000(A))) ) ) ).

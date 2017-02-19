@@ -1,17 +1,17 @@
 C fof(l61_rlaffin1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_rlvect_1(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => r1_tarski(B, k4_rlaffin1(A, B))) ) ) ) ).
-+ fof(dt_l2_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => l1_struct_0(A)) ) ).
-+ fof(dt_k2_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => m1_subset_1(k2_struct_0(A), k1_zfmisc_1(u1_struct_0(A)))) ) ).
-+ fof(dt_l1_rlvect_1, axiom,  (! [A] :  (l1_rlvect_1(A) => l2_algstr_0(A)) ) ).
-+ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
-+ fof(t22_rusub_4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_rlvect_1(A))  =>  (v2_rusub_4(k2_struct_0(A), A) & v2_rusub_4(k1_struct_0(A), A)) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(fraenkel_a_2_0_rlaffin1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(B))  & l1_rlvect_1(B))  & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))))  =>  (r2_hidden(A, a_2_0_rlaffin1(B, C)) <=>  (? [D] :  ( (v2_rusub_4(D, B) & m1_subset_1(D, k1_zfmisc_1(u1_struct_0(B))))  &  (A=D & r1_tarski(C, D)) ) ) ) ) ) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(t5_setfam_1, axiom,  (! [A] :  (! [B] :  ( (! [C] :  (r2_hidden(C, A) => r1_tarski(B, C)) )  =>  (A=k1_xboole_0 | r1_tarski(B, k1_setfam_1(A))) ) ) ) ).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
 + fof(d3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => k2_struct_0(A)=u1_struct_0(A)) ) ).
 + fof(d6_rlaffin1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_rlvect_1(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k4_rlaffin1(A, B)=k1_setfam_1(a_2_0_rlaffin1(A, B))) ) ) ) ).
++ fof(dt_k2_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => m1_subset_1(k2_struct_0(A), k1_zfmisc_1(u1_struct_0(A)))) ) ).
++ fof(dt_l1_rlvect_1, axiom,  (! [A] :  (l1_rlvect_1(A) => l2_algstr_0(A)) ) ).
 + fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
++ fof(dt_l2_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => l1_struct_0(A)) ) ).
++ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
++ fof(fraenkel_a_2_0_rlaffin1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(B))  & l1_rlvect_1(B))  & m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))))  =>  (r2_hidden(A, a_2_0_rlaffin1(B, C)) <=>  (? [D] :  ( (v2_rusub_4(D, B) & m1_subset_1(D, k1_zfmisc_1(u1_struct_0(B))))  &  (A=D & r1_tarski(C, D)) ) ) ) ) ) ).
++ fof(t22_rusub_4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_rlvect_1(A))  =>  (v2_rusub_4(k2_struct_0(A), A) & v2_rusub_4(k1_struct_0(A), A)) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t5_setfam_1, axiom,  (! [A] :  (! [B] :  ( (! [C] :  (r2_hidden(C, A) => r1_tarski(B, C)) )  =>  (A=k1_xboole_0 | r1_tarski(B, k1_setfam_1(A))) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(fc8_rlaffin1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l1_rlvect_1(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => v2_rusub_4(k4_rlaffin1(A, B), A)) ) ).
 - fof(dt_k4_rlaffin1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l1_rlvect_1(A))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => m1_subset_1(k4_rlaffin1(A, B), k1_zfmisc_1(u1_struct_0(A)))) ) ).
 - fof(l1_rlaffin1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_rlvect_1(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => r1_tarski(B, k3_convex1(A, B))) ) ) ) ).

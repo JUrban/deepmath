@@ -1,26 +1,26 @@
 C fof(t74_sincos10, axiom,  (k1_seq_1(k2_sincos10, k1_real_1(k7_square_1(2)))=k8_real_1(k10_real_1(3, 4), k32_sin_cos) & k1_seq_1(k2_sincos10, k1_real_1(1))=k32_sin_cos) ).
-+ fof(dt_k10_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k10_real_1(A, B), k1_numbers)) ) ).
 + fof(cc18_valued_0, axiom,  (! [A, B] :  (v3_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v3_valued_0(C)) ) ) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(d6_sincos10, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k6_sincos10(A)=k1_seq_1(k2_sincos10, A)) ) ).
++ fof(dt_k10_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k10_real_1(A, B), k1_numbers)) ) ).
++ fof(dt_k1_fdiff_9, axiom,  (v1_funct_1(k1_fdiff_9) & m1_subset_1(k1_fdiff_9, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ).
 + fof(dt_k1_seq_1, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_valued_0(A)) )  => m1_subset_1(k1_seq_1(A, B), k1_numbers)) ) ).
 + fof(dt_k31_sin_cos, axiom, v1_xreal_0(k31_sin_cos)).
-+ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(t70_sincos10, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (r1_xxreal_0(A, k32_sin_cos) =>  (r1_xxreal_0(A, k10_real_1(k32_sin_cos, 2)) | k10_sincos10(k1_seq_1(k1_fdiff_9, A))=A) ) ) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(redefinition_k4_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xreal_0(B))  => k4_rcomp_1(A, B)=k3_xxreal_1(A, B)) ) ).
-+ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(dt_k32_sin_cos, axiom, m1_subset_1(k32_sin_cos, k1_numbers)).
++ fof(dt_k4_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xreal_0(B))  => m1_subset_1(k4_rcomp_1(A, B), k1_zfmisc_1(k1_numbers))) ) ).
 + fof(fc3_membered, axiom, v3_membered(k1_numbers)).
++ fof(l18_sincos10, axiom,  (r2_hidden(k8_real_1(k10_real_1(3, 4), k32_sin_cos), k4_rcomp_1(k10_real_1(k32_sin_cos, 2), k32_sin_cos)) & r2_hidden(k32_sin_cos, k4_rcomp_1(k10_real_1(k32_sin_cos, 2), k32_sin_cos))) ).
++ fof(redefinition_k10_sincos10, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k10_sincos10(A)=k6_sincos10(A)) ) ).
++ fof(redefinition_k32_sin_cos, axiom, k32_sin_cos=k31_sin_cos).
++ fof(redefinition_k4_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xreal_0(B))  => k4_rcomp_1(A, B)=k3_xxreal_1(A, B)) ) ).
++ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t2_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(A, k3_xxreal_1(B, C)) <=>  ( ~ (r1_xxreal_0(A, B))  & r1_xxreal_0(A, C)) ) ) ) ) ) ) ) ).
 + fof(t31_sincos10, axiom,  (k1_seq_1(k1_fdiff_9, k6_numbers)=1 &  (k1_seq_1(k1_fdiff_9, k10_real_1(k32_sin_cos, 4))=k7_square_1(2) &  (k1_seq_1(k1_fdiff_9, k8_real_1(k10_real_1(3, 4), k32_sin_cos))=k1_real_1(k7_square_1(2)) & k1_seq_1(k1_fdiff_9, k32_sin_cos)=k1_real_1(1)) ) ) ).
 + fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
-+ fof(dt_k32_sin_cos, axiom, m1_subset_1(k32_sin_cos, k1_numbers)).
-+ fof(dt_k1_fdiff_9, axiom,  (v1_funct_1(k1_fdiff_9) & m1_subset_1(k1_fdiff_9, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ).
-+ fof(redefinition_k32_sin_cos, axiom, k32_sin_cos=k31_sin_cos).
-+ fof(t2_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(A, k3_xxreal_1(B, C)) <=>  ( ~ (r1_xxreal_0(A, B))  & r1_xxreal_0(A, C)) ) ) ) ) ) ) ) ).
-+ fof(l18_sincos10, axiom,  (r2_hidden(k8_real_1(k10_real_1(3, 4), k32_sin_cos), k4_rcomp_1(k10_real_1(k32_sin_cos, 2), k32_sin_cos)) & r2_hidden(k32_sin_cos, k4_rcomp_1(k10_real_1(k32_sin_cos, 2), k32_sin_cos))) ).
-+ fof(dt_k4_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xreal_0(B))  => m1_subset_1(k4_rcomp_1(A, B), k1_zfmisc_1(k1_numbers))) ) ).
-+ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
-+ fof(d6_sincos10, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k6_sincos10(A)=k1_seq_1(k2_sincos10, A)) ) ).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(redefinition_k10_sincos10, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k10_sincos10(A)=k6_sincos10(A)) ) ).
++ fof(t70_sincos10, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (r1_xxreal_0(A, k32_sin_cos) =>  (r1_xxreal_0(A, k10_real_1(k32_sin_cos, 2)) | k10_sincos10(k1_seq_1(k1_fdiff_9, A))=A) ) ) ) ).
 - fof(t54_sincos10, axiom, k3_relat_1(k2_partfun1(k1_numbers, k1_numbers, k2_sincos10, k1_rcomp_1(k1_real_1(k7_square_1(2)), k1_real_1(1))), k2_partfun1(k1_numbers, k1_numbers, k1_fdiff_9, k1_rcomp_1(k8_real_1(k10_real_1(3, 4), k32_sin_cos), k32_sin_cos)))=k1_partfun2(k1_numbers, k1_rcomp_1(k1_real_1(k7_square_1(2)), k1_real_1(1)))).
 - fof(t58_sincos10, axiom, k1_partfun1(k1_numbers, k1_numbers, k1_numbers, k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k2_sincos10, k1_rcomp_1(k1_real_1(k7_square_1(2)), k1_real_1(1))), k2_partfun1(k1_numbers, k1_numbers, k1_fdiff_9, k1_rcomp_1(k8_real_1(k10_real_1(3, 4), k32_sin_cos), k32_sin_cos)))=k1_partfun2(k1_numbers, k1_rcomp_1(k1_real_1(k7_square_1(2)), k1_real_1(1)))).
 - fof(t50_sincos10, axiom, k2_partfun1(k1_numbers, k1_numbers, k2_sincos10, k1_rcomp_1(k1_real_1(k7_square_1(2)), k1_real_1(1)))=k2_partfun2(k1_numbers, k1_numbers, k2_partfun1(k1_numbers, k1_numbers, k1_fdiff_9, k1_rcomp_1(k8_real_1(k10_real_1(3, 4), k32_sin_cos), k32_sin_cos)))).

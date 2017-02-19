@@ -1,12 +1,12 @@
 C fof(l19_o_ring_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l6_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (v1_o_ring_1(B, A) => v7_o_ring_1(B, A)) ) ) ) ) ).
-+ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
-+ fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
-+ fof(l2_o_ring_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l6_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m2_finseq_1(C, u1_struct_0(A)) =>  (C=k12_finseq_1(u1_struct_0(A), B) <=>  (k3_finseq_1(C)=1 & k7_partfun1(u1_struct_0(A), C, 1)=B) ) ) ) ) ) ) ) ).
-+ fof(l18_o_ring_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l6_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (v1_o_ring_1(B, A) => v6_o_ring_1(k12_finseq_1(u1_struct_0(A), B), A)) ) ) ) ) ).
-+ fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
-+ fof(dt_l2_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => l1_struct_0(A)) ) ).
 + fof(d8_o_ring_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l6_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (v7_o_ring_1(B, A) <=>  (? [C] :  (m2_finseq_1(C, u1_struct_0(A)) &  (v6_o_ring_1(C, A) & B=k7_partfun1(u1_struct_0(A), C, k3_finseq_1(C))) ) ) ) ) ) ) ) ).
 + fof(dt_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m2_finseq_1(k12_finseq_1(A, B), A)) ) ).
++ fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
++ fof(dt_l2_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => l1_struct_0(A)) ) ).
++ fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(l18_o_ring_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l6_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (v1_o_ring_1(B, A) => v6_o_ring_1(k12_finseq_1(u1_struct_0(A), B), A)) ) ) ) ) ).
++ fof(l2_o_ring_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l6_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m2_finseq_1(C, u1_struct_0(A)) =>  (C=k12_finseq_1(u1_struct_0(A), B) <=>  (k3_finseq_1(C)=1 & k7_partfun1(u1_struct_0(A), C, 1)=B) ) ) ) ) ) ) ) ).
 - fof(l10_o_ring_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l6_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (v1_o_ring_1(B, A) => v2_o_ring_1(k12_finseq_1(u1_struct_0(A), B), A)) ) ) ) ) ).
 - fof(l14_o_ring_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l6_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (v1_o_ring_1(B, A) => v4_o_ring_1(k12_finseq_1(u1_struct_0(A), B), A)) ) ) ) ) ).
 - fof(d3_o_ring_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l6_algstr_0(A))  =>  (! [B] :  (m2_finseq_1(B, u1_struct_0(A)) =>  (v2_o_ring_1(B, A) <=>  ( ~ (k3_finseq_1(B)=k6_numbers)  &  (v1_o_ring_1(k7_partfun1(u1_struct_0(A), B, 1), A) &  (! [C] :  (v7_ordinal1(C) =>  ~ ( ( ~ (C=k6_numbers)  &  ( ~ (r1_xxreal_0(k3_finseq_1(B), C))  &  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  ~ ( (v1_o_ring_1(D, A) & k7_partfun1(u1_struct_0(A), B, k1_nat_1(C, 1))=k1_algstr_0(A, k7_partfun1(u1_struct_0(A), B, C), D)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

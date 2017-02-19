@@ -1,8 +1,8 @@
 C fof(t8_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v2_valued_0(A) <=>  (! [B] : v1_xxreal_0(k1_funct_1(A, B))) ) ) ) ).
-+ fof(d8_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v2_valued_0(A) <=>  (! [B] :  (r2_hidden(B, k9_xtuple_0(A)) => v1_xxreal_0(k1_funct_1(A, B))) ) ) ) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
 + fof(d2_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  ( (r2_hidden(B, k9_xtuple_0(A)) =>  (C=k1_funct_1(A, B) <=> r2_hidden(k4_tarski(B, C), A)) )  &  ( ~ (r2_hidden(B, k9_xtuple_0(A)))  =>  (C=k1_funct_1(A, B) <=> C=k1_xboole_0) ) ) ) ) ) ) ).
++ fof(d8_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v2_valued_0(A) <=>  (! [B] :  (r2_hidden(B, k9_xtuple_0(A)) => v1_xxreal_0(k1_funct_1(A, B))) ) ) ) ) ).
++ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 - fof(d2_valued_0, axiom,  (! [A] :  (v1_relat_1(A) =>  (v2_valued_0(A) <=> r1_tarski(k10_xtuple_0(A), k7_numbers)) ) ) ).
 - fof(t2_valued_0, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  ( (v1_relat_1(B) & v2_valued_0(B))  =>  (r1_tarski(A, B) => v2_valued_0(A)) ) ) ) ) ).
 - fof(fc32_valued_0, axiom,  (! [A, B] :  ( (v1_relat_1(A) & v2_valued_0(A))  => v2_membered(k7_relat_1(A, B))) ) ).

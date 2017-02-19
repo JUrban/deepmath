@@ -1,20 +1,20 @@
 C fof(t14_heyting3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) => r2_hidden(k1_domain_1(k5_numbers, k5_numbers, k2_nat_1(k4_nat_1(2, A), 1), B), k3_heyting3(A, B))) ) ) ) ).
-+ fof(dt_k4_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => m2_subset_1(k4_nat_1(A, B), k1_numbers, k5_numbers)) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
-+ fof(t9_abian, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ ( ( ~ (v1_abian(A))  &  (! [B] :  (m1_subset_1(B, k5_numbers) =>  ~ (A=k2_nat_1(k4_nat_1(2, B), 1)) ) ) ) )  &  ~ ( ( (? [B] :  (m1_subset_1(B, k5_numbers) & A=k2_nat_1(k4_nat_1(2, B), 1)) )  & v1_abian(A)) ) ) ) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
-+ fof(dt_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => m2_subset_1(k2_nat_1(A, B), k1_numbers, k5_numbers)) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(d3_heyting3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m1_subset_1(C, k4_partfun1(k5_numbers, k6_domain_1(k5_numbers, B))) =>  (C=k3_heyting3(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (? [E] :  ( ( ~ (v1_abian(E))  & m1_subset_1(E, k5_numbers))  &  (r1_xxreal_0(E, k2_nat_1(k4_nat_1(2, A), 1)) & k1_domain_1(k5_numbers, k5_numbers, E, B)=D) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(d3_heyting3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m1_subset_1(C, k4_partfun1(k5_numbers, k6_domain_1(k5_numbers, B))) =>  (C=k3_heyting3(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (? [E] :  ( ( ~ (v1_abian(E))  & m1_subset_1(E, k5_numbers))  &  (r1_xxreal_0(E, k2_nat_1(k4_nat_1(2, A), 1)) & k1_domain_1(k5_numbers, k5_numbers, E, B)=D) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => m2_subset_1(k2_nat_1(A, B), k1_numbers, k5_numbers)) ) ).
 + fof(dt_k3_heyting3, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & m1_subset_1(B, k5_numbers))  => m1_subset_1(k3_heyting3(A, B), k4_partfun1(k5_numbers, k6_domain_1(k5_numbers, B)))) ) ).
++ fof(dt_k4_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => m2_subset_1(k4_nat_1(A, B), k1_numbers, k5_numbers)) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
 + fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t9_abian, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ ( ( ~ (v1_abian(A))  &  (! [B] :  (m1_subset_1(B, k5_numbers) =>  ~ (A=k2_nat_1(k4_nat_1(2, B), 1)) ) ) ) )  &  ~ ( ( (? [B] :  (m1_subset_1(B, k5_numbers) & A=k2_nat_1(k4_nat_1(2, B), 1)) )  & v1_abian(A)) ) ) ) ) ).
 - fof(t4_heyting3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(k8_mcart_1(k1_numbers, k5_numbers, k5_numbers, k6_domain_1(k5_numbers, A))))) )  =>  ~ ( (! [C] :  ( ( ~ (v1_xboole_0(C))  & m1_subset_1(C, k5_numbers))  => r2_hidden(k1_domain_1(k5_numbers, k5_numbers, k2_nat_1(k4_nat_1(2, C), 1), A), B)) ) ) ) ) ) ) ).
 - fof(fc5_heyting3, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & m1_subset_1(B, k5_numbers))  => v1_finset_1(k3_heyting3(A, B))) ) ).
 - fof(fraenkel_a_2_1_matrix13, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(B))  &  ( ~ (v6_struct_0(B))  &  (v13_algstr_0(B) &  (v33_algstr_0(B) &  (v3_group_1(B) &  (v5_group_1(B) &  (v2_rlvect_1(B) &  (v3_rlvect_1(B) &  (v4_rlvect_1(B) &  (v4_vectsp_1(B) &  (v5_vectsp_1(B) & l6_algstr_0(B)) ) ) ) ) ) ) ) ) ) )  &  (v1_matrix_1(C) &  (v2_matrix_1(C, B) & m2_finseq_1(C, k3_finseq_2(u1_struct_0(B)))) ) )  =>  (r2_hidden(A, a_2_1_matrix13(B, C)) <=>  (? [D] :  (m1_subset_1(D, k5_numbers) &  (A=D &  (r2_hidden(k1_domain_1(k5_numbers, k5_numbers, D, D), k2_matrix_1(C)) &  ~ (k3_matrix_1(u1_struct_0(B), C, D, D)=k4_struct_0(B)) ) ) ) ) ) ) ) ).

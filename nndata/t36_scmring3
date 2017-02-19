@@ -1,16 +1,16 @@
 C fof(t36_scmring3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v3_group_1(A) &  (v4_vectsp_1(A) &  (v5_vectsp_1(A) & l6_algstr_0(A)) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (r2_hidden(k2_nat_1(B, 1), k3_amistd_1(2, k1_scmring2(A), B)) &  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (r2_hidden(C, k3_amistd_1(2, k1_scmring2(A), B)) => r1_xxreal_0(B, C)) ) ) ) ) ) ) ) ).
++ fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(redefinition_k1_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k5_numbers))  => k1_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
++ fof(d2_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) => k1_ordinal1(A)=k1_nat_1(A, 1)) ) ).
 + fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
++ fof(redefinition_k1_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k5_numbers))  => k1_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k2_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
 + fof(t11_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) => r1_xxreal_0(A, k2_xcmplx_0(A, B))) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(t35_scmring3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v3_group_1(A) &  (v4_vectsp_1(A) &  (v5_vectsp_1(A) & l6_algstr_0(A)) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, k5_numbers) => k3_amistd_1(2, k1_scmring2(A), B)=k2_tarski(B, k1_ordinal1(B))) ) ) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
-+ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
-+ fof(redefinition_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k2_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
-+ fof(d2_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) => k1_ordinal1(A)=k1_nat_1(A, 1)) ) ).
 - fof(t3_amistd_1, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (v3_amistd_1(B, A) <=>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (r2_hidden(k2_nat_1(C, 1), k3_amistd_1(A, B, C)) &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (r2_hidden(D, k3_amistd_1(A, B, C)) => r1_xxreal_0(C, D)) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t40_scmfsa10, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (r2_hidden(k2_nat_1(A, 1), k3_amistd_1(3, k1_scmfsa_2, A)) &  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (r2_hidden(B, k3_amistd_1(3, k1_scmfsa_2, A)) => r1_xxreal_0(A, B)) ) ) ) ) ) ).
 - fof(t22_ami_6, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (r2_hidden(k2_xcmplx_0(A, 1), k3_amistd_1(2, k1_ami_3, A)) &  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (r2_hidden(B, k3_amistd_1(2, k1_ami_3, A)) => r1_xxreal_0(A, B)) ) ) ) ) ) ).

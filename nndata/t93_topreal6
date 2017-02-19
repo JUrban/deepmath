@@ -1,13 +1,13 @@
 C fof(t93_topreal6, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) => k1_topreal6(A, B, B)=k6_numbers) ) ) ) ).
-+ fof(t39_sppol_1, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(A))) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(k14_euclid(A))) =>  (! [E] :  (m1_subset_1(E, u1_struct_0(k14_euclid(A))) =>  ( (B=D & C=E)  => k4_metric_1(k14_euclid(A), D, E)=k12_euclid(k5_algstr_0(k15_euclid(A), B, C))) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
 + fof(d1_topreal6, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(A))) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  (D=k1_topreal6(A, B, C) <=>  (? [E] :  (m1_subset_1(E, u1_struct_0(k14_euclid(A))) &  (? [F] :  (m1_subset_1(F, u1_struct_0(k14_euclid(A))) &  (E=B &  (F=C & D=k4_metric_1(k14_euclid(A), E, F)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(dt_k1_topreal6, axiom,  (! [A, B, C] :  ( (m1_subset_1(A, k5_numbers) &  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) & m1_subset_1(C, u1_struct_0(k15_euclid(A)))) )  => m1_subset_1(k1_topreal6(A, B, C), k1_numbers)) ) ).
 + fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
 + fof(l35_toprns_1, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(A))) =>  (B=C => k12_euclid(k5_algstr_0(k15_euclid(A), B, C))=k6_numbers) ) ) ) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t39_sppol_1, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(A))) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(k14_euclid(A))) =>  (! [E] :  (m1_subset_1(E, u1_struct_0(k14_euclid(A))) =>  ( (B=D & C=E)  => k4_metric_1(k14_euclid(A), D, E)=k12_euclid(k5_algstr_0(k15_euclid(A), B, C))) ) ) ) ) ) ) ) ) ) ) ).
 - fof(commutativity_k1_topreal6, axiom,  (! [A, B, C] :  ( (m1_subset_1(A, k5_numbers) &  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) & m1_subset_1(C, u1_struct_0(k15_euclid(A)))) )  => k1_topreal6(A, B, C)=k1_topreal6(A, C, B)) ) ).
 - fof(t92_topreal6, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) => k1_topreal6(2, A, B)=k7_square_1(k7_real_1(k5_square_1(k9_real_1(k17_euclid(A), k17_euclid(B))), k5_square_1(k9_real_1(k18_euclid(A), k18_euclid(B)))))) ) ) ) ).
 - fof(l34_toprns_1, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(A))) =>  (k12_euclid(k5_algstr_0(k15_euclid(A), B, C))=k6_numbers => B=C) ) ) ) ) ) ) ).

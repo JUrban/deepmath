@@ -1,12 +1,12 @@
 C fof(t11_setwiseo, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k5_finsub_1(A)) =>  (! [C] :  (r1_tarski(C, B) => m1_subset_1(C, k5_finsub_1(A))) ) ) ) ) ).
-+ fof(t14_finsub_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_finsub_1(A)=k1_zfmisc_1(A)) ) ).
 + fof(cc3_finsub_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k5_finsub_1(A)) => v1_finset_1(B)) ) ) ).
-+ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(t10_finsub_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k5_finsub_1(A), k5_finsub_1(B))) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(t17_finsub_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k5_finsub_1(A)) => m1_subset_1(B, k1_zfmisc_1(A))) ) ) ).
 + fof(d1_zfmisc_1, axiom,  (! [A] :  (! [B] :  (B=k1_zfmisc_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=> r1_tarski(C, A)) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(t10_finsub_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k5_finsub_1(A), k5_finsub_1(B))) ) ) ).
++ fof(t14_finsub_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_finsub_1(A)=k1_zfmisc_1(A)) ) ).
++ fof(t17_finsub_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k5_finsub_1(A)) => m1_subset_1(B, k1_zfmisc_1(A))) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 - fof(l49_subset_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(B)) =>  (r2_hidden(A, C) => m1_subset_1(A, B)) ) ) ) ) ).
 - fof(d5_finsub_1, axiom,  (! [A] :  (! [B] :  (v4_finsub_1(B) =>  (B=k5_finsub_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (r1_tarski(C, A) & v1_finset_1(C)) ) ) ) ) ) ) ).
 - fof(fc2_finsub_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(k5_finsub_1(A)))  & v4_finsub_1(k5_finsub_1(A))) ) ).

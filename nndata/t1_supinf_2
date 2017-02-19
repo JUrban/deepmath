@@ -1,8 +1,8 @@
 C fof(t1_supinf_2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  ( (A=C & B=D)  => k3_supinf_2(A, B)=k7_real_1(C, D)) ) ) ) ) ) ) ) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
 + fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
-+ fof(redefinition_k3_supinf_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k3_supinf_2(A, B)=k1_xxreal_3(A, B)) ) ).
 + fof(ie1_xxreal_3, axiom,  (! [A, B, C, D] :  ( (v1_xreal_0(A) &  (v1_xreal_0(B) &  (v1_xcmplx_0(C) & v1_xcmplx_0(D)) ) )  =>  ( (A=C & B=D)  => k1_xxreal_3(A, B)=k2_xcmplx_0(C, D)) ) ) ).
++ fof(redefinition_k3_supinf_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k3_supinf_2(A, B)=k1_xxreal_3(A, B)) ) ).
 + fof(redefinition_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k7_real_1(A, B)=k2_xcmplx_0(A, B)) ) ).
 - fof(commutativity_k3_supinf_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k3_supinf_2(A, B)=k3_supinf_2(B, A)) ) ).
 - fof(dt_k3_supinf_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => m1_subset_1(k3_supinf_2(A, B), k7_numbers)) ) ).

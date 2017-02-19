@@ -1,12 +1,12 @@
 C fof(t14_yellow20, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) & v1_partfun1(C, A)) ) )  =>  (! [D] :  ( (v1_relat_1(D) &  (v4_relat_1(D, B) &  (v1_funct_1(D) & v1_partfun1(D, B)) ) )  =>  (v1_relat_1(k1_yellow20(C, D)) &  (v4_relat_1(k1_yellow20(C, D), k3_xboole_0(A, B)) &  (v1_funct_1(k1_yellow20(C, D)) & v1_partfun1(k1_yellow20(C, D), k3_xboole_0(A, B))) ) ) ) ) ) ) ) ) ).
++ fof(commutativity_k1_yellow20, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) & v1_funct_1(A))  &  (v1_relat_1(B) & v1_funct_1(B)) )  => k1_yellow20(A, B)=k1_yellow20(B, A)) ) ).
 + fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
 + fof(d18_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (v4_relat_1(B, A) <=> r1_tarski(k9_xtuple_0(B), A)) ) ) ) ).
-+ fof(d2_yellow20, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (C=k1_yellow20(A, B) <=>  (k9_xtuple_0(C)=k3_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) &  (! [D] :  (r2_hidden(D, k3_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B))) => k1_funct_1(C, D)=k3_xboole_0(k1_funct_1(A, D), k1_funct_1(B, D))) ) ) ) ) ) ) ) ) ) ).
-+ fof(commutativity_k1_yellow20, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) & v1_funct_1(A))  &  (v1_relat_1(B) & v1_funct_1(B)) )  => k1_yellow20(A, B)=k1_yellow20(B, A)) ) ).
-+ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
 + fof(d2_partfun1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  =>  (v1_partfun1(B, A) <=> k1_relset_1(A, B)=A) ) ) ) ).
-+ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(d2_yellow20, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (C=k1_yellow20(A, B) <=>  (k9_xtuple_0(C)=k3_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B)) &  (! [D] :  (r2_hidden(D, k3_xboole_0(k9_xtuple_0(A), k9_xtuple_0(B))) => k1_funct_1(C, D)=k3_xboole_0(k1_funct_1(A, D), k1_funct_1(B, D))) ) ) ) ) ) ) ) ) ) ).
 + fof(dt_k1_yellow20, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) & v1_funct_1(A))  &  (v1_relat_1(B) & v1_funct_1(B)) )  =>  (v1_relat_1(k1_yellow20(A, B)) & v1_funct_1(k1_yellow20(A, B))) ) ) ).
++ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
 - fof(t13_yellow20, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) & v1_partfun1(B, A)) ) )  =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) & v1_partfun1(C, A)) ) )  => k1_yellow20(B, C)=k3_pboole(A, B, C)) ) ) ) ) ).
 - fof(fc2_relset_1, axiom,  (! [A, B, C] :  ( ( (v1_relat_1(B) & v4_relat_1(B, A))  & v1_relat_1(C))  => v4_relat_1(k3_xboole_0(B, C), A)) ) ).
 - fof(d4_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k3_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) & r2_hidden(D, B)) ) ) ) ) ) ) ).

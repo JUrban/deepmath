@@ -1,21 +1,21 @@
 C fof(t14_polyform, axiom,  (! [A] :  (v7_ordinal1(A) => k2_polyform(k4_xcmplx_0(1), A)=k2_polyform(k4_xcmplx_0(1), k2_xcmplx_0(A, 2))) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(redefinition_k2_polyform, axiom,  (! [A, B] :  ( (v1_int_1(A) & v7_ordinal1(B))  => k2_polyform(A, B)=k1_newton(A, B)) ) ).
-+ fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
-+ fof(fc3_int_1, axiom,  (! [A] :  (v1_int_1(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_int_1(k4_xcmplx_0(A))) ) ) ).
-+ fof(t13_polyform, axiom, k2_polyform(k4_xcmplx_0(1), 2)=1).
-+ fof(fc3_newton, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v7_ordinal1(B))  => v1_xcmplx_0(k1_newton(A, B))) ) ).
-+ fof(t8_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v1_xcmplx_0(C) => k1_newton(C, k2_xcmplx_0(A, B))=k3_xcmplx_0(k1_newton(C, A), k1_newton(C, B))) ) ) ) ) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
-+ fof(t3_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(1, A)=A) ) ).
-+ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(fc1_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k2_xcmplx_0(A, B))) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
 + fof(cc2_xcmplx_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xcmplx_0(A)) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
++ fof(fc1_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k2_xcmplx_0(A, B))) ) ).
++ fof(fc3_int_1, axiom,  (! [A] :  (v1_int_1(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_int_1(k4_xcmplx_0(A))) ) ) ).
++ fof(fc3_newton, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v7_ordinal1(B))  => v1_xcmplx_0(k1_newton(A, B))) ) ).
 + fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
++ fof(redefinition_k2_polyform, axiom,  (! [A, B] :  ( (v1_int_1(A) & v7_ordinal1(B))  => k2_polyform(A, B)=k1_newton(A, B)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t13_polyform, axiom, k2_polyform(k4_xcmplx_0(1), 2)=1).
++ fof(t3_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(1, A)=A) ) ).
++ fof(t8_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v1_xcmplx_0(C) => k1_newton(C, k2_xcmplx_0(A, B))=k3_xcmplx_0(k1_newton(C, A), k1_newton(C, B))) ) ) ) ) ) ).
 - fof(dt_k2_polyform, axiom,  (! [A, B] :  ( (v1_int_1(A) & v7_ordinal1(B))  => m1_subset_1(k2_polyform(A, B), k4_numbers)) ) ).
 - fof(t5_newton, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_newton(A, 1)=A) ) ).
 - fof(rqRealAdd__k2_xcmplx_0__r1_r1_r2, axiom, k2_xcmplx_0(1, 1)=2).

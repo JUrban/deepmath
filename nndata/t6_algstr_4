@@ -1,7 +1,7 @@
 C fof(t6_algstr_4, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (m1_algstr_4(B, A) =>  (! [C] :  (m1_algstr_4(C, A) =>  ( (m1_algstr_4(B, C) & m1_algstr_4(C, B))  => g3_algstr_0(u1_struct_0(B), u2_algstr_0(B))=g3_algstr_0(u1_struct_0(C), u2_algstr_0(C))) ) ) ) ) ) ) ).
 + fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
-+ fof(dt_m1_algstr_4, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (m1_algstr_4(B, A) => l3_algstr_0(B)) ) ) ) ).
 + fof(d9_algstr_4, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (l3_algstr_0(B) =>  (m1_algstr_4(B, A) <=>  (r1_tarski(u1_struct_0(B), u1_struct_0(A)) & u2_algstr_0(B)=k1_realset1(u2_algstr_0(A), u1_struct_0(B))) ) ) ) ) ) ).
++ fof(dt_m1_algstr_4, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (m1_algstr_4(B, A) => l3_algstr_0(B)) ) ) ) ).
 - fof(l97_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_group_2(B, A) =>  (! [C] :  (m1_group_2(C, A) =>  (m1_group_2(C, B) <=> g3_algstr_0(u1_struct_0(k10_group_2(A, C, B)), u2_algstr_0(k10_group_2(A, C, B)))=g3_algstr_0(u1_struct_0(C), u2_algstr_0(C))) ) ) ) ) ) ) ).
 - fof(dt_m1_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) & l3_algstr_0(A)) )  =>  (! [B] :  (m1_group_2(B, A) =>  ( ~ (v2_struct_0(B))  &  (v2_group_1(B) & l3_algstr_0(B)) ) ) ) ) ) ).
 - fof(d5_group_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) & l3_algstr_0(A)) )  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) & l3_algstr_0(B)) )  =>  (m1_group_2(B, A) <=>  (r1_tarski(u1_struct_0(B), u1_struct_0(A)) & u2_algstr_0(B)=k1_realset1(u2_algstr_0(A), u1_struct_0(B))) ) ) ) ) ) ).

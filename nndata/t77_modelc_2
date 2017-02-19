@@ -1,17 +1,17 @@
 C fof(t77_modelc_2, axiom,  (! [A] :  (m1_subset_1(A, k25_modelc_2(k43_modelc_2)) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k9_modelc_2)) =>  (r8_modelc_2(A, k48_modelc_2(B)) <=> r8_modelc_2(k29_modelc_2(k43_modelc_2, A, 1), B)) ) ) ) ) ).
-+ fof(dt_k48_modelc_2, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k9_modelc_2)) => m1_subset_1(k48_modelc_2(A), k1_zfmisc_1(k9_modelc_2))) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(d64_modelc_2, axiom,  (! [A] :  (m1_subset_1(A, k25_modelc_2(k43_modelc_2)) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k9_modelc_2)) =>  (r8_modelc_2(A, B) <=>  (! [C] :  ( (v1_modelc_2(C) & m2_finseq_1(C, k5_numbers))  =>  (r2_hidden(C, B) => r7_modelc_2(A, C)) ) ) ) ) ) ) ) ).
 + fof(d65_modelc_2, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k9_modelc_2)) => k48_modelc_2(A)=a_1_0_modelc_2(A)) ) ).
 + fof(dt_k29_modelc_2, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, k25_modelc_2(A)) & v7_ordinal1(C)) )  => m1_subset_1(k29_modelc_2(A, B, C), k25_modelc_2(A))) ) ).
++ fof(dt_k43_modelc_2, axiom,  ~ (v1_xboole_0(k43_modelc_2)) ).
++ fof(dt_k48_modelc_2, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k9_modelc_2)) => m1_subset_1(k48_modelc_2(A), k1_zfmisc_1(k9_modelc_2))) ) ).
++ fof(dt_k6_modelc_2, axiom,  (! [A] :  (m1_finseq_1(A, k5_numbers) => m2_finseq_1(k6_modelc_2(A), k5_numbers)) ) ).
 + fof(fc3_modelc_2, axiom,  (! [A] :  ( (v1_modelc_2(A) & m1_finseq_1(A, k5_numbers))  => v1_modelc_2(k6_modelc_2(A))) ) ).
 + fof(fraenkel_a_1_0_modelc_2, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k9_modelc_2)) =>  (r2_hidden(A, a_1_0_modelc_2(B)) <=>  (? [C] :  ( (v1_modelc_2(C) & m2_finseq_1(C, k5_numbers))  &  (A=C &  (? [D] :  ( (v1_modelc_2(D) & m2_finseq_1(D, k5_numbers))  &  (r2_hidden(D, B) & C=k6_modelc_2(D)) ) ) ) ) ) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
 + fof(t67_modelc_2, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m1_subset_1(B, k25_modelc_2(k43_modelc_2)) =>  (r7_modelc_2(B, k6_modelc_2(A)) <=> r7_modelc_2(k29_modelc_2(k43_modelc_2, B, 1), A)) ) ) ) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(dt_k6_modelc_2, axiom,  (! [A] :  (m1_finseq_1(A, k5_numbers) => m2_finseq_1(k6_modelc_2(A), k5_numbers)) ) ).
-+ fof(d64_modelc_2, axiom,  (! [A] :  (m1_subset_1(A, k25_modelc_2(k43_modelc_2)) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k9_modelc_2)) =>  (r8_modelc_2(A, B) <=>  (! [C] :  ( (v1_modelc_2(C) & m2_finseq_1(C, k5_numbers))  =>  (r2_hidden(C, B) => r7_modelc_2(A, C)) ) ) ) ) ) ) ) ).
-+ fof(dt_k43_modelc_2, axiom,  ~ (v1_xboole_0(k43_modelc_2)) ).
 - fof(t64_modelc_2, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m1_subset_1(B, k25_modelc_2(k43_modelc_2)) =>  (r7_modelc_2(B, k3_modelc_2(A)) <=>  ~ (r7_modelc_2(B, A)) ) ) ) ) ) ).
 - fof(t59_modelc_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k30_modelc_1(k25_modelc_2(A)))))  =>  (! [C] :  (m1_subset_1(C, k25_modelc_2(A)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(k42_modelc_2(A, B))) =>  (r6_modelc_2(A, B, C, k22_modelc_2(k42_modelc_2(A, B), D)) <=> r6_modelc_2(A, B, k29_modelc_2(A, C, 1), D)) ) ) ) ) ) ) ) ) ).
 - fof(t69_modelc_2, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  ( (v1_modelc_2(B) & m2_finseq_1(B, k5_numbers))  =>  (! [C] :  (m1_subset_1(C, k25_modelc_2(k43_modelc_2)) =>  (r7_modelc_2(C, k8_modelc_2(A, B)) <=>  (! [D] :  (v7_ordinal1(D) =>  ( (! [E] :  (v7_ordinal1(E) =>  ( ~ (r1_xxreal_0(D, E))  => r7_modelc_2(k29_modelc_2(k43_modelc_2, C, E), k3_modelc_2(A))) ) )  => r7_modelc_2(k29_modelc_2(k43_modelc_2, C, D), B)) ) ) ) ) ) ) ) ) ) ).

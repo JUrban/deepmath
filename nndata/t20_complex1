@@ -1,16 +1,16 @@
 C fof(t20_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (k3_complex1(k5_xcmplx_0(A))=k10_real_1(k3_complex1(A), k7_real_1(k5_square_1(k3_complex1(A)), k5_square_1(k4_complex1(A)))) & k4_complex1(k5_xcmplx_0(A))=k10_real_1(k1_real_1(k4_complex1(A)), k7_real_1(k5_square_1(k3_complex1(A)), k5_square_1(k4_complex1(A))))) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(dt_k3_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k3_complex1(A), k1_numbers)) ) ).
-+ fof(dt_k1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k1_real_1(A), k1_numbers)) ) ).
-+ fof(dt_k10_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k10_real_1(A, B), k1_numbers)) ) ).
-+ fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
-+ fof(dt_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k7_real_1(A, B), k1_numbers)) ) ).
-+ fof(t12_complex1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (k3_complex1(k2_xcmplx_0(A, k3_xcmplx_0(B, k7_complex1)))=A & k4_complex1(k2_xcmplx_0(A, k3_xcmplx_0(B, k7_complex1)))=B) ) ) ) ) ).
-+ fof(d9_complex1, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => k12_complex1(A)=k2_xcmplx_0(k10_real_1(k3_complex1(A), k7_real_1(k5_square_1(k3_complex1(A)), k5_square_1(k4_complex1(A)))), k3_xcmplx_0(k10_real_1(k1_real_1(k4_complex1(A)), k7_real_1(k5_square_1(k3_complex1(A)), k5_square_1(k4_complex1(A)))), k7_complex1))) ) ).
-+ fof(redefinition_k12_complex1, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => k12_complex1(A)=k5_xcmplx_0(A)) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
++ fof(d9_complex1, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => k12_complex1(A)=k2_xcmplx_0(k10_real_1(k3_complex1(A), k7_real_1(k5_square_1(k3_complex1(A)), k5_square_1(k4_complex1(A)))), k3_xcmplx_0(k10_real_1(k1_real_1(k4_complex1(A)), k7_real_1(k5_square_1(k3_complex1(A)), k5_square_1(k4_complex1(A)))), k7_complex1))) ) ).
++ fof(dt_k10_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k10_real_1(A, B), k1_numbers)) ) ).
++ fof(dt_k1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k1_real_1(A), k1_numbers)) ) ).
++ fof(dt_k3_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k3_complex1(A), k1_numbers)) ) ).
 + fof(dt_k4_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k4_complex1(A), k1_numbers)) ) ).
 + fof(dt_k5_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k5_square_1(A), k1_numbers)) ) ).
++ fof(dt_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k7_real_1(A, B), k1_numbers)) ) ).
++ fof(redefinition_k12_complex1, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => k12_complex1(A)=k5_xcmplx_0(A)) ) ).
++ fof(t12_complex1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (k3_complex1(k2_xcmplx_0(A, k3_xcmplx_0(B, k7_complex1)))=A & k4_complex1(k2_xcmplx_0(A, k3_xcmplx_0(B, k7_complex1)))=B) ) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 - fof(t5_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (A=k6_numbers <=> k7_real_1(k5_square_1(k3_complex1(A)), k5_square_1(k4_complex1(A)))=k6_numbers) ) ) ).
 - fof(t16_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (k3_complex1(k3_xcmplx_0(A, A))=k9_real_1(k5_square_1(k3_complex1(A)), k5_square_1(k4_complex1(A))) & k4_complex1(k3_xcmplx_0(A, A))=k8_real_1(2, k8_real_1(k3_complex1(A), k4_complex1(A)))) ) ) ).
 - fof(l28_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (k3_complex1(k3_xcmplx_0(A, B))=k9_real_1(k8_real_1(k3_complex1(A), k3_complex1(B)), k8_real_1(k4_complex1(A), k4_complex1(B))) & k4_complex1(k3_xcmplx_0(A, B))=k7_real_1(k8_real_1(k3_complex1(A), k4_complex1(B)), k8_real_1(k3_complex1(B), k4_complex1(A)))) ) ) ) ) ).

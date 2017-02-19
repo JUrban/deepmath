@@ -1,5 +1,5 @@
 C fof(t3_scmyciel, axiom,  (! [A] :  (! [B] :  ~ (k4_tarski(A, B)=A) ) ) ).
-+ fof(t31_circcmb3, axiom,  (! [A] :  (! [B] :  (r2_hidden(k6_classes1(A), k6_classes1(k4_tarski(A, B))) & r2_hidden(k6_classes1(B), k6_classes1(k4_tarski(A, B)))) ) ) ).
 + fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
++ fof(t31_circcmb3, axiom,  (! [A] :  (! [B] :  (r2_hidden(k6_classes1(A), k6_classes1(k4_tarski(A, B))) & r2_hidden(k6_classes1(B), k6_classes1(k4_tarski(A, B)))) ) ) ).
 - fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
 - fof(l10_ens_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (k4_tarski(k4_tarski(A, C), E)=k4_tarski(k4_tarski(B, D), F) =>  (A=B & C=D) ) ) ) ) ) ) ) ).

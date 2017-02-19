@@ -1,11 +1,11 @@
 C fof(l14_pnproc_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_finseq_1(A)) )  => k10_xtuple_0(A)=k10_xtuple_0(k15_finseq_1(A))) ) ).
++ fof(d14_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_finseq_1(A)) )  => k15_finseq_1(A)=k3_relat_1(k14_finseq_1(k9_xtuple_0(A)), A)) ) ).
 + fof(dt_k14_finseq_1, axiom,  (! [A] : m2_finseq_1(k14_finseq_1(A), k5_numbers)) ).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
 + fof(t28_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(k9_xtuple_0(A), k10_xtuple_0(B)) => k10_xtuple_0(k3_relat_1(B, A))=k10_xtuple_0(A)) ) ) ) ) ).
 + fof(t50_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_finseq_1(A)) )  => k10_xtuple_0(k14_finseq_1(k9_xtuple_0(A)))=k9_xtuple_0(A)) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
-+ fof(d14_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_finseq_1(A)) )  => k15_finseq_1(A)=k3_relat_1(k14_finseq_1(k9_xtuple_0(A)), A)) ) ).
-+ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
 - fof(t116_finseq_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_finseq_1(A)) )  =>  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k15_finseq_1(A)=A) ) ) ).
 - fof(l2_pnproc_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_finseq_1(A)) )  =>  (k15_finseq_1(A)=k1_xboole_0 => A=k1_xboole_0) ) ) ).
 - fof(dt_k15_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_finseq_1(A)) )  =>  (v1_relat_1(k15_finseq_1(A)) & v1_funct_1(k15_finseq_1(A))) ) ) ).

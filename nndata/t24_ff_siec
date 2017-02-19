@@ -1,18 +1,18 @@
 C fof(t24_ff_siec, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  =>  (r1_tarski(k16_ff_siec(A), k2_zfmisc_1(k2_net_1(A), k2_net_1(A))) & r1_tarski(k15_ff_siec(A), k2_zfmisc_1(k2_net_1(A), k2_net_1(A)))) ) ) ).
-+ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
-+ fof(fc1_net_1, axiom,  (! [A] :  (l1_petri(A) => v1_relat_1(k1_net_1(A))) ) ).
-+ fof(d1_net_1, axiom,  (! [A] :  (l1_petri(A) => k1_net_1(A)=k2_xboole_0(u1_petri(A), u2_petri(A))) ) ).
-+ fof(dt_k2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k2_relat_1(A))) ) ).
-+ fof(t8_ff_siec, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  =>  (r1_tarski(k1_net_1(A), k2_zfmisc_1(k2_net_1(A), k2_net_1(A))) & r1_tarski(k2_relat_1(k1_net_1(A)), k2_zfmisc_1(k2_net_1(A), k2_net_1(A)))) ) ) ).
-+ fof(t13_relset_1, axiom,  (! [A] : r1_tarski(k4_relat_1(A), k2_zfmisc_1(A, A))) ).
-+ fof(t8_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(C, B))  => r1_tarski(k2_xboole_0(A, C), B)) ) ) ) ).
-+ fof(d3_net_1, axiom,  (! [A] :  (l1_petri(A) => k2_net_1(A)=k2_xboole_0(u1_struct_0(A), u4_struct_0(A))) ) ).
-+ fof(d16_ff_siec, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  => k16_ff_siec(A)=k2_xboole_0(k5_relat_1(k1_net_1(A), u1_struct_0(A)), k4_relat_1(u4_struct_0(A)))) ) ).
 + fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
 + fof(d15_ff_siec, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  => k15_ff_siec(A)=k2_xboole_0(k5_relat_1(k2_relat_1(k1_net_1(A)), u1_struct_0(A)), k4_relat_1(u4_struct_0(A)))) ) ).
-+ fof(t59_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) => r1_tarski(k5_relat_1(B, A), B)) ) ) ).
++ fof(d16_ff_siec, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  => k16_ff_siec(A)=k2_xboole_0(k5_relat_1(k1_net_1(A), u1_struct_0(A)), k4_relat_1(u4_struct_0(A)))) ) ).
++ fof(d1_net_1, axiom,  (! [A] :  (l1_petri(A) => k1_net_1(A)=k2_xboole_0(u1_petri(A), u2_petri(A))) ) ).
++ fof(d3_net_1, axiom,  (! [A] :  (l1_petri(A) => k2_net_1(A)=k2_xboole_0(u1_struct_0(A), u4_struct_0(A))) ) ).
++ fof(dt_k2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k2_relat_1(A))) ) ).
++ fof(fc1_net_1, axiom,  (! [A] :  (l1_petri(A) => v1_relat_1(k1_net_1(A))) ) ).
++ fof(t13_relset_1, axiom,  (! [A] : r1_tarski(k4_relat_1(A), k2_zfmisc_1(A, A))) ).
 + fof(t15_sysrel, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k4_relat_1(A), k4_relat_1(B))) ) ) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
++ fof(t59_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) => r1_tarski(k5_relat_1(B, A), B)) ) ) ).
 + fof(t7_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(A, k2_xboole_0(A, B))) ) ).
++ fof(t8_ff_siec, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  =>  (r1_tarski(k1_net_1(A), k2_zfmisc_1(k2_net_1(A), k2_net_1(A))) & r1_tarski(k2_relat_1(k1_net_1(A)), k2_zfmisc_1(k2_net_1(A), k2_net_1(A)))) ) ) ).
++ fof(t8_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(C, B))  => r1_tarski(k2_xboole_0(A, C), B)) ) ) ) ).
 - fof(t16_net_1, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  =>  (! [B] :  (m1_subset_1(B, k2_net_1(A)) =>  ( ~ (k2_net_1(A)=k1_xboole_0)  => r1_tarski(k5_net_1(A, B), k2_net_1(A))) ) ) ) ) ).
 - fof(t19_net_1, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  =>  (! [B] :  (m1_subset_1(B, k2_net_1(A)) =>  ( ~ (k2_net_1(A)=k1_xboole_0)  => r1_tarski(k6_net_1(A, B), k2_net_1(A))) ) ) ) ) ).
 - fof(t17_ff_siec, axiom,  (! [A] :  ( (v1_net_1(A) & l1_petri(A))  =>  (r1_tarski(k8_ff_siec(A), k2_zfmisc_1(k2_net_1(A), k2_net_1(A))) & r1_tarski(k7_ff_siec(A), k2_zfmisc_1(k2_net_1(A), k2_net_1(A)))) ) ) ).

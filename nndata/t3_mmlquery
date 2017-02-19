@@ -1,17 +1,17 @@
 C fof(t3_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (r2_hidden(C, k4_mmlquery(A, D, B)) <=>  (r2_hidden(C, B) &  ~ (k1_mmlquery(A, D, C)=k1_xboole_0) ) ) ) ) ) ) ) ) ) ).
 + fof(d1_subset_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v1_xboole_0(A))  =>  (m1_subset_1(B, A) <=> r2_hidden(B, A)) )  &  (v1_xboole_0(A) =>  (m1_subset_1(B, A) <=> v1_xboole_0(B)) ) ) ) ) ).
-+ fof(redefinition_k1_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, A))  => k1_mmlquery(A, B, C)=k9_relat_1(B, C)) ) ).
-+ fof(fraenkel_a_3_1_mmlquery, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, B))) & m1_subset_1(D, k1_zfmisc_1(B)))  =>  (r2_hidden(A, a_3_1_mmlquery(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, B) &  (A=E &  (? [F] :  (m1_subset_1(F, B) &  (r1_mmlquery(E, F, C) & r2_hidden(E, D)) ) ) ) ) ) ) ) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
++ fof(d4_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k4_mmlquery(A, B, C)=a_3_1_mmlquery(A, B, C)) ) ) ) ) ).
++ fof(dt_k1_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, A))  => m1_subset_1(k1_mmlquery(A, B, C), k1_zfmisc_1(A))) ) ).
 + fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
-+ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(fraenkel_a_3_1_mmlquery, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, B))) & m1_subset_1(D, k1_zfmisc_1(B)))  =>  (r2_hidden(A, a_3_1_mmlquery(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, B) &  (A=E &  (? [F] :  (m1_subset_1(F, B) &  (r1_mmlquery(E, F, C) & r2_hidden(E, D)) ) ) ) ) ) ) ) ) ).
++ fof(redefinition_k1_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, A))  => k1_mmlquery(A, B, C)=k9_relat_1(B, C)) ) ).
++ fof(t2_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [D] :  (m1_subset_1(D, A) =>  (r1_mmlquery(B, D, C) <=> r2_hidden(D, k1_mmlquery(A, C, B))) ) ) ) ) ) ) ) ).
 + fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 + fof(t4_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  ~ ( ( ~ (B=k1_xboole_0)  &  (! [C] :  (m1_subset_1(C, A) =>  ~ (r2_hidden(C, B)) ) ) ) ) ) ) ) ).
-+ fof(d4_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k4_mmlquery(A, B, C)=a_3_1_mmlquery(A, B, C)) ) ) ) ) ).
-+ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
-+ fof(dt_k1_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, A))  => m1_subset_1(k1_mmlquery(A, B, C), k1_zfmisc_1(A))) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(t2_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [D] :  (m1_subset_1(D, A) =>  (r1_mmlquery(B, D, C) <=> r2_hidden(D, k1_mmlquery(A, C, B))) ) ) ) ) ) ) ) ).
++ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 - fof(dt_k4_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k4_mmlquery(A, B, C), k1_zfmisc_1(A))) ) ).
 - fof(dt_o_3_6_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => m1_subset_1(o_3_6_mmlquery(A, B, C), k1_mmlquery(A, C, B))) ) ).
 - fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).

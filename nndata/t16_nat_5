@@ -1,14 +1,14 @@
 C fof(t16_nat_5, axiom,  (! [A] :  ( (v7_ordinal1(A) &  ~ (v1_xboole_0(A)) )  =>  (! [B] :  ( (v7_ordinal1(B) &  ~ (v1_xboole_0(B)) )  =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v7_ordinal1(D) =>  ( (r2_hidden(C, k3_moebius1(A)) & r2_hidden(D, k3_moebius1(B)))  => r2_hidden(k24_binop_2(C, D), k3_moebius1(k24_binop_2(A, B)))) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k24_binop_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k24_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
-+ fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
-+ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
 + fof(cc2_xcmplx_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xcmplx_0(A)) ) ).
++ fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
++ fof(commutativity_k24_binop_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k24_binop_2(A, B)=k24_binop_2(B, A)) ) ).
 + fof(fc2_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k3_xcmplx_0(A, B))) ) ).
++ fof(redefinition_k24_binop_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k24_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
++ fof(t1_nat_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v7_ordinal1(D) =>  ( (r1_nat_d(A, C) & r1_nat_d(B, D))  => r1_nat_d(k24_binop_2(A, B), k24_binop_2(C, D))) ) ) ) ) ) ) ) ) ).
++ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
++ fof(t39_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r2_hidden(B, k3_moebius1(A)) <=>  ( ~ (r1_xxreal_0(B, k6_numbers))  & r1_nat_d(B, A)) ) ) ) ) ) ).
 + fof(t3_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ ( ( ~ (k6_numbers=A)  & r1_xxreal_0(A, k6_numbers)) ) ) ) ).
 + fof(t68_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  &  ( ~ (r1_xxreal_0(C, B))  & r1_xxreal_0(k3_xcmplx_0(C, A), k3_xcmplx_0(B, A))) ) ) ) ) ) ) ) ) ).
-+ fof(t1_nat_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v7_ordinal1(D) =>  ( (r1_nat_d(A, C) & r1_nat_d(B, D))  => r1_nat_d(k24_binop_2(A, B), k24_binop_2(C, D))) ) ) ) ) ) ) ) ) ).
-+ fof(t39_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r2_hidden(B, k3_moebius1(A)) <=>  ( ~ (r1_xxreal_0(B, k6_numbers))  & r1_nat_d(B, A)) ) ) ) ) ) ).
-+ fof(commutativity_k24_binop_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k24_binop_2(A, B)=k24_binop_2(B, A)) ) ).
 - fof(t14_nat_5, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v7_ordinal1(D) =>  ( (r2_hidden(C, k3_moebius1(A)) &  (r2_hidden(D, k3_moebius1(B)) & r1_int_2(A, B)) )  => r1_int_2(C, D)) ) ) ) ) ) ) ) ) ).
 - fof(t15_nat_5, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v7_ordinal1(D) =>  (! [E] :  (v7_ordinal1(E) =>  (! [F] :  (v7_ordinal1(F) =>  ( (r2_hidden(C, k3_moebius1(A)) &  (r2_hidden(D, k3_moebius1(B)) &  (r2_hidden(E, k3_moebius1(A)) &  (r2_hidden(F, k3_moebius1(B)) &  (r1_int_2(A, B) & k24_binop_2(C, D)=k24_binop_2(E, F)) ) ) ) )  =>  (C=E & D=F) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(d1_pythtrip, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_int_2(A, B) <=>  (! [C] :  (v7_ordinal1(C) =>  ( (r1_nat_d(C, A) & r1_nat_d(C, B))  => C=1) ) ) ) ) ) ) ) ).

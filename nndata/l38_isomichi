@@ -1,14 +1,14 @@
 C fof(l38_isomichi, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ~ (r1_xxreal_0(B, A))  => k4_subset_1(k1_numbers, k1_rcomp_1(A, B), k1_seq_4(B))=k1_rcomp_1(A, B)) ) ) ) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
++ fof(dt_k1_rcomp_1, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => m1_subset_1(k1_rcomp_1(A, B), k1_zfmisc_1(k1_numbers))) ) ).
 + fof(dt_k1_seq_4, axiom,  (! [A] :  (v1_xreal_0(A) => m1_subset_1(k1_seq_4(A), k1_zfmisc_1(k1_numbers))) ) ).
 + fof(redefinition_k1_rcomp_1, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k1_rcomp_1(A, B)=k1_xxreal_1(A, B)) ) ).
-+ fof(dt_k1_rcomp_1, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => m1_subset_1(k1_rcomp_1(A, B), k1_zfmisc_1(k1_numbers))) ) ).
-+ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
 + fof(redefinition_k1_seq_4, axiom,  (! [A] :  (v1_xreal_0(A) => k1_seq_4(A)=k1_tarski(A)) ) ).
-+ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
 + fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
-+ fof(t6_xboole_1, axiom,  (! [A] :  (! [B] : k2_xboole_0(A, k2_xboole_0(A, B))=k2_xboole_0(A, B)) ) ).
-+ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
 + fof(t129_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (r1_xxreal_0(A, B) => k1_xxreal_1(A, B)=k2_xboole_0(k2_xxreal_1(A, B), k1_tarski(B))) ) ) ) ) ).
++ fof(t6_xboole_1, axiom,  (! [A] :  (! [B] : k2_xboole_0(A, k2_xboole_0(A, B))=k2_xboole_0(A, B)) ) ).
 - fof(t12_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( (r1_xxreal_0(A, C) & r1_xxreal_0(C, B))  => k4_subset_1(k1_numbers, k4_rcomp_1(k2_xxreal_0, C), k1_rcomp_1(A, B))=k4_rcomp_1(k2_xxreal_0, B)) ) ) ) ) ) ) ).
 - fof(t11_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( (r1_xxreal_0(A, C) & r1_xxreal_0(C, B))  => k4_subset_1(k1_numbers, k1_rcomp_1(A, B), k3_rcomp_1(C, k1_xxreal_0))=k3_rcomp_1(A, k1_xxreal_0)) ) ) ) ) ) ) ).
 - fof(t15_fcont_2, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  =>  ( (r1_xxreal_0(A, B) &  (r1_tarski(k1_rcomp_1(A, B), k1_relset_1(k1_numbers, C)) & v1_fcont_1(k2_partfun1(k1_numbers, k1_numbers, C, k1_rcomp_1(A, B)))) )  =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  ~ ( (r2_hidden(D, k4_subset_1(k1_numbers, k1_rcomp_1(k1_seq_1(C, A), k1_seq_1(C, B)), k1_rcomp_1(k1_seq_1(C, B), k1_seq_1(C, A)))) &  (! [E] :  (m1_subset_1(E, k1_numbers) =>  ~ ( (r2_hidden(E, k1_rcomp_1(A, B)) & D=k1_seq_1(C, E)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

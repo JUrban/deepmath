@@ -1,10 +1,10 @@
 C fof(t2_topreal5, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, B) => v2_connsp_1(k2_struct_0(k4_topmetr(A, B)), k4_topmetr(A, B))) ) ) ) ) ).
 + fof(cc1_pre_topc, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (m1_pre_topc(B, A) => v2_pre_topc(B)) ) ) ) ).
-+ fof(t27_connsp_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (v2_connsp_1(k2_struct_0(A), A) <=> v1_connsp_1(A)) ) ) ).
-+ fof(dt_k4_topmetr, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  =>  ( ~ (v2_struct_0(k4_topmetr(A, B)))  &  (v1_pre_topc(k4_topmetr(A, B)) & m1_pre_topc(k4_topmetr(A, B), k3_topmetr)) ) ) ) ).
-+ fof(t20_treal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, B) => v1_connsp_1(k4_topmetr(A, B))) ) ) ) ) ).
 + fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).
++ fof(dt_k4_topmetr, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  =>  ( ~ (v2_struct_0(k4_topmetr(A, B)))  &  (v1_pre_topc(k4_topmetr(A, B)) & m1_pre_topc(k4_topmetr(A, B), k3_topmetr)) ) ) ) ).
 + fof(dt_m1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_pre_topc(B, A) => l1_pre_topc(B)) ) ) ) ).
++ fof(t20_treal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, B) => v1_connsp_1(k4_topmetr(A, B))) ) ) ) ) ).
++ fof(t27_connsp_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (v2_connsp_1(k2_struct_0(A), A) <=> v1_connsp_1(A)) ) ) ).
 - fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
 - fof(t2_pre_topc, axiom,  (! [A] :  (l1_struct_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k4_subset_1(u1_struct_0(A), B, k3_subset_1(u1_struct_0(A), B))=k2_struct_0(A)) ) ) ) ).
 - fof(dt_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k4_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).

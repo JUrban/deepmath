@@ -1,13 +1,13 @@
 C fof(t20_matrixc1, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) =>  (! [B] :  (m1_subset_1(B, k2_numbers) => k15_complex1(k5_binop_1(k2_numbers, k27_binop_2, A, k15_complex1(B)))=k5_binop_1(k2_numbers, k27_binop_2, k15_complex1(A), B)) ) ) ) ).
-+ fof(redefinition_k3_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_binop_2(A, B)=k2_xcmplx_0(A, B)) ) ).
-+ fof(t32_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k15_complex1(k2_xcmplx_0(A, B))=k8_complex1(k15_complex1(A), k15_complex1(B))) ) ) ) ).
-+ fof(d3_binop_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers)))) )  =>  (A=k27_binop_2 <=>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) => k1_binop_1(A, B, C)=k3_binop_2(B, C)) ) ) ) ) ) ) ).
-+ fof(redefinition_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k5_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
-+ fof(dt_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k15_complex1(A), k2_numbers)) ) ).
 + fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(involutiveness_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(k15_complex1(A))=A) ) ).
-+ fof(redefinition_k8_complex1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_numbers) & m1_subset_1(B, k2_numbers))  => k8_complex1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(d3_binop_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers)))) )  =>  (A=k27_binop_2 <=>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) => k1_binop_1(A, B, C)=k3_binop_2(B, C)) ) ) ) ) ) ) ).
++ fof(dt_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k15_complex1(A), k2_numbers)) ) ).
 + fof(dt_k27_binop_2, axiom,  (v1_funct_1(k27_binop_2) &  (v1_funct_2(k27_binop_2, k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers) & m1_subset_1(k27_binop_2, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers)))) ) ).
++ fof(involutiveness_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(k15_complex1(A))=A) ) ).
++ fof(redefinition_k3_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_binop_2(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k5_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
++ fof(redefinition_k8_complex1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_numbers) & m1_subset_1(B, k2_numbers))  => k8_complex1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(t32_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k15_complex1(k2_xcmplx_0(A, B))=k8_complex1(k15_complex1(A), k15_complex1(B))) ) ) ) ).
 - fof(t44_complsp2, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  ( (A=C & B=D)  => k5_binop_1(k2_numbers, k27_binop_2, A, B)=k5_binop_1(k1_numbers, k33_binop_2, C, D)) ) ) ) ) ) ) ) ) ).
 - fof(redefinition_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(A)=k14_complex1(A)) ) ).
 - fof(t28_complex1, axiom, k15_complex1(k6_numbers)=k6_numbers).

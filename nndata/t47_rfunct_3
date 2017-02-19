@@ -1,44 +1,44 @@
 C fof(t47_rfunct_3, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  =>  ( (! [C] :  (m1_subset_1(C, A) =>  (r2_hidden(C, k1_relset_1(A, B)) => r1_xxreal_0(k1_seq_1(B, C), k6_numbers)) ) )  => r2_relset_1(A, k1_numbers, k19_rfunct_3(A, B), k32_valued_1(A, k1_numbers, B))) ) ) ) ) ).
-+ fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
-+ fof(dt_k19_rfunct_3, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) )  =>  (v1_funct_1(k19_rfunct_3(A, B)) & m1_subset_1(k19_rfunct_3(A, B), k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) ) ) ).
-+ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
-+ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
-+ fof(cc2_nat_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  ~ (v3_xxreal_0(A)) ) ) ).
-+ fof(cc6_card_1, axiom,  (! [A] :  ( (v3_ordinal1(A) & v1_finset_1(A))  => v7_ordinal1(A)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
-+ fof(involutiveness_k30_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => k30_valued_1(k30_valued_1(A))=A) ) ).
++ fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
++ fof(cc16_valued_0, axiom,  (! [A, B] :  (v1_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_valued_0(C)) ) ) ) ).
++ fof(cc18_valued_0, axiom,  (! [A, B] :  (v3_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v3_valued_0(C)) ) ) ) ).
 + fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
 + fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
-+ fof(fc15_xreal_0, axiom,  (! [A] :  ( ( ~ (v2_xxreal_0(A))  & v1_xreal_0(A))  =>  (v1_xcmplx_0(k4_xcmplx_0(A)) &  ~ (v3_xxreal_0(k4_xcmplx_0(A))) ) ) ) ).
-+ fof(cc18_valued_0, axiom,  (! [A, B] :  (v3_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v3_valued_0(C)) ) ) ) ).
-+ fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
-+ fof(d2_rfunct_3, axiom,  (! [A] :  (v1_xreal_0(A) => k2_rfunct_3(A)=k4_xxreal_0(k4_xcmplx_0(A), k6_numbers)) ) ).
-+ fof(redefinition_r2_relset_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B))))  =>  (r2_relset_1(A, B, C, D) <=> C=D) ) ) ).
-+ fof(d10_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(B, A) => k4_xxreal_0(A, B)=A)  &  ( ~ (r1_xxreal_0(B, A))  => k4_xxreal_0(A, B)=B) ) ) ) ) ) ).
-+ fof(redefinition_k32_valued_1, axiom,  (! [A, B, C] :  ( (v3_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  => k32_valued_1(A, B, C)=k30_valued_1(C)) ) ).
-+ fof(cc3_xxreal_0, axiom,  (! [A] :  ( (v1_xxreal_0(A) & v2_xxreal_0(A))  =>  ( ~ (v1_xboole_0(A))  &  (v1_xxreal_0(A) &  ~ (v3_xxreal_0(A)) ) ) ) ) ).
-+ fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
-+ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(redefinition_k1_seq_1, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_valued_0(A)) )  => k1_seq_1(A, B)=k1_funct_1(A, B)) ) ).
-+ fof(t8_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  =>  (k9_xtuple_0(k30_valued_1(A))=k9_xtuple_0(A) &  (! [B] : k1_funct_1(k30_valued_1(A), B)=k4_xcmplx_0(k1_funct_1(A, B))) ) ) ) ).
-+ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(cc2_card_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_card_1(A)) ) ).
-+ fof(dt_k32_valued_1, axiom,  (! [A, B, C] :  ( (v3_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (v1_funct_1(k32_valued_1(A, B, C)) & m1_subset_1(k32_valued_1(A, B, C), k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) ) ) ).
-+ fof(t5_partfun1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  =>  (! [D] :  ( (v1_funct_1(D) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B))))  =>  ( (k1_relset_1(A, C)=k1_relset_1(A, D) &  (! [E] :  (m1_subset_1(E, A) =>  (r2_hidden(E, k1_relset_1(A, C)) => k1_funct_1(C, E)=k1_funct_1(D, E)) ) ) )  => C=D) ) ) ) ) ) ) ).
-+ fof(commutativity_k4_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k4_xxreal_0(A, B)=k4_xxreal_0(B, A)) ) ).
-+ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
-+ fof(d11_rfunct_3, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  =>  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  =>  (C=k19_rfunct_3(A, B) <=>  (k1_relset_1(A, C)=k1_relset_1(A, B) &  (! [D] :  (m1_subset_1(D, A) =>  (r2_hidden(D, k1_relset_1(A, C)) => k1_seq_1(C, D)=k2_rfunct_3(k1_seq_1(B, D))) ) ) ) ) ) ) ) ) ) ) ).
 + fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(cc16_valued_0, axiom,  (! [A, B] :  (v1_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_valued_0(C)) ) ) ) ).
++ fof(cc2_card_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_card_1(A)) ) ).
++ fof(cc2_nat_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  ~ (v3_xxreal_0(A)) ) ) ).
++ fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
++ fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
++ fof(cc3_xxreal_0, axiom,  (! [A] :  ( (v1_xxreal_0(A) & v2_xxreal_0(A))  =>  ( ~ (v1_xboole_0(A))  &  (v1_xxreal_0(A) &  ~ (v3_xxreal_0(A)) ) ) ) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
++ fof(cc6_card_1, axiom,  (! [A] :  ( (v3_ordinal1(A) & v1_finset_1(A))  => v7_ordinal1(A)) ) ).
++ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
++ fof(commutativity_k4_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k4_xxreal_0(A, B)=k4_xxreal_0(B, A)) ) ).
++ fof(d10_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(B, A) => k4_xxreal_0(A, B)=A)  &  ( ~ (r1_xxreal_0(B, A))  => k4_xxreal_0(A, B)=B) ) ) ) ) ) ).
++ fof(d11_rfunct_3, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  =>  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  =>  (C=k19_rfunct_3(A, B) <=>  (k1_relset_1(A, C)=k1_relset_1(A, B) &  (! [D] :  (m1_subset_1(D, A) =>  (r2_hidden(D, k1_relset_1(A, C)) => k1_seq_1(C, D)=k2_rfunct_3(k1_seq_1(B, D))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d2_rfunct_3, axiom,  (! [A] :  (v1_xreal_0(A) => k2_rfunct_3(A)=k4_xxreal_0(k4_xcmplx_0(A), k6_numbers)) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(dt_k19_rfunct_3, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) )  =>  (v1_funct_1(k19_rfunct_3(A, B)) & m1_subset_1(k19_rfunct_3(A, B), k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) ) ) ).
++ fof(dt_k32_valued_1, axiom,  (! [A, B, C] :  ( (v3_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (v1_funct_1(k32_valued_1(A, B, C)) & m1_subset_1(k32_valued_1(A, B, C), k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) ) ) ).
 + fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(fc63_valued_0, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_valued_0(A)) )  => v1_xreal_0(k1_funct_1(A, B))) ) ).
++ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
++ fof(fc15_xreal_0, axiom,  (! [A] :  ( ( ~ (v2_xxreal_0(A))  & v1_xreal_0(A))  =>  (v1_xcmplx_0(k4_xcmplx_0(A)) &  ~ (v3_xxreal_0(k4_xcmplx_0(A))) ) ) ) ).
 + fof(fc16_xreal_0, axiom,  (! [A] :  ( ( ~ (v3_xxreal_0(A))  & v1_xreal_0(A))  =>  (v1_xcmplx_0(k4_xcmplx_0(A)) &  ~ (v2_xxreal_0(k4_xcmplx_0(A))) ) ) ) ).
-+ fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
++ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
++ fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
++ fof(fc63_valued_0, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_valued_0(A)) )  => v1_xreal_0(k1_funct_1(A, B))) ) ).
++ fof(involutiveness_k30_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => k30_valued_1(k30_valued_1(A))=A) ) ).
++ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
++ fof(redefinition_k1_seq_1, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_valued_0(A)) )  => k1_seq_1(A, B)=k1_funct_1(A, B)) ) ).
++ fof(redefinition_k32_valued_1, axiom,  (! [A, B, C] :  ( (v3_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  => k32_valued_1(A, B, C)=k30_valued_1(C)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_r2_relset_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B))))  =>  (r2_relset_1(A, B, C, D) <=> C=D) ) ) ).
++ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
++ fof(t5_partfun1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  =>  (! [D] :  ( (v1_funct_1(D) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B))))  =>  ( (k1_relset_1(A, C)=k1_relset_1(A, D) &  (! [E] :  (m1_subset_1(E, A) =>  (r2_hidden(E, k1_relset_1(A, C)) => k1_funct_1(C, E)=k1_funct_1(D, E)) ) ) )  => C=D) ) ) ) ) ) ) ).
 + fof(t8_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(A, B))  &  ( ~ (v3_xxreal_0(B))  &  ~ (v2_xxreal_0(A)) ) ) ) ) ) ) ) ).
++ fof(t8_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  =>  (k9_xtuple_0(k30_valued_1(A))=k9_xtuple_0(A) &  (! [B] : k1_funct_1(k30_valued_1(A), B)=k4_xcmplx_0(k1_funct_1(A, B))) ) ) ) ).
 - fof(t29_seqfunc, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k4_partfun1(A, k1_numbers)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k4_partfun1(A, k1_numbers))))) )  =>  (! [C] :  (m1_subset_1(C, A) =>  (r2_relset_1(k5_numbers, k1_numbers, k10_seqfunc(A, k5_seqfunc(A, B), C), k56_valued_1(k5_numbers, k1_numbers, k10_seqfunc(A, B, C))) & r2_relset_1(k5_numbers, k1_numbers, k10_seqfunc(A, k4_seqfunc(A, B), C), k32_valued_1(k5_numbers, k1_numbers, k10_seqfunc(A, B, C)))) ) ) ) ) ) ) ).
 - fof(t45_rfunct_3, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  =>  (! [C] : r2_relset_1(A, k1_numbers, k2_partfun1(A, k1_numbers, k19_rfunct_3(A, B), C), k19_rfunct_3(A, k2_partfun1(A, k1_numbers, B, C)))) ) ) ) ) ).
 - fof(t34_rfunct_3, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  =>  (r2_relset_1(A, k1_numbers, B, k47_valued_1(A, k1_numbers, k1_numbers, k18_rfunct_3(A, B), k19_rfunct_3(A, B))) &  (r2_relset_1(A, k1_numbers, k56_valued_1(A, k1_numbers, B), k3_valued_1(A, k1_numbers, k1_numbers, k18_rfunct_3(A, B), k19_rfunct_3(A, B))) & r2_relset_1(A, k1_numbers, k26_valued_1(A, k1_numbers, k18_rfunct_3(A, B), 2), k3_valued_1(A, k1_numbers, k1_numbers, B, k56_valued_1(A, k1_numbers, B)))) ) ) ) ) ) ).

@@ -1,17 +1,17 @@
 C fof(l3_ami_2, axiom,  ~ (r2_hidden(k5_numbers, k2_ami_2)) ).
-+ fof(redefinition_k2_ami_2, axiom, k2_ami_2=k2_scm_inst).
-+ fof(fc7_card_1, axiom,  ~ (v1_finset_1(k4_ordinal1)) ).
-+ fof(dt_k8_mcart_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(A)) & m1_subset_1(D, k1_zfmisc_1(B)))  => m1_subset_1(k8_mcart_1(A, B, C, D), k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ).
 + fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
-+ fof(d1_scm_inst, axiom, k2_scm_inst=k8_mcart_1(k5_numbers, k1_numbers, k6_domain_1(k5_numbers, 1), k5_numbers)).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(d1_relat_1, axiom,  (! [A] :  (v1_relat_1(A) <=>  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (! [D] :  ~ (B=k4_tarski(C, D)) ) ) ) ) ) ) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
 + fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(d1_relat_1, axiom,  (! [A] :  (v1_relat_1(A) <=>  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (! [D] :  ~ (B=k4_tarski(C, D)) ) ) ) ) ) ) ) ).
++ fof(d1_scm_inst, axiom, k2_scm_inst=k8_mcart_1(k5_numbers, k1_numbers, k6_domain_1(k5_numbers, 1), k5_numbers)).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(dt_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m1_subset_1(k6_domain_1(A, B), k1_zfmisc_1(A))) ) ).
++ fof(dt_k8_mcart_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(A)) & m1_subset_1(D, k1_zfmisc_1(B)))  => m1_subset_1(k8_mcart_1(A, B, C, D), k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ).
++ fof(fc2_finset_1, axiom,  (! [A, B] : v1_finset_1(k2_tarski(A, B))) ).
++ fof(fc7_card_1, axiom,  ~ (v1_finset_1(k4_ordinal1)) ).
++ fof(redefinition_k2_ami_2, axiom, k2_ami_2=k2_scm_inst).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(fc2_finset_1, axiom,  (! [A, B] : v1_finset_1(k2_tarski(A, B))) ).
-+ fof(dt_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m1_subset_1(k6_domain_1(A, B), k1_zfmisc_1(A))) ) ).
 - fof(l2_ami_2, axiom,  (! [A] :  (m1_subset_1(A, k1_ami_2) =>  (A=k5_numbers | r2_hidden(A, k2_ami_2)) ) ) ).
 - fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 - fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).

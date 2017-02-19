@@ -1,18 +1,18 @@
 C fof(t13_henmodel, axiom,  (! [A] :  (m1_qc_lang1(A) => v1_henmodel(k6_domain_1(k3_cqc_lang(A), k5_cqc_lang(A)), A)) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(t32_valuat_1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m2_funct_2(C, k3_qc_lang1(A), B, k2_valuat_1(A, B)) =>  (! [D] :  (m1_valuat_1(D, A, B) => r1_valuat_1(A, B, k5_cqc_lang(A), D, C)) ) ) ) ) ) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
 + fof(d11_calcul_1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_cqc_lang(A))) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (! [D] :  (m1_valuat_1(D, A, C) =>  (! [E] :  (m2_funct_2(E, k3_qc_lang1(A), C, k2_valuat_1(A, C)) =>  (r6_calcul_1(A, B, C, D, E) <=>  (! [F] :  (m2_subset_1(F, k9_qc_lang1(A), k3_cqc_lang(A)) =>  (r2_hidden(F, B) => r1_valuat_1(A, C, F, D, E)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k3_cqc_lang, axiom,  (! [A] :  (m1_qc_lang1(A) => m1_subset_1(k3_cqc_lang(A), k1_zfmisc_1(k9_qc_lang1(A)))) ) ).
-+ fof(dt_o_1_1_henmodel, axiom,  (! [A] :  (m1_qc_lang1(A) => m1_valuat_1(o_1_1_henmodel(A), A, o_0_0_henmodel)) ) ).
-+ fof(dt_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m1_subset_1(k6_domain_1(A, B), k1_zfmisc_1(A))) ) ).
-+ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
-+ fof(fc2_cqc_lang, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k3_cqc_lang(A))) ) ) ).
 + fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
-+ fof(t12_henmodel, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_cqc_lang(A))) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  ( ~ (v1_henmodel(B, A))  =>  (! [D] :  (m1_valuat_1(D, A, C) =>  (! [E] :  (m2_funct_2(E, k3_qc_lang1(A), C, k2_valuat_1(A, C)) =>  ~ (r6_calcul_1(A, B, C, D, E)) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k3_cqc_lang, axiom,  (! [A] :  (m1_qc_lang1(A) => m1_subset_1(k3_cqc_lang(A), k1_zfmisc_1(k9_qc_lang1(A)))) ) ).
 + fof(dt_k5_cqc_lang, axiom,  (! [A] :  (m1_qc_lang1(A) => m2_subset_1(k5_cqc_lang(A), k9_qc_lang1(A), k3_cqc_lang(A))) ) ).
-+ fof(dt_o_1_2_henmodel, axiom,  (! [A] :  (m1_qc_lang1(A) => m2_funct_2(o_1_2_henmodel(A), k3_qc_lang1(A), o_0_0_henmodel, k2_valuat_1(A, o_0_0_henmodel))) ) ).
++ fof(dt_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m1_subset_1(k6_domain_1(A, B), k1_zfmisc_1(A))) ) ).
 + fof(dt_o_0_0_henmodel, axiom,  ~ (v1_xboole_0(o_0_0_henmodel)) ).
++ fof(dt_o_1_1_henmodel, axiom,  (! [A] :  (m1_qc_lang1(A) => m1_valuat_1(o_1_1_henmodel(A), A, o_0_0_henmodel)) ) ).
++ fof(dt_o_1_2_henmodel, axiom,  (! [A] :  (m1_qc_lang1(A) => m2_funct_2(o_1_2_henmodel(A), k3_qc_lang1(A), o_0_0_henmodel, k2_valuat_1(A, o_0_0_henmodel))) ) ).
++ fof(fc2_cqc_lang, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k3_cqc_lang(A))) ) ) ).
++ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t12_henmodel, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_cqc_lang(A))) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  ( ~ (v1_henmodel(B, A))  =>  (! [D] :  (m1_valuat_1(D, A, C) =>  (! [E] :  (m2_funct_2(E, k3_qc_lang1(A), C, k2_valuat_1(A, C)) =>  ~ (r6_calcul_1(A, B, C, D, E)) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t32_valuat_1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m2_funct_2(C, k3_qc_lang1(A), B, k2_valuat_1(A, B)) =>  (! [D] :  (m1_valuat_1(D, A, B) => r1_valuat_1(A, B, k5_cqc_lang(A), D, C)) ) ) ) ) ) ) ) ).
 - fof(t9_henmodel, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_cqc_lang(A))) =>  (! [C] :  (m2_subset_1(C, k9_qc_lang1(A), k3_cqc_lang(A)) =>  (r1_henmodel(A, B, C) <=>  ~ (v1_henmodel(k4_subset_1(k3_cqc_lang(A), B, k6_domain_1(k3_cqc_lang(A), k6_cqc_lang(A, C))), A)) ) ) ) ) ) ) ) ).
 - fof(t10_henmodel, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_cqc_lang(A))) =>  (! [C] :  (m2_subset_1(C, k9_qc_lang1(A), k3_cqc_lang(A)) =>  (r1_henmodel(A, B, k6_cqc_lang(A, C)) <=>  ~ (v1_henmodel(k4_subset_1(k3_cqc_lang(A), B, k6_domain_1(k3_cqc_lang(A), C)), A)) ) ) ) ) ) ) ) ).
 - fof(d2_henmodel, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_cqc_lang(A))) =>  (v1_henmodel(B, A) <=>  (! [C] :  (m2_subset_1(C, k9_qc_lang1(A), k3_cqc_lang(A)) =>  ~ ( (r1_henmodel(A, B, C) & r1_henmodel(A, B, k6_cqc_lang(A, C))) ) ) ) ) ) ) ) ) ).

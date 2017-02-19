@@ -1,16 +1,16 @@
 C fof(t26_jordan23, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  ( (v3_funct_1(k3_graph_2(A, B)) & k1_funct_1(A, k3_finseq_1(A))=k1_funct_1(B, 1))  =>  (A=k1_xboole_0 | v3_funct_1(B)) ) ) ) ) ) ).
-+ fof(fc12_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_funct_1(A)) )  => v1_zfmisc_1(k10_xtuple_0(A))) ) ).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
 + fof(cc1_zfmisc_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_zfmisc_1(A)) ) ).
-+ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
-+ fof(dt_k3_graph_2, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  &  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) )  =>  (v1_relat_1(k3_graph_2(A, B)) &  (v1_funct_1(k3_graph_2(A, B)) & v1_finseq_1(k3_graph_2(A, B))) ) ) ) ).
-+ fof(fc13_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  ~ (v3_funct_1(A)) ) )  =>  ~ (v1_zfmisc_1(k10_xtuple_0(A))) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 + fof(cc5_subset_1, axiom,  (! [A] :  (v1_zfmisc_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_zfmisc_1(B)) ) ) ) ).
-+ fof(t7_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(A, k2_xboole_0(A, B))) ) ).
-+ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
 + fof(cc6_funct_1, axiom,  (! [A] :  ( (v1_zfmisc_1(A) &  (v1_relat_1(A) & v1_funct_1(A)) )  =>  (v1_relat_1(A) &  (v1_funct_1(A) & v3_funct_1(A)) ) ) ) ).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(dt_k3_graph_2, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  &  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) )  =>  (v1_relat_1(k3_graph_2(A, B)) &  (v1_funct_1(k3_graph_2(A, B)) & v1_finseq_1(k3_graph_2(A, B))) ) ) ) ).
++ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
++ fof(fc12_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_funct_1(A)) )  => v1_zfmisc_1(k10_xtuple_0(A))) ) ).
++ fof(fc13_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  ~ (v3_funct_1(A)) ) )  =>  ~ (v1_zfmisc_1(k10_xtuple_0(A))) ) ) ).
 + fof(t18_graph_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (k1_funct_1(A, k3_finseq_1(A))=k1_funct_1(B, 1) =>  (A=k1_xboole_0 |  (B=k1_xboole_0 | k10_xtuple_0(k3_graph_2(A, B))=k2_xboole_0(k10_xtuple_0(A), k10_xtuple_0(B))) ) ) ) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t7_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(A, k2_xboole_0(A, B))) ) ).
 - fof(t25_jordan23, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (v3_funct_1(k3_graph_2(A, B)) => v3_funct_1(A)) ) ) ) ) ).
 - fof(t10_topreal8, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  => r1_tarski(k10_xtuple_0(A), k10_xtuple_0(k3_graph_2(A, B)))) ) ) ) ).
 - fof(t12_graph_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  (m1_graph_1(B, A) =>  (! [C] :  (m2_finseq_1(C, u1_struct_0(A)) =>  (! [D] :  ( (r2_hidden(D, u4_struct_0(A)) &  (r1_graph_2(A, C, B) & k1_funct_1(C, k3_finseq_1(C))=k1_funct_1(u1_graph_1(A), D)) )  =>  (m1_graph_1(k7_finseq_1(B, k9_finseq_1(D)), A) &  (? [E] :  (m2_finseq_1(E, u1_struct_0(A)) &  (E=k3_graph_2(C, k10_finseq_1(k1_funct_1(u1_graph_1(A), D), k1_funct_1(u2_graph_1(A), D))) &  (r1_graph_2(A, E, k7_finseq_1(B, k9_finseq_1(D))) &  (k1_funct_1(E, 1)=k1_funct_1(C, 1) & k1_funct_1(E, k3_finseq_1(E))=k1_funct_1(u2_graph_1(A), D)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

@@ -1,12 +1,12 @@
 C fof(t25_measure6, axiom,  (! [A] :  (v1_xreal_0(A) => k2_measure6(k1_xboole_0, A)=k1_xboole_0) ) ).
++ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
 + fof(d3_membered, axiom,  (! [A] :  (v3_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_xreal_0(B)) ) ) ) ).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
-+ fof(l6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(dt_k2_measure6, axiom,  (! [A, B] :  ( (v3_membered(A) & v1_xreal_0(B))  => m1_subset_1(k2_measure6(A, B), k1_zfmisc_1(k1_numbers))) ) ).
 + fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
 + fof(l24_measure6, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (r2_hidden(C, k2_measure6(A, B)) <=>  (? [D] :  (m1_subset_1(D, k1_numbers) &  (r2_hidden(D, A) & C=k3_real_1(B, D)) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k2_measure6, axiom,  (! [A, B] :  ( (v3_membered(A) & v1_xreal_0(B))  => m1_subset_1(k2_measure6(A, B), k1_zfmisc_1(k1_numbers))) ) ).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
++ fof(l6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 - fof(t24_measure6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_numbers)) =>  (B=k1_numbers => k2_measure6(B, A)=B) ) ) ) ) ).
 - fof(t23_measure6, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (! [B] :  (v1_xreal_0(B) => k2_measure6(k2_measure6(A, B), k4_xcmplx_0(B))=A) ) ) ) ).
 - fof(redefinition_k2_measure6, axiom,  (! [A, B] :  ( (v3_membered(A) & v1_xreal_0(B))  => k2_measure6(A, B)=k17_member_1(A, B)) ) ).

@@ -1,10 +1,10 @@
 C fof(t22_graph_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v6_graph_1(A) & l1_graph_1(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k5_card_1(k5_graph_3(A, B))=k8_graph_1(A, B)) ) ) ) ).
-+ fof(fc8_graph_3, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v6_graph_1(A) & l1_graph_1(A)) )  & m1_subset_1(B, u1_struct_0(A)))  => v1_finset_1(k5_graph_3(A, B))) ) ).
 + fof(d1_graph_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(u4_struct_0(A))) =>  (D=k2_graph_3(A, B, C) <=>  (! [E] :  (r2_hidden(E, D) <=>  (r2_hidden(E, u4_struct_0(A)) &  (r2_hidden(E, C) & k1_funct_1(u2_graph_1(A), E)=B) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(d21_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v6_graph_1(A) & l1_graph_1(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (C=k8_graph_1(A, B) <=>  (? [D] :  (v1_finset_1(D) &  ( (! [E] :  (r2_hidden(E, D) <=>  (r2_hidden(E, u4_struct_0(A)) & k1_funct_1(u2_graph_1(A), E)=B) ) )  & C=k5_card_1(D)) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => m1_subset_1(k5_card_1(A), k4_ordinal1)) ) ).
 + fof(d4_graph_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k5_graph_3(A, B)=k2_graph_3(A, B, u4_struct_0(A))) ) ) ) ).
++ fof(dt_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => m1_subset_1(k5_card_1(A), k4_ordinal1)) ) ).
 + fof(dt_k5_graph_3, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  & m1_subset_1(B, u1_struct_0(A)))  => m1_subset_1(k5_graph_3(A, B), k1_zfmisc_1(u4_struct_0(A)))) ) ).
++ fof(fc8_graph_3, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v6_graph_1(A) & l1_graph_1(A)) )  & m1_subset_1(B, u1_struct_0(A)))  => v1_finset_1(k5_graph_3(A, B))) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 - fof(d23_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v6_graph_1(A) & l1_graph_1(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k10_graph_1(A, B)=k2_nat_1(k8_graph_1(A, B), k9_graph_1(A, B))) ) ) ) ).
 - fof(dt_k8_graph_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v6_graph_1(A) & l1_graph_1(A)) )  & m1_subset_1(B, u1_struct_0(A)))  => m1_subset_1(k8_graph_1(A, B), k5_numbers)) ) ).

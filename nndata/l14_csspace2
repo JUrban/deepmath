@@ -1,27 +1,27 @@
 C fof(l14_csspace2, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k18_csspace)) =>  (k4_algstr_0(k18_csspace, A)=k31_valued_1(k5_numbers, k2_numbers, k2_csspace(A)) & r2_funct_2(k5_numbers, k2_numbers, k2_csspace(k4_algstr_0(k18_csspace, A)), k31_valued_1(k5_numbers, k2_numbers, k2_csspace(A)))) ) ) ).
-+ fof(redefinition_k31_valued_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  => k31_valued_1(A, B, C)=k30_valued_1(C)) ) ).
-+ fof(dt_l1_csspace, axiom,  (! [A] :  (l1_csspace(A) => l1_clvect_1(A)) ) ).
-+ fof(t11_comseq_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  => r2_relset_1(k5_numbers, k2_numbers, k31_valued_1(k5_numbers, k2_numbers, A), k25_valued_1(k5_numbers, k2_numbers, A, k10_complex1(k6_complex1)))) ) ).
-+ fof(dt_k6_complex1, axiom, m1_subset_1(k6_complex1, k2_numbers)).
-+ fof(redefinition_k10_complex1, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => k10_complex1(A)=k4_xcmplx_0(A)) ) ).
-+ fof(t3_clvect_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v2_clvect_1(A) &  (v3_clvect_1(A) &  (v4_clvect_1(A) &  (v5_clvect_1(A) & l1_clvect_1(A)) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k4_algstr_0(A, B)=k1_clvect_1(A, B, k10_complex1(k6_complex1))) ) ) ) ).
-+ fof(dt_k2_csspace, axiom,  (! [A] :  (v1_funct_1(k2_csspace(A)) &  (v1_funct_2(k2_csspace(A), k5_numbers, k2_numbers) & m1_subset_1(k2_csspace(A), k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) ) ) ).
-+ fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(fc5_csspace, axiom,  ( ~ (v2_struct_0(k18_csspace))  &  (v13_algstr_0(k18_csspace) &  (v2_rlvect_1(k18_csspace) &  (v3_rlvect_1(k18_csspace) &  (v4_rlvect_1(k18_csspace) &  (v2_clvect_1(k18_csspace) &  (v3_clvect_1(k18_csspace) &  (v4_clvect_1(k18_csspace) & v5_clvect_1(k18_csspace)) ) ) ) ) ) ) ) ).
-+ fof(l11_csspace2, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k18_csspace)) => A=k2_csspace(A)) ) ).
-+ fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(l13_csspace2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k18_csspace)) => k1_clvect_1(k18_csspace, B, A)=k25_valued_1(k5_numbers, k2_numbers, k2_csspace(B), A)) ) ) ) ).
-+ fof(dt_k18_csspace, axiom,  ( ~ (v2_struct_0(k18_csspace))  & l1_csspace(k18_csspace)) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(d6_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => k30_valued_1(A)=k24_valued_1(A, k4_xcmplx_0(1))) ) ).
-+ fof(redefinition_k25_valued_1, axiom,  (! [A, B, C, D] :  ( (v1_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xcmplx_0(D)) )  => k25_valued_1(A, B, C, D)=k24_valued_1(C, D)) ) ).
-+ fof(redefinition_r2_relset_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B))))  =>  (r2_relset_1(A, B, C, D) <=> C=D) ) ) ).
 + fof(cc16_valued_0, axiom,  (! [A, B] :  (v1_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_valued_0(C)) ) ) ) ).
 + fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(redefinition_r2_funct_2, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  &  (v1_funct_1(D) &  (v1_funct_2(D, A, B) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) )  =>  (r2_funct_2(A, B, C, D) <=> C=D) ) ) ).
++ fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(d6_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => k30_valued_1(A)=k24_valued_1(A, k4_xcmplx_0(1))) ) ).
++ fof(dt_k18_csspace, axiom,  ( ~ (v2_struct_0(k18_csspace))  & l1_csspace(k18_csspace)) ).
 + fof(dt_k1_clvect_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l1_clvect_1(A))  &  (m1_subset_1(B, u1_struct_0(A)) & v1_xcmplx_0(C)) )  => m1_subset_1(k1_clvect_1(A, B, C), u1_struct_0(A))) ) ).
-+ fof(fc1_membered, axiom, v1_membered(k2_numbers)).
++ fof(dt_k2_csspace, axiom,  (! [A] :  (v1_funct_1(k2_csspace(A)) &  (v1_funct_2(k2_csspace(A), k5_numbers, k2_numbers) & m1_subset_1(k2_csspace(A), k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) ) ) ).
 + fof(dt_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k4_xcmplx_0(A))) ) ).
++ fof(dt_k6_complex1, axiom, m1_subset_1(k6_complex1, k2_numbers)).
++ fof(dt_l1_csspace, axiom,  (! [A] :  (l1_csspace(A) => l1_clvect_1(A)) ) ).
++ fof(fc1_membered, axiom, v1_membered(k2_numbers)).
++ fof(fc5_csspace, axiom,  ( ~ (v2_struct_0(k18_csspace))  &  (v13_algstr_0(k18_csspace) &  (v2_rlvect_1(k18_csspace) &  (v3_rlvect_1(k18_csspace) &  (v4_rlvect_1(k18_csspace) &  (v2_clvect_1(k18_csspace) &  (v3_clvect_1(k18_csspace) &  (v4_clvect_1(k18_csspace) & v5_clvect_1(k18_csspace)) ) ) ) ) ) ) ) ).
++ fof(l11_csspace2, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k18_csspace)) => A=k2_csspace(A)) ) ).
++ fof(l13_csspace2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k18_csspace)) => k1_clvect_1(k18_csspace, B, A)=k25_valued_1(k5_numbers, k2_numbers, k2_csspace(B), A)) ) ) ) ).
++ fof(redefinition_k10_complex1, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => k10_complex1(A)=k4_xcmplx_0(A)) ) ).
++ fof(redefinition_k25_valued_1, axiom,  (! [A, B, C, D] :  ( (v1_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xcmplx_0(D)) )  => k25_valued_1(A, B, C, D)=k24_valued_1(C, D)) ) ).
++ fof(redefinition_k31_valued_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  => k31_valued_1(A, B, C)=k30_valued_1(C)) ) ).
++ fof(redefinition_r2_funct_2, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  &  (v1_funct_1(D) &  (v1_funct_2(D, A, B) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) )  =>  (r2_funct_2(A, B, C, D) <=> C=D) ) ) ).
++ fof(redefinition_r2_relset_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B))))  =>  (r2_relset_1(A, B, C, D) <=> C=D) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t11_comseq_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  => r2_relset_1(k5_numbers, k2_numbers, k31_valued_1(k5_numbers, k2_numbers, A), k25_valued_1(k5_numbers, k2_numbers, A, k10_complex1(k6_complex1)))) ) ).
++ fof(t3_clvect_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v2_clvect_1(A) &  (v3_clvect_1(A) &  (v4_clvect_1(A) &  (v5_clvect_1(A) & l1_clvect_1(A)) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k4_algstr_0(A, B)=k1_clvect_1(A, B, k10_complex1(k6_complex1))) ) ) ) ).
 - fof(l9_csspace2, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k18_csspace)) <=>  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  & v1_series_1(k20_valued_1(k5_numbers, k1_numbers, k1_numbers, k55_valued_1(k5_numbers, k2_numbers, k2_csspace(A)), k55_valued_1(k5_numbers, k2_numbers, k2_csspace(A))))) ) ) ).
 - fof(t15_csspace, axiom,  (u1_struct_0(k7_csspace)=k1_csspace &  ( (! [A] :  (m1_subset_1(A, u1_struct_0(k7_csspace)) <=>  (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) ) ) )  &  ( (! [A] :  (m1_subset_1(A, u1_struct_0(k7_csspace)) <=>  (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) ) ) )  &  ( (! [A] :  (m1_subset_1(A, u1_struct_0(k7_csspace)) => A=k2_csspace(A)) )  &  ( (! [A] :  (m1_subset_1(A, u1_struct_0(k7_csspace)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k7_csspace)) => k3_rlvect_1(k7_csspace, A, B)=k1_series_1(k2_numbers, k2_csspace(A), k2_csspace(B))) ) ) )  &  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k7_csspace)) => k1_clvect_1(k7_csspace, B, A)=k25_valued_1(k5_numbers, k2_numbers, k2_csspace(B), A)) ) ) ) ) ) ) ) ) ).
 - fof(t1_csspace, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) )  => r2_funct_2(k5_numbers, k2_numbers, k2_csspace(A), A)) ) ).

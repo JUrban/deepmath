@@ -1,7 +1,7 @@
 C fof(t80_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (v6_xxreal_2(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (! [D] :  (v1_xxreal_0(D) =>  ( (r2_hidden(B, A) &  (r2_hidden(C, A) &  (r1_xxreal_0(B, D) & r1_xxreal_0(D, C)) ) )  => r2_hidden(D, A)) ) ) ) ) ) ) ) ) ) ).
-+ fof(t1_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(A, k1_xxreal_1(B, C)) <=>  (r1_xxreal_0(B, A) & r1_xxreal_0(A, C)) ) ) ) ) ) ) ) ).
-+ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 + fof(d12_xxreal_2, axiom,  (! [A] :  (v2_membered(A) =>  (v6_xxreal_2(A) <=>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r2_hidden(B, A) & r2_hidden(C, A))  => r1_tarski(k1_xxreal_1(B, C), A)) ) ) ) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(t1_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(A, k1_xxreal_1(B, C)) <=>  (r1_xxreal_0(B, A) & r1_xxreal_0(A, C)) ) ) ) ) ) ) ) ).
 - fof(t78_xxreal_2, axiom,  (! [A] :  ( (v2_membered(A) &  ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xxreal_2(A))  &  ( ~ (v2_xxreal_2(A))  & v6_xxreal_2(A)) ) ) )  => A=k4_xxreal_1(k2_xxreal_2(A), k1_xxreal_2(A))) ) ).
 - fof(t79_xxreal_2, axiom,  (! [A] :  ( (v2_membered(A) &  ( ~ (v1_xxreal_2(A))  &  ( ~ (v2_xxreal_2(A))  & v6_xxreal_2(A)) ) )  =>  (? [B] :  (v1_xxreal_0(B) &  (? [C] :  (v1_xxreal_0(C) &  (r1_xxreal_0(B, C) & A=k4_xxreal_1(B, C)) ) ) ) ) ) ) ).
 - fof(t75_xxreal_2, axiom,  (! [A] :  ( (v2_membered(A) &  (v1_xxreal_2(A) &  (v2_xxreal_2(A) & v6_xxreal_2(A)) ) )  => A=k1_xxreal_1(k2_xxreal_2(A), k1_xxreal_2(A))) ) ).

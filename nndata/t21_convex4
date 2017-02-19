@@ -1,6 +1,6 @@
 C fof(t21_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  =>  (! [B] :  (m1_convex4(B, A) =>  (! [C] :  (m1_convex4(C, A) => r1_convex4(A, k5_convex4(A, B, C), k5_convex4(A, C, B))) ) ) ) ) ) ).
-+ fof(dt_k5_convex4, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  &  (m1_convex4(B, A) & m1_convex4(C, A)) )  => m1_convex4(k5_convex4(A, B, C), A)) ) ).
 + fof(commutativity_k5_convex4, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  &  (m1_convex4(B, A) & m1_convex4(C, A)) )  => k5_convex4(A, B, C)=k5_convex4(A, C, B)) ) ).
++ fof(dt_k5_convex4, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  &  (m1_convex4(B, A) & m1_convex4(C, A)) )  => m1_convex4(k5_convex4(A, B, C), A)) ) ).
 + fof(redefinition_r1_convex4, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  &  (m1_convex4(B, A) & m1_convex4(C, A)) )  =>  (r1_convex4(A, B, C) <=> B=C) ) ) ).
 - fof(t19_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_clvect_1(A))  =>  (! [B] :  (m1_convex4(B, A) =>  (! [C] :  (m1_convex4(C, A) => r1_tarski(k1_convex4(A, k5_convex4(A, B, C)), k4_subset_1(u1_struct_0(A), k1_convex4(A, B), k1_convex4(A, C)))) ) ) ) ) ) ).
 - fof(reflexivity_r1_convex4, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  &  (m1_convex4(B, A) & m1_convex4(C, A)) )  => r1_convex4(A, B, B)) ) ).

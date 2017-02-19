@@ -1,12 +1,12 @@
 C fof(t20_measure1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  ( ~ (v1_xboole_0(k2_tarski(B, C)))  &  (v4_card_3(k2_tarski(B, C)) & m1_subset_1(k2_tarski(B, C), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ) ) ) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
 + fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
 + fof(d8_supinf_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (v4_card_3(B) <=>  ~ ( ( ~ (v1_xboole_0(B))  &  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k5_numbers, A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) )  =>  ~ (B=k2_relset_1(A, C)) ) ) ) ) ) ) ) ) ) ).
-+ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(fc3_xboole_0, axiom,  (! [A, B] :  ~ (v1_xboole_0(k2_tarski(A, B))) ) ).
 + fof(dt_k2_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v5_relat_1(B, A))  => m1_subset_1(k2_relset_1(A, B), k1_zfmisc_1(A))) ) ).
-+ fof(t19_measure1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (? [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, k5_numbers, k9_setfam_1(A)) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(A))))) )  &  (k2_relset_1(k9_setfam_1(A), D)=k2_tarski(B, C) &  (k1_prob_2(A, k9_setfam_1(A), D, k6_numbers)=B &  (! [E] :  (m2_subset_1(E, k1_numbers, k5_numbers) =>  ( ~ (r1_xxreal_0(E, k6_numbers))  => k1_prob_2(A, k9_setfam_1(A), D, E)=C) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
++ fof(fc3_xboole_0, axiom,  (! [A, B] :  ~ (v1_xboole_0(k2_tarski(A, B))) ) ).
 + fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
++ fof(t19_measure1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (? [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, k5_numbers, k9_setfam_1(A)) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(A))))) )  &  (k2_relset_1(k9_setfam_1(A), D)=k2_tarski(B, C) &  (k1_prob_2(A, k9_setfam_1(A), D, k6_numbers)=B &  (! [E] :  (m2_subset_1(E, k1_numbers, k5_numbers) =>  ( ~ (r1_xxreal_0(E, k6_numbers))  => k1_prob_2(A, k9_setfam_1(A), D, E)=C) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t2_prob_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => m1_subset_1(k2_tarski(B, C), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ) ) ).
 - fof(t8_prob_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(k2_tarski(k1_xboole_0, A)))  &  (v2_finsub_1(k2_tarski(k1_xboole_0, A)) &  (v1_prob_1(k2_tarski(k1_xboole_0, A), A) & m1_subset_1(k2_tarski(k1_xboole_0, A), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ) ).
 - fof(t34_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  ( ~ (A=k1_xboole_0)  => m1_subset_1(k2_tarski(B, C), k1_zfmisc_1(A))) ) ) ) ) ) ).

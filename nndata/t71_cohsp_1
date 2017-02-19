@@ -1,14 +1,14 @@
 C fof(t71_cohsp_1, axiom, k13_cohsp_1(k1_tarski(k1_xboole_0))=k1_tarski(k1_xboole_0)).
-+ fof(fc1_cohsp_1, axiom,  (v1_classes1(k1_tarski(k1_xboole_0)) & v1_coh_sp(k1_tarski(k1_xboole_0))) ).
-+ fof(t1_zfmisc_1, axiom, k1_zfmisc_1(k1_xboole_0)=k1_tarski(k1_xboole_0)).
-+ fof(t82_zfmisc_1, axiom,  (! [A] : r1_tarski(A, k1_zfmisc_1(k3_tarski(A)))) ).
-+ fof(fc13_cohsp_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  =>  ( ~ (v1_xboole_0(k13_cohsp_1(A)))  &  (v1_classes1(k13_cohsp_1(A)) & v1_coh_sp(k13_cohsp_1(A))) ) ) ) ).
-+ fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
-+ fof(t1_coh_sp, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  => r2_hidden(k1_xboole_0, A)) ) ).
-+ fof(t25_zfmisc_1, axiom,  (! [A] : k3_tarski(k1_tarski(A))=A) ).
-+ fof(t66_cohsp_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  => k3_tarski(k13_cohsp_1(A))=k3_tarski(A)) ) ).
-+ fof(fc2_xboole_0, axiom,  (! [A] :  ~ (v1_xboole_0(k1_tarski(A))) ) ).
 + fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
++ fof(fc13_cohsp_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  =>  ( ~ (v1_xboole_0(k13_cohsp_1(A)))  &  (v1_classes1(k13_cohsp_1(A)) & v1_coh_sp(k13_cohsp_1(A))) ) ) ) ).
++ fof(fc1_cohsp_1, axiom,  (v1_classes1(k1_tarski(k1_xboole_0)) & v1_coh_sp(k1_tarski(k1_xboole_0))) ).
++ fof(fc2_xboole_0, axiom,  (! [A] :  ~ (v1_xboole_0(k1_tarski(A))) ) ).
++ fof(t1_coh_sp, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  => r2_hidden(k1_xboole_0, A)) ) ).
++ fof(t1_zfmisc_1, axiom, k1_zfmisc_1(k1_xboole_0)=k1_tarski(k1_xboole_0)).
++ fof(t25_zfmisc_1, axiom,  (! [A] : k3_tarski(k1_tarski(A))=A) ).
++ fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
++ fof(t66_cohsp_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  => k3_tarski(k13_cohsp_1(A))=k3_tarski(A)) ) ).
++ fof(t82_zfmisc_1, axiom,  (! [A] : r1_tarski(A, k1_zfmisc_1(k3_tarski(A)))) ).
 - fof(d21_cohsp_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  => k13_cohsp_1(A)=a_1_0_cohsp_1(A)) ) ).
 - fof(t70_cohsp_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  => k13_cohsp_1(k13_cohsp_1(A))=A) ) ).
 - fof(t65_cohsp_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  =>  (! [B] :  (r2_hidden(B, k13_cohsp_1(A)) <=>  (r1_tarski(B, k3_tarski(A)) &  (! [C] :  (m1_subset_1(C, A) =>  (? [D] : r1_tarski(k3_xboole_0(B, C), k1_tarski(D))) ) ) ) ) ) ) ) ).

@@ -1,7 +1,7 @@
 C fof(t13_gate_1, axiom,  (! [A] :  (! [B] :  ( ~ (v1_xboole_0(k7_gate_1(A, B)))  <=>  (v1_xboole_0(A) & v1_xboole_0(B)) ) ) ) ).
++ fof(commutativity_k7_gate_1, axiom,  (! [A, B] : k7_gate_1(A, B)=k7_gate_1(B, A)) ).
 + fof(fc15_gate_1, axiom,  (! [A, B] :  ( (v1_xboole_0(A) & v1_xboole_0(B))  =>  ~ (v1_xboole_0(k7_gate_1(A, B))) ) ) ).
 + fof(fc16_gate_1, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(A))  => v1_xboole_0(k7_gate_1(A, B))) ) ).
-+ fof(commutativity_k7_gate_1, axiom,  (! [A, B] : k7_gate_1(A, B)=k7_gate_1(B, A)) ).
 - fof(redefinition_k7_domain_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k7_domain_1(A, B, C)=k2_tarski(B, C)) ) ).
 - fof(redefinition_k9_domain_1, axiom,  (! [A, B, C, D, E] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) &  (m1_subset_1(D, A) & m1_subset_1(E, A)) ) ) )  => k9_domain_1(A, B, C, D, E)=k2_enumset1(B, C, D, E)) ) ).
 - fof(redefinition_k3_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) )  => k3_funct_2(A, B, C, D)=k1_funct_1(C, D)) ) ).

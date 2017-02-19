@@ -1,7 +1,7 @@
 C fof(t7_yellow_6, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (m1_yellow_0(B, A) =>  (! [C] :  (m1_yellow_0(C, B) => m1_yellow_0(C, A)) ) ) ) ) ) ).
-+ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
 + fof(d13_yellow_0, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (l1_orders_2(B) =>  (m1_yellow_0(B, A) <=>  (r1_tarski(u1_struct_0(B), u1_struct_0(A)) & r1_tarski(u1_orders_2(B), u1_orders_2(A))) ) ) ) ) ) ).
 + fof(dt_m1_yellow_0, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (m1_yellow_0(B, A) => l1_orders_2(B)) ) ) ) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
 - fof(t63_yellow_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v4_orders_2(A) & l1_orders_2(A)) )  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v4_yellow_0(B, A) & m1_yellow_0(B, A)) )  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))) =>  ( (r2_yellow_0(A, C) & r2_hidden(k2_yellow_0(A, C), u1_struct_0(B)))  =>  (r2_yellow_0(B, C) & k2_yellow_0(B, C)=k2_yellow_0(A, C)) ) ) ) ) ) ) ) ).
 - fof(d14_yellow_0, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (m1_yellow_0(B, A) =>  (v4_yellow_0(B, A) <=> u1_orders_2(B)=k1_toler_1(u1_orders_2(A), u1_struct_0(B))) ) ) ) ) ).
 - fof(t17_yellow_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v5_orders_2(A) &  (v3_lattice3(A) & l1_orders_2(A)) ) )  =>  (! [B] :  (r1_yellow_0(A, B) & r2_yellow_0(A, B)) ) ) ) ).

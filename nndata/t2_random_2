@@ -1,7 +1,7 @@
 C fof(t2_random_2, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  => r1_tarski(k10_xtuple_0(k3_relat_1(B, A)), k10_xtuple_0(k5_relat_1(A, k10_xtuple_0(B))))) ) ) ) ).
-+ fof(t2_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  => k3_relat_1(B, A)=k3_relat_1(B, k5_relat_1(A, k10_xtuple_0(B)))) ) ) ) ).
 + fof(dt_k5_relat_1, axiom,  (! [A, B] :  (v1_relat_1(A) => v1_relat_1(k5_relat_1(A, B))) ) ).
 + fof(t26_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) => r1_tarski(k10_xtuple_0(k3_relat_1(A, B)), k10_xtuple_0(B))) ) ) ) ).
++ fof(t2_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  => k3_relat_1(B, A)=k3_relat_1(B, k5_relat_1(A, k10_xtuple_0(B)))) ) ) ) ).
 - fof(dt_k3_relat_1, axiom,  (! [A, B] : v1_relat_1(k3_relat_1(A, B))) ).
 - fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 - fof(t127_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) => k10_xtuple_0(k3_relat_1(A, B))=k7_relat_1(B, k10_xtuple_0(A))) ) ) ) ).

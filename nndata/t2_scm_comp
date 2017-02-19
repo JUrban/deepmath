@@ -1,29 +1,29 @@
 C fof(t2_scm_comp, axiom,  (m2_subset_1(k4_tarski(k6_numbers, k6_numbers), u1_struct_0(k1_scm_comp), k7_dtconstr(k1_scm_comp)) &  (m2_subset_1(k4_tarski(k6_numbers, 1), u1_struct_0(k1_scm_comp), k7_dtconstr(k1_scm_comp)) &  (m2_subset_1(k4_tarski(k6_numbers, 2), u1_struct_0(k1_scm_comp), k7_dtconstr(k1_scm_comp)) &  (m2_subset_1(k4_tarski(k6_numbers, 3), u1_struct_0(k1_scm_comp), k7_dtconstr(k1_scm_comp)) & m2_subset_1(k4_tarski(k6_numbers, 4), u1_struct_0(k1_scm_comp), k7_dtconstr(k1_scm_comp))) ) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r5_r4, axiom,  ~ (r1_xxreal_0(5, 4)) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r5_r0, axiom,  ~ (r1_xxreal_0(5, 0)) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(spc0_boole, axiom, v1_xboole_0(0)).
-+ fof(l1_scm_comp, axiom, 1=a_0_0_scm_comp).
-+ fof(fraenkel_a_0_1_scm_comp, axiom,  (! [A] :  (r2_hidden(A, a_0_1_scm_comp) <=>  (? [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) &  (A=B &  ~ (r1_xxreal_0(5, B)) ) ) ) ) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r5_r3, axiom,  ~ (r1_xxreal_0(5, 3)) ).
++ fof(dt_k1_scm_comp, axiom,  ( ~ (v2_struct_0(k1_scm_comp))  &  (v1_lang1(k1_scm_comp) &  (v1_dtconstr(k1_scm_comp) &  (v2_dtconstr(k1_scm_comp) &  (v3_dtconstr(k1_scm_comp) &  (v3_bintree1(k1_scm_comp) & l1_lang1(k1_scm_comp)) ) ) ) ) ) ).
++ fof(dt_k6_numbers, axiom, m2_subset_1(k6_numbers, k1_numbers, k5_numbers)).
++ fof(dt_k7_dtconstr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_dtconstr(A) & l1_lang1(A)) )  =>  ( ~ (v1_xboole_0(k7_dtconstr(A)))  & m1_subset_1(k7_dtconstr(A), k1_zfmisc_1(u1_struct_0(A)))) ) ) ).
 + fof(fraenkel_a_0_0_scm_comp, axiom,  (! [A] :  (r2_hidden(A, a_0_0_scm_comp) <=>  (? [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) &  (A=B &  ~ (r1_xxreal_0(1, B)) ) ) ) ) ) ).
-+ fof(spc4_numerals, axiom,  ( (v2_xxreal_0(4) & m2_subset_1(4, k1_numbers, k5_numbers))  &  (m1_subset_1(4, k5_numbers) & m1_subset_1(4, k1_numbers)) ) ).
++ fof(fraenkel_a_0_1_scm_comp, axiom,  (! [A] :  (r2_hidden(A, a_0_1_scm_comp) <=>  (? [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) &  (A=B &  ~ (r1_xxreal_0(5, B)) ) ) ) ) ) ).
++ fof(l1_scm_comp, axiom, 1=a_0_0_scm_comp).
++ fof(l2_scm_comp, axiom, 5=a_0_1_scm_comp).
 + fof(l4_scm_comp, axiom, k7_dtconstr(k1_scm_comp)=k2_zfmisc_1(1, 5)).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r5_r2, axiom,  ~ (r1_xxreal_0(5, 2)) ).
-+ fof(spc3_numerals, axiom,  ( (v2_xxreal_0(3) & m2_subset_1(3, k1_numbers, k5_numbers))  &  (m1_subset_1(3, k5_numbers) & m1_subset_1(3, k1_numbers)) ) ).
 + fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(dt_k1_scm_comp, axiom,  ( ~ (v2_struct_0(k1_scm_comp))  &  (v1_lang1(k1_scm_comp) &  (v1_dtconstr(k1_scm_comp) &  (v2_dtconstr(k1_scm_comp) &  (v3_dtconstr(k1_scm_comp) &  (v3_bintree1(k1_scm_comp) & l1_lang1(k1_scm_comp)) ) ) ) ) ) ).
-+ fof(dt_k7_dtconstr, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_dtconstr(A) & l1_lang1(A)) )  =>  ( ~ (v1_xboole_0(k7_dtconstr(A)))  & m1_subset_1(k7_dtconstr(A), k1_zfmisc_1(u1_struct_0(A)))) ) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r5_r1, axiom,  ~ (r1_xxreal_0(5, 1)) ).
 + fof(rqLessOrEqual__r1_xxreal_0__r1_r0, axiom,  ~ (r1_xxreal_0(1, 0)) ).
-+ fof(l2_scm_comp, axiom, 5=a_0_1_scm_comp).
++ fof(rqLessOrEqual__r1_xxreal_0__r5_r0, axiom,  ~ (r1_xxreal_0(5, 0)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r5_r1, axiom,  ~ (r1_xxreal_0(5, 1)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r5_r2, axiom,  ~ (r1_xxreal_0(5, 2)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r5_r3, axiom,  ~ (r1_xxreal_0(5, 3)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r5_r4, axiom,  ~ (r1_xxreal_0(5, 4)) ).
++ fof(spc0_boole, axiom, v1_xboole_0(0)).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(spc3_numerals, axiom,  ( (v2_xxreal_0(3) & m2_subset_1(3, k1_numbers, k5_numbers))  &  (m1_subset_1(3, k5_numbers) & m1_subset_1(3, k1_numbers)) ) ).
++ fof(spc4_numerals, axiom,  ( (v2_xxreal_0(4) & m2_subset_1(4, k1_numbers, k5_numbers))  &  (m1_subset_1(4, k5_numbers) & m1_subset_1(4, k1_numbers)) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 + fof(t87_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(A, B), k2_zfmisc_1(C, D)) <=>  (r2_hidden(A, C) & r2_hidden(B, D)) ) ) ) ) ) ).
-+ fof(dt_k6_numbers, axiom, m2_subset_1(k6_numbers, k1_numbers, k5_numbers)).
 - fof(t1_scm_comp, axiom,  (! [A] :  (m2_subset_1(A, u1_struct_0(k1_scm_comp), k7_dtconstr(k1_scm_comp)) =>  ~ ( ( ~ (A=k4_tarski(k6_numbers, k6_numbers))  &  ( ~ (A=k4_tarski(k6_numbers, 1))  &  ( ~ (A=k4_tarski(k6_numbers, 2))  &  ( ~ (A=k4_tarski(k6_numbers, 3))  &  ~ (A=k4_tarski(k6_numbers, 4)) ) ) ) ) ) ) ) ).
 - fof(dt_k2_scm_comp, axiom,  (! [A, B, C] :  ( (m1_subset_1(A, k7_dtconstr(k1_scm_comp)) &  (m1_subset_1(B, k4_dtconstr(k1_scm_comp)) & m1_subset_1(C, k4_dtconstr(k1_scm_comp))) )  => m1_dtconstr(k2_scm_comp(A, B, C), u1_struct_0(k1_scm_comp), k5_trees_3(u1_struct_0(k1_scm_comp)), k4_dtconstr(k1_scm_comp))) ) ).
 - fof(d1_scm_comp, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_lang1(A) &  (v1_dtconstr(A) &  (v2_dtconstr(A) &  (v3_dtconstr(A) &  (v3_bintree1(A) & l1_lang1(A)) ) ) ) ) )  =>  (A=k1_scm_comp <=>  (k6_dtconstr(A)=k2_ami_2 &  (k7_dtconstr(A)=k2_zfmisc_1(1, 5) &  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (r1_lang1(A, B, k4_pre_poly(u1_struct_0(A), C, D)) <=> r2_hidden(B, k2_zfmisc_1(1, 5))) ) ) ) ) ) ) ) ) ) ) ) ).

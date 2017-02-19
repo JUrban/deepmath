@@ -1,12 +1,12 @@
 C fof(t30_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (v1_card_1(C) => k3_card_2(A, k2_card_2(B, C))=k3_card_2(k3_card_2(A, B), C)) ) ) ) ) ) ).
-+ fof(t63_funct_5, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_wellord2(k1_funct_2(k2_zfmisc_1(A, B), C), k1_funct_2(A, k1_funct_2(B, C))) & k1_card_1(k1_funct_2(k2_zfmisc_1(A, B), C))=k1_card_1(k1_funct_2(A, k1_funct_2(B, C)))) ) ) ) ).
++ fof(d2_card_1, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  (B=k1_card_1(A) <=> r2_wellord2(A, B)) ) ) ) ).
++ fof(d2_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) => k2_card_2(A, B)=k1_card_1(k2_zfmisc_1(A, B))) ) ) ) ).
++ fof(d3_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) => k3_card_2(A, B)=k1_card_1(k1_funct_2(B, A))) ) ) ) ).
 + fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
 + fof(l5_card_2, axiom,  (! [A] :  (! [B] :  (r2_wellord2(k2_zfmisc_1(A, B), k2_zfmisc_1(B, A)) & k1_card_1(k2_zfmisc_1(A, B))=k1_card_1(k2_zfmisc_1(B, A))) ) ) ).
-+ fof(d3_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) => k3_card_2(A, B)=k1_card_1(k1_funct_2(B, A))) ) ) ) ).
-+ fof(d2_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) => k2_card_2(A, B)=k1_card_1(k2_zfmisc_1(A, B))) ) ) ) ).
-+ fof(d2_card_1, axiom,  (! [A] :  (! [B] :  (v1_card_1(B) =>  (B=k1_card_1(A) <=> r2_wellord2(A, B)) ) ) ) ).
-+ fof(t60_funct_5, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (r2_wellord2(A, B) & r2_wellord2(C, D))  =>  (r2_wellord2(k1_funct_2(A, C), k1_funct_2(B, D)) & k1_card_1(k1_funct_2(A, C))=k1_card_1(k1_funct_2(B, D))) ) ) ) ) ) ).
 + fof(reflexivity_r2_wellord2, axiom,  (! [A, B] : r2_wellord2(A, A)) ).
++ fof(t60_funct_5, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (r2_wellord2(A, B) & r2_wellord2(C, D))  =>  (r2_wellord2(k1_funct_2(A, C), k1_funct_2(B, D)) & k1_card_1(k1_funct_2(A, C))=k1_card_1(k1_funct_2(B, D))) ) ) ) ) ) ).
++ fof(t63_funct_5, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_wellord2(k1_funct_2(k2_zfmisc_1(A, B), C), k1_funct_2(A, k1_funct_2(B, C))) & k1_card_1(k1_funct_2(k2_zfmisc_1(A, B), C))=k1_card_1(k1_funct_2(A, k1_funct_2(B, C)))) ) ) ) ).
 - fof(t29_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (v1_card_1(C) => k3_card_2(k2_card_2(A, B), C)=k2_card_2(k3_card_2(A, C), k3_card_2(B, C))) ) ) ) ) ) ).
 - fof(t28_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  (! [B] :  (v1_card_1(B) =>  (! [C] :  (v1_card_1(C) => k3_card_2(A, k1_card_2(B, C))=k2_card_2(k3_card_2(A, B), k3_card_2(A, C))) ) ) ) ) ) ).
 - fof(t26_card_2, axiom,  (! [A] :  (v1_card_1(A) =>  ( ~ (A=k6_numbers)  => k3_card_2(k6_numbers, A)=k6_numbers) ) ) ).

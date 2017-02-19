@@ -1,29 +1,29 @@
 C fof(t13_mesfunc7, axiom,  (! [A] :  (v7_ordinal1(A) =>  (r1_xxreal_0(1, A) => k4_mesfunc7(k1_supinf_1, A)=k1_supinf_1) ) ) ).
-+ fof(t1_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( (r1_xxreal_0(A, B) & v2_xxreal_0(A))  => v2_xxreal_0(B)) ) ) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
-+ fof(cc5_xxreal_0, axiom,  (! [A] :  ( (v1_xxreal_0(A) & v3_xxreal_0(A))  =>  ( ~ (v1_xboole_0(A))  &  (v1_xxreal_0(A) &  ~ (v2_xxreal_0(A)) ) ) ) ) ).
 + fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
-+ fof(redefinition_k1_extreal1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k1_extreal1(A, B)=k4_xxreal_3(A, B)) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(fc1_xxreal_0, axiom, v1_xxreal_0(k1_xxreal_0)).
-+ fof(t9_mesfunc7, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => k4_mesfunc7(A, 1)=A) ) ).
-+ fof(dt_k1_supinf_1, axiom, m1_subset_1(k1_supinf_1, k7_numbers)).
-+ fof(fc23_xreal_0, axiom,  (! [A, B] :  ( ( ( ~ (v2_xxreal_0(A))  & v1_xreal_0(A))  &  ( ~ (v3_xxreal_0(B))  & v1_xreal_0(B)) )  =>  ~ (v2_xxreal_0(k3_xcmplx_0(A, B))) ) ) ).
-+ fof(d5_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( ( (v1_xreal_0(A) & v1_xreal_0(B))  =>  (C=k4_xxreal_3(A, B) <=>  (? [D] :  (v1_xcmplx_0(D) &  (? [E] :  (v1_xcmplx_0(E) &  (A=D &  (B=E & C=k3_xcmplx_0(D, E)) ) ) ) ) ) ) )  &  ( ~ ( ( ~ ( (v1_xreal_0(A) & v1_xreal_0(B)) )  &  ( ( (v2_xxreal_0(A) & v2_xxreal_0(B))  |  (v3_xxreal_0(A) & v3_xxreal_0(B)) )  &  ~ ( (C=k4_xxreal_3(A, B) <=> C=k1_xxreal_0) ) ) ) )  &  ( ~ ( ( ~ ( (v1_xreal_0(A) & v1_xreal_0(B)) )  &  ( ( (v2_xxreal_0(A) & v3_xxreal_0(B))  |  (v3_xxreal_0(A) & v2_xxreal_0(B)) )  &  ~ ( (C=k4_xxreal_3(A, B) <=> C=k2_xxreal_0) ) ) ) )  &  ~ ( ( ~ ( (v1_xreal_0(A) & v1_xreal_0(B)) )  &  ( ~ ( ( ~ ( (v1_xreal_0(A) & v1_xreal_0(B)) )  &  ( (v2_xxreal_0(A) & v2_xxreal_0(B))  |  (v3_xxreal_0(A) & v3_xxreal_0(B)) ) ) )  &  ( ~ ( ( ~ ( (v1_xreal_0(A) & v1_xreal_0(B)) )  &  ( (v2_xxreal_0(A) & v3_xxreal_0(B))  |  (v3_xxreal_0(A) & v2_xxreal_0(B)) ) ) )  &  ~ ( (C=k4_xxreal_3(A, B) <=> C=k6_numbers) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(rc3_xreal_0, axiom,  (? [A] :  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) &  (v3_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
-+ fof(fc3_xxreal_0, axiom, v2_xxreal_0(k1_xxreal_0)).
-+ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(s10_nat_1__e3_28__mesfunc7, axiom,  ( (k4_mesfunc7(k1_supinf_1, 1)=k1_supinf_1 &  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  (k4_mesfunc7(k1_supinf_1, A)=k1_supinf_1 => k4_mesfunc7(k1_supinf_1, k1_nat_1(A, 1))=k1_supinf_1) ) ) )  =>  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  => k4_mesfunc7(k1_supinf_1, A)=k1_supinf_1) ) ) ).
-+ fof(cc2_nat_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  ~ (v3_xxreal_0(A)) ) ) ).
-+ fof(t10_mesfunc7, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (v7_ordinal1(B) => k4_mesfunc7(A, k1_nat_1(B, 1))=k1_extreal1(k4_mesfunc7(A, B), A)) ) ) ) ).
-+ fof(fc2_xreal_0, axiom,  ~ (v1_xreal_0(k1_xxreal_0)) ).
-+ fof(redefinition_k1_supinf_1, axiom, k1_supinf_1=k1_xxreal_0).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(cc2_nat_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  ~ (v3_xxreal_0(A)) ) ) ).
++ fof(cc5_xxreal_0, axiom,  (! [A] :  ( (v1_xxreal_0(A) & v3_xxreal_0(A))  =>  ( ~ (v1_xboole_0(A))  &  (v1_xxreal_0(A) &  ~ (v2_xxreal_0(A)) ) ) ) ) ).
 + fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
++ fof(d5_xxreal_3, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( ( (v1_xreal_0(A) & v1_xreal_0(B))  =>  (C=k4_xxreal_3(A, B) <=>  (? [D] :  (v1_xcmplx_0(D) &  (? [E] :  (v1_xcmplx_0(E) &  (A=D &  (B=E & C=k3_xcmplx_0(D, E)) ) ) ) ) ) ) )  &  ( ~ ( ( ~ ( (v1_xreal_0(A) & v1_xreal_0(B)) )  &  ( ( (v2_xxreal_0(A) & v2_xxreal_0(B))  |  (v3_xxreal_0(A) & v3_xxreal_0(B)) )  &  ~ ( (C=k4_xxreal_3(A, B) <=> C=k1_xxreal_0) ) ) ) )  &  ( ~ ( ( ~ ( (v1_xreal_0(A) & v1_xreal_0(B)) )  &  ( ( (v2_xxreal_0(A) & v3_xxreal_0(B))  |  (v3_xxreal_0(A) & v2_xxreal_0(B)) )  &  ~ ( (C=k4_xxreal_3(A, B) <=> C=k2_xxreal_0) ) ) ) )  &  ~ ( ( ~ ( (v1_xreal_0(A) & v1_xreal_0(B)) )  &  ( ~ ( ( ~ ( (v1_xreal_0(A) & v1_xreal_0(B)) )  &  ( (v2_xxreal_0(A) & v2_xxreal_0(B))  |  (v3_xxreal_0(A) & v3_xxreal_0(B)) ) ) )  &  ( ~ ( ( ~ ( (v1_xreal_0(A) & v1_xreal_0(B)) )  &  ( (v2_xxreal_0(A) & v3_xxreal_0(B))  |  (v3_xxreal_0(A) & v2_xxreal_0(B)) ) ) )  &  ~ ( (C=k4_xxreal_3(A, B) <=> C=k6_numbers) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k1_supinf_1, axiom, m1_subset_1(k1_supinf_1, k7_numbers)).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(fc1_xxreal_0, axiom, v1_xxreal_0(k1_xxreal_0)).
++ fof(fc23_xreal_0, axiom,  (! [A, B] :  ( ( ( ~ (v2_xxreal_0(A))  & v1_xreal_0(A))  &  ( ~ (v3_xxreal_0(B))  & v1_xreal_0(B)) )  =>  ~ (v2_xxreal_0(k3_xcmplx_0(A, B))) ) ) ).
++ fof(fc2_xreal_0, axiom,  ~ (v1_xreal_0(k1_xxreal_0)) ).
++ fof(fc3_xxreal_0, axiom, v2_xxreal_0(k1_xxreal_0)).
++ fof(rc3_xreal_0, axiom,  (? [A] :  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) &  (v3_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
++ fof(redefinition_k1_extreal1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & m1_subset_1(B, k7_numbers))  => k1_extreal1(A, B)=k4_xxreal_3(A, B)) ) ).
++ fof(redefinition_k1_supinf_1, axiom, k1_supinf_1=k1_xxreal_0).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(s10_nat_1__e3_28__mesfunc7, axiom,  ( (k4_mesfunc7(k1_supinf_1, 1)=k1_supinf_1 &  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  (k4_mesfunc7(k1_supinf_1, A)=k1_supinf_1 => k4_mesfunc7(k1_supinf_1, k1_nat_1(A, 1))=k1_supinf_1) ) ) )  =>  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  => k4_mesfunc7(k1_supinf_1, A)=k1_supinf_1) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t10_mesfunc7, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (v7_ordinal1(B) => k4_mesfunc7(A, k1_nat_1(B, 1))=k1_extreal1(k4_mesfunc7(A, B), A)) ) ) ) ).
++ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
++ fof(t1_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( (r1_xxreal_0(A, B) & v2_xxreal_0(A))  => v2_xxreal_0(B)) ) ) ) ) ).
++ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t9_mesfunc7, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => k4_mesfunc7(A, 1)=A) ) ).
 - fof(redefinition_k4_mesfunc7, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & v7_ordinal1(B))  => k4_mesfunc7(A, B)=k3_mesfunc7(A, B)) ) ).
 - fof(s2_nat_1__e5_26__mesfunc7, axiom,  (! [A, B] :  ( (m1_subset_1(A, k7_numbers) & v1_xreal_0(B))  =>  ( (k4_mesfunc7(A, k6_numbers)=k1_newton(B, k6_numbers) &  (! [C] :  (v7_ordinal1(C) =>  (k4_mesfunc7(A, C)=k1_newton(B, C) => k4_mesfunc7(A, k1_nat_1(C, 1))=k1_newton(B, k1_nat_1(C, 1))) ) ) )  =>  (! [C] :  (v7_ordinal1(C) => k4_mesfunc7(A, C)=k1_newton(B, C)) ) ) ) ) ).
 - fof(s2_nat_1__e6_24__mesfunc7, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  ( (k4_mesfunc7(A, k1_nat_1(k6_numbers, 1))=k1_extreal1(k4_mesfunc7(A, k6_numbers), A) &  (! [B] :  (v7_ordinal1(B) =>  (k4_mesfunc7(A, k1_nat_1(B, 1))=k1_extreal1(k4_mesfunc7(A, B), A) => k4_mesfunc7(A, k1_nat_1(k1_nat_1(B, 1), 1))=k1_extreal1(k4_mesfunc7(A, k1_nat_1(B, 1)), A)) ) ) )  =>  (! [B] :  (v7_ordinal1(B) => k4_mesfunc7(A, k1_nat_1(B, 1))=k1_extreal1(k4_mesfunc7(A, B), A)) ) ) ) ) ).

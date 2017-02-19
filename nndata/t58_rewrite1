@@ -1,15 +1,15 @@
 C fof(t58_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v7_rewrite1(A) <=> v6_rewrite1(k18_finseq_1(A))) ) ) ).
-+ fof(d9_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r7_rewrite1(A, B, C) <=>  (? [D] :  ( (r2_hidden(k4_tarski(B, D), A) | B=D)  &  (r2_hidden(k4_tarski(C, D), A) | C=D) ) ) ) ) ) ) ) ).
-+ fof(d7_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r5_rewrite1(A, B, C) <=>  (? [D] :  (r1_rewrite1(A, B, D) & r1_rewrite1(A, C, D)) ) ) ) ) ) ) ).
-+ fof(d21_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v6_rewrite1(A) <=>  (! [B] :  (! [C] :  (! [D] :  ( (r2_hidden(k4_tarski(B, C), A) & r2_hidden(k4_tarski(B, D), A))  => r7_rewrite1(A, C, D)) ) ) ) ) ) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
 + fof(cc8_rewrite1, axiom,  (! [A] :  ( (v1_relat_1(A) & v6_rewrite1(A))  =>  (v1_relat_1(A) & v7_rewrite1(A)) ) ) ).
-+ fof(dt_k18_finseq_1, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k18_finseq_1(A))) ) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(d8_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r6_rewrite1(A, B, C) <=>  (? [D] :  (r1_rewrite1(A, D, B) & r1_rewrite1(A, D, C)) ) ) ) ) ) ) ).
-+ fof(t21_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) <=> r1_rewrite1(k18_finseq_1(A), B, C)) ) ) ) ) ).
-+ fof(t20_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) <=>  (B=C | r2_hidden(k4_tarski(B, C), k18_finseq_1(A))) ) ) ) ) ) ).
++ fof(d21_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v6_rewrite1(A) <=>  (! [B] :  (! [C] :  (! [D] :  ( (r2_hidden(k4_tarski(B, C), A) & r2_hidden(k4_tarski(B, D), A))  => r7_rewrite1(A, C, D)) ) ) ) ) ) ) ).
 + fof(d22_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v7_rewrite1(A) <=>  (! [B] :  (! [C] :  (r6_rewrite1(A, B, C) => r5_rewrite1(A, B, C)) ) ) ) ) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(d7_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r5_rewrite1(A, B, C) <=>  (? [D] :  (r1_rewrite1(A, B, D) & r1_rewrite1(A, C, D)) ) ) ) ) ) ) ).
++ fof(d8_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r6_rewrite1(A, B, C) <=>  (? [D] :  (r1_rewrite1(A, D, B) & r1_rewrite1(A, D, C)) ) ) ) ) ) ) ).
++ fof(d9_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r7_rewrite1(A, B, C) <=>  (? [D] :  ( (r2_hidden(k4_tarski(B, D), A) | B=D)  &  (r2_hidden(k4_tarski(C, D), A) | C=D) ) ) ) ) ) ) ) ).
++ fof(dt_k18_finseq_1, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k18_finseq_1(A))) ) ).
++ fof(t20_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) <=>  (B=C | r2_hidden(k4_tarski(B, C), k18_finseq_1(A))) ) ) ) ) ) ).
++ fof(t21_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) <=> r1_rewrite1(k18_finseq_1(A), B, C)) ) ) ) ) ).
 - fof(t57_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v7_rewrite1(A) <=> v9_rewrite1(k18_finseq_1(A))) ) ) ).
 - fof(d16_finseq_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (B=k18_finseq_1(A) <=>  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), B) <=>  (r2_hidden(C, k1_relat_1(A)) &  (r2_hidden(D, k1_relat_1(A)) &  (? [E] :  ( (v1_relat_1(E) &  (v1_funct_1(E) & v1_finseq_1(E)) )  &  (r1_xxreal_0(1, k3_finseq_1(E)) &  (k1_funct_1(E, 1)=C &  (k1_funct_1(E, k3_finseq_1(E))=D &  (! [F] :  (v7_ordinal1(F) =>  (r1_xxreal_0(1, F) =>  (r1_xxreal_0(k3_finseq_1(E), F) | r2_hidden(k4_tarski(k1_funct_1(E, F), k1_funct_1(E, k1_nat_1(F, 1))), A)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(s1_nat_1__e10_30__rewrite1, axiom,  (! [A, B, C] :  ( (v1_relat_1(A) & m1_rewrite1(C, k18_finseq_1(A)))  =>  ( ( (r2_hidden(k6_numbers, k4_finseq_1(C)) => r1_rewrite1(A, B, k1_funct_1(C, k6_numbers)))  &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  ( (r2_hidden(D, k4_finseq_1(C)) => r1_rewrite1(A, B, k1_funct_1(C, D)))  =>  (r2_hidden(k2_nat_1(D, 1), k4_finseq_1(C)) => r1_rewrite1(A, B, k1_funct_1(C, k2_nat_1(D, 1)))) ) ) ) )  =>  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (r2_hidden(D, k4_finseq_1(C)) => r1_rewrite1(A, B, k1_funct_1(C, D))) ) ) ) ) ) ).

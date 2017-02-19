@@ -1,27 +1,27 @@
 C fof(t15_scmfsa_m, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (! [C] :  ( (v1_finset_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_scmfsa_2)))  =>  (k2_scmfsa_m(C)=k4_scmfsa_2(A) =>  (r2_hidden(k4_scmfsa_2(B), C) | r1_xxreal_0(A, B)) ) ) ) ) ) ) ) ).
-+ fof(d7_xxreal_2, axiom,  (! [A] :  ( (v2_membered(A) & v1_xxreal_2(A))  =>  (! [B] :  (v1_xxreal_0(B) =>  (B=k2_xxreal_2(A) <=>  (r2_hidden(B, A) &  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(C, A) => r1_xxreal_0(B, C)) ) ) ) ) ) ) ) ) ).
++ fof(cc11_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k5_numbers)) => v6_membered(A)) ) ).
 + fof(cc1_membered, axiom,  (! [A] :  (v6_membered(A) => v5_membered(A)) ) ).
-+ fof(cc3_membered, axiom,  (! [A] :  (v4_membered(A) => v3_membered(A)) ) ).
-+ fof(fc6_xxreal_2, axiom,  (! [A] :  ( (v6_membered(A) & v1_xxreal_2(A))  =>  (v1_xxreal_0(k2_xxreal_2(A)) & v7_ordinal1(k2_xxreal_2(A))) ) ) ).
-+ fof(cc2_membered, axiom,  (! [A] :  (v5_membered(A) => v4_membered(A)) ) ).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
-+ fof(t14_scmfsa_m, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_scmfsa_2)))  =>  ~ (r2_hidden(k2_scmfsa_m(A), A)) ) ) ).
-+ fof(cc3_xxreal_2, axiom,  (! [A] :  ( (v6_membered(A) &  ~ (v1_xboole_0(A)) )  =>  (v6_membered(A) &  ( ~ (v1_xboole_0(A))  & v1_xxreal_2(A)) ) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(cc2_membered, axiom,  (! [A] :  (v5_membered(A) => v4_membered(A)) ) ).
++ fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
++ fof(cc3_membered, axiom,  (! [A] :  (v4_membered(A) => v3_membered(A)) ) ).
++ fof(cc3_xxreal_2, axiom,  (! [A] :  ( (v6_membered(A) &  ~ (v1_xboole_0(A)) )  =>  (v6_membered(A) &  ( ~ (v1_xboole_0(A))  & v1_xxreal_2(A)) ) ) ) ).
 + fof(cc4_membered, axiom,  (! [A] :  (v3_membered(A) => v2_membered(A)) ) ).
-+ fof(t101_scmfsa_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (A=B)  & k4_scmfsa_2(A)=k4_scmfsa_2(B)) ) ) ) ) ) ).
-+ fof(t8_scmfsa_2, axiom,  (! [A] :  ( (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_scmfsa_2)))  =>  (? [B] :  (m1_subset_1(B, k5_numbers) & A=k4_scmfsa_2(B)) ) ) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(dt_k2_scmfsa_m, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_scmfsa_2)))  =>  (v1_ami_2(k2_scmfsa_m(A)) & m1_subset_1(k2_scmfsa_m(A), u1_struct_0(k1_scmfsa_2))) ) ) ).
 + fof(d3_scmfsa_m, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_scmfsa_2)))  =>  (! [B] :  ( (v1_ami_2(B) & m1_subset_1(B, u1_struct_0(k1_scmfsa_2)))  =>  (B=k2_scmfsa_m(A) <=>  (? [C] :  ( ( ~ (v1_xboole_0(C))  & m1_subset_1(C, k1_zfmisc_1(k5_numbers)))  &  (B=k4_scmfsa_2(k6_seq_4(C)) & C=a_1_0_scmfsa_m(A)) ) ) ) ) ) ) ) ).
++ fof(d7_xxreal_2, axiom,  (! [A] :  ( (v2_membered(A) & v1_xxreal_2(A))  =>  (! [B] :  (v1_xxreal_0(B) =>  (B=k2_xxreal_2(A) <=>  (r2_hidden(B, A) &  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(C, A) => r1_xxreal_0(B, C)) ) ) ) ) ) ) ) ) ).
++ fof(dt_k2_scmfsa_m, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_scmfsa_2)))  =>  (v1_ami_2(k2_scmfsa_m(A)) & m1_subset_1(k2_scmfsa_m(A), u1_struct_0(k1_scmfsa_2))) ) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(fc6_xxreal_2, axiom,  (! [A] :  ( (v6_membered(A) & v1_xxreal_2(A))  =>  (v1_xxreal_0(k2_xxreal_2(A)) & v7_ordinal1(k2_xxreal_2(A))) ) ) ).
 + fof(fraenkel_a_1_0_scmfsa_m, axiom,  (! [A, B] :  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_scmfsa_2)))  =>  (r2_hidden(A, a_1_0_scmfsa_m(B)) <=>  (? [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) &  (A=C &  ~ (r2_hidden(k4_scmfsa_2(C), B)) ) ) ) ) ) ) ).
-+ fof(redefinition_k6_seq_4, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v6_membered(A))  => k6_seq_4(A)=k2_xxreal_2(A)) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(l1_seqm_3, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  ~ ( ( ~ (r1_xxreal_0(B, A))  &  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  ~ (B=k2_nat_1(k2_nat_1(A, 1), C)) ) ) ) ) ) ) ) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(cc11_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k5_numbers)) => v6_membered(A)) ) ).
-+ fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
++ fof(redefinition_k6_seq_4, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v6_membered(A))  => k6_seq_4(A)=k2_xxreal_2(A)) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t101_scmfsa_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (A=B)  & k4_scmfsa_2(A)=k4_scmfsa_2(B)) ) ) ) ) ) ).
++ fof(t14_scmfsa_m, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_scmfsa_2)))  =>  ~ (r2_hidden(k2_scmfsa_m(A), A)) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(t8_scmfsa_2, axiom,  (! [A] :  ( (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_scmfsa_2)))  =>  (? [B] :  (m1_subset_1(B, k5_numbers) & A=k4_scmfsa_2(B)) ) ) ) ).
 - fof(d6_scmfsa_2, axiom,  (! [A] :  (v7_ordinal1(A) => k4_scmfsa_2(A)=k10_ami_3(A)) ) ).
 - fof(t99_scmfsa_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ (k5_scmfsa_2(A)=k4_scmfsa_2(B)) ) ) ) ) ).
 - fof(t10_ami_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (A=B)  & k10_ami_3(A)=k10_ami_3(B)) ) ) ) ) ) ).

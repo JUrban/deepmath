@@ -1,23 +1,23 @@
 C fof(t135_zf_lang1, axiom,  (! [A] :  (m2_subset_1(A, k5_numbers, k1_zf_lang) =>  ( ~ (A=k6_numbers)  &  ( ~ (A=1)  &  ( ~ (A=2)  &  ( ~ (A=3)  &  ~ (A=4) ) ) ) ) ) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r1_r0, axiom,  ~ (r1_xxreal_0(1, 0)) ).
++ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(d1_zf_lang, axiom, k1_zf_lang=a_0_0_zf_lang).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(rqLessOrEqual__r1_xxreal_0__r5_r1, axiom,  ~ (r1_xxreal_0(5, 1)) ).
++ fof(dt_k1_zf_lang, axiom, m1_subset_1(k1_zf_lang, k1_zfmisc_1(k5_numbers))).
++ fof(fc1_zf_lang, axiom,  ~ (v1_xboole_0(k1_zf_lang)) ).
 + fof(fraenkel_a_0_0_zf_lang, axiom,  (! [A] :  (r2_hidden(A, a_0_0_zf_lang) <=>  (? [B] :  (m1_subset_1(B, k5_numbers) &  (A=B & r1_xxreal_0(5, B)) ) ) ) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r5_r2, axiom,  ~ (r1_xxreal_0(5, 2)) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r1_r0, axiom,  ~ (r1_xxreal_0(1, 0)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r5_r0, axiom,  ~ (r1_xxreal_0(5, 0)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r5_r1, axiom,  ~ (r1_xxreal_0(5, 1)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r5_r2, axiom,  ~ (r1_xxreal_0(5, 2)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r5_r3, axiom,  ~ (r1_xxreal_0(5, 3)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r5_r4, axiom,  ~ (r1_xxreal_0(5, 4)) ).
 + fof(spc0_numerals, axiom,  (m2_subset_1(0, k1_numbers, k5_numbers) &  (m1_subset_1(0, k5_numbers) & m1_subset_1(0, k1_numbers)) ) ).
 + fof(t14_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (r1_xxreal_0(1, A))  => A=k6_numbers) ) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r5_r0, axiom,  ~ (r1_xxreal_0(5, 0)) ).
-+ fof(d1_zf_lang, axiom, k1_zf_lang=a_0_0_zf_lang).
-+ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(dt_k1_zf_lang, axiom, m1_subset_1(k1_zf_lang, k1_zfmisc_1(k5_numbers))).
-+ fof(rqLessOrEqual__r1_xxreal_0__r5_r4, axiom,  ~ (r1_xxreal_0(5, 4)) ).
-+ fof(fc1_zf_lang, axiom,  ~ (v1_xboole_0(k1_zf_lang)) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r5_r3, axiom,  ~ (r1_xxreal_0(5, 3)) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 - fof(redefinition_k1_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k5_numbers))  => k1_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
 - fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
 - fof(t8_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( (r1_xxreal_0(A, k1_nat_1(B, 1)) &  ( ~ (r1_xxreal_0(A, B))  &  ~ (A=k1_nat_1(B, 1)) ) ) ) ) ) ) ) ).

@@ -1,12 +1,12 @@
 C fof(t6_int_4, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (r1_int_1(A, B) =>  (B=k6_numbers | r1_xxreal_0(k1_int_2(A), k1_int_2(B))) ) ) ) ) ) ).
-+ fof(t16_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (r1_int_1(A, B) <=> r1_int_1(k1_int_2(A), k1_int_2(B))) ) ) ) ) ).
 + fof(fc1_prepower, axiom,  (! [A] :  (v1_int_1(A) =>  (v7_ordinal1(k16_complex1(A)) & v1_xreal_0(k16_complex1(A))) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t3_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (r1_int_1(k6_numbers, A) <=> A=k6_numbers) ) ) ).
-+ fof(t3_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ ( ( ~ (k6_numbers=A)  & r1_xxreal_0(A, k6_numbers)) ) ) ) ).
-+ fof(t13_int_6, axiom,  (! [A] :  (v1_int_1(A) =>  (r1_int_1(k1_int_2(A), A) & r1_int_1(A, k1_int_2(A))) ) ) ).
 + fof(l14_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_int_1(B, A) =>  (r1_xxreal_0(A, k6_numbers) | r1_xxreal_0(B, A)) ) ) ) ) ) ).
 + fof(redefinition_k1_int_2, axiom,  (! [A] :  (v1_int_1(A) => k1_int_2(A)=k16_complex1(A)) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t13_int_6, axiom,  (! [A] :  (v1_int_1(A) =>  (r1_int_1(k1_int_2(A), A) & r1_int_1(A, k1_int_2(A))) ) ) ).
++ fof(t16_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (r1_int_1(A, B) <=> r1_int_1(k1_int_2(A), k1_int_2(B))) ) ) ) ) ).
++ fof(t3_int_2, axiom,  (! [A] :  (v1_int_1(A) =>  (r1_int_1(k6_numbers, A) <=> A=k6_numbers) ) ) ).
++ fof(t3_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ ( ( ~ (k6_numbers=A)  & r1_xxreal_0(A, k6_numbers)) ) ) ) ).
 - fof(t13_wsierp_1, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (r1_int_1(k1_int_2(A), B) <=> r1_int_1(A, B)) ) ) ) ) ).
 - fof(l55_wsierp_1, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  (v1_int_1(B) =>  (r1_int_1(A, B) <=> r1_int_1(A, k1_int_2(B))) ) ) ) ) ).
 - fof(projectivity_k1_int_2, axiom,  (! [A] :  (v1_int_1(A) => k1_int_2(k1_int_2(A))=k1_int_2(A)) ) ).

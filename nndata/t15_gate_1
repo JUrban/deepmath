@@ -1,8 +1,8 @@
 C fof(t15_gate_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( ~ ( ( ~ (v1_xboole_0(k9_gate_1(A, B, C)))  &  (v1_xboole_0(A) &  (v1_xboole_0(B) & v1_xboole_0(C)) ) ) )  &  ~ ( ( ~ ( (v1_xboole_0(A) &  (v1_xboole_0(B) & v1_xboole_0(C)) ) )  & v1_xboole_0(k9_gate_1(A, B, C))) ) ) ) ) ) ).
-+ fof(fc24_gate_1, axiom,  (! [A, B, C] :  ( ~ (v1_xboole_0(A))  =>  ~ (v1_xboole_0(k9_gate_1(B, C, A))) ) ) ).
-+ fof(fc23_gate_1, axiom,  (! [A, B, C] :  ( ~ (v1_xboole_0(A))  =>  ~ (v1_xboole_0(k9_gate_1(B, A, C))) ) ) ).
 + fof(fc21_gate_1, axiom,  (! [A, B, C] :  ( (v1_xboole_0(A) &  (v1_xboole_0(B) & v1_xboole_0(C)) )  => v1_xboole_0(k9_gate_1(A, B, C))) ) ).
 + fof(fc22_gate_1, axiom,  (! [A, B, C] :  ( ~ (v1_xboole_0(A))  =>  ~ (v1_xboole_0(k9_gate_1(A, B, C))) ) ) ).
++ fof(fc23_gate_1, axiom,  (! [A, B, C] :  ( ~ (v1_xboole_0(A))  =>  ~ (v1_xboole_0(k9_gate_1(B, A, C))) ) ) ).
++ fof(fc24_gate_1, axiom,  (! [A, B, C] :  ( ~ (v1_xboole_0(A))  =>  ~ (v1_xboole_0(k9_gate_1(B, C, A))) ) ) ).
 - fof(fc4_xboole_0, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(A))  =>  ~ (v1_xboole_0(k2_xboole_0(A, B))) ) ) ).
 - fof(redefinition_k7_mcart_1, axiom,  (! [A, B, C, D, E] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  ( ~ (v1_xboole_0(C))  &  ( ~ (v1_xboole_0(D))  & m1_subset_1(E, k4_zfmisc_1(A, B, C, D))) ) ) )  => k7_mcart_1(A, B, C, D, E)=k2_xtuple_0(E)) ) ).
 - fof(s1_xboole_0__e3_3__xregular, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (? [B] :  (! [C] :  (r2_hidden(C, B) <=>  (r2_hidden(C, k3_tarski(k3_tarski(A))) &  ~ (r1_xboole_0(C, A)) ) ) ) ) ) ) ).

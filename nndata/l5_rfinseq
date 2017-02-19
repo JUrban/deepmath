@@ -1,17 +1,17 @@
 C fof(l5_rfinseq, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  ~ ( (k5_card_1(k9_xtuple_0(k5_relat_1(B, A)))=k6_numbers &  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  =>  ~ (r2_classes1(k5_relat_1(B, A), C)) ) ) ) ) ) ) ) ) ).
-+ fof(reflexivity_r2_classes1, axiom,  (! [A, B] :  ( (v1_relat_1(A) & v1_relat_1(B))  => r2_classes1(A, A)) ) ).
-+ fof(fc19_finset_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_finset_1(A))  => v1_finset_1(k9_xtuple_0(A))) ) ).
-+ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
-+ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(fc27_finset_1, axiom,  (! [A, B] :  ( (v1_finset_1(A) &  (v1_relat_1(B) & v1_funct_1(B)) )  =>  (v1_relat_1(k5_relat_1(B, A)) & v1_finset_1(k5_relat_1(B, A))) ) ) ).
-+ fof(dt_k5_relat_1, axiom,  (! [A, B] :  (v1_relat_1(A) => v1_relat_1(k5_relat_1(A, B))) ) ).
-+ fof(fc8_relat_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_relat_1(A))  =>  ~ (v1_xboole_0(k9_xtuple_0(A))) ) ) ).
-+ fof(fc2_card_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k1_card_1(A)))  & v1_card_1(k1_card_1(A))) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(cc1_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_relat_1(A)) ) ).
-+ fof(cc1_funct_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_funct_1(A)) ) ).
 + fof(cc1_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_xboole_0(A))  =>  (v1_relat_1(A) & v1_finseq_1(A)) ) ) ).
++ fof(cc1_funct_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_funct_1(A)) ) ).
++ fof(cc1_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_relat_1(A)) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(dt_k5_relat_1, axiom,  (! [A, B] :  (v1_relat_1(A) => v1_relat_1(k5_relat_1(A, B))) ) ).
++ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
++ fof(fc19_finset_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_finset_1(A))  => v1_finset_1(k9_xtuple_0(A))) ) ).
++ fof(fc27_finset_1, axiom,  (! [A, B] :  ( (v1_finset_1(A) &  (v1_relat_1(B) & v1_funct_1(B)) )  =>  (v1_relat_1(k5_relat_1(B, A)) & v1_finset_1(k5_relat_1(B, A))) ) ) ).
++ fof(fc2_card_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k1_card_1(A)))  & v1_card_1(k1_card_1(A))) ) ) ).
++ fof(fc8_relat_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_relat_1(A))  =>  ~ (v1_xboole_0(k9_xtuple_0(A))) ) ) ).
++ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(reflexivity_r2_classes1, axiom,  (! [A, B] :  ( (v1_relat_1(A) & v1_relat_1(B))  => r2_classes1(A, A)) ) ).
 - fof(t47_card_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finset_1(A)) )  => r1_xxreal_0(k5_card_1(k10_xtuple_0(A)), k5_card_1(k9_xtuple_0(A)))) ) ).
 - fof(d9_classes1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (r2_classes1(A, B) <=>  (! [C] : k1_card_1(k10_relat_1(A, C))=k1_card_1(k10_relat_1(B, C))) ) ) ) ) ) ).
 - fof(s1_nat_1__e4_61__card_2, axiom,  ( ( (! [A] :  (v1_finset_1(A) =>  ( (k5_card_1(A)=k6_numbers &  (! [B] :  (! [C] :  ~ ( (r2_hidden(B, A) &  (r2_hidden(C, A) &  ( ~ (r1_tarski(B, C))  &  ~ (r1_tarski(C, B)) ) ) ) ) ) ) )  =>  (A=k1_xboole_0 | r2_hidden(k3_tarski(A), A)) ) ) )  &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  ( (! [E] :  (v1_finset_1(E) =>  ( (k5_card_1(E)=D &  (! [F] :  (! [G] :  ~ ( (r2_hidden(F, E) &  (r2_hidden(G, E) &  ( ~ (r1_tarski(F, G))  &  ~ (r1_tarski(G, F)) ) ) ) ) ) ) )  =>  (E=k1_xboole_0 | r2_hidden(k3_tarski(E), E)) ) ) )  =>  (! [H] :  (v1_finset_1(H) =>  ( (k5_card_1(H)=k2_nat_1(D, 1) &  (! [I] :  (! [J] :  ~ ( (r2_hidden(I, H) &  (r2_hidden(J, H) &  ( ~ (r1_tarski(I, J))  &  ~ (r1_tarski(J, I)) ) ) ) ) ) ) )  =>  (H=k1_xboole_0 | r2_hidden(k3_tarski(H), H)) ) ) ) ) ) ) )  =>  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (! [K] :  (v1_finset_1(K) =>  ( (k5_card_1(K)=D &  (! [L] :  (! [M] :  ~ ( (r2_hidden(L, K) &  (r2_hidden(M, K) &  ( ~ (r1_tarski(L, M))  &  ~ (r1_tarski(M, L)) ) ) ) ) ) ) )  =>  (K=k1_xboole_0 | r2_hidden(k3_tarski(K), K)) ) ) ) ) ) ) ).

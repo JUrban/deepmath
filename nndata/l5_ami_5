@@ -1,14 +1,14 @@
 C fof(l5_ami_5, axiom,  (! [A] :  (m1_subset_1(A, k8_struct_0(k1_ami_3)) =>  (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_ami_3))) ) ) ).
-+ fof(dt_l1_extpro_1, axiom,  (! [A] :  (! [B] :  (l1_extpro_1(B, A) =>  (l1_memstr_0(B, A) & l1_compos_1(B)) ) ) ) ).
-+ fof(dt_l1_memstr_0, axiom,  (! [A] :  (! [B] :  (l1_memstr_0(B, A) => l2_struct_0(B)) ) ) ).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 + fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
-+ fof(fc1_ami_5, axiom,  ~ (v1_finset_1(k8_struct_0(k1_ami_3))) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(d16_ami_2, axiom,  (! [A] :  (v1_ami_2(A) <=> r2_hidden(A, k2_ami_2)) ) ).
 + fof(dt_k1_ami_3, axiom,  (v1_extpro_1(k1_ami_3, 2) & l1_extpro_1(k1_ami_3, 2)) ).
 + fof(dt_k8_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => m1_subset_1(k8_struct_0(A), k1_zfmisc_1(u1_struct_0(A)))) ) ).
++ fof(dt_l1_extpro_1, axiom,  (! [A] :  (! [B] :  (l1_extpro_1(B, A) =>  (l1_memstr_0(B, A) & l1_compos_1(B)) ) ) ) ).
++ fof(dt_l1_memstr_0, axiom,  (! [A] :  (! [B] :  (l1_memstr_0(B, A) => l2_struct_0(B)) ) ) ).
++ fof(fc1_ami_5, axiom,  ~ (v1_finset_1(k8_struct_0(k1_ami_3))) ).
 + fof(t27_ami_3, axiom, k8_struct_0(k1_ami_3)=k2_ami_2).
-+ fof(d16_ami_2, axiom,  (! [A] :  (v1_ami_2(A) <=> r2_hidden(A, k2_ami_2)) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 - fof(t28_ami_3, axiom,  (! [A] :  ( (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_ami_3)))  => r2_hidden(A, k8_struct_0(k1_ami_3))) ) ).
 - fof(l27_ami_3, axiom,  (! [A] :  ( (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_ami_3)))  =>  (! [B] :  ( (v1_ami_2(B) & m1_subset_1(B, u1_struct_0(k1_ami_3)))  =>  ~ (v2_extpro_1(k6_ami_3(A, B), 2, k1_ami_3)) ) ) ) ) ).
 - fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).

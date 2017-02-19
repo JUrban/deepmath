@@ -1,13 +1,13 @@
 C fof(t71_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k1_complfld)) => k17_complex1(k8_group_1(k1_complfld, A, B))=k11_binop_2(k17_complex1(A), k17_complex1(B))) ) ) ) ).
++ fof(cc1_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => v1_xcmplx_0(A)) ) ).
++ fof(dt_k16_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xreal_0(k16_complex1(A))) ) ).
++ fof(dt_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k17_complex1(A), k1_numbers)) ) ).
++ fof(redefinition_k11_binop_2, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k11_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
 + fof(redefinition_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k17_complex1(A)=k16_complex1(A)) ) ).
 + fof(redefinition_k5_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k5_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
-+ fof(dt_k16_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xreal_0(k16_complex1(A))) ) ).
-+ fof(redefinition_k11_binop_2, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k11_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
-+ fof(t65_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k17_complex1(k3_xcmplx_0(A, B))=k8_real_1(k17_complex1(A), k17_complex1(B))) ) ) ) ).
-+ fof(t4_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k1_complfld)) =>  (! [C] :  (v1_xcmplx_0(C) =>  (! [D] :  (v1_xcmplx_0(D) =>  ( (A=C & B=D)  => k8_group_1(k1_complfld, A, B)=k5_binop_2(C, D)) ) ) ) ) ) ) ) ) ).
 + fof(redefinition_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k3_xcmplx_0(A, B)) ) ).
-+ fof(dt_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k17_complex1(A), k1_numbers)) ) ).
-+ fof(cc1_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => v1_xcmplx_0(A)) ) ).
++ fof(t4_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k1_complfld)) =>  (! [C] :  (v1_xcmplx_0(C) =>  (! [D] :  (v1_xcmplx_0(D) =>  ( (A=C & B=D)  => k8_group_1(k1_complfld, A, B)=k5_binop_2(C, D)) ) ) ) ) ) ) ) ) ).
++ fof(t65_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k17_complex1(k3_xcmplx_0(A, B))=k8_real_1(k17_complex1(A), k17_complex1(B))) ) ) ) ).
 - fof(t97_seq_4, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m2_finseq_2(C, k2_numbers, k14_seq_4(A)) => k22_seq_4(k20_seq_4(A, C, B))=k11_binop_2(k17_complex1(B), k22_seq_4(C))) ) ) ) ) ) ).
 - fof(fc3_complfld, axiom,  ( ~ (v6_struct_0(k1_complfld))  &  (v13_algstr_0(k1_complfld) &  (v33_algstr_0(k1_complfld) &  (v36_algstr_0(k1_complfld) &  (v3_group_1(k1_complfld) &  (v5_group_1(k1_complfld) &  (v3_vectsp_1(k1_complfld) &  (v5_vectsp_1(k1_complfld) &  (v6_vectsp_1(k1_complfld) &  (v2_rlvect_1(k1_complfld) &  (v3_rlvect_1(k1_complfld) & v4_rlvect_1(k1_complfld)) ) ) ) ) ) ) ) ) ) ) ).
 - fof(dt_k1_complfld, axiom,  (v36_algstr_0(k1_complfld) & l6_algstr_0(k1_complfld)) ).

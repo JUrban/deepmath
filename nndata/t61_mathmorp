@@ -1,15 +1,15 @@
 C fof(t61_mathmorp, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k15_euclid(B)))) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(k15_euclid(B)))) =>  (r1_tarski(C, D) => r1_tarski(k6_mathmorp(A, k15_euclid(B), C), k6_mathmorp(A, k15_euclid(B), D))) ) ) ) ) ) ) ) ) ).
-+ fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
-+ fof(fc7_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v2_monoid_0(k15_euclid(A)) & v5_rltopsp1(k15_euclid(A))) ) ) ).
-+ fof(d6_mathmorp, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & l1_rlvect_1(B))  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))) => k6_mathmorp(A, B, C)=a_3_2_mathmorp(A, B, C)) ) ) ) ) ) ).
-+ fof(fc5_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (v2_struct_0(k15_euclid(A)))  & v5_rltopsp1(k15_euclid(A))) ) ) ).
-+ fof(fraenkel_a_3_2_mathmorp, axiom,  (! [A, B, C, D] :  ( (v1_xreal_0(B) &  ( ( ~ (v2_struct_0(C))  & l1_rlvect_1(C))  & m1_subset_1(D, k1_zfmisc_1(u1_struct_0(C)))) )  =>  (r2_hidden(A, a_3_2_mathmorp(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, u1_struct_0(C)) &  (A=k1_rlvect_1(C, E, B) & r2_hidden(E, D)) ) ) ) ) ) ).
 + fof(abstractness_v5_rltopsp1, axiom,  (! [A] :  (l1_rltopsp1(A) =>  (v5_rltopsp1(A) => A=g1_rltopsp1(u1_struct_0(A), u2_struct_0(A), u1_algstr_0(A), u1_rlvect_1(A), u1_pre_topc(A))) ) ) ).
-+ fof(dt_l1_rltopsp1, axiom,  (! [A] :  (l1_rltopsp1(A) =>  (l1_rlvect_1(A) & l1_pre_topc(A)) ) ) ).
-+ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
 + fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d6_mathmorp, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & l1_rlvect_1(B))  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))) => k6_mathmorp(A, B, C)=a_3_2_mathmorp(A, B, C)) ) ) ) ) ) ).
 + fof(dt_k15_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v5_rltopsp1(k15_euclid(A)) & l1_rltopsp1(k15_euclid(A))) ) ) ).
++ fof(dt_l1_rltopsp1, axiom,  (! [A] :  (l1_rltopsp1(A) =>  (l1_rlvect_1(A) & l1_pre_topc(A)) ) ) ).
++ fof(fc5_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (v2_struct_0(k15_euclid(A)))  & v5_rltopsp1(k15_euclid(A))) ) ) ).
++ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
++ fof(fc7_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v2_monoid_0(k15_euclid(A)) & v5_rltopsp1(k15_euclid(A))) ) ) ).
++ fof(fraenkel_a_3_2_mathmorp, axiom,  (! [A, B, C, D] :  ( (v1_xreal_0(B) &  ( ( ~ (v2_struct_0(C))  & l1_rlvect_1(C))  & m1_subset_1(D, k1_zfmisc_1(u1_struct_0(C)))) )  =>  (r2_hidden(A, a_3_2_mathmorp(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, u1_struct_0(C)) &  (A=k1_rlvect_1(C, E, B) & r2_hidden(E, D)) ) ) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 - fof(t59_mathmorp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) => r1_tarski(k6_mathmorp(2, k15_euclid(A), B), k6_rusub_4(k15_euclid(A), B, B))) ) ) ) ).
 - fof(t60_mathmorp, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(k15_euclid(C)))) => k6_mathmorp(k3_xcmplx_0(A, B), k15_euclid(C), D)=k6_mathmorp(A, k15_euclid(C), k6_mathmorp(B, k15_euclid(C), D))) ) ) ) ) ) ) ) ).
 - fof(t57_mathmorp, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))))  => k6_mathmorp(k6_numbers, k15_euclid(A), B)=k6_domain_1(u1_struct_0(k15_euclid(A)), k4_struct_0(k15_euclid(A)))) ) ) ) ).

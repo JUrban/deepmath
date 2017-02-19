@@ -1,15 +1,15 @@
 C fof(t2_amistd_2, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) &  (v3_amistd_1(B, A) & l1_extpro_1(B, A)) ) ) )  =>  (! [C] :  (m1_subset_1(C, u1_compos_1(B)) =>  ( (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) => k1_amistd_1(A, B, D, C)=k1_tarski(k1_ordinal1(D))) )  => v1_xboole_0(k2_amistd_1(A, B, C))) ) ) ) ) ) ) ).
-+ fof(t19_amistd_1, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (! [C] :  (m1_subset_1(C, u1_compos_1(B)) =>  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) => r1_tarski(k2_amistd_1(A, B, C), k1_amistd_1(A, B, D, C))) ) ) ) ) ) ) ) ).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
-+ fof(dt_k6_numbers, axiom, m2_subset_1(k6_numbers, k1_numbers, k5_numbers)).
-+ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(dt_k2_amistd_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_setfam_1(A))  &  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  & m1_subset_1(C, u1_compos_1(B))) )  => m1_subset_1(k2_amistd_1(A, B, C), k1_zfmisc_1(k5_numbers))) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
++ fof(dt_k2_amistd_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_setfam_1(A))  &  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  & m1_subset_1(C, u1_compos_1(B))) )  => m1_subset_1(k2_amistd_1(A, B, C), k1_zfmisc_1(k5_numbers))) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(dt_k6_numbers, axiom, m2_subset_1(k6_numbers, k1_numbers, k5_numbers)).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t19_amistd_1, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (! [C] :  (m1_subset_1(C, u1_compos_1(B)) =>  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) => r1_tarski(k2_amistd_1(A, B, C), k1_amistd_1(A, B, D, C))) ) ) ) ) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 + fof(t9_ordinal1, axiom,  (! [A] :  ~ (A=k1_ordinal1(A)) ) ).
 - fof(t1_amistd_1, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (! [C] :  (m1_subset_1(C, u1_compos_1(B)) =>  ( (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) => k1_amistd_1(A, B, D, C)=k6_domain_1(k5_numbers, D)) )  => v1_xboole_0(k2_amistd_1(A, B, C))) ) ) ) ) ) ) ).
 - fof(t12_amistd_1, axiom,  (! [A] :  ( ~ (v1_setfam_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_extpro_1(B, A)) ) )  =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (! [D] :  (m1_subset_1(D, u1_compos_1(B)) =>  (v4_amistd_1(D, A, B) => k1_amistd_1(A, B, C, D)=k1_tarski(k1_ordinal1(C))) ) ) ) ) ) ) ) ) ).

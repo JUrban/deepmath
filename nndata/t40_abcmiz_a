@@ -1,16 +1,16 @@
 C fof(t40_abcmiz_a, axiom, k1_msualg_1(k27_abcmiz_1, k14_abcmiz_a(k8_abcmiz_a))=k1_xboole_0).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
-+ fof(dt_k5_abcmiz_a, axiom,  ( ~ (v1_xboole_0(k5_abcmiz_a))  & m1_subset_1(k5_abcmiz_a, k1_zfmisc_1(k20_abcmiz_1))) ).
-+ fof(fc10_abcmiz_a, axiom,  (v2_abcmiz_1(k13_abcmiz_a(k8_abcmiz_a), k27_abcmiz_1) & v4_abcmiz_a(k13_abcmiz_a(k8_abcmiz_a), k27_abcmiz_1)) ).
++ fof(cc4_abcmiz_1, axiom,  (! [A] :  (l1_msualg_1(A) =>  ( (v1_instalg1(A) & v1_abcmiz_1(A))  =>  ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & v1_instalg1(A)) ) ) ) ) ).
++ fof(d13_abcmiz_a, axiom,  (! [A] :  ( ( ~ (v11_struct_0(A))  &  (v1_instalg1(A) & l1_msualg_1(A)) )  =>  (! [B] :  (m1_subset_1(B, u4_struct_0(A)) =>  (v4_abcmiz_a(B, A) <=> k1_msualg_1(A, B)=k1_xboole_0) ) ) ) ) ).
 + fof(d16_abcmiz_a, axiom,  (! [A] :  (m1_subset_1(A, k20_abcmiz_1) => k13_abcmiz_a(A)=A) ) ).
 + fof(dt_k13_abcmiz_a, axiom,  (! [A] :  (m1_subset_1(A, k20_abcmiz_1) =>  (v2_abcmiz_1(k13_abcmiz_a(A), k27_abcmiz_1) & m1_subset_1(k13_abcmiz_a(A), u4_struct_0(k27_abcmiz_1))) ) ) ).
 + fof(dt_k27_abcmiz_1, axiom,  (v1_msualg_1(k27_abcmiz_1) &  (v1_instalg1(k27_abcmiz_1) &  (v1_abcmiz_1(k27_abcmiz_1) & l1_msualg_1(k27_abcmiz_1)) ) ) ).
-+ fof(d13_abcmiz_a, axiom,  (! [A] :  ( ( ~ (v11_struct_0(A))  &  (v1_instalg1(A) & l1_msualg_1(A)) )  =>  (! [B] :  (m1_subset_1(B, u4_struct_0(A)) =>  (v4_abcmiz_a(B, A) <=> k1_msualg_1(A, B)=k1_xboole_0) ) ) ) ) ).
++ fof(dt_k5_abcmiz_a, axiom,  ( ~ (v1_xboole_0(k5_abcmiz_a))  & m1_subset_1(k5_abcmiz_a, k1_zfmisc_1(k20_abcmiz_1))) ).
 + fof(dt_k8_abcmiz_a, axiom, m2_subset_1(k8_abcmiz_a, k20_abcmiz_1, k5_abcmiz_a)).
++ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
++ fof(fc10_abcmiz_a, axiom,  (v2_abcmiz_1(k13_abcmiz_a(k8_abcmiz_a), k27_abcmiz_1) & v4_abcmiz_a(k13_abcmiz_a(k8_abcmiz_a), k27_abcmiz_1)) ).
 + fof(redefinition_k14_abcmiz_a, axiom,  (! [A] :  (m1_subset_1(A, k5_abcmiz_a) => k14_abcmiz_a(A)=k13_abcmiz_a(A)) ) ).
-+ fof(cc4_abcmiz_1, axiom,  (! [A] :  (l1_msualg_1(A) =>  ( (v1_instalg1(A) & v1_abcmiz_1(A))  =>  ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & v1_instalg1(A)) ) ) ) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 - fof(dt_k14_abcmiz_a, axiom,  (! [A] :  (m1_subset_1(A, k5_abcmiz_a) =>  (v2_abcmiz_1(k14_abcmiz_a(A), k27_abcmiz_1) & m2_abcmiz_1(k14_abcmiz_a(A), k27_abcmiz_1, k12_abcmiz_1(k27_abcmiz_1))) ) ) ).
 - fof(d6_abcmiz_a, axiom, k8_abcmiz_a=k4_tarski(k6_abcmiz_1, k4_tarski(k1_xboole_0, k6_numbers))).
 - fof(t8_pralg_3, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  ( ~ (v11_struct_0(B))  & l1_msualg_1(B)) )  =>  (! [C] :  (m1_pralg_2(C, A, B) =>  (! [D] :  (m1_subset_1(D, u4_struct_0(B)) =>  (k1_msualg_1(B, D)=k1_xboole_0 => r2_hidden(k1_pralg_3(B, k14_pralg_2(A, B, C), D), k1_funct_2(A, k3_tarski(a_4_0_pralg_3(A, B, C, D))))) ) ) ) ) ) ) ) ) ).

@@ -1,16 +1,16 @@
 C fof(t22_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  (! [B] :  (! [C] :  (m1_subset_1(C, u1_struct_0(k19_pcs_0(A, B))) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(k19_pcs_0(A, B))) =>  (C=B => r1_orders_2(k19_pcs_0(A, B), C, D)) ) ) ) ) ) ) ) ).
-+ fof(fc5_xboole_0, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(A))  =>  ~ (v1_xboole_0(k2_xboole_0(B, A))) ) ) ).
-+ fof(dt_k19_pcs_0, axiom,  (! [A, B] :  (l2_pcs_0(A) =>  (v12_pcs_0(k19_pcs_0(A, B)) & l2_pcs_0(k19_pcs_0(A, B))) ) ) ).
-+ fof(t105_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(A, B), k2_zfmisc_1(k1_tarski(C), D)) <=>  (A=C & r2_hidden(B, D)) ) ) ) ) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
-+ fof(d5_orders_2, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r1_orders_2(A, B, C) <=> r2_hidden(k4_tarski(B, C), u1_orders_2(A))) ) ) ) ) ) ) ).
-+ fof(d39_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  (! [B] :  (! [C] :  ( (v12_pcs_0(C) & l2_pcs_0(C))  =>  (C=k19_pcs_0(A, B) <=>  (u1_struct_0(C)=k2_xboole_0(k1_tarski(B), u1_struct_0(A)) &  (u1_orders_2(C)=k2_xboole_0(k2_zfmisc_1(k1_tarski(B), u1_struct_0(C)), u1_orders_2(A)) & u1_pcs_0(C)=k2_xboole_0(k2_xboole_0(k2_zfmisc_1(k1_tarski(B), u1_struct_0(C)), k2_zfmisc_1(u1_struct_0(C), k1_tarski(B))), u1_pcs_0(A))) ) ) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(dt_l2_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  (l1_orders_2(A) & l1_pcs_0(A)) ) ) ).
-+ fof(fc2_xboole_0, axiom,  (! [A] :  ~ (v1_xboole_0(k1_tarski(A))) ) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
 + fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(d39_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  (! [B] :  (! [C] :  ( (v12_pcs_0(C) & l2_pcs_0(C))  =>  (C=k19_pcs_0(A, B) <=>  (u1_struct_0(C)=k2_xboole_0(k1_tarski(B), u1_struct_0(A)) &  (u1_orders_2(C)=k2_xboole_0(k2_zfmisc_1(k1_tarski(B), u1_struct_0(C)), u1_orders_2(A)) & u1_pcs_0(C)=k2_xboole_0(k2_xboole_0(k2_zfmisc_1(k1_tarski(B), u1_struct_0(C)), k2_zfmisc_1(u1_struct_0(C), k1_tarski(B))), u1_pcs_0(A))) ) ) ) ) ) ) ) ).
 + fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(d5_orders_2, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r1_orders_2(A, B, C) <=> r2_hidden(k4_tarski(B, C), u1_orders_2(A))) ) ) ) ) ) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(dt_k19_pcs_0, axiom,  (! [A, B] :  (l2_pcs_0(A) =>  (v12_pcs_0(k19_pcs_0(A, B)) & l2_pcs_0(k19_pcs_0(A, B))) ) ) ).
++ fof(dt_l2_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  (l1_orders_2(A) & l1_pcs_0(A)) ) ) ).
++ fof(fc2_xboole_0, axiom,  (! [A] :  ~ (v1_xboole_0(k1_tarski(A))) ) ).
++ fof(fc5_xboole_0, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(A))  =>  ~ (v1_xboole_0(k2_xboole_0(B, A))) ) ) ).
++ fof(t105_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(A, B), k2_zfmisc_1(k1_tarski(C), D)) <=>  (A=C & r2_hidden(B, D)) ) ) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 - fof(t21_pcs_0, axiom,  (! [A] :  (l2_pcs_0(A) =>  (! [B] :  (r1_tarski(u1_struct_0(A), u1_struct_0(k19_pcs_0(A, B))) &  (r1_relset_1(u1_struct_0(A), u1_struct_0(A), u1_orders_2(A), u1_orders_2(k19_pcs_0(A, B))) & r1_relset_1(u1_struct_0(A), u1_struct_0(A), u1_pcs_0(A), u1_pcs_0(k19_pcs_0(A, B)))) ) ) ) ) ).
 - fof(fc57_pcs_0, axiom,  (! [A, B] :  (l2_pcs_0(A) =>  ( ~ (v2_struct_0(k19_pcs_0(A, B)))  & v12_pcs_0(k19_pcs_0(A, B))) ) ) ).
 - fof(dt_u1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => m1_subset_1(u1_orders_2(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ).

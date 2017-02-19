@@ -1,15 +1,15 @@
 C fof(t74_facirc_1, axiom,  (! [A] :  ( ~ (v1_xtuple_0(A))  =>  (! [B] :  ( ~ (v1_xtuple_0(B))  =>  (! [C] :  ( ~ (v1_xtuple_0(C))  =>  (r2_hidden(A, k2_msafree2(k15_facirc_1(A, B, C))) &  (r2_hidden(B, k2_msafree2(k15_facirc_1(A, B, C))) & r2_hidden(C, k2_msafree2(k15_facirc_1(A, B, C)))) ) ) ) ) ) ) ) ).
-+ fof(t67_facirc_1, axiom,  (! [A] :  (! [B] :  (! [C] : v1_relat_1(k3_msafree2(k15_facirc_1(A, B, C)))) ) ) ).
-+ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
-+ fof(d3_msafree2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_msualg_1(A))  => k3_msafree2(A)=k2_relset_1(u1_struct_0(A), u2_msualg_1(A))) ) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
 + fof(d1_relat_1, axiom,  (! [A] :  (v1_relat_1(A) <=>  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (! [D] :  ~ (B=k4_tarski(C, D)) ) ) ) ) ) ) ) ).
-+ fof(dt_k15_facirc_1, axiom,  (! [A, B, C] :  ( ~ (v2_struct_0(k15_facirc_1(A, B, C)))  &  ( ~ (v11_struct_0(k15_facirc_1(A, B, C)))  &  (v1_msualg_1(k15_facirc_1(A, B, C)) &  (v1_circcomb(k15_facirc_1(A, B, C)) &  (v2_circcomb(k15_facirc_1(A, B, C)) &  (v3_circcomb(k15_facirc_1(A, B, C)) & l1_msualg_1(k15_facirc_1(A, B, C))) ) ) ) ) ) ) ).
-+ fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
 + fof(d2_msafree2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_msualg_1(A))  => k2_msafree2(A)=k6_subset_1(u1_struct_0(A), k2_relset_1(u1_struct_0(A), u2_msualg_1(A)))) ) ).
-+ fof(t72_facirc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(A, u1_struct_0(k15_facirc_1(A, B, C))) &  (r2_hidden(B, u1_struct_0(k15_facirc_1(A, B, C))) & r2_hidden(C, u1_struct_0(k15_facirc_1(A, B, C)))) ) ) ) ) ).
++ fof(d3_msafree2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_msualg_1(A))  => k3_msafree2(A)=k2_relset_1(u1_struct_0(A), u2_msualg_1(A))) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
++ fof(dt_k15_facirc_1, axiom,  (! [A, B, C] :  ( ~ (v2_struct_0(k15_facirc_1(A, B, C)))  &  ( ~ (v11_struct_0(k15_facirc_1(A, B, C)))  &  (v1_msualg_1(k15_facirc_1(A, B, C)) &  (v1_circcomb(k15_facirc_1(A, B, C)) &  (v2_circcomb(k15_facirc_1(A, B, C)) &  (v3_circcomb(k15_facirc_1(A, B, C)) & l1_msualg_1(k15_facirc_1(A, B, C))) ) ) ) ) ) ) ).
 + fof(fc1_xtuple_0, axiom,  (! [A, B] : v1_xtuple_0(k4_tarski(A, B))) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(t67_facirc_1, axiom,  (! [A] :  (! [B] :  (! [C] : v1_relat_1(k3_msafree2(k15_facirc_1(A, B, C)))) ) ) ).
++ fof(t72_facirc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(A, u1_struct_0(k15_facirc_1(A, B, C))) &  (r2_hidden(B, u1_struct_0(k15_facirc_1(A, B, C))) & r2_hidden(C, u1_struct_0(k15_facirc_1(A, B, C)))) ) ) ) ) ).
 - fof(t68_facirc_1, axiom,  (! [A] :  ( ~ (v1_xtuple_0(A))  =>  (! [B] :  ( ~ (v1_xtuple_0(B))  =>  (! [C] :  ( ~ (v1_xtuple_0(C))  =>  ~ (v1_facirc_1(k2_msafree2(k15_facirc_1(A, B, C)))) ) ) ) ) ) ) ).
 - fof(d18_facirc_1, axiom,  (! [A] :  (! [B] :  (! [C] : k15_facirc_1(A, B, C)=k2_circcomb(k14_facirc_1(A, B, C), k5_circcomb(k4_facirc_1, k11_finseq_1(k4_tarski(k10_finseq_1(A, B), k3_facirc_1), k4_tarski(k10_finseq_1(B, C), k3_facirc_1), k4_tarski(k10_finseq_1(C, A), k3_facirc_1))))) ) ) ).
 - fof(t12_circcomb, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_msualg_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & l1_msualg_1(B))  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(B)) =>  (r2_hidden(C, k2_msafree2(k2_circcomb(A, B))) => r2_hidden(C, k2_msafree2(B))) ) ) ) ) ) ) ).

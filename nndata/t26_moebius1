@@ -1,7 +1,7 @@
 C fof(t26_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (v1_moebius1(A))  &  (r1_nat_d(B, A) & v1_moebius1(B)) ) ) ) ) ) ) ).
-+ fof(t25_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (v1_moebius1(k24_binop_2(A, B)))  & v1_moebius1(A)) ) ) ) ) ) ).
-+ fof(redefinition_k24_binop_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k24_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
 + fof(d3_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_nat_d(A, B) <=>  (? [C] :  (v7_ordinal1(C) & B=k3_xcmplx_0(A, C)) ) ) ) ) ) ) ).
++ fof(redefinition_k24_binop_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k24_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
++ fof(t25_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (v1_moebius1(k24_binop_2(A, B)))  & v1_moebius1(A)) ) ) ) ) ) ).
 - fof(d1_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_moebius1(A) <=>  (? [B] :  ( (v7_ordinal1(B) & v1_int_2(B))  & r1_nat_d(k1_newton(B, 2), A)) ) ) ) ) ).
 - fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 - fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).

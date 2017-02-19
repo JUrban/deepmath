@@ -1,12 +1,12 @@
 C fof(t16_scmfsa8a, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v5_relat_1(A, u1_compos_1(k1_scmfsa_2)) &  (v1_funct_1(A) & v1_finset_1(A)) ) ) )  =>  (! [B] :  (r2_hidden(B, k9_xtuple_0(A)) =>  ( (k1_funct_1(A, B)=k2_compos_1(k1_scmfsa_2) => k1_funct_1(k2_scmfsa6a(A), B)=k11_scmfsa_2(k5_card_1(A)))  &  ( ~ (k1_funct_1(A, B)=k2_compos_1(k1_scmfsa_2))  => k1_funct_1(k2_scmfsa6a(A), B)=k1_funct_1(A, B)) ) ) ) ) ) ).
-+ fof(t7_scmfsa8a, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v5_relat_1(A, u1_compos_1(k1_scmfsa_2)) &  (v1_funct_1(A) & v1_finset_1(A)) ) ) )  =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) =>  ( (k1_funct_1(A, C)=k2_compos_1(k1_scmfsa_2) => k1_funct_1(k1_scmfsa6a(A, B), C)=k11_scmfsa_2(B))  &  ( ~ (k1_funct_1(A, C)=k2_compos_1(k1_scmfsa_2))  => k1_funct_1(k1_scmfsa6a(A, B), C)=k1_funct_1(A, C)) ) ) ) ) ) ) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
 + fof(d2_scmfsa6a, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v5_relat_1(A, u1_compos_1(k1_scmfsa_2)) &  (v1_funct_1(A) & v1_finset_1(A)) ) ) )  => k2_scmfsa6a(A)=k1_scmfsa6a(A, k5_card_1(A))) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(dt_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => m1_subset_1(k5_card_1(A), k4_ordinal1)) ) ).
-+ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t7_scmfsa8a, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v5_relat_1(A, u1_compos_1(k1_scmfsa_2)) &  (v1_funct_1(A) & v1_finset_1(A)) ) ) )  =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) =>  ( (k1_funct_1(A, C)=k2_compos_1(k1_scmfsa_2) => k1_funct_1(k1_scmfsa6a(A, B), C)=k11_scmfsa_2(B))  &  ( ~ (k1_funct_1(A, C)=k2_compos_1(k1_scmfsa_2))  => k1_funct_1(k1_scmfsa6a(A, B), C)=k1_funct_1(A, C)) ) ) ) ) ) ) ) ).
 - fof(t1_scmfsa7b, axiom,  (! [A] :  (m1_subset_1(A, u1_compos_1(k1_scmfsa_2)) =>  ( (A=k2_compos_1(k1_scmfsa_2) => k1_funct_1(k2_scmfsa6a(k11_compos_1(k1_scmfsa_2, A)), k6_numbers)=k11_scmfsa_2(2))  &  ( ~ (A=k2_compos_1(k1_scmfsa_2))  => k1_funct_1(k2_scmfsa6a(k11_compos_1(k1_scmfsa_2, A)), k6_numbers)=A) ) ) ) ).
 - fof(d1_scmfsa6a, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v5_relat_1(A, u1_compos_1(k1_scmfsa_2)) &  (v1_funct_1(A) & v1_finset_1(A)) ) ) )  =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) => k1_scmfsa6a(A, B)=k6_funct_4(A, k2_compos_1(k1_scmfsa_2), k11_scmfsa_2(B))) ) ) ) ).
 - fof(t105_funct_4, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  (! [D] :  ( ~ (k1_funct_1(B, A)=C)  => k1_funct_1(k6_funct_4(B, C, D), A)=k1_funct_1(B, A)) ) ) ) ) ) ).

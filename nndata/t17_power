@@ -1,19 +1,19 @@
 C fof(t17_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  ~ ( ( ~ (r1_xxreal_0(B, A))  &  ( ~ ( ( ~ ( (r1_xxreal_0(k6_numbers, A) & r1_xxreal_0(1, C)) )  & v1_abian(C)) )  & r1_xxreal_0(k1_power(C, B), k1_power(C, A))) ) ) ) ) ) ) ) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
++ fof(dt_k1_power, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v1_xreal_0(B))  => v1_xreal_0(k1_power(A, B))) ) ).
++ fof(rc1_int_1, axiom,  (? [A] :  (m1_subset_1(A, k1_numbers) &  (v1_xxreal_0(A) &  (v1_xcmplx_0(A) &  (v1_xreal_0(A) & v1_int_1(A)) ) ) ) ) ).
++ fof(rc4_xxreal_0, axiom,  (? [A] :  (v1_xboole_0(A) & v1_xxreal_0(A)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(spc0_boole, axiom, v1_xboole_0(0)).
 + fof(t16_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (r1_xxreal_0(A, B) =>  ( ( ~ ( (r1_xxreal_0(k6_numbers, A) & r1_xxreal_0(1, C)) )  & v1_abian(C))  | r1_xxreal_0(k1_power(C, A), k1_power(C, B))) ) ) ) ) ) ) ) ).
 + fof(t1_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, A))  => A=B) ) ) ) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(rc1_int_1, axiom,  (? [A] :  (m1_subset_1(A, k1_numbers) &  (v1_xxreal_0(A) &  (v1_xcmplx_0(A) &  (v1_xreal_0(A) & v1_int_1(A)) ) ) ) ) ).
-+ fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(spc0_boole, axiom, v1_xboole_0(0)).
 + fof(t2_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, C))  => r1_xxreal_0(A, C)) ) ) ) ) ) ) ).
-+ fof(rc4_xxreal_0, axiom,  (? [A] :  (v1_xboole_0(A) & v1_xxreal_0(A)) ) ).
 + fof(t4_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( ~ ( ( ~ ( (r1_xxreal_0(1, B) & r1_xxreal_0(k6_numbers, A)) )  & v1_abian(B)) )  =>  (k1_newton(k1_power(B, A), B)=A & k1_power(B, k1_newton(A, B))=A) ) ) ) ) ) ).
-+ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(dt_k1_power, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v1_xreal_0(B))  => v1_xreal_0(k1_power(A, B))) ) ).
-+ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 - fof(t7_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  ( (r1_xxreal_0(k6_numbers, A) & r1_xxreal_0(1, B))  => r1_xxreal_0(k6_numbers, k1_power(B, A))) ) ) ) ) ).
 - fof(d1_power, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ( (r1_xxreal_0(k6_numbers, B) & r1_xxreal_0(1, A))  => k1_power(A, B)=k2_prepower(A, B))  &  ~ ( ( ~ (r1_xxreal_0(k6_numbers, B))  &  ( ~ (v1_abian(A))  &  ~ (k1_power(A, B)=k4_xcmplx_0(k2_prepower(A, k4_xcmplx_0(B)))) ) ) ) ) ) ) ) ) ).
 - fof(t14_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  ( ( (r1_xxreal_0(k6_numbers, A) &  (r1_xxreal_0(1, B) & r1_xxreal_0(1, C)) )  |  ( ~ (v1_abian(B))  &  ~ (v1_abian(C)) ) )  => k1_power(B, k1_power(C, A))=k1_power(k4_nat_1(B, C), A)) ) ) ) ) ) ) ).

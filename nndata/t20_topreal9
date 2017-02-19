@@ -1,12 +1,12 @@
 C fof(t20_topreal9, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(A))) =>  ~ ( ( ~ (v1_xboole_0(k1_topreal9(A, C, B)))  & r1_xxreal_0(B, k6_numbers)) ) ) ) ) ) ) ) ).
++ fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(d6_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (v2_xxreal_0(A) <=>  ~ (r1_xxreal_0(A, k6_numbers)) ) ) ) ).
++ fof(fc1_topreal9, axiom,  (! [A, B, C] :  ( (v7_ordinal1(A) &  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) &  (v1_xreal_0(C) &  ~ (v2_xxreal_0(C)) ) ) )  => v1_xboole_0(k1_topreal9(A, B, C))) ) ).
 + fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
-+ fof(fc1_topreal9, axiom,  (! [A, B, C] :  ( (v7_ordinal1(A) &  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) &  (v1_xreal_0(C) &  ~ (v2_xxreal_0(C)) ) ) )  => v1_xboole_0(k1_topreal9(A, B, C))) ) ).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(d6_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (v2_xxreal_0(A) <=>  ~ (r1_xxreal_0(A, k6_numbers)) ) ) ) ).
 - fof(fc2_topreal9, axiom,  (! [A, B, C] :  ( (v7_ordinal1(A) &  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) &  (v1_xreal_0(C) & v2_xxreal_0(C)) ) )  =>  ~ (v1_xboole_0(k1_topreal9(A, B, C))) ) ) ).
 - fof(d1_topreal9, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(A))) =>  (! [C] :  (v1_xreal_0(C) => k1_topreal9(A, B, C)=a_3_0_topreal9(A, B, C)) ) ) ) ) ) ).
 - fof(t13_topreal9, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(A))) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(k14_euclid(A))) =>  (C=D => k9_metric_1(k14_euclid(A), D, B)=k1_topreal9(A, C, B)) ) ) ) ) ) ) ) ) ).

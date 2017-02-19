@@ -1,9 +1,9 @@
 C fof(t28_goedelcp, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k3_qc_lang1(A))) =>  ~ ( (v1_finset_1(B) &  (! [C] :  (m2_subset_1(C, k2_qc_lang1(A), k3_qc_lang1(A)) => r2_hidden(C, B)) ) ) ) ) ) ) ) ).
 + fof(dt_k3_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) => m1_subset_1(k3_qc_lang1(A), k1_zfmisc_1(k2_qc_lang1(A)))) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(fc2_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k2_qc_lang1(A))) ) ) ).
-+ fof(t28_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  ( (! [C] :  (m1_subset_1(C, A) => r2_hidden(C, B)) )  => A=B) ) ) ) ).
 + fof(fc3_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k3_qc_lang1(A))) ) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t28_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  ( (! [C] :  (m1_subset_1(C, A) => r2_hidden(C, B)) )  => A=B) ) ) ) ).
 + fof(t64_calcul_1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (k1_card_1(k3_qc_lang1(A))=k1_card_1(k1_qc_lang1(A)) &  ~ (v1_finset_1(k3_qc_lang1(A))) ) ) ) ).
 - fof(dt_k23_qc_lang1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_finseq_1(B, k2_qc_lang1(A)))  => m1_subset_1(k23_qc_lang1(A, B), k1_zfmisc_1(k3_qc_lang1(A)))) ) ).
 - fof(dt_k8_substut1, axiom,  (! [A, B] :  ( (m1_qc_lang1(A) & m1_finseq_1(B, k2_qc_lang1(A)))  => m1_subset_1(k8_substut1(A, B), k1_zfmisc_1(k3_qc_lang1(A)))) ) ).

@@ -1,7 +1,7 @@
 C fof(t1_pre_circ, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  ( (k9_xtuple_0(A)=k1_tarski(B) & k10_xtuple_0(A)=k1_tarski(C))  => A=k1_tarski(k4_tarski(B, C))) ) ) ) ) ).
-+ fof(t7_grfunc_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (k9_xtuple_0(B)=k1_tarski(A) => B=k1_tarski(k4_tarski(A, k1_funct_1(B, A)))) ) ) ) ).
 + fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
 + fof(t4_funct_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (k9_xtuple_0(B)=k1_tarski(A) => k10_xtuple_0(B)=k1_tarski(k1_funct_1(B, A))) ) ) ) ).
++ fof(t7_grfunc_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (k9_xtuple_0(B)=k1_tarski(A) => B=k1_tarski(k4_tarski(A, k1_funct_1(B, A)))) ) ) ) ).
 - fof(t9_relat_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) =>  (C=k1_tarski(k4_tarski(A, B)) =>  (k9_xtuple_0(C)=k1_tarski(A) & k10_xtuple_0(C)=k1_tarski(B)) ) ) ) ) ) ).
 - fof(t82_funct_4, axiom,  (! [A] :  (! [B] : k16_funcop_1(A, B)=k1_tarski(k4_tarski(A, B))) ) ).
 - fof(fc5_relat_1, axiom,  (! [A, B] : v1_relat_1(k1_tarski(k4_tarski(A, B)))) ).

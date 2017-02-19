@@ -1,11 +1,11 @@
 C fof(t21_card_3, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  ~ ( (r2_hidden(A, k3_card_3(k2_card_3(B))) &  (! [C] :  (! [D] :  ~ (A=k4_tarski(C, D)) ) ) ) ) ) ) ) ).
-+ fof(dt_k2_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_relat_1(k2_card_3(A)) & v1_funct_1(k2_card_3(A))) ) ) ).
-+ fof(d4_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => k3_card_3(A)=k3_tarski(k10_xtuple_0(A))) ) ).
-+ fof(d3_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (B=k10_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(D, k9_xtuple_0(A)) & C=k1_funct_1(A, D)) ) ) ) ) ) ) ) ).
 + fof(d1_relat_1, axiom,  (! [A] :  (v1_relat_1(A) <=>  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (! [D] :  ~ (B=k4_tarski(C, D)) ) ) ) ) ) ) ) ).
-+ fof(fc6_relat_1, axiom,  (! [A, B] : v1_relat_1(k2_zfmisc_1(A, B))) ).
-+ fof(d4_tarski, axiom,  (! [A] :  (! [B] :  (B=k3_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(C, D) & r2_hidden(D, A)) ) ) ) ) ) ) ).
 + fof(d3_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (B=k2_card_3(A) <=>  (k9_xtuple_0(B)=k9_xtuple_0(A) &  (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) => k1_funct_1(B, C)=k2_zfmisc_1(k1_funct_1(A, C), k1_tarski(C))) ) ) ) ) ) ) ) ).
++ fof(d3_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (B=k10_xtuple_0(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(D, k9_xtuple_0(A)) & C=k1_funct_1(A, D)) ) ) ) ) ) ) ) ).
++ fof(d4_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => k3_card_3(A)=k3_tarski(k10_xtuple_0(A))) ) ).
++ fof(d4_tarski, axiom,  (! [A] :  (! [B] :  (B=k3_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(C, D) & r2_hidden(D, A)) ) ) ) ) ) ) ).
++ fof(dt_k2_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_relat_1(k2_card_3(A)) & v1_funct_1(k2_card_3(A))) ) ) ).
++ fof(fc6_relat_1, axiom,  (! [A, B] : v1_relat_1(k2_zfmisc_1(A, B))) ).
 - fof(t7_card_3, axiom,  (! [A] :  (! [B] :  ( ~ (A=k1_xboole_0)  => k3_card_3(k7_funcop_1(A, B))=B) ) ) ).
 - fof(t5_card_3, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  ( (r2_hidden(A, k9_xtuple_0(C)) & r2_hidden(B, k9_xtuple_0(C)))  =>  (A=B | r1_xboole_0(k1_funct_1(k2_card_3(C), A), k1_funct_1(k2_card_3(C), B))) ) ) ) ) ) ).
 - fof(dt_o_3_1_card_3, axiom,  (! [A, B, C] :  ( (v1_relat_1(C) & v1_funct_1(C))  => m1_subset_1(o_3_1_card_3(A, B, C), k3_xboole_0(k1_funct_1(k2_card_3(C), A), k1_funct_1(k2_card_3(C), B)))) ) ).

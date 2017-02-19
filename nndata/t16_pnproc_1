@@ -1,18 +1,18 @@
 C fof(t16_pnproc_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  => r1_pnproc_1(A, k3_pnproc_1(A, B, k1_pnproc_1(A)), B)) ) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(fc6_relat_1, axiom,  (! [A, B] : v1_relat_1(k2_zfmisc_1(A, B))) ).
-+ fof(dt_k1_pnproc_1, axiom,  (! [A] :  (v1_funct_1(k1_pnproc_1(A)) &  (v1_funct_2(k1_pnproc_1(A), A, k5_numbers) & m1_subset_1(k1_pnproc_1(A), k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) ) ) ).
-+ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
-+ fof(t12_pnproc_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  => r2_pnproc_1(A, k1_pnproc_1(A), B)) ) ) ).
-+ fof(reflexivity_r1_pnproc_1, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  &  (v1_funct_1(C) &  (v1_funct_2(C, A, k5_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) ) )  => r1_pnproc_1(A, B, B)) ) ).
-+ fof(fc85_valued_0, axiom,  (! [A, B] :  (v1_membered(B) => v1_valued_0(k2_zfmisc_1(A, B))) ) ).
-+ fof(d5_pnproc_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, A, k5_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  =>  (r2_pnproc_1(A, C, B) =>  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, A, k5_numbers) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  =>  (D=k3_pnproc_1(A, B, C) <=>  (! [E] :  (r2_hidden(E, A) => k1_funct_1(D, E)=k6_xcmplx_0(k1_funct_1(B, E), k1_funct_1(C, E))) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t4_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k6_xcmplx_0(A, k6_numbers)=A) ) ).
-+ fof(l21_pnproc_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => k1_funct_1(k1_pnproc_1(B), A)=k6_numbers) ) ) ).
-+ fof(fc61_valued_0, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => v1_xcmplx_0(k1_funct_1(A, B))) ) ).
-+ fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
-+ fof(cc2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_relat_1(B)) ) ) ) ).
 + fof(cc10_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_valued_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_valued_0(B)) ) ) ) ).
++ fof(cc2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_relat_1(B)) ) ) ) ).
++ fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
++ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
++ fof(d5_pnproc_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, A, k5_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  =>  (r2_pnproc_1(A, C, B) =>  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, A, k5_numbers) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  =>  (D=k3_pnproc_1(A, B, C) <=>  (! [E] :  (r2_hidden(E, A) => k1_funct_1(D, E)=k6_xcmplx_0(k1_funct_1(B, E), k1_funct_1(C, E))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k1_pnproc_1, axiom,  (! [A] :  (v1_funct_1(k1_pnproc_1(A)) &  (v1_funct_2(k1_pnproc_1(A), A, k5_numbers) & m1_subset_1(k1_pnproc_1(A), k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) ) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(fc61_valued_0, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => v1_xcmplx_0(k1_funct_1(A, B))) ) ).
++ fof(fc6_relat_1, axiom,  (! [A, B] : v1_relat_1(k2_zfmisc_1(A, B))) ).
++ fof(fc85_valued_0, axiom,  (! [A, B] :  (v1_membered(B) => v1_valued_0(k2_zfmisc_1(A, B))) ) ).
++ fof(l21_pnproc_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => k1_funct_1(k1_pnproc_1(B), A)=k6_numbers) ) ) ).
++ fof(reflexivity_r1_pnproc_1, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  &  (v1_funct_1(C) &  (v1_funct_2(C, A, k5_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) ) )  => r1_pnproc_1(A, B, B)) ) ).
++ fof(t12_pnproc_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  => r2_pnproc_1(A, k1_pnproc_1(A), B)) ) ) ).
++ fof(t4_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k6_xcmplx_0(A, k6_numbers)=A) ) ).
 - fof(t14_pnproc_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  => r1_pnproc_1(A, k2_pnproc_1(A, B, k1_pnproc_1(A)), B)) ) ) ).
 - fof(d2_pnproc_1, axiom,  (! [A] : k1_pnproc_1(A)=k8_funcop_1(k5_numbers, A, k6_numbers)) ).
 - fof(dt_k3_pnproc_1, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  &  (v1_funct_1(C) &  (v1_funct_2(C, A, k5_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) ) )  =>  (v1_funct_1(k3_pnproc_1(A, B, C)) &  (v1_funct_2(k3_pnproc_1(A, B, C), A, k5_numbers) & m1_subset_1(k3_pnproc_1(A, B, C), k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) ) ) ) ).

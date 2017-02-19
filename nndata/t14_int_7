@@ -1,41 +1,41 @@
 C fof(t14_int_7, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k10_newton) &  (v1_funct_1(A) &  (v1_partfun1(A, k10_newton) &  (v4_valued_0(A) & v2_pre_poly(A)) ) ) ) )  =>  (v1_int_7(A) =>  (k8_nat_3(k10_newton, A)=1 <=> k1_polynom2(k10_newton, A)=k1_xboole_0) ) ) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
-+ fof(redefinition_k8_nat_3, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  => k8_nat_3(A, B)=k7_nat_3(A, B)) ) ).
++ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(cc4_relset_1, axiom,  (! [A, B] :  (v1_xboole_0(A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, A))) => v1_xboole_0(C)) ) ) ) ).
++ fof(cc6_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v3_valued_0(A))  =>  (v1_relat_1(A) & v1_valued_0(A)) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(cc8_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v4_valued_0(A))  =>  (v1_relat_1(A) & v3_valued_0(A)) ) ) ).
++ fof(d4_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_int_2(A) <=>  ( ~ (r1_xxreal_0(A, 1))  &  (! [B] :  (v7_ordinal1(B) =>  ~ ( (r1_int_1(B, A) &  ( ~ (B=1)  &  ~ (B=A) ) ) ) ) ) ) ) ) ) ).
 + fof(d5_nat_3, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v1_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (! [C] :  (v1_xcmplx_0(C) =>  (C=k7_nat_3(A, B) <=>  (? [D] :  (m2_finseq_1(D, k2_numbers) &  (C=k20_rvsum_1(D) & D=k3_relat_1(k1_uproots(k13_pre_poly(B)), B)) ) ) ) ) ) ) ) ) ).
 + fof(d6_finseq_1, axiom,  (! [A] : k6_finseq_1(A)=k1_xboole_0) ).
-+ fof(dt_k1_polynom2, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (v1_finset_1(k1_polynom2(A, B)) & m1_subset_1(k1_polynom2(A, B), k1_zfmisc_1(A))) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(redefinition_k1_polynom2, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  => k1_polynom2(A, B)=k13_pre_poly(B)) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(cc8_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v4_valued_0(A))  =>  (v1_relat_1(A) & v3_valued_0(A)) ) ) ).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
-+ fof(redefinition_k21_rvsum_1, axiom,  (! [A] :  (m1_finseq_1(A, k1_numbers) => k21_rvsum_1(A)=k19_rvsum_1(A)) ) ).
-+ fof(l10_int_7, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, k10_newton) &  (v1_funct_1(B) &  (v1_partfun1(B, k10_newton) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  ( (v1_int_7(B) & r2_hidden(A, k1_polynom2(k10_newton, B)))  =>  (r1_int_1(A, k8_nat_3(k10_newton, B)) &  (? [C] :  (v7_ordinal1(C) & r1_int_1(k1_newton(A, C), k8_nat_3(k10_newton, B))) ) ) ) ) ) ) ) ).
-+ fof(fc12_relat_1, axiom,  (! [A, B] :  ( (v1_xboole_0(A) & v1_relat_1(B))  =>  (v1_xboole_0(k3_relat_1(A, B)) & v1_relat_1(k3_relat_1(A, B))) ) ) ).
-+ fof(redefinition_k20_rvsum_1, axiom,  (! [A] :  (m1_finseq_1(A, k2_numbers) => k20_rvsum_1(A)=k19_rvsum_1(A)) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(dt_k7_nat_3, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v1_valued_0(B) & v2_pre_poly(B)) ) ) ) )  => v1_xcmplx_0(k7_nat_3(A, B))) ) ).
-+ fof(existence_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (? [C] : m2_subset_1(C, A, B)) ) ) ).
-+ fof(dt_k6_finseq_1, axiom,  (! [A] : m2_finseq_1(k6_finseq_1(A), A)) ).
-+ fof(cc6_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v3_valued_0(A))  =>  (v1_relat_1(A) & v1_valued_0(A)) ) ) ).
-+ fof(fc14_newton, axiom,  ( ~ (v1_xboole_0(k10_newton))  &  ~ (v1_finset_1(k10_newton)) ) ).
-+ fof(redefinition_r1_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  =>  (r1_nat_d(A, B) <=> r1_int_1(A, B)) ) ) ).
-+ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r1_r1, axiom, r1_xxreal_0(1, 1)).
-+ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(t94_rvsum_1, axiom, k21_rvsum_1(k6_finseq_1(k1_numbers))=1).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(cc4_relset_1, axiom,  (! [A, B] :  (v1_xboole_0(A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, A))) => v1_xboole_0(C)) ) ) ) ).
-+ fof(dt_k10_newton, axiom, m1_subset_1(k10_newton, k1_zfmisc_1(k5_numbers))).
-+ fof(d4_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_int_2(A) <=>  ( ~ (r1_xxreal_0(A, 1))  &  (! [B] :  (v7_ordinal1(B) =>  ~ ( (r1_int_1(B, A) &  ( ~ (B=1)  &  ~ (B=A) ) ) ) ) ) ) ) ) ) ).
 + fof(d6_newton, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k5_numbers)) =>  (A=k10_newton <=>  (! [B] :  (v7_ordinal1(B) =>  (r2_hidden(B, A) <=> v1_int_2(B)) ) ) ) ) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(t15_wsierp_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (r1_nat_d(A, 1) => A=1) ) ) ).
++ fof(dt_k10_newton, axiom, m1_subset_1(k10_newton, k1_zfmisc_1(k5_numbers))).
++ fof(dt_k1_polynom2, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (v1_finset_1(k1_polynom2(A, B)) & m1_subset_1(k1_polynom2(A, B), k1_zfmisc_1(A))) ) ) ).
 + fof(dt_k1_uproots, axiom,  (! [A] :  (v1_finset_1(A) => m2_finseq_1(k1_uproots(A), A)) ) ).
++ fof(dt_k6_finseq_1, axiom,  (! [A] : m2_finseq_1(k6_finseq_1(A), A)) ).
++ fof(dt_k7_nat_3, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v1_valued_0(B) & v2_pre_poly(B)) ) ) ) )  => v1_xcmplx_0(k7_nat_3(A, B))) ) ).
 + fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
++ fof(existence_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (? [C] : m2_subset_1(C, A, B)) ) ) ).
++ fof(fc12_relat_1, axiom,  (! [A, B] :  ( (v1_xboole_0(A) & v1_relat_1(B))  =>  (v1_xboole_0(k3_relat_1(A, B)) & v1_relat_1(k3_relat_1(A, B))) ) ) ).
++ fof(fc14_newton, axiom,  ( ~ (v1_xboole_0(k10_newton))  &  ~ (v1_finset_1(k10_newton)) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(l10_int_7, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, k10_newton) &  (v1_funct_1(B) &  (v1_partfun1(B, k10_newton) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  ( (v1_int_7(B) & r2_hidden(A, k1_polynom2(k10_newton, B)))  =>  (r1_int_1(A, k8_nat_3(k10_newton, B)) &  (? [C] :  (v7_ordinal1(C) & r1_int_1(k1_newton(A, C), k8_nat_3(k10_newton, B))) ) ) ) ) ) ) ) ).
++ fof(redefinition_k1_polynom2, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  => k1_polynom2(A, B)=k13_pre_poly(B)) ) ).
++ fof(redefinition_k20_rvsum_1, axiom,  (! [A] :  (m1_finseq_1(A, k2_numbers) => k20_rvsum_1(A)=k19_rvsum_1(A)) ) ).
++ fof(redefinition_k21_rvsum_1, axiom,  (! [A] :  (m1_finseq_1(A, k1_numbers) => k21_rvsum_1(A)=k19_rvsum_1(A)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k8_nat_3, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  => k8_nat_3(A, B)=k7_nat_3(A, B)) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(redefinition_r1_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  =>  (r1_nat_d(A, B) <=> r1_int_1(A, B)) ) ) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r1_r1, axiom, r1_xxreal_0(1, 1)).
 + fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t15_wsierp_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (r1_nat_d(A, 1) => A=1) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t94_rvsum_1, axiom, k21_rvsum_1(k6_finseq_1(k1_numbers))=1).
 - fof(l14_int_7, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, k10_newton) &  (v1_funct_1(B) &  (v1_partfun1(B, k10_newton) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  ( (v1_int_7(B) & r1_int_1(A, k8_nat_3(k10_newton, B)))  => r2_hidden(A, k1_polynom2(k10_newton, B))) ) ) ) ) ).
 - fof(l12_int_7, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m2_finseq_1(B, k5_numbers) =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, k10_newton) &  (v1_funct_1(C) &  (v1_partfun1(C, k10_newton) &  (v4_valued_0(C) & v2_pre_poly(C)) ) ) ) )  =>  (! [D] :  ( (v7_ordinal1(D) & v1_int_2(D))  =>  ( (k3_finseq_1(B)=A &  (v1_int_7(C) &  (r1_int_1(D, k8_nat_3(k10_newton, C)) &  (k8_nat_3(k10_newton, C)=k3_wsierp_1(B) & B=k3_relat_1(k1_uproots(k1_polynom2(k10_newton, C)), C)) ) ) )  =>  (k8_nat_3(k10_newton, C)=1 | r2_hidden(D, k1_polynom2(k10_newton, C))) ) ) ) ) ) ) ) ) ) ).
 - fof(t6_int_7, axiom,  (! [A] :  (m2_finseq_1(A, k5_numbers) =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, k10_newton) &  (v1_funct_1(B) &  (v1_partfun1(B, k10_newton) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (! [C] :  ( (v7_ordinal1(C) & v1_int_2(C))  =>  ( (v1_int_7(B) &  (r1_int_1(C, k8_nat_3(k10_newton, B)) &  (k8_nat_3(k10_newton, B)=k3_wsierp_1(A) & A=k3_relat_1(k1_uproots(k1_polynom2(k10_newton, B)), B)) ) )  =>  (k8_nat_3(k10_newton, B)=1 | r2_hidden(C, k1_polynom2(k10_newton, B))) ) ) ) ) ) ) ) ).

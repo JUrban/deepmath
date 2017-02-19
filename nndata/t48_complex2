@@ -1,16 +1,16 @@
 C fof(t48_complex2, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) =>  (! [B] :  (m1_subset_1(B, k2_numbers) => k1_complex2(k8_complex1(A, B), k8_complex1(A, B))=k8_complex1(k8_complex1(k8_complex1(k1_complex2(A, A), k1_complex2(A, B)), k1_complex2(B, A)), k1_complex2(B, B))) ) ) ) ).
-+ fof(dt_k14_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k14_complex1(A))) ) ).
-+ fof(redefinition_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(A)=k14_complex1(A)) ) ).
-+ fof(dt_k1_complex2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => m1_subset_1(k1_complex2(A, B), k2_numbers)) ) ).
 + fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(spc6_arithm, axiom,  (! [A, B, C] :  ( (v1_xcmplx_0(A) &  (v1_xcmplx_0(B) & v1_xcmplx_0(C)) )  => k2_xcmplx_0(k2_xcmplx_0(A, B), C)=k2_xcmplx_0(A, k2_xcmplx_0(B, C))) ) ).
-+ fof(spc5_arithm, axiom,  (! [A, B, C] :  ( (v1_xcmplx_0(A) &  (v1_xcmplx_0(B) & v1_xcmplx_0(C)) )  => k3_xcmplx_0(k2_xcmplx_0(A, B), C)=k2_xcmplx_0(k3_xcmplx_0(A, C), k3_xcmplx_0(B, C))) ) ).
-+ fof(t36_complex2, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) => k1_complex2(A, k8_complex1(B, C))=k8_complex1(k1_complex2(A, B), k1_complex2(A, C))) ) ) ) ) ) ).
-+ fof(dt_k8_complex1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_numbers) & m1_subset_1(B, k2_numbers))  => m1_subset_1(k8_complex1(A, B), k2_numbers)) ) ).
 + fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
 + fof(commutativity_k8_complex1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_numbers) & m1_subset_1(B, k2_numbers))  => k8_complex1(A, B)=k8_complex1(B, A)) ) ).
-+ fof(redefinition_k8_complex1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_numbers) & m1_subset_1(B, k2_numbers))  => k8_complex1(A, B)=k2_xcmplx_0(A, B)) ) ).
 + fof(d1_complex2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k1_complex2(A, B)=k3_xcmplx_0(A, k15_complex1(B))) ) ) ) ).
++ fof(dt_k14_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k14_complex1(A))) ) ).
++ fof(dt_k1_complex2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => m1_subset_1(k1_complex2(A, B), k2_numbers)) ) ).
++ fof(dt_k8_complex1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_numbers) & m1_subset_1(B, k2_numbers))  => m1_subset_1(k8_complex1(A, B), k2_numbers)) ) ).
++ fof(redefinition_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(A)=k14_complex1(A)) ) ).
++ fof(redefinition_k8_complex1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_numbers) & m1_subset_1(B, k2_numbers))  => k8_complex1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(spc5_arithm, axiom,  (! [A, B, C] :  ( (v1_xcmplx_0(A) &  (v1_xcmplx_0(B) & v1_xcmplx_0(C)) )  => k3_xcmplx_0(k2_xcmplx_0(A, B), C)=k2_xcmplx_0(k3_xcmplx_0(A, C), k3_xcmplx_0(B, C))) ) ).
++ fof(spc6_arithm, axiom,  (! [A, B, C] :  ( (v1_xcmplx_0(A) &  (v1_xcmplx_0(B) & v1_xcmplx_0(C)) )  => k2_xcmplx_0(k2_xcmplx_0(A, B), C)=k2_xcmplx_0(A, k2_xcmplx_0(B, C))) ) ).
++ fof(t36_complex2, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) => k1_complex2(A, k8_complex1(B, C))=k8_complex1(k1_complex2(A, B), k1_complex2(A, C))) ) ) ) ) ) ).
 - fof(t35_complex2, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) => k1_complex2(k8_complex1(A, B), C)=k8_complex1(k1_complex2(A, C), k1_complex2(B, C))) ) ) ) ) ) ).
 - fof(dt_k9_complex1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_numbers) & m1_subset_1(B, k2_numbers))  => m1_subset_1(k9_complex1(A, B), k2_numbers)) ) ).
 - fof(t37_complex2, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) => k1_complex2(k9_complex1(A, B), C)=k9_complex1(A, k1_complex2(B, C))) ) ) ) ) ) ).

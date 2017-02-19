@@ -1,19 +1,19 @@
 C fof(t75_ordinal6, axiom,  (! [A] :  (v3_ordinal1(A) => v4_ordinal5(k13_ordinal6(1, A))) ) ).
++ fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
++ fof(cc3_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v3_ordinal1(A)) ) ).
 + fof(cc6_card_1, axiom,  (! [A] :  ( (v3_ordinal1(A) & v1_finset_1(A))  => v7_ordinal1(A)) ) ).
-+ fof(t69_ordinal6, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) => k12_ordinal6(A, k12_ordinal6(k1_ordinal1(A), B))=k12_ordinal6(k1_ordinal1(A), B)) ) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(d5_ordinal5, axiom,  (! [A] :  (v3_ordinal1(A) =>  (v4_ordinal5(A) <=> k12_ordinal2(k4_ordinal1, A)=A) ) ) ).
++ fof(dt_k13_ordinal6, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v3_ordinal1(B))  => v3_ordinal1(k13_ordinal6(A, B))) ) ).
++ fof(redefinition_k13_ordinal6, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v3_ordinal1(B))  => k13_ordinal6(A, B)=k12_ordinal6(A, B)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(rqSucc__k1_ordinal1__r0_r1, axiom, k1_ordinal1(0)=1).
 + fof(spc0_boole, axiom, v1_xboole_0(0)).
 + fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(t68_ordinal6, axiom,  (! [A] :  (v3_ordinal1(A) => k13_ordinal6(k6_numbers, A)=k12_ordinal2(k4_ordinal1, A)) ) ).
-+ fof(dt_k13_ordinal6, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v3_ordinal1(B))  => v3_ordinal1(k13_ordinal6(A, B))) ) ).
-+ fof(cc3_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v3_ordinal1(A)) ) ).
-+ fof(redefinition_k13_ordinal6, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v3_ordinal1(B))  => k13_ordinal6(A, B)=k12_ordinal6(A, B)) ) ).
++ fof(t69_ordinal6, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) => k12_ordinal6(A, k12_ordinal6(k1_ordinal1(A), B))=k12_ordinal6(k1_ordinal1(A), B)) ) ) ) ).
 + fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(rqSucc__k1_ordinal1__r0_r1, axiom, k1_ordinal1(0)=1).
-+ fof(d5_ordinal5, axiom,  (! [A] :  (v3_ordinal1(A) =>  (v4_ordinal5(A) <=> k12_ordinal2(k4_ordinal1, A)=A) ) ) ).
-+ fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
 - fof(d17_ordinal6, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) => k13_ordinal6(A, B)=k1_funct_1(k1_funct_1(k11_ordinal6(k1_classes1(k2_xboole_0(B, k4_ordinal1))), A), B)) ) ) ) ).
 - fof(d6_ordinal5, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  ( (v3_ordinal1(B) & v4_ordinal5(B))  =>  (B=k2_ordinal5(A) <=>  (r2_hidden(A, B) &  (! [C] :  ( (v3_ordinal1(C) & v4_ordinal5(C))  =>  (r2_hidden(A, C) => r1_ordinal1(B, C)) ) ) ) ) ) ) ) ) ).
 - fof(t49_ordinal5, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( (! [B] :  (r2_hidden(B, A) =>  ( (v3_ordinal1(B) & v4_ordinal5(B))  &  (? [C] :  ( (v3_ordinal1(C) & v4_ordinal5(C))  &  (r2_hidden(B, C) & r2_hidden(C, A)) ) ) ) ) )  =>  (v3_ordinal1(k3_tarski(A)) & v4_ordinal5(k3_tarski(A))) ) ) ) ).

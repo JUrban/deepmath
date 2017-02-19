@@ -1,12 +1,12 @@
 C fof(t9_rfunct_3, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  => k8_relset_1(A, k1_numbers, k56_valued_1(A, k1_numbers, B), k1_tarski(k6_numbers))=k8_relset_1(A, k1_numbers, B, k1_tarski(k6_numbers))) ) ) ) ).
-+ fof(redefinition_k8_relset_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => k8_relset_1(A, B, C, D)=k8_relat_1(C, D)) ) ).
-+ fof(dt_k56_valued_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (v1_funct_1(k56_valued_1(A, B, C)) & m1_subset_1(k56_valued_1(A, B, C), k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) ) ) ).
-+ fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
-+ fof(redefinition_k56_valued_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  => k56_valued_1(A, B, C)=k54_valued_1(C)) ) ).
-+ fof(t5_rfunct_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  =>  (k8_relat_1(k54_valued_1(A), k1_tarski(k6_numbers))=k8_relat_1(A, k1_tarski(k6_numbers)) & k8_relat_1(k30_valued_1(A), k1_tarski(k6_numbers))=k8_relat_1(A, k1_tarski(k6_numbers))) ) ) ).
-+ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
 + fof(cc16_valued_0, axiom,  (! [A, B] :  (v1_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_valued_0(C)) ) ) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
++ fof(dt_k56_valued_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (v1_funct_1(k56_valued_1(A, B, C)) & m1_subset_1(k56_valued_1(A, B, C), k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) ) ) ).
++ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
++ fof(redefinition_k56_valued_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) &  (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  => k56_valued_1(A, B, C)=k54_valued_1(C)) ) ).
++ fof(redefinition_k8_relset_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => k8_relset_1(A, B, C, D)=k8_relat_1(C, D)) ) ).
++ fof(t5_rfunct_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  =>  (k8_relat_1(k54_valued_1(A), k1_tarski(k6_numbers))=k8_relat_1(A, k1_tarski(k6_numbers)) & k8_relat_1(k30_valued_1(A), k1_tarski(k6_numbers))=k8_relat_1(A, k1_tarski(k6_numbers))) ) ) ).
 - fof(t8_rfunct_3, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  ( ~ (r1_xxreal_0(C, k6_numbers))  => k8_relset_1(A, k1_numbers, k56_valued_1(A, k1_numbers, B), k1_tarski(C))=k8_relset_1(A, k1_numbers, B, k2_tarski(k1_real_1(C), C))) ) ) ) ) ) ) ).
 - fof(l23_fdiff_2, axiom,  (! [A] :  ( (v1_funct_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  => k8_relset_1(k1_numbers, k1_numbers, k20_valued_1(k1_numbers, k1_numbers, k1_numbers, A, A), k1_tarski(k6_numbers))=k8_relset_1(k1_numbers, k1_numbers, A, k1_tarski(k6_numbers))) ) ).
 - fof(t10_cfunct_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k2_numbers))))  =>  (k8_relset_1(A, k1_numbers, k55_valued_1(A, k2_numbers, B), k1_tarski(k6_numbers))=k8_relset_1(A, k2_numbers, B, k1_tarski(k6_numbers)) & k8_relset_1(A, k2_numbers, k31_valued_1(A, k2_numbers, B), k1_tarski(k6_numbers))=k8_relset_1(A, k2_numbers, B, k1_tarski(k6_numbers))) ) ) ) ) ).

@@ -1,19 +1,19 @@
 C fof(t14_petri, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  &  (v2_petri(A) &  (v3_petri(A) & l1_petri(A)) ) ) )  =>  (u1_struct_0(A)=u1_struct_0(k11_petri(A)) &  (u4_struct_0(A)=u4_struct_0(k11_petri(A)) &  (k10_petri(u1_struct_0(A), u4_struct_0(A), u1_petri(A))=u2_petri(k11_petri(A)) & k10_petri(u4_struct_0(A), u1_struct_0(A), u2_petri(A))=u1_petri(k11_petri(A))) ) ) ) ) ).
-+ fof(dt_l1_petri, axiom,  (! [A] :  (l1_petri(A) => l5_struct_0(A)) ) ).
-+ fof(fc3_petri, axiom,  (! [A] :  ( (v3_petri(A) & l1_petri(A))  =>  ~ (v1_xboole_0(u2_petri(A))) ) ) ).
-+ fof(d12_petri, axiom,  (! [A] :  (l1_petri(A) => k11_petri(A)=g1_petri(u1_struct_0(A), u4_struct_0(A), k3_relset_1(u4_struct_0(A), u1_struct_0(A), u2_petri(A)), k3_relset_1(u1_struct_0(A), u4_struct_0(A), u1_petri(A)))) ) ).
-+ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
-+ fof(dt_k3_relset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => m1_subset_1(k3_relset_1(A, B, C), k1_zfmisc_1(k2_zfmisc_1(B, A)))) ) ).
-+ fof(redefinition_k3_relset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => k3_relset_1(A, B, C)=k2_relat_1(C)) ) ).
-+ fof(fc2_petri, axiom,  (! [A] :  ( (v2_petri(A) & l1_petri(A))  =>  ~ (v1_xboole_0(u1_petri(A))) ) ) ).
-+ fof(free_g1_petri, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(B, A))))  =>  (! [E, F, G, H] :  (g1_petri(A, B, C, D)=g1_petri(E, F, G, H) =>  (A=E &  (B=F &  (C=G & D=H) ) ) ) ) ) ) ).
-+ fof(fc14_struct_0, axiom,  (! [A] :  ( ( ~ (v11_struct_0(A))  & l5_struct_0(A))  =>  ~ (v1_xboole_0(u4_struct_0(A))) ) ) ).
-+ fof(dt_u1_petri, axiom,  (! [A] :  (l1_petri(A) => m1_subset_1(u1_petri(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u4_struct_0(A))))) ) ).
-+ fof(dt_l5_struct_0, axiom,  (! [A] :  (l5_struct_0(A) => l1_struct_0(A)) ) ).
-+ fof(redefinition_k10_petri, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  ( ~ (v1_xboole_0(C))  & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) )  => k10_petri(A, B, C)=k2_relat_1(C)) ) ).
 + fof(abstractness_v1_petri, axiom,  (! [A] :  (l1_petri(A) =>  (v1_petri(A) => A=g1_petri(u1_struct_0(A), u4_struct_0(A), u1_petri(A), u2_petri(A))) ) ) ).
++ fof(d12_petri, axiom,  (! [A] :  (l1_petri(A) => k11_petri(A)=g1_petri(u1_struct_0(A), u4_struct_0(A), k3_relset_1(u4_struct_0(A), u1_struct_0(A), u2_petri(A)), k3_relset_1(u1_struct_0(A), u4_struct_0(A), u1_petri(A)))) ) ).
 + fof(dt_g1_petri, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(B, A))))  =>  (v1_petri(g1_petri(A, B, C, D)) & l1_petri(g1_petri(A, B, C, D))) ) ) ).
++ fof(dt_k3_relset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => m1_subset_1(k3_relset_1(A, B, C), k1_zfmisc_1(k2_zfmisc_1(B, A)))) ) ).
++ fof(dt_l1_petri, axiom,  (! [A] :  (l1_petri(A) => l5_struct_0(A)) ) ).
++ fof(dt_l5_struct_0, axiom,  (! [A] :  (l5_struct_0(A) => l1_struct_0(A)) ) ).
++ fof(dt_u1_petri, axiom,  (! [A] :  (l1_petri(A) => m1_subset_1(u1_petri(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u4_struct_0(A))))) ) ).
 + fof(dt_u2_petri, axiom,  (! [A] :  (l1_petri(A) => m1_subset_1(u2_petri(A), k1_zfmisc_1(k2_zfmisc_1(u4_struct_0(A), u1_struct_0(A))))) ) ).
++ fof(fc14_struct_0, axiom,  (! [A] :  ( ( ~ (v11_struct_0(A))  & l5_struct_0(A))  =>  ~ (v1_xboole_0(u4_struct_0(A))) ) ) ).
++ fof(fc2_petri, axiom,  (! [A] :  ( (v2_petri(A) & l1_petri(A))  =>  ~ (v1_xboole_0(u1_petri(A))) ) ) ).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(fc3_petri, axiom,  (! [A] :  ( (v3_petri(A) & l1_petri(A))  =>  ~ (v1_xboole_0(u2_petri(A))) ) ) ).
++ fof(free_g1_petri, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(B, A))))  =>  (! [E, F, G, H] :  (g1_petri(A, B, C, D)=g1_petri(E, F, G, H) =>  (A=E &  (B=F &  (C=G & D=H) ) ) ) ) ) ) ).
++ fof(redefinition_k10_petri, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  ( ~ (v1_xboole_0(C))  & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) )  => k10_petri(A, B, C)=k2_relat_1(C)) ) ).
++ fof(redefinition_k3_relset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => k3_relset_1(A, B, C)=k2_relat_1(C)) ) ).
 - fof(l26_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  ( (v1_graph_1(B) & m3_graph_1(B, A))  =>  (! [C] :  ( (v1_graph_1(C) & m3_graph_1(C, A))  =>  ( (u1_struct_0(B)=u1_struct_0(C) & u4_struct_0(B)=u4_struct_0(C))  => B=C) ) ) ) ) ) ) ).
 - fof(t13_petri, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  &  (v2_petri(A) &  (v3_petri(A) & l1_petri(A)) ) ) )  => k11_petri(k11_petri(A))=g1_petri(u1_struct_0(A), u4_struct_0(A), u1_petri(A), u2_petri(A))) ) ).
 - fof(t15_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  ( (v1_graph_1(B) & m3_graph_1(B, A))  =>  (! [C] :  ( (v1_graph_1(C) & m3_graph_1(C, A))  =>  ( (u1_struct_0(B)=u1_struct_0(C) & u4_struct_0(B)=u4_struct_0(C))  => B=C) ) ) ) ) ) ) ).

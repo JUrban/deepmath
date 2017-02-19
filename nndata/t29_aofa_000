@@ -1,12 +1,12 @@
 C fof(t29_aofa_000, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (k6_unialg_2(A)=k1_xboole_0 =>  (! [B] :  (m1_freealg(B, A) =>  ~ (B=k1_xboole_0) ) ) ) ) ) ).
-+ fof(fc3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => v1_xboole_0(k1_struct_0(A))) ) ).
-+ fof(dt_m1_freealg, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (! [B] :  (m1_freealg(B, A) => m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A)))) ) ) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
-+ fof(dt_l1_unialg_1, axiom,  (! [A] :  (l1_unialg_1(A) => l1_struct_0(A)) ) ).
 + fof(d4_freealg, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (m1_freealg(B, A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  ( (v1_unialg_2(C, A) & r1_tarski(B, C))  => C=u1_struct_0(A)) ) ) ) ) ) ) ) ).
-+ fof(t28_aofa_000, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (k6_unialg_2(A)=k1_xboole_0 => v1_unialg_2(k1_struct_0(A), A)) ) ) ).
++ fof(dt_l1_unialg_1, axiom,  (! [A] :  (l1_unialg_1(A) => l1_struct_0(A)) ) ).
++ fof(dt_m1_freealg, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (! [B] :  (m1_freealg(B, A) => m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A)))) ) ) ) ).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(fc3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => v1_xboole_0(k1_struct_0(A))) ) ).
 + fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t28_aofa_000, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (k6_unialg_2(A)=k1_xboole_0 => v1_unialg_2(k1_struct_0(A), A)) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 - fof(l7_freealg, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  ( ~ ( (B=k1_xboole_0 & k6_unialg_2(A)=k1_xboole_0) )  =>  (m1_freealg(B, A) <=> u1_struct_0(k7_unialg_2(A, B))=u1_struct_0(A)) ) ) ) ) ) ).
 - fof(t6_unialg_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) &  (v2_unialg_2(A) & l1_unialg_1(A)) ) ) ) )  =>  (! [B] :  (m1_unialg_2(B, A) => k6_unialg_2(A)=k6_unialg_2(B)) ) ) ) ).
 - fof(l6_freealg, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_unialg_1(A) &  (v3_unialg_1(A) &  (v4_unialg_1(A) & l1_unialg_1(A)) ) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v1_unialg_2(B, A) => r1_tarski(k6_unialg_2(A), B)) ) ) ) ) ).

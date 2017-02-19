@@ -1,7 +1,7 @@
 C fof(l1_fomodel4, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(A, k1_zfmisc_1(k1_funct_2(B, C))) => m1_subset_1(A, k1_zfmisc_1(k1_zfmisc_1(k2_zfmisc_1(B, C))))) ) ) ) ).
 + fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 + fof(t2_fraenkel, axiom,  (! [A] :  (! [B] : r1_tarski(k1_funct_2(A, B), k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 - fof(dt_k4_cardfin2, axiom,  (! [A, B] : m1_subset_1(k4_cardfin2(A, B), k1_zfmisc_1(k1_funct_2(A, B)))) ).
 - fof(s8_domain_1__e1_42__relset_2, axiom,  (! [A, B, C, D, E, F] :  ( (m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(k2_zfmisc_1(A, B)))) & m1_subset_1(F, k1_zfmisc_1(D)))  => m1_subset_1(a_6_0_relset_2(A, B, C, D, E, F), k1_zfmisc_1(k1_zfmisc_1(E)))) ) ).
 - fof(s2_funct_2__e7_65__card_fin, axiom,  (! [A, B] :  ( (v1_finset_1(A) & v1_finset_1(B))  =>  ( (! [C] :  (r2_hidden(C, B) => r2_hidden(a_3_2_card_fin(A, B, C), k1_zfmisc_1(k1_funct_2(A, B)))) )  =>  (? [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, B, k1_zfmisc_1(k1_funct_2(A, B))) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, k1_zfmisc_1(k1_funct_2(A, B)))))) )  &  (! [D] :  (r2_hidden(D, B) => k1_funct_1(C, D)=a_3_2_card_fin(A, B, D)) ) ) ) ) ) ) ).

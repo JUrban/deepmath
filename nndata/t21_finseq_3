@@ -1,7 +1,7 @@
 C fof(t21_finseq_3, axiom,  (! [A] :  (! [B] :  (! [C] :  (v7_ordinal1(C) =>  (k2_finseq_1(C)=k2_tarski(A, B) =>  (A=B |  (C=2 & k2_tarski(A, B)=k2_tarski(1, 2)) ) ) ) ) ) ) ).
-+ fof(t57_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => k5_card_1(k2_finseq_1(A))=A) ) ).
-+ fof(t57_card_2, axiom,  (! [A] :  (! [B] :  ( ~ (A=B)  => k5_card_1(k2_tarski(A, B))=2) ) ) ).
 + fof(t2_finseq_1, axiom,  (k2_finseq_1(1)=k1_tarski(1) & k2_finseq_1(2)=k2_tarski(1, 2)) ).
++ fof(t57_card_2, axiom,  (! [A] :  (! [B] :  ( ~ (A=B)  => k5_card_1(k2_tarski(A, B))=2) ) ) ).
++ fof(t57_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => k5_card_1(k2_finseq_1(A))=A) ) ).
 - fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
 - fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
 - fof(t6_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ~ ( (k2_tarski(A, B)=k2_tarski(C, D) &  ( ~ (A=C)  &  ~ (A=D) ) ) ) ) ) ) ) ).

@@ -1,10 +1,10 @@
 C fof(t29_matrprob, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(k1_numbers)))  => k5_matrprob(A)=k18_rvsum_1(k4_matrprob(A))) ) ).
-+ fof(dt_k4_matrix_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  (v1_matrix_1(B) & m1_finseq_1(B, k3_finseq_2(A))) )  =>  (v1_matrix_1(k4_matrix_1(A, B)) & m2_finseq_1(k4_matrix_1(A, B), k3_finseq_2(A))) ) ) ).
 + fof(d3_matrprob, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(k1_numbers)))  => k5_matrprob(A)=k18_rvsum_1(k3_matrprob(A))) ) ).
++ fof(dt_k4_matrix_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  (v1_matrix_1(B) & m1_finseq_1(B, k3_finseq_2(A))) )  =>  (v1_matrix_1(k4_matrix_1(A, B)) & m2_finseq_1(k4_matrix_1(A, B), k3_finseq_2(A))) ) ) ).
 + fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 + fof(t22_matrprob, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(k1_numbers)))  => k4_matrprob(A)=k3_matrprob(k4_matrix_1(k1_numbers, A))) ) ).
 + fof(t28_matrprob, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(k1_numbers)))  => k5_matrprob(A)=k5_matrprob(k4_matrix_1(k1_numbers, A))) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 - fof(d2_matrprob, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(k1_numbers)))  =>  (! [B] :  (m2_finseq_1(B, k1_numbers) =>  (B=k4_matrprob(A) <=>  (k3_finseq_1(B)=k1_matrix_1(A) &  (! [C] :  (v7_ordinal1(C) =>  (r2_hidden(C, k2_finseq_1(k1_matrix_1(A))) => k1_seq_1(B, C)=k18_rvsum_1(k9_matrix_1(k1_numbers, A, C))) ) ) ) ) ) ) ) ) ).
 - fof(dt_k4_matrprob, axiom,  (! [A] :  ( (v1_matrix_1(A) & m1_finseq_1(A, k3_finseq_2(k1_numbers)))  => m2_finseq_1(k4_matrprob(A), k1_numbers)) ) ).
 - fof(t20_matrprob, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(k1_numbers)))  =>  (k3_finseq_1(k3_matrprob(A))=k3_finseq_1(A) &  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (r2_hidden(B, k2_finseq_1(k3_finseq_1(A))) => k1_seq_1(k3_matrprob(A), B)=k18_rvsum_1(k8_matrix_1(k1_numbers, A, B))) ) ) ) ) ) ).

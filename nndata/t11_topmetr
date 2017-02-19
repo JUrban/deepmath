@@ -1,14 +1,14 @@
 C fof(t11_topmetr, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k8_metric_1)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k8_metric_1)) =>  (! [C] :  (v1_xreal_0(C) =>  (! [D] :  (v1_xreal_0(D) =>  ( (C=A & D=B)  => k4_metric_1(k8_metric_1, A, B)=k18_complex1(k6_xcmplx_0(C, D))) ) ) ) ) ) ) ) ) ).
 + fof(abstractness_v1_metric_1, axiom,  (! [A] :  (l1_metric_1(A) =>  (v1_metric_1(A) => A=g1_metric_1(u1_struct_0(A), u1_metric_1(A))) ) ) ).
-+ fof(redefinition_k4_metric_1, axiom,  (! [A, B, C] :  ( ( (v8_metric_1(A) & l1_metric_1(A))  &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => k4_metric_1(A, B, C)=k2_metric_1(A, B, C)) ) ).
-+ fof(redefinition_k9_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k9_real_1(A, B)=k6_xcmplx_0(A, B)) ) ).
-+ fof(d1_metric_1, axiom,  (! [A] :  (l1_metric_1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => k2_metric_1(A, B, C)=k1_metric_1(u1_struct_0(A), u1_struct_0(A), u1_metric_1(A), B, C)) ) ) ) ) ) ).
 + fof(d12_metric_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_zfmisc_1(k1_numbers, k1_numbers), k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers), k1_numbers)))) )  =>  (A=k7_metric_1 <=>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) => k1_metric_1(k1_numbers, k1_numbers, A, B, C)=k18_complex1(k9_real_1(B, C))) ) ) ) ) ) ) ).
 + fof(d13_metric_1, axiom, k8_metric_1=g1_metric_1(k1_numbers, k7_metric_1)).
-+ fof(dt_k8_metric_1, axiom,  (v1_metric_1(k8_metric_1) & l1_metric_1(k8_metric_1)) ).
-+ fof(free_g1_metric_1, axiom,  (! [A, B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), k1_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), k1_numbers)))) )  =>  (! [C, D] :  (g1_metric_1(A, B)=g1_metric_1(C, D) =>  (A=C & B=D) ) ) ) ) ).
++ fof(d1_metric_1, axiom,  (! [A] :  (l1_metric_1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => k2_metric_1(A, B, C)=k1_metric_1(u1_struct_0(A), u1_struct_0(A), u1_metric_1(A), B, C)) ) ) ) ) ) ).
 + fof(dt_k7_metric_1, axiom,  (v1_funct_1(k7_metric_1) &  (v1_funct_2(k7_metric_1, k2_zfmisc_1(k1_numbers, k1_numbers), k1_numbers) & m1_subset_1(k7_metric_1, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers), k1_numbers)))) ) ).
++ fof(dt_k8_metric_1, axiom,  (v1_metric_1(k8_metric_1) & l1_metric_1(k8_metric_1)) ).
 + fof(fc6_metric_1, axiom,  (v1_metric_1(k8_metric_1) &  (v6_metric_1(k8_metric_1) &  (v7_metric_1(k8_metric_1) &  (v8_metric_1(k8_metric_1) & v9_metric_1(k8_metric_1)) ) ) ) ).
++ fof(free_g1_metric_1, axiom,  (! [A, B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), k1_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), k1_numbers)))) )  =>  (! [C, D] :  (g1_metric_1(A, B)=g1_metric_1(C, D) =>  (A=C & B=D) ) ) ) ) ).
++ fof(redefinition_k4_metric_1, axiom,  (! [A, B, C] :  ( ( (v8_metric_1(A) & l1_metric_1(A))  &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => k4_metric_1(A, B, C)=k2_metric_1(A, B, C)) ) ).
++ fof(redefinition_k9_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k9_real_1(A, B)=k6_xcmplx_0(A, B)) ) ).
 - fof(d5_pcomps_1, axiom,  (! [A] :  (l1_metric_1(A) => k3_pcomps_1(A)=g1_pre_topc(u1_struct_0(A), k2_pcomps_1(A))) ) ).
 - fof(d3_topmetr, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, B) =>  (! [C] :  ( ( ~ (v2_struct_0(C))  &  (v1_metric_1(C) & m1_topmetr(C, k8_metric_1)) )  =>  (C=k2_topmetr(A, B) <=>  (! [D] :  ( ( ~ (v1_xboole_0(D))  & m1_subset_1(D, k1_zfmisc_1(u1_struct_0(k8_metric_1))))  =>  (D=k1_rcomp_1(A, B) => C=k1_topmetr(k8_metric_1, D)) ) ) ) ) ) ) ) ) ) ) ).
 - fof(l54_borsuk_1, axiom, k3_pcomps_1(k8_metric_1)=g1_pre_topc(u1_struct_0(k8_metric_1), k2_pcomps_1(k8_metric_1))).

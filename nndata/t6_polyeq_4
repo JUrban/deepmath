@@ -1,10 +1,10 @@
 C fof(t6_polyeq_4, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (k4_polyeq_1(A, k6_numbers, k6_numbers, B)=k6_numbers =>  (A=k6_numbers | B=k6_numbers) ) ) ) ) ) ).
 + fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(t5_polyeq_4, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  ~ ( ( ~ (A=k6_numbers)  &  (k4_polyeq_1(A, B, k6_numbers, C)=k6_numbers &  ( ~ (C=k6_numbers)  &  ~ (C=k4_xcmplx_0(k7_xcmplx_0(B, A))) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t5_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k7_xcmplx_0(k6_numbers, A)=k6_numbers) ) ).
++ fof(involutiveness_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => k4_xcmplx_0(k4_xcmplx_0(A))=A) ) ).
 + fof(l19_arytm_0, axiom, m1_subset_1(k6_numbers, k1_numbers)).
 + fof(t134_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (k4_xcmplx_0(A)=k6_numbers => A=k6_numbers) ) ) ).
-+ fof(involutiveness_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => k4_xcmplx_0(k4_xcmplx_0(A))=A) ) ).
++ fof(t5_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k7_xcmplx_0(k6_numbers, A)=k6_numbers) ) ).
++ fof(t5_polyeq_4, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  ~ ( ( ~ (A=k6_numbers)  &  (k4_polyeq_1(A, B, k6_numbers, C)=k6_numbers &  ( ~ (C=k6_numbers)  &  ~ (C=k4_xcmplx_0(k7_xcmplx_0(B, A))) ) ) ) ) ) ) ) ) ) ) ).
 - fof(redefinition_k4_polyeq_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(A, k1_numbers) &  (m1_subset_1(B, k1_numbers) &  (m1_subset_1(C, k1_numbers) & m1_subset_1(D, k1_numbers)) ) )  => k4_polyeq_1(A, B, C, D)=k3_polyeq_1(A, B, C, D)) ) ).
 - fof(dt_k4_polyeq_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(A, k1_numbers) &  (m1_subset_1(B, k1_numbers) &  (m1_subset_1(C, k1_numbers) & m1_subset_1(D, k1_numbers)) ) )  => m1_subset_1(k4_polyeq_1(A, B, C, D), k1_numbers)) ) ).
 - fof(d4_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  ( ( ~ (A=k6_numbers)  =>  (B=k4_arytm_0(A) <=> k2_arytm_0(A, B)=1) )  &  (A=k6_numbers =>  (B=k4_arytm_0(A) <=> B=k6_numbers) ) ) ) ) ) ) ).

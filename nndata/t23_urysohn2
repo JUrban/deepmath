@@ -1,12 +1,12 @@
 C fof(t23_urysohn2, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => r1_tarski(k1_urysohn1(A), k2_urysohn1)) ) ).
-+ fof(d2_urysohn1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (A=k2_urysohn1 <=>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (r2_hidden(B, A) <=>  (? [C] :  (m1_subset_1(C, k5_numbers) & r2_hidden(B, k1_urysohn1(C))) ) ) ) ) ) ) ) ).
-+ fof(dt_k2_urysohn1, axiom, m1_subset_1(k2_urysohn1, k1_zfmisc_1(k1_numbers))).
-+ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(d2_xxreal_0, axiom, k1_xxreal_0=k1_numbers).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(d2_urysohn1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (A=k2_urysohn1 <=>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (r2_hidden(B, A) <=>  (? [C] :  (m1_subset_1(C, k5_numbers) & r2_hidden(B, k1_urysohn1(C))) ) ) ) ) ) ) ) ).
++ fof(d2_xxreal_0, axiom, k1_xxreal_0=k1_numbers).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 + fof(dt_k1_urysohn1, axiom,  (! [A] :  (v7_ordinal1(A) => m1_subset_1(k1_urysohn1(A), k1_zfmisc_1(k1_numbers))) ) ).
++ fof(dt_k2_urysohn1, axiom, m1_subset_1(k2_urysohn1, k1_zfmisc_1(k1_numbers))).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 - fof(t5_urysohn1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => r1_tarski(k1_urysohn1(A), k1_urysohn1(k2_nat_1(A, 1)))) ) ).
 - fof(d5_urysohn1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m2_subset_1(B, k1_numbers, k1_urysohn1(A)) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (C=k6_urysohn1(A, B) <=> B=k6_real_1(C, k2_newton(2, A))) ) ) ) ) ) ) ).
 - fof(d1_urysohn1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_numbers)) =>  (B=k1_urysohn1(A) <=>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (r2_hidden(C, B) <=>  (? [D] :  (m1_subset_1(D, k5_numbers) &  (r1_xxreal_0(D, k2_newton(2, A)) & C=k6_real_1(D, k2_newton(2, A))) ) ) ) ) ) ) ) ) ) ) ).

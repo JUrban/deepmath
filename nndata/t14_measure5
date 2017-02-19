@@ -1,14 +1,14 @@
 C fof(t14_measure5, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  ( ( ~ (v1_xboole_0(A))  & v2_measure5(A))  <=>  (? [B] :  (m1_subset_1(B, k1_numbers) &  (? [C] :  (m1_subset_1(C, k1_numbers) &  (r1_xxreal_0(B, C) & A=k1_rcomp_1(B, C)) ) ) ) ) ) ) ) ).
-+ fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
-+ fof(t30_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ~ ( (r1_xxreal_0(A, B) & v1_xboole_0(k1_xxreal_1(A, B))) ) ) ) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(d3_measure5, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (v2_measure5(A) <=>  (? [B] :  (v1_xreal_0(B) &  (? [C] :  (v1_xreal_0(C) & A=k1_rcomp_1(B, C)) ) ) ) ) ) ) ).
 + fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
 + fof(redefinition_k1_rcomp_1, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k1_rcomp_1(A, B)=k1_xxreal_1(A, B)) ) ).
-+ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(d3_measure5, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (v2_measure5(A) <=>  (? [B] :  (v1_xreal_0(B) &  (? [C] :  (v1_xreal_0(C) & A=k1_rcomp_1(B, C)) ) ) ) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 + fof(t29_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( ~ (r1_xxreal_0(B, A))  => k1_xxreal_1(B, A)=k1_xboole_0) ) ) ) ) ).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(t30_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ~ ( (r1_xxreal_0(A, B) & v1_xboole_0(k1_xxreal_1(A, B))) ) ) ) ) ) ).
 - fof(rc2_measure5, axiom,  (? [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) &  ( ~ (v1_xboole_0(A))  &  (v1_membered(A) &  (v2_membered(A) &  (v3_membered(A) & v2_measure5(A)) ) ) ) ) ) ).
 - fof(t1_measure5, axiom,  (! [A] :  ( (v6_xxreal_2(A) & m1_subset_1(A, k1_zfmisc_1(k1_numbers)))  =>  ~ ( ( ~ (v1_measure5(A))  &  ( ~ (v2_measure5(A))  &  ( ~ (v3_measure5(A))  &  ~ (v4_measure5(A)) ) ) ) ) ) ) ).
 - fof(cc2_measure5, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (v2_measure5(A) => v6_xxreal_2(A)) ) ) ).

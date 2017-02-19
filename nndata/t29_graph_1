@@ -1,5 +1,5 @@
 C fof(t29_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_graph_1(A) & l1_graph_1(A)) )  => r2_hidden(A, k11_graph_1(A))) ) ).
-+ fof(t28_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v1_graph_1(B) & l1_graph_1(B)) )  =>  (r2_hidden(B, k11_graph_1(A)) <=> r4_graph_1(B, A)) ) ) ) ) ).
 + fof(reflexivity_r4_graph_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  &  ( ~ (v2_struct_0(B))  & l1_graph_1(B)) )  => r4_graph_1(A, A)) ) ).
++ fof(t28_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v1_graph_1(B) & l1_graph_1(B)) )  =>  (r2_hidden(B, k11_graph_1(A)) <=> r4_graph_1(B, A)) ) ) ) ) ).
 - fof(d25_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  (B=k11_graph_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (v1_graph_1(C) & m3_graph_1(C, A)) ) ) ) ) ) ) ).
 - fof(d24_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & l1_graph_1(B))  =>  (r4_graph_1(A, B) <=> m3_graph_1(A, B)) ) ) ) ) ).

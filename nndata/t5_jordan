@@ -1,8 +1,8 @@
 C fof(t5_jordan, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))) =>  (! [B] :  ( (v1_sppol_1(B) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))))  => v1_sppol_1(k9_subset_1(u1_struct_0(k15_euclid(2)), B, A))) ) ) ) ).
-+ fof(redefinition_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k9_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
 + fof(d2_sppol_1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))) =>  (v1_sppol_1(A) <=>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(2))) =>  ( (r2_hidden(B, A) & r2_hidden(C, A))  => k18_euclid(B)=k18_euclid(C)) ) ) ) ) ) ) ) ).
-+ fof(dt_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => m1_subset_1(k9_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
 + fof(d4_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k3_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) & r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(dt_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => m1_subset_1(k9_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
++ fof(redefinition_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k9_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
 - fof(t16_sprect_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v2_compts_1(A, k15_euclid(2)) & m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k15_euclid(2))))) )  =>  (v1_sppol_1(A) <=> k9_pscomp_1(A)=k7_pscomp_1(A)) ) ) ).
 - fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 - fof(fraenkel_a_1_6_sprect_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  &  (v2_compts_1(B, k15_euclid(2)) &  ( ~ (v1_sppol_1(B))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(2))))) ) )  =>  (r2_hidden(A, a_1_6_sprect_1(B)) <=>  (? [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(2))) &  (A=C &  (r1_xxreal_0(k17_euclid(C), k8_pscomp_1(B)) &  (r1_xxreal_0(k6_pscomp_1(B), k17_euclid(C)) & k18_euclid(C)=k7_pscomp_1(B)) ) ) ) ) ) ) ) ).

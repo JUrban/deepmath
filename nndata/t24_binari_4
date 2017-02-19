@@ -1,7 +1,7 @@
 C fof(t24_binari_4, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, k5_series_1(2, B)) => k1_binari_4(B, A)=B) ) ) ) ) ).
++ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
 + fof(d1_binari_4, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (C=k1_binari_4(A, B) <=>  (r1_xxreal_0(B, k5_series_1(2, C)) &  (r1_xxreal_0(A, C) &  (! [D] :  (v7_ordinal1(D) =>  ( (r1_xxreal_0(B, k5_series_1(2, D)) & r1_xxreal_0(A, D))  => r1_xxreal_0(C, D)) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(t44_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r2_hidden(A, B) <=>  ~ (r1_xxreal_0(B, A)) ) ) ) ) ) ).
-+ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
 - fof(t23_binari_4, axiom,  (! [A] :  (v7_ordinal1(A) =>  (r1_xxreal_0(1, A) => k1_binari_4(A, 1)=A) ) ) ).
 - fof(dt_k1_binari_4, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k1_binari_4(A, B))) ) ).
 - fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).

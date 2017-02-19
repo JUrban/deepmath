@@ -1,22 +1,22 @@
 C fof(t13_mesfunc5, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k7_numbers))))  =>  (v2_mesfunc5(B) => v4_mesfunc5(B)) ) ) ) ) ).
-+ fof(t9_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (r1_xxreal_0(k2_supinf_2(k3_extreal1(A)), A) & r1_xxreal_0(A, k3_extreal1(A))) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 + fof(cc13_membered, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xxreal_0(B)) ) ) ) ).
-+ fof(t4_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  ~ ( ( ~ (A=k6_numbers)  & r1_xxreal_0(k3_extreal1(A), k6_numbers)) ) ) ) ).
-+ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
-+ fof(dt_k1_supinf_1, axiom, m1_subset_1(k1_supinf_1, k7_numbers)).
-+ fof(t4_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (r1_xxreal_0(k1_xxreal_0, A) => A=k1_xxreal_0) ) ) ).
++ fof(cc2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_relat_1(B)) ) ) ) ).
 + fof(d1_mesfunc5, axiom,  (! [A] :  (v1_mesfunc5(A) <=>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  (r2_hidden(B, A) => r1_xxreal_0(B, k6_numbers)) ) ) ) ) ).
 + fof(d2_mesfunc5, axiom,  (! [A] :  (v1_relat_1(A) =>  (v2_mesfunc5(A) <=> v1_mesfunc5(k10_xtuple_0(A))) ) ) ).
-+ fof(dt_k3_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => m1_subset_1(k3_extreal1(A), k7_numbers)) ) ).
-+ fof(cc2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_relat_1(B)) ) ) ) ).
-+ fof(fc2_membered, axiom, v2_membered(k7_numbers)).
-+ fof(redefinition_k1_supinf_2, axiom, k1_supinf_2=k1_xboole_0).
 + fof(d4_mesfunc5, axiom,  (! [A] :  (v1_relat_1(A) =>  (v4_mesfunc5(A) <=>  ~ (r2_hidden(k1_supinf_1, k10_xtuple_0(A))) ) ) ) ).
-+ fof(redefinition_k1_supinf_1, axiom, k1_supinf_1=k1_xxreal_0).
++ fof(dt_k1_supinf_1, axiom, m1_subset_1(k1_supinf_1, k7_numbers)).
++ fof(dt_k3_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => m1_subset_1(k3_extreal1(A), k7_numbers)) ) ).
++ fof(fc2_membered, axiom, v2_membered(k7_numbers)).
 + fof(fc2_xreal_0, axiom,  ~ (v1_xreal_0(k1_xxreal_0)) ).
 + fof(fc6_relat_1, axiom,  (! [A, B] : v1_relat_1(k2_zfmisc_1(A, B))) ).
++ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
++ fof(redefinition_k1_supinf_1, axiom, k1_supinf_1=k1_xxreal_0).
++ fof(redefinition_k1_supinf_2, axiom, k1_supinf_2=k1_xboole_0).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t4_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  ~ ( ( ~ (A=k6_numbers)  & r1_xxreal_0(k3_extreal1(A), k6_numbers)) ) ) ) ).
++ fof(t4_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (r1_xxreal_0(k1_xxreal_0, A) => A=k1_xxreal_0) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t9_extreal2, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (r1_xxreal_0(k2_supinf_2(k3_extreal1(A)), A) & r1_xxreal_0(A, k3_extreal1(A))) ) ) ).
 - fof(d6_mesfunc5, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k7_numbers))))  =>  (v4_mesfunc5(B) <=>  (! [C] :  ~ (r1_xxreal_0(k1_supinf_1, k12_supinf_2(B, C))) ) ) ) ) ) ) ).
 - fof(t11_mesfunc5, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k7_numbers))))  =>  ( (! [C] :  ~ ( (r2_hidden(C, k1_relset_1(A, B)) & r1_xxreal_0(k1_supinf_1, k12_supinf_2(B, C))) ) )  <=> v4_mesfunc5(B)) ) ) ) ) ).
 - fof(t8_mesfunc5, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k7_numbers))))  =>  (v2_mesfunc5(B) <=>  (! [C] : r1_xxreal_0(k12_supinf_2(B, C), k1_supinf_2)) ) ) ) ) ).

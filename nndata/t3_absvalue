@@ -1,12 +1,12 @@
 C fof(t3_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  ~ ( (k18_complex1(A)=k4_xcmplx_0(A) &  ( ~ (A=k6_numbers)  & r1_xxreal_0(k6_numbers, A)) ) ) ) ) ).
-+ fof(t43_complex1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (r1_xxreal_0(k6_numbers, A) => k17_complex1(A)=A) ) ) ).
-+ fof(redefinition_k18_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k18_complex1(A)=k16_complex1(A)) ) ).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
 + fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t58_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ ( ( ~ (r1_xxreal_0(k6_numbers, A))  & r1_xxreal_0(k4_xcmplx_0(A), k6_numbers)) )  &  ~ ( ( ~ (r1_xxreal_0(k4_xcmplx_0(A), k6_numbers))  & r1_xxreal_0(k6_numbers, A)) ) ) ) ) ).
-+ fof(t47_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  ( ~ ( ( ~ (A=k6_numbers)  & r1_xxreal_0(k17_complex1(A), k6_numbers)) )  &  ~ ( ( ~ (r1_xxreal_0(k17_complex1(A), k6_numbers))  & A=k6_numbers) ) ) ) ) ).
 + fof(d1_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( (r1_xxreal_0(k6_numbers, A) => k16_complex1(A)=A)  &  ( ~ (r1_xxreal_0(k6_numbers, A))  => k16_complex1(A)=k4_xcmplx_0(A)) ) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(redefinition_k18_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k18_complex1(A)=k16_complex1(A)) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t43_complex1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (r1_xxreal_0(k6_numbers, A) => k17_complex1(A)=A) ) ) ).
++ fof(t47_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  ( ~ ( ( ~ (A=k6_numbers)  & r1_xxreal_0(k17_complex1(A), k6_numbers)) )  &  ~ ( ( ~ (r1_xxreal_0(k17_complex1(A), k6_numbers))  & A=k6_numbers) ) ) ) ) ).
++ fof(t58_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ ( ( ~ (r1_xxreal_0(k6_numbers, A))  & r1_xxreal_0(k4_xcmplx_0(A), k6_numbers)) )  &  ~ ( ( ~ (r1_xxreal_0(k4_xcmplx_0(A), k6_numbers))  & r1_xxreal_0(k6_numbers, A)) ) ) ) ) ).
 - fof(t1_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  (k18_complex1(A)=A | k18_complex1(A)=k4_xcmplx_0(A)) ) ) ).
 - fof(t2_absvalue, axiom,  (! [A] :  (v1_xreal_0(A) =>  (A=k6_numbers <=> k18_complex1(A)=k6_numbers) ) ) ).
 - fof(projectivity_k18_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k18_complex1(k18_complex1(A))=k18_complex1(A)) ) ).

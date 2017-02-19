@@ -1,15 +1,15 @@
 C fof(t31_polyform, axiom,  (! [A] :  ( (v2_polyform(A) &  (v3_polyform(A) &  (v4_polyform(A) & l1_polyform(A)) ) )  => k11_polyform(A, k7_polyform(A))=1) ) ).
-+ fof(d8_polyform, axiom,  (! [A] :  ( (v2_polyform(A) &  (v3_polyform(A) &  (v4_polyform(A) & l1_polyform(A)) ) )  =>  (! [B] :  (v1_int_1(B) => k11_polyform(A, B)=k5_card_1(k8_polyform(A, B))) ) ) ) ).
-+ fof(d5_polyform, axiom,  (! [A] :  ( (v2_polyform(A) &  (v3_polyform(A) &  (v4_polyform(A) & l1_polyform(A)) ) )  =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_finset_1(C) =>  (C=k8_polyform(A, B) <=>  ( ( ~ (r1_xxreal_0(k4_xcmplx_0(1), B))  => C=k1_xboole_0)  &  ( (B=k4_xcmplx_0(1) => C=k1_tarski(k1_xboole_0))  &  ( ~ ( ( ~ (r1_xxreal_0(B, k4_xcmplx_0(1)))  &  ( ~ (r1_xxreal_0(k7_polyform(A), B))  &  ~ (C=k10_xtuple_0(k1_funct_1(u1_polyform(A), k2_xcmplx_0(B, 1)))) ) ) )  &  ( (B=k7_polyform(A) => C=k1_tarski(A))  &  ( ~ (r1_xxreal_0(B, k7_polyform(A)))  => C=k1_xboole_0) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(cc2_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v1_relat_1(A) &  (v1_funct_1(A) & v1_finset_1(A)) ) ) ) ).
-+ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
-+ fof(dt_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => m1_subset_1(k5_card_1(A), k4_ordinal1)) ) ).
 + fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
-+ fof(dt_k8_polyform, axiom,  (! [A, B] :  ( ( (v2_polyform(A) &  (v3_polyform(A) &  (v4_polyform(A) & l1_polyform(A)) ) )  & v1_int_1(B))  => v1_finset_1(k8_polyform(A, B))) ) ).
-+ fof(d4_polyform, axiom,  (! [A] :  ( (v2_polyform(A) &  (v3_polyform(A) &  (v4_polyform(A) & l1_polyform(A)) ) )  => k7_polyform(A)=k3_finseq_1(u1_polyform(A))) ) ).
-+ fof(dt_u1_polyform, axiom,  (! [A] :  (l1_polyform(A) =>  (v1_relat_1(u1_polyform(A)) &  (v1_funct_1(u1_polyform(A)) &  (v1_finseq_1(u1_polyform(A)) & v1_pre_poly(u1_polyform(A))) ) ) ) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(d4_polyform, axiom,  (! [A] :  ( (v2_polyform(A) &  (v3_polyform(A) &  (v4_polyform(A) & l1_polyform(A)) ) )  => k7_polyform(A)=k3_finseq_1(u1_polyform(A))) ) ).
++ fof(d5_polyform, axiom,  (! [A] :  ( (v2_polyform(A) &  (v3_polyform(A) &  (v4_polyform(A) & l1_polyform(A)) ) )  =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (v1_finset_1(C) =>  (C=k8_polyform(A, B) <=>  ( ( ~ (r1_xxreal_0(k4_xcmplx_0(1), B))  => C=k1_xboole_0)  &  ( (B=k4_xcmplx_0(1) => C=k1_tarski(k1_xboole_0))  &  ( ~ ( ( ~ (r1_xxreal_0(B, k4_xcmplx_0(1)))  &  ( ~ (r1_xxreal_0(k7_polyform(A), B))  &  ~ (C=k10_xtuple_0(k1_funct_1(u1_polyform(A), k2_xcmplx_0(B, 1)))) ) ) )  &  ( (B=k7_polyform(A) => C=k1_tarski(A))  &  ( ~ (r1_xxreal_0(B, k7_polyform(A)))  => C=k1_xboole_0) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d8_polyform, axiom,  (! [A] :  ( (v2_polyform(A) &  (v3_polyform(A) &  (v4_polyform(A) & l1_polyform(A)) ) )  =>  (! [B] :  (v1_int_1(B) => k11_polyform(A, B)=k5_card_1(k8_polyform(A, B))) ) ) ) ).
++ fof(dt_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => m1_subset_1(k5_card_1(A), k4_ordinal1)) ) ).
++ fof(dt_k8_polyform, axiom,  (! [A, B] :  ( ( (v2_polyform(A) &  (v3_polyform(A) &  (v4_polyform(A) & l1_polyform(A)) ) )  & v1_int_1(B))  => v1_finset_1(k8_polyform(A, B))) ) ).
++ fof(dt_u1_polyform, axiom,  (! [A] :  (l1_polyform(A) =>  (v1_relat_1(u1_polyform(A)) &  (v1_funct_1(u1_polyform(A)) &  (v1_finseq_1(u1_polyform(A)) & v1_pre_poly(u1_polyform(A))) ) ) ) ) ).
 + fof(redefinition_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_1(A)=k1_card_1(A)) ) ).
++ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
 + fof(t30_card_1, axiom,  (! [A] : k1_card_1(k1_tarski(A))=1) ).
 - fof(t27_polyform, axiom,  (! [A] :  ( (v2_polyform(A) &  (v3_polyform(A) &  (v4_polyform(A) & l1_polyform(A)) ) )  =>  (! [B] :  (v1_int_1(B) => k4_finseq_1(k10_polyform(A, B))=k2_finseq_1(k11_polyform(A, B))) ) ) ) ).
 - fof(dt_k11_polyform, axiom,  (! [A, B] :  ( ( (v2_polyform(A) &  (v3_polyform(A) &  (v4_polyform(A) & l1_polyform(A)) ) )  & v1_int_1(B))  => m2_subset_1(k11_polyform(A, B), k1_numbers, k5_numbers)) ) ).

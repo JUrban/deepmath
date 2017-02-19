@@ -1,20 +1,20 @@
 C fof(t130_member_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) => k15_member_1(k2_tarski(A, B), k1_tarski(C))=k2_tarski(k6_binop_2(A, C), k6_binop_2(B, C))) ) ) ) ) ) ).
-+ fof(d9_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k7_xcmplx_0(A, B)=k3_xcmplx_0(A, k5_xcmplx_0(B))) ) ) ) ).
-+ fof(t38_member_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k7_member_1(k2_tarski(A, B))=k2_tarski(k2_binop_2(A), k2_binop_2(B))) ) ) ) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(redefinition_k2_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k2_binop_2(A)=k5_xcmplx_0(A)) ) ).
-+ fof(t30_enumset1, axiom,  (! [A] :  (! [B] : k1_enumset1(A, A, B)=k2_tarski(A, B)) ) ).
-+ fof(t3_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] : k1_enumset1(A, B, C)=k2_xboole_0(k2_tarski(A, B), k1_tarski(C))) ) ) ).
-+ fof(t100_member_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (! [D] :  (v1_xcmplx_0(D) => k13_member_1(k2_tarski(A, B), k2_tarski(C, D))=k2_enumset1(k5_binop_2(A, C), k5_binop_2(A, D), k5_binop_2(B, C), k5_binop_2(B, D))) ) ) ) ) ) ) ) ).
-+ fof(s3_funct_1__e1_21__card_1, axiom,  (! [A] :  (? [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  &  (k9_xtuple_0(B)=A &  (! [C] :  (r2_hidden(C, A) => k1_funct_1(B, C)=k1_tarski(C)) ) ) ) ) ) ).
-+ fof(redefinition_k6_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k6_binop_2(A, B)=k7_xcmplx_0(A, B)) ) ).
 + fof(d12_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) => k15_member_1(A, B)=k13_member_1(A, k7_member_1(B))) ) ) ) ).
-+ fof(t29_enumset1, axiom,  (! [A] : k2_tarski(A, A)=k1_tarski(A)) ).
-+ fof(l13_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k2_enumset1(A, B, C, D)=k2_xboole_0(k2_tarski(A, B), k2_tarski(C, D))) ) ) ) ).
 + fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
-+ fof(redefinition_k5_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k5_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
++ fof(d9_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k7_xcmplx_0(A, B)=k3_xcmplx_0(A, k5_xcmplx_0(B))) ) ) ) ).
 + fof(dt_k5_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k5_xcmplx_0(A))) ) ).
 + fof(fc13_membered, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => v1_membered(k2_tarski(A, B))) ) ).
++ fof(l13_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k2_enumset1(A, B, C, D)=k2_xboole_0(k2_tarski(A, B), k2_tarski(C, D))) ) ) ) ).
++ fof(redefinition_k2_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k2_binop_2(A)=k5_xcmplx_0(A)) ) ).
++ fof(redefinition_k5_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k5_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k6_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k6_binop_2(A, B)=k7_xcmplx_0(A, B)) ) ).
++ fof(s3_funct_1__e1_21__card_1, axiom,  (! [A] :  (? [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  &  (k9_xtuple_0(B)=A &  (! [C] :  (r2_hidden(C, A) => k1_funct_1(B, C)=k1_tarski(C)) ) ) ) ) ) ).
++ fof(t100_member_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (! [D] :  (v1_xcmplx_0(D) => k13_member_1(k2_tarski(A, B), k2_tarski(C, D))=k2_enumset1(k5_binop_2(A, C), k5_binop_2(A, D), k5_binop_2(B, C), k5_binop_2(B, D))) ) ) ) ) ) ) ) ).
++ fof(t29_enumset1, axiom,  (! [A] : k2_tarski(A, A)=k1_tarski(A)) ).
++ fof(t30_enumset1, axiom,  (! [A] :  (! [B] : k1_enumset1(A, A, B)=k2_tarski(A, B)) ) ).
++ fof(t38_member_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k7_member_1(k2_tarski(A, B))=k2_tarski(k2_binop_2(A), k2_binop_2(B))) ) ) ) ).
++ fof(t3_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] : k1_enumset1(A, B, C)=k2_xboole_0(k2_tarski(A, B), k1_tarski(C))) ) ) ).
 - fof(t128_member_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k15_member_1(k1_tarski(A), k1_tarski(B))=k1_tarski(k6_binop_2(A, B))) ) ) ) ).
 - fof(t129_member_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) => k15_member_1(k1_tarski(A), k2_tarski(B, C))=k2_tarski(k6_binop_2(A, B), k6_binop_2(A, C))) ) ) ) ) ) ).
 - fof(fc7_membered, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_membered(k1_tarski(A))) ) ).

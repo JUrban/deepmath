@@ -1,12 +1,12 @@
 C fof(l36_scmbsort, axiom,  ~ (k4_scmfsa_2(k6_numbers)=k4_scmfsa_2(5)) ).
++ fof(cc7_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v7_ordinal1(A)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(spc5_boole, axiom,  ~ (v1_xboole_0(5)) ).
 + fof(spc5_numerals, axiom,  ( (v2_xxreal_0(5) & m2_subset_1(5, k1_numbers, k5_numbers))  &  (m1_subset_1(5, k5_numbers) & m1_subset_1(5, k1_numbers)) ) ).
 + fof(t101_scmfsa_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (A=B)  & k4_scmfsa_2(A)=k4_scmfsa_2(B)) ) ) ) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(cc7_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v7_ordinal1(A)) ) ).
 - fof(t15_scmfsa_m, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (! [C] :  ( (v1_finset_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_scmfsa_2)))  =>  (k2_scmfsa_m(C)=k4_scmfsa_2(A) =>  (r2_hidden(k4_scmfsa_2(B), C) | r1_xxreal_0(A, B)) ) ) ) ) ) ) ) ).
 - fof(t10_ami_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (A=B)  & k10_ami_3(A)=k10_ami_3(B)) ) ) ) ) ) ).
 - fof(d6_scmfsa_2, axiom,  (! [A] :  (v7_ordinal1(A) => k4_scmfsa_2(A)=k10_ami_3(A)) ) ).

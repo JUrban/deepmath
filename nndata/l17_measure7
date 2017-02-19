@@ -1,20 +1,20 @@
 C fof(l17_measure7, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (v6_xxreal_2(k8_nat_1(k9_setfam_1(k1_numbers), c1__measure7, A)) & m1_subset_1(k8_nat_1(k9_setfam_1(k1_numbers), c1__measure7, A), k1_zfmisc_1(k1_numbers))) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(fc2_xboole_0, axiom,  (! [A] :  ~ (v1_xboole_0(k1_tarski(A))) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(dt_c1__measure7, axiom,  (v1_funct_1(c1__measure7) &  (v1_funct_2(c1__measure7, k5_numbers, k9_setfam_1(k1_numbers)) & m1_subset_1(c1__measure7, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(k1_numbers))))) ) ).
-+ fof(redefinition_k8_nat_1, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) )  & v7_ordinal1(C))  => k8_nat_1(A, B, C)=k1_funct_1(B, C)) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(de_c1__measure7, axiom, c1__measure7=k7_funcop_1(k5_numbers, k1_numbers)).
-+ fof(dt_k8_nat_1, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) )  & v7_ordinal1(C))  => m1_subset_1(k8_nat_1(A, B, C), A)) ) ).
-+ fof(dt_k7_funcop_1, axiom,  (! [A, B] :  (v1_funct_1(k7_funcop_1(A, B)) &  (v1_funct_2(k7_funcop_1(A, B), A, k1_tarski(B)) & m1_subset_1(k7_funcop_1(A, B), k1_zfmisc_1(k2_zfmisc_1(A, k1_tarski(B))))) ) ) ).
-+ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(de_c1__measure7, axiom, c1__measure7=k7_funcop_1(k5_numbers, k1_numbers)).
++ fof(dt_c1__measure7, axiom,  (v1_funct_1(c1__measure7) &  (v1_funct_2(c1__measure7, k5_numbers, k9_setfam_1(k1_numbers)) & m1_subset_1(c1__measure7, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(k1_numbers))))) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(dt_k7_funcop_1, axiom,  (! [A, B] :  (v1_funct_1(k7_funcop_1(A, B)) &  (v1_funct_2(k7_funcop_1(A, B), A, k1_tarski(B)) & m1_subset_1(k7_funcop_1(A, B), k1_zfmisc_1(k2_zfmisc_1(A, k1_tarski(B))))) ) ) ).
++ fof(dt_k8_nat_1, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) )  & v7_ordinal1(C))  => m1_subset_1(k8_nat_1(A, B, C), A)) ) ).
 + fof(fc17_xxreal_2, axiom, v6_xxreal_2(k1_numbers)).
++ fof(fc2_xboole_0, axiom,  (! [A] :  ~ (v1_xboole_0(k1_tarski(A))) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k8_nat_1, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) )  & v7_ordinal1(C))  => k8_nat_1(A, B, C)=k1_funct_1(B, C)) ) ).
++ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 - fof(l15_measure7, axiom, k2_relset_1(k9_setfam_1(k1_numbers), c1__measure7)=k1_tarski(k1_numbers)).
 - fof(l16_measure7, axiom, r1_tarski(k1_numbers, k5_setfam_1(k1_numbers, k2_relset_1(k9_setfam_1(k1_numbers), c1__measure7)))).
 - fof(l13_measure7, axiom, r2_hidden(k1_numbers, k9_setfam_1(k1_numbers))).

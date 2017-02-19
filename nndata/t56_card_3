@@ -1,9 +1,9 @@
 C fof(t56_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_tarski(A, B) => r1_tarski(k8_card_3(A), k8_card_3(B))) ) ) ) ) ).
-+ fof(t49_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r2_hidden(A, k8_card_3(B)) =>  (r1_tarski(k9_xtuple_0(A), k9_xtuple_0(B)) &  (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) => r2_hidden(k1_funct_1(A, C), k1_funct_1(B, C))) ) ) ) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 + fof(d9_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (B=k8_card_3(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  ( (v1_relat_1(D) & v1_funct_1(D))  &  (C=D &  (r1_tarski(k9_xtuple_0(D), k9_xtuple_0(A)) &  (! [E] :  (r2_hidden(E, k9_xtuple_0(D)) => r2_hidden(k1_funct_1(D, E), k1_funct_1(A, E))) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
-+ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 + fof(t2_grfunc_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_tarski(A, B) <=>  (r1_tarski(k9_xtuple_0(A), k9_xtuple_0(B)) &  (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) => k1_funct_1(A, C)=k1_funct_1(B, C)) ) ) ) ) ) ) ) ).
++ fof(t49_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r2_hidden(A, k8_card_3(B)) =>  (r1_tarski(k9_xtuple_0(A), k9_xtuple_0(B)) &  (! [C] :  (r2_hidden(C, k9_xtuple_0(A)) => r2_hidden(k1_funct_1(A, C), k1_funct_1(B, C))) ) ) ) ) ) ) ) ).
 - fof(t51_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => r1_tarski(k4_card_3(A), k8_card_3(A))) ) ).
 - fof(d5_card_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (B=k4_card_3(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  ( (v1_relat_1(D) & v1_funct_1(D))  &  (C=D &  (k9_xtuple_0(D)=k9_xtuple_0(A) &  (! [E] :  (r2_hidden(E, k9_xtuple_0(A)) => r2_hidden(k1_funct_1(D, E), k1_funct_1(A, E))) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).

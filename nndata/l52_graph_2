@@ -1,7 +1,7 @@
 C fof(l52_graph_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( (! [B] :  (! [C] :  ( (r2_hidden(B, A) & r2_hidden(C, A))  => B=C) ) )  => k1_card_1(A)=1) ) ) ).
-+ fof(t30_card_1, axiom,  (! [A] : k1_card_1(k1_tarski(A))=1) ).
 + fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
 + fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
++ fof(t30_card_1, axiom,  (! [A] : k1_card_1(k1_tarski(A))=1) ).
 - fof(d2_finseq_4, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r2_finseq_4(A, B) <=> k1_card_1(k10_relat_1(A, B))=1) ) ) ) ).
 - fof(t29_card_1, axiom,  (! [A] :  (! [B] :  (k1_card_1(A)=k1_card_1(k1_tarski(B)) <=>  (? [C] : A=k1_tarski(C)) ) ) ) ).
 - fof(t8_finseq_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v2_funct_1(A) <=>  (! [B] :  (r2_hidden(B, k10_xtuple_0(A)) => r2_finseq_4(A, B)) ) ) ) ) ).

@@ -1,6 +1,6 @@
 C fof(t17_trees_3, axiom,  (! [A] :  (! [B] :  (v3_trees_3(k2_tarski(A, B)) <=>  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_trees_2(A)) )  &  (v1_relat_1(B) &  (v1_funct_1(B) & v3_trees_2(B)) ) ) ) ) ) ).
-+ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
 + fof(d5_trees_3, axiom,  (! [A] :  (v3_trees_3(A) <=>  (! [B] :  (r2_hidden(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v3_trees_2(B)) ) ) ) ) ) ).
 - fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
 - fof(t1_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(A, k5_xboole_0(B, C)) <=>  ~ ( (r2_hidden(A, B) <=> r2_hidden(A, C)) ) ) ) ) ) ).

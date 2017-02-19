@@ -1,18 +1,18 @@
 C fof(t14_dilworth, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  ~ ( ( ~ (r1_orders_2(A, B, C))  &  ( ~ (r1_orders_2(A, C, B))  &  ~ ( (v2_dilworth(k7_domain_1(u1_struct_0(A), B, C), A) & m1_subset_1(k7_domain_1(u1_struct_0(A), B, C), k1_zfmisc_1(u1_struct_0(A)))) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k7_domain_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k7_domain_1(A, B, C)=k2_tarski(B, C)) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(cc3_card_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_card_1(A)) ) ).
++ fof(cc10_struct_0, axiom,  (! [A] :  (l1_struct_0(A) =>  ( ( ~ (v2_struct_0(A))  & v7_struct_0(A))  => v13_struct_0(A, 1)) ) ) ).
 + fof(cc1_zfmisc_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_zfmisc_1(A)) ) ).
-+ fof(fc19_struct_0, axiom,  (! [A, B] :  ( (v1_card_1(A) &  (v13_struct_0(B, A) & l1_struct_0(B)) )  => v3_card_1(u1_struct_0(B), A)) ) ).
-+ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
-+ fof(dt_l1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => l1_struct_0(A)) ) ).
-+ fof(dt_k7_domain_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => m1_subset_1(k7_domain_1(A, B, C), k1_zfmisc_1(A))) ) ).
-+ fof(fc6_struct_0, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_zfmisc_1(u1_struct_0(A))) ) ) ).
++ fof(cc3_card_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_card_1(A)) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(cc9_card_1, axiom,  (! [A] :  (v3_card_1(A, 1) =>  ( ~ (v1_xboole_0(A))  & v1_zfmisc_1(A)) ) ) ).
 + fof(d2_dilworth, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v2_dilworth(B, A) <=>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  ( (r2_hidden(C, B) & r2_hidden(D, B))  =>  (C=D |  ( ~ (r1_orders_2(A, C, D))  &  ~ (r1_orders_2(A, D, C)) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(cc10_struct_0, axiom,  (! [A] :  (l1_struct_0(A) =>  ( ( ~ (v2_struct_0(A))  & v7_struct_0(A))  => v13_struct_0(A, 1)) ) ) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
++ fof(dt_k7_domain_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => m1_subset_1(k7_domain_1(A, B, C), k1_zfmisc_1(A))) ) ).
++ fof(dt_l1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => l1_struct_0(A)) ) ).
++ fof(fc19_struct_0, axiom,  (! [A, B] :  ( (v1_card_1(A) &  (v13_struct_0(B, A) & l1_struct_0(B)) )  => v3_card_1(u1_struct_0(B), A)) ) ).
++ fof(fc6_struct_0, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_zfmisc_1(u1_struct_0(A))) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k7_domain_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k7_domain_1(A, B, C)=k2_tarski(B, C)) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
 - fof(t13_dilworth, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  ( (v2_dilworth(k7_domain_1(u1_struct_0(A), B, C), A) & m1_subset_1(k7_domain_1(u1_struct_0(A), B, C), k1_zfmisc_1(u1_struct_0(A))))  =>  (B=C |  ( ~ (r1_orders_2(A, B, C))  &  ~ (r1_orders_2(A, C, B)) ) ) ) ) ) ) ) ) ) ).
 - fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
 - fof(t8_dilworth, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  ( (r1_orders_2(A, B, C) | r1_orders_2(A, C, B))  =>  (v1_dilworth(k7_domain_1(u1_struct_0(A), B, C), A) & m1_subset_1(k7_domain_1(u1_struct_0(A), B, C), k1_zfmisc_1(u1_struct_0(A)))) ) ) ) ) ) ) ) ).

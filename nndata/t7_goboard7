@@ -1,14 +1,14 @@
 C fof(t7_goboard7, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(2))) =>  ( (k17_euclid(A)=k17_euclid(B) &  (k17_euclid(B)=k17_euclid(C) &  (r1_xxreal_0(k18_euclid(A), k18_euclid(B)) & r1_xxreal_0(k18_euclid(B), k18_euclid(C))) ) )  => r2_hidden(B, k1_rltopsp1(k15_euclid(2), A, C))) ) ) ) ) ) ) ).
-+ fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
-+ fof(fraenkel_a_3_0_topreal3, axiom,  (! [A, B, C, D] :  ( (v1_xreal_0(B) &  (v1_xreal_0(C) & v1_xreal_0(D)) )  =>  (r2_hidden(A, a_3_0_topreal3(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, u1_struct_0(k15_euclid(2))) &  (A=E &  (k17_euclid(E)=D &  (r1_xxreal_0(B, k18_euclid(E)) & r1_xxreal_0(k18_euclid(E), C)) ) ) ) ) ) ) ) ).
-+ fof(dt_k18_euclid, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => m1_subset_1(k18_euclid(A), k1_numbers)) ) ).
-+ fof(t53_euclid, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => A=k19_euclid(k17_euclid(A), k18_euclid(A))) ) ).
-+ fof(dt_k17_euclid, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => m1_subset_1(k17_euclid(A), k1_numbers)) ) ).
-+ fof(t9_topreal3, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (r1_xxreal_0(A, B) => a_3_0_topreal3(A, B, C)=k1_rltopsp1(k15_euclid(2), k19_euclid(C, A), k19_euclid(C, B))) ) ) ) ) ) ) ).
 + fof(cc13_membered, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xxreal_0(B)) ) ) ) ).
++ fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
 + fof(cc4_membered, axiom,  (! [A] :  (v3_membered(A) => v2_membered(A)) ) ).
++ fof(dt_k17_euclid, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => m1_subset_1(k17_euclid(A), k1_numbers)) ) ).
++ fof(dt_k18_euclid, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => m1_subset_1(k18_euclid(A), k1_numbers)) ) ).
 + fof(fc3_membered, axiom, v3_membered(k1_numbers)).
++ fof(fraenkel_a_3_0_topreal3, axiom,  (! [A, B, C, D] :  ( (v1_xreal_0(B) &  (v1_xreal_0(C) & v1_xreal_0(D)) )  =>  (r2_hidden(A, a_3_0_topreal3(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, u1_struct_0(k15_euclid(2))) &  (A=E &  (k17_euclid(E)=D &  (r1_xxreal_0(B, k18_euclid(E)) & r1_xxreal_0(k18_euclid(E), C)) ) ) ) ) ) ) ) ).
 + fof(t2_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, C))  => r1_xxreal_0(A, C)) ) ) ) ) ) ) ).
++ fof(t53_euclid, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) => A=k19_euclid(k17_euclid(A), k18_euclid(A))) ) ).
++ fof(t9_topreal3, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (r1_xxreal_0(A, B) => a_3_0_topreal3(A, B, C)=k1_rltopsp1(k15_euclid(2), k19_euclid(C, A), k19_euclid(C, B))) ) ) ) ) ) ) ).
 - fof(t14_sppol_1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  ~ ( ( ~ (k17_euclid(A)=k17_euclid(B))  &  ( ~ (k18_euclid(A)=k18_euclid(B))  &  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(2))) =>  ~ ( (r2_hidden(C, k1_rltopsp1(k15_euclid(2), A, B)) &  ( ~ (k17_euclid(C)=k17_euclid(A))  &  ( ~ (k17_euclid(C)=k17_euclid(B))  &  ( ~ (k18_euclid(C)=k18_euclid(A))  &  ~ (k18_euclid(C)=k18_euclid(B)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t41_sppol_1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(2))) =>  ( (v2_sppol_1(k1_rltopsp1(k15_euclid(2), A, B)) & r2_hidden(C, k1_rltopsp1(k15_euclid(2), A, B)))  => k17_euclid(A)=k17_euclid(C)) ) ) ) ) ) ) ).
 - fof(t16_sppol_1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (k17_euclid(A)=k17_euclid(B) <=> v2_sppol_1(k1_rltopsp1(k15_euclid(2), A, B))) ) ) ) ) ).

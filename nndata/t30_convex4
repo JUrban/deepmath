@@ -1,23 +1,23 @@
 C fof(t30_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_clvect_1(A))  =>  (! [B] :  (m1_convex4(B, A) => r1_convex4(A, k7_convex4(A, k6_complex1, B), B)) ) ) ) ).
-+ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
-+ fof(d4_complex1, axiom, k6_complex1=1).
++ fof(cc16_valued_0, axiom,  (! [A, B] :  (v1_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_valued_0(C)) ) ) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
 + fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(fc2_numbers, axiom,  ~ (v1_xboole_0(k2_numbers)) ).
-+ fof(reflexivity_r1_convex4, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  &  (m1_convex4(B, A) & m1_convex4(C, A)) )  => r1_convex4(A, B, B)) ) ).
-+ fof(dt_l1_clvect_1, axiom,  (! [A] :  (l1_clvect_1(A) => l2_algstr_0(A)) ) ).
-+ fof(dt_k6_complex1, axiom, m1_subset_1(k6_complex1, k2_numbers)).
-+ fof(t3_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(1, A)=A) ) ).
-+ fof(fc1_membered, axiom, v1_membered(k2_numbers)).
-+ fof(redefinition_k3_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) )  => k3_funct_2(A, B, C, D)=k1_funct_1(C, D)) ) ).
-+ fof(dt_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => m1_funct_2(k9_funct_2(A, B), A, B)) ) ).
++ fof(d4_complex1, axiom, k6_complex1=1).
 + fof(d9_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_clvect_1(A))  =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (m1_convex4(C, A) =>  (! [D] :  (m1_convex4(D, A) =>  (D=k7_convex4(A, B, C) <=>  (! [E] :  (m1_subset_1(E, u1_struct_0(A)) => k3_funct_2(u1_struct_0(A), k2_numbers, D, E)=k3_xcmplx_0(B, k3_funct_2(u1_struct_0(A), k2_numbers, C, E))) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(fc61_valued_0, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => v1_xcmplx_0(k1_funct_1(A, B))) ) ).
-+ fof(dt_m2_funct_2, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(B))  & m1_funct_2(C, A, B))  =>  (! [D] :  (m2_funct_2(D, A, B, C) =>  (v1_funct_1(D) &  (v1_funct_2(D, A, B) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ) ) ) ) ).
-+ fof(dt_m1_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (! [B] :  (m1_convex4(B, A) => m2_funct_2(B, u1_struct_0(A), k2_numbers, k9_funct_2(u1_struct_0(A), k2_numbers))) ) ) ) ).
++ fof(dt_k6_complex1, axiom, m1_subset_1(k6_complex1, k2_numbers)).
++ fof(dt_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => m1_funct_2(k9_funct_2(A, B), A, B)) ) ).
++ fof(dt_l1_clvect_1, axiom,  (! [A] :  (l1_clvect_1(A) => l2_algstr_0(A)) ) ).
 + fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
 + fof(dt_l2_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => l1_struct_0(A)) ) ).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(cc16_valued_0, axiom,  (! [A, B] :  (v1_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_valued_0(C)) ) ) ) ).
++ fof(dt_m1_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (! [B] :  (m1_convex4(B, A) => m2_funct_2(B, u1_struct_0(A), k2_numbers, k9_funct_2(u1_struct_0(A), k2_numbers))) ) ) ) ).
++ fof(dt_m2_funct_2, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(B))  & m1_funct_2(C, A, B))  =>  (! [D] :  (m2_funct_2(D, A, B, C) =>  (v1_funct_1(D) &  (v1_funct_2(D, A, B) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ) ) ) ) ).
++ fof(fc1_membered, axiom, v1_membered(k2_numbers)).
++ fof(fc2_numbers, axiom,  ~ (v1_xboole_0(k2_numbers)) ).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(fc61_valued_0, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  => v1_xcmplx_0(k1_funct_1(A, B))) ) ).
++ fof(redefinition_k3_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) )  => k3_funct_2(A, B, C, D)=k1_funct_1(C, D)) ) ).
++ fof(reflexivity_r1_convex4, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  &  (m1_convex4(B, A) & m1_convex4(C, A)) )  => r1_convex4(A, B, B)) ) ).
++ fof(t3_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(1, A)=A) ) ).
 - fof(t25_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_clvect_1(A))  =>  (! [B] :  (m1_convex4(B, A) => r1_convex4(A, k7_convex4(A, k5_complex1, B), k2_convex4(A))) ) ) ) ).
 - fof(redefinition_r1_convex4, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  &  (m1_convex4(B, A) & m1_convex4(C, A)) )  =>  (r1_convex4(A, B, C) <=> B=C) ) ) ).
 - fof(t28_convex4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_clvect_1(A))  =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (m1_convex4(C, A) =>  (! [D] :  (m1_convex4(D, A) => r1_convex4(A, k7_convex4(A, B, k5_convex4(A, C, D)), k5_convex4(A, k7_convex4(A, B, C), k7_convex4(A, B, D)))) ) ) ) ) ) ) ) ).

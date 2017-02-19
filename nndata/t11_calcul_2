@@ -1,9 +1,9 @@
 C fof(t11_calcul_2, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m2_finseq_1(B, k3_cqc_lang(A)) =>  (! [C] :  (m2_finseq_1(C, k3_cqc_lang(A)) => k1_relset_1(k5_numbers, k14_finseq_1(k2_calcul_2(k3_finseq_1(B), k3_finseq_1(C))))=k1_relset_1(k5_numbers, C)) ) ) ) ) ) ).
-+ fof(t29_finseq_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (k3_finseq_1(A)=k3_finseq_1(B) <=> k1_relset_1(k5_numbers, A)=k1_relset_1(k5_numbers, B)) ) ) ) ) ).
-+ fof(dt_k14_finseq_1, axiom,  (! [A] : m2_finseq_1(k14_finseq_1(A), k5_numbers)) ).
 + fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(dt_k14_finseq_1, axiom,  (! [A] : m2_finseq_1(k14_finseq_1(A), k5_numbers)) ).
 + fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
 + fof(t10_calcul_2, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (! [B] :  (m2_finseq_1(B, k3_cqc_lang(A)) =>  (! [C] :  (m2_finseq_1(C, k3_cqc_lang(A)) => k3_finseq_1(k14_finseq_1(k2_calcul_2(k3_finseq_1(B), k3_finseq_1(C))))=k3_finseq_1(C)) ) ) ) ) ) ).
++ fof(t29_finseq_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (k3_finseq_1(A)=k3_finseq_1(B) <=> k1_relset_1(k5_numbers, A)=k1_relset_1(k5_numbers, B)) ) ) ) ) ).
 - fof(t9_calcul_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  => k1_relset_1(k5_numbers, k7_finseq_1(A, B))=k4_subset_1(k5_numbers, k1_relset_1(k5_numbers, A), k2_calcul_2(k3_finseq_1(A), k3_finseq_1(B)))) ) ) ) ).
 - fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
 - fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).

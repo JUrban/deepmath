@@ -1,9 +1,9 @@
 C fof(t15_filerec1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ~ (v1_xboole_0(D))  =>  (! [E] :  (m2_finseq_1(E, D) =>  (E=k11_finseq_1(A, B, C) => k2_rfinseq(D, 1, E)=k10_finseq_1(B, C)) ) ) ) ) ) ) ) ).
-+ fof(t47_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, A) => k2_rfinseq(A, 1, k3_finseq_4(A, B, C, D))=k2_finseq_4(A, C, D)) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k3_finseq_4, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) & m1_subset_1(D, A)) ) )  => k3_finseq_4(A, B, C, D)=k11_finseq_1(B, C, D)) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(t10_filerec1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ~ (v1_xboole_0(D))  =>  (! [E] :  (m2_finseq_1(E, D) =>  (E=k11_finseq_1(A, B, C) =>  (r2_hidden(A, D) &  (r2_hidden(B, D) & r2_hidden(C, D)) ) ) ) ) ) ) ) ) ) ).
 + fof(redefinition_k2_finseq_4, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k2_finseq_4(A, B, C)=k10_finseq_1(B, C)) ) ).
++ fof(redefinition_k3_finseq_4, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) & m1_subset_1(D, A)) ) )  => k3_finseq_4(A, B, C, D)=k11_finseq_1(B, C, D)) ) ).
++ fof(t10_filerec1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( ~ (v1_xboole_0(D))  =>  (! [E] :  (m2_finseq_1(E, D) =>  (E=k11_finseq_1(A, B, C) =>  (r2_hidden(A, D) &  (r2_hidden(B, D) & r2_hidden(C, D)) ) ) ) ) ) ) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t47_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, A) => k2_rfinseq(A, 1, k3_finseq_4(A, B, C, D))=k2_finseq_4(A, C, D)) ) ) ) ) ) ) ) ).
 - fof(t45_finseq_6, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m2_finseq_1(C, A) => k2_rfinseq(A, 1, k8_finseq_1(A, k12_finseq_1(A, B), C))=C) ) ) ) ) ) ).
 - fof(t12_filerec1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (! [D] :  (m2_finseq_1(D, C) =>  (D=k10_finseq_1(A, B) => k2_rfinseq(C, 1, D)=k9_finseq_1(B)) ) ) ) ) ) ) ).
 - fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).

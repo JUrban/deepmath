@@ -1,11 +1,11 @@
 C fof(t6_card_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v2_wellord1(A) => r2_wellord2(k1_relat_1(A), k2_wellord2(A))) ) ) ).
++ fof(d1_wellord2, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (B=k1_wellord2(A) <=>  (k1_relat_1(B)=A &  (! [C] :  (! [D] :  ( (r2_hidden(C, A) & r2_hidden(D, A))  =>  (r2_hidden(k4_tarski(C, D), B) <=> r1_tarski(C, D)) ) ) ) ) ) ) ) ) ).
++ fof(d2_wellord2, axiom,  (! [A] :  (v1_relat_1(A) =>  (v2_wellord1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (B=k2_wellord2(A) <=> r4_wellord1(A, k1_wellord2(B))) ) ) ) ) ) ).
++ fof(d4_wellord2, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, B) <=>  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  &  (v2_funct_1(C) &  (k9_xtuple_0(C)=A & k10_xtuple_0(C)=B) ) ) ) ) ) ) ).
++ fof(d7_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (r3_wellord1(A, B, C) <=>  (k9_xtuple_0(C)=k1_relat_1(A) &  (k10_xtuple_0(C)=k1_relat_1(B) &  (v2_funct_1(C) &  (! [D] :  (! [E] :  (r2_hidden(k4_tarski(D, E), A) <=>  (r2_hidden(D, k1_relat_1(A)) &  (r2_hidden(E, k1_relat_1(A)) & r2_hidden(k4_tarski(k1_funct_1(C, D), k1_funct_1(C, E)), B)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(d8_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (r4_wellord1(A, B) <=>  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  & r3_wellord1(A, B, C)) ) ) ) ) ) ) ).
 + fof(dt_k1_wellord2, axiom,  (! [A] : v1_relat_1(k1_wellord2(A))) ).
-+ fof(d4_wellord2, axiom,  (! [A] :  (! [B] :  (r2_wellord2(A, B) <=>  (? [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  &  (v2_funct_1(C) &  (k9_xtuple_0(C)=A & k10_xtuple_0(C)=B) ) ) ) ) ) ) ).
 + fof(dt_k2_wellord2, axiom,  (! [A] :  (v1_relat_1(A) => v3_ordinal1(k2_wellord2(A))) ) ).
-+ fof(d7_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (r3_wellord1(A, B, C) <=>  (k9_xtuple_0(C)=k1_relat_1(A) &  (k10_xtuple_0(C)=k1_relat_1(B) &  (v2_funct_1(C) &  (! [D] :  (! [E] :  (r2_hidden(k4_tarski(D, E), A) <=>  (r2_hidden(D, k1_relat_1(A)) &  (r2_hidden(E, k1_relat_1(A)) & r2_hidden(k4_tarski(k1_funct_1(C, D), k1_funct_1(C, E)), B)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(d2_wellord2, axiom,  (! [A] :  (v1_relat_1(A) =>  (v2_wellord1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (B=k2_wellord2(A) <=> r4_wellord1(A, k1_wellord2(B))) ) ) ) ) ) ).
-+ fof(d1_wellord2, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (B=k1_wellord2(A) <=>  (k1_relat_1(B)=A &  (! [C] :  (! [D] :  ( (r2_hidden(C, A) & r2_hidden(D, A))  =>  (r2_hidden(k4_tarski(C, D), B) <=> r1_tarski(C, D)) ) ) ) ) ) ) ) ) ).
 - fof(l21_wellord2, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  ~ ( (v2_wellord1(B) &  (r2_wellord2(A, k1_relat_1(B)) &  (! [C] :  (v1_relat_1(C) =>  ~ (r2_wellord1(C, A)) ) ) ) ) ) ) ) ) ).
 - fof(t14_wellord2, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r1_tarski(A, B) => r1_ordinal1(k2_wellord2(k1_wellord2(A)), B)) ) ) ) ).
 - fof(fc4_orders_1, axiom,  (v1_xboole_0(k2_wellord2(k1_xboole_0)) & v3_ordinal1(k2_wellord2(k1_xboole_0))) ).

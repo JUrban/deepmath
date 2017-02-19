@@ -1,10 +1,10 @@
 C fof(l69_integra8, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v2_measure5(A) & m1_subset_1(A, k1_zfmisc_1(k1_numbers))) )  => v1_fcont_1(k2_partfun1(k1_numbers, k1_numbers, k1_sin_cos2, A))) ) ).
-+ fof(t34_sin_cos2, axiom,  (! [A] :  (v1_xreal_0(A) =>  (r2_fdiff_1(k1_sin_cos2, k1_numbers) & k1_fdiff_1(k1_sin_cos2, A)=k1_seq_1(k4_sin_cos2, A)) ) ) ).
++ fof(dt_k1_sin_cos2, axiom,  (v1_funct_1(k1_sin_cos2) &  (v1_funct_2(k1_sin_cos2, k1_numbers, k1_numbers) & m1_subset_1(k1_sin_cos2, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ) ).
 + fof(rc1_int_1, axiom,  (? [A] :  (m1_subset_1(A, k1_numbers) &  (v1_xxreal_0(A) &  (v1_xcmplx_0(A) &  (v1_xreal_0(A) & v1_int_1(A)) ) ) ) ) ).
 + fof(t16_fcont_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  =>  ( (v1_fcont_1(k2_partfun1(k1_numbers, k1_numbers, C, A)) & r1_tarski(B, A))  => v1_fcont_1(k2_partfun1(k1_numbers, k1_numbers, C, B))) ) ) ) ) ).
 + fof(t25_fdiff_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  =>  (r2_fdiff_1(B, A) => v1_fcont_1(k2_partfun1(k1_numbers, k1_numbers, B, A))) ) ) ) ).
++ fof(t34_sin_cos2, axiom,  (! [A] :  (v1_xreal_0(A) =>  (r2_fdiff_1(k1_sin_cos2, k1_numbers) & k1_fdiff_1(k1_sin_cos2, A)=k1_seq_1(k4_sin_cos2, A)) ) ) ).
 + fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(dt_k1_sin_cos2, axiom,  (v1_funct_1(k1_sin_cos2) &  (v1_funct_2(k1_sin_cos2, k1_numbers, k1_numbers) & m1_subset_1(k1_sin_cos2, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ) ).
 - fof(t41_sin_cos2, axiom, v1_fcont_1(k2_partfun1(k1_numbers, k1_numbers, k1_sin_cos2, k1_numbers))).
 - fof(rc1_real_1, axiom,  (? [A] :  (m1_subset_1(A, k1_numbers) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) &  (v2_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ) ).
 - fof(l37_taylor_1, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_numbers)) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  (? [E] :  ( (v1_funct_1(E) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  &  (k1_relset_1(k1_numbers, E)=C &  (! [F] :  (m1_subset_1(F, k1_numbers) =>  (r2_hidden(F, C) => k1_seq_1(E, F)=k9_real_1(k1_seq_1(B, D), k1_seq_1(k3_series_1(k6_taylor_1(B, C, F, D)), A))) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

@@ -1,11 +1,11 @@
 C fof(l3_metric_1, axiom,  (! [A] :  (m1_subset_1(A, 1) =>  (! [B] :  (m1_subset_1(B, 1) =>  (k5_binop_1(1, k9_funct_5, A, B)=k6_numbers <=> A=B) ) ) ) ) ).
-+ fof(dt_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => m1_subset_1(k5_binop_1(A, B, C, D), A)) ) ).
-+ fof(t49_card_1, axiom, 1=k1_tarski(k1_xboole_0)).
 + fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(spc1_boole, axiom,  ~ (v1_xboole_0(1)) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(dt_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => m1_subset_1(k5_binop_1(A, B, C, D), A)) ) ).
 + fof(dt_k9_funct_5, axiom,  (v1_funct_1(k9_funct_5) &  (v1_funct_2(k9_funct_5, k2_zfmisc_1(1, 1), 1) & m1_subset_1(k9_funct_5, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(1, 1), 1)))) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(spc1_boole, axiom,  ~ (v1_xboole_0(1)) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t49_card_1, axiom, 1=k1_tarski(k1_xboole_0)).
 - fof(dt_k5_funct_5, axiom, m1_subset_1(k5_funct_5, 1)).
 - fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
 - fof(l29_arytm_0, axiom, m1_subset_1(1, k1_numbers)).

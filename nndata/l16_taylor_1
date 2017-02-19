@@ -1,13 +1,13 @@
 C fof(l16_taylor_1, axiom,  ~ (r1_xxreal_0(k8_power, 1)) ).
-+ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(t2_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, C))  => r1_xxreal_0(A, C)) ) ) ) ) ) ) ).
-+ fof(redefinition_k8_power, axiom, k8_power=k7_power).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
 + fof(dt_k7_power, axiom, v1_xreal_0(k7_power)).
++ fof(redefinition_k8_power, axiom, k8_power=k7_power).
 + fof(rqLessOrEqual__r1_xxreal_0__r1_r2, axiom, r1_xxreal_0(1, 2)).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
 + fof(t11_taylor_1, axiom,  ~ (r1_xxreal_0(k8_power, 2)) ).
++ fof(t2_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  ( (r1_xxreal_0(A, B) & r1_xxreal_0(B, C))  => r1_xxreal_0(A, C)) ) ) ) ) ) ) ).
 - fof(t9_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (k9_prepower(k26_sin_cos(1), A)=k25_sin_cos(A) &  (k3_power(k26_sin_cos(1), A)=k25_sin_cos(A) &  (k3_power(k8_power, A)=k25_sin_cos(A) & k9_prepower(k8_power, A)=k25_sin_cos(A)) ) ) ) ) ).
 - fof(t10_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (k9_prepower(k1_seq_1(k24_sin_cos, 1), A)=k1_seq_1(k24_sin_cos, A) &  (k3_power(k1_seq_1(k24_sin_cos, 1), A)=k1_seq_1(k24_sin_cos, A) &  (k3_power(k8_power, A)=k1_seq_1(k24_sin_cos, A) & k9_prepower(k8_power, A)=k1_seq_1(k24_sin_cos, A)) ) ) ) ) ).
 - fof(t22_irrat_1, axiom,  (v2_comseq_2(k4_irrat_1) & k2_seq_2(k4_irrat_1)=k8_power) ).

@@ -1,28 +1,28 @@
 C fof(t3_finance1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (m2_subset_1(k3_rcomp_1(A, k1_xxreal_0), k1_zfmisc_1(k1_numbers), k12_prob_1) & m2_subset_1(k2_rcomp_1(k2_xxreal_0, A), k1_zfmisc_1(k1_numbers), k12_prob_1)) ) ) ).
++ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
 + fof(d10_prob_1, axiom,  (! [A] :  (v1_xxreal_0(A) => k10_prob_1(A)=k4_xxreal_1(k2_xxreal_0, A)) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
-+ fof(d9_prob_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (! [C] :  ( ( ~ (v1_xboole_0(C))  &  (v1_prob_1(C, A) &  (v4_prob_1(C, A) & m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (C=k9_prob_1(A, B) <=>  (r1_tarski(B, C) &  (! [D] :  ( (r1_tarski(B, D) &  ( ~ (v1_xboole_0(D))  &  (v1_prob_1(D, A) &  (v4_prob_1(D, A) & m1_subset_1(D, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) )  => r1_tarski(C, D)) ) ) ) ) ) ) ) ) ) ).
++ fof(d11_prob_1, axiom, k11_prob_1=a_0_0_prob_1).
++ fof(d12_prob_1, axiom, k12_prob_1=k9_prob_1(k1_numbers, k11_prob_1)).
++ fof(d1_prob_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (v1_prob_1(B, A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (r2_hidden(C, B) => r2_hidden(k3_subset_1(A, C), B)) ) ) ) ) ) ) ).
 + fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
 + fof(d2_xxreal_0, axiom, k1_xxreal_0=k1_numbers).
++ fof(d4_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, B)=k4_xboole_0(A, B)) ) ) ).
++ fof(d9_prob_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (! [C] :  ( ( ~ (v1_xboole_0(C))  &  (v1_prob_1(C, A) &  (v4_prob_1(C, A) & m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (C=k9_prob_1(A, B) <=>  (r1_tarski(B, C) &  (! [D] :  ( (r1_tarski(B, D) &  ( ~ (v1_xboole_0(D))  &  (v1_prob_1(D, A) &  (v4_prob_1(D, A) & m1_subset_1(D, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) )  => r1_tarski(C, D)) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k11_prob_1, axiom, m1_subset_1(k11_prob_1, k1_zfmisc_1(k1_zfmisc_1(k1_numbers)))).
 + fof(dt_k12_prob_1, axiom,  ( ~ (v1_xboole_0(k12_prob_1))  &  (v1_prob_1(k12_prob_1, k1_numbers) &  (v4_prob_1(k12_prob_1, k1_numbers) & m1_subset_1(k12_prob_1, k1_zfmisc_1(k1_zfmisc_1(k1_numbers)))) ) ) ).
 + fof(dt_k9_prob_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))))  =>  ( ~ (v1_xboole_0(k9_prob_1(A, B)))  &  (v1_prob_1(k9_prob_1(A, B), A) &  (v4_prob_1(k9_prob_1(A, B), A) & m1_subset_1(k9_prob_1(A, B), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ) ) ).
-+ fof(redefinition_k2_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k2_rcomp_1(A, B)=k4_xxreal_1(A, B)) ) ).
-+ fof(d1_prob_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (v1_prob_1(B, A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (r2_hidden(C, B) => r2_hidden(k3_subset_1(A, C), B)) ) ) ) ) ) ) ).
-+ fof(t2_finance1, axiom,  (! [A] :  (v1_xreal_0(A) => k6_subset_1(k1_numbers, k2_rcomp_1(k2_xxreal_0, A))=k3_rcomp_1(A, k1_xxreal_0)) ) ).
-+ fof(dt_k11_prob_1, axiom, m1_subset_1(k11_prob_1, k1_zfmisc_1(k1_zfmisc_1(k1_numbers)))).
-+ fof(d4_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, B)=k4_xboole_0(A, B)) ) ) ).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
 + fof(fc2_xxreal_0, axiom, v1_xxreal_0(k2_xxreal_0)).
-+ fof(d11_prob_1, axiom, k11_prob_1=a_0_0_prob_1).
-+ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
-+ fof(d12_prob_1, axiom, k12_prob_1=k9_prob_1(k1_numbers, k11_prob_1)).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 + fof(fraenkel_a_0_0_prob_1, axiom,  (! [A] :  (r2_hidden(A, a_0_0_prob_1) <=>  (? [B] :  (m1_subset_1(B, k1_numbers) & A=k10_prob_1(B)) ) ) ) ).
++ fof(redefinition_k2_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k2_rcomp_1(A, B)=k4_xxreal_1(A, B)) ) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t2_finance1, axiom,  (! [A] :  (v1_xreal_0(A) => k6_subset_1(k1_numbers, k2_rcomp_1(k2_xxreal_0, A))=k3_rcomp_1(A, k1_xxreal_0)) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 - fof(fc1_xxreal_0, axiom, v1_xxreal_0(k1_xxreal_0)).
 - fof(t1_finance1, axiom,  (! [A] :  (v1_xreal_0(A) => k6_subset_1(k1_numbers, k3_rcomp_1(A, k1_xxreal_0))=k2_rcomp_1(k2_xxreal_0, A)) ) ).
 - fof(t49_borsuk_5, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (! [B] :  (v1_xreal_0(B) =>  (A=k2_rcomp_1(B, k1_xxreal_0) => k2_pre_topc(k3_topmetr, A)=k3_rcomp_1(B, k1_xxreal_0)) ) ) ) ) ).

@@ -1,16 +1,16 @@
 C fof(t89_sprect_1, axiom,  (! [A] :  ( (v1_sprect_1(A) & m2_finseq_1(A, u1_struct_0(k15_euclid(2))))  =>  ~ (k2_goboard9(A)=k3_goboard9(A)) ) ) ).
-+ fof(t88_sprect_1, axiom,  (! [A] :  ( (v1_sprect_1(A) & m2_finseq_1(A, u1_struct_0(k15_euclid(2))))  => r1_xboole_0(k2_goboard9(A), k3_goboard9(A))) ) ).
 + fof(cc1_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_relat_1(A)) ) ).
-+ fof(fc13_sprect_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v3_funct_1(A))  &  (v1_finseq_6(A, u1_struct_0(k15_euclid(2))) &  (v1_topreal1(A) &  (v2_topreal1(A) &  (v1_goboard5(A) &  (v2_goboard5(A) & m1_finseq_1(A, u1_struct_0(k15_euclid(2)))) ) ) ) ) ) )  =>  ~ (v1_xboole_0(k3_goboard9(A))) ) ) ).
++ fof(cc1_sprect_1, axiom,  (! [A] :  (m1_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (v1_sprect_1(A) =>  ~ (v3_funct_1(A)) ) ) ) ).
 + fof(cc2_sprect_1, axiom,  (! [A] :  (m1_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  ( ( ~ (v1_xboole_0(A))  & v1_sprect_1(A))  =>  ( ~ (v1_xboole_0(A))  &  (v1_finseq_6(A, u1_struct_0(k15_euclid(2))) &  (v1_topreal1(A) &  (v2_topreal1(A) &  (v1_goboard5(A) & v2_goboard5(A)) ) ) ) ) ) ) ) ).
++ fof(cc4_funct_1, axiom,  (! [A] :  ( (v1_xboole_0(A) &  (v1_relat_1(A) & v1_funct_1(A)) )  =>  (v1_relat_1(A) &  (v1_funct_1(A) & v3_funct_1(A)) ) ) ) ).
++ fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
++ fof(d7_xboole_0, axiom,  (! [A] :  (! [B] :  (r1_xboole_0(A, B) <=> k3_xboole_0(A, B)=k1_xboole_0) ) ) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(fc13_sprect_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v3_funct_1(A))  &  (v1_finseq_6(A, u1_struct_0(k15_euclid(2))) &  (v1_topreal1(A) &  (v2_topreal1(A) &  (v1_goboard5(A) &  (v2_goboard5(A) & m1_finseq_1(A, u1_struct_0(k15_euclid(2)))) ) ) ) ) ) )  =>  ~ (v1_xboole_0(k3_goboard9(A))) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
 + fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 + fof(t28_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => k3_xboole_0(A, B)=A) ) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
-+ fof(cc1_sprect_1, axiom,  (! [A] :  (m1_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (v1_sprect_1(A) =>  ~ (v3_funct_1(A)) ) ) ) ).
-+ fof(cc4_funct_1, axiom,  (! [A] :  ( (v1_xboole_0(A) &  (v1_relat_1(A) & v1_funct_1(A)) )  =>  (v1_relat_1(A) &  (v1_funct_1(A) & v3_funct_1(A)) ) ) ) ).
-+ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
-+ fof(d7_xboole_0, axiom,  (! [A] :  (! [B] :  (r1_xboole_0(A, B) <=> k3_xboole_0(A, B)=k1_xboole_0) ) ) ).
++ fof(t88_sprect_1, axiom,  (! [A] :  ( (v1_sprect_1(A) & m2_finseq_1(A, u1_struct_0(k15_euclid(2))))  => r1_xboole_0(k2_goboard9(A), k3_goboard9(A))) ) ).
 - fof(d2_sprect_1, axiom,  (! [A] :  (m2_finseq_1(A, u1_struct_0(k15_euclid(2))) =>  (v1_sprect_1(A) <=>  (? [B] :  ( ( ~ (v1_xboole_0(B))  &  (v2_compts_1(B, k15_euclid(2)) &  ( ~ (v1_sppol_1(B))  &  ( ~ (v2_sppol_1(B))  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(2))))) ) ) )  & A=k1_sprect_1(B)) ) ) ) ) ).
 - fof(t23_goboard9, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v3_funct_1(A))  &  (v1_finseq_6(A, u1_struct_0(k15_euclid(2))) &  (v1_topreal1(A) &  (v2_topreal1(A) &  (v1_goboard5(A) &  (v2_goboard5(A) & m2_finseq_1(A, u1_struct_0(k15_euclid(2)))) ) ) ) ) ) )  => k3_goboard9(A)=k2_goboard9(k1_goboard9(A))) ) ).
 - fof(t5_gobrd12, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v3_funct_1(A))  &  (v1_finseq_6(A, u1_struct_0(k15_euclid(2))) &  (v1_topreal1(A) &  (v2_topreal1(A) &  (v1_goboard5(A) &  (v2_goboard5(A) & m2_finseq_1(A, u1_struct_0(k15_euclid(2)))) ) ) ) ) ) )  =>  (m1_connsp_3(k4_subset_1(u1_struct_0(k1_pre_topc(k15_euclid(2), k3_subset_1(u1_struct_0(k15_euclid(2)), k3_topreal1(2, A)))), k4_connsp_3(k15_euclid(2), k2_goboard9(A), k3_subset_1(u1_struct_0(k15_euclid(2)), k3_topreal1(2, A))), k4_connsp_3(k15_euclid(2), k3_goboard9(A), k3_subset_1(u1_struct_0(k15_euclid(2)), k3_topreal1(2, A)))), k1_pre_topc(k15_euclid(2), k3_subset_1(u1_struct_0(k15_euclid(2)), k3_topreal1(2, A)))) &  (k4_connsp_3(k15_euclid(2), k2_goboard9(A), k3_subset_1(u1_struct_0(k15_euclid(2)), k3_topreal1(2, A)))=k2_goboard9(A) & k4_connsp_3(k15_euclid(2), k3_goboard9(A), k3_subset_1(u1_struct_0(k15_euclid(2)), k3_topreal1(2, A)))=k3_goboard9(A)) ) ) ) ).

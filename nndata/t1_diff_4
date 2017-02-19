@@ -1,26 +1,26 @@
 C fof(t1_diff_4, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  &  ( ~ (r1_xxreal_0(B, k6_numbers))  &  ~ (k9_real_1(k6_power(k8_power, A), k6_power(k8_power, B))=k5_power(k8_power, k13_complex1(A, B))) ) ) ) ) ) ) ) ).
-+ fof(t7_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(A, B))  &  ( ~ (v2_xxreal_0(A))  &  ~ (v3_xxreal_0(B)) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(dt_k5_power, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => v1_xreal_0(k5_power(A, B))) ) ).
 + fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
-+ fof(t4_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( (r1_xxreal_0(A, B) &  ( ~ (v2_xxreal_0(B))  & v2_xxreal_0(A)) ) ) ) ) ) ) ).
-+ fof(dt_k8_power, axiom, m1_subset_1(k8_power, k1_numbers)).
-+ fof(redefinition_k6_power, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => k6_power(A, B)=k5_power(A, B)) ) ).
-+ fof(t54_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  &  ( ~ (A=1)  &  ( ~ (r1_xxreal_0(B, k6_numbers))  &  ( ~ (r1_xxreal_0(C, k6_numbers))  &  ~ (k6_xcmplx_0(k5_power(A, B), k5_power(A, C))=k5_power(A, k13_complex1(B, C))) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k8_power, axiom, k8_power=k7_power).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(spc0_boole, axiom, v1_xboole_0(0)).
 + fof(cc3_xxreal_0, axiom,  (! [A] :  ( (v1_xxreal_0(A) & v2_xxreal_0(A))  =>  ( ~ (v1_xboole_0(A))  &  (v1_xxreal_0(A) &  ~ (v3_xxreal_0(A)) ) ) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(dt_k5_power, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => v1_xreal_0(k5_power(A, B))) ) ).
++ fof(dt_k6_power, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => m1_subset_1(k6_power(A, B), k1_numbers)) ) ).
++ fof(dt_k7_power, axiom, v1_xreal_0(k7_power)).
++ fof(dt_k8_power, axiom, m1_subset_1(k8_power, k1_numbers)).
++ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_k6_power, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => k6_power(A, B)=k5_power(A, B)) ) ).
++ fof(redefinition_k8_power, axiom, k8_power=k7_power).
 + fof(redefinition_k9_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k9_real_1(A, B)=k6_xcmplx_0(A, B)) ) ).
 + fof(rqLessOrEqual__r1_xxreal_0__r1_r2, axiom, r1_xxreal_0(1, 2)).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(spc0_boole, axiom, v1_xboole_0(0)).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
 + fof(t11_taylor_1, axiom,  ~ (r1_xxreal_0(k8_power, 2)) ).
-+ fof(dt_k6_power, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => m1_subset_1(k6_power(A, B), k1_numbers)) ) ).
-+ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
-+ fof(dt_k7_power, axiom, v1_xreal_0(k7_power)).
++ fof(t4_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( (r1_xxreal_0(A, B) &  ( ~ (v2_xxreal_0(B))  & v2_xxreal_0(A)) ) ) ) ) ) ) ).
++ fof(t54_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  &  ( ~ (A=1)  &  ( ~ (r1_xxreal_0(B, k6_numbers))  &  ( ~ (r1_xxreal_0(C, k6_numbers))  &  ~ (k6_xcmplx_0(k5_power(A, B), k5_power(A, C))=k5_power(A, k13_complex1(B, C))) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t7_real, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(A, B))  &  ( ~ (v2_xxreal_0(A))  &  ~ (v3_xxreal_0(B)) ) ) ) ) ) ) ) ).
 - fof(l62_asympt_1, axiom,  (? [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) &  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  ~ ( (r1_xxreal_0(A, B) & r1_xxreal_0(k9_real_1(k7_square_1(B), k6_power(2, B)), 1)) ) ) ) ) ) ).
 - fof(d3_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  &  ( ~ (A=1)  &  ( ~ (r1_xxreal_0(B, k6_numbers))  &  ~ ( (! [C] :  (v1_xreal_0(C) =>  (C=k5_power(A, B) <=> k3_power(A, C)=B) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t14_taylor_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ (r1_xxreal_0(A, k6_numbers))  => k25_sin_cos(k5_power(k8_power, A))=A) ) ) ).

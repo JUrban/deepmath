@@ -1,9 +1,9 @@
 C fof(t14_finsub_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_finsub_1(A)=k1_zfmisc_1(A)) ) ).
-+ fof(t1_finset_1, axiom,  (! [A] :  (! [B] :  ( (r1_tarski(A, B) & v1_finset_1(B))  => v1_finset_1(A)) ) ) ).
 + fof(d1_zfmisc_1, axiom,  (! [A] :  (! [B] :  (B=k1_zfmisc_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=> r1_tarski(C, A)) ) ) ) ) ).
 + fof(d5_finsub_1, axiom,  (! [A] :  (! [B] :  (v4_finsub_1(B) =>  (B=k5_finsub_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (r1_tarski(C, A) & v1_finset_1(C)) ) ) ) ) ) ) ).
-+ fof(t37_xboole_1, axiom,  (! [A] :  (! [B] :  (k4_xboole_0(A, B)=k1_xboole_0 <=> r1_tarski(A, B)) ) ) ).
 + fof(dt_k5_finsub_1, axiom,  (! [A] : v4_finsub_1(k5_finsub_1(A))) ).
++ fof(t1_finset_1, axiom,  (! [A] :  (! [B] :  ( (r1_tarski(A, B) & v1_finset_1(B))  => v1_finset_1(A)) ) ) ).
++ fof(t37_xboole_1, axiom,  (! [A] :  (! [B] :  (k4_xboole_0(A, B)=k1_xboole_0 <=> r1_tarski(A, B)) ) ) ).
 - fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 - fof(t11_finsub_1, axiom,  (! [A] :  (! [B] : k5_finsub_1(k3_xboole_0(A, B))=k3_xboole_0(k5_finsub_1(A), k5_finsub_1(B))) ) ).
 - fof(fc2_finsub_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(k5_finsub_1(A)))  & v4_finsub_1(k5_finsub_1(A))) ) ).

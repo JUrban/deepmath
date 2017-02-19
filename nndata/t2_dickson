@@ -1,10 +1,10 @@
 C fof(t2_dickson, axiom,  (! [A] :  (v7_ordinal1(A) => r1_ordinal1(A, k1_nat_1(A, 1))) ) ).
++ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
 + fof(cc1_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v3_ordinal1(A) & v7_ordinal1(A)) ) ) ).
 + fof(d2_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) => k1_ordinal1(A)=k1_nat_1(A, 1)) ) ).
-+ fof(t6_ordinal1, axiom,  (! [A] : r2_hidden(A, k1_ordinal1(A))) ).
-+ fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
 + fof(fc2_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  ( ~ (v1_xboole_0(k1_ordinal1(A)))  & v3_ordinal1(k1_ordinal1(A))) ) ) ).
 + fof(t16_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r1_ordinal1(A, B) | r2_hidden(B, A)) ) ) ) ) ).
++ fof(t6_ordinal1, axiom,  (! [A] : r2_hidden(A, k1_ordinal1(A))) ).
 - fof(s2_nat_1__e3_62__nat_1, axiom,  ( ( (! [A] :  (v7_ordinal1(A) =>  (r1_xxreal_0(k6_numbers, A) <=> r1_ordinal1(k6_numbers, A)) ) )  &  (! [B] :  (v7_ordinal1(B) =>  ( (! [C] :  (v7_ordinal1(C) =>  (r1_xxreal_0(B, C) <=> r1_ordinal1(B, C)) ) )  =>  (! [D] :  (v7_ordinal1(D) =>  (r1_xxreal_0(k1_nat_1(B, 1), D) <=> r1_ordinal1(k1_nat_1(B, 1), D)) ) ) ) ) ) )  =>  (! [B] :  (v7_ordinal1(B) =>  (! [E] :  (v7_ordinal1(E) =>  (r1_xxreal_0(B, E) <=> r1_ordinal1(B, E)) ) ) ) ) ) ).
 - fof(t16_ordinal3, axiom,  (! [A] :  (v3_ordinal1(A) =>  ~ ( (r1_ordinal1(A, 1) &  ( ~ (A=k1_xboole_0)  &  ~ (A=1) ) ) ) ) ) ).
 - fof(t41_card_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_ordinal1(k1_card_1(A), k1_card_1(B)) <=> r1_ordinal1(A, B)) ) ) ) ) ).

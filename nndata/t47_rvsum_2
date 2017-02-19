@@ -1,11 +1,11 @@
 C fof(t47_rvsum_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) => k20_rvsum_1(k5_finseq_2(k2_numbers, A, k5_binop_2(B, C)))=k5_binop_2(k19_rvsum_1(k2_finseq_2(A, B)), k19_rvsum_1(k2_finseq_2(A, C)))) ) ) ) ) ) ).
-+ fof(fc2_numbers, axiom,  ~ (v1_xboole_0(k2_numbers)) ).
 + fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(fc2_numbers, axiom,  ~ (v1_xboole_0(k2_numbers)) ).
 + fof(redefinition_k20_rvsum_1, axiom,  (! [A] :  (m1_finseq_1(A, k2_numbers) => k20_rvsum_1(A)=k19_rvsum_1(A)) ) ).
 + fof(redefinition_k5_finseq_2, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (v7_ordinal1(B) & m1_subset_1(C, A)) )  => k5_finseq_2(A, B, C)=k2_finseq_2(B, C)) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 + fof(t113_rvsum_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) => k20_rvsum_1(k5_finseq_2(k2_numbers, A, k5_binop_2(B, C)))=k5_binop_2(k20_rvsum_1(k5_finseq_2(k2_numbers, A, B)), k20_rvsum_1(k5_finseq_2(k2_numbers, A, C)))) ) ) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 + fof(t63_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  (m1_subset_1(C, B) => m2_finseq_1(k2_finseq_2(A, C), B)) ) ) ) ) ) ).
 - fof(t97_rvsum_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_valued_0(A) & v1_finseq_1(A)) ) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) &  (v1_valued_0(B) & v1_finseq_1(B)) ) )  => k19_rvsum_1(k7_finseq_1(A, B))=k5_binop_2(k19_rvsum_1(A), k19_rvsum_1(B))) ) ) ) ).
 - fof(t45_rvsum_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v1_xcmplx_0(C) => k19_rvsum_1(k2_finseq_2(k23_binop_2(A, B), C))=k5_binop_2(k19_rvsum_1(k2_finseq_2(A, C)), k19_rvsum_1(k2_finseq_2(B, C)))) ) ) ) ) ) ).

@@ -1,8 +1,8 @@
 C fof(t65_pepin, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (r1_xxreal_0(B, k6_numbers))  &  ( ~ (r1_xxreal_0(A, 1))  & r1_xxreal_0(k1_newton(A, B), 1)) ) ) ) ) ) ) ).
-+ fof(t41_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) => k3_power(A, B)=k1_newton(A, B)) ) ) ) ).
 + fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
-+ fof(t35_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(A, 1))  &  ( ~ (r1_xxreal_0(B, k6_numbers))  & r1_xxreal_0(k3_power(A, B), 1)) ) ) ) ) ) ) ).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t35_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(A, 1))  &  ( ~ (r1_xxreal_0(B, k6_numbers))  & r1_xxreal_0(k3_power(A, B), 1)) ) ) ) ) ) ) ).
++ fof(t41_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) => k3_power(A, B)=k1_newton(A, B)) ) ) ) ).
 - fof(t83_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( ~ (r1_xxreal_0(B, k6_numbers))  & r1_xxreal_0(k1_newton(B, A), k6_numbers)) ) ) ) ) ) ).
 - fof(s2_nat_1__e5_114__pepin, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ( ~ ( ( ~ (r1_xxreal_0(k6_numbers, k6_numbers))  & r1_xxreal_0(k1_newton(A, k6_numbers), 1)) )  &  (! [B] :  (v7_ordinal1(B) =>  ( ~ ( ( ~ (r1_xxreal_0(B, k6_numbers))  & r1_xxreal_0(k1_newton(A, B), 1)) )  =>  ~ ( ( ~ (r1_xxreal_0(k1_nat_1(B, 1), k6_numbers))  & r1_xxreal_0(k1_newton(A, k1_nat_1(B, 1)), 1)) ) ) ) ) )  =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (r1_xxreal_0(B, k6_numbers))  & r1_xxreal_0(k1_newton(A, B), 1)) ) ) ) ) ) ) ).
 - fof(t25_pepin, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (r1_xxreal_0(A, 1))  &  ( ~ (r1_xxreal_0(B, k6_numbers))  & r1_xxreal_0(k1_newton(A, B), 1)) ) ) ) ) ) ) ).

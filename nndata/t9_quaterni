@@ -1,25 +1,25 @@
 C fof(t9_quaterni, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k5_arytm_3)) =>  ~ ( ( (? [B] :  (m1_subset_1(B, k5_arytm_3) &  (r2_hidden(B, A) &  ~ (B=k11_arytm_3) ) ) )  &  ( (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  (! [C] :  (m1_subset_1(C, k5_arytm_3) =>  ( (r2_hidden(B, A) & r3_arytm_3(C, B))  => r2_hidden(C, A)) ) ) ) )  &  (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  (! [C] :  (m1_subset_1(C, k5_arytm_3) =>  (! [D] :  (m1_subset_1(D, k5_arytm_3) =>  (! [E] :  (m1_subset_1(E, k5_arytm_3) =>  (! [F] :  (m1_subset_1(F, k5_arytm_3) =>  ~ ( (r2_hidden(B, A) &  (r2_hidden(C, A) &  (r2_hidden(D, A) &  (r2_hidden(E, A) &  (r2_hidden(F, A) &  ( ~ (B=C)  &  ( ~ (B=D)  &  ( ~ (B=E)  &  ( ~ (B=F)  &  ( ~ (C=D)  &  ( ~ (C=E)  &  ( ~ (C=F)  &  ( ~ (D=E)  &  ( ~ (D=F)  &  ~ (E=F) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t68_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) =>  (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  ( ~ (r3_arytm_3(B, A))  <=>  (r3_arytm_3(A, B) &  ~ (A=B) ) ) ) ) ) ) ).
-+ fof(t73_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) =>  ~ ( ( ~ (A=k11_arytm_3)  &  (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  ~ ( ( ~ (r3_arytm_3(A, B))  &  ~ (r2_hidden(B, k4_ordinal1)) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k11_arytm_3, axiom, k11_arytm_3=k1_xboole_0).
-+ fof(fc3_arytm_3, axiom,  ~ (v1_xboole_0(k5_arytm_3)) ).
-+ fof(existence_m1_subset_1, axiom,  (! [A] :  (? [B] : m1_subset_1(B, A)) ) ).
-+ fof(dt_k9_arytm_3, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_arytm_3) & m1_subset_1(B, k5_arytm_3))  => m1_subset_1(k9_arytm_3(A, B), k5_arytm_3)) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(t93_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) =>  (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  ~ ( ( ~ (r3_arytm_3(B, A))  &  (! [C] :  (m1_subset_1(C, k5_arytm_3) =>  ~ ( ( ~ (r3_arytm_3(C, A))  &  ~ (r3_arytm_3(B, C)) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t31_arytm_3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (r2_hidden(A, k5_arytm_3) => r2_hidden(A, k4_ordinal1)) ) ) ).
 + fof(cc3_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v3_ordinal1(A)) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(t50_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) => k9_arytm_3(A, k11_arytm_3)=A) ) ).
-+ fof(dt_k11_arytm_3, axiom, m1_subset_1(k11_arytm_3, k5_arytm_3)).
 + fof(commutativity_k9_arytm_3, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_arytm_3) & m1_subset_1(B, k5_arytm_3))  => k9_arytm_3(A, B)=k9_arytm_3(B, A)) ) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(t77_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) =>  (! [B] :  (m1_subset_1(B, k5_arytm_3) => r3_arytm_3(A, k9_arytm_3(A, B))) ) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(dt_k11_arytm_3, axiom, m1_subset_1(k11_arytm_3, k5_arytm_3)).
++ fof(dt_k9_arytm_3, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_arytm_3) & m1_subset_1(B, k5_arytm_3))  => m1_subset_1(k9_arytm_3(A, B), k5_arytm_3)) ) ).
++ fof(existence_m1_subset_1, axiom,  (! [A] :  (? [B] : m1_subset_1(B, A)) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(fc3_arytm_3, axiom,  ~ (v1_xboole_0(k5_arytm_3)) ).
 + fof(fraenkel_a_0_5_arytm_2, axiom,  (! [A] :  (r2_hidden(A, a_0_5_arytm_2) <=>  (? [B] :  (m1_subset_1(B, k5_arytm_3) &  (A=B &  ~ (r3_arytm_3(k11_arytm_3, B)) ) ) ) ) ) ).
++ fof(redefinition_k11_arytm_3, axiom, k11_arytm_3=k1_xboole_0).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t31_arytm_3, axiom,  (! [A] :  (v3_ordinal1(A) =>  (r2_hidden(A, k5_arytm_3) => r2_hidden(A, k4_ordinal1)) ) ) ).
++ fof(t50_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) => k9_arytm_3(A, k11_arytm_3)=A) ) ).
 + fof(t64_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) => r3_arytm_3(k11_arytm_3, A)) ) ).
++ fof(t68_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) =>  (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  ( ~ (r3_arytm_3(B, A))  <=>  (r3_arytm_3(A, B) &  ~ (A=B) ) ) ) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t73_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) =>  ~ ( ( ~ (A=k11_arytm_3)  &  (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  ~ ( ( ~ (r3_arytm_3(A, B))  &  ~ (r2_hidden(B, k4_ordinal1)) ) ) ) ) ) ) ) ) ).
++ fof(t77_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) =>  (! [B] :  (m1_subset_1(B, k5_arytm_3) => r3_arytm_3(A, k9_arytm_3(A, B))) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
++ fof(t93_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) =>  (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  ~ ( ( ~ (r3_arytm_3(B, A))  &  (! [C] :  (m1_subset_1(C, k5_arytm_3) =>  ~ ( ( ~ (r3_arytm_3(C, A))  &  ~ (r3_arytm_3(B, C)) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t75_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k5_arytm_3)) =>  ~ ( ( (? [B] :  (m1_subset_1(B, k5_arytm_3) &  (r2_hidden(B, A) &  ~ (B=k11_arytm_3) ) ) )  &  ( (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  (! [C] :  (m1_subset_1(C, k5_arytm_3) =>  ( (r2_hidden(B, A) & r3_arytm_3(C, B))  => r2_hidden(C, A)) ) ) ) )  &  (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  (! [C] :  (m1_subset_1(C, k5_arytm_3) =>  (! [D] :  (m1_subset_1(D, k5_arytm_3) =>  ~ ( (r2_hidden(B, A) &  (r2_hidden(C, A) &  (r2_hidden(D, A) &  ( ~ (B=C)  &  ( ~ (C=D)  &  ~ (D=B) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(fraenkel_a_0_0_arytm_0, axiom,  (! [A] :  (r2_hidden(A, a_0_0_arytm_0) <=>  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(k5_arytm_3)) &  (A=B &  (! [C] :  (m1_subset_1(C, k5_arytm_3) =>  (r2_hidden(C, B) =>  ( (! [D] :  (m1_subset_1(D, k5_arytm_3) =>  (r3_arytm_3(D, C) => r2_hidden(D, B)) ) )  &  (? [D] :  (m1_subset_1(D, k5_arytm_3) &  (r2_hidden(D, B) &  ~ (r3_arytm_3(D, C)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(fraenkel_a_0_0_arytm_2, axiom,  (! [A] :  (r2_hidden(A, a_0_0_arytm_2) <=>  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(k5_arytm_3)) &  (A=B &  (! [C] :  (m1_subset_1(C, k5_arytm_3) =>  (r2_hidden(C, B) =>  ( (! [D] :  (m1_subset_1(D, k5_arytm_3) =>  (r3_arytm_3(D, C) => r2_hidden(D, B)) ) )  &  (? [D] :  (m1_subset_1(D, k5_arytm_3) &  (r2_hidden(D, B) &  ~ (r3_arytm_3(D, C)) ) ) ) ) ) ) ) ) ) ) ) ) ).

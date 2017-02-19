@@ -1,10 +1,10 @@
 C fof(t37_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => k18_mmlquery(A, B)=k4_relat_1(k6_subset_1(A, k1_relset_1(A, B)))) ) ) ).
-+ fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
 + fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(t36_mmlquery, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(C, C))) =>  (r2_hidden(k4_tarski(A, B), k18_mmlquery(C, D)) <=>  (A=B &  (r2_hidden(A, C) &  ~ (r2_hidden(A, k1_relset_1(C, D))) ) ) ) ) ) ) ) ) ).
 + fof(d10_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (B=k4_relat_1(A) <=>  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), B) <=>  (r2_hidden(C, A) & C=D) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(d5_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k4_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) &  ~ (r2_hidden(D, B)) ) ) ) ) ) ) ) ).
 + fof(dt_k18_mmlquery, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => m1_subset_1(k18_mmlquery(A, B), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
++ fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(t36_mmlquery, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(C, C))) =>  (r2_hidden(k4_tarski(A, B), k18_mmlquery(C, D)) <=>  (A=B &  (r2_hidden(A, C) &  ~ (r2_hidden(A, k1_relset_1(C, D))) ) ) ) ) ) ) ) ) ).
 - fof(d15_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (C=k18_mmlquery(A, B) <=>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) => k2_mmlquery(A, C, D)=k3_tarski(a_3_2_mmlquery(A, B, D))) ) ) ) ) ) ) ) ).
 - fof(t14_sysrel, axiom,  (! [A] :  (! [B] :  (k4_relat_1(k2_xboole_0(A, B))=k2_xboole_0(k4_relat_1(A), k4_relat_1(B)) &  (k4_relat_1(k3_xboole_0(A, B))=k3_xboole_0(k4_relat_1(A), k4_relat_1(B)) & k4_relat_1(k6_subset_1(A, B))=k6_subset_1(k4_relat_1(A), k4_relat_1(B))) ) ) ) ).
 - fof(t16_sysrel, axiom,  (! [A] :  (! [B] : k6_subset_1(k4_relat_1(k6_subset_1(A, B)), k4_relat_1(A))=k1_xboole_0) ) ).

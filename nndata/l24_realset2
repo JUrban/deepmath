@@ -1,13 +1,13 @@
 C fof(l24_realset2, axiom, k2_zfmisc_1(k6_subset_1(c4__realset2, k6_domain_1(2, k1_funct_7(k6_numbers, 2))), k6_subset_1(c4__realset2, k6_domain_1(2, k1_funct_7(k6_numbers, 2))))=k6_domain_1(k2_zfmisc_1(2, 2), k1_domain_1(2, 2, k1_funct_7(1, 2), k1_funct_7(1, 2)))).
-+ fof(t29_zfmisc_1, axiom,  (! [A] :  (! [B] : k2_zfmisc_1(k1_tarski(A), k1_tarski(B))=k1_tarski(k4_tarski(A, B))) ) ).
++ fof(de_c4__realset2, axiom, c4__realset2=2).
++ fof(dt_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => m1_subset_1(k1_domain_1(A, B, C, D), k2_zfmisc_1(A, B))) ) ).
 + fof(dt_k1_funct_7, axiom,  (! [A, B] : m1_subset_1(k1_funct_7(A, B), B)) ).
 + fof(fc10_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  ~ (v1_xboole_0(k2_zfmisc_1(A, B))) ) ) ).
-+ fof(dt_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => m1_subset_1(k1_domain_1(A, B, C, D), k2_zfmisc_1(A, B))) ) ).
-+ fof(spc2_boole, axiom,  ~ (v1_xboole_0(2)) ).
 + fof(l23_realset2, axiom, k6_subset_1(c4__realset2, k6_domain_1(2, k1_funct_7(k6_numbers, 2)))=k6_domain_1(2, k1_funct_7(1, 2))).
-+ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
-+ fof(de_c4__realset2, axiom, c4__realset2=2).
 + fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
++ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
++ fof(spc2_boole, axiom,  ~ (v1_xboole_0(2)) ).
++ fof(t29_zfmisc_1, axiom,  (! [A] :  (! [B] : k2_zfmisc_1(k1_tarski(A), k1_tarski(B))=k1_tarski(k4_tarski(A, B))) ) ).
 - fof(d1_funct_7, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => k1_funct_7(A, B)=A) ) ) ).
 - fof(l6_realset2, axiom, k1_funct_7(1, 2)=1).
 - fof(l5_realset2, axiom, k1_funct_7(k6_numbers, 2)=k6_numbers).

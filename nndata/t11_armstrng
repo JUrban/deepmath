@@ -1,10 +1,10 @@
 C fof(t11_armstrng, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k4_armstrng(A)) =>  (! [C] :  (m1_subset_1(C, k4_armstrng(A)) =>  ( (r3_armstrng(A, C, B) & r3_armstrng(A, B, C))  => B=C) ) ) ) ) ) ).
-+ fof(d1_relat_1, axiom,  (! [A] :  (v1_relat_1(A) <=>  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (! [D] :  ~ (B=k4_tarski(C, D)) ) ) ) ) ) ) ) ).
-+ fof(t90_mcart_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_relat_1(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  ( (k1_xtuple_0(B)=k1_xtuple_0(C) & k2_xtuple_0(B)=k2_xtuple_0(C))  => B=C) ) ) ) ) ) ) ).
 + fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
++ fof(d1_relat_1, axiom,  (! [A] :  (v1_relat_1(A) <=>  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (! [D] :  ~ (B=k4_tarski(C, D)) ) ) ) ) ) ) ) ).
 + fof(d9_armstrng, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k4_armstrng(A)) =>  (! [C] :  (m1_subset_1(C, k4_armstrng(A)) =>  (r3_armstrng(A, B, C) <=>  (r1_tarski(k1_xtuple_0(B), k1_xtuple_0(C)) & r1_tarski(k2_xtuple_0(C), k2_xtuple_0(B))) ) ) ) ) ) ) ).
-+ fof(t8_armstrng, axiom,  (! [A] :  (! [B] :  (r2_hidden(B, k4_armstrng(A)) <=>  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) &  (? [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) & B=k4_tarski(C, D)) ) ) ) ) ) ) ).
 + fof(fc2_armstrng, axiom,  (! [A] :  ~ (v1_xboole_0(k4_armstrng(A))) ) ).
++ fof(t8_armstrng, axiom,  (! [A] :  (! [B] :  (r2_hidden(B, k4_armstrng(A)) <=>  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) &  (? [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) & B=k4_tarski(C, D)) ) ) ) ) ) ) ).
++ fof(t90_mcart_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_relat_1(A))  =>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  ( (k1_xtuple_0(B)=k1_xtuple_0(C) & k2_xtuple_0(B)=k2_xtuple_0(C))  => B=C) ) ) ) ) ) ) ).
 - fof(reflexivity_r3_armstrng, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k4_armstrng(A)) & m1_subset_1(C, k4_armstrng(A)))  => r3_armstrng(A, B, B)) ) ).
 - fof(dt_m1_armstrng, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k9_setfam_1(A), k9_setfam_1(A)))))  =>  (! [C] :  (m1_armstrng(C, A, B) => m1_subset_1(C, k4_armstrng(A))) ) ) ) ).
 - fof(dt_k4_armstrng, axiom,  (! [A] : m1_subset_1(k4_armstrng(A), k1_zfmisc_1(k2_zfmisc_1(k9_setfam_1(A), k9_setfam_1(A))))) ).

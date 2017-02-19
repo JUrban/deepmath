@@ -1,16 +1,16 @@
 C fof(t10_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k1_group_5(A, k6_finseq_1(u1_struct_0(A)), B)=k1_xboole_0) ) ) ) ).
-+ fof(dt_k1_group_5, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  &  (m1_finseq_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m2_finseq_1(k1_group_5(A, B, C), u1_struct_0(A))) ) ).
++ fof(d1_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m2_finseq_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m2_finseq_1(D, u1_struct_0(A)) =>  (D=k1_group_5(A, B, C) <=>  (k3_finseq_1(D)=k3_finseq_1(B) &  (! [E] :  (v7_ordinal1(E) =>  (r2_hidden(E, k4_finseq_1(B)) => k1_funct_1(D, E)=k2_group_3(A, k7_partfun1(u1_struct_0(A), B, E), C)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(d6_finseq_1, axiom,  (! [A] : k6_finseq_1(A)=k1_xboole_0) ).
++ fof(dt_k1_group_5, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  &  (m1_finseq_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m2_finseq_1(k1_group_5(A, B, C), u1_struct_0(A))) ) ).
++ fof(dt_k6_finseq_1, axiom,  (! [A] : m2_finseq_1(k6_finseq_1(A), A)) ).
 + fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
 + fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
-+ fof(d1_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m2_finseq_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m2_finseq_1(D, u1_struct_0(A)) =>  (D=k1_group_5(A, B, C) <=>  (k3_finseq_1(D)=k3_finseq_1(B) &  (! [E] :  (v7_ordinal1(E) =>  (r2_hidden(E, k4_finseq_1(B)) => k1_funct_1(D, E)=k2_group_3(A, k7_partfun1(u1_struct_0(A), B, E), C)) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k6_finseq_1, axiom,  (! [A] : m2_finseq_1(k6_finseq_1(A), A)) ).
-+ fof(d6_finseq_1, axiom,  (! [A] : k6_finseq_1(A)=k1_xboole_0) ).
++ fof(fc1_card_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (v1_xboole_0(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
++ fof(fc2_card_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k1_card_1(A)))  & v1_card_1(k1_card_1(A))) ) ) ).
++ fof(redefinition_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_1(A)=k1_card_1(A)) ) ).
 + fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 + fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(redefinition_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_1(A)=k1_card_1(A)) ) ).
-+ fof(fc2_card_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k1_card_1(A)))  & v1_card_1(k1_card_1(A))) ) ) ).
-+ fof(fc1_card_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (v1_xboole_0(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
 - fof(t9_group_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m2_finseq_1(C, u1_struct_0(A)) =>  (! [D] :  (m2_finseq_1(D, u1_struct_0(A)) => k8_finseq_1(u1_struct_0(A), k1_group_5(A, C, B), k1_group_5(A, D, B))=k1_group_5(A, k8_finseq_1(u1_struct_0(A), C, D), B)) ) ) ) ) ) ) ) ).
 - fof(t19_prelamb, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_prelamb(A) & l2_prelamb(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r2_prelamb(A, k12_finseq_1(u1_struct_0(A), B), C) =>  (r2_prelamb(A, k6_finseq_1(u1_struct_0(A)), k2_prelamb(A, C, B)) & r2_prelamb(A, k6_finseq_1(u1_struct_0(A)), k1_prelamb(A, B, C))) ) ) ) ) ) ) ) ).
 - fof(fc5_finseq_1, axiom,  (! [A] : v1_xboole_0(k6_finseq_1(A))) ).

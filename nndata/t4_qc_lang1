@@ -1,16 +1,16 @@
 C fof(t4_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) => r1_tarski(k2_qc_lang1(A), k2_zfmisc_1(k5_numbers, k1_qc_lang1(A)))) ) ).
 + fof(d3_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) => k2_qc_lang1(A)=k2_xboole_0(k2_zfmisc_1(k1_tarski(6), k5_numbers), k2_zfmisc_1(k2_tarski(4, 5), k1_qc_lang1(A)))) ) ).
-+ fof(spc6_numerals, axiom,  ( (v2_xxreal_0(6) & m2_subset_1(6, k1_numbers, k5_numbers))  &  (m1_subset_1(6, k5_numbers) & m1_subset_1(6, k1_numbers)) ) ).
 + fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
-+ fof(t32_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_tarski(k2_tarski(A, B), C) <=>  (r2_hidden(A, C) & r2_hidden(B, C)) ) ) ) ) ).
-+ fof(spc5_numerals, axiom,  ( (v2_xxreal_0(5) & m2_subset_1(5, k1_numbers, k5_numbers))  &  (m1_subset_1(5, k5_numbers) & m1_subset_1(5, k1_numbers)) ) ).
 + fof(spc4_numerals, axiom,  ( (v2_xxreal_0(4) & m2_subset_1(4, k1_numbers, k5_numbers))  &  (m1_subset_1(4, k5_numbers) & m1_subset_1(4, k1_numbers)) ) ).
++ fof(spc5_numerals, axiom,  ( (v2_xxreal_0(5) & m2_subset_1(5, k1_numbers, k5_numbers))  &  (m1_subset_1(5, k5_numbers) & m1_subset_1(5, k1_numbers)) ) ).
++ fof(spc6_numerals, axiom,  ( (v2_xxreal_0(6) & m2_subset_1(6, k1_numbers, k5_numbers))  &  (m1_subset_1(6, k5_numbers) & m1_subset_1(6, k1_numbers)) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 + fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
++ fof(t32_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_tarski(k2_tarski(A, B), C) <=>  (r2_hidden(A, C) & r2_hidden(B, C)) ) ) ) ) ).
 + fof(t3_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (r1_tarski(k5_numbers, k1_qc_lang1(A)) & r2_hidden(k6_numbers, k1_qc_lang1(A))) ) ) ).
 + fof(t8_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(C, B))  => r1_tarski(k2_xboole_0(A, C), B)) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(t96_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k2_zfmisc_1(A, C), k2_zfmisc_1(B, D))) ) ) ) ) ).
 - fof(l7_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (r1_tarski(k2_zfmisc_1(k1_tarski(4), k1_qc_lang1(A)), k2_qc_lang1(A)) &  (r1_tarski(k2_zfmisc_1(k1_tarski(5), k1_qc_lang1(A)), k2_qc_lang1(A)) & r1_tarski(k2_zfmisc_1(k1_tarski(6), k5_numbers), k2_qc_lang1(A))) ) ) ) ).
 - fof(fc2_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k2_qc_lang1(A))) ) ) ).

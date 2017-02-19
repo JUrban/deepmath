@@ -1,12 +1,12 @@
 C fof(t59_nat_3, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v7_ordinal1(B))  => k1_seq_1(k13_nat_3(k1_newton(A, B)), A)=k1_newton(A, B)) ) ) ) ).
-+ fof(t25_nat_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( ~ (r1_xxreal_0(A, 1))  => k11_nat_3(k1_newton(A, B), A)=B) ) ) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(fc4_newton, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k1_newton(A, B))) ) ).
 + fof(cc1_nat_3, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  ( ~ (v1_xboole_0(A))  &  (v7_ordinal1(A) & v1_int_2(A)) ) ) ) ).
-+ fof(t56_nat_3, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v7_ordinal1(B))  =>  ( ~ (k11_nat_3(B, A)=k6_numbers)  => k1_seq_1(k13_nat_3(B), A)=k1_newton(A, k11_nat_3(B, A))) ) ) ) ) ).
 + fof(d4_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_int_2(A) <=>  ( ~ (r1_xxreal_0(A, 1))  &  (! [B] :  (v7_ordinal1(B) =>  ~ ( (r1_int_1(B, A) &  ( ~ (B=1)  &  ~ (B=A) ) ) ) ) ) ) ) ) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
 + fof(fc1_nat_3, axiom,  (! [A, B] :  ( ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  & v7_ordinal1(B))  =>  ~ (v1_xboole_0(k1_newton(A, B))) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(fc4_newton, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => v7_ordinal1(k1_newton(A, B))) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t25_nat_3, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( ~ (r1_xxreal_0(A, 1))  => k11_nat_3(k1_newton(A, B), A)=B) ) ) ) ) ).
++ fof(t56_nat_3, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v7_ordinal1(B))  =>  ( ~ (k11_nat_3(B, A)=k6_numbers)  => k1_seq_1(k13_nat_3(B), A)=k1_newton(A, k11_nat_3(B, A))) ) ) ) ) ).
 - fof(d9_nat_3, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, k10_newton) &  (v1_funct_1(B) & v1_partfun1(B, k10_newton)) ) )  =>  (B=k13_nat_3(A) <=>  (k13_pre_poly(B)=k1_polynom2(k10_newton, k12_nat_3(A)) &  (! [C] :  (v7_ordinal1(C) =>  (r2_hidden(C, k1_polynom2(k10_newton, k12_nat_3(A))) => k1_funct_1(B, C)=k1_newton(C, k11_nat_3(A, C))) ) ) ) ) ) ) ) ) ).
 - fof(fc21_nat_3, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  (v1_relat_1(k13_nat_3(A)) &  (v4_relat_1(k13_nat_3(A), k10_newton) &  (v1_funct_1(k13_nat_3(A)) &  (v1_partfun1(k13_nat_3(A), k10_newton) &  (v4_valued_0(k13_nat_3(A)) & v2_pre_poly(k13_nat_3(A))) ) ) ) ) ) ) ).
 - fof(t55_nat_3, axiom,  (! [A] :  ( (v7_ordinal1(A) & v1_int_2(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v7_ordinal1(B))  =>  (k11_nat_3(B, A)=k6_numbers => k1_seq_1(k13_nat_3(B), A)=k6_numbers) ) ) ) ) ).

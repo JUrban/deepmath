@@ -1,10 +1,10 @@
 C fof(t11_autalg_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, k1_tarski(A)) &  (v1_funct_1(B) & v1_partfun1(B, k1_tarski(A))) ) )  => B=k16_funcop_1(A, k1_funct_1(B, A))) ) ) ).
-+ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
-+ fof(t9_funcop_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (k10_xtuple_0(A)=k1_tarski(B) => A=k2_funcop_1(k9_xtuple_0(A), B)) ) ) ) ).
-+ fof(t4_funct_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (k9_xtuple_0(B)=k1_tarski(A) => k10_xtuple_0(B)=k1_tarski(k1_funct_1(B, A))) ) ) ) ).
 + fof(d2_partfun1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  =>  (v1_partfun1(B, A) <=> k1_relset_1(A, B)=A) ) ) ) ).
-+ fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
 + fof(d9_funcop_1, axiom,  (! [A] :  (! [B] : k16_funcop_1(A, B)=k7_funcop_1(k1_tarski(A), B)) ) ).
++ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
++ fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
++ fof(t4_funct_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (k9_xtuple_0(B)=k1_tarski(A) => k10_xtuple_0(B)=k1_tarski(k1_funct_1(B, A))) ) ) ) ).
++ fof(t9_funcop_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (k10_xtuple_0(A)=k1_tarski(B) => A=k2_funcop_1(k9_xtuple_0(A), B)) ) ) ) ).
 - fof(t6_funct_7, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (r2_hidden(B, k9_xtuple_0(A)) => k5_relat_1(A, k1_tarski(B))=k16_funcop_1(B, k1_funct_1(A, B))) ) ) ) ).
 - fof(t28_grfunc_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (r2_hidden(B, k9_xtuple_0(A)) => k5_relat_1(A, k1_tarski(B))=k1_tarski(k4_tarski(B, k1_funct_1(A, B)))) ) ) ) ).
 - fof(t82_funct_4, axiom,  (! [A] :  (! [B] : k16_funcop_1(A, B)=k1_tarski(k4_tarski(A, B))) ) ).

@@ -1,9 +1,9 @@
 C fof(t70_quatern3, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) =>  (! [C] :  (v1_quaterni(C) =>  (! [D] :  (v1_quaterni(D) => k26_quaterni(k29_quaterni(k29_quaterni(A, B), C), D)=k26_quaterni(k29_quaterni(k29_quaterni(D, C), B), A)) ) ) ) ) ) ) ) ).
-+ fof(t6_quatern2, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) =>  (! [C] :  (v1_quaterni(C) => k26_quaterni(k29_quaterni(A, B), C)=k29_quaterni(k26_quaterni(A, C), B)) ) ) ) ) ) ).
-+ fof(t54_quatern3, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) =>  (! [C] :  (v1_quaterni(C) => k29_quaterni(A, k26_quaterni(B, C))=k29_quaterni(k29_quaterni(A, B), C)) ) ) ) ) ) ).
 + fof(cc1_quaterni, axiom,  (! [A] :  (m1_subset_1(A, k1_quaterni) => v1_quaterni(A)) ) ).
 + fof(commutativity_k26_quaterni, axiom,  (! [A, B] :  ( (v1_quaterni(A) & v1_quaterni(B))  => k26_quaterni(A, B)=k26_quaterni(B, A)) ) ).
 + fof(dt_k26_quaterni, axiom,  (! [A, B] :  ( (v1_quaterni(A) & v1_quaterni(B))  => m1_subset_1(k26_quaterni(A, B), k1_quaterni)) ) ).
++ fof(t54_quatern3, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) =>  (! [C] :  (v1_quaterni(C) => k29_quaterni(A, k26_quaterni(B, C))=k29_quaterni(k29_quaterni(A, B), C)) ) ) ) ) ) ).
++ fof(t6_quatern2, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) =>  (! [C] :  (v1_quaterni(C) => k26_quaterni(k29_quaterni(A, B), C)=k29_quaterni(k26_quaterni(A, C), B)) ) ) ) ) ) ).
 - fof(dt_k29_quaterni, axiom,  (! [A, B] :  ( (v1_quaterni(A) & v1_quaterni(B))  => m1_subset_1(k29_quaterni(A, B), k1_quaterni)) ) ).
 - fof(l139_quaterni, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) => A=k26_quaterni(k29_quaterni(A, B), B)) ) ) ) ).
 - fof(l138_quaterni, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) => A=k29_quaterni(k26_quaterni(A, B), B)) ) ) ) ).

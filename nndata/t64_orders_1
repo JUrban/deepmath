@@ -1,10 +1,10 @@
 C fof(t64_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  ~ ( (r2_orders_1(A, B) &  (k1_relat_1(A)=B &  (r5_orders_1(A, B) &  (! [C] :  ~ (r7_orders_1(A, C)) ) ) ) ) ) ) ) ) ).
-+ fof(t52_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r4_orders_1(k2_relat_1(A), B) <=> r5_orders_1(A, B)) ) ) ) ).
-+ fof(t41_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r2_orders_1(A, B) => r2_orders_1(k2_relat_1(A), B)) ) ) ) ).
-+ fof(t63_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  ~ ( (r2_orders_1(A, B) &  (k1_relat_1(A)=B &  (r4_orders_1(A, B) &  (! [C] :  ~ (r6_orders_1(A, C)) ) ) ) ) ) ) ) ) ).
-+ fof(t59_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r7_orders_1(A, B) <=> r6_orders_1(k2_relat_1(A), B)) ) ) ) ).
-+ fof(t21_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => k1_relat_1(A)=k1_relat_1(k2_relat_1(A))) ) ).
 + fof(dt_k2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k2_relat_1(A))) ) ).
++ fof(t21_relat_1, axiom,  (! [A] :  (v1_relat_1(A) => k1_relat_1(A)=k1_relat_1(k2_relat_1(A))) ) ).
++ fof(t41_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r2_orders_1(A, B) => r2_orders_1(k2_relat_1(A), B)) ) ) ) ).
++ fof(t52_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r4_orders_1(k2_relat_1(A), B) <=> r5_orders_1(A, B)) ) ) ) ).
++ fof(t59_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r7_orders_1(A, B) <=> r6_orders_1(k2_relat_1(A), B)) ) ) ) ).
++ fof(t63_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  ~ ( (r2_orders_1(A, B) &  (k1_relat_1(A)=B &  (r4_orders_1(A, B) &  (! [C] :  ~ (r6_orders_1(A, C)) ) ) ) ) ) ) ) ) ).
 - fof(d12_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r7_orders_1(A, B) <=>  (r2_hidden(B, k1_relat_1(A)) &  (! [C] :  ~ ( (r2_hidden(C, k1_relat_1(A)) &  ( ~ (C=B)  & r2_hidden(k4_tarski(C, B), A)) ) ) ) ) ) ) ) ) ).
 - fof(d7_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r2_orders_1(A, B) <=>  (r1_relat_2(A, B) &  (r8_relat_2(A, B) & r4_relat_2(A, B)) ) ) ) ) ) ).
 - fof(d14_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r9_orders_1(A, B) <=>  (r2_hidden(B, k1_relat_1(A)) &  (! [C] :  (r2_hidden(C, k1_relat_1(A)) =>  (C=B | r2_hidden(k4_tarski(B, C), A)) ) ) ) ) ) ) ) ).

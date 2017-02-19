@@ -1,11 +1,11 @@
 C fof(t12_catalg_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k6_catalg_1(A, C)=k6_catalg_1(B, D) =>  (A=B & C=D) ) ) ) ) ) ).
-+ fof(fc10_finseq_1, axiom,  (! [A, B] : v1_finseq_1(k10_finseq_1(A, B))) ).
-+ fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
-+ fof(d9_catalg_1, axiom,  (! [A] :  (! [B] : k6_catalg_1(A, B)=k4_tarski(k6_numbers, k10_finseq_1(A, B))) ) ).
-+ fof(t44_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  =>  (C=k10_finseq_1(A, B) <=>  (k3_finseq_1(C)=2 &  (k1_funct_1(C, 1)=A & k1_funct_1(C, 2)=B) ) ) ) ) ) ) ).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(d9_catalg_1, axiom,  (! [A] :  (! [B] : k6_catalg_1(A, B)=k4_tarski(k6_numbers, k10_finseq_1(A, B))) ) ).
++ fof(fc10_finseq_1, axiom,  (! [A, B] : v1_finseq_1(k10_finseq_1(A, B))) ).
 + fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
++ fof(t44_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  =>  (C=k10_finseq_1(A, B) <=>  (k3_finseq_1(C)=2 &  (k1_funct_1(C, 1)=A & k1_funct_1(C, 2)=B) ) ) ) ) ) ) ).
 - fof(redefinition_k9_catalg_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k9_catalg_1(A, B, C)=k6_catalg_1(B, C)) ) ).
 - fof(t10_catalg_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_catalg_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) =>  (r2_hidden(k5_catalg_1(C), u4_struct_0(B)) &  (! [D] :  (m1_subset_1(D, A) =>  (r2_hidden(k6_catalg_1(C, D), u1_struct_0(B)) &  (! [E] :  (m1_subset_1(E, A) => r2_hidden(k7_catalg_1(C, D, E), u4_struct_0(B))) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).

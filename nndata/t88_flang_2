@@ -1,18 +1,18 @@
 C fof(t88_flang_2, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k8_afinsq_1(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k8_afinsq_1(A))) => k4_subset_1(k8_afinsq_1(A), k2_flang_2(A, B), k2_flang_2(A, C))=k2_flang_2(A, k4_subset_1(k8_afinsq_1(A), B, C))) ) ) ) ) ).
-+ fof(fc4_afinsq_1, axiom,  (! [A] :  (v1_relat_1(k4_afinsq_1(A)) &  (v5_relat_1(k4_afinsq_1(A), A) &  (v5_ordinal1(k4_afinsq_1(A)) &  (v1_funct_1(k4_afinsq_1(A)) &  (v1_xboole_0(k4_afinsq_1(A)) & v1_finset_1(k4_afinsq_1(A))) ) ) ) ) ) ).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(dt_k2_flang_1, axiom,  (! [A] : m1_subset_1(k2_flang_1(A), k3_catalan2(A))) ).
++ fof(dt_k2_flang_2, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k8_afinsq_1(A))) => m1_subset_1(k2_flang_2(A, B), k1_zfmisc_1(k8_afinsq_1(A)))) ) ).
 + fof(dt_k4_flang_1, axiom,  (! [A, B] :  (m1_subset_1(B, k3_catalan2(A)) => m1_subset_1(k4_flang_1(A, B), k1_zfmisc_1(k3_catalan2(A)))) ) ).
++ fof(dt_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k4_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
++ fof(fc4_afinsq_1, axiom,  (! [A] :  (v1_relat_1(k4_afinsq_1(A)) &  (v5_relat_1(k4_afinsq_1(A), A) &  (v5_ordinal1(k4_afinsq_1(A)) &  (v1_funct_1(k4_afinsq_1(A)) &  (v1_xboole_0(k4_afinsq_1(A)) & v1_finset_1(k4_afinsq_1(A))) ) ) ) ) ) ).
++ fof(redefinition_k2_flang_1, axiom,  (! [A] : k2_flang_1(A)=k4_afinsq_1(A)) ).
++ fof(redefinition_k3_catalan2, axiom,  (! [A] : k3_catalan2(A)=k8_afinsq_1(A)) ).
++ fof(redefinition_k4_flang_1, axiom,  (! [A, B] :  (m1_subset_1(B, k3_catalan2(A)) => k4_flang_1(A, B)=k1_tarski(B)) ) ).
++ fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
++ fof(t1_boole, axiom,  (! [A] : k2_xboole_0(A, k1_xboole_0)=A) ).
++ fof(t5_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k2_xboole_0(k2_xboole_0(A, B), C)=k2_xboole_0(k2_xboole_0(A, C), k2_xboole_0(B, C))) ) ) ).
 + fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 + fof(t76_flang_2, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k8_afinsq_1(A))) => k2_flang_2(A, B)=k4_subset_1(k8_afinsq_1(A), k4_flang_1(A, k2_flang_1(A)), B)) ) ) ).
-+ fof(redefinition_k2_flang_1, axiom,  (! [A] : k2_flang_1(A)=k4_afinsq_1(A)) ).
-+ fof(t5_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k2_xboole_0(k2_xboole_0(A, B), C)=k2_xboole_0(k2_xboole_0(A, C), k2_xboole_0(B, C))) ) ) ).
-+ fof(redefinition_k3_catalan2, axiom,  (! [A] : k3_catalan2(A)=k8_afinsq_1(A)) ).
-+ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
-+ fof(dt_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k4_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
-+ fof(t1_boole, axiom,  (! [A] : k2_xboole_0(A, k1_xboole_0)=A) ).
-+ fof(redefinition_k4_flang_1, axiom,  (! [A, B] :  (m1_subset_1(B, k3_catalan2(A)) => k4_flang_1(A, B)=k1_tarski(B)) ) ).
-+ fof(dt_k2_flang_1, axiom,  (! [A] : m1_subset_1(k2_flang_1(A), k3_catalan2(A))) ).
-+ fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
-+ fof(dt_k2_flang_2, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k8_afinsq_1(A))) => m1_subset_1(k2_flang_2(A, B), k1_zfmisc_1(k8_afinsq_1(A)))) ) ).
 - fof(t78_flang_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k8_afinsq_1(B))) =>  (r2_hidden(A, k2_flang_2(B, C)) <=>  (A=k2_flang_1(B) | r2_hidden(A, C)) ) ) ) ) ) ).
 - fof(t46_flang_2, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k8_afinsq_1(A))) => k1_flang_2(A, B, k6_numbers, 1)=k4_subset_1(k8_afinsq_1(A), k4_flang_1(A, k2_flang_1(A)), B)) ) ) ).
 - fof(t75_flang_2, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k8_afinsq_1(A))) => k2_flang_2(A, B)=k4_subset_1(k3_catalan2(A), k7_flang_1(A, B, k6_numbers), k7_flang_1(A, B, 1))) ) ) ).

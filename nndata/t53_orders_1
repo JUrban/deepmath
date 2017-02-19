@@ -1,6 +1,6 @@
 C fof(t53_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  ( (r9_orders_1(A, B) & v4_relat_2(A))  => r7_orders_1(A, B)) ) ) ) ).
-+ fof(d14_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r9_orders_1(A, B) <=>  (r2_hidden(B, k1_relat_1(A)) &  (! [C] :  (r2_hidden(C, k1_relat_1(A)) =>  (C=B | r2_hidden(k4_tarski(B, C), A)) ) ) ) ) ) ) ) ).
 + fof(d12_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r7_orders_1(A, B) <=>  (r2_hidden(B, k1_relat_1(A)) &  (! [C] :  ~ ( (r2_hidden(C, k1_relat_1(A)) &  ( ~ (C=B)  & r2_hidden(k4_tarski(C, B), A)) ) ) ) ) ) ) ) ) ).
++ fof(d14_orders_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r9_orders_1(A, B) <=>  (r2_hidden(B, k1_relat_1(A)) &  (! [C] :  (r2_hidden(C, k1_relat_1(A)) =>  (C=B | r2_hidden(k4_tarski(B, C), A)) ) ) ) ) ) ) ) ).
 + fof(l3_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v4_relat_2(A) <=>  (! [B] :  (! [C] :  ( (r2_hidden(k4_tarski(B, C), A) & r2_hidden(k4_tarski(C, B), A))  => B=C) ) ) ) ) ) ).
 - fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
 - fof(l6_orders_1, axiom,  (! [A] :  (! [B] :  ( (v1_partfun1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => k1_relat_1(B)=A) ) ) ).

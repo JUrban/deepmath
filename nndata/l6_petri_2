@@ -1,13 +1,13 @@
 C fof(l6_petri_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (! [C] :  (r1_tarski(B, C) => r1_tarski(k2_petri_2(A, B), k9_setfam_1(k4_partfun1(C, A)))) ) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(dt_k2_petri_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k2_petri_2(A, B)))  & m1_subset_1(k2_petri_2(A, B), k1_zfmisc_1(k1_zfmisc_1(k9_funct_2(B, A))))) ) ) ).
++ fof(redefinition_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => k9_funct_2(A, B)=k1_funct_2(A, B)) ) ).
 + fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
 + fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t50_partfun1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k4_partfun1(A, C), k4_partfun1(B, D))) ) ) ) ) ).
 + fof(t67_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k1_zfmisc_1(A), k1_zfmisc_1(B))) ) ) ).
 + fof(t72_funct_2, axiom,  (! [A] :  (! [B] : r1_tarski(k1_funct_2(A, B), k4_partfun1(A, B))) ) ).
-+ fof(t50_partfun1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k4_partfun1(A, C), k4_partfun1(B, D))) ) ) ) ) ).
-+ fof(redefinition_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => k9_funct_2(A, B)=k1_funct_2(A, B)) ) ).
-+ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
-+ fof(dt_k2_petri_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k2_petri_2(A, B)))  & m1_subset_1(k2_petri_2(A, B), k1_zfmisc_1(k1_zfmisc_1(k9_funct_2(B, A))))) ) ) ).
 - fof(d3_petri_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] : k2_petri_2(A, B)=a_2_0_petri_2(A, B)) ) ) ).
 - fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 - fof(t16_pre_poly, axiom,  (! [A] :  (! [B] : r1_tarski(k4_partfun1(A, B), k9_setfam_1(k2_zfmisc_1(A, B)))) ) ).

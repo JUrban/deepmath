@@ -1,18 +1,18 @@
 C fof(l35_valuat_1, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) =>  (! [B] :  (m1_subset_1(B, k6_margrel1) =>  (! [C] :  (m1_subset_1(C, k6_margrel1) => k9_margrel1(k10_margrel1(k9_margrel1(k10_margrel1(A, k9_margrel1(B))), k10_margrel1(k9_margrel1(k10_margrel1(B, C)), k10_margrel1(A, C))))=k8_margrel1) ) ) ) ) ) ).
-+ fof(t12_margrel1, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) =>  ( (k4_xboolean(A, B)=k8_margrel1 =>  (A=k8_margrel1 & B=k8_margrel1) )  &  ( ( (A=k8_margrel1 & B=k8_margrel1)  => k4_xboolean(A, B)=k8_margrel1)  &  ( ~ ( (k4_xboolean(A, B)=k7_margrel1 &  ( ~ (A=k7_margrel1)  &  ~ (B=k7_margrel1) ) ) )  &  ( (A=k7_margrel1 | B=k7_margrel1)  => k4_xboolean(A, B)=k7_margrel1) ) ) ) ) ) ) ) ).
-+ fof(commutativity_k10_margrel1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k6_margrel1) & m1_subset_1(B, k6_margrel1))  => k10_margrel1(A, B)=k10_margrel1(B, A)) ) ).
-+ fof(redefinition_k8_margrel1, axiom, k8_margrel1=k2_xboolean).
-+ fof(redefinition_k10_margrel1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k6_margrel1) & m1_subset_1(B, k6_margrel1))  => k10_margrel1(A, B)=k4_xboolean(A, B)) ) ).
-+ fof(t11_margrel1, axiom,  (! [A] :  (v1_xboolean(A) =>  ( (A=k7_margrel1 => k3_xboolean(A)=k8_margrel1)  &  ( (k3_xboolean(A)=k8_margrel1 => A=k7_margrel1)  &  ( (A=k8_margrel1 => k3_xboolean(A)=k7_margrel1)  &  (k3_xboolean(A)=k7_margrel1 => A=k8_margrel1) ) ) ) ) ) ).
 + fof(cc2_margrel1, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) => v1_xboolean(A)) ) ).
-+ fof(involutiveness_k9_margrel1, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) => k9_margrel1(k9_margrel1(A))=A) ) ).
++ fof(commutativity_k10_margrel1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k6_margrel1) & m1_subset_1(B, k6_margrel1))  => k10_margrel1(A, B)=k10_margrel1(B, A)) ) ).
++ fof(commutativity_k4_xboolean, axiom,  (! [A, B] :  ( (v1_xboolean(A) & v1_xboolean(B))  => k4_xboolean(A, B)=k4_xboolean(B, A)) ) ).
++ fof(d3_xboolean, axiom,  (! [A] :  (v1_xboolean(A) <=>  (A=k1_xboolean | A=k2_xboolean) ) ) ).
 + fof(dt_k7_margrel1, axiom, m1_subset_1(k7_margrel1, k6_margrel1)).
 + fof(dt_k8_margrel1, axiom, m1_subset_1(k8_margrel1, k6_margrel1)).
-+ fof(commutativity_k4_xboolean, axiom,  (! [A, B] :  ( (v1_xboolean(A) & v1_xboolean(B))  => k4_xboolean(A, B)=k4_xboolean(B, A)) ) ).
-+ fof(redefinition_k7_margrel1, axiom, k7_margrel1=k1_xboolean).
-+ fof(redefinition_k9_margrel1, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) => k9_margrel1(A)=k3_xboolean(A)) ) ).
-+ fof(d3_xboolean, axiom,  (! [A] :  (v1_xboolean(A) <=>  (A=k1_xboolean | A=k2_xboolean) ) ) ).
 + fof(dt_k9_margrel1, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) => m1_subset_1(k9_margrel1(A), k6_margrel1)) ) ).
++ fof(involutiveness_k9_margrel1, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) => k9_margrel1(k9_margrel1(A))=A) ) ).
++ fof(redefinition_k10_margrel1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k6_margrel1) & m1_subset_1(B, k6_margrel1))  => k10_margrel1(A, B)=k4_xboolean(A, B)) ) ).
++ fof(redefinition_k7_margrel1, axiom, k7_margrel1=k1_xboolean).
++ fof(redefinition_k8_margrel1, axiom, k8_margrel1=k2_xboolean).
++ fof(redefinition_k9_margrel1, axiom,  (! [A] :  (m1_subset_1(A, k6_margrel1) => k9_margrel1(A)=k3_xboolean(A)) ) ).
++ fof(t11_margrel1, axiom,  (! [A] :  (v1_xboolean(A) =>  ( (A=k7_margrel1 => k3_xboolean(A)=k8_margrel1)  &  ( (k3_xboolean(A)=k8_margrel1 => A=k7_margrel1)  &  ( (A=k8_margrel1 => k3_xboolean(A)=k7_margrel1)  &  (k3_xboolean(A)=k7_margrel1 => A=k8_margrel1) ) ) ) ) ) ).
++ fof(t12_margrel1, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) =>  ( (k4_xboolean(A, B)=k8_margrel1 =>  (A=k8_margrel1 & B=k8_margrel1) )  &  ( ( (A=k8_margrel1 & B=k8_margrel1)  => k4_xboolean(A, B)=k8_margrel1)  &  ( ~ ( (k4_xboolean(A, B)=k7_margrel1 &  ( ~ (A=k7_margrel1)  &  ~ (B=k7_margrel1) ) ) )  &  ( (A=k7_margrel1 | B=k7_margrel1)  => k4_xboolean(A, B)=k7_margrel1) ) ) ) ) ) ) ) ).
 - fof(d4_binari_2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  (! [B] :  ( (v3_card_1(B, A) & m2_finseq_1(B, k6_margrel1))  =>  (! [C] :  ( (v3_card_1(C, A) & m2_finseq_1(C, k6_margrel1))  => k4_binari_2(A, B, C)=k10_margrel1(k10_margrel1(k9_margrel1(k7_partfun1(k6_margrel1, B, A)), k9_margrel1(k7_partfun1(k6_margrel1, C, A))), k7_partfun1(k6_margrel1, k4_binarith(A, B, C), A))) ) ) ) ) ) ).
 - fof(d5_binari_2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  (! [B] :  ( (v3_card_1(B, A) & m2_finseq_1(B, k6_margrel1))  =>  (! [C] :  ( (v3_card_1(C, A) & m2_finseq_1(C, k6_margrel1))  => k5_binari_2(A, B, C)=k10_margrel1(k10_margrel1(k7_partfun1(k6_margrel1, B, A), k7_partfun1(k6_margrel1, C, A)), k9_margrel1(k7_partfun1(k6_margrel1, k4_binarith(A, B, C), A)))) ) ) ) ) ) ).
 - fof(idempotence_k10_margrel1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k6_margrel1) & m1_subset_1(B, k6_margrel1))  => k10_margrel1(A, A)=A) ) ).

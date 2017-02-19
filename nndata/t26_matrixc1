@@ -1,9 +1,9 @@
 C fof(t26_matrixc1, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) =>  (k3_finseq_1(A)=k3_finseq_1(B) => k5_matrixc1(k12_seq_4(A, C), B)=k12_seq_4(k5_matrixc1(A, B), C)) ) ) ) ) ) ) ).
-+ fof(dt_k12_seq_4, axiom,  (! [A, B] :  ( (m1_finseq_1(A, k2_numbers) & v1_xcmplx_0(B))  => m2_finseq_1(k12_seq_4(A, B), k2_numbers)) ) ).
-+ fof(t25_matrixc1, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) =>  (k3_finseq_1(A)=k3_finseq_1(B) => k5_matrixc1(A, k12_seq_4(B, C))=k12_seq_4(k5_matrixc1(A, B), C)) ) ) ) ) ) ) ).
 + fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
 + fof(commutativity_k5_matrixc1, axiom,  (! [A, B] :  ( (m1_finseq_1(A, k2_numbers) & m1_finseq_1(B, k2_numbers))  => k5_matrixc1(A, B)=k5_matrixc1(B, A)) ) ).
++ fof(dt_k12_seq_4, axiom,  (! [A, B] :  ( (m1_finseq_1(A, k2_numbers) & v1_xcmplx_0(B))  => m2_finseq_1(k12_seq_4(A, B), k2_numbers)) ) ).
 + fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(t25_matrixc1, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) =>  (! [C] :  (m1_subset_1(C, k2_numbers) =>  (k3_finseq_1(A)=k3_finseq_1(B) => k5_matrixc1(A, k12_seq_4(B, C))=k12_seq_4(k5_matrixc1(A, B), C)) ) ) ) ) ) ) ).
 - fof(t16_matrixc1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k2_numbers) =>  (! [C] :  (m2_finseq_2(C, k2_numbers, k4_finseq_2(A, k2_numbers)) =>  (! [D] :  (m2_finseq_2(D, k2_numbers, k4_finseq_2(A, k2_numbers)) => k12_seq_4(k5_matrixc1(C, D), B)=k5_matrixc1(k12_seq_4(C, B), D)) ) ) ) ) ) ) ) ).
 - fof(d5_matrixc1, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) =>  (! [B] :  (m2_finseq_1(B, k2_numbers) => k5_matrixc1(A, B)=k1_finseqop(k2_numbers, k2_numbers, k2_numbers, k29_binop_2, A, B)) ) ) ) ).
 - fof(dt_k5_matrixc1, axiom,  (! [A, B] :  ( (m1_finseq_1(A, k2_numbers) & m1_finseq_1(B, k2_numbers))  => m2_finseq_1(k5_matrixc1(A, B), k2_numbers)) ) ).

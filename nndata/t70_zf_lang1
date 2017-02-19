@@ -1,21 +1,21 @@
 C fof(t70_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) =>  (! [D] :  (m2_subset_1(D, k5_numbers, k1_zf_lang) => k2_zf_model(k17_zf_lang(B, C, D, A))=k7_subset_1(k1_zf_lang, k2_zf_model(A), k1_enumset1(B, C, D))) ) ) ) ) ) ) ) ).
-+ fof(t2_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] : k1_enumset1(A, B, C)=k2_xboole_0(k1_tarski(A), k2_tarski(B, C))) ) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(d27_zf_lang, axiom,  (! [A] :  (m2_subset_1(A, k5_numbers, k1_zf_lang) =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) =>  (! [D] :  ( (v1_zf_lang(D) & m2_finseq_1(D, k5_numbers))  => k17_zf_lang(A, B, C, D)=k13_zf_lang(A, k15_zf_lang(B, C, D))) ) ) ) ) ) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(dt_k1_zf_lang, axiom, m1_subset_1(k1_zf_lang, k1_zfmisc_1(k5_numbers))).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(fc1_zf_lang, axiom,  ~ (v1_xboole_0(k1_zf_lang)) ).
-+ fof(t41_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k4_xboole_0(k4_xboole_0(A, B), C)=k4_xboole_0(A, k2_xboole_0(B, C))) ) ) ).
-+ fof(dt_k2_zf_model, axiom,  (! [A] :  ( (v1_zf_lang(A) & m1_finseq_1(A, k5_numbers))  => m1_subset_1(k2_zf_model(A), k1_zfmisc_1(k1_zf_lang))) ) ).
-+ fof(t69_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) => k2_zf_model(k15_zf_lang(B, C, A))=k7_subset_1(k1_zf_lang, k2_zf_model(A), k2_tarski(B, C))) ) ) ) ) ) ).
-+ fof(redefinition_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k7_subset_1(A, B, C)=k4_xboole_0(B, C)) ) ).
 + fof(d25_zf_lang, axiom,  (! [A] :  (m2_subset_1(A, k5_numbers, k1_zf_lang) =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  ( (v1_zf_lang(C) & m2_finseq_1(C, k5_numbers))  => k15_zf_lang(A, B, C)=k13_zf_lang(A, k13_zf_lang(B, C))) ) ) ) ) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(t66_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) => k2_zf_model(k13_zf_lang(B, A))=k7_subset_1(k1_zf_lang, k2_zf_model(A), k1_tarski(B))) ) ) ) ).
++ fof(d27_zf_lang, axiom,  (! [A] :  (m2_subset_1(A, k5_numbers, k1_zf_lang) =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) =>  (! [D] :  ( (v1_zf_lang(D) & m2_finseq_1(D, k5_numbers))  => k17_zf_lang(A, B, C, D)=k13_zf_lang(A, k15_zf_lang(B, C, D))) ) ) ) ) ) ) ) ).
 + fof(dt_k13_zf_lang, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_zf_lang) &  (v1_zf_lang(B) & m1_finseq_1(B, k5_numbers)) )  =>  (v1_zf_lang(k13_zf_lang(A, B)) & m2_finseq_1(k13_zf_lang(A, B), k5_numbers)) ) ) ).
-+ fof(dt_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_subset_1(k7_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
 + fof(dt_k15_zf_lang, axiom,  (! [A, B, C] :  ( (m1_subset_1(A, k1_zf_lang) &  (m1_subset_1(B, k1_zf_lang) &  (v1_zf_lang(C) & m1_finseq_1(C, k5_numbers)) ) )  =>  (v1_zf_lang(k15_zf_lang(A, B, C)) & m2_finseq_1(k15_zf_lang(A, B, C), k5_numbers)) ) ) ).
++ fof(dt_k1_zf_lang, axiom, m1_subset_1(k1_zf_lang, k1_zfmisc_1(k5_numbers))).
++ fof(dt_k2_zf_model, axiom,  (! [A] :  ( (v1_zf_lang(A) & m1_finseq_1(A, k5_numbers))  => m1_subset_1(k2_zf_model(A), k1_zfmisc_1(k1_zf_lang))) ) ).
++ fof(dt_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_subset_1(k7_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
++ fof(fc1_zf_lang, axiom,  ~ (v1_xboole_0(k1_zf_lang)) ).
++ fof(redefinition_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k7_subset_1(A, B, C)=k4_xboole_0(B, C)) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t2_enumset1, axiom,  (! [A] :  (! [B] :  (! [C] : k1_enumset1(A, B, C)=k2_xboole_0(k1_tarski(A), k2_tarski(B, C))) ) ) ).
++ fof(t41_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k4_xboole_0(k4_xboole_0(A, B), C)=k4_xboole_0(A, k2_xboole_0(B, C))) ) ) ).
++ fof(t66_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) => k2_zf_model(k13_zf_lang(B, A))=k7_subset_1(k1_zf_lang, k2_zf_model(A), k1_tarski(B))) ) ) ) ).
++ fof(t69_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) => k2_zf_model(k15_zf_lang(B, C, A))=k7_subset_1(k1_zf_lang, k2_zf_model(A), k2_tarski(B, C))) ) ) ) ) ) ).
 - fof(t68_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) =>  (! [D] :  (m2_subset_1(D, k5_numbers, k1_zf_lang) => k2_zf_model(k16_zf_lang(B, C, D, A))=k7_subset_1(k1_zf_lang, k2_zf_model(A), k1_enumset1(B, C, D))) ) ) ) ) ) ) ) ).
 - fof(t62_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) => k2_zf_model(k8_zf_lang(B, A))=k7_subset_1(k1_zf_lang, k2_zf_model(A), k1_tarski(B))) ) ) ) ).
 - fof(t67_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) => k2_zf_model(k14_zf_lang(B, C, A))=k7_subset_1(k1_zf_lang, k2_zf_model(A), k2_tarski(B, C))) ) ) ) ) ) ).

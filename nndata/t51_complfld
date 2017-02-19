@@ -1,21 +1,21 @@
 C fof(t51_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k1_complfld)) => k2_complfld(k3_rlvect_1(k1_complfld, A, B))=k3_rlvect_1(k1_complfld, k2_complfld(A), k2_complfld(B))) ) ) ) ).
-+ fof(redefinition_k2_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => k2_complfld(A)=k14_complex1(A)) ) ).
-+ fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(redefinition_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(A)=k14_complex1(A)) ) ).
-+ fof(redefinition_k3_rlvect_1, axiom,  (! [A, B, C] :  ( ( (v2_rlvect_1(A) & l1_algstr_0(A))  &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => k3_rlvect_1(A, B, C)=k1_algstr_0(A, B, C)) ) ).
-+ fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
-+ fof(dt_k1_complfld, axiom,  (v36_algstr_0(k1_complfld) & l6_algstr_0(k1_complfld)) ).
-+ fof(fc3_complfld, axiom,  ( ~ (v6_struct_0(k1_complfld))  &  (v13_algstr_0(k1_complfld) &  (v33_algstr_0(k1_complfld) &  (v36_algstr_0(k1_complfld) &  (v3_group_1(k1_complfld) &  (v5_group_1(k1_complfld) &  (v3_vectsp_1(k1_complfld) &  (v5_vectsp_1(k1_complfld) &  (v6_vectsp_1(k1_complfld) &  (v2_rlvect_1(k1_complfld) &  (v3_rlvect_1(k1_complfld) & v4_rlvect_1(k1_complfld)) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k2_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => m1_subset_1(k2_complfld(A), u1_struct_0(k1_complfld))) ) ).
-+ fof(involutiveness_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(k15_complex1(A))=A) ) ).
-+ fof(dt_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k15_complex1(A), k2_numbers)) ) ).
-+ fof(t32_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k15_complex1(k2_xcmplx_0(A, B))=k8_complex1(k15_complex1(A), k15_complex1(B))) ) ) ) ).
-+ fof(dt_k1_algstr_0, axiom,  (! [A, B, C] :  ( (l1_algstr_0(A) &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k1_algstr_0(A, B, C), u1_struct_0(A))) ) ).
-+ fof(redefinition_k3_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_binop_2(A, B)=k2_xcmplx_0(A, B)) ) ).
-+ fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
-+ fof(redefinition_k8_complex1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_numbers) & m1_subset_1(B, k2_numbers))  => k8_complex1(A, B)=k2_xcmplx_0(A, B)) ) ).
 + fof(cc1_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => v1_xcmplx_0(A)) ) ).
++ fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(dt_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k15_complex1(A), k2_numbers)) ) ).
++ fof(dt_k1_algstr_0, axiom,  (! [A, B, C] :  ( (l1_algstr_0(A) &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k1_algstr_0(A, B, C), u1_struct_0(A))) ) ).
++ fof(dt_k1_complfld, axiom,  (v36_algstr_0(k1_complfld) & l6_algstr_0(k1_complfld)) ).
++ fof(dt_k2_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => m1_subset_1(k2_complfld(A), u1_struct_0(k1_complfld))) ) ).
++ fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
++ fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
++ fof(fc3_complfld, axiom,  ( ~ (v6_struct_0(k1_complfld))  &  (v13_algstr_0(k1_complfld) &  (v33_algstr_0(k1_complfld) &  (v36_algstr_0(k1_complfld) &  (v3_group_1(k1_complfld) &  (v5_group_1(k1_complfld) &  (v3_vectsp_1(k1_complfld) &  (v5_vectsp_1(k1_complfld) &  (v6_vectsp_1(k1_complfld) &  (v2_rlvect_1(k1_complfld) &  (v3_rlvect_1(k1_complfld) & v4_rlvect_1(k1_complfld)) ) ) ) ) ) ) ) ) ) ) ).
 + fof(ie1_complfld, axiom,  (! [A, B, C, D] :  ( (v1_xcmplx_0(A) &  (v1_xcmplx_0(B) &  (m1_subset_1(C, u1_struct_0(k1_complfld)) & m1_subset_1(D, u1_struct_0(k1_complfld))) ) )  =>  ( (C=A & D=B)  => k1_algstr_0(k1_complfld, C, D)=k3_binop_2(A, B)) ) ) ).
++ fof(involutiveness_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(k15_complex1(A))=A) ) ).
++ fof(redefinition_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(A)=k14_complex1(A)) ) ).
++ fof(redefinition_k2_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => k2_complfld(A)=k14_complex1(A)) ) ).
++ fof(redefinition_k3_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_binop_2(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k3_rlvect_1, axiom,  (! [A, B, C] :  ( ( (v2_rlvect_1(A) & l1_algstr_0(A))  &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  => k3_rlvect_1(A, B, C)=k1_algstr_0(A, B, C)) ) ).
++ fof(redefinition_k8_complex1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_numbers) & m1_subset_1(B, k2_numbers))  => k8_complex1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(t32_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k15_complex1(k2_xcmplx_0(A, B))=k8_complex1(k15_complex1(A), k15_complex1(B))) ) ) ) ).
 - fof(involutiveness_k2_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => k2_complfld(k2_complfld(A))=A) ) ).
 - fof(t47_complfld, axiom, k2_complfld(k4_struct_0(k1_complfld))=k4_struct_0(k1_complfld)).
 - fof(t11_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k1_complfld)) => k5_algstr_0(k1_complfld, A, k4_algstr_0(k1_complfld, B))=k3_rlvect_1(k1_complfld, A, B)) ) ) ) ).

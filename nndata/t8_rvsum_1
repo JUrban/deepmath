@@ -1,9 +1,9 @@
 C fof(t8_rvsum_1, axiom, v1_finseqop(k33_binop_2, k1_numbers)).
-+ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
-+ fof(dt_k31_binop_2, axiom,  (v1_funct_1(k31_binop_2) &  (v1_funct_2(k31_binop_2, k1_numbers, k1_numbers) & m1_subset_1(k31_binop_2, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ) ).
-+ fof(t7_rvsum_1, axiom, r1_finseqop(k1_numbers, k31_binop_2, k33_binop_2)).
-+ fof(dt_k33_binop_2, axiom,  (v1_funct_1(k33_binop_2) &  (v1_funct_2(k33_binop_2, k2_zfmisc_1(k1_numbers, k1_numbers), k1_numbers) & m1_subset_1(k33_binop_2, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers), k1_numbers)))) ) ).
 + fof(d2_finseqop, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (v1_finseqop(B, A) <=>  (? [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, A, A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A)))) )  & r1_finseqop(A, C, B)) ) ) ) ) ) ) ).
++ fof(dt_k31_binop_2, axiom,  (v1_funct_1(k31_binop_2) &  (v1_funct_2(k31_binop_2, k1_numbers, k1_numbers) & m1_subset_1(k31_binop_2, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ) ).
++ fof(dt_k33_binop_2, axiom,  (v1_funct_1(k33_binop_2) &  (v1_funct_2(k33_binop_2, k2_zfmisc_1(k1_numbers, k1_numbers), k1_numbers) & m1_subset_1(k33_binop_2, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers), k1_numbers)))) ) ).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(t7_rvsum_1, axiom, r1_finseqop(k1_numbers, k31_binop_2, k33_binop_2)).
 - fof(l28_binop_2, axiom, r3_binop_1(k1_numbers, k6_numbers, k33_binop_2)).
 - fof(d9_binop_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_zfmisc_1(k1_numbers, k1_numbers), k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers), k1_numbers)))) )  =>  (A=k33_binop_2 <=>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) => k1_binop_1(A, B, C)=k9_binop_2(B, C)) ) ) ) ) ) ) ).
 - fof(t3_rvsum_1, axiom, r6_binop_1(k1_numbers, k35_binop_2, k33_binop_2)).

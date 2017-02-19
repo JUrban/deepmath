@@ -1,7 +1,7 @@
 C fof(t57_mmlquery, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (k24_mmlquery(A, B)=k3_finseq_1(A) => k25_mmlquery(A)=k3_finseq_1(A)) ) ) ) ).
-+ fof(t54_mmlquery, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] : r1_xxreal_0(k24_mmlquery(A, B), k3_finseq_1(A))) ) ) ).
-+ fof(dt_k24_mmlquery, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => v7_ordinal1(k24_mmlquery(A, B))) ) ).
 + fof(d23_mmlquery, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  (v7_ordinal1(B) =>  (B=k25_mmlquery(A) <=>  ( (! [C] : r1_xxreal_0(k24_mmlquery(A, C), B))  &  (! [C] :  (v7_ordinal1(C) =>  ( (! [D] : r1_xxreal_0(k24_mmlquery(A, D), C))  => r1_xxreal_0(B, C)) ) ) ) ) ) ) ) ) ).
++ fof(dt_k24_mmlquery, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => v7_ordinal1(k24_mmlquery(A, B))) ) ).
++ fof(t54_mmlquery, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] : r1_xxreal_0(k24_mmlquery(A, B), k3_finseq_1(A))) ) ) ).
 - fof(t55_mmlquery, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( ( ~ (A=k1_xboole_0)  & k24_mmlquery(A, B)=k3_finseq_1(A))  <=> r2_hidden(B, k1_setfam_1(k10_xtuple_0(A)))) ) ) ) ).
 - fof(dt_k25_mmlquery, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => v7_ordinal1(k25_mmlquery(A))) ) ).
 - fof(d22_mmlquery, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] : k24_mmlquery(A, B)=k1_card_1(a_2_0_mmlquery(A, B))) ) ) ).

@@ -1,10 +1,10 @@
 C fof(t11_jordan18, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  ~ ( (r2_hidden(B, k1_jordan2c(2, A)) & r1_tarski(k4_topreal1(B), k2_jordan2c(2, A))) ) ) ) ) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(t38_topreal1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  (r2_hidden(A, k7_topreal1(A)) &  (r2_hidden(A, k5_topreal1(A)) &  (r2_hidden(A, k4_topreal1(A)) & r2_hidden(A, k6_topreal1(A))) ) ) ) ) ).
 + fof(d2_xxreal_0, axiom, k1_xxreal_0=k1_numbers).
-+ fof(t24_jordan2c, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) => r1_xboole_0(k1_jordan2c(A, B), k2_jordan2c(A, B))) ) ) ) ).
-+ fof(t3_xboole_0, axiom,  (! [A] :  (! [B] :  ( ~ ( ( ~ (r1_xboole_0(A, B))  &  (! [C] :  ~ ( (r2_hidden(C, A) & r2_hidden(C, B)) ) ) ) )  &  ~ ( ( (? [C] :  (r2_hidden(C, A) & r2_hidden(C, B)) )  & r1_xboole_0(A, B)) ) ) ) ) ).
 + fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t24_jordan2c, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(A)))) => r1_xboole_0(k1_jordan2c(A, B), k2_jordan2c(A, B))) ) ) ) ).
++ fof(t38_topreal1, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k15_euclid(2))) =>  (r2_hidden(A, k7_topreal1(A)) &  (r2_hidden(A, k5_topreal1(A)) &  (r2_hidden(A, k4_topreal1(A)) & r2_hidden(A, k6_topreal1(A))) ) ) ) ) ).
++ fof(t3_xboole_0, axiom,  (! [A] :  (! [B] :  ( ~ ( ( ~ (r1_xboole_0(A, B))  &  (! [C] :  ~ ( (r2_hidden(C, A) & r2_hidden(C, B)) ) ) ) )  &  ~ ( ( (? [C] :  (r2_hidden(C, A) & r2_hidden(C, B)) )  & r1_xboole_0(A, B)) ) ) ) ) ).
 - fof(t129_jordan2c, axiom,  (! [A] :  ( (v2_compts_1(A, k15_euclid(2)) & m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (r1_xboole_0(k4_topreal1(B), A) => r1_tarski(k4_topreal1(B), k2_jordan2c(2, A))) ) ) ) ) ).
 - fof(t125_jordan2c, axiom,  (! [A] :  ( (v2_compts_1(A, k15_euclid(2)) & m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))))  =>  (! [B] :  ( (v2_connsp_1(B, k15_euclid(2)) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))))  =>  (r1_xboole_0(B, A) =>  (v9_rltopsp1(B, k15_euclid(2)) | r1_tarski(B, k2_jordan2c(2, A))) ) ) ) ) ) ).
 - fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).

@@ -1,13 +1,13 @@
 C fof(t24_sgraph1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_sgraph1(B))) =>  (! [D] :  (! [E] :  ~ ( (r2_hidden(D, B) &  (r2_hidden(E, B) &  ( ~ (D=E)  &  (r2_hidden(g1_sgraph1(B, C), k3_sgraph1(A)) &  (! [F] :  ( (v1_finset_1(F) & m1_subset_1(F, k1_zfmisc_1(k2_sgraph1(B))))  =>  ~ ( (F=k2_xboole_0(C, k1_tarski(k2_tarski(D, E))) & r2_hidden(g1_sgraph1(B, F), k3_sgraph1(A))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t1_enumset1, axiom,  (! [A] :  (! [B] : k2_tarski(A, B)=k2_xboole_0(k1_tarski(A), k1_tarski(B))) ) ).
-+ fof(t17_sgraph1, axiom,  (! [A] :  (! [B] :  (r2_hidden(B, k3_sgraph1(A)) <=>  (? [C] :  ( (v1_finset_1(C) & m1_subset_1(C, k1_zfmisc_1(A)))  &  (? [D] :  ( (v1_finset_1(D) & m1_subset_1(D, k1_zfmisc_1(k2_sgraph1(C))))  & B=g1_sgraph1(C, D)) ) ) ) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 + fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
-+ fof(t32_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_tarski(k2_tarski(A, B), C) <=>  (r2_hidden(A, C) & r2_hidden(B, C)) ) ) ) ) ).
 + fof(fc9_finset_1, axiom,  (! [A, B] :  ( (v1_finset_1(A) & v1_finset_1(B))  => v1_finset_1(k2_xboole_0(A, B))) ) ).
-+ fof(t8_sgraph1, axiom,  (! [A] :  (! [B] :  (r2_hidden(B, k2_sgraph1(A)) <=>  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(A)))  &  (? [C] :  (? [D] :  (r2_hidden(C, A) &  (r2_hidden(D, A) &  ( ~ (C=D)  & B=k2_tarski(C, D)) ) ) ) ) ) ) ) ) ).
 + fof(free_g1_sgraph1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k2_sgraph1(A))) =>  (! [C, D] :  (g1_sgraph1(A, B)=g1_sgraph1(C, D) =>  (A=C & B=D) ) ) ) ) ).
 + fof(l9_sgraph1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (r2_hidden(C, A) => m1_subset_1(k2_xboole_0(B, k1_tarski(C)), k1_zfmisc_1(A))) ) ) ) ) ).
++ fof(t17_sgraph1, axiom,  (! [A] :  (! [B] :  (r2_hidden(B, k3_sgraph1(A)) <=>  (? [C] :  ( (v1_finset_1(C) & m1_subset_1(C, k1_zfmisc_1(A)))  &  (? [D] :  ( (v1_finset_1(D) & m1_subset_1(D, k1_zfmisc_1(k2_sgraph1(C))))  & B=g1_sgraph1(C, D)) ) ) ) ) ) ) ).
++ fof(t1_enumset1, axiom,  (! [A] :  (! [B] : k2_tarski(A, B)=k2_xboole_0(k1_tarski(A), k1_tarski(B))) ) ).
++ fof(t32_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_tarski(k2_tarski(A, B), C) <=>  (r2_hidden(A, C) & r2_hidden(B, C)) ) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t8_sgraph1, axiom,  (! [A] :  (! [B] :  (r2_hidden(B, k2_sgraph1(A)) <=>  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(A)))  &  (? [C] :  (? [D] :  (r2_hidden(C, A) &  (r2_hidden(D, A) &  ( ~ (C=D)  & B=k2_tarski(C, D)) ) ) ) ) ) ) ) ) ).
 - fof(fraenkel_a_1_1_sgraph1, axiom,  (! [A, B] :  (r2_hidden(A, a_1_1_sgraph1(B)) <=>  (? [C, D] :  ( ( (v1_finset_1(C) & m1_subset_1(C, k1_zfmisc_1(B)))  &  (v1_finset_1(D) & m1_subset_1(D, k1_zfmisc_1(k2_sgraph1(C)))) )  & A=g1_sgraph1(C, D)) ) ) ) ).
 - fof(d3_sgraph1, axiom,  (! [A] : k3_sgraph1(A)=a_1_1_sgraph1(A)) ).
 - fof(t23_sgraph1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_sgraph1(B))) =>  (! [D] :  (! [E] :  ( (v1_finset_1(E) & m1_subset_1(E, k1_zfmisc_1(k2_sgraph1(k2_xboole_0(B, k1_tarski(D))))))  =>  ( (r2_hidden(g1_sgraph1(B, C), k3_sgraph1(A)) & r2_hidden(D, A))  => r2_hidden(g1_sgraph1(k2_xboole_0(B, k1_tarski(D)), E), k3_sgraph1(A))) ) ) ) ) ) ) ) ) ).

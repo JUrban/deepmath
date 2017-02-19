@@ -1,15 +1,15 @@
 C fof(t46_card_fin, axiom,  (! [A] :  (! [B] :  (v1_finset_1(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v2_finset_1(C)) )  =>  (C=k16_funcop_1(A, B) => k3_card_fin(1, C)=k5_card_1(B)) ) ) ) ) ) ).
-+ fof(d9_funcop_1, axiom,  (! [A] :  (! [B] : k16_funcop_1(A, B)=k7_funcop_1(k1_tarski(A), B)) ) ).
-+ fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
-+ fof(t35_card_fin, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (! [D] :  ( (v1_relat_1(D) & v1_funct_1(D))  =>  (k1_tarski(A)=k8_relat_1(C, k1_tarski(B)) => k2_card_fin(D, C, B)=k1_funct_1(D, A)) ) ) ) ) ) ) ).
-+ fof(t30_card_1, axiom,  (! [A] : k1_card_1(k1_tarski(A))=1) ).
 + fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
-+ fof(t7_funcop_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(B, A) => k1_funct_1(k2_funcop_1(A, C), B)=C) ) ) ) ).
-+ fof(t45_card_fin, axiom,  (! [A] :  (! [B] :  (v1_finset_1(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v2_finset_1(C)) )  =>  (k9_xtuple_0(C)=B => k3_card_fin(k5_card_1(B), C)=k1_card_1(k2_card_fin(C, k7_funcop_1(B, A), A))) ) ) ) ) ) ).
++ fof(d9_funcop_1, axiom,  (! [A] :  (! [B] : k16_funcop_1(A, B)=k7_funcop_1(k1_tarski(A), B)) ) ).
 + fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
++ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
++ fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
 + fof(t13_funcop_1, axiom,  (! [A] :  (! [B] :  (k9_xtuple_0(k2_funcop_1(A, B))=A & r1_tarski(k10_xtuple_0(k2_funcop_1(A, B)), k1_tarski(B))) ) ) ).
 + fof(t14_funcop_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(B, C) => k8_relat_1(k2_funcop_1(A, B), C)=A) ) ) ) ).
-+ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
++ fof(t30_card_1, axiom,  (! [A] : k1_card_1(k1_tarski(A))=1) ).
++ fof(t35_card_fin, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (! [D] :  ( (v1_relat_1(D) & v1_funct_1(D))  =>  (k1_tarski(A)=k8_relat_1(C, k1_tarski(B)) => k2_card_fin(D, C, B)=k1_funct_1(D, A)) ) ) ) ) ) ) ).
++ fof(t45_card_fin, axiom,  (! [A] :  (! [B] :  (v1_finset_1(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v2_finset_1(C)) )  =>  (k9_xtuple_0(C)=B => k3_card_fin(k5_card_1(B), C)=k1_card_1(k2_card_fin(C, k7_funcop_1(B, A), A))) ) ) ) ) ) ).
++ fof(t7_funcop_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(B, A) => k1_funct_1(k2_funcop_1(A, C), B)=C) ) ) ) ).
 - fof(t44_card_fin, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_finset_1(A)) )  =>  (! [B] :  (v1_finset_1(B) =>  (k9_xtuple_0(A)=B =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k5_card_1(B), B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_card_1(B), B)))) )  =>  ~ ( (v2_funct_1(C) &  (! [D] :  ( (v5_ordinal1(D) &  (v1_relat_1(D) &  (v5_relat_1(D, k5_numbers) &  (v1_funct_1(D) & v1_finset_1(D)) ) ) )  =>  ~ ( (k1_relset_1(k5_numbers, D)=k5_card_1(B) &  ( (! [E] :  (r2_hidden(E, k1_relset_1(k5_numbers, D)) => k1_recdef_1(D, E)=k5_card_1(k1_funct_1(k3_relat_1(C, A), E))) )  & k3_card_fin(1, A)=k7_afinsq_2(D)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t43_card_fin, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v2_finset_1(C)) )  =>  (k9_xtuple_0(C)=A =>  (r1_xxreal_0(B, k5_card_1(A)) | k3_card_fin(B, C)=k6_numbers) ) ) ) ) ) ) ) ).
 - fof(t41_card_fin, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v2_finset_1(B)) )  =>  (! [C] :  (! [D] :  (! [E] :  (v1_finset_1(E) =>  (! [F] :  ( (v1_funct_1(F) &  (v1_funct_2(F, k5_card_1(k1_card_fin(E, A, C, D)), k1_card_fin(E, A, C, D)) & m1_subset_1(F, k1_zfmisc_1(k2_zfmisc_1(k5_card_1(k1_card_fin(E, A, C, D)), k1_card_fin(E, A, C, D))))) )  =>  ( (k9_xtuple_0(B)=E & v2_funct_1(F))  =>  (C=D |  (! [G] :  ( (v5_ordinal1(G) &  (v1_relat_1(G) &  (v5_relat_1(G, k5_numbers) &  (v1_funct_1(G) & v1_finset_1(G)) ) ) )  =>  ( (k1_relset_1(k5_numbers, G)=k1_relset_1(k5_card_1(k1_card_fin(E, A, C, D)), F) &  (! [H] :  (! [I] :  ( (v1_relat_1(I) & v1_funct_1(I))  =>  ( (r2_hidden(H, k1_relset_1(k5_numbers, G)) & I=k1_funct_1(F, H))  => k1_recdef_1(G, H)=k1_card_1(k2_card_fin(B, I, C))) ) ) ) )  => k3_card_fin(A, B)=k7_afinsq_2(G)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

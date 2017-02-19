@@ -1,15 +1,15 @@
 C fof(t20_rcomp_3, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (v4_xxreal_2(A) => r1_tarski(A, k1_limfunc1(k4_seq_4(A)))) ) ) ).
-+ fof(d1_limfunc1, axiom,  (! [A] :  (v1_xreal_0(A) => k1_limfunc1(A)=k3_xxreal_1(k2_xxreal_0, A)) ) ).
-+ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
-+ fof(d1_seq_4, axiom,  (! [A] :  (v3_membered(A) =>  (v4_xxreal_2(A) =>  (v1_xboole_0(A) |  (! [B] :  (v1_xreal_0(B) =>  (B=k2_seq_4(A) <=>  ( (! [C] :  (v1_xreal_0(C) =>  (r2_hidden(C, A) => r1_xxreal_0(C, B)) ) )  &  (! [C] :  (v1_xreal_0(C) =>  ~ ( ( ~ (r1_xxreal_0(C, k6_numbers))  &  (! [D] :  (v1_xreal_0(D) =>  ~ ( (r2_hidden(D, A) &  ~ (r1_xxreal_0(D, k10_binop_2(B, C))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(t234_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r2_hidden(B, k3_xxreal_1(k2_xxreal_0, A)) <=> r1_xxreal_0(B, A)) ) ) ) ) ).
++ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
++ fof(d1_limfunc1, axiom,  (! [A] :  (v1_xreal_0(A) => k1_limfunc1(A)=k3_xxreal_1(k2_xxreal_0, A)) ) ).
++ fof(d1_seq_4, axiom,  (! [A] :  (v3_membered(A) =>  (v4_xxreal_2(A) =>  (v1_xboole_0(A) |  (! [B] :  (v1_xreal_0(B) =>  (B=k2_seq_4(A) <=>  ( (! [C] :  (v1_xreal_0(C) =>  (r2_hidden(C, A) => r1_xxreal_0(C, B)) ) )  &  (! [C] :  (v1_xreal_0(C) =>  ~ ( ( ~ (r1_xxreal_0(C, k6_numbers))  &  (! [D] :  (v1_xreal_0(D) =>  ~ ( (r2_hidden(D, A) &  ~ (r1_xxreal_0(D, k10_binop_2(B, C))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 + fof(dt_k2_seq_4, axiom,  (! [A] :  (v3_membered(A) => v1_xreal_0(k2_seq_4(A))) ) ).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 + fof(redefinition_k4_seq_4, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => k4_seq_4(A)=k2_seq_4(A)) ) ).
++ fof(t234_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r2_hidden(B, k3_xxreal_1(k2_xxreal_0, A)) <=> r1_xxreal_0(B, A)) ) ) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(t20_fcont_3, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  ( (v1_funct_1(B) &  (v2_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) )  =>  (r1_tarski(k1_limfunc1(A), k1_relset_1(k1_numbers, B)) =>  ( ( ~ (v5_valued_0(k2_partfun1(k1_numbers, k1_numbers, B, k1_limfunc1(A))))  &  ~ (v6_valued_0(k2_partfun1(k1_numbers, k1_numbers, B, k1_limfunc1(A)))) )  | v1_fcont_1(k2_partfun1(k1_numbers, k1_numbers, k2_partfun2(k1_numbers, k1_numbers, k2_partfun1(k1_numbers, k1_numbers, B, k1_limfunc1(A))), k7_relset_1(k1_numbers, k1_numbers, B, k1_limfunc1(A))))) ) ) ) ) ) ).
 - fof(t1_rinfsup2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(A, k1_zfmisc_1(k7_numbers)))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k1_numbers)))  =>  ( (A=B & v4_xxreal_2(B))  =>  (v4_xxreal_2(A) & k8_supinf_2(A)=k4_seq_4(B)) ) ) ) ) ) ).
 - fof(t13_fcont_3, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  =>  ( (r1_tarski(A, k1_relset_1(k1_numbers, B)) & v1_rfunct_2(k2_partfun1(k1_numbers, k1_numbers, B, A)))  =>  ( (! [C] :  (m1_subset_1(C, k1_numbers) =>  ~ (k7_relset_1(k1_numbers, k1_numbers, B, A)=k1_limfunc1(C)) ) )  | v1_fcont_1(k2_partfun1(k1_numbers, k1_numbers, B, A))) ) ) ) ) ).

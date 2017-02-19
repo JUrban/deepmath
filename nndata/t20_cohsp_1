@@ -1,12 +1,12 @@
 C fof(t20_cohsp_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v8_cohsp_1(A)) )  =>  (v1_classes1(k9_xtuple_0(A)) =>  (! [B] :  (r2_hidden(B, k9_xtuple_0(A)) => k1_funct_1(A, B)=k3_tarski(k7_relat_1(A, k5_finsub_1(B)))) ) ) ) ) ).
 + fof(cc7_cohsp_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v8_cohsp_1(A)) )  =>  (v1_relat_1(A) &  (v1_funct_1(A) & v5_cohsp_1(A)) ) ) ) ).
++ fof(d10_cohsp_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v5_cohsp_1(A) <=>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k9_xtuple_0(A))) =>  ( (v1_cohsp_1(B) & r2_hidden(k3_tarski(B), k9_xtuple_0(A)))  => k1_funct_1(A, k3_tarski(B))=k3_tarski(k7_relat_1(A, B))) ) ) ) ) ) ).
++ fof(dt_k3_cohsp_1, axiom,  (! [A, B] :  ( ( ( ~ (v1_xboole_0(A))  & v1_classes1(A))  & m1_subset_1(B, A))  =>  ( ~ (v1_xboole_0(k3_cohsp_1(A, B)))  &  (v4_finsub_1(k3_cohsp_1(A, B)) & m1_subset_1(k3_cohsp_1(A, B), k1_zfmisc_1(A))) ) ) ) ).
++ fof(fc5_cohsp_1, axiom,  (! [A] :  (v4_finsub_1(k5_finsub_1(A)) &  (v1_cohsp_1(k5_finsub_1(A)) & v2_cohsp_1(k5_finsub_1(A))) ) ) ).
++ fof(redefinition_k3_cohsp_1, axiom,  (! [A, B] :  ( ( ( ~ (v1_xboole_0(A))  & v1_classes1(A))  & m1_subset_1(B, A))  => k3_cohsp_1(A, B)=k5_finsub_1(B)) ) ).
 + fof(t19_cohsp_1, axiom,  (! [A] : k3_tarski(k5_finsub_1(A))=A) ).
 + fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 + fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(fc5_cohsp_1, axiom,  (! [A] :  (v4_finsub_1(k5_finsub_1(A)) &  (v1_cohsp_1(k5_finsub_1(A)) & v2_cohsp_1(k5_finsub_1(A))) ) ) ).
-+ fof(redefinition_k3_cohsp_1, axiom,  (! [A, B] :  ( ( ( ~ (v1_xboole_0(A))  & v1_classes1(A))  & m1_subset_1(B, A))  => k3_cohsp_1(A, B)=k5_finsub_1(B)) ) ).
-+ fof(dt_k3_cohsp_1, axiom,  (! [A, B] :  ( ( ( ~ (v1_xboole_0(A))  & v1_classes1(A))  & m1_subset_1(B, A))  =>  ( ~ (v1_xboole_0(k3_cohsp_1(A, B)))  &  (v4_finsub_1(k3_cohsp_1(A, B)) & m1_subset_1(k3_cohsp_1(A, B), k1_zfmisc_1(A))) ) ) ) ).
-+ fof(d10_cohsp_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v5_cohsp_1(A) <=>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k9_xtuple_0(A))) =>  ( (v1_cohsp_1(B) & r2_hidden(k3_tarski(B), k9_xtuple_0(A)))  => k1_funct_1(A, k3_tarski(B))=k3_tarski(k7_relat_1(A, B))) ) ) ) ) ) ).
 - fof(t14_funct_3, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_tarski(A, k1_zfmisc_1(k9_xtuple_0(B))) => k7_relat_1(B, k3_tarski(A))=k3_tarski(k7_relat_1(k1_funct_3(B), A))) ) ) ) ).
 - fof(d14_cohsp_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v9_cohsp_1(A) <=>  (v2_finsub_1(k9_xtuple_0(A)) &  (v8_cohsp_1(A) & v7_cohsp_1(A)) ) ) ) ) ).
 - fof(d13_cohsp_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v8_cohsp_1(A) <=>  (v3_cohsp_1(k9_xtuple_0(A)) & v5_cohsp_1(A)) ) ) ) ).

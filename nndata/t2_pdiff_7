@@ -1,10 +1,10 @@
 C fof(t2_pdiff_7, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (r1_xxreal_0(A, B) => k17_finseq_1(k1_numbers, k7_nat_d(A, 1), k5_euclid(B))=k5_euclid(k7_nat_d(A, 1))) ) ) ) ) ).
-+ fof(dt_k7_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => m1_subset_1(k7_nat_d(A, B), k5_numbers)) ) ).
-+ fof(t44_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) => r1_xxreal_0(k7_nat_d(A, 1), B)) ) ) ) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(dt_k7_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => m1_subset_1(k7_nat_d(A, B), k5_numbers)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
 + fof(t1_pdiff_7, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (r1_xxreal_0(A, B) => k17_finseq_1(k1_numbers, A, k5_euclid(B))=k5_euclid(A)) ) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(t44_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) => r1_xxreal_0(k7_nat_d(A, 1), B)) ) ) ) ) ).
 - fof(t7_jordan2b, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (r1_xxreal_0(A, B) => k17_finseq_1(k1_numbers, A, k5_euclid(B))=k5_euclid(A)) ) ) ) ) ).
 - fof(t8_jordan2b, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) => k2_rfinseq(k1_numbers, B, k5_euclid(A))=k5_euclid(k7_nat_d(A, B))) ) ) ) ).
 - fof(t80_finseq_5, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m2_finseq_1(B, A) =>  (! [C] :  (v7_ordinal1(C) =>  (! [D] :  (v7_ordinal1(D) => k17_finseq_1(A, k7_nat_d(D, C), k2_rfinseq(A, C, B))=k2_rfinseq(A, C, k17_finseq_1(A, D, B))) ) ) ) ) ) ) ) ).

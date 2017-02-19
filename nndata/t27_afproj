@@ -1,44 +1,44 @@
 C fof(t27_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (! [D] :  (m1_subset_1(D, u1_incsp_1(k13_afproj(A))) =>  (! [E] :  (m1_subset_1(E, u2_incsp_1(k13_afproj(A))) =>  ~ ( (B=D &  (k4_tarski(k6_afproj(A, C), 2)=E & r1_incsp_1(k13_afproj(A), D, E)) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(d13_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  => k13_afproj(A)=g1_incsp_1(k9_afproj(A), k10_afproj(A), k11_afproj(A))) ) ).
-+ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(d1_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  => k1_afproj(A)=a_1_0_afproj(A)) ) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(dt_k9_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  ~ (v1_xboole_0(k9_afproj(A))) ) ) ).
++ fof(abstractness_v1_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) =>  (v1_incsp_1(A) => A=g1_incsp_1(u1_incsp_1(A), u2_incsp_1(A), u3_incsp_1(A))) ) ) ).
 + fof(cc17_struct_0, axiom,  (! [A] :  (l1_struct_0(A) =>  ( ~ (v7_struct_0(A))  =>  ~ (v2_struct_0(A)) ) ) ) ).
-+ fof(d3_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  => k3_afproj(A)=a_1_2_afproj(A)) ) ).
-+ fof(dt_k11_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  => m1_subset_1(k11_afproj(A), k1_zfmisc_1(k2_zfmisc_1(k9_afproj(A), k10_afproj(A))))) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(t16_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  => r1_subset_1(u1_struct_0(A), k7_afproj(A))) ) ).
-+ fof(dt_u3_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) => m1_subset_1(u3_incsp_1(A), k1_zfmisc_1(k2_zfmisc_1(u1_incsp_1(A), u2_incsp_1(A))))) ) ).
-+ fof(rd1_xtuple_0, axiom,  (! [A, B] : k1_xtuple_0(k4_tarski(A, B))=A) ).
-+ fof(d5_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k5_afproj(A, B)=k6_eqrel_1(k1_afproj(A), k1_afproj(A), k3_afproj(A), B)) ) ) ) ).
-+ fof(d4_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k3_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) & r2_hidden(D, B)) ) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(rc3_subset_1, axiom,  (! [A] :  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) &  ~ (v1_subset_1(B, A)) ) ) ) ).
-+ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
-+ fof(fc6_struct_0, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_zfmisc_1(u1_struct_0(A))) ) ) ).
-+ fof(redefinition_k6_eqrel_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => k6_eqrel_1(A, B, C, D)=k9_relat_1(C, D)) ) ).
-+ fof(cc5_subset_1, axiom,  (! [A] :  (v1_zfmisc_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_zfmisc_1(B)) ) ) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
-+ fof(dt_k10_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  ~ (v1_xboole_0(k10_afproj(A))) ) ) ).
-+ fof(dt_k13_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (v1_incsp_1(k13_afproj(A)) & l1_incsp_1(k13_afproj(A))) ) ) ).
-+ fof(free_g1_incsp_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (! [D, E, F] :  (g1_incsp_1(A, B, C)=g1_incsp_1(D, E, F) =>  (A=D &  (B=E & C=F) ) ) ) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(cc5_subset_1, axiom,  (! [A] :  (v1_zfmisc_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_zfmisc_1(B)) ) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
++ fof(d11_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k9_afproj(A), k10_afproj(A)))) =>  (B=k11_afproj(A) <=>  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), B) <=>  ~ ( ( (! [E] :  (m1_subset_1(E, k1_zfmisc_1(u1_struct_0(A))) =>  ~ ( (v1_aff_1(E, A) &  (D=k4_tarski(E, 1) &  ( (r2_hidden(C, u1_struct_0(A)) & r2_hidden(C, E))  | C=k5_afproj(A, E)) ) ) ) ) )  &  (! [E] :  (m1_subset_1(E, k1_zfmisc_1(u1_struct_0(A))) =>  (! [F] :  (m1_subset_1(F, k1_zfmisc_1(u1_struct_0(A))) =>  ~ ( (v1_aff_1(E, A) &  (v1_aff_4(F, A) &  (C=k5_afproj(A, E) &  (D=k4_tarski(k6_afproj(A, F), 2) & r1_aff_4(A, E, F)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d13_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  => k13_afproj(A)=g1_incsp_1(k9_afproj(A), k10_afproj(A), k11_afproj(A))) ) ).
++ fof(d1_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  => k1_afproj(A)=a_1_0_afproj(A)) ) ).
++ fof(d1_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) =>  (! [B] :  (m1_subset_1(B, u1_incsp_1(A)) =>  (! [C] :  (m1_subset_1(C, u2_incsp_1(A)) =>  (r1_incsp_1(A, B, C) <=> r2_hidden(k1_domain_1(u1_incsp_1(A), u2_incsp_1(A), B, C), u3_incsp_1(A))) ) ) ) ) ) ) ).
++ fof(d3_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  => k3_afproj(A)=a_1_2_afproj(A)) ) ).
++ fof(d4_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k3_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) & r2_hidden(D, B)) ) ) ) ) ) ) ).
++ fof(d5_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k5_afproj(A, B)=k6_eqrel_1(k1_afproj(A), k1_afproj(A), k3_afproj(A), B)) ) ) ) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(d7_xboole_0, axiom,  (! [A] :  (! [B] :  (r1_xboole_0(A, B) <=> k3_xboole_0(A, B)=k1_xboole_0) ) ) ).
++ fof(dt_k10_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  ~ (v1_xboole_0(k10_afproj(A))) ) ) ).
++ fof(dt_k11_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  => m1_subset_1(k11_afproj(A), k1_zfmisc_1(k2_zfmisc_1(k9_afproj(A), k10_afproj(A))))) ) ).
++ fof(dt_k13_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (v1_incsp_1(k13_afproj(A)) & l1_incsp_1(k13_afproj(A))) ) ) ).
++ fof(dt_k3_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (v3_relat_2(k3_afproj(A)) &  (v8_relat_2(k3_afproj(A)) &  (v1_partfun1(k3_afproj(A), k1_afproj(A)) & m1_subset_1(k3_afproj(A), k1_zfmisc_1(k2_zfmisc_1(k1_afproj(A), k1_afproj(A))))) ) ) ) ) ).
++ fof(dt_k9_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  ~ (v1_xboole_0(k9_afproj(A))) ) ) ).
 + fof(dt_l1_analoaf, axiom,  (! [A] :  (l1_analoaf(A) => l1_struct_0(A)) ) ).
-+ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
++ fof(dt_u3_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) => m1_subset_1(u3_incsp_1(A), k1_zfmisc_1(k2_zfmisc_1(u1_incsp_1(A), u2_incsp_1(A))))) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(fc6_struct_0, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_zfmisc_1(u1_struct_0(A))) ) ) ).
++ fof(free_g1_incsp_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  =>  (! [D, E, F] :  (g1_incsp_1(A, B, C)=g1_incsp_1(D, E, F) =>  (A=D &  (B=E & C=F) ) ) ) ) ) ).
 + fof(rc21_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) &  ( ~ (v1_xboole_0(B))  & v1_zfmisc_1(B)) ) ) ) ) ).
 + fof(rc2_subset_1, axiom,  (! [A] :  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) & v1_xboole_0(B)) ) ) ).
-+ fof(d7_xboole_0, axiom,  (! [A] :  (! [B] :  (r1_xboole_0(A, B) <=> k3_xboole_0(A, B)=k1_xboole_0) ) ) ).
-+ fof(d1_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) =>  (! [B] :  (m1_subset_1(B, u1_incsp_1(A)) =>  (! [C] :  (m1_subset_1(C, u2_incsp_1(A)) =>  (r1_incsp_1(A, B, C) <=> r2_hidden(k1_domain_1(u1_incsp_1(A), u2_incsp_1(A), B, C), u3_incsp_1(A))) ) ) ) ) ) ) ).
-+ fof(d11_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k9_afproj(A), k10_afproj(A)))) =>  (B=k11_afproj(A) <=>  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), B) <=>  ~ ( ( (! [E] :  (m1_subset_1(E, k1_zfmisc_1(u1_struct_0(A))) =>  ~ ( (v1_aff_1(E, A) &  (D=k4_tarski(E, 1) &  ( (r2_hidden(C, u1_struct_0(A)) & r2_hidden(C, E))  | C=k5_afproj(A, E)) ) ) ) ) )  &  (! [E] :  (m1_subset_1(E, k1_zfmisc_1(u1_struct_0(A))) =>  (! [F] :  (m1_subset_1(F, k1_zfmisc_1(u1_struct_0(A))) =>  ~ ( (v1_aff_1(E, A) &  (v1_aff_4(F, A) &  (C=k5_afproj(A, E) &  (D=k4_tarski(k6_afproj(A, F), 2) & r1_aff_4(A, E, F)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(abstractness_v1_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) =>  (v1_incsp_1(A) => A=g1_incsp_1(u1_incsp_1(A), u2_incsp_1(A), u3_incsp_1(A))) ) ) ).
-+ fof(redefinition_r1_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  (r1_subset_1(A, B) <=> r1_xboole_0(A, B)) ) ) ).
++ fof(rc3_subset_1, axiom,  (! [A] :  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) &  ~ (v1_subset_1(B, A)) ) ) ) ).
++ fof(rd1_xtuple_0, axiom,  (! [A, B] : k1_xtuple_0(k4_tarski(A, B))=A) ).
 + fof(rd2_xtuple_0, axiom,  (! [A, B] : k2_xtuple_0(k4_tarski(A, B))=B) ).
-+ fof(dt_k3_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (v3_relat_2(k3_afproj(A)) &  (v8_relat_2(k3_afproj(A)) &  (v1_partfun1(k3_afproj(A), k1_afproj(A)) & m1_subset_1(k3_afproj(A), k1_zfmisc_1(k2_zfmisc_1(k1_afproj(A), k1_afproj(A))))) ) ) ) ) ).
-+ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
++ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
++ fof(redefinition_k6_eqrel_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => k6_eqrel_1(A, B, C, D)=k9_relat_1(C, D)) ) ).
++ fof(redefinition_r1_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ~ (v1_xboole_0(B)) )  =>  (r1_subset_1(A, B) <=> r1_xboole_0(A, B)) ) ) ).
 + fof(t14_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (! [B] :  (r2_hidden(B, k7_afproj(A)) <=>  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) &  (B=k5_afproj(A, C) & v1_aff_1(C, A)) ) ) ) ) ) ) ).
++ fof(t16_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  => r1_subset_1(u1_struct_0(A), k7_afproj(A))) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(t23_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (! [B] :  (m1_subset_1(B, u2_incsp_1(k13_afproj(A))) <=>  ~ ( (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  ( ~ ( (B=k4_tarski(C, 1) & v1_aff_1(C, A)) )  &  ~ ( (B=k4_tarski(k6_afproj(A, C), 2) & v1_aff_4(C, A)) ) ) ) ) ) ) ) ) ) ).
 - fof(t26_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (! [D] :  (m1_subset_1(D, u1_incsp_1(k13_afproj(A))) =>  (! [E] :  (m1_subset_1(E, u2_incsp_1(k13_afproj(A))) =>  ( (B=D & k4_tarski(C, 1)=E)  =>  (r1_incsp_1(k13_afproj(A), D, E) <=>  (v1_aff_1(C, A) & r2_hidden(B, C)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t20_afproj, axiom,  (! [A] :  ( ( ~ (v7_struct_0(A))  &  (v1_diraf(A) & l1_analoaf(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_incsp_1(k13_afproj(A))) <=>  ~ ( ( ~ (m1_subset_1(B, u1_struct_0(A)))  &  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  ~ ( (B=k5_afproj(A, C) & v1_aff_1(C, A)) ) ) ) ) ) ) ) ) ) ).

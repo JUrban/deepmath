@@ -1,24 +1,24 @@
 C fof(t23_polyform, axiom,  (! [A] :  (! [B] : m2_funct_2(k8_funcop_1(u1_struct_0(k2_bspace), k2_zfmisc_1(A, B), k5_struct_0(k2_bspace)), k2_zfmisc_1(A, B), k2_tarski(k4_struct_0(k2_bspace), k5_struct_0(k2_bspace)), k9_funct_2(k2_zfmisc_1(A, B), k2_tarski(k4_struct_0(k2_bspace), k5_struct_0(k2_bspace))))) ) ).
-+ fof(redefinition_k8_funcop_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(C, A))  => k8_funcop_1(A, B, C)=k2_funcop_1(B, C)) ) ).
-+ fof(d2_funct_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k1_funct_2(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (? [E] :  ( (v1_relat_1(E) & v1_funct_1(E))  &  (D=E &  (k9_xtuple_0(E)=A & r1_tarski(k10_xtuple_0(E), B)) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_l2_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => l1_struct_0(A)) ) ).
-+ fof(t7_zfmisc_1, axiom,  (! [A] :  (! [B] : r1_tarski(k1_tarski(A), k2_tarski(A, B))) ) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(dt_l5_algstr_0, axiom,  (! [A] :  (l5_algstr_0(A) =>  (l4_algstr_0(A) & l4_struct_0(A)) ) ) ).
++ fof(d2_funct_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k1_funct_2(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (? [E] :  ( (v1_relat_1(E) & v1_funct_1(E))  &  (D=E &  (k9_xtuple_0(E)=A & r1_tarski(k10_xtuple_0(E), B)) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k2_bspace, axiom,  ( ~ (v2_struct_0(k2_bspace))  &  ( ~ (v6_struct_0(k2_bspace))  &  (v13_algstr_0(k2_bspace) &  (v33_algstr_0(k2_bspace) &  (v3_group_1(k2_bspace) &  (v5_group_1(k2_bspace) &  (v4_vectsp_1(k2_bspace) &  (v5_vectsp_1(k2_bspace) &  (v2_rlvect_1(k2_bspace) &  (v3_rlvect_1(k2_bspace) &  (v4_rlvect_1(k2_bspace) & l6_algstr_0(k2_bspace)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k5_struct_0, axiom,  (! [A] :  (l3_struct_0(A) => m1_subset_1(k5_struct_0(A), u1_struct_0(A))) ) ).
 + fof(dt_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => m1_funct_2(k9_funct_2(A, B), A, B)) ) ).
 + fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(dt_k2_bspace, axiom,  ( ~ (v2_struct_0(k2_bspace))  &  ( ~ (v6_struct_0(k2_bspace))  &  (v13_algstr_0(k2_bspace) &  (v33_algstr_0(k2_bspace) &  (v3_group_1(k2_bspace) &  (v5_group_1(k2_bspace) &  (v4_vectsp_1(k2_bspace) &  (v5_vectsp_1(k2_bspace) &  (v2_rlvect_1(k2_bspace) &  (v3_rlvect_1(k2_bspace) &  (v4_rlvect_1(k2_bspace) & l6_algstr_0(k2_bspace)) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_m2_funct_2, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(B))  & m1_funct_2(C, A, B))  =>  (! [D] :  (m2_funct_2(D, A, B, C) <=> m1_subset_1(D, C)) ) ) ) ).
-+ fof(fc3_xboole_0, axiom,  (! [A, B] :  ~ (v1_xboole_0(k2_tarski(A, B))) ) ).
-+ fof(t13_funcop_1, axiom,  (! [A] :  (! [B] :  (k9_xtuple_0(k2_funcop_1(A, B))=A & r1_tarski(k10_xtuple_0(k2_funcop_1(A, B)), k1_tarski(B))) ) ) ).
++ fof(dt_l2_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => l1_struct_0(A)) ) ).
 + fof(dt_l4_algstr_0, axiom,  (! [A] :  (l4_algstr_0(A) =>  (l3_struct_0(A) & l3_algstr_0(A)) ) ) ).
++ fof(dt_l5_algstr_0, axiom,  (! [A] :  (l5_algstr_0(A) =>  (l4_algstr_0(A) & l4_struct_0(A)) ) ) ).
 + fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
-+ fof(dt_k5_struct_0, axiom,  (! [A] :  (l3_struct_0(A) => m1_subset_1(k5_struct_0(A), u1_struct_0(A))) ) ).
-+ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
-+ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
 + fof(fc1_funcop_1, axiom,  (! [A, B] :  (v1_relat_1(k2_funcop_1(A, B)) & v1_funct_1(k2_funcop_1(A, B))) ) ).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(fc3_xboole_0, axiom,  (! [A, B] :  ~ (v1_xboole_0(k2_tarski(A, B))) ) ).
++ fof(redefinition_k8_funcop_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(C, A))  => k8_funcop_1(A, B, C)=k2_funcop_1(B, C)) ) ).
 + fof(redefinition_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => k9_funct_2(A, B)=k1_funct_2(A, B)) ) ).
++ fof(redefinition_m2_funct_2, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(B))  & m1_funct_2(C, A, B))  =>  (! [D] :  (m2_funct_2(D, A, B, C) <=> m1_subset_1(D, C)) ) ) ) ).
++ fof(t13_funcop_1, axiom,  (! [A] :  (! [B] :  (k9_xtuple_0(k2_funcop_1(A, B))=A & r1_tarski(k10_xtuple_0(k2_funcop_1(A, B)), k1_tarski(B))) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
++ fof(t7_zfmisc_1, axiom,  (! [A] :  (! [B] : r1_tarski(k1_tarski(A), k2_tarski(A, B))) ) ).
 - fof(d3_bspace, axiom,  (! [A] :  (! [B] :  ( (r2_hidden(B, A) => k3_bspace(A, B)=k5_struct_0(k2_bspace))  &  ( ~ (r2_hidden(B, A))  => k3_bspace(A, B)=k4_struct_0(k2_bspace)) ) ) ) ).
 - fof(t8_bspace, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k2_bspace)) =>  (A=k4_struct_0(k2_bspace) <=>  ~ (A=k5_struct_0(k2_bspace)) ) ) ) ).
 - fof(t6_bspace, axiom, k5_struct_0(k2_bspace)=1).

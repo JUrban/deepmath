@@ -1,14 +1,14 @@
 C fof(t24_glib_002, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  => k5_setfam_1(k6_glib_000(A), k3_glib_002(A))=k6_glib_000(A)) ) ).
-+ fof(d8_glib_002, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(k6_glib_000(A)))))  =>  (B=k3_glib_002(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (m1_subset_1(D, k6_glib_000(A)) & C=k1_glib_002(A, D)) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k5_setfam_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => k5_setfam_1(A, B)=k3_tarski(B)) ) ).
 + fof(d4_tarski, axiom,  (! [A] :  (! [B] :  (B=k3_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(C, D) & r2_hidden(D, A)) ) ) ) ) ) ) ).
++ fof(d8_glib_002, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(k6_glib_000(A)))))  =>  (B=k3_glib_002(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (m1_subset_1(D, k6_glib_000(A)) & C=k1_glib_002(A, D)) ) ) ) ) ) ) ) ) ).
++ fof(dt_k3_glib_002, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  =>  ( ~ (v1_xboole_0(k3_glib_002(A)))  & m1_subset_1(k3_glib_002(A), k1_zfmisc_1(k1_zfmisc_1(k6_glib_000(A))))) ) ) ).
++ fof(l7_glib_002, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  =>  (! [B] :  (m1_subset_1(B, k6_glib_000(A)) => r2_hidden(B, k1_glib_002(A, B))) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k5_setfam_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => k5_setfam_1(A, B)=k3_tarski(B)) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 + fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 + fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(l7_glib_002, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  =>  (! [B] :  (m1_subset_1(B, k6_glib_000(A)) => r2_hidden(B, k1_glib_002(A, B))) ) ) ) ).
-+ fof(dt_k3_glib_002, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  =>  ( ~ (v1_xboole_0(k3_glib_002(A)))  & m1_subset_1(k3_glib_002(A), k1_zfmisc_1(k1_zfmisc_1(k6_glib_000(A))))) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 - fof(l19_glib_002, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  =>  (v1_glib_002(A) =>  (! [B] :  (m1_subset_1(B, k6_glib_000(A)) => k1_glib_002(A, B)=k6_glib_000(A)) ) ) ) ) ).
 - fof(l18_glib_002, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  =>  ( (? [B] :  (m1_subset_1(B, k6_glib_000(A)) & k1_glib_002(A, B)=k6_glib_000(A)) )  => v1_glib_002(A)) ) ) ).
 - fof(dt_k1_glib_002, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  (v1_finset_1(A) & v1_glib_000(A)) ) ) )  & m1_subset_1(B, k6_glib_000(A)))  =>  ( ~ (v1_xboole_0(k1_glib_002(A, B)))  & m1_subset_1(k1_glib_002(A, B), k1_zfmisc_1(k6_glib_000(A)))) ) ) ).

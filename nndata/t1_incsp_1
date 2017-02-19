@@ -1,10 +1,10 @@
 C fof(t1_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) =>  (! [B] :  (m1_subset_1(B, u2_incsp_1(A)) =>  (! [C] :  (m1_subset_1(C, u1_incsp_1(A)) =>  (! [D] :  (m1_subset_1(D, u1_incsp_1(A)) =>  (r4_incsp_1(A, k7_domain_1(u1_incsp_1(A), C, D), B) <=>  (r1_incsp_1(A, C, B) & r1_incsp_1(A, D, B)) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k7_domain_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => m1_subset_1(k7_domain_1(A, B, C), k1_zfmisc_1(A))) ) ).
-+ fof(d4_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_incsp_1(A))) =>  (! [C] :  (m1_subset_1(C, u2_incsp_1(A)) =>  (r4_incsp_1(A, B, C) <=>  (! [D] :  (m1_subset_1(D, u1_incsp_1(A)) =>  (r2_hidden(D, B) => r1_incsp_1(A, D, C)) ) ) ) ) ) ) ) ) ) ).
-+ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(redefinition_k7_domain_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k7_domain_1(A, B, C)=k2_tarski(B, C)) ) ).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
++ fof(d4_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_incsp_1(A))) =>  (! [C] :  (m1_subset_1(C, u2_incsp_1(A)) =>  (r4_incsp_1(A, B, C) <=>  (! [D] :  (m1_subset_1(D, u1_incsp_1(A)) =>  (r2_hidden(D, B) => r1_incsp_1(A, D, C)) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k7_domain_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => m1_subset_1(k7_domain_1(A, B, C), k1_zfmisc_1(A))) ) ).
 + fof(dt_u1_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) =>  ~ (v1_xboole_0(u1_incsp_1(A))) ) ) ).
++ fof(redefinition_k7_domain_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k7_domain_1(A, B, C)=k2_tarski(B, C)) ) ).
 - fof(d1_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) =>  (! [B] :  (m1_subset_1(B, u1_incsp_1(A)) =>  (! [C] :  (m1_subset_1(C, u2_incsp_1(A)) =>  (r1_incsp_1(A, B, C) <=> r2_hidden(k1_domain_1(u1_incsp_1(A), u2_incsp_1(A), B, C), u3_incsp_1(A))) ) ) ) ) ) ) ).
 - fof(d6_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_incsp_1(A))) =>  (v3_incsp_1(B, A) <=>  (? [C] :  (m1_subset_1(C, u2_incsp_1(A)) & r4_incsp_1(A, B, C)) ) ) ) ) ) ) ).
 - fof(dt_u3_incsp_1, axiom,  (! [A] :  (l1_incsp_1(A) => m1_subset_1(u3_incsp_1(A), k1_zfmisc_1(k2_zfmisc_1(u1_incsp_1(A), u2_incsp_1(A))))) ) ).

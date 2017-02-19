@@ -1,34 +1,34 @@
 C fof(t30_random_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_finset_1(A))  =>  (! [B] :  (m2_prob_1(B, A, k1_random_1(A)) =>  (! [C] :  (m1_random_1(C, A, k1_random_1(A)) => r1_random_1(A, k1_random_1(A), C, B)) ) ) ) ) ) ).
-+ fof(dt_k2_prob_4, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  & m2_prob_1(C, A, B)) )  =>  (v1_funct_1(k2_prob_4(A, B, C)) &  (v1_funct_2(k2_prob_4(A, B, C), B, k7_numbers) &  (v10_valued_0(k2_prob_4(A, B, C)) &  (v6_supinf_2(k2_prob_4(A, B, C)) &  (v4_measure1(k2_prob_4(A, B, C), A, B) & m1_subset_1(k2_prob_4(A, B, C), k1_zfmisc_1(k2_zfmisc_1(B, k7_numbers)))) ) ) ) ) ) ) ).
-+ fof(dt_k1_seq_1, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_valued_0(A)) )  => m1_subset_1(k1_seq_1(A, B), k1_numbers)) ) ).
-+ fof(t6_random_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_finset_1(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  =>  (r2_mesfunc6(A, k1_random_1(A), B) & m2_subset_1(k1_relset_1(A, B), k1_zfmisc_1(A), k1_random_1(A))) ) ) ) ) ).
-+ fof(dt_k1_random_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k1_random_1(A)))  &  (v1_prob_1(k1_random_1(A), A) &  (v4_prob_1(k1_random_1(A), A) & m1_subset_1(k1_random_1(A), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ) ) ).
-+ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
-+ fof(dt_k9_setfam_1, axiom,  (! [A] : m1_subset_1(k9_setfam_1(A), k1_zfmisc_1(k1_zfmisc_1(A)))) ).
-+ fof(dt_m2_prob_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) )  =>  (! [C] :  (m2_prob_1(C, A, B) =>  (v1_funct_1(C) &  (v1_funct_2(C, B, k1_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, k1_numbers)))) ) ) ) ) ) ).
-+ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(d1_funct_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  ( ( ~ (B=k1_xboole_0)  =>  (v1_funct_2(C, A, B) <=> A=k1_relset_1(A, C)) )  &  (B=k1_xboole_0 =>  (v1_funct_2(C, A, B) <=> C=k1_xboole_0) ) ) ) ) ) ) ).
-+ fof(t9_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  ~ ( (r2_hidden(A, k1_numbers) & r1_xxreal_0(k1_xxreal_0, A)) ) ) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(cc5_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v3_valued_0(A))  =>  (v1_relat_1(A) & v2_valued_0(A)) ) ) ).
++ fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
 + fof(cc30_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v5_relat_1(A, k1_numbers))  =>  (v1_relat_1(A) & v3_valued_0(A)) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
-+ fof(redefinition_k12_supinf_2, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_valued_0(A)) )  => k12_supinf_2(A, B)=k1_funct_1(A, B)) ) ).
-+ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(cc5_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v3_valued_0(A))  =>  (v1_relat_1(A) & v2_valued_0(A)) ) ) ).
++ fof(d1_funct_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  ( ( ~ (B=k1_xboole_0)  =>  (v1_funct_2(C, A, B) <=> A=k1_relset_1(A, C)) )  &  (B=k1_xboole_0 =>  (v1_funct_2(C, A, B) <=> C=k1_xboole_0) ) ) ) ) ) ) ).
++ fof(d1_prob_4, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (! [C] :  (m2_prob_1(C, A, B) => k2_prob_4(A, B, C)=C) ) ) ) ) ) ).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
 + fof(d3_random_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (! [C] :  (m1_random_1(C, A, B) =>  (! [D] :  (m2_prob_1(D, A, B) =>  (r1_random_1(A, B, C, D) <=> r3_mesfunc6(A, B, k2_prob_4(A, B, D), C)) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k1_seq_1, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_valued_0(A)) )  => k1_seq_1(A, B)=k1_funct_1(A, B)) ) ).
++ fof(dt_k1_random_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k1_random_1(A)))  &  (v1_prob_1(k1_random_1(A), A) &  (v4_prob_1(k1_random_1(A), A) & m1_subset_1(k1_random_1(A), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ) ) ).
++ fof(dt_k1_seq_1, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_valued_0(A)) )  => m1_subset_1(k1_seq_1(A, B), k1_numbers)) ) ).
++ fof(dt_k2_prob_4, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  & m2_prob_1(C, A, B)) )  =>  (v1_funct_1(k2_prob_4(A, B, C)) &  (v1_funct_2(k2_prob_4(A, B, C), B, k7_numbers) &  (v10_valued_0(k2_prob_4(A, B, C)) &  (v6_supinf_2(k2_prob_4(A, B, C)) &  (v4_measure1(k2_prob_4(A, B, C), A, B) & m1_subset_1(k2_prob_4(A, B, C), k1_zfmisc_1(k2_zfmisc_1(B, k7_numbers)))) ) ) ) ) ) ) ).
++ fof(dt_k9_setfam_1, axiom,  (! [A] : m1_subset_1(k9_setfam_1(A), k1_zfmisc_1(k1_zfmisc_1(A)))) ).
 + fof(dt_m1_random_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) )  =>  (! [C] :  (m1_random_1(C, A, B) =>  (v1_funct_1(C) &  (v1_funct_2(C, A, k1_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) ) ) ) ) ) ).
-+ fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
-+ fof(d1_prob_4, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (! [C] :  (m2_prob_1(C, A, B) => k2_prob_4(A, B, C)=C) ) ) ) ) ) ).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(redefinition_k1_random_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k1_random_1(A)=k1_zfmisc_1(A)) ) ).
-+ fof(l9_random_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, B, k7_numbers) &  (v10_valued_0(C) &  (v6_supinf_2(C) &  (v4_measure1(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, k7_numbers)))) ) ) ) )  =>  (! [D] :  ( (v1_funct_1(D) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  =>  ( (r2_mesfunc6(A, B, D) & r2_hidden(k1_relset_1(A, D), B))  =>  (k1_relset_1(A, D)=k1_xboole_0 |  (r1_xxreal_0(k1_xxreal_0, k12_supinf_2(C, k1_relset_1(A, D))) | r3_mesfunc6(A, B, C, D)) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
++ fof(dt_m2_prob_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) )  =>  (! [C] :  (m2_prob_1(C, A, B) =>  (v1_funct_1(C) &  (v1_funct_2(C, B, k1_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, k1_numbers)))) ) ) ) ) ) ).
 + fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
++ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
++ fof(l9_random_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_prob_1(B, A) &  (v4_prob_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, B, k7_numbers) &  (v10_valued_0(C) &  (v6_supinf_2(C) &  (v4_measure1(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, k7_numbers)))) ) ) ) )  =>  (! [D] :  ( (v1_funct_1(D) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  =>  ( (r2_mesfunc6(A, B, D) & r2_hidden(k1_relset_1(A, D), B))  =>  (k1_relset_1(A, D)=k1_xboole_0 |  (r1_xxreal_0(k1_xxreal_0, k12_supinf_2(C, k1_relset_1(A, D))) | r3_mesfunc6(A, B, C, D)) ) ) ) ) ) ) ) ) ) ) ).
++ fof(redefinition_k12_supinf_2, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_valued_0(A)) )  => k12_supinf_2(A, B)=k1_funct_1(A, B)) ) ).
++ fof(redefinition_k1_random_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k1_random_1(A)=k1_zfmisc_1(A)) ) ).
++ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
++ fof(redefinition_k1_seq_1, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_valued_0(A)) )  => k1_seq_1(A, B)=k1_funct_1(A, B)) ) ).
++ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t6_random_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_finset_1(A))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers))))  =>  (r2_mesfunc6(A, k1_random_1(A), B) & m2_subset_1(k1_relset_1(A, B), k1_zfmisc_1(A), k1_random_1(A))) ) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
++ fof(t9_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  ~ ( (r2_hidden(A, k1_numbers) & r1_xxreal_0(k1_xxreal_0, A)) ) ) ) ).
 - fof(t29_random_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_finset_1(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k1_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) )  => m1_random_1(B, A, k1_random_1(A))) ) ) ) ).
 - fof(l22_random_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_finset_1(A))  =>  (! [B] :  (m2_prob_1(B, A, k1_random_1(A)) =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, A, k1_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) )  =>  (? [D] :  (m2_finseq_1(D, k1_numbers) &  (k3_finseq_1(D)=k5_card_1(A) &  ( (! [E] :  (v7_ordinal1(E) =>  (r2_hidden(E, k4_finseq_1(D)) => k1_seq_1(D, E)=k8_real_1(k1_seq_1(C, k1_funct_1(k1_uproots(A), E)), k1_seq_1(B, k1_tarski(k1_funct_1(k1_uproots(A), E))))) ) )  & k1_mesfunc6(A, k1_random_1(A), k2_prob_4(A, k1_random_1(A), B), C)=k18_rvsum_1(D)) ) ) ) ) ) ) ) ) ) ).
 - fof(t27_random_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  ( ( ~ (v1_xboole_0(C))  &  (v1_prob_1(C, A) &  (v4_prob_1(C, A) & m1_subset_1(C, k1_zfmisc_1(k1_zfmisc_1(A)))) ) )  =>  (! [D] :  (m2_prob_1(D, A, C) =>  (! [E] :  (m1_random_1(E, A, C) =>  (r1_random_1(A, C, E, D) => k8_random_1(A, C, D, k5_random_1(A, C, E, B))=k8_real_1(B, k8_random_1(A, C, D, E))) ) ) ) ) ) ) ) ) ) ) ).

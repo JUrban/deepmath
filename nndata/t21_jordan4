@@ -1,17 +1,17 @@
 C fof(t21_jordan4, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k1_jordan4(k7_nat_d(k3_finseq_1(A), 1), A)=k7_nat_d(k3_finseq_1(A), 1)) ) ).
++ fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
++ fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
++ fof(cc2_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v1_relat_1(A) &  (v1_funct_1(A) & v1_finset_1(A)) ) ) ) ).
++ fof(cc6_card_1, axiom,  (! [A] :  ( (v3_ordinal1(A) & v1_finset_1(A))  => v7_ordinal1(A)) ) ).
++ fof(d1_jordan4, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  ( ( ~ (k4_nat_d(A, k7_nat_d(k3_finseq_1(B), 1))=k6_numbers)  => k1_jordan4(A, B)=k4_nat_d(A, k7_nat_d(k3_finseq_1(B), 1)))  &  (k4_nat_d(A, k7_nat_d(k3_finseq_1(B), 1))=k6_numbers => k1_jordan4(A, B)=k7_nat_d(k3_finseq_1(B), 1)) ) ) ) ) ) ).
 + fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
++ fof(dt_k7_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => m1_subset_1(k7_nat_d(A, B), k5_numbers)) ) ).
++ fof(fc6_card_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (v1_finset_1(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
++ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
++ fof(redefinition_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_1(A)=k1_card_1(A)) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
-+ fof(d1_jordan4, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  ( ( ~ (k4_nat_d(A, k7_nat_d(k3_finseq_1(B), 1))=k6_numbers)  => k1_jordan4(A, B)=k4_nat_d(A, k7_nat_d(k3_finseq_1(B), 1)))  &  (k4_nat_d(A, k7_nat_d(k3_finseq_1(B), 1))=k6_numbers => k1_jordan4(A, B)=k7_nat_d(k3_finseq_1(B), 1)) ) ) ) ) ) ).
-+ fof(cc6_card_1, axiom,  (! [A] :  ( (v3_ordinal1(A) & v1_finset_1(A))  => v7_ordinal1(A)) ) ).
-+ fof(cc2_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (v1_relat_1(A) &  (v1_funct_1(A) & v1_finset_1(A)) ) ) ) ).
-+ fof(dt_k7_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => m1_subset_1(k7_nat_d(A, B), k5_numbers)) ) ).
-+ fof(cc17_membered, axiom,  (! [A] :  (v6_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v7_ordinal1(B)) ) ) ) ).
 + fof(t25_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) => k4_nat_d(A, A)=k6_numbers) ) ).
-+ fof(fc6_card_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (v1_finset_1(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
-+ fof(redefinition_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_1(A)=k1_card_1(A)) ) ).
-+ fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
 - fof(dt_k1_jordan4, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) &  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) )  => m1_subset_1(k1_jordan4(A, B), k5_numbers)) ) ).
 - fof(s2_finseq_1__e9_8_1_1_1__gobrd10, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & m1_subset_1(B, k5_numbers))  =>  (? [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  &  (k3_finseq_1(C)=k7_nat_d(k2_nat_1(B, 1), A) &  (! [D] :  (v7_ordinal1(D) =>  (r2_hidden(D, k4_finseq_1(C)) => k1_funct_1(C, D)=k7_nat_d(k2_nat_1(A, D), 1)) ) ) ) ) ) ) ) ).
 - fof(t70_afinsq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, k5_numbers) &  (v1_funct_1(A) &  ( ~ (v1_xboole_0(A))  &  (v1_finset_1(A) & v1_afinsq_1(A)) ) ) ) )  => k62_valued_1(A)=k7_nat_d(k5_card_1(A), 1)) ) ).

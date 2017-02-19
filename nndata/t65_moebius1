@@ -1,18 +1,18 @@
 C fof(t65_moebius1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & v7_ordinal1(B))  =>  ( (r1_nat_d(A, B) &  ~ (v1_moebius1(A)) )  <=> r1_nat_d(A, k6_moebius1(B))) ) ) ) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
 + fof(d12_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) <=> r2_hidden(A, k4_ordinal1)) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(fc8_moebius1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  ~ (v1_moebius1(k6_moebius1(A))) ) ) ).
-+ fof(dt_k6_moebius1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  => m2_subset_1(k6_moebius1(A), k1_numbers, k5_numbers)) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
-+ fof(t55_moebius1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  => r1_nat_d(k6_moebius1(A), A)) ) ).
-+ fof(t26_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (v1_moebius1(A))  &  (r1_nat_d(B, A) & v1_moebius1(B)) ) ) ) ) ) ) ).
 + fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(t4_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ( (r1_nat_d(A, B) & r1_nat_d(B, C))  => r1_nat_d(A, C)) ) ) ) ) ) ) ).
++ fof(dt_k6_moebius1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  => m2_subset_1(k6_moebius1(A), k1_numbers, k5_numbers)) ) ).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(fc8_moebius1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  ~ (v1_moebius1(k6_moebius1(A))) ) ) ).
 + fof(l76_moebius1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m2_subset_1(A, k1_numbers, k5_numbers))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m2_subset_1(B, k1_numbers, k5_numbers))  =>  (r1_nat_d(A, B) =>  (v1_moebius1(A) | r1_nat_d(A, k6_moebius1(B))) ) ) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t26_moebius1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  ~ ( ( ~ (v1_moebius1(A))  &  (r1_nat_d(B, A) & v1_moebius1(B)) ) ) ) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t4_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  ( (r1_nat_d(A, B) & r1_nat_d(B, C))  => r1_nat_d(A, C)) ) ) ) ) ) ) ).
++ fof(t55_moebius1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  => r1_nat_d(k6_moebius1(A), A)) ) ).
 - fof(l71_moebius1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  (! [B] :  ( (v7_ordinal1(B) & v1_int_2(B))  =>  ~ (r1_nat_d(k1_newton(B, 2), k6_moebius1(A))) ) ) ) ) ).
 - fof(fraenkel_a_2_4_moebius1, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(B))  & m2_subset_1(B, k1_numbers, k5_numbers))  &  (v7_ordinal1(C) & v1_int_2(C)) )  =>  (r2_hidden(A, a_2_4_moebius1(B, C)) <=>  (? [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) &  (A=D &  ( ~ (r1_xxreal_0(D, k6_numbers))  &  (r1_nat_d(D, k6_moebius1(B)) & r1_nat_d(C, D)) ) ) ) ) ) ) ) ).
 - fof(fraenkel_a_2_5_moebius1, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(B))  & m2_subset_1(B, k1_numbers, k5_numbers))  &  (v7_ordinal1(C) & v1_int_2(C)) )  =>  (r2_hidden(A, a_2_5_moebius1(B, C)) <=>  (? [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) &  (A=D &  ( ~ (r1_xxreal_0(D, k6_numbers))  &  (r1_nat_d(D, k6_moebius1(B)) &  ~ (r1_nat_d(C, D)) ) ) ) ) ) ) ) ) ).

@@ -1,24 +1,24 @@
 C fof(t43_complex1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (r1_xxreal_0(k6_numbers, A) => k17_complex1(A)=A) ) ) ).
-+ fof(t1_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k2_xcmplx_0(A, k6_numbers)=A) ) ).
-+ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
-+ fof(redefinition_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k7_real_1(A, B)=k2_xcmplx_0(A, B)) ) ).
-+ fof(t22_square_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (r1_xxreal_0(k6_numbers, A) => k6_square_1(k3_square_1(A))=A) ) ) ).
-+ fof(redefinition_k3_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_complex1(A)=k1_complex1(A)) ) ).
-+ fof(d1_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  ( (r2_hidden(A, k1_numbers) =>  (B=k1_complex1(A) <=> B=A) )  &  ( ~ (r2_hidden(A, k1_numbers))  =>  (B=k1_complex1(A) <=>  (? [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, 2, k1_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(2, k1_numbers)))) )  &  (A=C & B=k1_funct_1(C, k6_numbers)) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k4_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k4_complex1(A), k1_numbers)) ) ).
-+ fof(fc2_square_1, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xreal_0(k3_square_1(A))) ) ).
-+ fof(fc2_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xreal_0(k2_complex1(A))) ) ).
-+ fof(redefinition_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k17_complex1(A)=k16_complex1(A)) ) ).
-+ fof(d12_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k16_complex1(A)=k7_square_1(k7_real_1(k5_square_1(k3_complex1(A)), k5_square_1(k4_complex1(A))))) ) ).
-+ fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
-+ fof(d1_square_1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_square_1(A)=k3_xcmplx_0(A, A)) ) ).
 + fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
 + fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
-+ fof(redefinition_k5_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k5_square_1(A)=k3_square_1(A)) ) ).
-+ fof(redefinition_k7_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k7_square_1(A)=k6_square_1(A)) ) ).
++ fof(d12_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k16_complex1(A)=k7_square_1(k7_real_1(k5_square_1(k3_complex1(A)), k5_square_1(k4_complex1(A))))) ) ).
++ fof(d1_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  ( (r2_hidden(A, k1_numbers) =>  (B=k1_complex1(A) <=> B=A) )  &  ( ~ (r2_hidden(A, k1_numbers))  =>  (B=k1_complex1(A) <=>  (? [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, 2, k1_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(2, k1_numbers)))) )  &  (A=C & B=k1_funct_1(C, k6_numbers)) ) ) ) ) ) ) ) ) ).
++ fof(d1_square_1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_square_1(A)=k3_xcmplx_0(A, A)) ) ).
++ fof(d1_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) <=> r2_hidden(A, k1_numbers)) ) ).
 + fof(d2_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  ( (r2_hidden(A, k1_numbers) =>  (B=k2_complex1(A) <=> B=k6_numbers) )  &  ( ~ (r2_hidden(A, k1_numbers))  =>  (B=k2_complex1(A) <=>  (? [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, 2, k1_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(2, k1_numbers)))) )  &  (A=C & B=k1_funct_1(C, 1)) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k4_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k4_complex1(A)=k2_complex1(A)) ) ).
++ fof(dt_k4_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k4_complex1(A), k1_numbers)) ) ).
 + fof(dt_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k7_real_1(A, B), k1_numbers)) ) ).
++ fof(fc2_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xreal_0(k2_complex1(A))) ) ).
++ fof(fc2_square_1, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xreal_0(k3_square_1(A))) ) ).
++ fof(redefinition_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k17_complex1(A)=k16_complex1(A)) ) ).
++ fof(redefinition_k3_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_complex1(A)=k1_complex1(A)) ) ).
++ fof(redefinition_k4_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k4_complex1(A)=k2_complex1(A)) ) ).
++ fof(redefinition_k5_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k5_square_1(A)=k3_square_1(A)) ) ).
++ fof(redefinition_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k7_real_1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k7_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k7_square_1(A)=k6_square_1(A)) ) ).
++ fof(t1_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k2_xcmplx_0(A, k6_numbers)=A) ) ).
++ fof(t22_square_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (r1_xxreal_0(k6_numbers, A) => k6_square_1(k3_square_1(A))=A) ) ) ).
++ fof(t2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k6_numbers)=k6_numbers) ) ).
 - fof(projectivity_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k17_complex1(k17_complex1(A))=k17_complex1(A)) ) ).
 - fof(dt_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => m1_subset_1(k17_complex1(A), k1_numbers)) ) ).
 - fof(d2_square_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (r1_xxreal_0(k6_numbers, A) =>  (! [B] :  (v1_xreal_0(B) =>  (B=k6_square_1(A) <=>  (r1_xxreal_0(k6_numbers, B) & k3_square_1(B)=A) ) ) ) ) ) ) ).

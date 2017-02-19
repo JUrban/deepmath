@@ -1,11 +1,11 @@
 C fof(l7_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (r1_tarski(k2_zfmisc_1(k1_tarski(4), k1_qc_lang1(A)), k2_qc_lang1(A)) &  (r1_tarski(k2_zfmisc_1(k1_tarski(5), k1_qc_lang1(A)), k2_qc_lang1(A)) & r1_tarski(k2_zfmisc_1(k1_tarski(6), k5_numbers), k2_qc_lang1(A))) ) ) ) ).
-+ fof(t10_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_tarski(A, B) => r1_tarski(A, k2_xboole_0(C, B))) ) ) ) ).
-+ fof(d3_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) => k2_qc_lang1(A)=k2_xboole_0(k2_zfmisc_1(k1_tarski(6), k5_numbers), k2_zfmisc_1(k2_tarski(4, 5), k1_qc_lang1(A)))) ) ).
-+ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
-+ fof(t96_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k2_zfmisc_1(A, C), k2_zfmisc_1(B, D))) ) ) ) ) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(t7_zfmisc_1, axiom,  (! [A] :  (! [B] : r1_tarski(k1_tarski(A), k2_tarski(A, B))) ) ).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(d3_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) => k2_qc_lang1(A)=k2_xboole_0(k2_zfmisc_1(k1_tarski(6), k5_numbers), k2_zfmisc_1(k2_tarski(4, 5), k1_qc_lang1(A)))) ) ).
 + fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t10_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (r1_tarski(A, B) => r1_tarski(A, k2_xboole_0(C, B))) ) ) ) ).
++ fof(t7_zfmisc_1, axiom,  (! [A] :  (! [B] : r1_tarski(k1_tarski(A), k2_tarski(A, B))) ) ).
++ fof(t96_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k2_zfmisc_1(A, C), k2_zfmisc_1(B, D))) ) ) ) ) ).
 - fof(fc2_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  ~ (v1_xboole_0(k2_qc_lang1(A))) ) ) ).
 - fof(d2_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) => k1_qc_lang1(A)=k10_xtuple_0(A)) ) ).
 - fof(t3_qc_lang1, axiom,  (! [A] :  (m1_qc_lang1(A) =>  (r1_tarski(k5_numbers, k1_qc_lang1(A)) & r2_hidden(k6_numbers, k1_qc_lang1(A))) ) ) ).

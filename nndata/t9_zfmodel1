@@ -1,6 +1,6 @@
 C fof(t9_zfmodel1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (v1_ordinal1(A) =>  (r2_zf_model(A, k10_zf_model) <=>  (! [B] :  (r2_hidden(B, A) => r2_hidden(k3_xboole_0(A, k1_zfmisc_1(B)), A)) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 + fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 + fof(t8_zfmodel1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (v1_ordinal1(A) =>  (r2_zf_model(A, k10_zf_model) <=>  (! [B] :  (m1_subset_1(B, A) => r2_hidden(k3_xboole_0(A, k1_zfmisc_1(B)), A)) ) ) ) ) ) ).
 - fof(d12_zf_model, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (v1_zf_model(A) <=>  (v1_ordinal1(A) &  (r2_zf_model(A, k7_zf_model) &  (r2_zf_model(A, k8_zf_model) &  (r2_zf_model(A, k9_zf_model) &  (r2_zf_model(A, k10_zf_model) &  (! [B] :  ( (v1_zf_lang(B) & m2_finseq_1(B, k5_numbers))  =>  (r1_xboole_0(k1_enumset1(k2_zf_lang(k6_numbers), k2_zf_lang(1), k2_zf_lang(2)), k2_zf_model(B)) => r2_zf_model(A, k11_zf_model(B))) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t2_zfmodel1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (v1_ordinal1(A) =>  (r2_zf_model(A, k7_zf_model) <=>  (! [B] :  (m1_subset_1(B, A) =>  (! [C] :  (m1_subset_1(C, A) => r2_hidden(k2_tarski(B, C), A)) ) ) ) ) ) ) ) ).

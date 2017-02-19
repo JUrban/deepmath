@@ -1,19 +1,19 @@
 C fof(t8_cgames_1, axiom,  (! [A] :  ( (r2_hidden(A, k8_cgames_1(k5_cgames_1)) => A=k3_cgames_1)  &  ( (A=k3_cgames_1 => r2_hidden(A, k8_cgames_1(k5_cgames_1)))  &  ( (r2_hidden(A, k6_cgames_1(k5_cgames_1)) => A=k3_cgames_1)  &  ( (A=k3_cgames_1 => r2_hidden(A, k6_cgames_1(k5_cgames_1)))  &  ( (r2_hidden(A, k7_cgames_1(k5_cgames_1)) => A=k3_cgames_1)  &  (A=k3_cgames_1 => r2_hidden(A, k7_cgames_1(k5_cgames_1))) ) ) ) ) ) ) ).
++ fof(abstractness_v1_cgames_1, axiom,  (! [A] :  (l1_cgames_1(A) =>  (v1_cgames_1(A) => A=g1_cgames_1(u1_cgames_1(A), u2_cgames_1(A))) ) ) ).
++ fof(cc1_cgames_1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k2_cgames_1(A)) => v2_cgames_1(B)) ) ) ) ).
++ fof(cc6_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) => v3_ordinal1(A)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(d5_cgames_1, axiom, k5_cgames_1=g1_cgames_1(k1_tarski(k3_cgames_1), k1_tarski(k3_cgames_1))).
++ fof(d6_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  (! [B] :  (B=k6_cgames_1(A) <=>  (? [C] :  (l1_cgames_1(C) &  (A=C & B=u1_cgames_1(C)) ) ) ) ) ) ) ).
++ fof(d7_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  (! [B] :  (B=k7_cgames_1(A) <=>  (? [C] :  (l1_cgames_1(C) &  (A=C & B=u2_cgames_1(C)) ) ) ) ) ) ) ).
++ fof(d8_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) => k8_cgames_1(A)=k2_xboole_0(k6_cgames_1(A), k7_cgames_1(A))) ) ).
++ fof(dt_g1_cgames_1, axiom,  (! [A, B] :  (v1_cgames_1(g1_cgames_1(A, B)) & l1_cgames_1(g1_cgames_1(A, B))) ) ).
++ fof(dt_k5_cgames_1, axiom, m1_subset_1(k5_cgames_1, k2_cgames_1(1))).
++ fof(free_g1_cgames_1, axiom,  (! [A, B] :  (! [C, D] :  (g1_cgames_1(A, B)=g1_cgames_1(C, D) =>  (A=C & B=D) ) ) ) ).
++ fof(idempotence_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, A)=A) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(d8_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) => k8_cgames_1(A)=k2_xboole_0(k6_cgames_1(A), k7_cgames_1(A))) ) ).
-+ fof(cc6_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) => v3_ordinal1(A)) ) ).
-+ fof(cc1_cgames_1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k2_cgames_1(A)) => v2_cgames_1(B)) ) ) ) ).
-+ fof(dt_g1_cgames_1, axiom,  (! [A, B] :  (v1_cgames_1(g1_cgames_1(A, B)) & l1_cgames_1(g1_cgames_1(A, B))) ) ).
-+ fof(abstractness_v1_cgames_1, axiom,  (! [A] :  (l1_cgames_1(A) =>  (v1_cgames_1(A) => A=g1_cgames_1(u1_cgames_1(A), u2_cgames_1(A))) ) ) ).
-+ fof(free_g1_cgames_1, axiom,  (! [A, B] :  (! [C, D] :  (g1_cgames_1(A, B)=g1_cgames_1(C, D) =>  (A=C & B=D) ) ) ) ).
-+ fof(d5_cgames_1, axiom, k5_cgames_1=g1_cgames_1(k1_tarski(k3_cgames_1), k1_tarski(k3_cgames_1))).
-+ fof(dt_k5_cgames_1, axiom, m1_subset_1(k5_cgames_1, k2_cgames_1(1))).
-+ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
-+ fof(d7_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  (! [B] :  (B=k7_cgames_1(A) <=>  (? [C] :  (l1_cgames_1(C) &  (A=C & B=u2_cgames_1(C)) ) ) ) ) ) ) ).
-+ fof(idempotence_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, A)=A) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(d6_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  (! [B] :  (B=k6_cgames_1(A) <=>  (? [C] :  (l1_cgames_1(C) &  (A=C & B=u1_cgames_1(C)) ) ) ) ) ) ) ).
 - fof(t7_cgames_1, axiom,  (! [A] :  (r2_hidden(A, k6_cgames_1(k4_cgames_1)) <=> A=k3_cgames_1) ) ).
 - fof(t6_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  (A=k3_cgames_1 <=> k8_cgames_1(A)=k1_xboole_0) ) ) ).
 - fof(t4_cgames_1, axiom,  (! [A] :  (v2_cgames_1(A) =>  (v1_cgames_1(A) & l1_cgames_1(A)) ) ) ).

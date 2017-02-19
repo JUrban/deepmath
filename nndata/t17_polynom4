@@ -1,25 +1,25 @@
 C fof(t17_polynom4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_group_1(A) & l6_algstr_0(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k2_polynom4(A, k9_polynom3(A), B)=k4_struct_0(A)) ) ) ) ).
-+ fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
-+ fof(dt_k9_polynom3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_struct_0(A))  =>  (v1_funct_1(k9_polynom3(A)) &  (v1_funct_2(k9_polynom3(A), k5_numbers, u1_struct_0(A)) & m1_subset_1(k9_polynom3(A), k1_zfmisc_1(k2_zfmisc_1(k5_numbers, u1_struct_0(A))))) ) ) ) ).
-+ fof(redefinition_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_1(A)=k1_card_1(A)) ) ).
-+ fof(t3_polynom4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_struct_0(A))  => k1_algseq_1(A, k9_polynom3(A))=k6_numbers) ) ).
-+ fof(fc6_polynom3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_struct_0(A))  =>  (v1_funct_1(k9_polynom3(A)) &  (v1_funct_2(k9_polynom3(A), k5_numbers, u1_struct_0(A)) & v1_algseq_1(k9_polynom3(A), A)) ) ) ) ).
-+ fof(t43_rlvect_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  => k4_rlvect_1(A, k6_finseq_1(u1_struct_0(A)))=k4_struct_0(A)) ) ).
-+ fof(rc2_finseq_1, axiom,  (! [A] :  (? [B] :  (m1_finseq_1(B, A) &  (v1_relat_1(B) &  (v4_relat_1(B, k5_numbers) &  (v5_relat_1(B, A) &  (v1_funct_1(B) &  (v1_xboole_0(B) &  (v1_finset_1(B) & v1_finseq_1(B)) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k4_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k4_finseq_1(A)=k9_xtuple_0(A)) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
-+ fof(fc1_card_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (v1_xboole_0(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
-+ fof(fc14_card_1, axiom,  (! [A, B] :  ( (v1_card_1(A) &  (v1_relat_1(B) &  (v1_funct_1(B) & v3_card_1(B, A)) ) )  => v3_card_1(k9_xtuple_0(B), A)) ) ).
-+ fof(cc8_card_1, axiom,  (! [A] :  (v1_xboole_0(A) => v3_card_1(A, k1_xboole_0)) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(cc7_card_1, axiom,  (! [A] :  (v3_card_1(A, k1_xboole_0) => v1_xboole_0(A)) ) ).
++ fof(cc8_card_1, axiom,  (! [A] :  (v1_xboole_0(A) => v3_card_1(A, k1_xboole_0)) ) ).
 + fof(d2_polynom4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_group_1(A) & l6_algstr_0(A)) )  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, u1_struct_0(A)) &  (v1_algseq_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, u1_struct_0(A))))) ) )  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (D=k2_polynom4(A, B, C) <=>  (? [E] :  (m2_finseq_1(E, u1_struct_0(A)) &  (D=k4_rlvect_1(A, E) &  (k3_finseq_1(E)=k1_algseq_1(A, B) &  (! [F] :  (m1_subset_1(F, k5_numbers) =>  (r2_hidden(F, k4_finseq_1(E)) => k1_funct_1(E, F)=k6_algstr_0(A, k1_normsp_1(A, B, k7_nat_d(F, 1)), k2_binop_1(u1_struct_0(A), k5_numbers, u1_struct_0(A), k4_group_1(A), C, k7_nat_d(F, 1)))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
 + fof(dt_k4_rlvect_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  &  (v1_relat_1(B) &  (v5_relat_1(B, u1_struct_0(A)) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) )  => m1_subset_1(k4_rlvect_1(A, B), u1_struct_0(A))) ) ).
-+ fof(fc5_finseq_1, axiom,  (! [A] : v1_xboole_0(k6_finseq_1(A))) ).
-+ fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
 + fof(dt_k6_finseq_1, axiom,  (! [A] : m2_finseq_1(k6_finseq_1(A), A)) ).
++ fof(dt_k9_polynom3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_struct_0(A))  =>  (v1_funct_1(k9_polynom3(A)) &  (v1_funct_2(k9_polynom3(A), k5_numbers, u1_struct_0(A)) & m1_subset_1(k9_polynom3(A), k1_zfmisc_1(k2_zfmisc_1(k5_numbers, u1_struct_0(A))))) ) ) ) ).
++ fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
++ fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
++ fof(fc14_card_1, axiom,  (! [A, B] :  ( (v1_card_1(A) &  (v1_relat_1(B) &  (v1_funct_1(B) & v3_card_1(B, A)) ) )  => v3_card_1(k9_xtuple_0(B), A)) ) ).
++ fof(fc1_card_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (v1_xboole_0(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(fc5_finseq_1, axiom,  (! [A] : v1_xboole_0(k6_finseq_1(A))) ).
++ fof(fc6_polynom3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_struct_0(A))  =>  (v1_funct_1(k9_polynom3(A)) &  (v1_funct_2(k9_polynom3(A), k5_numbers, u1_struct_0(A)) & v1_algseq_1(k9_polynom3(A), A)) ) ) ) ).
++ fof(rc2_finseq_1, axiom,  (! [A] :  (? [B] :  (m1_finseq_1(B, A) &  (v1_relat_1(B) &  (v4_relat_1(B, k5_numbers) &  (v5_relat_1(B, A) &  (v1_funct_1(B) &  (v1_xboole_0(B) &  (v1_finset_1(B) & v1_finseq_1(B)) ) ) ) ) ) ) ) ) ).
++ fof(redefinition_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_1(A)=k1_card_1(A)) ) ).
++ fof(redefinition_k4_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k4_finseq_1(A)=k9_xtuple_0(A)) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t3_polynom4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_struct_0(A))  => k1_algseq_1(A, k9_polynom3(A))=k6_numbers) ) ).
++ fof(t43_rlvect_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_algstr_0(A))  => k4_rlvect_1(A, k6_finseq_1(u1_struct_0(A)))=k4_struct_0(A)) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 + fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(dt_k2_polynom4, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v1_group_1(A) & l6_algstr_0(A)) )  &  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, u1_struct_0(A)) &  (v1_algseq_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, u1_struct_0(A))))) ) )  & m1_subset_1(C, u1_struct_0(A))) )  => m1_subset_1(k2_polynom4(A, B, C), u1_struct_0(A))) ) ).
 - fof(t12_polynom4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_struct_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, u1_struct_0(A)) &  (v1_algseq_1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, u1_struct_0(A))))) ) )  =>  (k1_algseq_1(A, B)=k6_numbers => r2_funct_2(k5_numbers, u1_struct_0(A), k1_polynom4(A, B), k9_polynom3(A))) ) ) ) ) ).

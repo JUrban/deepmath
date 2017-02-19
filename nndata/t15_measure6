@@ -1,10 +1,10 @@
 C fof(t15_measure6, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v6_xxreal_2(A) & m1_subset_1(A, k1_zfmisc_1(k1_numbers))) )  =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  ( (? [C] :  (m1_subset_1(C, k7_numbers) &  (r1_xxreal_0(C, B) & A=k2_xxreal_1(C, B)) ) )  => B=k8_supinf_2(A)) ) ) ) ) ).
++ fof(cc1_xxreal_0, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => v1_xxreal_0(A)) ) ).
 + fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
 + fof(fc2_xxreal_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => v2_membered(k2_xxreal_1(A, B))) ) ).
-+ fof(cc1_xxreal_0, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => v1_xxreal_0(A)) ) ).
 + fof(redefinition_k8_supinf_2, axiom,  (! [A] :  (v2_membered(A) => k8_supinf_2(A)=k1_xxreal_2(A)) ) ).
-+ fof(t31_xxreal_2, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( ~ (r1_xxreal_0(B, A))  => k1_xxreal_2(k2_xxreal_1(A, B))=B) ) ) ) ) ).
 + fof(t27_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (r1_xxreal_0(A, B) => k2_xxreal_1(B, A)=k1_xboole_0) ) ) ) ) ).
++ fof(t31_xxreal_2, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( ~ (r1_xxreal_0(B, A))  => k1_xxreal_2(k2_xxreal_1(A, B))=B) ) ) ) ) ).
 - fof(t8_supinf_2, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(A, k1_zfmisc_1(k7_numbers)))  =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(k7_numbers)))  => r1_xxreal_0(k8_supinf_2(k5_supinf_2(A, B)), k3_supinf_2(k8_supinf_2(A), k8_supinf_2(B)))) ) ) ) ).
 - fof(t14_measure6, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v6_xxreal_2(A) & m1_subset_1(A, k1_zfmisc_1(k1_numbers))) )  =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  ( (? [C] :  (m1_subset_1(C, k7_numbers) &  (r1_xxreal_0(C, B) & A=k1_xxreal_1(C, B)) ) )  => B=k8_supinf_2(A)) ) ) ) ) ).
 - fof(t13_measure6, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v6_xxreal_2(A) & m1_subset_1(A, k1_zfmisc_1(k1_numbers))) )  =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  ( (? [C] :  (m1_subset_1(C, k7_numbers) &  (r1_xxreal_0(C, B) & A=k3_xxreal_1(C, B)) ) )  => B=k8_supinf_2(A)) ) ) ) ) ).

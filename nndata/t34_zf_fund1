@@ -1,18 +1,18 @@
 C fof(t34_zf_fund1, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k1_zf_lang)))  =>  (! [B] :  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(k1_zf_lang)))  =>  (k4_zf_fund1(k4_subset_1(k1_zf_lang, A, B))=k4_subset_1(k4_ordinal1, k4_zf_fund1(A), k4_zf_fund1(B)) & k4_zf_fund1(k7_subset_1(k1_zf_lang, A, B))=k7_subset_1(k4_ordinal1, k4_zf_fund1(A), k4_zf_fund1(B))) ) ) ) ) ).
++ fof(cc2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_relat_1(B)) ) ) ) ).
++ fof(d4_zf_fund1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_zf_lang)) => k4_zf_fund1(A)=k7_relat_1(k2_funct_1(k2_zf_fund1), A)) ) ).
++ fof(dt_k2_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_relat_1(k2_funct_1(A)) & v1_funct_1(k2_funct_1(A))) ) ) ).
++ fof(dt_k2_zf_fund1, axiom,  (v1_funct_1(k2_zf_fund1) &  (v1_funct_2(k2_zf_fund1, k4_ordinal1, k1_zf_lang) & m1_subset_1(k2_zf_fund1, k1_zfmisc_1(k2_zfmisc_1(k4_ordinal1, k1_zf_lang)))) ) ).
++ fof(dt_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k4_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
++ fof(dt_k4_zf_fund1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_zf_lang)) => m1_subset_1(k4_zf_fund1(A), k1_zfmisc_1(k4_ordinal1))) ) ).
 + fof(dt_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_subset_1(k7_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
 + fof(fc6_relat_1, axiom,  (! [A, B] : v1_relat_1(k2_zfmisc_1(A, B))) ).
-+ fof(dt_k2_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_relat_1(k2_funct_1(A)) & v1_funct_1(k2_funct_1(A))) ) ) ).
 + fof(l4_zf_fund1, axiom,  (k1_relset_1(k4_ordinal1, k2_zf_fund1)=k4_ordinal1 &  (k2_relset_1(k1_zf_lang, k2_zf_fund1)=k1_zf_lang &  (v2_funct_1(k2_zf_fund1) &  (v2_funct_1(k2_funct_1(k2_zf_fund1)) &  (k9_xtuple_0(k2_funct_1(k2_zf_fund1))=k1_zf_lang & k10_xtuple_0(k2_funct_1(k2_zf_fund1))=k4_ordinal1) ) ) ) ) ).
-+ fof(dt_k4_zf_fund1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_zf_lang)) => m1_subset_1(k4_zf_fund1(A), k1_zfmisc_1(k4_ordinal1))) ) ).
-+ fof(dt_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k4_subset_1(A, B, C), k1_zfmisc_1(A))) ) ).
 + fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
 + fof(redefinition_k6_subset_1, axiom,  (! [A, B] : k6_subset_1(A, B)=k4_xboole_0(A, B)) ).
++ fof(redefinition_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k7_subset_1(A, B, C)=k4_xboole_0(B, C)) ) ).
 + fof(t120_relat_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (v1_relat_1(C) => k7_relat_1(C, k2_xboole_0(A, B))=k2_xboole_0(k7_relat_1(C, A), k7_relat_1(C, B))) ) ) ) ).
 + fof(t64_funct_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) & v1_funct_1(C))  =>  (v2_funct_1(C) => k7_relat_1(C, k6_subset_1(A, B))=k6_subset_1(k7_relat_1(C, A), k7_relat_1(C, B))) ) ) ) ) ).
-+ fof(cc2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_relat_1(B)) ) ) ) ).
-+ fof(dt_k2_zf_fund1, axiom,  (v1_funct_1(k2_zf_fund1) &  (v1_funct_2(k2_zf_fund1, k4_ordinal1, k1_zf_lang) & m1_subset_1(k2_zf_fund1, k1_zfmisc_1(k2_zfmisc_1(k4_ordinal1, k1_zf_lang)))) ) ).
-+ fof(d4_zf_fund1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_zf_lang)) => k4_zf_fund1(A)=k7_relat_1(k2_funct_1(k2_zf_fund1), A)) ) ).
-+ fof(redefinition_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k7_subset_1(A, B, C)=k4_xboole_0(B, C)) ) ).
 - fof(l18_zf_fund1, axiom,  (! [A] :  (! [B] :  ( (v1_finset_1(B) & m1_subset_1(B, k1_zfmisc_1(k1_zf_lang)))  =>  (r2_hidden(A, k4_zf_fund1(B)) <=>  (? [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) &  (r2_hidden(C, B) & A=k3_zf_fund1(C)) ) ) ) ) ) ) ).
 - fof(l21_zf_fund1, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k1_zf_lang)))  => r2_tarski(A, k4_zf_fund1(A))) ) ).
 - fof(fraenkel_a_5_2_zf_fund1, axiom,  (! [A, B, C, D, E, F] :  ( ( ( ~ (v1_xboole_0(B))  & v1_classes2(B))  &  ( (v1_zf_lang(C) & m2_finseq_1(C, k5_numbers))  &  (m2_subset_1(D, k5_numbers, k1_zf_lang) &  (m1_subset_1(E, B) & m1_subset_1(F, B)) ) ) )  =>  (r2_hidden(A, a_5_2_zf_fund1(B, C, D, E, F)) <=>  (? [G] :  (m1_subset_1(G, B) &  (A=G &  (r2_hidden(G, k1_funct_2(k7_subset_1(k4_ordinal1, k4_zf_fund1(k2_zf_model(C)), k6_domain_1(k5_numbers, k3_zf_fund1(D))), E)) &  (? [H] : r2_hidden(k2_xboole_0(k1_tarski(k4_tarski(k3_zf_fund1(D), H)), G), F)) ) ) ) ) ) ) ) ).

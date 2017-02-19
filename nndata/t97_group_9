@@ -1,20 +1,20 @@
 C fof(t97_group_9, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) &  (v3_group_9(B, A) & l1_group_9(B, A)) ) ) )  =>  (! [C] :  ( (v8_group_9(C, A, B) & m2_finseq_1(C, k6_group_9(A, B)))  =>  (! [D] :  ( (v8_group_9(D, A, B) & m2_finseq_1(D, k6_group_9(A, B)))  =>  ~ ( ( ~ (v1_xboole_0(C))  &  (r4_group_9(A, B, D, C) & v1_xboole_0(D)) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
-+ fof(redefinition_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k2_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(redefinition_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_1(A)=k1_card_1(A)) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(dt_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => m2_subset_1(k3_finseq_1(A), k1_numbers, k5_numbers)) ) ).
 + fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(fc4_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) &  ( ~ (v1_xboole_0(B))  & v7_ordinal1(B)) )  =>  ~ (v1_xboole_0(k2_xcmplx_0(B, A))) ) ) ).
-+ fof(t95_group_9, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) &  (v3_group_9(B, A) & l1_group_9(B, A)) ) ) )  =>  (! [C] :  ( (v8_group_9(C, A, B) & m2_finseq_1(C, k6_group_9(A, B)))  =>  (! [D] :  ( (v8_group_9(D, A, B) & m2_finseq_1(D, k6_group_9(A, B)))  =>  ~ ( (r4_group_9(A, B, C, D) &  (! [E] :  (v7_ordinal1(E) =>  ~ (k3_finseq_1(C)=k2_nat_1(k3_finseq_1(D), E)) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
 + fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 + fof(fc1_card_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (v1_xboole_0(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
 + fof(fc2_card_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k1_card_1(A)))  & v1_card_1(k1_card_1(A))) ) ) ).
-+ fof(dt_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => m2_subset_1(k3_finseq_1(A), k1_numbers, k5_numbers)) ) ).
++ fof(fc4_nat_1, axiom,  (! [A, B] :  ( (v7_ordinal1(A) &  ( ~ (v1_xboole_0(B))  & v7_ordinal1(B)) )  =>  ~ (v1_xboole_0(k2_xcmplx_0(B, A))) ) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k2_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => k3_finseq_1(A)=k1_card_1(A)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t95_group_9, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) &  (v3_group_9(B, A) & l1_group_9(B, A)) ) ) )  =>  (! [C] :  ( (v8_group_9(C, A, B) & m2_finseq_1(C, k6_group_9(A, B)))  =>  (! [D] :  ( (v8_group_9(D, A, B) & m2_finseq_1(D, k6_group_9(A, B)))  =>  ~ ( (r4_group_9(A, B, C, D) &  (! [E] :  (v7_ordinal1(E) =>  ~ (k3_finseq_1(C)=k2_nat_1(k3_finseq_1(D), E)) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(d29_group_9, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) &  (v3_group_9(B, A) & l1_group_9(B, A)) ) ) )  =>  (! [C] :  ( (v8_group_9(C, A, B) & m2_finseq_1(C, k6_group_9(A, B)))  =>  (! [D] :  ( (v8_group_9(D, A, B) & m2_finseq_1(D, k6_group_9(A, B)))  =>  (r4_group_9(A, B, C, D) <=>  (? [E] :  (r1_tarski(E, k4_finseq_1(C)) & r2_relset_1(k5_numbers, k6_group_9(A, B), D, k1_partfun1(k5_numbers, k5_numbers, k5_numbers, k6_group_9(A, B), k14_finseq_1(E), C))) ) ) ) ) ) ) ) ) ) ).
 - fof(t96_group_9, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) &  (v3_group_9(B, A) & l1_group_9(B, A)) ) ) )  =>  (! [C] :  ( (v8_group_9(C, A, B) & m2_finseq_1(C, k6_group_9(A, B)))  =>  (! [D] :  ( (v8_group_9(D, A, B) & m2_finseq_1(D, k6_group_9(A, B)))  =>  ( (k3_finseq_1(C)=k3_finseq_1(D) & r4_group_9(A, B, C, D))  => D=C) ) ) ) ) ) ) ) ).
 - fof(d31_group_9, axiom,  (! [A] :  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_group_1(B) &  (v3_group_1(B) &  (v3_group_9(B, A) & l1_group_9(B, A)) ) ) )  =>  (! [C] :  ( (v8_group_9(C, A, B) & m2_finseq_1(C, k6_group_9(A, B)))  =>  (v10_group_9(C, A, B) <=>  (v9_group_9(C, A, B) &  (! [D] :  ( (v8_group_9(D, A, B) & m2_finseq_1(D, k6_group_9(A, B)))  =>  ~ ( ( ~ (D=C)  &  (v9_group_9(D, A, B) & r4_group_9(A, B, D, C)) ) ) ) ) ) ) ) ) ) ) ) ).

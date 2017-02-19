@@ -1,7 +1,7 @@
 C fof(t44_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_nat_d(A, B) <=> k5_nat_d(A, B)=B) ) ) ) ) ).
++ fof(d4_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (C=k2_int_2(A, B) <=>  (r1_nat_d(A, C) &  (r1_nat_d(B, C) &  (! [D] :  (v7_ordinal1(D) =>  ( (r1_nat_d(A, D) & r1_nat_d(B, D))  => r1_nat_d(C, D)) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(redefinition_k5_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k5_nat_d(A, B)=k2_int_2(A, B)) ) ).
 + fof(reflexivity_r1_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => r1_nat_d(A, A)) ) ).
-+ fof(d4_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (v7_ordinal1(C) =>  (C=k2_int_2(A, B) <=>  (r1_nat_d(A, C) &  (r1_nat_d(B, C) &  (! [D] :  (v7_ordinal1(D) =>  ( (r1_nat_d(A, D) & r1_nat_d(B, D))  => r1_nat_d(C, D)) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(commutativity_k5_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  => k5_nat_d(A, B)=k5_nat_d(B, A)) ) ).
 - fof(redefinition_r1_nat_d, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & v7_ordinal1(B))  =>  (r1_nat_d(A, B) <=> r1_int_1(A, B)) ) ) ).
 - fof(t31_nat_d, axiom,  (! [A] :  (v7_ordinal1(A) => k5_nat_d(A, A)=A) ) ).

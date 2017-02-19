@@ -1,20 +1,20 @@
 C fof(t33_funct_9, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  ( ( ~ (v1_xboole_0(C))  & v1_int_1(C))  => v1_funct_9(k9_valued_1(k1_numbers, k1_numbers, k26_valued_1(k1_numbers, k1_numbers, k16_sin_cos, B), A), k8_real_1(k8_real_1(2, k32_sin_cos), C))) ) ) ) ) ) ).
 + fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
-+ fof(redefinition_k26_valued_1, axiom,  (! [A, B, C, D] :  ( (v3_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xreal_0(D)) )  => k26_valued_1(A, B, C, D)=k24_valued_1(C, D)) ) ).
-+ fof(dt_k32_sin_cos, axiom, m1_subset_1(k32_sin_cos, k1_numbers)).
-+ fof(dt_k26_valued_1, axiom,  (! [A, B, C, D] :  ( (v3_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xreal_0(D)) )  =>  (v1_funct_1(k26_valued_1(A, B, C, D)) & m1_subset_1(k26_valued_1(A, B, C, D), k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) ) ) ).
-+ fof(cc3_int_1, axiom,  (! [A] :  (v1_int_1(A) => v1_xreal_0(A)) ) ).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(dt_k16_sin_cos, axiom,  (v1_funct_1(k16_sin_cos) &  (v1_funct_2(k16_sin_cos, k1_numbers, k1_numbers) & m1_subset_1(k16_sin_cos, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ) ).
-+ fof(t7_funct_9, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v3_valued_0(C)) )  =>  (v1_funct_9(C, A) => v1_funct_9(k24_valued_1(C, B), A)) ) ) ) ) ) ) ).
-+ fof(dt_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k8_real_1(A, B), k1_numbers)) ) ).
 + fof(cc18_valued_0, axiom,  (! [A, B] :  (v3_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v3_valued_0(C)) ) ) ) ).
-+ fof(redefinition_k9_valued_1, axiom,  (! [A, B, C, D] :  ( (v3_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xreal_0(D)) )  => k9_valued_1(A, B, C, D)=k7_valued_1(C, D)) ) ).
-+ fof(t8_funct_9, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v3_valued_0(C)) )  =>  (v1_funct_9(C, A) => v1_funct_9(k7_valued_1(C, B), A)) ) ) ) ) ) ) ).
-+ fof(t21_funct_9, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_int_1(A))  => v1_funct_9(k16_sin_cos, k8_real_1(k8_real_1(2, k32_sin_cos), A))) ) ).
-+ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(cc3_int_1, axiom,  (! [A] :  (v1_int_1(A) => v1_xreal_0(A)) ) ).
++ fof(dt_k16_sin_cos, axiom,  (v1_funct_1(k16_sin_cos) &  (v1_funct_2(k16_sin_cos, k1_numbers, k1_numbers) & m1_subset_1(k16_sin_cos, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) ) ).
++ fof(dt_k26_valued_1, axiom,  (! [A, B, C, D] :  ( (v3_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xreal_0(D)) )  =>  (v1_funct_1(k26_valued_1(A, B, C, D)) & m1_subset_1(k26_valued_1(A, B, C, D), k1_zfmisc_1(k2_zfmisc_1(A, k1_numbers)))) ) ) ).
++ fof(dt_k32_sin_cos, axiom, m1_subset_1(k32_sin_cos, k1_numbers)).
++ fof(dt_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k8_real_1(A, B), k1_numbers)) ) ).
++ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
++ fof(redefinition_k26_valued_1, axiom,  (! [A, B, C, D] :  ( (v3_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xreal_0(D)) )  => k26_valued_1(A, B, C, D)=k24_valued_1(C, D)) ) ).
++ fof(redefinition_k9_valued_1, axiom,  (! [A, B, C, D] :  ( (v3_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xreal_0(D)) )  => k9_valued_1(A, B, C, D)=k7_valued_1(C, D)) ) ).
 + fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t21_funct_9, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_int_1(A))  => v1_funct_9(k16_sin_cos, k8_real_1(k8_real_1(2, k32_sin_cos), A))) ) ).
++ fof(t7_funct_9, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v3_valued_0(C)) )  =>  (v1_funct_9(C, A) => v1_funct_9(k24_valued_1(C, B), A)) ) ) ) ) ) ) ).
++ fof(t8_funct_9, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v3_valued_0(C)) )  =>  (v1_funct_9(C, A) => v1_funct_9(k7_valued_1(C, B), A)) ) ) ) ) ) ) ).
 - fof(l62_funct_9, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v7_ordinal1(C) => v1_funct_9(k9_valued_1(k1_numbers, k1_numbers, k26_valued_1(k1_numbers, k1_numbers, k16_sin_cos, B), A), k8_real_1(k8_real_1(2, k32_sin_cos), k3_real_1(C, 1)))) ) ) ) ) ) ).
 - fof(s2_nat_1__e3_69__funct_9, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  =>  ( (v1_funct_9(k9_valued_1(k1_numbers, k1_numbers, k26_valued_1(k1_numbers, k1_numbers, k16_sin_cos, B), A), k8_real_1(k8_real_1(2, k32_sin_cos), k3_real_1(k6_numbers, 1))) &  (! [C] :  (v7_ordinal1(C) =>  (v1_funct_9(k9_valued_1(k1_numbers, k1_numbers, k26_valued_1(k1_numbers, k1_numbers, k16_sin_cos, B), A), k8_real_1(k8_real_1(2, k32_sin_cos), k3_real_1(C, 1))) => v1_funct_9(k9_valued_1(k1_numbers, k1_numbers, k26_valued_1(k1_numbers, k1_numbers, k16_sin_cos, B), A), k8_real_1(k8_real_1(2, k32_sin_cos), k3_real_1(k1_nat_1(C, 1), 1)))) ) ) )  =>  (! [C] :  (v7_ordinal1(C) => v1_funct_9(k9_valued_1(k1_numbers, k1_numbers, k26_valued_1(k1_numbers, k1_numbers, k16_sin_cos, B), A), k8_real_1(k8_real_1(2, k32_sin_cos), k3_real_1(C, 1)))) ) ) ) ) ).
 - fof(l60_funct_9, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => v1_funct_9(k9_valued_1(k1_numbers, k1_numbers, k26_valued_1(k1_numbers, k1_numbers, k16_sin_cos, B), A), k8_real_1(2, k32_sin_cos))) ) ) ) ).

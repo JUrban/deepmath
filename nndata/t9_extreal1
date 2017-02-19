@@ -1,14 +1,14 @@
 C fof(t9_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) => k4_extreal1(k2_finseq_4(k7_numbers, A, B))=k3_supinf_2(A, B)) ) ) ) ).
-+ fof(l11_extreal1, axiom,  (! [A] :  (m2_finseq_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) => k4_extreal1(k8_finseq_1(k7_numbers, A, k12_finseq_1(k7_numbers, B)))=k3_supinf_2(k4_extreal1(A), B)) ) ) ) ).
-+ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
 + fof(d9_finseq_1, axiom,  (! [A] :  (! [B] : k10_finseq_1(A, B)=k7_finseq_1(k9_finseq_1(A), k9_finseq_1(B))) ) ).
++ fof(dt_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m2_finseq_1(k12_finseq_1(A, B), A)) ) ).
++ fof(fc5_numbers, axiom,  ~ (v1_xboole_0(k7_numbers)) ).
++ fof(l11_extreal1, axiom,  (! [A] :  (m2_finseq_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) => k4_extreal1(k8_finseq_1(k7_numbers, A, k12_finseq_1(k7_numbers, B)))=k3_supinf_2(k4_extreal1(A), B)) ) ) ) ).
 + fof(redefinition_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k12_finseq_1(A, B)=k5_finseq_1(B)) ) ).
-+ fof(t8_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => k4_extreal1(k12_finseq_1(k7_numbers, A))=A) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 + fof(redefinition_k2_finseq_4, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) & m1_subset_1(C, A)) )  => k2_finseq_4(A, B, C)=k10_finseq_1(B, C)) ) ).
 + fof(redefinition_k8_finseq_1, axiom,  (! [A, B, C] :  ( (m1_finseq_1(B, A) & m1_finseq_1(C, A))  => k8_finseq_1(A, B, C)=k7_finseq_1(B, C)) ) ).
-+ fof(fc5_numbers, axiom,  ~ (v1_xboole_0(k7_numbers)) ).
-+ fof(dt_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m2_finseq_1(k12_finseq_1(A, B), A)) ) ).
++ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(t8_extreal1, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) => k4_extreal1(k12_finseq_1(k7_numbers, A))=A) ) ).
 - fof(d2_extreal1, axiom,  (! [A] :  (m2_finseq_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  (B=k4_extreal1(A) <=>  (? [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k5_numbers, k7_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k7_numbers)))) )  &  (B=k12_supinf_2(C, k3_finseq_1(A)) &  (k12_supinf_2(C, k6_numbers)=k1_supinf_2 &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  ( ~ (r1_xxreal_0(k3_finseq_1(A), D))  => k12_supinf_2(C, k2_nat_1(D, 1))=k3_supinf_2(k12_supinf_2(C, D), k12_supinf_2(A, k2_nat_1(D, 1)))) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t7_extreal1, axiom, k4_extreal1(k6_finseq_1(k7_numbers))=k1_supinf_2).
 - fof(dt_k4_extreal1, axiom,  (! [A] :  (m1_finseq_1(A, k7_numbers) => m1_subset_1(k4_extreal1(A), k7_numbers)) ) ).

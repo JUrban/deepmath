@@ -1,8 +1,8 @@
 C fof(t39_rewrite1, axiom,  (! [A] :  (! [B] :  ( (r5_rewrite1(k1_xboole_0, A, B) | r6_rewrite1(k1_xboole_0, A, B))  => A=B) ) ) ).
-+ fof(t37_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  ( (r5_rewrite1(A, B, C) | r6_rewrite1(A, B, C))  => r2_rewrite1(A, B, C)) ) ) ) ) ).
-+ fof(t27_rewrite1, axiom,  (! [A] :  (! [B] :  (r2_rewrite1(k1_xboole_0, A, B) => A=B) ) ) ).
 + fof(cc1_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_relat_1(A)) ) ).
 + fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(t27_rewrite1, axiom,  (! [A] :  (! [B] :  (r2_rewrite1(k1_xboole_0, A, B) => A=B) ) ) ).
++ fof(t37_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  ( (r5_rewrite1(A, B, C) | r6_rewrite1(A, B, C))  => r2_rewrite1(A, B, C)) ) ) ) ) ).
 - fof(t36_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) =>  (r5_rewrite1(A, B, C) &  (r6_rewrite1(A, B, C) &  (r5_rewrite1(A, C, B) & r6_rewrite1(A, C, B)) ) ) ) ) ) ) ) ).
 - fof(t12_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] : r1_rewrite1(A, B, B)) ) ) ).
 - fof(d8_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r6_rewrite1(A, B, C) <=>  (? [D] :  (r1_rewrite1(A, D, B) & r1_rewrite1(A, D, C)) ) ) ) ) ) ) ).

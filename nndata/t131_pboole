@@ -1,9 +1,9 @@
 C fof(t131_pboole, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) & v1_partfun1(B, A)) ) )  =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) & v1_partfun1(C, A)) ) )  =>  ( (v2_relat_1(B) & r2_pboole(A, B, C))  => v2_relat_1(C)) ) ) ) ) ) ).
-+ fof(t3_xboole_1, axiom,  (! [A] :  (r1_tarski(A, k1_xboole_0) => A=k1_xboole_0) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 + fof(d13_pboole, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) & v1_partfun1(B, A)) ) )  =>  (v2_relat_1(B) <=>  (! [C] :  ~ ( (r2_hidden(C, A) & v1_xboole_0(k1_funct_1(B, C))) ) ) ) ) ) ) ).
 + fof(d2_pboole, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) & v1_partfun1(B, A)) ) )  =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) & v1_partfun1(C, A)) ) )  =>  (r2_pboole(A, B, C) <=>  (! [D] :  (r2_hidden(D, A) => r1_tarski(k1_funct_1(B, D), k1_funct_1(C, D))) ) ) ) ) ) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(t3_xboole_1, axiom,  (! [A] :  (r1_tarski(A, k1_xboole_0) => A=k1_xboole_0) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 - fof(fc10_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v2_relat_1(A) & v1_funct_1(A)) )  => v1_setfam_1(k10_xtuple_0(A))) ) ).
 - fof(d9_funct_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v2_relat_1(A) <=>  (! [B] :  ~ ( (r2_hidden(B, k9_xtuple_0(A)) & v1_xboole_0(k1_funct_1(A, B))) ) ) ) ) ) ).
 - fof(dt_k3_pboole, axiom,  (! [A, B, C] :  ( ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) & v1_partfun1(B, A)) ) )  &  (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) & v1_partfun1(C, A)) ) ) )  =>  (v1_relat_1(k3_pboole(A, B, C)) &  (v4_relat_1(k3_pboole(A, B, C), A) &  (v1_funct_1(k3_pboole(A, B, C)) & v1_partfun1(k3_pboole(A, B, C), A)) ) ) ) ) ).

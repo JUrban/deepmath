@@ -1,14 +1,14 @@
 C fof(t20_exchsort, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => k1_exchsort(A)=k2_ordinal2(k9_xtuple_0(A))) ) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(d4_exchsort, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (v3_ordinal1(B) =>  ( ( (? [C] :  (v3_ordinal1(C) & r2_hidden(C, k9_xtuple_0(A))) )  =>  (B=k1_exchsort(A) <=> v2_exchsort(A, B)) )  &  ( (! [C] :  (v3_ordinal1(C) =>  ~ (r2_hidden(C, k9_xtuple_0(A))) ) )  =>  (B=k1_exchsort(A) <=> B=k1_xboole_0) ) ) ) ) ) ) ).
++ fof(d1_setfam_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (A=k1_xboole_0)  =>  (B=k1_setfam_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (! [D] :  (r2_hidden(D, A) => r2_hidden(C, D)) ) ) ) ) )  &  (A=k1_xboole_0 =>  (B=k1_setfam_1(A) <=> B=k1_xboole_0) ) ) ) ) ).
 + fof(d2_ordinal2, axiom,  (! [A] : k2_ordinal2(A)=k1_setfam_1(k2_ordinal1(A))) ).
-+ fof(rc2_afinsq_1, axiom,  (! [A] :  (? [B] :  (v1_relat_1(B) &  (v5_relat_1(B, A) &  (v5_ordinal1(B) &  (v1_funct_1(B) &  (v1_xboole_0(B) & v1_finset_1(B)) ) ) ) ) ) ) ).
++ fof(d4_exchsort, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (v3_ordinal1(B) =>  ( ( (? [C] :  (v3_ordinal1(C) & r2_hidden(C, k9_xtuple_0(A))) )  =>  (B=k1_exchsort(A) <=> v2_exchsort(A, B)) )  &  ( (! [C] :  (v3_ordinal1(C) =>  ~ (r2_hidden(C, k9_xtuple_0(A))) ) )  =>  (B=k1_exchsort(A) <=> B=k1_xboole_0) ) ) ) ) ) ) ).
 + fof(d9_ordinal1, axiom,  (! [A] :  (! [B] :  (B=k2_ordinal1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (r2_hidden(C, A) & v3_ordinal1(C)) ) ) ) ) ) ).
 + fof(dt_k2_ordinal2, axiom,  (! [A] : v3_ordinal1(k2_ordinal2(A))) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(t12_exchsort, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => v2_exchsort(A, k2_ordinal2(k9_xtuple_0(A)))) ) ).
 + fof(fc9_ordinal6, axiom,  (! [A] :  (v1_xboole_0(A) => v1_xboole_0(k2_ordinal1(A))) ) ).
-+ fof(d1_setfam_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (A=k1_xboole_0)  =>  (B=k1_setfam_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (! [D] :  (r2_hidden(D, A) => r2_hidden(C, D)) ) ) ) ) )  &  (A=k1_xboole_0 =>  (B=k1_setfam_1(A) <=> B=k1_xboole_0) ) ) ) ) ).
++ fof(rc2_afinsq_1, axiom,  (! [A] :  (? [B] :  (v1_relat_1(B) &  (v5_relat_1(B, A) &  (v5_ordinal1(B) &  (v1_funct_1(B) &  (v1_xboole_0(B) & v1_finset_1(B)) ) ) ) ) ) ) ).
++ fof(t12_exchsort, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  => v2_exchsort(A, k2_ordinal2(k9_xtuple_0(A)))) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(t15_exchsort, axiom,  (k1_exchsort(k1_xboole_0)=k1_xboole_0 &  (k2_exchsort(k1_xboole_0)=k1_xboole_0 & k3_exchsort(k1_xboole_0)=k1_xboole_0) ) ).
 - fof(t14_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (r2_hidden(A, B) => r1_ordinal1(k2_ordinal2(B), A)) ) ) ) ).
 - fof(t17_ordinal2, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (r2_hidden(A, B) => r2_hidden(k2_ordinal2(B), B)) ) ) ) ).

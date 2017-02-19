@@ -1,22 +1,22 @@
 C fof(t35_prepower, axiom,  (! [A] :  (v1_xreal_0(A) => k4_prepower(A, 1)=A) ) ).
-+ fof(d3_prepower, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_int_1(B) =>  ( (r1_xxreal_0(k6_numbers, B) => k4_prepower(A, B)=k1_newton(A, k1_int_2(B)))  &  ( ~ (r1_xxreal_0(k6_numbers, B))  => k4_prepower(A, B)=k5_xcmplx_0(k1_newton(A, k1_int_2(B)))) ) ) ) ) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(t47_int_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ (A=k6_numbers)  => k1_int_1(k7_xcmplx_0(A, A))=1) ) ) ).
-+ fof(rqRealDiv__k7_xcmplx_0__r1_r1_r1, axiom, k7_xcmplx_0(1, 1)=1).
-+ fof(redefinition_k1_int_2, axiom,  (! [A] :  (v1_int_1(A) => k1_int_2(A)=k16_complex1(A)) ) ).
 + fof(cc1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(rqRealAdd__k2_xcmplx_0__r1_rm1_r0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=0).
++ fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(d3_prepower, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_int_1(B) =>  ( (r1_xxreal_0(k6_numbers, B) => k4_prepower(A, B)=k1_newton(A, k1_int_2(B)))  &  ( ~ (r1_xxreal_0(k6_numbers, B))  => k4_prepower(A, B)=k5_xcmplx_0(k1_newton(A, k1_int_2(B)))) ) ) ) ) ) ).
++ fof(d4_complex1, axiom, k6_complex1=1).
 + fof(dt_k1_int_1, axiom,  (! [A] :  (v1_xreal_0(A) => v1_int_1(k1_int_1(A))) ) ).
-+ fof(t5_newton, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_newton(A, 1)=A) ) ).
++ fof(dt_k6_complex1, axiom, m1_subset_1(k6_complex1, k2_numbers)).
 + fof(fc5_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (v1_xreal_0(k16_complex1(A)) &  ~ (v3_xxreal_0(k16_complex1(A))) ) ) ) ).
 + fof(l13_xreal_0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=k6_numbers).
-+ fof(dt_k6_complex1, axiom, m1_subset_1(k6_complex1, k2_numbers)).
-+ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r0_r1, axiom, r1_xxreal_0(0, 1)).
-+ fof(t48_complex1, axiom, k17_complex1(k6_complex1)=1).
-+ fof(cc3_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(d4_complex1, axiom, k6_complex1=1).
 + fof(redefinition_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k17_complex1(A)=k16_complex1(A)) ) ).
++ fof(redefinition_k1_int_2, axiom,  (! [A] :  (v1_int_1(A) => k1_int_2(A)=k16_complex1(A)) ) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r0_r1, axiom, r1_xxreal_0(0, 1)).
++ fof(rqRealAdd__k2_xcmplx_0__r1_rm1_r0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=0).
++ fof(rqRealDiv__k7_xcmplx_0__r1_r1_r1, axiom, k7_xcmplx_0(1, 1)=1).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t47_int_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ (A=k6_numbers)  => k1_int_1(k7_xcmplx_0(A, A))=1) ) ) ).
++ fof(t48_complex1, axiom, k17_complex1(k6_complex1)=1).
++ fof(t5_newton, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_newton(A, 1)=A) ) ).
 - fof(t34_prepower, axiom,  (! [A] :  (v1_xreal_0(A) => k4_prepower(A, k6_numbers)=1) ) ).
 - fof(redefinition_k5_prepower, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_int_1(B))  => k5_prepower(A, B)=k4_prepower(A, B)) ) ).
 - fof(fc2_prepower, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_int_1(B))  => v1_xreal_0(k4_prepower(A, B))) ) ).

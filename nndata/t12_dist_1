@@ -1,18 +1,18 @@
 C fof(t12_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m2_finseq_1(B, A) => k1_funct_1(k7_dist_1(A), k5_dist_1(A, B))=k4_dist_1(A, B)) ) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(d5_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m2_finseq_1(B, A) => k5_dist_1(A, B)=a_2_0_dist_1(A, B)) ) ) ) ).
++ fof(d6_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(k3_finseq_2(A)))) =>  (B=k6_dist_1(A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k3_finseq_2(A))) =>  (r2_hidden(C, B) <=>  (? [D] :  (m2_finseq_1(D, A) & C=k5_dist_1(A, D)) ) ) ) ) ) ) ) ) ) ).
 + fof(d7_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k6_dist_1(A), k3_finseq_2(k1_numbers)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k6_dist_1(A), k3_finseq_2(k1_numbers))))) )  =>  (B=k7_dist_1(A) <=>  (! [C] :  (m2_subset_1(C, k1_zfmisc_1(k3_finseq_2(A)), k6_dist_1(A)) =>  (? [D] :  (m2_finseq_1(D, A) &  (r2_hidden(D, C) & k3_funct_2(k6_dist_1(A), k3_finseq_2(k1_numbers), B, C)=k4_dist_1(A, D)) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k5_dist_1, axiom,  (! [A, B] :  ( (v1_finset_1(A) & m1_finseq_1(B, A))  => m1_subset_1(k5_dist_1(A, B), k1_zfmisc_1(k3_finseq_2(A)))) ) ).
++ fof(dt_k6_dist_1, axiom,  (! [A] :  (v1_finset_1(A) => m1_subset_1(k6_dist_1(A), k1_zfmisc_1(k1_zfmisc_1(k3_finseq_2(A))))) ) ).
++ fof(dt_k7_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (v1_funct_1(k7_dist_1(A)) &  (v1_funct_2(k7_dist_1(A), k6_dist_1(A), k3_finseq_2(k1_numbers)) & m1_subset_1(k7_dist_1(A), k1_zfmisc_1(k2_zfmisc_1(k6_dist_1(A), k3_finseq_2(k1_numbers))))) ) ) ) ).
++ fof(fc2_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  ~ (v1_xboole_0(k6_dist_1(A))) ) ) ).
++ fof(fraenkel_a_2_0_dist_1, axiom,  (! [A, B, C] :  ( (v1_finset_1(B) & m2_finseq_1(C, B))  =>  (r2_hidden(A, a_2_0_dist_1(B, C)) <=>  (? [D] :  (m2_finseq_1(D, B) &  (A=D & r1_dist_1(B, C, D)) ) ) ) ) ) ).
++ fof(redefinition_k3_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) )  => k3_funct_2(A, B, C, D)=k1_funct_1(C, D)) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 + fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(t10_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m2_finseq_1(B, A) =>  (! [C] :  (m2_finseq_1(C, A) =>  (r1_dist_1(A, B, C) <=> k4_dist_1(A, B)=k4_dist_1(A, C)) ) ) ) ) ) ) ).
-+ fof(d6_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(k3_finseq_2(A)))) =>  (B=k6_dist_1(A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k3_finseq_2(A))) =>  (r2_hidden(C, B) <=>  (? [D] :  (m2_finseq_1(D, A) & C=k5_dist_1(A, D)) ) ) ) ) ) ) ) ) ) ).
-+ fof(fraenkel_a_2_0_dist_1, axiom,  (! [A, B, C] :  ( (v1_finset_1(B) & m2_finseq_1(C, B))  =>  (r2_hidden(A, a_2_0_dist_1(B, C)) <=>  (? [D] :  (m2_finseq_1(D, B) &  (A=D & r1_dist_1(B, C, D)) ) ) ) ) ) ).
-+ fof(fc2_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  ~ (v1_xboole_0(k6_dist_1(A))) ) ) ).
-+ fof(dt_k5_dist_1, axiom,  (! [A, B] :  ( (v1_finset_1(A) & m1_finseq_1(B, A))  => m1_subset_1(k5_dist_1(A, B), k1_zfmisc_1(k3_finseq_2(A)))) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(d5_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m2_finseq_1(B, A) => k5_dist_1(A, B)=a_2_0_dist_1(A, B)) ) ) ) ).
-+ fof(dt_k7_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (v1_funct_1(k7_dist_1(A)) &  (v1_funct_2(k7_dist_1(A), k6_dist_1(A), k3_finseq_2(k1_numbers)) & m1_subset_1(k7_dist_1(A), k1_zfmisc_1(k2_zfmisc_1(k6_dist_1(A), k3_finseq_2(k1_numbers))))) ) ) ) ).
 + fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(dt_k6_dist_1, axiom,  (! [A] :  (v1_finset_1(A) => m1_subset_1(k6_dist_1(A), k1_zfmisc_1(k1_zfmisc_1(k3_finseq_2(A))))) ) ).
-+ fof(redefinition_k3_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) )  => k3_funct_2(A, B, C, D)=k1_funct_1(C, D)) ) ).
 - fof(t7_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m2_finseq_1(B, A) =>  (! [C] :  (m2_finseq_1(C, A) =>  (r1_dist_1(A, B, C) <=> r2_hidden(C, k5_dist_1(A, B))) ) ) ) ) ) ) ).
 - fof(t11_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m2_finseq_1(B, A) =>  (! [C] :  (m2_finseq_1(C, A) =>  (r2_hidden(C, k5_dist_1(A, B)) => k4_dist_1(A, B)=k4_dist_1(A, C)) ) ) ) ) ) ) ).
 - fof(d3_dist_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (! [B] :  (m2_finseq_1(B, A) =>  (! [C] :  (m2_finseq_1(C, k1_numbers) =>  (C=k4_dist_1(A, B) <=>  (k4_finseq_1(C)=k2_finseq_1(k5_card_1(A)) &  (! [D] :  (v7_ordinal1(D) =>  (r2_hidden(D, k4_finseq_1(C)) => k1_funct_1(C, D)=k3_dist_1(A, B, k1_funct_1(k1_uproots(A), D))) ) ) ) ) ) ) ) ) ) ) ).

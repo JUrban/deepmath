@@ -1,12 +1,12 @@
 C fof(t12_quatern3, axiom,  (! [A] :  (v1_quaterni(A) => k5_square_1(k3_quatern2(A))=k3_quatern2(k27_quaterni(A, k31_quaterni(A)))) ) ).
-+ fof(t89_quaterni, axiom,  (! [A] :  (v1_quaterni(A) => k32_quaterni(k27_quaterni(A, A))=k32_quaterni(k27_quaterni(A, k31_quaterni(A)))) ) ).
-+ fof(d11_quatern2, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) => k18_quatern2(A, B)=k27_quaterni(A, k31_quaterni(B))) ) ) ) ).
-+ fof(t49_quatern2, axiom,  (! [A] :  (v1_quaterni(A) => k18_quatern2(A, A)=k5_square_1(k3_quatern2(A))) ) ).
 + fof(cc1_quaterni, axiom,  (! [A] :  (m1_subset_1(A, k1_quaterni) => v1_quaterni(A)) ) ).
++ fof(d11_quatern2, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) => k18_quatern2(A, B)=k27_quaterni(A, k31_quaterni(B))) ) ) ) ).
 + fof(dt_k18_quatern2, axiom,  (! [A, B] :  ( (v1_quaterni(A) & v1_quaterni(B))  => m1_subset_1(k18_quatern2(A, B), k1_quaterni)) ) ).
-+ fof(t11_quatern3, axiom,  (! [A] :  (v1_quaterni(A) => k5_square_1(k3_quatern2(A))=k7_real_1(k7_real_1(k7_real_1(k5_square_1(k17_quaterni(A)), k5_square_1(k18_quaterni(A))), k5_square_1(k19_quaterni(A))), k5_square_1(k20_quaterni(A)))) ) ).
 + fof(redefinition_k3_quatern2, axiom,  (! [A] :  (v1_quaterni(A) => k3_quatern2(A)=k32_quaterni(A)) ) ).
++ fof(t11_quatern3, axiom,  (! [A] :  (v1_quaterni(A) => k5_square_1(k3_quatern2(A))=k7_real_1(k7_real_1(k7_real_1(k5_square_1(k17_quaterni(A)), k5_square_1(k18_quaterni(A))), k5_square_1(k19_quaterni(A))), k5_square_1(k20_quaterni(A)))) ) ).
++ fof(t49_quatern2, axiom,  (! [A] :  (v1_quaterni(A) => k18_quatern2(A, A)=k5_square_1(k3_quatern2(A))) ) ).
 + fof(t88_quaterni, axiom,  (! [A] :  (v1_quaterni(A) => k32_quaterni(k27_quaterni(A, A))=k7_real_1(k7_real_1(k7_real_1(k5_square_1(k17_quaterni(A)), k5_square_1(k18_quaterni(A))), k5_square_1(k19_quaterni(A))), k5_square_1(k20_quaterni(A)))) ) ).
++ fof(t89_quaterni, axiom,  (! [A] :  (v1_quaterni(A) => k32_quaterni(k27_quaterni(A, A))=k32_quaterni(k27_quaterni(A, k31_quaterni(A)))) ) ).
 - fof(t60_quaterni, axiom,  (! [A] :  (v1_quaterni(A) =>  (k17_quaterni(k27_quaterni(A, k31_quaterni(A)))=k7_real_1(k7_real_1(k7_real_1(k5_square_1(k17_quaterni(A)), k5_square_1(k18_quaterni(A))), k5_square_1(k19_quaterni(A))), k5_square_1(k20_quaterni(A))) &  (k18_quaterni(k27_quaterni(A, k31_quaterni(A)))=k6_numbers &  (k19_quaterni(k27_quaterni(A, k31_quaterni(A)))=k6_numbers & k20_quaterni(k27_quaterni(A, k31_quaterni(A)))=k6_numbers) ) ) ) ) ).
 - fof(t50_quatern2, axiom,  (! [A] :  (v1_quaterni(A) =>  (k17_quaterni(k18_quatern2(A, A))=k5_square_1(k3_quatern2(A)) &  (k18_quaterni(k18_quatern2(A, A))=k6_numbers &  (k19_quaterni(k18_quatern2(A, A))=k6_numbers & k19_quaterni(k18_quatern2(A, A))=k6_numbers) ) ) ) ) ).
 - fof(t57_quaterni, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) =>  (k31_quaterni(k27_quaterni(A, B))=k27_quaterni(k31_quaterni(A), k31_quaterni(B)) => k8_real_1(k19_quaterni(A), k20_quaterni(B))=k8_real_1(k20_quaterni(A), k19_quaterni(B))) ) ) ) ) ).

@@ -1,12 +1,12 @@
 C fof(l8_sin_cos7, axiom,  (! [A] :  (v1_xreal_0(A) =>  (r1_xxreal_0(1, A) => r1_xxreal_0(k6_numbers, k10_binop_2(k3_square_1(A), 1))) ) ) ).
-+ fof(l48_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, B) => r1_xxreal_0(k6_numbers, k6_xcmplx_0(B, A))) ) ) ) ) ).
-+ fof(rqRealAdd__k2_xcmplx_0__r1_rm1_r0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=0).
-+ fof(l13_xreal_0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=k6_numbers).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(fc2_square_1, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xreal_0(k3_square_1(A))) ) ).
++ fof(l13_xreal_0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=k6_numbers).
++ fof(l48_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (r1_xxreal_0(A, B) => r1_xxreal_0(k6_numbers, k6_xcmplx_0(B, A))) ) ) ) ) ).
++ fof(redefinition_k10_binop_2, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k10_binop_2(A, B)=k6_xcmplx_0(A, B)) ) ).
++ fof(rqRealAdd__k2_xcmplx_0__r1_rm1_r0, axiom, k2_xcmplx_0(1, k4_xcmplx_0(1))=0).
 + fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
 + fof(t52_square_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ (r1_xxreal_0(1, k3_square_1(A)))  =>  ( ~ (r1_xxreal_0(A, k4_xcmplx_0(1)))  &  ~ (r1_xxreal_0(1, A)) ) ) ) ) ).
-+ fof(redefinition_k10_binop_2, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k10_binop_2(A, B)=k6_xcmplx_0(A, B)) ) ).
-+ fof(fc2_square_1, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xreal_0(k3_square_1(A))) ) ).
 - fof(t2_sin_cos7, axiom,  (! [A] :  (v1_xreal_0(A) =>  ~ ( ( ~ (r1_xxreal_0(A, 1))  & r1_xxreal_0(1, k5_square_1(k12_binop_2(k7_square_1(k10_binop_2(k3_square_1(A), 1)), A)))) ) ) ) ).
 - fof(t5_seq_4, axiom,  (! [A] :  (v3_membered(A) =>  ~ ( ( ~ (v1_xboole_0(A))  &  (v4_xxreal_2(A) &  (! [B] :  (v1_xreal_0(B) =>  ~ ( ( (! [C] :  (v1_xreal_0(C) =>  (r2_hidden(C, A) => r1_xxreal_0(C, B)) ) )  &  (! [C] :  (v1_xreal_0(C) =>  ~ ( ( ~ (r1_xxreal_0(C, k6_numbers))  &  (! [D] :  (v1_xreal_0(D) =>  ~ ( (r2_hidden(D, A) &  ~ (r1_xxreal_0(D, k10_binop_2(B, C))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t6_seq_4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v3_membered(C) =>  ( ( (! [D] :  (v1_xreal_0(D) =>  (r2_hidden(D, C) => r1_xxreal_0(D, A)) ) )  &  ( (! [D] :  (v1_xreal_0(D) =>  ~ ( ( ~ (r1_xxreal_0(D, k6_numbers))  &  (! [E] :  (v1_xreal_0(E) =>  ~ ( (r2_hidden(E, C) &  ~ (r1_xxreal_0(E, k10_binop_2(A, D))) ) ) ) ) ) ) ) )  &  ( (! [D] :  (v1_xreal_0(D) =>  (r2_hidden(D, C) => r1_xxreal_0(D, B)) ) )  &  (! [D] :  (v1_xreal_0(D) =>  ~ ( ( ~ (r1_xxreal_0(D, k6_numbers))  &  (! [E] :  (v1_xreal_0(E) =>  ~ ( (r2_hidden(E, C) &  ~ (r1_xxreal_0(E, k10_binop_2(B, D))) ) ) ) ) ) ) ) ) ) ) )  => A=B) ) ) ) ) ) ) ).

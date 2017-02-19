@@ -1,6 +1,6 @@
 C fof(t1_coh_sp, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) )  => r2_hidden(k1_xboole_0, A)) ) ).
-+ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
 + fof(d1_classes1, axiom,  (! [A] :  (v1_classes1(A) <=>  (! [B] :  (! [C] :  ( (r2_hidden(B, A) & r1_tarski(C, B))  => r2_hidden(C, A)) ) ) ) ) ).
++ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
 + fof(t2_xboole_1, axiom,  (! [A] : r1_tarski(k1_xboole_0, A)) ).
 - fof(rc1_coh_sp, axiom,  (? [A] :  ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v1_coh_sp(A)) ) ) ).
 - fof(d1_coh_sp, axiom,  (! [A] :  (v1_coh_sp(A) <=>  (! [B] :  ( (r1_tarski(B, A) &  (! [C] :  (! [D] :  ( (r2_hidden(C, B) & r2_hidden(D, B))  => r2_hidden(k2_xboole_0(C, D), A)) ) ) )  => r2_hidden(k3_tarski(B), A)) ) ) ) ).

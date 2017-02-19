@@ -1,18 +1,18 @@
 C fof(t44_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) => k4_rcomp_1(k2_xxreal_0, A)=k4_subset_1(k1_numbers, k1_seq_4(A), k2_rcomp_1(k2_xxreal_0, A))) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
-+ fof(redefinition_k2_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k2_rcomp_1(A, B)=k4_xxreal_1(A, B)) ) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(dt_k2_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => m1_subset_1(k2_rcomp_1(A, B), k1_zfmisc_1(k1_numbers))) ) ).
-+ fof(redefinition_k1_seq_4, axiom,  (! [A] :  (v1_xreal_0(A) => k1_seq_4(A)=k1_tarski(A)) ) ).
-+ fof(commutativity_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k4_subset_1(A, C, B)) ) ).
-+ fof(redefinition_k4_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xreal_0(B))  => k4_rcomp_1(A, B)=k3_xxreal_1(A, B)) ) ).
-+ fof(dt_k1_seq_4, axiom,  (! [A] :  (v1_xreal_0(A) => m1_subset_1(k1_seq_4(A), k1_zfmisc_1(k1_numbers))) ) ).
-+ fof(t423_xxreal_1, axiom,  (! [A] :  (v1_xreal_0(A) => k3_xxreal_1(k2_xxreal_0, A)=k2_xboole_0(k4_xxreal_1(k2_xxreal_0, A), k1_tarski(A))) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(fc2_xxreal_0, axiom, v1_xxreal_0(k2_xxreal_0)).
-+ fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
 + fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(commutativity_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k4_subset_1(A, C, B)) ) ).
++ fof(dt_k1_seq_4, axiom,  (! [A] :  (v1_xreal_0(A) => m1_subset_1(k1_seq_4(A), k1_zfmisc_1(k1_numbers))) ) ).
++ fof(dt_k2_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => m1_subset_1(k2_rcomp_1(A, B), k1_zfmisc_1(k1_numbers))) ) ).
++ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
++ fof(fc2_xxreal_0, axiom, v1_xxreal_0(k2_xxreal_0)).
++ fof(redefinition_k1_seq_4, axiom,  (! [A] :  (v1_xreal_0(A) => k1_seq_4(A)=k1_tarski(A)) ) ).
++ fof(redefinition_k2_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => k2_rcomp_1(A, B)=k4_xxreal_1(A, B)) ) ).
++ fof(redefinition_k4_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xreal_0(B))  => k4_rcomp_1(A, B)=k3_xxreal_1(A, B)) ) ).
++ fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t423_xxreal_1, axiom,  (! [A] :  (v1_xreal_0(A) => k3_xxreal_1(k2_xxreal_0, A)=k2_xboole_0(k4_xxreal_1(k2_xxreal_0, A), k1_tarski(A))) ) ).
 - fof(l46_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) => v2_rcomp_1(k4_rcomp_1(k2_xxreal_0, A))) ) ).
 - fof(t17_topmetr, axiom, u1_struct_0(k3_topmetr)=k1_numbers).
 - fof(t12_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  ( (r1_xxreal_0(A, C) & r1_xxreal_0(C, B))  => k4_subset_1(k1_numbers, k4_rcomp_1(k2_xxreal_0, C), k1_rcomp_1(A, B))=k4_rcomp_1(k2_xxreal_0, B)) ) ) ) ) ) ) ).

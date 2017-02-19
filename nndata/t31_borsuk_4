@@ -1,14 +1,14 @@
 C fof(t31_borsuk_4, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v2_connsp_1(A, k5_topmetr) &  (v2_compts_1(A, k5_topmetr) & m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k5_topmetr)))) ) )  =>  (? [B] :  (m1_subset_1(B, u1_struct_0(k5_topmetr)) &  (? [C] :  (m1_subset_1(C, u1_struct_0(k5_topmetr)) &  (r1_xxreal_0(B, C) & A=k1_rcomp_1(B, C)) ) ) ) ) ) ) ).
-+ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
++ fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
 + fof(d3_measure5, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (v2_measure5(A) <=>  (? [B] :  (v1_xreal_0(B) &  (? [C] :  (v1_xreal_0(C) & A=k1_rcomp_1(B, C)) ) ) ) ) ) ) ).
-+ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(fc3_membered, axiom, v3_membered(k1_numbers)).
 + fof(redefinition_k1_rcomp_1, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => k1_rcomp_1(A, B)=k1_xxreal_1(A, B)) ) ).
 + fof(redefinition_k5_topmetr, axiom, k5_topmetr=k17_borsuk_1).
-+ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
 + fof(t14_measure5, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  ( ( ~ (v1_xboole_0(A))  & v2_measure5(A))  <=>  (? [B] :  (m1_subset_1(B, k1_numbers) &  (? [C] :  (m1_subset_1(C, k1_numbers) &  (r1_xxreal_0(B, C) & A=k1_rcomp_1(B, C)) ) ) ) ) ) ) ) ).
 + fof(t1_xxreal_1, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (r2_hidden(A, k1_xxreal_1(B, C)) <=>  (r1_xxreal_0(B, A) & r1_xxreal_0(A, C)) ) ) ) ) ) ) ) ).
 + fof(t30_borsuk_4, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v2_connsp_1(A, k5_topmetr) &  (v2_compts_1(A, k5_topmetr) & m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k5_topmetr)))) ) )  =>  ( ~ (v1_xboole_0(A))  &  (v2_measure5(A) & m1_subset_1(A, k1_zfmisc_1(k1_numbers))) ) ) ) ).
-+ fof(cc14_membered, axiom,  (! [A] :  (v3_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xreal_0(B)) ) ) ) ).
 + fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 - fof(t29_borsuk_4, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  &  (v2_connsp_1(A, k5_topmetr) &  (v2_compts_1(A, k5_topmetr) & m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k5_topmetr)))) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_numbers)) =>  ( (A=B & r1_tarski(k1_rcomp_1(k5_seq_4(B), k4_seq_4(B)), B))  => k1_rcomp_1(k5_seq_4(B), k4_seq_4(B))=B) ) ) ) ) ).
 - fof(t24_borsuk_4, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k5_topmetr)) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k5_topmetr)) =>  (r1_xxreal_0(A, B) =>  ( ~ (v1_xboole_0(k1_rcomp_1(A, B)))  &  (v2_connsp_1(k1_rcomp_1(A, B), k5_topmetr) &  (v2_compts_1(k1_rcomp_1(A, B), k5_topmetr) & m1_subset_1(k1_rcomp_1(A, B), k1_zfmisc_1(u1_struct_0(k5_topmetr)))) ) ) ) ) ) ) ) ).

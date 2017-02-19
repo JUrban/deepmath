@@ -1,28 +1,28 @@
 C fof(t16_sin_cos3, axiom,  (! [A] :  (v1_xcmplx_0(A) => k10_funct_2(k2_numbers, k2_numbers, k2_sin_cos3, k5_binop_2(k7_complex1, A))=k10_funct_2(k2_numbers, k2_numbers, k4_sin_cos3, A)) ) ).
-+ fof(redefinition_k7_complex1, axiom, k7_complex1=k1_xcmplx_0).
-+ fof(spc2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k4_xcmplx_0(1))=k4_xcmplx_0(A)) ) ).
-+ fof(dt_k5_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => m1_subset_1(k5_binop_2(A, B), k2_numbers)) ) ).
-+ fof(redefinition_k10_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ) )  => k10_funct_2(A, B, C, D)=k7_partfun1(B, C, D)) ) ).
-+ fof(redefinition_k5_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k5_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
-+ fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
-+ fof(d4_sin_cos3, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers)))) )  =>  (A=k4_sin_cos3 <=>  (! [B] :  (m1_subset_1(B, k2_numbers) => k3_funct_2(k2_numbers, k2_numbers, A, B)=k6_binop_2(k3_binop_2(k15_sin_cos(B), k15_sin_cos(k1_binop_2(B))), 2)) ) ) ) ) ).
-+ fof(fc1_xcmplx_0, axiom, v1_xcmplx_0(k1_xcmplx_0)).
-+ fof(fc2_numbers, axiom,  ~ (v1_xboole_0(k2_numbers)) ).
-+ fof(rqRealMult__k3_xcmplx_0__cr1r0_cr1r0_rm1, axiom, k3_xcmplx_0(k1_xcmplx_0, k1_xcmplx_0)=k4_xcmplx_0(1)).
-+ fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
-+ fof(ie1_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) ) )  => k7_partfun1(B, C, D)=k3_funct_2(A, B, C, D)) ) ).
-+ fof(fc3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => v1_xcmplx_0(k3_xcmplx_0(A, B))) ) ).
-+ fof(d2_sin_cos3, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers)))) )  =>  (A=k2_sin_cos3 <=>  (! [B] :  (m1_subset_1(B, k2_numbers) => k3_funct_2(k2_numbers, k2_numbers, A, B)=k6_binop_2(k3_binop_2(k15_sin_cos(k5_binop_2(k7_complex1, B)), k15_sin_cos(k1_binop_2(k5_binop_2(k7_complex1, B)))), 2)) ) ) ) ) ).
 + fof(commutativity_k3_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_binop_2(A, B)=k3_binop_2(B, A)) ) ).
-+ fof(redefinition_k15_sin_cos, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_sin_cos(A)=k14_sin_cos(A)) ) ).
-+ fof(dt_k2_sin_cos3, axiom,  (v1_funct_1(k2_sin_cos3) &  (v1_funct_2(k2_sin_cos3, k2_numbers, k2_numbers) & m1_subset_1(k2_sin_cos3, k1_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers)))) ) ).
-+ fof(involutiveness_k1_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_binop_2(k1_binop_2(A))=A) ) ).
-+ fof(spc7_arithm, axiom,  (! [A, B, C] :  ( (v1_xcmplx_0(A) &  (v1_xcmplx_0(B) & v1_xcmplx_0(C)) )  => k3_xcmplx_0(k3_xcmplx_0(A, B), C)=k3_xcmplx_0(A, k3_xcmplx_0(B, C))) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
++ fof(d2_sin_cos3, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers)))) )  =>  (A=k2_sin_cos3 <=>  (! [B] :  (m1_subset_1(B, k2_numbers) => k3_funct_2(k2_numbers, k2_numbers, A, B)=k6_binop_2(k3_binop_2(k15_sin_cos(k5_binop_2(k7_complex1, B)), k15_sin_cos(k1_binop_2(k5_binop_2(k7_complex1, B)))), 2)) ) ) ) ) ).
++ fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
++ fof(d4_sin_cos3, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_numbers, k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers)))) )  =>  (A=k4_sin_cos3 <=>  (! [B] :  (m1_subset_1(B, k2_numbers) => k3_funct_2(k2_numbers, k2_numbers, A, B)=k6_binop_2(k3_binop_2(k15_sin_cos(B), k15_sin_cos(k1_binop_2(B))), 2)) ) ) ) ) ).
 + fof(dt_k14_sin_cos, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k14_sin_cos(A))) ) ).
-+ fof(redefinition_k1_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_binop_2(A)=k4_xcmplx_0(A)) ) ).
++ fof(dt_k2_sin_cos3, axiom,  (v1_funct_1(k2_sin_cos3) &  (v1_funct_2(k2_sin_cos3, k2_numbers, k2_numbers) & m1_subset_1(k2_sin_cos3, k1_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers)))) ) ).
 + fof(dt_k4_sin_cos3, axiom,  (v1_funct_1(k4_sin_cos3) &  (v1_funct_2(k4_sin_cos3, k2_numbers, k2_numbers) & m1_subset_1(k4_sin_cos3, k1_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers)))) ) ).
 + fof(dt_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k4_xcmplx_0(A))) ) ).
++ fof(dt_k5_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => m1_subset_1(k5_binop_2(A, B), k2_numbers)) ) ).
++ fof(fc1_xcmplx_0, axiom, v1_xcmplx_0(k1_xcmplx_0)).
++ fof(fc2_numbers, axiom,  ~ (v1_xboole_0(k2_numbers)) ).
++ fof(fc3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => v1_xcmplx_0(k3_xcmplx_0(A, B))) ) ).
++ fof(ie1_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) ) )  => k7_partfun1(B, C, D)=k3_funct_2(A, B, C, D)) ) ).
++ fof(involutiveness_k1_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_binop_2(k1_binop_2(A))=A) ) ).
++ fof(redefinition_k10_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ) )  => k10_funct_2(A, B, C, D)=k7_partfun1(B, C, D)) ) ).
++ fof(redefinition_k15_sin_cos, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_sin_cos(A)=k14_sin_cos(A)) ) ).
++ fof(redefinition_k1_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_binop_2(A)=k4_xcmplx_0(A)) ) ).
++ fof(redefinition_k5_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k5_binop_2(A, B)=k3_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k7_complex1, axiom, k7_complex1=k1_xcmplx_0).
++ fof(rqRealMult__k3_xcmplx_0__cr1r0_cr1r0_rm1, axiom, k3_xcmplx_0(k1_xcmplx_0, k1_xcmplx_0)=k4_xcmplx_0(1)).
++ fof(spc2_arithm, axiom,  (! [A] :  (v1_xcmplx_0(A) => k3_xcmplx_0(A, k4_xcmplx_0(1))=k4_xcmplx_0(A)) ) ).
++ fof(spc7_arithm, axiom,  (! [A, B, C] :  ( (v1_xcmplx_0(A) &  (v1_xcmplx_0(B) & v1_xcmplx_0(C)) )  => k3_xcmplx_0(k3_xcmplx_0(A, B), C)=k3_xcmplx_0(A, k3_xcmplx_0(B, C))) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 - fof(t15_sin_cos3, axiom,  (! [A] :  (v1_xcmplx_0(A) => k10_funct_2(k2_numbers, k2_numbers, k1_sin_cos3, k5_binop_2(k7_complex1, A))=k5_binop_2(k7_complex1, k10_funct_2(k2_numbers, k2_numbers, k3_sin_cos3, A))) ) ).
 - fof(t6_sin_cos3, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k10_funct_2(k2_numbers, k2_numbers, k2_sin_cos3, k3_binop_2(A, B))=k4_binop_2(k5_binop_2(k10_funct_2(k2_numbers, k2_numbers, k2_sin_cos3, A), k10_funct_2(k2_numbers, k2_numbers, k2_sin_cos3, B)), k5_binop_2(k10_funct_2(k2_numbers, k2_numbers, k1_sin_cos3, A), k10_funct_2(k2_numbers, k2_numbers, k1_sin_cos3, B)))) ) ) ) ).
 - fof(t4_sin_cos3, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k10_funct_2(k2_numbers, k2_numbers, k1_sin_cos3, k3_binop_2(A, B))=k3_binop_2(k5_binop_2(k10_funct_2(k2_numbers, k2_numbers, k1_sin_cos3, A), k10_funct_2(k2_numbers, k2_numbers, k2_sin_cos3, B)), k5_binop_2(k10_funct_2(k2_numbers, k2_numbers, k2_sin_cos3, A), k10_funct_2(k2_numbers, k2_numbers, k1_sin_cos3, B)))) ) ) ) ).

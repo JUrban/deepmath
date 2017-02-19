@@ -1,14 +1,14 @@
 C fof(t82_cohsp_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k3_xboole_0(k14_cohsp_1(A, B), k14_cohsp_1(C, D))=k14_cohsp_1(k3_xboole_0(A, C), k3_xboole_0(B, D))) ) ) ) ).
-+ fof(t73_cohsp_1, axiom,  (! [A] :  (! [B] : k14_cohsp_1(A, B)=k2_xboole_0(k2_zfmisc_1(A, k1_tarski(1)), k2_zfmisc_1(B, k1_tarski(2)))) ) ).
-+ fof(t23_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k3_xboole_0(A, k2_xboole_0(B, C))=k2_xboole_0(k3_xboole_0(A, B), k3_xboole_0(A, C))) ) ) ).
++ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
 + fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
-+ fof(t99_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (k2_zfmisc_1(k3_xboole_0(A, B), C)=k3_xboole_0(k2_zfmisc_1(A, C), k2_zfmisc_1(B, C)) & k2_zfmisc_1(C, k3_xboole_0(A, B))=k3_xboole_0(k2_zfmisc_1(C, A), k2_zfmisc_1(C, B))) ) ) ) ).
-+ fof(t104_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (r1_xboole_0(A, B) | r1_xboole_0(C, D))  => r1_xboole_0(k2_zfmisc_1(A, C), k2_zfmisc_1(B, D))) ) ) ) ) ).
 + fof(d22_cohsp_1, axiom,  (! [A] :  (! [B] : k14_cohsp_1(A, B)=k3_card_3(k2_card_3(k10_finseq_1(A, B)))) ) ).
 + fof(d7_xboole_0, axiom,  (! [A] :  (! [B] :  (r1_xboole_0(A, B) <=> k3_xboole_0(A, B)=k1_xboole_0) ) ) ).
++ fof(t104_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  ( (r1_xboole_0(A, B) | r1_xboole_0(C, D))  => r1_xboole_0(k2_zfmisc_1(A, C), k2_zfmisc_1(B, D))) ) ) ) ) ).
 + fof(t11_zfmisc_1, axiom,  (! [A] :  (! [B] :  ( ~ (A=B)  => r1_xboole_0(k1_tarski(A), k1_tarski(B))) ) ) ).
 + fof(t1_boole, axiom,  (! [A] : k2_xboole_0(A, k1_xboole_0)=A) ).
-+ fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
++ fof(t23_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] : k3_xboole_0(A, k2_xboole_0(B, C))=k2_xboole_0(k3_xboole_0(A, B), k3_xboole_0(A, C))) ) ) ).
++ fof(t73_cohsp_1, axiom,  (! [A] :  (! [B] : k14_cohsp_1(A, B)=k2_xboole_0(k2_zfmisc_1(A, k1_tarski(1)), k2_zfmisc_1(B, k1_tarski(2)))) ) ).
++ fof(t99_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (k2_zfmisc_1(k3_xboole_0(A, B), C)=k3_xboole_0(k2_zfmisc_1(A, C), k2_zfmisc_1(B, C)) & k2_zfmisc_1(C, k3_xboole_0(A, B))=k3_xboole_0(k2_zfmisc_1(C, A), k2_zfmisc_1(C, B))) ) ) ) ).
 - fof(t78_cohsp_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r1_tarski(k14_cohsp_1(A, B), k14_cohsp_1(C, D)) <=>  (r1_tarski(A, C) & r1_tarski(B, D)) ) ) ) ) ) ).
 - fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
 - fof(t81_cohsp_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k2_xboole_0(k14_cohsp_1(A, B), k14_cohsp_1(C, D))=k14_cohsp_1(k2_xboole_0(A, C), k2_xboole_0(B, D))) ) ) ) ).

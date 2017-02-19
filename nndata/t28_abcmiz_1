@@ -1,13 +1,13 @@
 C fof(t28_abcmiz_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k2_abcmiz_1) => r2_hidden(k4_tarski(k4_subset_1(k2_abcmiz_1, k3_abcmiz_1(B), k6_domain_1(k2_abcmiz_1, B)), A), k2_abcmiz_1)) ) ) ) ).
-+ fof(t27_abcmiz_1, axiom,  (! [A] :  (m1_subset_1(A, k2_abcmiz_1) => k1_abcmiz_1(k6_domain_1(k2_abcmiz_1, A))=k4_subset_1(k2_abcmiz_1, k3_abcmiz_1(A), k6_domain_1(k2_abcmiz_1, A))) ) ).
-+ fof(t17_abcmiz_1, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_abcmiz_1)))  =>  (! [B] :  (v7_ordinal1(B) => r2_hidden(k4_tarski(k1_abcmiz_1(A), B), k2_abcmiz_1)) ) ) ) ).
-+ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
-+ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
-+ fof(t18_abcmiz_1, axiom, k2_abcmiz_1=a_0_1_abcmiz_1).
-+ fof(fc2_abcmiz_1, axiom,  ~ (v1_xboole_0(k2_abcmiz_1)) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
 + fof(dt_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m1_subset_1(k6_domain_1(A, B), k1_zfmisc_1(A))) ) ).
++ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
++ fof(fc2_abcmiz_1, axiom,  ~ (v1_xboole_0(k2_abcmiz_1)) ).
++ fof(redefinition_k6_domain_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k6_domain_1(A, B)=k1_tarski(B)) ) ).
++ fof(t17_abcmiz_1, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_abcmiz_1)))  =>  (! [B] :  (v7_ordinal1(B) => r2_hidden(k4_tarski(k1_abcmiz_1(A), B), k2_abcmiz_1)) ) ) ) ).
++ fof(t18_abcmiz_1, axiom, k2_abcmiz_1=a_0_1_abcmiz_1).
++ fof(t27_abcmiz_1, axiom,  (! [A] :  (m1_subset_1(A, k2_abcmiz_1) => k1_abcmiz_1(k6_domain_1(k2_abcmiz_1, A))=k4_subset_1(k2_abcmiz_1, k3_abcmiz_1(A), k6_domain_1(k2_abcmiz_1, A))) ) ).
 - fof(dt_k3_abcmiz_1, axiom,  (! [A] :  (m1_subset_1(A, k2_abcmiz_1) => m1_subset_1(k3_abcmiz_1(A), k1_zfmisc_1(k2_abcmiz_1))) ) ).
 - fof(redefinition_k3_abcmiz_1, axiom,  (! [A] :  (m1_subset_1(A, k2_abcmiz_1) => k3_abcmiz_1(A)=k1_xtuple_0(A)) ) ).
 - fof(fraenkel_a_0_1_abcmiz_1, axiom,  (! [A] :  (r2_hidden(A, a_0_1_abcmiz_1) <=>  (? [B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_abcmiz_1)) & m1_subset_1(C, k5_numbers))  &  (A=k4_tarski(k1_abcmiz_1(B), C) & v1_finset_1(B)) ) ) ) ) ).

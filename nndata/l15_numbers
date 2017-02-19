@@ -1,8 +1,8 @@
 C fof(l15_numbers, axiom,  (! [A] :  ( (v3_ordinal1(A) & m1_subset_1(A, k5_arytm_3))  =>  (! [B] :  ( (v3_ordinal1(B) & m1_subset_1(B, k5_arytm_3))  =>  (r1_ordinal1(A, B) => r3_arytm_3(A, B)) ) ) ) ) ).
-+ fof(t14_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  ~ ( ( ~ (r2_hidden(A, B))  &  ( ~ (A=B)  &  ~ (r2_hidden(B, A)) ) ) ) ) ) ) ) ).
 + fof(connectedness_r3_arytm_3, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_arytm_3) & m1_subset_1(B, k5_arytm_3))  =>  (r3_arytm_3(A, B) | r3_arytm_3(B, A)) ) ) ).
 + fof(d5_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r1_ordinal1(A, B) <=>  (! [C] :  (v3_ordinal1(C) =>  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ) ) ) ).
 + fof(l14_numbers, axiom,  (! [A] :  ( (v3_ordinal1(A) & m1_subset_1(A, k5_arytm_3))  =>  (! [B] :  ( (v3_ordinal1(B) & m1_subset_1(B, k5_arytm_3))  =>  ~ ( (r2_hidden(A, B) & r3_arytm_3(B, A)) ) ) ) ) ) ).
++ fof(t14_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  ~ ( ( ~ (r2_hidden(A, B))  &  ( ~ (A=B)  &  ~ (r2_hidden(B, A)) ) ) ) ) ) ) ) ).
 - fof(d13_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) =>  (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  (r3_arytm_3(A, B) <=>  (? [C] :  (m1_subset_1(C, k5_arytm_3) & B=k9_arytm_3(A, C)) ) ) ) ) ) ) ).
 - fof(t68_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) =>  (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  ( ~ (r3_arytm_3(B, A))  <=>  (r3_arytm_3(A, B) &  ~ (A=B) ) ) ) ) ) ) ).
 - fof(dt_k9_arytm_3, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_arytm_3) & m1_subset_1(B, k5_arytm_3))  => m1_subset_1(k9_arytm_3(A, B), k5_arytm_3)) ) ).

@@ -1,5 +1,5 @@
 C fof(t140_finseq_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k11_finseq_1(B, C, D), k4_finseq_2(3, A)) =>  (r2_hidden(B, A) &  (r2_hidden(C, A) & r2_hidden(D, A)) ) ) ) ) ) ) ).
-+ fof(t78_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (k11_finseq_1(A, B, C)=k11_finseq_1(D, E, F) =>  (A=D &  (B=E & C=F) ) ) ) ) ) ) ) ) ).
 + fof(t139_finseq_2, axiom,  (! [A] :  (! [B] :  (r2_hidden(B, k4_finseq_2(3, A)) <=>  (? [C] :  (? [D] :  (? [E] :  (r2_hidden(C, A) &  (r2_hidden(D, A) &  (r2_hidden(E, A) & B=k11_finseq_1(C, D, E)) ) ) ) ) ) ) ) ) ).
++ fof(t78_finseq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (k11_finseq_1(A, B, C)=k11_finseq_1(D, E, F) =>  (A=D &  (B=E & C=F) ) ) ) ) ) ) ) ) ).
 - fof(t102_finseq_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k4_finseq_2(3, A)=a_1_2_finseq_2(A)) ) ).
 - fof(fraenkel_a_1_2_finseq_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  =>  (r2_hidden(A, a_1_2_finseq_2(B)) <=>  (? [C, D, E] :  ( (m1_subset_1(C, B) &  (m1_subset_1(D, B) & m1_subset_1(E, B)) )  & A=k11_finseq_1(C, D, E)) ) ) ) ) ).

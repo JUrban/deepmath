@@ -1,6 +1,6 @@
 C fof(t18_membered, axiom,  (! [A] :  (v6_membered(A) =>  ( (! [B] :  (v7_ordinal1(B) => r2_hidden(B, A)) )  => A=k5_numbers) ) ) ).
-+ fof(d6_membered, axiom,  (! [A] :  (v6_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v7_ordinal1(B)) ) ) ) ).
 + fof(d12_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) <=> r2_hidden(A, k4_ordinal1)) ) ).
++ fof(d6_membered, axiom,  (! [A] :  (v6_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v7_ordinal1(B)) ) ) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(t1_tarski, axiom,  (! [A] :  (! [B] :  ( (! [C] :  (r2_hidden(C, A) <=> r2_hidden(C, B)) )  => A=B) ) ) ).
 - fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).

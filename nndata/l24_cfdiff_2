@@ -1,34 +1,34 @@
 C fof(l24_cfdiff_2, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k4_real_ns1(1))) =>  (B=k12_finseq_1(k1_numbers, A) => k1_normsp_0(k4_real_ns1(1), B)=k18_complex1(A)) ) ) ) ) ).
-+ fof(dt_k12_rvsum_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v3_valued_0(A) & v1_finseq_1(A)) ) )  => m2_finseq_1(k12_rvsum_1(A), k1_numbers)) ) ).
-+ fof(redefinition_k18_rvsum_1, axiom,  (! [A] :  (m1_finseq_1(A, k1_numbers) => k18_rvsum_1(A)=k16_rvsum_1(A)) ) ).
-+ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(dt_k4_real_ns1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (v2_struct_0(k4_real_ns1(A)))  &  (v1_normsp_1(k4_real_ns1(A)) & l1_normsp_1(k4_real_ns1(A))) ) ) ) ).
-+ fof(redefinition_k18_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k18_complex1(A)=k16_complex1(A)) ) ).
-+ fof(t1_real_ns1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k4_real_ns1(A))) =>  (! [C] :  (m2_finseq_2(C, k1_numbers, k1_euclid(A)) =>  (B=C => k1_normsp_0(k4_real_ns1(A), B)=k12_euclid(C)) ) ) ) ) ) ) ).
-+ fof(t55_rvsum_1, axiom,  (! [A] :  (v1_xreal_0(A) => k12_rvsum_1(k9_finseq_1(A))=k9_finseq_1(k3_square_1(A))) ) ).
-+ fof(redefinition_m2_finseq_2, axiom,  (! [A, B] :  (m1_finseq_2(B, A) =>  (! [C] :  (m2_finseq_2(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
-+ fof(redefinition_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k12_finseq_1(A, B)=k5_finseq_1(B)) ) ).
-+ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(dt_k5_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k5_square_1(A), k1_numbers)) ) ).
-+ fof(cc30_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v5_relat_1(A, k1_numbers))  =>  (v1_relat_1(A) & v3_valued_0(A)) ) ) ).
-+ fof(redefinition_k5_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k5_square_1(A)=k3_square_1(A)) ) ).
-+ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
-+ fof(dt_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m2_finseq_1(k12_finseq_1(A, B), A)) ) ).
-+ fof(redefinition_k7_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k7_square_1(A)=k6_square_1(A)) ) ).
-+ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(redefinition_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k17_complex1(A)=k16_complex1(A)) ) ).
-+ fof(t72_complex1, axiom,  (! [A] :  (v1_xreal_0(A) => k6_square_1(k3_square_1(A))=k17_complex1(A)) ) ).
-+ fof(t73_rvsum_1, axiom,  (! [A] :  (v1_xreal_0(A) => k16_rvsum_1(k9_finseq_1(A))=A) ) ).
-+ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
-+ fof(dt_k1_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => m1_finseq_2(k1_euclid(A), k1_numbers)) ) ).
-+ fof(d5_euclid, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v3_valued_0(A)) ) )  => k12_euclid(A)=k7_square_1(k18_rvsum_1(k12_rvsum_1(A)))) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(cc2_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ).
++ fof(cc30_valued_0, axiom,  (! [A] :  ( (v1_relat_1(A) & v5_relat_1(A, k1_numbers))  =>  (v1_relat_1(A) & v3_valued_0(A)) ) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(d4_real_ns1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v1_normsp_1(B) & l1_normsp_1(B)) )  =>  (B=k4_real_ns1(A) <=>  (u1_struct_0(B)=k1_euclid(A) &  (k4_struct_0(B)=k5_euclid(A) &  (r1_funct_2(k2_zfmisc_1(u1_struct_0(B), u1_struct_0(B)), u1_struct_0(B), k2_zfmisc_1(k1_euclid(A), k1_euclid(A)), k1_euclid(A), u1_algstr_0(B), k1_real_ns1(A)) &  (r1_funct_2(k2_zfmisc_1(k1_numbers, u1_struct_0(B)), u1_struct_0(B), k2_zfmisc_1(k1_numbers, k1_euclid(A)), k1_euclid(A), u1_rlvect_1(B), k2_real_ns1(A)) & r1_funct_2(u1_struct_0(B), k1_numbers, k1_euclid(A), k1_numbers, u1_normsp_0(B), k3_real_ns1(A))) ) ) ) ) ) ) ) ) ).
++ fof(d5_euclid, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v3_valued_0(A)) ) )  => k12_euclid(A)=k7_square_1(k18_rvsum_1(k12_rvsum_1(A)))) ) ).
++ fof(dt_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => m2_finseq_1(k12_finseq_1(A, B), A)) ) ).
++ fof(dt_k12_rvsum_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v3_valued_0(A) & v1_finseq_1(A)) ) )  => m2_finseq_1(k12_rvsum_1(A), k1_numbers)) ) ).
++ fof(dt_k1_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => m1_finseq_2(k1_euclid(A), k1_numbers)) ) ).
++ fof(dt_k4_real_ns1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (v2_struct_0(k4_real_ns1(A)))  &  (v1_normsp_1(k4_real_ns1(A)) & l1_normsp_1(k4_real_ns1(A))) ) ) ) ).
++ fof(dt_k5_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => m1_subset_1(k5_square_1(A), k1_numbers)) ) ).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(redefinition_k12_finseq_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(B, A))  => k12_finseq_1(A, B)=k5_finseq_1(B)) ) ).
++ fof(redefinition_k17_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k17_complex1(A)=k16_complex1(A)) ) ).
++ fof(redefinition_k18_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k18_complex1(A)=k16_complex1(A)) ) ).
++ fof(redefinition_k18_rvsum_1, axiom,  (! [A] :  (m1_finseq_1(A, k1_numbers) => k18_rvsum_1(A)=k16_rvsum_1(A)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k5_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k5_square_1(A)=k3_square_1(A)) ) ).
++ fof(redefinition_k7_square_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => k7_square_1(A)=k6_square_1(A)) ) ).
++ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(redefinition_m2_finseq_2, axiom,  (! [A, B] :  (m1_finseq_2(B, A) =>  (! [C] :  (m2_finseq_2(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t1_real_ns1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k4_real_ns1(A))) =>  (! [C] :  (m2_finseq_2(C, k1_numbers, k1_euclid(A)) =>  (B=C => k1_normsp_0(k4_real_ns1(A), B)=k12_euclid(C)) ) ) ) ) ) ) ).
++ fof(t55_rvsum_1, axiom,  (! [A] :  (v1_xreal_0(A) => k12_rvsum_1(k9_finseq_1(A))=k9_finseq_1(k3_square_1(A))) ) ).
++ fof(t72_complex1, axiom,  (! [A] :  (v1_xreal_0(A) => k6_square_1(k3_square_1(A))=k17_complex1(A)) ) ).
++ fof(t73_rvsum_1, axiom,  (! [A] :  (v1_xreal_0(A) => k16_rvsum_1(k9_finseq_1(A))=A) ) ).
 - fof(t8_pdiff_1, axiom,  (! [A] :  ( (v1_funct_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(k4_real_ns1(1)), u1_struct_0(k4_real_ns1(1))))))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k4_real_ns1(1))) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  ( (A=k2_pdiff_1(B) &  (C=k12_finseq_1(k1_numbers, D) & r1_fdiff_1(B, D)) )  =>  (r1_ndiff_1(k4_real_ns1(1), k4_real_ns1(1), A, C) & k1_funct_1(k3_ndiff_1(k4_real_ns1(1), k4_real_ns1(1), A, C), k12_finseq_1(k5_numbers, 1))=k12_finseq_1(k1_numbers, k1_fdiff_1(B, D))) ) ) ) ) ) ) ) ) ) ).
 - fof(t7_pdiff_1, axiom,  (! [A] :  ( (v1_funct_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(k4_real_ns1(1)), u1_struct_0(k4_real_ns1(1))))))  =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers))))  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k4_real_ns1(1))) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  ( (A=k2_pdiff_1(B) &  (C=k12_finseq_1(k1_numbers, D) & r1_ndiff_1(k4_real_ns1(1), k4_real_ns1(1), A, C)) )  =>  (r1_fdiff_1(B, D) & k1_fdiff_1(B, D)=k1_seq_1(k3_relat_1(k2_funct_1(k1_pdiff_1(1, 1)), k3_relat_1(k3_ndiff_1(k4_real_ns1(1), k4_real_ns1(1), A, C), k1_pdiff_1(1, 1))), 1)) ) ) ) ) ) ) ) ) ) ).
 - fof(t4_pdiff_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k1_euclid(1), k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k1_euclid(1), k1_numbers)))) )  =>  (r2_funct_2(k1_euclid(1), k1_numbers, A, k1_pdiff_1(1, 1)) =>  ( (! [B] :  (m1_subset_1(B, u1_struct_0(k4_real_ns1(1))) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (k1_seq_1(A, B)=C => k1_normsp_0(k4_real_ns1(1), B)=k18_complex1(C)) ) ) ) )  &  ( (! [B] :  (m1_subset_1(B, u1_struct_0(k4_real_ns1(1))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k4_real_ns1(1))) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  (! [E] :  (m1_subset_1(E, k1_numbers) =>  ( (k1_seq_1(A, B)=D & k1_seq_1(A, C)=E)  => k1_seq_1(A, k3_rlvect_1(k4_real_ns1(1), B, C))=k7_real_1(D, E)) ) ) ) ) ) ) ) )  &  ( (! [B] :  (m1_subset_1(B, u1_struct_0(k4_real_ns1(1))) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  (k1_seq_1(A, B)=C => k1_seq_1(A, k1_rlvect_1(k4_real_ns1(1), B, D))=k8_real_1(D, C)) ) ) ) ) ) )  &  ( (! [B] :  (m1_subset_1(B, u1_struct_0(k4_real_ns1(1))) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (k1_seq_1(A, B)=C => k1_seq_1(A, k4_algstr_0(k4_real_ns1(1), B))=k1_real_1(C)) ) ) ) )  &  (! [B] :  (m1_subset_1(B, u1_struct_0(k4_real_ns1(1))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k4_real_ns1(1))) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  (! [E] :  (m1_subset_1(E, k1_numbers) =>  ( (k1_seq_1(A, B)=D & k1_seq_1(A, C)=E)  => k1_seq_1(A, k5_algstr_0(k4_real_ns1(1), B, C))=k9_real_1(D, E)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

@@ -1,28 +1,28 @@
 C fof(t41_rvsum_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v3_card_1(B, A) & m2_finseq_1(B, k2_numbers))  =>  (! [C] :  ( (v3_card_1(C, A) & m2_finseq_1(C, k2_numbers))  => k17_rvsum_1(k8_rvsum_2(A, B, C))=k4_binop_2(k17_rvsum_1(B), k17_rvsum_1(C))) ) ) ) ) ) ).
-+ fof(redefinition_k1_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_binop_2(A)=k4_xcmplx_0(A)) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(redefinition_m2_finseq_2, axiom,  (! [A, B] :  (m1_finseq_2(B, A) =>  (! [C] :  (m2_finseq_2(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(redefinition_k4_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k4_binop_2(A, B)=k6_xcmplx_0(A, B)) ) ).
-+ fof(redefinition_k3_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_binop_2(A, B)=k2_xcmplx_0(A, B)) ) ).
-+ fof(t39_rvsum_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v1_valued_0(A)) ) )  => k17_rvsum_1(k5_rvsum_2(A))=k1_binop_2(k16_rvsum_1(A))) ) ).
-+ fof(t40_rvsum_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v3_card_1(B, A) & m2_finseq_1(B, k2_numbers))  =>  (! [C] :  ( (v3_card_1(C, A) & m2_finseq_1(C, k2_numbers))  => k17_rvsum_1(k4_rvsum_2(A, B, C))=k3_binop_2(k17_rvsum_1(B), k17_rvsum_1(C))) ) ) ) ) ) ).
-+ fof(redefinition_k4_rvsum_2, axiom,  (! [A, B, C] :  ( (v7_ordinal1(A) &  ( (v3_card_1(B, A) & m1_finseq_1(B, k2_numbers))  &  (v3_card_1(C, A) & m1_finseq_1(C, k2_numbers)) ) )  => k4_rvsum_2(A, B, C)=k1_valued_1(B, C)) ) ).
-+ fof(dt_k5_rvsum_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v1_valued_0(A)) ) )  => m2_finseq_1(k5_rvsum_2(A), k2_numbers)) ) ).
-+ fof(dt_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k4_xcmplx_0(A))) ) ).
-+ fof(d9_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_valued_0(B)) )  => k45_valued_1(A, B)=k1_valued_1(A, k30_valued_1(B))) ) ) ) ).
++ fof(cc1_finseq_2, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(B))  =>  (! [C] :  (m1_subset_1(C, k4_finseq_2(B, A)) => v3_card_1(C, B)) ) ) ) ).
 + fof(cc1_rvsum_1, axiom,  (! [A] :  (m1_finseq_1(A, k2_numbers) => v1_valued_0(A)) ) ).
-+ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
-+ fof(redefinition_k8_rvsum_2, axiom,  (! [A, B, C] :  ( (v7_ordinal1(A) &  ( (v3_card_1(B, A) & m1_finseq_1(B, k2_numbers))  &  (v3_card_1(C, A) & m1_finseq_1(C, k2_numbers)) ) )  => k8_rvsum_2(A, B, C)=k45_valued_1(B, C)) ) ).
-+ fof(redefinition_k6_rvsum_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) &  (v3_card_1(B, A) & m1_finseq_1(B, k2_numbers)) )  => k6_rvsum_2(A, B)=k30_valued_1(B)) ) ).
-+ fof(spc1_arithm, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, k4_xcmplx_0(B))=k6_xcmplx_0(A, B)) ) ).
-+ fof(fc2_numbers, axiom,  ~ (v1_xboole_0(k2_numbers)) ).
++ fof(d9_valued_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_valued_0(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_valued_0(B)) )  => k45_valued_1(A, B)=k1_valued_1(A, k30_valued_1(B))) ) ) ) ).
 + fof(dt_k16_rvsum_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_valued_0(A) & v1_finseq_1(A)) ) )  => v1_xcmplx_0(k16_rvsum_1(A))) ) ).
++ fof(dt_k4_finseq_2, axiom,  (! [A, B] :  (v7_ordinal1(A) => m1_finseq_2(k4_finseq_2(A, B), B)) ) ).
++ fof(dt_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k4_xcmplx_0(A))) ) ).
++ fof(dt_k5_rvsum_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v1_valued_0(A)) ) )  => m2_finseq_1(k5_rvsum_2(A), k2_numbers)) ) ).
 + fof(dt_k6_rvsum_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) &  (v3_card_1(B, A) & m1_finseq_1(B, k2_numbers)) )  => m2_finseq_2(k6_rvsum_2(A, B), k2_numbers, k4_finseq_2(A, k2_numbers))) ) ).
 + fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
-+ fof(redefinition_k5_rvsum_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v1_valued_0(A)) ) )  => k5_rvsum_2(A)=k30_valued_1(A)) ) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(fc2_numbers, axiom,  ~ (v1_xboole_0(k2_numbers)) ).
 + fof(redefinition_k17_rvsum_1, axiom,  (! [A] :  (m1_finseq_1(A, k2_numbers) => k17_rvsum_1(A)=k16_rvsum_1(A)) ) ).
-+ fof(cc1_finseq_2, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(B))  =>  (! [C] :  (m1_subset_1(C, k4_finseq_2(B, A)) => v3_card_1(C, B)) ) ) ) ).
-+ fof(dt_k4_finseq_2, axiom,  (! [A, B] :  (v7_ordinal1(A) => m1_finseq_2(k4_finseq_2(A, B), B)) ) ).
++ fof(redefinition_k1_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k1_binop_2(A)=k4_xcmplx_0(A)) ) ).
++ fof(redefinition_k3_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_binop_2(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k4_binop_2, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k4_binop_2(A, B)=k6_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k4_rvsum_2, axiom,  (! [A, B, C] :  ( (v7_ordinal1(A) &  ( (v3_card_1(B, A) & m1_finseq_1(B, k2_numbers))  &  (v3_card_1(C, A) & m1_finseq_1(C, k2_numbers)) ) )  => k4_rvsum_2(A, B, C)=k1_valued_1(B, C)) ) ).
++ fof(redefinition_k5_rvsum_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v1_valued_0(A)) ) )  => k5_rvsum_2(A)=k30_valued_1(A)) ) ).
++ fof(redefinition_k6_rvsum_2, axiom,  (! [A, B] :  ( (v7_ordinal1(A) &  (v3_card_1(B, A) & m1_finseq_1(B, k2_numbers)) )  => k6_rvsum_2(A, B)=k30_valued_1(B)) ) ).
++ fof(redefinition_k8_rvsum_2, axiom,  (! [A, B, C] :  ( (v7_ordinal1(A) &  ( (v3_card_1(B, A) & m1_finseq_1(B, k2_numbers))  &  (v3_card_1(C, A) & m1_finseq_1(C, k2_numbers)) ) )  => k8_rvsum_2(A, B, C)=k45_valued_1(B, C)) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(redefinition_m2_finseq_2, axiom,  (! [A, B] :  (m1_finseq_2(B, A) =>  (! [C] :  (m2_finseq_2(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(spc1_arithm, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, k4_xcmplx_0(B))=k6_xcmplx_0(A, B)) ) ).
++ fof(t39_rvsum_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v1_valued_0(A)) ) )  => k17_rvsum_1(k5_rvsum_2(A))=k1_binop_2(k16_rvsum_1(A))) ) ).
++ fof(t40_rvsum_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v3_card_1(B, A) & m2_finseq_1(B, k2_numbers))  =>  (! [C] :  ( (v3_card_1(C, A) & m2_finseq_1(C, k2_numbers))  => k17_rvsum_1(k4_rvsum_2(A, B, C))=k3_binop_2(k17_rvsum_1(B), k17_rvsum_1(C))) ) ) ) ) ) ).
 - fof(d11_rvsum_1, axiom,  (! [A] :  (m2_finseq_1(A, k2_numbers) => k17_rvsum_1(A)=k1_finsop_1(k2_numbers, A, k27_binop_2)) ) ).
 - fof(t11_rvsum_2, axiom,  (! [A] :  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v3_card_1(C, B) & m2_finseq_1(C, k2_numbers))  =>  (! [D] :  ( (v3_card_1(D, B) & m2_finseq_1(D, k2_numbers))  => k1_funct_1(k8_rvsum_2(B, C, D), A)=k4_binop_2(k1_funct_1(C, A), k1_funct_1(D, A))) ) ) ) ) ) ) ).
 - fof(t19_rvsum_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v3_card_1(B, A) & m2_finseq_1(B, k2_numbers))  =>  (! [C] :  ( (v3_card_1(C, A) & m2_finseq_1(C, k2_numbers))  => B=k8_rvsum_2(A, k4_rvsum_2(A, B, C), C)) ) ) ) ) ) ).

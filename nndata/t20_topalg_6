@@ -1,16 +1,16 @@
 C fof(t20_topalg_6, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  ( (v1_funct_1(B) &  (v4_topalg_6(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(k2_topalg_2), u1_struct_0(A))))) )  => m2_subset_1(B, k4_partfun1(k1_numbers, k2_struct_0(A)), k1_topalg_6(A))) ) ) ) ).
-+ fof(fraenkel_a_1_0_topalg_6, axiom,  (! [A, B] :  (l1_pre_topc(B) =>  (r2_hidden(A, a_1_0_topalg_6(B)) <=>  (? [C] :  (m1_subset_1(C, k4_partfun1(k1_numbers, k2_struct_0(B))) &  (A=C &  (v1_funct_1(C) &  (v4_topalg_6(C, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(k2_topalg_2), u1_struct_0(B))))) ) ) ) ) ) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(fc1_partfun1, axiom,  (! [A, B] :  ~ (v1_xboole_0(k4_partfun1(A, B))) ) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(dt_k1_topalg_6, axiom,  (! [A] :  (l1_pre_topc(A) => m1_subset_1(k1_topalg_6(A), k1_zfmisc_1(k4_partfun1(k1_numbers, k2_struct_0(A))))) ) ).
-+ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
 + fof(d3_struct_0, axiom,  (! [A] :  (l1_struct_0(A) => k2_struct_0(A)=u1_struct_0(A)) ) ).
 + fof(d5_topalg_6, axiom,  (! [A] :  (l1_pre_topc(A) => k1_topalg_6(A)=a_1_0_topalg_6(A)) ) ).
++ fof(dt_k1_topalg_6, axiom,  (! [A] :  (l1_pre_topc(A) => m1_subset_1(k1_topalg_6(A), k1_zfmisc_1(k4_partfun1(k1_numbers, k2_struct_0(A))))) ) ).
++ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
++ fof(fc1_partfun1, axiom,  (! [A, B] :  ~ (v1_xboole_0(k4_partfun1(A, B))) ) ).
++ fof(fraenkel_a_1_0_topalg_6, axiom,  (! [A, B] :  (l1_pre_topc(B) =>  (r2_hidden(A, a_1_0_topalg_6(B)) <=>  (? [C] :  (m1_subset_1(C, k4_partfun1(k1_numbers, k2_struct_0(B))) &  (A=C &  (v1_funct_1(C) &  (v4_topalg_6(C, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(k2_topalg_2), u1_struct_0(B))))) ) ) ) ) ) ) ) ).
 + fof(redefinition_k2_topalg_2, axiom, k2_topalg_2=k3_topmetr).
-+ fof(t45_partfun1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  => r2_hidden(C, k4_partfun1(A, B))) ) ) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(t17_topmetr, axiom, u1_struct_0(k3_topmetr)=k1_numbers).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t45_partfun1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  => r2_hidden(C, k4_partfun1(A, B))) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(l23_topalg_6, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(k2_topalg_2), u1_struct_0(A)))))  =>  (B=k1_xboole_0 => v4_topalg_6(B, A)) ) ) ) ) ).
 - fof(t8_toprealb, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k1_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k1_numbers, k1_numbers)))) )  =>  (v1_funct_1(A) &  (v1_funct_2(A, u1_struct_0(k2_topalg_2), u1_struct_0(k2_topalg_2)) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(k2_topalg_2), u1_struct_0(k2_topalg_2))))) ) ) ) ).
 - fof(d4_topalg_6, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(k2_topalg_2), u1_struct_0(A)))))  =>  (v4_topalg_6(B, A) <=>  ( (v6_xxreal_2(k1_relset_1(u1_struct_0(k2_topalg_2), B)) & m1_subset_1(k1_relset_1(u1_struct_0(k2_topalg_2), B), k1_zfmisc_1(k1_numbers)))  &  (? [C] :  (m1_pre_topc(C, k2_topalg_2) &  (? [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, u1_struct_0(C), u1_struct_0(A)) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(C), u1_struct_0(A))))) )  &  (B=D &  (C=k1_pre_topc(k2_topalg_2, k1_relset_1(u1_struct_0(k2_topalg_2), B)) & v5_pre_topc(D, C, A)) ) ) ) ) ) ) ) ) ) ) ) ).

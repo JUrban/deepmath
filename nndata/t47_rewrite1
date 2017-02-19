@@ -1,8 +1,8 @@
 C fof(t47_rewrite1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_rewrite1(A))  =>  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(B, A) => v1_rewrite1(B)) ) ) ) ) ).
-+ fof(t16_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(A, B) => r1_tarski(k1_relat_1(A), k1_relat_1(B))) ) ) ) ) ).
-+ fof(d3_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), A) => r2_hidden(k4_tarski(C, D), B)) ) ) ) ) ) ) ).
-+ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
 + fof(d16_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v1_rewrite1(A) <=>  (! [B] :  ~ ( (r1_tarski(B, k1_relat_1(A)) &  ( ~ (B=k1_xboole_0)  &  (! [C] :  ~ ( (r2_hidden(C, B) &  (! [D] :  ~ ( (r2_hidden(D, B) &  ( ~ (C=D)  & r2_hidden(k4_tarski(C, D), A)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d3_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), A) => r2_hidden(k4_tarski(C, D), B)) ) ) ) ) ) ) ).
++ fof(t16_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(A, B) => r1_tarski(k1_relat_1(A), k1_relat_1(B))) ) ) ) ) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
 - fof(cc3_rewrite1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v2_relat_2(A) & v1_rewrite1(A)) )  =>  (v1_relat_1(A) & v3_rewrite1(A)) ) ) ).
 - fof(cc2_rewrite1, axiom,  (! [A] :  ( (v1_relat_1(A) & v3_rewrite1(A))  =>  (v1_relat_1(A) &  (v2_relat_2(A) & v1_rewrite1(A)) ) ) ) ).
 - fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).

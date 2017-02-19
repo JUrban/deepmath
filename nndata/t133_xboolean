@@ -1,7 +1,7 @@
 C fof(t133_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) =>  (! [C] :  (v1_xboolean(C) =>  (! [D] :  (v1_xboolean(D) =>  ( (k7_xboolean(A, B)=k2_xboolean & k7_xboolean(C, D)=k2_xboolean)  => k7_xboolean(k6_xboolean(A, C), k6_xboolean(B, D))=k2_xboolean) ) ) ) ) ) ) ) ) ).
-+ fof(t116_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) =>  ( (k6_xboolean(A, B)=k2_xboolean & k6_xboolean(B, A)=k2_xboolean)  => A=B) ) ) ) ) ).
-+ fof(fc5_xboolean, axiom,  (! [A, B] :  ( (v1_xboolean(A) & v1_xboolean(B))  => v1_xboolean(k6_xboolean(A, B))) ) ).
 + fof(commutativity_k7_xboolean, axiom,  (! [A, B] :  ( (v1_xboolean(A) & v1_xboolean(B))  => k7_xboolean(A, B)=k7_xboolean(B, A)) ) ).
++ fof(fc5_xboolean, axiom,  (! [A, B] :  ( (v1_xboolean(A) & v1_xboolean(B))  => v1_xboolean(k6_xboolean(A, B))) ) ).
++ fof(t116_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) =>  ( (k6_xboolean(A, B)=k2_xboolean & k6_xboolean(B, A)=k2_xboolean)  => A=B) ) ) ) ) ).
 + fof(t125_xboolean, axiom,  (! [A] :  (v1_xboolean(A) => k7_xboolean(A, A)=k2_xboolean) ) ).
 + fof(t132_xboolean, axiom,  (! [A] :  (v1_xboolean(A) =>  (! [B] :  (v1_xboolean(B) =>  (k7_xboolean(A, B)=k2_xboolean <=>  (k6_xboolean(A, B)=k2_xboolean & k6_xboolean(B, A)=k2_xboolean) ) ) ) ) ) ).
 - fof(d2_xboolean, axiom, k2_xboolean=1).

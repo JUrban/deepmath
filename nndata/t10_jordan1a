@@ -1,7 +1,7 @@
 C fof(t10_jordan1a, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))) =>  (r1_tarski(B, k6_jordan6(A)) => v2_sppol_1(B)) ) ) ) ) ).
-+ fof(t31_jordan6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (r2_hidden(B, k6_jordan6(A)) <=> k17_euclid(B)=A) ) ) ) ) ).
-+ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 + fof(d3_sppol_1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k15_euclid(2)))) =>  (v2_sppol_1(A) <=>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(2))) =>  ( (r2_hidden(B, A) & r2_hidden(C, A))  => k17_euclid(B)=k17_euclid(C)) ) ) ) ) ) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(t31_jordan6, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k15_euclid(2))) =>  (r2_hidden(B, k6_jordan6(A)) <=> k17_euclid(B)=A) ) ) ) ) ).
 - fof(d6_jordan6, axiom,  (! [A] :  (v1_xreal_0(A) => k6_jordan6(A)=a_1_2_jordan6(A)) ) ).
 - fof(dt_k6_jordan6, axiom,  (! [A] :  (v1_xreal_0(A) => m1_subset_1(k6_jordan6(A), k1_zfmisc_1(u1_struct_0(k15_euclid(2))))) ) ).
 - fof(fraenkel_a_1_2_jordan6, axiom,  (! [A, B] :  (v1_xreal_0(B) =>  (r2_hidden(A, a_1_2_jordan6(B)) <=>  (? [C] :  (m1_subset_1(C, u1_struct_0(k15_euclid(2))) &  (A=C & k17_euclid(C)=B) ) ) ) ) ) ).

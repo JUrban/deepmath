@@ -1,10 +1,10 @@
 C fof(t15_tex_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_pre_topc(B) & l1_pre_topc(B)) )  =>  (! [C] :  ( ( ~ (v2_struct_0(C))  &  (v2_pre_topc(C) & l1_pre_topc(C)) )  =>  (C=g1_pre_topc(u1_struct_0(B), u1_pre_topc(B)) =>  ( (v1_tex_3(B, A) & m1_pre_topc(B, A))  <=>  (v1_tex_3(C, A) & m1_pre_topc(C, A)) ) ) ) ) ) ) ) ) ).
 + fof(l11_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => m1_pre_topc(g1_pre_topc(u1_struct_0(A), u1_pre_topc(A)), A)) ) ).
++ fof(l7_tsep_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_pre_topc(B, A) =>  (v1_pre_topc(g1_pre_topc(u1_struct_0(B), u1_pre_topc(B))) & m1_pre_topc(g1_pre_topc(u1_struct_0(B), u1_pre_topc(B)), A)) ) ) ) ) ).
 + fof(t12_tex_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  ( (v1_tex_3(B, A) & m1_pre_topc(B, A))  =>  (! [C] :  (m1_pre_topc(C, A) =>  (m1_pre_topc(B, C) => v1_tex_3(C, A)) ) ) ) ) ) ) ).
++ fof(t2_tsep_1, axiom,  (! [A] :  (l1_pre_topc(A) => m1_pre_topc(A, A)) ) ).
 + fof(t35_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (l1_pre_topc(B) =>  (m1_pre_topc(A, B) <=> m1_pre_topc(A, g1_pre_topc(u1_struct_0(B), u1_pre_topc(B)))) ) ) ) ) ).
 + fof(t7_tsep_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  (! [B] :  (m1_pre_topc(B, A) =>  (! [C] :  (m1_pre_topc(C, B) => m1_pre_topc(C, A)) ) ) ) ) ) ).
-+ fof(t2_tsep_1, axiom,  (! [A] :  (l1_pre_topc(A) => m1_pre_topc(A, A)) ) ).
-+ fof(l7_tsep_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_pre_topc(B, A) =>  (v1_pre_topc(g1_pre_topc(u1_struct_0(B), u1_pre_topc(B))) & m1_pre_topc(g1_pre_topc(u1_struct_0(B), u1_pre_topc(B)), A)) ) ) ) ) ).
 - fof(d1_tex_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_pre_topc(B, A) =>  (v1_tex_3(B, A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (C=u1_struct_0(B) => v1_tops_1(C, A)) ) ) ) ) ) ) ) ).
 - fof(dt_m1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_pre_topc(B, A) => l1_pre_topc(B)) ) ) ) ).
 - fof(t11_tex_3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v1_tex_3(B, A) & m1_pre_topc(B, A)) )  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(A))) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(B))) =>  (C=D =>  (v1_tops_1(D, B) <=> v1_tops_1(C, A)) ) ) ) ) ) ) ) ) ) ).

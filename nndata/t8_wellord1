@@ -1,5 +1,5 @@
 C fof(t8_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v2_wellord1(A) =>  (! [B] :  ~ ( (r2_hidden(B, k1_relat_1(A)) &  ( (? [C] :  (r2_hidden(C, k1_relat_1(A)) &  ~ (r2_hidden(k4_tarski(C, B), A)) ) )  &  (! [C] :  ~ ( (r2_hidden(C, k1_relat_1(A)) &  (r2_hidden(k4_tarski(B, C), A) &  (! [D] :  ~ ( (r2_hidden(D, k1_relat_1(A)) &  (r2_hidden(k4_tarski(B, D), A) &  ( ~ (D=B)  &  ~ (r2_hidden(k4_tarski(C, D), A)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(l1_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v1_relat_2(A) <=>  (! [B] :  (r2_hidden(B, k1_relat_1(A)) => r2_hidden(k4_tarski(B, B), A)) ) ) ) ) ).
 + fof(cc1_wellord1, axiom,  (! [A] :  ( (v1_relat_1(A) & v2_wellord1(A))  =>  (v1_relat_1(A) &  (v1_relat_2(A) &  (v4_relat_2(A) &  (v6_relat_2(A) &  (v8_relat_2(A) & v1_wellord1(A)) ) ) ) ) ) ) ).
++ fof(l1_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v1_relat_2(A) <=>  (! [B] :  (r2_hidden(B, k1_relat_1(A)) => r2_hidden(k4_tarski(B, B), A)) ) ) ) ) ).
 - fof(t6_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v2_wellord1(A) =>  (! [B] :  ~ ( (r1_tarski(B, k1_relat_1(A)) &  ( ~ (B=k1_xboole_0)  &  (! [C] :  ~ ( (r2_hidden(C, B) &  (! [D] :  (r2_hidden(D, B) => r2_hidden(k4_tarski(C, D), A)) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t4_wellord1, axiom,  (! [A] :  (v1_relat_1(A) =>  (r2_wellord1(A, k1_relat_1(A)) <=> v2_wellord1(A)) ) ) ).

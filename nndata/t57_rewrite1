@@ -1,11 +1,11 @@
 C fof(t57_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v7_rewrite1(A) <=> v9_rewrite1(k18_finseq_1(A))) ) ) ).
-+ fof(t21_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) <=> r1_rewrite1(k18_finseq_1(A), B, C)) ) ) ) ) ).
-+ fof(d8_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r6_rewrite1(A, B, C) <=>  (? [D] :  (r1_rewrite1(A, D, B) & r1_rewrite1(A, D, C)) ) ) ) ) ) ) ).
-+ fof(t20_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) <=>  (B=C | r2_hidden(k4_tarski(B, C), k18_finseq_1(A))) ) ) ) ) ) ).
 + fof(d22_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v7_rewrite1(A) <=>  (! [B] :  (! [C] :  (r6_rewrite1(A, B, C) => r5_rewrite1(A, B, C)) ) ) ) ) ) ).
 + fof(d24_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v9_rewrite1(A) <=>  (! [B] :  (! [C] :  (! [D] :  ( (r2_hidden(k4_tarski(B, C), A) & r2_hidden(k4_tarski(B, D), A))  => r5_rewrite1(A, C, D)) ) ) ) ) ) ) ).
-+ fof(dt_k18_finseq_1, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k18_finseq_1(A))) ) ).
 + fof(d7_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r5_rewrite1(A, B, C) <=>  (? [D] :  (r1_rewrite1(A, B, D) & r1_rewrite1(A, C, D)) ) ) ) ) ) ) ).
++ fof(d8_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r6_rewrite1(A, B, C) <=>  (? [D] :  (r1_rewrite1(A, D, B) & r1_rewrite1(A, D, C)) ) ) ) ) ) ) ).
++ fof(dt_k18_finseq_1, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k18_finseq_1(A))) ) ).
++ fof(t20_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) <=>  (B=C | r2_hidden(k4_tarski(B, C), k18_finseq_1(A))) ) ) ) ) ) ).
++ fof(t21_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) <=> r1_rewrite1(k18_finseq_1(A), B, C)) ) ) ) ) ).
 + fof(t36_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) =>  (r5_rewrite1(A, B, C) &  (r6_rewrite1(A, B, C) &  (r5_rewrite1(A, C, B) & r6_rewrite1(A, C, B)) ) ) ) ) ) ) ) ).
 - fof(cc13_rewrite1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v3_rewrite1(A) & v9_rewrite1(A)) )  =>  (v1_relat_1(A) & v7_rewrite1(A)) ) ) ).
 - fof(cc7_rewrite1, axiom,  (! [A] :  ( (v1_relat_1(A) & v7_rewrite1(A))  =>  (v1_relat_1(A) &  (v8_rewrite1(A) & v9_rewrite1(A)) ) ) ) ).

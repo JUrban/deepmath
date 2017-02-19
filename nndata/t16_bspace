@@ -1,7 +1,7 @@
 C fof(t16_bspace, axiom,  (! [A] :  (! [B] :  (A=B <=>  (! [C] : k3_bspace(A, C)=k3_bspace(B, C)) ) ) ) ).
-+ fof(t10_bspace, axiom,  (! [A] :  (! [B] :  (k3_bspace(A, B)=k4_struct_0(k2_bspace) <=>  ~ (r2_hidden(B, A)) ) ) ) ).
 + fof(d3_bspace, axiom,  (! [A] :  (! [B] :  ( (r2_hidden(B, A) => k3_bspace(A, B)=k5_struct_0(k2_bspace))  &  ( ~ (r2_hidden(B, A))  => k3_bspace(A, B)=k4_struct_0(k2_bspace)) ) ) ) ).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t10_bspace, axiom,  (! [A] :  (! [B] :  (k3_bspace(A, B)=k4_struct_0(k2_bspace) <=>  ~ (r2_hidden(B, A)) ) ) ) ).
 + fof(t1_tarski, axiom,  (! [A] :  (! [B] :  ( (! [C] :  (r2_hidden(C, A) <=> r2_hidden(C, B)) )  => A=B) ) ) ).
 + fof(t5_bspace, axiom, k4_struct_0(k2_bspace)=k1_xboole_0).
 - fof(dt_k3_bspace, axiom,  (! [A, B] : m1_subset_1(k3_bspace(A, B), u1_struct_0(k2_bspace))) ).

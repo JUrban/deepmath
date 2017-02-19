@@ -1,15 +1,15 @@
 C fof(t12_pnproc_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  => r2_pnproc_1(A, k1_pnproc_1(A), B)) ) ) ).
-+ fof(fc66_valued_0, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v4_valued_0(A)) )  => v7_ordinal1(k1_funct_1(A, B))) ) ).
-+ fof(d2_pnproc_1, axiom,  (! [A] : k1_pnproc_1(A)=k8_funcop_1(k5_numbers, A, k6_numbers)) ).
++ fof(cc21_valued_0, axiom,  (! [A, B] :  (v6_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v4_valued_0(C)) ) ) ) ).
 + fof(cc2_relat_1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_relat_1(B)) ) ) ) ).
++ fof(d2_pnproc_1, axiom,  (! [A] : k1_pnproc_1(A)=k8_funcop_1(k5_numbers, A, k6_numbers)) ).
 + fof(d3_pnproc_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  =>  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, A, k5_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  =>  (r2_pnproc_1(A, B, C) <=>  (! [D] :  (r2_hidden(D, A) => r1_xxreal_0(k1_funct_1(B, D), k1_funct_1(C, D))) ) ) ) ) ) ) ) ).
-+ fof(l21_pnproc_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => k1_funct_1(k1_pnproc_1(B), A)=k6_numbers) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(dt_k1_pnproc_1, axiom,  (! [A] :  (v1_funct_1(k1_pnproc_1(A)) &  (v1_funct_2(k1_pnproc_1(A), A, k5_numbers) & m1_subset_1(k1_pnproc_1(A), k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) ) ) ).
++ fof(fc66_valued_0, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v4_valued_0(A)) )  => v7_ordinal1(k1_funct_1(A, B))) ) ).
 + fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
 + fof(fc6_relat_1, axiom,  (! [A, B] : v1_relat_1(k2_zfmisc_1(A, B))) ).
-+ fof(dt_k1_pnproc_1, axiom,  (! [A] :  (v1_funct_1(k1_pnproc_1(A)) &  (v1_funct_2(k1_pnproc_1(A), A, k5_numbers) & m1_subset_1(k1_pnproc_1(A), k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) ) ) ).
++ fof(l21_pnproc_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => k1_funct_1(k1_pnproc_1(B), A)=k6_numbers) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(t2_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) => r1_xxreal_0(k6_numbers, A)) ) ).
-+ fof(cc21_valued_0, axiom,  (! [A, B] :  (v6_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v4_valued_0(C)) ) ) ) ).
 - fof(reflexivity_r2_pnproc_1, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) )  &  (v1_funct_1(C) &  (v1_funct_2(C, A, k5_numbers) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k5_numbers)))) ) )  => r2_pnproc_1(A, B, B)) ) ).
 - fof(d13_pre_poly, axiom,  (! [A] : k16_pre_poly(A)=k8_funcop_1(k5_numbers, A, k6_numbers)) ).
 - fof(de_c1__axioms, axiom, c1__axioms=k6_numbers).

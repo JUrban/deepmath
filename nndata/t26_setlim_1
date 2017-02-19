@@ -1,24 +1,24 @@
 C fof(t26_setlim_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k5_numbers, k9_setfam_1(B)) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(B))))) )  => r1_tarski(k3_prob_1(B, C), k3_funct_2(k5_numbers, k9_setfam_1(B), k2_setlim_1(B, C), A))) ) ) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t17_setlim_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k9_setfam_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(A))))) )  => k3_funct_2(k5_numbers, k9_setfam_1(A), k2_setlim_1(A, B), k6_numbers)=k3_prob_1(A, B)) ) ) ).
-+ fof(fc1_setlim_1, axiom,  (! [A, B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k9_setfam_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(A))))) )  =>  (v1_funct_1(k1_setlim_1(B)) &  (v1_funct_2(k1_setlim_1(B), k5_numbers, k9_setfam_1(A)) & v3_prob_1(k1_setlim_1(B))) ) ) ) ).
-+ fof(redefinition_k3_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) )  => k3_funct_2(A, B, C, D)=k1_funct_1(C, D)) ) ).
-+ fof(dt_k1_setlim_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_relat_1(k1_setlim_1(A)) & v1_funct_1(k1_setlim_1(A))) ) ) ).
-+ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
 + fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
-+ fof(redefinition_k2_setlim_1, axiom,  (! [A, B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k9_setfam_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(A))))) )  => k2_setlim_1(A, B)=k1_setlim_1(B)) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(dt_k6_numbers, axiom, m2_subset_1(k6_numbers, k1_numbers, k5_numbers)).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(d5_prob_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v3_prob_1(A) <=>  (! [B] :  (m2_subset_1(B, k1_numbers, k5_numbers) =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (r1_xxreal_0(B, C) => r1_tarski(k1_funct_1(A, B), k1_funct_1(A, C))) ) ) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
++ fof(dt_k1_setlim_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_relat_1(k1_setlim_1(A)) & v1_funct_1(k1_setlim_1(A))) ) ) ).
 + fof(dt_k2_setlim_1, axiom,  (! [A, B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k9_setfam_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(A))))) )  =>  (v1_funct_1(k2_setlim_1(A, B)) &  (v1_funct_2(k2_setlim_1(A, B), k5_numbers, k9_setfam_1(A)) & m1_subset_1(k2_setlim_1(A, B), k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(A))))) ) ) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(dt_k6_numbers, axiom, m2_subset_1(k6_numbers, k1_numbers, k5_numbers)).
++ fof(fc1_setlim_1, axiom,  (! [A, B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k9_setfam_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(A))))) )  =>  (v1_funct_1(k1_setlim_1(B)) &  (v1_funct_2(k1_setlim_1(B), k5_numbers, k9_setfam_1(A)) & v3_prob_1(k1_setlim_1(B))) ) ) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k2_setlim_1, axiom,  (! [A, B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k9_setfam_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(A))))) )  => k2_setlim_1(A, B)=k1_setlim_1(B)) ) ).
++ fof(redefinition_k3_funct_2, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( (v1_funct_1(C) &  (v1_funct_2(C, A, B) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B)))) )  & m1_subset_1(D, A)) )  => k3_funct_2(A, B, C, D)=k1_funct_1(C, D)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t17_setlim_1, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k9_setfam_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(A))))) )  => k3_funct_2(k5_numbers, k9_setfam_1(A), k2_setlim_1(A, B), k6_numbers)=k3_prob_1(A, B)) ) ) ).
++ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
 + fof(t2_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) => r1_xxreal_0(k6_numbers, A)) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
 - fof(t19_setlim_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (! [C] :  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, k5_numbers, k9_setfam_1(B)) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(B))))) )  =>  (r2_hidden(C, k3_funct_2(k5_numbers, k9_setfam_1(B), k2_setlim_1(B, D), A)) <=>  (! [E] :  (m1_subset_1(E, k5_numbers) => r2_hidden(C, k3_funct_2(k5_numbers, k9_setfam_1(B), D, k2_nat_1(A, E)))) ) ) ) ) ) ) ) ) ).
 - fof(t21_setlim_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, k5_numbers, k9_setfam_1(B)) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(B))))) )  => k3_funct_2(k5_numbers, k9_setfam_1(B), k2_setlim_1(B, C), A)=k5_prob_1(B, k9_setfam_1(B), k3_funct_2(k5_numbers, k9_setfam_1(B), k2_setlim_1(B, C), k2_nat_1(A, 1)), k3_funct_2(k5_numbers, k9_setfam_1(B), C, A))) ) ) ) ) ).
 - fof(d4_kurato_0, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k9_setfam_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(A))))) )  =>  (v3_prob_1(B) <=>  (! [C] :  (m1_subset_1(C, k5_numbers) => r1_tarski(k3_funct_2(k5_numbers, k9_setfam_1(A), B, C), k3_funct_2(k5_numbers, k9_setfam_1(A), B, k2_nat_1(C, 1)))) ) ) ) ) ) ).

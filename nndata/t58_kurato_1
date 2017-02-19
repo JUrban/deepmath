@@ -1,17 +1,17 @@
 C fof(t58_kurato_1, axiom, r1_xboole_0(k3_kurato_1(k3_topmetr, k6_kurato_1), k4_kurato_1(k3_topmetr, k6_kurato_1))).
 + fof(dt_k3_kurato_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => m1_subset_1(k3_kurato_1(A, B), k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A))))) ) ).
-+ fof(fc11_kurato_1, axiom, v2_tops_2(k3_kurato_1(k3_topmetr, k6_kurato_1), k3_topmetr)).
++ fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).
++ fof(dt_k4_kurato_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => m1_subset_1(k4_kurato_1(A, B), k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A))))) ) ).
 + fof(dt_k6_kurato_1, axiom, m1_subset_1(k6_kurato_1, k1_zfmisc_1(u1_struct_0(k3_topmetr)))).
 + fof(fc10_kurato_1, axiom, v1_setfam_1(k4_kurato_1(k3_topmetr, k6_kurato_1))).
-+ fof(dt_k4_kurato_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  => m1_subset_1(k4_kurato_1(A, B), k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A))))) ) ).
-+ fof(fc5_kurato_1, axiom, v3_setfam_1(k3_kurato_1(k3_topmetr, k6_kurato_1), u1_struct_0(k3_topmetr))).
-+ fof(fc9_kurato_1, axiom, v1_setfam_1(k3_kurato_1(k3_topmetr, k6_kurato_1))).
++ fof(fc11_kurato_1, axiom, v2_tops_2(k3_kurato_1(k3_topmetr, k6_kurato_1), k3_topmetr)).
 + fof(fc12_kurato_1, axiom, v1_tops_2(k4_kurato_1(k3_topmetr, k6_kurato_1), k3_topmetr)).
++ fof(fc2_topmetr, axiom,  ( ~ (v2_struct_0(k3_topmetr))  &  (v1_pre_topc(k3_topmetr) & v2_pre_topc(k3_topmetr)) ) ).
++ fof(fc5_kurato_1, axiom, v3_setfam_1(k3_kurato_1(k3_topmetr, k6_kurato_1), u1_struct_0(k3_topmetr))).
++ fof(fc6_kurato_1, axiom, v3_setfam_1(k4_kurato_1(k3_topmetr, k6_kurato_1), u1_struct_0(k3_topmetr))).
++ fof(fc9_kurato_1, axiom, v1_setfam_1(k3_kurato_1(k3_topmetr, k6_kurato_1))).
 + fof(symmetry_r1_xboole_0, axiom,  (! [A, B] :  (r1_xboole_0(A, B) => r1_xboole_0(B, A)) ) ).
 + fof(t57_kurato_1, axiom,  (! [A] :  ( (v1_setfam_1(A) &  (v3_setfam_1(A, u1_struct_0(k3_topmetr)) & m1_subset_1(A, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(k3_topmetr))))) )  =>  (! [B] :  ( (v1_setfam_1(B) &  (v3_setfam_1(B, u1_struct_0(k3_topmetr)) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(k3_topmetr))))) )  =>  ( (v1_tops_2(A, k3_topmetr) & v2_tops_2(B, k3_topmetr))  => r1_xboole_0(A, B)) ) ) ) ) ).
-+ fof(fc2_topmetr, axiom,  ( ~ (v2_struct_0(k3_topmetr))  &  (v1_pre_topc(k3_topmetr) & v2_pre_topc(k3_topmetr)) ) ).
-+ fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).
-+ fof(fc6_kurato_1, axiom, v3_setfam_1(k4_kurato_1(k3_topmetr, k6_kurato_1), u1_struct_0(k3_topmetr))).
 - fof(d4_kurato_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k4_kurato_1(A, B)=k4_enumset1(k3_subset_1(u1_struct_0(A), k2_pre_topc(A, B)), k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), k2_pre_topc(A, B)))), k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), k2_pre_topc(A, B)))))), k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), B))), k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), B))))), k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), B))))))))) ) ) ) ).
 - fof(d3_kurato_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k3_kurato_1(A, B)=k4_enumset1(k2_pre_topc(A, B), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), k2_pre_topc(A, B))), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), k2_pre_topc(A, B))))), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), B)), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), B)))), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), B)))))))) ) ) ) ).
 - fof(t5_kurato_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k2_kurato_1(A, B)=k2_xboole_0(k2_xboole_0(k2_tarski(B, k3_subset_1(u1_struct_0(A), B)), k3_kurato_1(A, B)), k4_kurato_1(A, B))) ) ) ) ).

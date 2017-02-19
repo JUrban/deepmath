@@ -1,24 +1,24 @@
 C fof(t34_group_7, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k2_group_1(k2_group_7(k1_tarski(1), k9_finseq_1(A)), k4_group_7(A, B))=k4_group_7(A, k2_group_1(A, B))) ) ) ) ).
-+ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
-+ fof(fc1_funct_1, axiom,  (! [A, B] : v1_funct_1(k1_tarski(k4_tarski(A, B)))) ).
-+ fof(t7_group_7, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) & v1_partfun1(C, A)) ) )  =>  (! [D] :  ( (v1_relat_1(D) &  (v4_relat_1(D, A) &  (v1_funct_1(D) &  (v1_partfun1(D, A) &  (v1_group_7(D) &  (v2_group_7(D, A) & v3_group_7(D, A)) ) ) ) ) )  =>  (! [E] :  (m1_subset_1(E, u1_struct_0(k2_group_7(A, D))) =>  ( (E=B &  (! [F] :  ~ ( (r2_hidden(F, A) &  (! [G] :  ( ( ~ (v2_struct_0(G))  &  (v2_group_1(G) &  (v3_group_1(G) & l3_algstr_0(G)) ) )  =>  (! [H] :  (m1_subset_1(H, u1_struct_0(G)) =>  ~ ( (G=k1_funct_1(D, F) &  (k1_funct_1(C, F)=k2_group_1(G, H) & H=k1_funct_1(B, F)) ) ) ) ) ) ) ) ) ) )  => C=k2_group_1(k2_group_7(A, D), E)) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k4_group_7, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  & m1_subset_1(B, u1_struct_0(A)))  => k4_group_7(A, B)=k5_finseq_1(B)) ) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(d2_partfun1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  =>  (v1_partfun1(B, A) <=> k1_relset_1(A, B)=A) ) ) ) ).
-+ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
-+ fof(d5_finseq_1, axiom,  (! [A] : k5_finseq_1(A)=k1_tarski(k4_tarski(1, A))) ).
-+ fof(t12_group_7, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_group_1(A) & l3_algstr_0(A)) )  =>  (v1_relat_1(k9_finseq_1(A)) &  (v4_relat_1(k9_finseq_1(A), k1_tarski(1)) &  (v1_funct_1(k9_finseq_1(A)) &  (v1_partfun1(k9_finseq_1(A), k1_tarski(1)) &  (v1_group_7(k9_finseq_1(A)) & v3_group_7(k9_finseq_1(A), k1_tarski(1))) ) ) ) ) ) ) ).
-+ fof(t11_group_7, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) & l3_algstr_0(A)) )  =>  (v1_relat_1(k9_finseq_1(A)) &  (v4_relat_1(k9_finseq_1(A), k1_tarski(1)) &  (v1_funct_1(k9_finseq_1(A)) &  (v1_partfun1(k9_finseq_1(A), k1_tarski(1)) &  (v1_group_7(k9_finseq_1(A)) & v2_group_7(k9_finseq_1(A), k1_tarski(1))) ) ) ) ) ) ) ).
-+ fof(dt_k2_group_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  & m1_subset_1(B, u1_struct_0(A)))  => m1_subset_1(k2_group_1(A, B), u1_struct_0(A))) ) ).
-+ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
-+ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
 + fof(d18_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (v4_relat_1(B, A) <=> r1_tarski(k9_xtuple_0(B), A)) ) ) ) ).
-+ fof(t10_group_7, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  =>  (v1_relat_1(k9_finseq_1(A)) &  (v4_relat_1(k9_finseq_1(A), k1_tarski(1)) &  (v1_funct_1(k9_finseq_1(A)) &  (v1_partfun1(k9_finseq_1(A), k1_tarski(1)) & v1_group_7(k9_finseq_1(A))) ) ) ) ) ) ).
-+ fof(dt_k4_group_7, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  & m1_subset_1(B, u1_struct_0(A)))  => m1_subset_1(k4_group_7(A, B), u1_struct_0(k2_group_7(k1_tarski(1), k9_finseq_1(A))))) ) ).
-+ fof(t2_finseq_1, axiom,  (k2_finseq_1(1)=k1_tarski(1) & k2_finseq_1(2)=k2_tarski(1, 2)) ).
-+ fof(fc5_relat_1, axiom,  (! [A, B] : v1_relat_1(k1_tarski(k4_tarski(A, B)))) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(d2_partfun1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  =>  (v1_partfun1(B, A) <=> k1_relset_1(A, B)=A) ) ) ) ).
++ fof(d5_finseq_1, axiom,  (! [A] : k5_finseq_1(A)=k1_tarski(k4_tarski(1, A))) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
 + fof(d8_finseq_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (B=k9_finseq_1(A) <=>  (k9_xtuple_0(B)=k2_finseq_1(1) & k1_funct_1(B, 1)=A) ) ) ) ) ).
++ fof(dt_k2_group_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  & m1_subset_1(B, u1_struct_0(A)))  => m1_subset_1(k2_group_1(A, B), u1_struct_0(A))) ) ).
++ fof(dt_k4_group_7, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  & m1_subset_1(B, u1_struct_0(A)))  => m1_subset_1(k4_group_7(A, B), u1_struct_0(k2_group_7(k1_tarski(1), k9_finseq_1(A))))) ) ).
++ fof(fc1_funct_1, axiom,  (! [A, B] : v1_funct_1(k1_tarski(k4_tarski(A, B)))) ).
++ fof(fc5_relat_1, axiom,  (! [A, B] : v1_relat_1(k1_tarski(k4_tarski(A, B)))) ).
++ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
++ fof(redefinition_k4_group_7, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  & m1_subset_1(B, u1_struct_0(A)))  => k4_group_7(A, B)=k5_finseq_1(B)) ) ).
++ fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t10_group_7, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  =>  (v1_relat_1(k9_finseq_1(A)) &  (v4_relat_1(k9_finseq_1(A), k1_tarski(1)) &  (v1_funct_1(k9_finseq_1(A)) &  (v1_partfun1(k9_finseq_1(A), k1_tarski(1)) & v1_group_7(k9_finseq_1(A))) ) ) ) ) ) ).
++ fof(t11_group_7, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) & l3_algstr_0(A)) )  =>  (v1_relat_1(k9_finseq_1(A)) &  (v4_relat_1(k9_finseq_1(A), k1_tarski(1)) &  (v1_funct_1(k9_finseq_1(A)) &  (v1_partfun1(k9_finseq_1(A), k1_tarski(1)) &  (v1_group_7(k9_finseq_1(A)) & v2_group_7(k9_finseq_1(A), k1_tarski(1))) ) ) ) ) ) ) ).
++ fof(t12_group_7, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v3_group_1(A) & l3_algstr_0(A)) )  =>  (v1_relat_1(k9_finseq_1(A)) &  (v4_relat_1(k9_finseq_1(A), k1_tarski(1)) &  (v1_funct_1(k9_finseq_1(A)) &  (v1_partfun1(k9_finseq_1(A), k1_tarski(1)) &  (v1_group_7(k9_finseq_1(A)) & v3_group_7(k9_finseq_1(A), k1_tarski(1))) ) ) ) ) ) ) ).
++ fof(t2_finseq_1, axiom,  (k2_finseq_1(1)=k1_tarski(1) & k2_finseq_1(2)=k2_tarski(1, 2)) ).
++ fof(t7_group_7, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, A) &  (v1_funct_1(C) & v1_partfun1(C, A)) ) )  =>  (! [D] :  ( (v1_relat_1(D) &  (v4_relat_1(D, A) &  (v1_funct_1(D) &  (v1_partfun1(D, A) &  (v1_group_7(D) &  (v2_group_7(D, A) & v3_group_7(D, A)) ) ) ) ) )  =>  (! [E] :  (m1_subset_1(E, u1_struct_0(k2_group_7(A, D))) =>  ( (E=B &  (! [F] :  ~ ( (r2_hidden(F, A) &  (! [G] :  ( ( ~ (v2_struct_0(G))  &  (v2_group_1(G) &  (v3_group_1(G) & l3_algstr_0(G)) ) )  =>  (! [H] :  (m1_subset_1(H, u1_struct_0(G)) =>  ~ ( (G=k1_funct_1(D, F) &  (k1_funct_1(C, F)=k2_group_1(G, H) & H=k1_funct_1(B, F)) ) ) ) ) ) ) ) ) ) )  => C=k2_group_1(k2_group_7(A, D), E)) ) ) ) ) ) ) ) ) ) ).
 - fof(t31_group_7, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) & l3_algstr_0(A)) )  => k1_group_1(k2_group_7(k1_tarski(1), k9_finseq_1(A)))=k4_group_7(A, k1_group_1(A))) ) ).
 - fof(t28_group_7, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) => k6_algstr_0(k2_group_7(k1_tarski(1), k9_finseq_1(A)), k4_group_7(A, B), k4_group_7(A, C))=k4_group_7(A, k6_algstr_0(A, B, C))) ) ) ) ) ) ).
 - fof(involutiveness_k2_group_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  & m1_subset_1(B, u1_struct_0(A)))  => k2_group_1(A, k2_group_1(A, B))=B) ) ).

@@ -1,9 +1,9 @@
 C fof(t6_taxonom1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  ( (r1_relat_2(D, A) &  (r1_rewrite1(D, B, C) & r2_hidden(B, A)) )  => r2_hidden(k4_tarski(B, C), k18_finseq_1(D))) ) ) ) ) ) ).
-+ fof(dt_k18_finseq_1, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k18_finseq_1(A))) ) ).
-+ fof(t5_taxonom1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (r1_relat_2(B, A) => r1_relat_2(k18_finseq_1(B), A)) ) ) ) ).
 + fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
 + fof(d1_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r1_relat_2(A, B) <=>  (! [C] :  (r2_hidden(C, B) => r2_hidden(k4_tarski(C, C), A)) ) ) ) ) ) ).
++ fof(dt_k18_finseq_1, axiom,  (! [A] :  (v1_relat_1(A) => v1_relat_1(k18_finseq_1(A))) ) ).
 + fof(t20_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) <=>  (B=C | r2_hidden(k4_tarski(B, C), k18_finseq_1(A))) ) ) ) ) ) ).
++ fof(t5_taxonom1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (r1_relat_2(B, A) => r1_relat_2(k18_finseq_1(B), A)) ) ) ) ).
 - fof(t13_orders_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (r1_relat_2(B, A) =>  (k1_relset_1(A, B)=A & k1_relat_1(B)=A) ) ) ) ) ).
 - fof(t21_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_rewrite1(A, B, C) <=> r1_rewrite1(k18_finseq_1(A), B, C)) ) ) ) ) ).
 - fof(t18_lang1, axiom,  (! [A] :  (v1_relat_1(A) => r1_tarski(A, k18_finseq_1(A))) ) ).

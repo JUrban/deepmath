@@ -1,11 +1,11 @@
 C fof(t58_setwiseo, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k5_finsub_1(A)) => k10_setwiseo(A, A, B, k11_setwiseo(A))=B) ) ) ) ).
-+ fof(t9_setwiseo, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k5_finsub_1(A)) =>  (! [C] :  (r2_hidden(C, B) => m1_subset_1(C, A)) ) ) ) ) ) ).
-+ fof(t57_setwiseo, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, A, k5_finsub_1(B)) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k5_finsub_1(B))))) )  =>  (! [D] :  (m1_subset_1(D, k5_finsub_1(A)) =>  (! [E] :  (r2_hidden(E, k10_setwiseo(A, B, D, C)) <=>  (? [F] :  (m1_subset_1(F, A) &  (r2_hidden(F, D) & r2_hidden(E, k3_funct_2(A, k5_finsub_1(B), C, F))) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(t55_setwiseo, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (! [C] :  (m1_subset_1(C, A) =>  (r2_hidden(B, k3_funct_2(A, k5_finsub_1(A), k11_setwiseo(A), C)) <=> B=C) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(t1_tarski, axiom,  (! [A] :  (! [B] :  ( (! [C] :  (r2_hidden(C, A) <=> r2_hidden(C, B)) )  => A=B) ) ) ).
 + fof(dt_k11_setwiseo, axiom,  (! [A] :  (v1_funct_1(k11_setwiseo(A)) &  (v1_funct_2(k11_setwiseo(A), A, k5_finsub_1(A)) & m1_subset_1(k11_setwiseo(A), k1_zfmisc_1(k2_zfmisc_1(A, k5_finsub_1(A))))) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t1_tarski, axiom,  (! [A] :  (! [B] :  ( (! [C] :  (r2_hidden(C, A) <=> r2_hidden(C, B)) )  => A=B) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t55_setwiseo, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (! [C] :  (m1_subset_1(C, A) =>  (r2_hidden(B, k3_funct_2(A, k5_finsub_1(A), k11_setwiseo(A), C)) <=> B=C) ) ) ) ) ) ).
++ fof(t57_setwiseo, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (! [C] :  ( (v1_funct_1(C) &  (v1_funct_2(C, A, k5_finsub_1(B)) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k5_finsub_1(B))))) )  =>  (! [D] :  (m1_subset_1(D, k5_finsub_1(A)) =>  (! [E] :  (r2_hidden(E, k10_setwiseo(A, B, D, C)) <=>  (? [F] :  (m1_subset_1(F, A) &  (r2_hidden(F, D) & r2_hidden(E, k3_funct_2(A, k5_finsub_1(B), C, F))) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(t9_setwiseo, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k5_finsub_1(A)) =>  (! [C] :  (r2_hidden(C, B) => m1_subset_1(C, A)) ) ) ) ) ) ).
 - fof(t54_setwiseo, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_finsub_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_finsub_1(A))))) )  =>  (r2_funct_2(A, k5_finsub_1(A), B, k11_setwiseo(A)) <=>  (! [C] :  (m1_subset_1(C, A) => k3_funct_2(A, k5_finsub_1(A), B, C)=k1_tarski(C)) ) ) ) ) ) ) ).
 - fof(d5_setwiseo, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (! [C] :  (m1_subset_1(C, k5_finsub_1(A)) =>  (! [D] :  ( (v1_funct_1(D) &  (v1_funct_2(D, A, k5_finsub_1(B)) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, k5_finsub_1(B))))) )  => k10_setwiseo(A, B, C, D)=k7_setwiseo(A, k5_finsub_1(B), k9_setwiseo(B), C, D)) ) ) ) ) ) ) ).
 - fof(d6_setwiseo, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, A, k5_finsub_1(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, k5_finsub_1(A))))) )  =>  (B=k11_setwiseo(A) <=>  (! [C] :  (r2_hidden(C, A) => k1_funct_1(B, C)=k1_tarski(C)) ) ) ) ) ) ).

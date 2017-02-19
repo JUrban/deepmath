@@ -1,12 +1,12 @@
 C fof(t186_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) =>  (! [D] :  (m2_subset_1(D, k5_numbers, k1_zf_lang) =>  ( ~ (B=C)  => k6_zf_lang1(k6_zf_lang1(A, B, C), B, D)=k6_zf_lang1(A, B, C)) ) ) ) ) ) ) ) ) ).
-+ fof(t182_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) =>  ( ~ (r2_hidden(B, k4_zf_lang1(A)))  => k6_zf_lang1(A, B, C)=A) ) ) ) ) ) ) ).
-+ fof(dt_k6_zf_lang1, axiom,  (! [A, B, C] :  ( ( (v1_zf_lang(A) & m1_finseq_1(A, k5_numbers))  &  (m1_subset_1(B, k1_zf_lang) & m1_subset_1(C, k1_zf_lang)) )  =>  (v1_zf_lang(k6_zf_lang1(A, B, C)) & m2_finseq_1(k6_zf_lang1(A, B, C), k5_numbers)) ) ) ).
-+ fof(t184_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) =>  ~ ( ( ~ (B=C)  & r2_hidden(B, k4_zf_lang1(k6_zf_lang1(A, B, C)))) ) ) ) ) ) ) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(fc1_zf_lang, axiom,  ~ (v1_xboole_0(k1_zf_lang)) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(dt_k1_zf_lang, axiom, m1_subset_1(k1_zf_lang, k1_zfmisc_1(k5_numbers))).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(dt_k1_zf_lang, axiom, m1_subset_1(k1_zf_lang, k1_zfmisc_1(k5_numbers))).
++ fof(dt_k6_zf_lang1, axiom,  (! [A, B, C] :  ( ( (v1_zf_lang(A) & m1_finseq_1(A, k5_numbers))  &  (m1_subset_1(B, k1_zf_lang) & m1_subset_1(C, k1_zf_lang)) )  =>  (v1_zf_lang(k6_zf_lang1(A, B, C)) & m2_finseq_1(k6_zf_lang1(A, B, C), k5_numbers)) ) ) ).
++ fof(fc1_zf_lang, axiom,  ~ (v1_xboole_0(k1_zf_lang)) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t182_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) =>  ( ~ (r2_hidden(B, k4_zf_lang1(A)))  => k6_zf_lang1(A, B, C)=A) ) ) ) ) ) ) ).
++ fof(t184_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) =>  (! [C] :  (m2_subset_1(C, k5_numbers, k1_zf_lang) =>  ~ ( ( ~ (B=C)  & r2_hidden(B, k4_zf_lang1(k6_zf_lang1(A, B, C)))) ) ) ) ) ) ) ) ).
 - fof(redefinition_k6_zf_lang1, axiom,  (! [A, B, C] :  ( ( (v1_zf_lang(A) & m1_finseq_1(A, k5_numbers))  &  (m1_subset_1(B, k1_zf_lang) & m1_subset_1(C, k1_zf_lang)) )  => k6_zf_lang1(A, B, C)=k5_zf_lang1(A, B, C)) ) ).
 - fof(t183_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m2_subset_1(B, k5_numbers, k1_zf_lang) => k6_zf_lang1(A, B, B)=A) ) ) ) ).
 - fof(t163_zf_lang1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  ( (v1_zf_lang(B) & m2_finseq_1(B, k5_numbers))  =>  (! [C] :  ( (v1_zf_lang(C) & m2_finseq_1(C, k5_numbers))  =>  (! [D] :  ( (v1_zf_lang(D) & m2_finseq_1(D, k5_numbers))  =>  (! [E] :  (m2_subset_1(E, k5_numbers, k1_zf_lang) =>  (! [F] :  (m2_subset_1(F, k5_numbers, k1_zf_lang) =>  (k12_zf_lang(A, B)=k6_zf_lang1(k12_zf_lang(C, D), E, F) <=>  (A=k6_zf_lang1(C, E, F) & B=k6_zf_lang1(D, E, F)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

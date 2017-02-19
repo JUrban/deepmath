@@ -1,8 +1,8 @@
 C fof(t42_facirc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] : k2_msafree2(k5_circcomb(A, k11_finseq_1(B, C, D)))=k1_enumset1(B, C, D)) ) ) ) ).
++ fof(fc11_finseq_1, axiom,  (! [A, B, C] : v1_finseq_1(k11_finseq_1(A, B, C))) ).
++ fof(fc9_finseq_1, axiom,  (! [A, B, C] :  (v1_relat_1(k11_finseq_1(A, B, C)) & v1_funct_1(k11_finseq_1(A, B, C))) ) ).
 + fof(l15_finseq_2, axiom,  (! [A] :  (! [B] :  (! [C] : k10_xtuple_0(k11_finseq_1(A, B, C))=k1_enumset1(A, B, C)) ) ) ).
 + fof(t42_circcomb, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (k2_msafree2(k5_circcomb(A, B))=k10_xtuple_0(B) & k3_msafree2(k5_circcomb(A, B))=k1_tarski(k4_tarski(B, A))) ) ) ) ).
-+ fof(fc9_finseq_1, axiom,  (! [A, B, C] :  (v1_relat_1(k11_finseq_1(A, B, C)) & v1_funct_1(k11_finseq_1(A, B, C))) ) ).
-+ fof(fc11_finseq_1, axiom,  (! [A, B, C] : v1_finseq_1(k11_finseq_1(A, B, C))) ).
 - fof(t40_facirc_1, axiom,  (! [A] :  (! [B] :  (! [C] : k2_msafree2(k5_circcomb(A, k10_finseq_1(B, C)))=k2_tarski(B, C)) ) ) ).
 - fof(fc2_facirc_1, axiom,  (! [A, B] :  ( ( ~ (v1_xtuple_0(A))  &  ~ (v1_xtuple_0(B)) )  =>  ~ (v1_facirc_1(k2_tarski(A, B))) ) ) ).
 - fof(fc14_facirc_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v2_facirc_1(A)) )  =>  ~ (v1_facirc_1(k10_xtuple_0(A))) ) ) ).

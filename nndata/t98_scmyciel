@@ -1,10 +1,10 @@
 C fof(t98_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (! [C] :  ~ ( ( ~ (B=C)  & r2_hidden(k2_tarski(k4_tarski(B, k3_tarski(A)), k4_tarski(C, k3_tarski(A))), k12_scmyciel(A))) ) ) ) ) ) ).
-+ fof(t97_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (! [C] :  ~ (r2_hidden(k2_tarski(k4_tarski(B, k3_tarski(A)), k4_tarski(C, k3_tarski(A))), k1_scmyciel(k12_scmyciel(A)))) ) ) ) ) ).
-+ fof(t12_scmyciel, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(k2_tarski(B, C), A) =>  (B=C | r2_hidden(k2_tarski(B, C), k1_scmyciel(A))) ) ) ) ) ).
-+ fof(t29_enumset1, axiom,  (! [A] : k2_tarski(A, A)=k1_tarski(A)) ).
-+ fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
-+ fof(l1_finseq_6, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k10_finseq_1(A, B))=k2_tarski(A, B)) ) ).
 + fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(l1_finseq_6, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k10_finseq_1(A, B))=k2_tarski(A, B)) ) ).
++ fof(t12_scmyciel, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(k2_tarski(B, C), A) =>  (B=C | r2_hidden(k2_tarski(B, C), k1_scmyciel(A))) ) ) ) ) ).
++ fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
++ fof(t29_enumset1, axiom,  (! [A] : k2_tarski(A, A)=k1_tarski(A)) ).
++ fof(t97_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (! [C] :  ~ (r2_hidden(k2_tarski(k4_tarski(B, k3_tarski(A)), k4_tarski(C, k3_tarski(A))), k1_scmyciel(k12_scmyciel(A)))) ) ) ) ) ).
 - fof(t96_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (r2_hidden(B, k3_tarski(A)) => r2_hidden(k2_tarski(k4_tarski(B, k3_tarski(A)), k3_tarski(A)), k12_scmyciel(A))) ) ) ) ).
 - fof(t85_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (r2_hidden(B, k3_tarski(k12_scmyciel(A))) <=>  ~ ( ( ~ (r2_hidden(B, k3_tarski(A)))  &  ( (! [C] :  ~ ( (r2_hidden(C, k3_tarski(A)) & B=k4_tarski(C, k3_tarski(A))) ) )  &  ~ (B=k3_tarski(A)) ) ) ) ) ) ) ) ).
 - fof(t90_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (r2_hidden(B, k1_scmyciel(k12_scmyciel(A))) <=>  ~ ( ( ~ (r2_hidden(B, k1_scmyciel(A)))  &  ( (! [C] :  (m1_subset_1(C, k3_tarski(A)) =>  (! [D] :  (m1_subset_1(D, k3_tarski(A)) =>  ~ ( (B=k2_tarski(C, k4_tarski(D, k3_tarski(A))) & r2_hidden(k2_tarski(C, D), k1_scmyciel(A))) ) ) ) ) )  &  (! [C] :  (m1_subset_1(C, k3_tarski(A)) =>  ~ ( (B=k2_tarski(k3_tarski(A), k4_tarski(C, k3_tarski(A))) & r2_hidden(C, k3_tarski(A))) ) ) ) ) ) ) ) ) ) ) ).

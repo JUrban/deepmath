@@ -1,20 +1,20 @@
 C fof(t4_polyeq_4, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  ~ ( ( ~ (r1_xxreal_0(A, k6_numbers))  &  (v1_abian(C) &  (r1_xxreal_0(1, C) &  (k2_newton(B, C)=A &  ( ~ (B=k2_power(C, A))  &  ~ (B=k4_xcmplx_0(k2_power(C, A))) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k2_newton, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v7_ordinal1(B))  => k2_newton(A, B)=k1_newton(A, B)) ) ).
-+ fof(t4_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( ~ ( ( ~ ( (r1_xxreal_0(1, B) & r1_xxreal_0(k6_numbers, A)) )  & v1_abian(B)) )  =>  (k1_newton(k1_power(B, A), B)=A & k1_power(B, k1_newton(A, B))=A) ) ) ) ) ) ).
-+ fof(redefinition_k2_power, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k1_numbers))  => k2_power(A, B)=k1_power(A, B)) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(cc1_real_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
-+ fof(t58_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ ( ( ~ (r1_xxreal_0(k6_numbers, A))  & r1_xxreal_0(k4_xcmplx_0(A), k6_numbers)) )  &  ~ ( ( ~ (r1_xxreal_0(k4_xcmplx_0(A), k6_numbers))  & r1_xxreal_0(k6_numbers, A)) ) ) ) ) ).
-+ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
-+ fof(involutiveness_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => k4_xcmplx_0(k4_xcmplx_0(A))=A) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(t1_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (v1_abian(B) => k1_newton(k4_xcmplx_0(A), B)=k1_newton(A, B)) ) ) ) ) ).
-+ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
-+ fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
 + fof(connectedness_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  =>  (r1_xxreal_0(A, B) | r1_xxreal_0(B, A)) ) ) ).
++ fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
++ fof(involutiveness_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => k4_xcmplx_0(k4_xcmplx_0(A))=A) ) ).
++ fof(rc4_xreal_0, axiom,  (? [A] :  (v1_xboole_0(A) &  (v1_xcmplx_0(A) &  (v1_xxreal_0(A) & v1_xreal_0(A)) ) ) ) ).
++ fof(redefinition_k2_newton, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v7_ordinal1(B))  => k2_newton(A, B)=k1_newton(A, B)) ) ).
++ fof(redefinition_k2_power, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k1_numbers))  => k2_power(A, B)=k1_power(A, B)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t1_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (v1_abian(B) => k1_newton(k4_xcmplx_0(A), B)=k1_newton(A, B)) ) ) ) ) ).
++ fof(t4_power, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v7_ordinal1(B) =>  ( ~ ( ( ~ ( (r1_xxreal_0(1, B) & r1_xxreal_0(k6_numbers, A)) )  & v1_abian(B)) )  =>  (k1_newton(k1_power(B, A), B)=A & k1_power(B, k1_newton(A, B))=A) ) ) ) ) ) ).
++ fof(t58_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  ( ~ ( ( ~ (r1_xxreal_0(k6_numbers, A))  & r1_xxreal_0(k4_xcmplx_0(A), k6_numbers)) )  &  ~ ( ( ~ (r1_xxreal_0(k4_xcmplx_0(A), k6_numbers))  & r1_xxreal_0(k6_numbers, A)) ) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 - fof(t28_series_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k1_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  ( ( (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (r1_xxreal_0(k6_numbers, k3_funct_2(k5_numbers, k1_numbers, A, C)) & k3_funct_2(k5_numbers, k1_numbers, B, C)=k2_power(C, k3_funct_2(k5_numbers, k1_numbers, A, C))) ) )  & v2_comseq_2(B))  =>  (r1_xxreal_0(1, k2_seq_2(B)) | v1_series_1(A)) ) ) ) ) ) ).
 - fof(t30_series_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k1_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  ~ ( ( (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (r1_xxreal_0(k6_numbers, k3_funct_2(k5_numbers, k1_numbers, A, C)) & k3_funct_2(k5_numbers, k1_numbers, B, C)=k2_power(C, k3_funct_2(k5_numbers, k1_numbers, A, C))) ) )  &  (v2_comseq_2(B) &  ( ~ (r1_xxreal_0(k2_seq_2(B), 1))  & v1_series_1(A)) ) ) ) ) ) ) ) ).
 - fof(t29_series_1, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k5_numbers, k1_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k5_numbers, k1_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k1_numbers)))) )  =>  ~ ( ( (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (r1_xxreal_0(k6_numbers, k3_funct_2(k5_numbers, k1_numbers, A, C)) & k3_funct_2(k5_numbers, k1_numbers, B, C)=k2_power(C, k3_funct_2(k5_numbers, k1_numbers, A, C))) ) )  &  ( (? [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (r1_xxreal_0(C, D) => r1_xxreal_0(1, k3_funct_2(k5_numbers, k1_numbers, B, D))) ) ) ) )  & v1_series_1(A)) ) ) ) ) ) ) ).

@@ -1,27 +1,27 @@
 C fof(t9_scmpds_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, u1_struct_0(k1_scmpds_2)) &  (v1_funct_1(A) &  (v5_funct_1(A, k2_memstr_0(2, k1_scmpds_2)) & v1_partfun1(A, u1_struct_0(k1_scmpds_2))) ) ) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, u1_struct_0(k1_scmpds_2)) &  (v1_funct_1(B) &  (v5_funct_1(B, k2_memstr_0(2, k1_scmpds_2)) & v1_partfun1(B, u1_struct_0(k1_scmpds_2))) ) ) )  =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (! [D] :  (m1_subset_1(D, k5_numbers) =>  ~ ( (k5_memstr_0(2, k1_scmpds_2, A)=k5_memstr_0(2, k1_scmpds_2, B) &  ( ~ (C=D)  & k17_scmpds_2(A, C)=k17_scmpds_2(B, D)) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(fc2_scmpds_2, axiom,  (v2_memstr_0(k1_scmpds_2, 2) &  (v3_memstr_0(k1_scmpds_2, 2) & v1_extpro_1(k1_scmpds_2, 2)) ) ).
-+ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(fc1_scmpds_2, axiom,  ( ~ (v2_struct_0(k1_scmpds_2))  & v1_extpro_1(k1_scmpds_2, 2)) ).
-+ fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
-+ fof(redefinition_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k2_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
-+ fof(cc4_card_3, axiom,  (! [A] :  (v5_card_3(A) =>  ( ~ (v1_finset_1(A))  & v4_card_3(A)) ) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(dt_l1_extpro_1, axiom,  (! [A] :  (! [B] :  (l1_extpro_1(B, A) =>  (l1_memstr_0(B, A) & l1_compos_1(B)) ) ) ) ).
-+ fof(cc7_finset_1, axiom,  (! [A] :  (v5_finset_1(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_finset_1(B)) ) ) ) ).
-+ fof(t8_scmpds_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, u1_struct_0(k1_scmpds_2)) &  (v1_funct_1(A) &  (v5_funct_1(A, k2_memstr_0(2, k1_scmpds_2)) & v1_partfun1(A, u1_struct_0(k1_scmpds_2))) ) ) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, u1_struct_0(k1_scmpds_2)) &  (v1_funct_1(B) &  (v5_funct_1(B, k2_memstr_0(2, k1_scmpds_2)) & v1_partfun1(B, u1_struct_0(k1_scmpds_2))) ) ) )  =>  (! [C] :  (v1_int_1(C) =>  (! [D] :  (v1_int_1(D) =>  (! [E] :  (v1_int_1(E) =>  ~ ( (k5_memstr_0(2, k1_scmpds_2, A)=k5_memstr_0(2, k1_scmpds_2, B) &  ( ~ (C=D)  &  (E=k5_memstr_0(2, k1_scmpds_2, A) &  (r1_xxreal_0(k6_numbers, k2_xcmplx_0(E, C)) &  (r1_xxreal_0(k6_numbers, k2_xcmplx_0(E, D)) & k17_scmpds_2(A, C)=k17_scmpds_2(B, D)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(fc10_card_3, axiom, v5_card_3(k4_ordinal1)).
-+ fof(t2_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) => r1_xxreal_0(k6_numbers, A)) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(dt_k5_memstr_0, axiom,  (! [A, B, C] :  ( ( ~ (v1_setfam_1(A))  &  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_memstr_0(B, A)) ) )  &  (v1_relat_1(C) &  (v4_relat_1(C, u1_struct_0(B)) &  (v1_funct_1(C) & v5_funct_1(C, k2_memstr_0(A, B))) ) ) ) )  => m2_subset_1(k5_memstr_0(A, B, C), k1_numbers, k5_numbers)) ) ).
-+ fof(dt_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => m2_subset_1(k2_nat_1(A, B), k1_numbers, k5_numbers)) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(cc1_ami_3, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  =>  ( ~ (v1_xboole_0(A))  &  (v7_ordinal1(A) &  ~ (v1_setfam_1(A)) ) ) ) ) ).
-+ fof(fc31_finset_1, axiom,  (! [A] :  (v1_finset_1(A) => v5_finset_1(k1_zfmisc_1(A))) ) ).
-+ fof(spc2_boole, axiom,  ~ (v1_xboole_0(2)) ).
-+ fof(dt_k1_scmpds_2, axiom,  (v1_extpro_1(k1_scmpds_2, 2) & l1_extpro_1(k1_scmpds_2, 2)) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(cc1_finset_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_finset_1(A)) ) ).
 + fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
++ fof(cc4_card_3, axiom,  (! [A] :  (v5_card_3(A) =>  ( ~ (v1_finset_1(A))  & v4_card_3(A)) ) ) ).
++ fof(cc7_finset_1, axiom,  (! [A] :  (v5_finset_1(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_finset_1(B)) ) ) ) ).
++ fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(dt_k1_scmpds_2, axiom,  (v1_extpro_1(k1_scmpds_2, 2) & l1_extpro_1(k1_scmpds_2, 2)) ).
++ fof(dt_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => m2_subset_1(k2_nat_1(A, B), k1_numbers, k5_numbers)) ) ).
++ fof(dt_k5_memstr_0, axiom,  (! [A, B, C] :  ( ( ~ (v1_setfam_1(A))  &  ( ( ~ (v2_struct_0(B))  &  (v2_memstr_0(B, A) &  (v3_memstr_0(B, A) & l1_memstr_0(B, A)) ) )  &  (v1_relat_1(C) &  (v4_relat_1(C, u1_struct_0(B)) &  (v1_funct_1(C) & v5_funct_1(C, k2_memstr_0(A, B))) ) ) ) )  => m2_subset_1(k5_memstr_0(A, B, C), k1_numbers, k5_numbers)) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(dt_l1_extpro_1, axiom,  (! [A] :  (! [B] :  (l1_extpro_1(B, A) =>  (l1_memstr_0(B, A) & l1_compos_1(B)) ) ) ) ).
++ fof(fc10_card_3, axiom, v5_card_3(k4_ordinal1)).
++ fof(fc1_scmpds_2, axiom,  ( ~ (v2_struct_0(k1_scmpds_2))  & v1_extpro_1(k1_scmpds_2, 2)) ).
++ fof(fc2_scmpds_2, axiom,  (v2_memstr_0(k1_scmpds_2, 2) &  (v3_memstr_0(k1_scmpds_2, 2) & v1_extpro_1(k1_scmpds_2, 2)) ) ).
++ fof(fc31_finset_1, axiom,  (! [A] :  (v1_finset_1(A) => v5_finset_1(k1_zfmisc_1(A))) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => k2_nat_1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(spc2_boole, axiom,  ~ (v1_xboole_0(2)) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t2_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) => r1_xxreal_0(k6_numbers, A)) ) ).
++ fof(t8_scmpds_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, u1_struct_0(k1_scmpds_2)) &  (v1_funct_1(A) &  (v5_funct_1(A, k2_memstr_0(2, k1_scmpds_2)) & v1_partfun1(A, u1_struct_0(k1_scmpds_2))) ) ) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, u1_struct_0(k1_scmpds_2)) &  (v1_funct_1(B) &  (v5_funct_1(B, k2_memstr_0(2, k1_scmpds_2)) & v1_partfun1(B, u1_struct_0(k1_scmpds_2))) ) ) )  =>  (! [C] :  (v1_int_1(C) =>  (! [D] :  (v1_int_1(D) =>  (! [E] :  (v1_int_1(E) =>  ~ ( (k5_memstr_0(2, k1_scmpds_2, A)=k5_memstr_0(2, k1_scmpds_2, B) &  ( ~ (C=D)  &  (E=k5_memstr_0(2, k1_scmpds_2, A) &  (r1_xxreal_0(k6_numbers, k2_xcmplx_0(E, C)) &  (r1_xxreal_0(k6_numbers, k2_xcmplx_0(E, D)) & k17_scmpds_2(A, C)=k17_scmpds_2(B, D)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(d18_scmpds_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v4_relat_1(A, u1_struct_0(k1_scmpds_2)) &  (v1_funct_1(A) &  (v5_funct_1(A, k2_memstr_0(2, k1_scmpds_2)) & v1_partfun1(A, u1_struct_0(k1_scmpds_2))) ) ) )  =>  (! [B] :  (v1_int_1(B) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  (C=k17_scmpds_2(A, B) <=>  (? [D] :  (m1_subset_1(D, k5_numbers) &  (D=k5_memstr_0(2, k1_scmpds_2, A) & C=k1_int_2(k2_xcmplx_0(D, B))) ) ) ) ) ) ) ) ) ) ).
 - fof(dt_k17_scmpds_2, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) &  (v4_relat_1(A, u1_struct_0(k1_scmpds_2)) &  (v1_funct_1(A) &  (v5_funct_1(A, k2_memstr_0(2, k1_scmpds_2)) & v1_partfun1(A, u1_struct_0(k1_scmpds_2))) ) ) )  & v1_int_1(B))  => m1_subset_1(k17_scmpds_2(A, B), k5_numbers)) ) ).
 - fof(t1_scmpds_3, axiom,  (! [A] :  (v1_int_1(A) =>  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, u1_struct_0(k1_scmpds_2)) &  (v1_funct_1(B) &  (v5_funct_1(B, k2_memstr_0(2, k1_scmpds_2)) & v1_partfun1(B, u1_struct_0(k1_scmpds_2))) ) ) )  =>  (! [C] :  ( (v1_relat_1(C) &  (v4_relat_1(C, u1_struct_0(k1_scmpds_2)) &  (v1_funct_1(C) &  (v5_funct_1(C, k2_memstr_0(2, k1_scmpds_2)) & v1_partfun1(C, u1_struct_0(k1_scmpds_2))) ) ) )  =>  (k5_memstr_0(2, k1_scmpds_2, B)=k5_memstr_0(2, k1_scmpds_2, C) => k17_scmpds_2(B, A)=k17_scmpds_2(C, A)) ) ) ) ) ) ) ).

@@ -1,18 +1,18 @@
 C fof(t3_graph_4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (k1_graph_4(A, k1_xboole_0)=k1_xboole_0 & k2_graph_4(A, k1_xboole_0)=k1_xboole_0) ) ) ).
-+ fof(fraenkel_a_2_1_graph_4, axiom,  (! [A, B, C] :  ( ( ~ (v2_struct_0(B))  & l1_graph_1(B))  =>  (r2_hidden(A, a_2_1_graph_4(B, C)) <=>  (? [D] :  (m1_subset_1(D, u1_struct_0(B)) &  (A=D &  (? [E] :  (m1_subset_1(E, u4_struct_0(B)) &  (r2_hidden(E, C) & D=k1_funct_1(u2_graph_1(B), E)) ) ) ) ) ) ) ) ) ).
 + fof(cc7_card_1, axiom,  (! [A] :  (v3_card_1(A, k1_xboole_0) => v1_xboole_0(A)) ) ).
++ fof(cc7_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v7_ordinal1(A)) ) ).
 + fof(d3_graph_4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] : k1_graph_4(A, B)=a_2_0_graph_4(A, B)) ) ) ).
 + fof(d4_graph_4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] : k2_graph_4(A, B)=a_2_1_graph_4(A, B)) ) ) ).
-+ fof(cc7_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v7_ordinal1(A)) ) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 + fof(dt_o_1_0_graph_4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  => m1_subset_1(o_1_0_graph_4(A), k1_graph_4(A, k1_xboole_0))) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
-+ fof(rc7_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (? [B] :  (v1_relat_1(B) &  (v4_relat_1(B, k5_numbers) &  (v1_funct_1(B) &  (v1_finset_1(B) &  (v3_card_1(B, A) &  (v1_finseq_1(B) & v2_finseq_1(B)) ) ) ) ) ) ) ) ) ).
 + fof(dt_o_1_1_graph_4, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  => m1_subset_1(o_1_1_graph_4(A), k2_graph_4(A, k1_xboole_0))) ) ).
-+ fof(rc1_xboole_0, axiom,  (? [A] : v1_xboole_0(A)) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
 + fof(fraenkel_a_2_0_graph_4, axiom,  (! [A, B, C] :  ( ( ~ (v2_struct_0(B))  & l1_graph_1(B))  =>  (r2_hidden(A, a_2_0_graph_4(B, C)) <=>  (? [D] :  (m1_subset_1(D, u1_struct_0(B)) &  (A=D &  (? [E] :  (m1_subset_1(E, u4_struct_0(B)) &  (r2_hidden(E, C) & D=k1_funct_1(u1_graph_1(B), E)) ) ) ) ) ) ) ) ) ).
++ fof(fraenkel_a_2_1_graph_4, axiom,  (! [A, B, C] :  ( ( ~ (v2_struct_0(B))  & l1_graph_1(B))  =>  (r2_hidden(A, a_2_1_graph_4(B, C)) <=>  (? [D] :  (m1_subset_1(D, u1_struct_0(B)) &  (A=D &  (? [E] :  (m1_subset_1(E, u4_struct_0(B)) &  (r2_hidden(E, C) & D=k1_funct_1(u2_graph_1(B), E)) ) ) ) ) ) ) ) ) ).
++ fof(rc1_xboole_0, axiom,  (? [A] : v1_xboole_0(A)) ).
++ fof(rc7_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (? [B] :  (v1_relat_1(B) &  (v4_relat_1(B, k5_numbers) &  (v1_funct_1(B) &  (v1_finset_1(B) &  (v3_card_1(B, A) &  (v1_finseq_1(B) & v2_finseq_1(B)) ) ) ) ) ) ) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
++ fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
 - fof(t32_graph_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => r1_graph_2(A, k12_finseq_1(u1_struct_0(A), B), k1_xboole_0)) ) ) ) ).
 - fof(l15_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  => m1_graph_1(k1_xboole_0, A)) ) ).
 - fof(redefinition_m2_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  (m2_graph_1(B, A) <=> m1_graph_1(B, A)) ) ) ) ).

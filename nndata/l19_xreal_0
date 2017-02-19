@@ -1,17 +1,17 @@
 C fof(l19_xreal_0, axiom,  ~ (r2_hidden(k4_xcmplx_0(1), k2_arytm_2)) ).
-+ fof(d1_arytm_3, axiom, k1_arytm_3=1).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(t20_arytm_2, axiom,  (r2_hidden(k11_arytm_3, k2_arytm_2) & r2_hidden(k12_arytm_3, k2_arytm_2)) ).
-+ fof(dt_k12_arytm_3, axiom,  ( ~ (v1_xboole_0(k12_arytm_3))  &  (v3_ordinal1(k12_arytm_3) & m1_subset_1(k12_arytm_3, k5_arytm_3)) ) ).
 + fof(d1_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  ( ( (r2_hidden(A, k2_arytm_2) & r2_hidden(B, k2_arytm_2))  =>  (C=k1_arytm_0(A, B) <=>  (? [D] :  (m1_subset_1(D, k2_arytm_2) &  (? [E] :  (m1_subset_1(E, k2_arytm_2) &  (A=D &  (B=E & C=k7_arytm_2(D, E)) ) ) ) ) ) ) )  &  ( ( (r2_hidden(A, k2_arytm_2) & r2_hidden(B, k2_zfmisc_1(k1_tarski(k6_numbers), k2_arytm_2)))  =>  (C=k1_arytm_0(A, B) <=>  (? [D] :  (m1_subset_1(D, k2_arytm_2) &  (? [E] :  (m1_subset_1(E, k2_arytm_2) &  (A=D &  (B=k4_tarski(k6_numbers, E) & C=k2_arytm_1(D, E)) ) ) ) ) ) ) )  &  ( ( (r2_hidden(B, k2_arytm_2) & r2_hidden(A, k2_zfmisc_1(k1_tarski(k6_numbers), k2_arytm_2)))  =>  (C=k1_arytm_0(A, B) <=>  (? [D] :  (m1_subset_1(D, k2_arytm_2) &  (? [E] :  (m1_subset_1(E, k2_arytm_2) &  (A=k4_tarski(k6_numbers, D) &  (B=E & C=k2_arytm_1(E, D)) ) ) ) ) ) ) )  &  ~ ( ( ~ ( (r2_hidden(A, k2_arytm_2) & r2_hidden(B, k2_arytm_2)) )  &  ( ~ ( (r2_hidden(A, k2_arytm_2) & r2_hidden(B, k2_zfmisc_1(k1_tarski(k6_numbers), k2_arytm_2))) )  &  ( ~ ( (r2_hidden(B, k2_arytm_2) & r2_hidden(A, k2_zfmisc_1(k1_tarski(k6_numbers), k2_arytm_2))) )  &  ~ ( (C=k1_arytm_0(A, B) <=>  (? [D] :  (m1_subset_1(D, k2_arytm_2) &  (? [E] :  (m1_subset_1(E, k2_arytm_2) &  (A=k4_tarski(k6_numbers, D) &  (B=k4_tarski(k6_numbers, E) & C=k4_tarski(k6_numbers, k7_arytm_2(D, E))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d1_arytm_3, axiom, k1_arytm_3=1).
 + fof(dt_c3__xreal_0, axiom, m1_subset_1(c3__xreal_0, k1_numbers)).
-+ fof(l18_xreal_0, axiom,  (c5__xreal_0=k4_xcmplx_0(1) & k1_arytm_0(c3__xreal_0, c5__xreal_0)=k6_numbers) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(l17_xreal_0, axiom, c3__xreal_0=1).
-+ fof(dt_k1_arytm_0, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => m1_subset_1(k1_arytm_0(A, B), k1_numbers)) ) ).
 + fof(dt_c5__xreal_0, axiom, m1_subset_1(c5__xreal_0, k1_numbers)).
++ fof(dt_k12_arytm_3, axiom,  ( ~ (v1_xboole_0(k12_arytm_3))  &  (v3_ordinal1(k12_arytm_3) & m1_subset_1(k12_arytm_3, k5_arytm_3)) ) ).
++ fof(dt_k1_arytm_0, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => m1_subset_1(k1_arytm_0(A, B), k1_numbers)) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(l17_xreal_0, axiom, c3__xreal_0=1).
++ fof(l18_xreal_0, axiom,  (c5__xreal_0=k4_xcmplx_0(1) & k1_arytm_0(c3__xreal_0, c5__xreal_0)=k6_numbers) ).
 + fof(redefinition_k11_arytm_3, axiom, k11_arytm_3=k1_xboole_0).
 + fof(redefinition_k12_arytm_3, axiom, k12_arytm_3=k1_arytm_3).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t20_arytm_2, axiom,  (r2_hidden(k11_arytm_3, k2_arytm_2) & r2_hidden(k12_arytm_3, k2_arytm_2)) ).
 + fof(t5_arytm_2, axiom,  (! [A] :  (m1_subset_1(A, k2_arytm_2) =>  (! [B] :  (m1_subset_1(B, k2_arytm_2) =>  (k7_arytm_2(A, B)=k11_arytm_3 => A=k11_arytm_3) ) ) ) ) ).
 - fof(t3_arytm_2, axiom,  (! [A] :  ~ (r2_hidden(k4_tarski(k11_arytm_3, A), k2_arytm_2)) ) ).
 - fof(d5_xxreal_0, axiom,  (! [A] :  (v1_xxreal_0(A) =>  (! [B] :  (v1_xxreal_0(B) =>  ( ( (r2_hidden(A, k2_arytm_2) & r2_hidden(B, k2_arytm_2))  =>  (r1_xxreal_0(A, B) <=>  (? [C] :  (m1_subset_1(C, k2_arytm_2) &  (? [D] :  (m1_subset_1(D, k2_arytm_2) &  (A=C &  (B=D & r1_arytm_2(C, D)) ) ) ) ) ) ) )  &  ( ( (r2_hidden(A, k2_zfmisc_1(k1_tarski(k6_numbers), k2_arytm_2)) & r2_hidden(B, k2_zfmisc_1(k1_tarski(k6_numbers), k2_arytm_2)))  =>  (r1_xxreal_0(A, B) <=>  (? [C] :  (m1_subset_1(C, k2_arytm_2) &  (? [D] :  (m1_subset_1(D, k2_arytm_2) &  (A=k4_tarski(k6_numbers, C) &  (B=k4_tarski(k6_numbers, D) & r1_arytm_2(D, C)) ) ) ) ) ) ) )  &  ~ ( ( ~ ( (r2_hidden(A, k2_arytm_2) & r2_hidden(B, k2_arytm_2)) )  &  ( ~ ( (r2_hidden(A, k2_zfmisc_1(k1_tarski(k6_numbers), k2_arytm_2)) & r2_hidden(B, k2_zfmisc_1(k1_tarski(k6_numbers), k2_arytm_2))) )  &  ~ ( (r1_xxreal_0(A, B) <=>  ~ ( ( ~ ( (r2_hidden(B, k2_arytm_2) & r2_hidden(A, k2_zfmisc_1(k1_tarski(k6_numbers), k2_arytm_2))) )  &  ( ~ (A=k2_xxreal_0)  &  ~ (B=k1_xxreal_0) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

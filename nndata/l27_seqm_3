@@ -1,12 +1,12 @@
 C fof(l27_seqm_3, axiom,  (v5_valued_0(k6_funct_3(k1_numbers, k5_numbers)) & v4_valued_0(k6_funct_3(k1_numbers, k5_numbers))) ).
-+ fof(redefinition_k6_funct_3, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k6_funct_3(A, B)=k4_relat_1(B)) ) ).
-+ fof(fc54_valued_0, axiom,  (! [A] :  (v6_membered(A) =>  (v1_relat_1(k4_relat_1(A)) & v4_valued_0(k4_relat_1(A))) ) ) ).
-+ fof(fc99_valued_0, axiom,  (! [A] :  (v2_membered(A) =>  (v1_funct_1(k4_relat_1(A)) &  (v1_funct_2(k4_relat_1(A), A, A) & v5_valued_0(k4_relat_1(A))) ) ) ) ).
-+ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
 + fof(cc4_membered, axiom,  (! [A] :  (v3_membered(A) => v2_membered(A)) ) ).
++ fof(cc8_membered, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => v3_membered(A)) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(fc54_valued_0, axiom,  (! [A] :  (v6_membered(A) =>  (v1_relat_1(k4_relat_1(A)) & v4_valued_0(k4_relat_1(A))) ) ) ).
++ fof(fc6_membered, axiom, v6_membered(k4_ordinal1)).
++ fof(fc99_valued_0, axiom,  (! [A] :  (v2_membered(A) =>  (v1_funct_1(k4_relat_1(A)) &  (v1_funct_2(k4_relat_1(A), A, A) & v5_valued_0(k4_relat_1(A))) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_funct_3, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k6_funct_3(A, B)=k4_relat_1(B)) ) ).
 - fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 - fof(t42_funct_3, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(B)) =>  (r2_hidden(A, C) => r2_hidden(k1_funct_1(k6_funct_3(B, C), A), B)) ) ) ) ) ).
 - fof(t41_funct_3, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k6_funct_3(A, B)=k5_relat_1(k4_relat_1(A), B)) ) ) ).

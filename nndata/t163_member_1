@@ -1,15 +1,15 @@
 C fof(t163_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (r1_tarski(A, B) <=> r1_tarski(k19_member_1(A, C), k19_member_1(B, C))) ) ) ) ) ) ) ).
 + fof(d14_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) => k17_member_1(A, B)=k9_member_1(k1_tarski(B), A)) ) ) ) ).
-+ fof(t144_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (r1_tarski(A, B) <=> r1_tarski(k17_member_1(A, C), k17_member_1(B, C))) ) ) ) ) ) ) ).
++ fof(d16_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) => k19_member_1(A, B)=k11_member_1(k1_tarski(B), A)) ) ) ) ).
++ fof(d1_membered, axiom,  (! [A] :  (v1_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_xcmplx_0(B)) ) ) ) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
 + fof(d8_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) => k11_member_1(A, B)=k9_member_1(A, k5_member_1(B))) ) ) ) ).
 + fof(dt_k5_member_1, axiom,  (! [A] :  (v1_membered(A) => v1_membered(k5_member_1(A))) ) ).
++ fof(fc7_membered, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_membered(k1_tarski(A))) ) ).
 + fof(l16_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (r1_tarski(A, B) => r1_tarski(k5_member_1(A), k5_member_1(B))) ) ) ) ) ).
 + fof(t13_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (r1_tarski(A, B) <=> r1_tarski(k5_member_1(A), k5_member_1(B))) ) ) ) ) ).
-+ fof(d16_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) => k19_member_1(A, B)=k11_member_1(k1_tarski(B), A)) ) ) ) ).
-+ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
-+ fof(fc7_membered, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_membered(k1_tarski(A))) ) ).
++ fof(t144_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_membered(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (r1_tarski(A, B) <=> r1_tarski(k17_member_1(A, C), k17_member_1(B, C))) ) ) ) ) ) ) ).
 + fof(t19_membered, axiom,  (! [A] :  (! [B] :  (v1_membered(B) =>  (r1_tarski(A, B) => v1_membered(A)) ) ) ) ).
-+ fof(d1_membered, axiom,  (! [A] :  (v1_membered(A) <=>  (! [B] :  (r2_hidden(B, A) => v1_xcmplx_0(B)) ) ) ) ).
 - fof(t161_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) => k19_member_1(A, B)=a_2_11_member_1(A, B)) ) ) ) ).
 - fof(fraenkel_a_2_11_member_1, axiom,  (! [A, B, C] :  ( (v1_membered(B) & v1_xcmplx_0(C))  =>  (r2_hidden(A, a_2_11_member_1(B, C)) <=>  (? [D] :  (m1_subset_1(D, k2_numbers) &  (A=k4_binop_2(C, D) & r2_hidden(D, B)) ) ) ) ) ) ).
 - fof(t162_member_1, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  ~ ( (r2_hidden(C, k19_member_1(A, B)) &  (! [D] :  (m1_subset_1(D, k2_numbers) =>  ~ ( (C=k4_binop_2(B, D) & r2_hidden(D, A)) ) ) ) ) ) ) ) ) ) ) ).

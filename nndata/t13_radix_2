@@ -1,12 +1,12 @@
 C fof(t13_radix_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v3_card_1(C, A) & m2_finseq_1(C, k5_numbers))  =>  (! [D] :  ( (v3_card_1(D, A) & m2_finseq_1(D, k3_radix_1(B)))  =>  (C=D => k3_radix_2(A, B, C)=k8_radix_1(A, B, D)) ) ) ) ) ) ) ) ) ).
-+ fof(t12_radix_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v3_card_1(C, A) & m2_finseq_1(C, k5_numbers))  =>  (! [D] :  ( (v3_card_1(D, A) & m2_finseq_1(D, k3_radix_1(B)))  =>  (C=D => k2_radix_2(A, B, C)=k7_radix_1(A, B, D)) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k2_radix_2, axiom,  (! [A, B, C] :  ( (v7_ordinal1(A) &  (v7_ordinal1(B) &  (v3_card_1(C, A) & m1_finseq_1(C, k5_numbers)) ) )  =>  (v3_card_1(k2_radix_2(A, B, C), A) & m2_finseq_1(k2_radix_2(A, B, C), k5_numbers)) ) ) ).
-+ fof(redefinition_k2_wsierp_1, axiom,  (! [A] :  (m1_finseq_1(A, k5_numbers) => k2_wsierp_1(A)=k16_rvsum_1(A)) ) ).
-+ fof(redefinition_k1_gr_cy_1, axiom,  (! [A] :  (m1_finseq_1(A, k4_numbers) => k1_gr_cy_1(A)=k16_rvsum_1(A)) ) ).
 + fof(d3_radix_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v3_card_1(C, A) & m2_finseq_1(C, k5_numbers))  => k3_radix_2(A, B, C)=k2_wsierp_1(k2_radix_2(A, B, C))) ) ) ) ) ) ).
 + fof(d7_radix_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v3_card_1(C, A) & m2_finseq_1(C, k3_radix_1(B)))  => k8_radix_1(A, B, C)=k1_gr_cy_1(k7_radix_1(A, B, C))) ) ) ) ) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(dt_k2_radix_2, axiom,  (! [A, B, C] :  ( (v7_ordinal1(A) &  (v7_ordinal1(B) &  (v3_card_1(C, A) & m1_finseq_1(C, k5_numbers)) ) )  =>  (v3_card_1(k2_radix_2(A, B, C), A) & m2_finseq_1(k2_radix_2(A, B, C), k5_numbers)) ) ) ).
 + fof(dt_k7_radix_1, axiom,  (! [A, B, C] :  ( (v7_ordinal1(A) &  (v7_ordinal1(B) &  (v3_card_1(C, A) & m1_finseq_1(C, k3_radix_1(B))) ) )  =>  (v3_card_1(k7_radix_1(A, B, C), A) & m2_finseq_1(k7_radix_1(A, B, C), k4_numbers)) ) ) ).
++ fof(redefinition_k1_gr_cy_1, axiom,  (! [A] :  (m1_finseq_1(A, k4_numbers) => k1_gr_cy_1(A)=k16_rvsum_1(A)) ) ).
++ fof(redefinition_k2_wsierp_1, axiom,  (! [A] :  (m1_finseq_1(A, k5_numbers) => k2_wsierp_1(A)=k16_rvsum_1(A)) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(t12_radix_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v3_card_1(C, A) & m2_finseq_1(C, k5_numbers))  =>  (! [D] :  ( (v3_card_1(D, A) & m2_finseq_1(D, k3_radix_1(B)))  =>  (C=D => k2_radix_2(A, B, C)=k7_radix_1(A, B, D)) ) ) ) ) ) ) ) ) ).
 - fof(dt_k3_radix_2, axiom,  (! [A, B, C] :  ( (v7_ordinal1(A) &  (v7_ordinal1(B) &  (v3_card_1(C, A) & m1_finseq_1(C, k5_numbers)) ) )  => m2_subset_1(k3_radix_2(A, B, C), k1_numbers, k5_numbers)) ) ).
 - fof(t10_radix_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  ( (v3_card_1(C, k1_nat_1(B, 1)) & m2_finseq_1(C, k3_radix_1(A)))  =>  (! [D] :  ( (v3_card_1(D, B) & m2_finseq_1(D, k3_radix_1(A)))  =>  ( (! [E] :  (v7_ordinal1(E) =>  (r2_hidden(E, k2_finseq_1(B)) => k1_seq_1(C, E)=k1_seq_1(D, E)) ) )  => k2_xcmplx_0(k8_radix_1(B, A, D), k3_xcmplx_0(k1_newton(k1_radix_1(A), B), k4_radix_1(k1_nat_1(B, 1), A, k1_nat_1(B, 1), C)))=k8_radix_1(k1_nat_1(B, 1), A, C)) ) ) ) ) ) ) ) ) ).
 - fof(t7_radix_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v3_card_1(B, 1) & m2_finseq_1(B, k3_radix_1(A)))  => k8_radix_1(1, A, B)=k4_radix_1(1, A, 1, B)) ) ) ) ).

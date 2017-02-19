@@ -1,9 +1,9 @@
 C fof(t9_jordan2b, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k18_rvsum_1(k5_euclid(A))=k6_numbers) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(redefinition_k5_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k5_euclid(A)=k4_euclid(A)) ) ).
-+ fof(d4_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k4_euclid(A)=k5_finseq_2(k1_numbers, A, k6_numbers)) ) ).
-+ fof(t81_rvsum_1, axiom,  (! [A] :  (v7_ordinal1(A) => k18_rvsum_1(k5_finseq_2(k1_numbers, A, k6_numbers))=k6_numbers) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(d4_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k4_euclid(A)=k5_finseq_2(k1_numbers, A, k6_numbers)) ) ).
++ fof(redefinition_k5_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k5_euclid(A)=k4_euclid(A)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(t81_rvsum_1, axiom,  (! [A] :  (v7_ordinal1(A) => k18_rvsum_1(k5_finseq_2(k1_numbers, A, k6_numbers))=k6_numbers) ) ).
 - fof(t8_euclid, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m2_finseq_2(B, k1_numbers, k1_euclid(A)) =>  (k12_euclid(B)=k6_numbers => B=k5_euclid(A)) ) ) ) ) ).
 - fof(t7_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k12_euclid(k5_euclid(A))=k6_numbers) ) ).
 - fof(t8_jordan2b, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) => k2_rfinseq(k1_numbers, B, k5_euclid(A))=k5_euclid(k7_nat_d(A, B))) ) ) ) ).

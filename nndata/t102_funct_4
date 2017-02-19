@@ -1,12 +1,12 @@
 C fof(t102_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] : k6_funct_4(A, B, B)=A) ) ) ).
 + fof(d5_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] : k6_funct_4(A, B, C)=k1_funct_4(A, k3_relat_1(A, k16_funcop_1(B, C)))) ) ) ) ).
-+ fof(fc2_funct_1, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) & v1_funct_1(A))  &  (v1_relat_1(B) & v1_funct_1(B)) )  =>  (v1_relat_1(k3_relat_1(A, B)) & v1_funct_1(k3_relat_1(A, B))) ) ) ).
-+ fof(t96_funct_4, axiom,  (! [A] : k16_funcop_1(A, A)=k6_partfun1(k1_tarski(A))) ).
-+ fof(t50_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(k3_relat_1(B, k4_relat_1(A)), B) & r1_tarski(k3_relat_1(k4_relat_1(A), B), B)) ) ) ) ).
-+ fof(t98_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_tarski(A, B) => k1_funct_4(B, A)=B) ) ) ) ) ).
 + fof(dt_k3_relat_1, axiom,  (! [A, B] : v1_relat_1(k3_relat_1(A, B))) ).
 + fof(fc11_funcop_1, axiom,  (! [A, B] :  (v1_relat_1(k16_funcop_1(A, B)) & v1_funct_1(k16_funcop_1(A, B))) ) ).
++ fof(fc2_funct_1, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) & v1_funct_1(A))  &  (v1_relat_1(B) & v1_funct_1(B)) )  =>  (v1_relat_1(k3_relat_1(A, B)) & v1_funct_1(k3_relat_1(A, B))) ) ) ).
 + fof(redefinition_k6_partfun1, axiom,  (! [A] : k6_partfun1(A)=k4_relat_1(A)) ).
++ fof(t50_relat_1, axiom,  (! [A] :  (! [B] :  (v1_relat_1(B) =>  (r1_tarski(k3_relat_1(B, k4_relat_1(A)), B) & r1_tarski(k3_relat_1(k4_relat_1(A), B), B)) ) ) ) ).
++ fof(t96_funct_4, axiom,  (! [A] : k16_funcop_1(A, A)=k6_partfun1(k1_tarski(A))) ).
++ fof(t98_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r1_tarski(A, B) => k1_funct_4(B, A)=B) ) ) ) ) ).
 - fof(fc2_funct_4, axiom,  (! [A, B, C] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v1_relat_1(k6_funct_4(A, B, C)) & v1_funct_1(k6_funct_4(A, B, C))) ) ) ).
 - fof(t99_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] : k9_xtuple_0(k6_funct_4(A, B, C))=k9_xtuple_0(A)) ) ) ) ).
 - fof(t100_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  ~ ( ( ~ (B=C)  & r2_hidden(B, k10_xtuple_0(k6_funct_4(A, B, C)))) ) ) ) ) ) ).

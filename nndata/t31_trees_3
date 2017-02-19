@@ -1,8 +1,8 @@
 C fof(t31_trees_3, axiom,  (! [A] :  (! [B] :  (v4_trees_3(k10_finseq_1(A, B)) <=>  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  &  ( ~ (v1_xboole_0(B))  & v1_trees_1(B)) ) ) ) ) ).
-+ fof(t15_trees_3, axiom,  (! [A] :  (! [B] :  (v1_trees_3(k2_tarski(A, B)) <=>  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  &  ( ~ (v1_xboole_0(B))  & v1_trees_1(B)) ) ) ) ) ).
-+ fof(t127_finseq_2, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k10_finseq_1(A, B))=k2_tarski(A, B)) ) ).
-+ fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
 + fof(d9_trees_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v4_trees_3(A) <=> v1_trees_3(k10_xtuple_0(A))) ) ) ).
++ fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
++ fof(t127_finseq_2, axiom,  (! [A] :  (! [B] : k10_xtuple_0(k10_finseq_1(A, B))=k2_tarski(A, B)) ) ).
++ fof(t15_trees_3, axiom,  (! [A] :  (! [B] :  (v1_trees_3(k2_tarski(A, B)) <=>  ( ( ~ (v1_xboole_0(A))  & v1_trees_1(A))  &  ( ~ (v1_xboole_0(B))  & v1_trees_1(B)) ) ) ) ) ).
 - fof(t28_trees_3, axiom,  (! [A] :  (v4_trees_3(k9_finseq_1(A)) <=>  ( ~ (v1_xboole_0(A))  & v1_trees_1(A)) ) ) ).
 - fof(t22_trees_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (v4_trees_3(A) <=>  (! [B] :  (r2_hidden(B, k9_xtuple_0(A)) =>  ( ~ (v1_xboole_0(k1_funct_1(A, B)))  & v1_trees_1(k1_funct_1(A, B))) ) ) ) ) ) ).
 - fof(cc13_trees_3, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_xboole_0(A)) )  =>  (v1_relat_1(A) &  (v1_funct_1(A) &  (v4_trees_3(A) &  (v5_trees_3(A) & v6_trees_3(A)) ) ) ) ) ) ).

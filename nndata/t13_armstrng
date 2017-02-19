@@ -1,9 +1,9 @@
 C fof(t13_armstrng, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) =>  (! [E] :  (m1_subset_1(E, k1_zfmisc_1(A)) =>  (r3_armstrng(A, k6_armstrng(A, B, C), k6_armstrng(A, D, E)) <=>  (r1_tarski(B, D) & r1_tarski(E, C)) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k6_armstrng, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k6_armstrng(A, B, C)=k4_tarski(B, C)) ) ).
-+ fof(rd2_xtuple_0, axiom,  (! [A, B] : k2_xtuple_0(k4_tarski(A, B))=B) ).
 + fof(d9_armstrng, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k4_armstrng(A)) =>  (! [C] :  (m1_subset_1(C, k4_armstrng(A)) =>  (r3_armstrng(A, B, C) <=>  (r1_tarski(k1_xtuple_0(B), k1_xtuple_0(C)) & r1_tarski(k2_xtuple_0(C), k2_xtuple_0(B))) ) ) ) ) ) ) ).
 + fof(dt_k6_armstrng, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k6_armstrng(A, B, C), k4_armstrng(A))) ) ).
 + fof(rd1_xtuple_0, axiom,  (! [A, B] : k1_xtuple_0(k4_tarski(A, B))=A) ).
++ fof(rd2_xtuple_0, axiom,  (! [A, B] : k2_xtuple_0(k4_tarski(A, B))=B) ).
++ fof(redefinition_k6_armstrng, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k6_armstrng(A, B, C)=k4_tarski(B, C)) ) ).
 - fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 - fof(t12_armstrng, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k4_armstrng(A)) =>  (! [C] :  (m1_subset_1(C, k4_armstrng(A)) =>  (! [D] :  (m1_subset_1(D, k4_armstrng(A)) =>  ( (r3_armstrng(A, C, B) & r3_armstrng(A, D, C))  => r3_armstrng(A, D, B)) ) ) ) ) ) ) ) ).
 - fof(t11_armstrng, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k4_armstrng(A)) =>  (! [C] :  (m1_subset_1(C, k4_armstrng(A)) =>  ( (r3_armstrng(A, C, B) & r3_armstrng(A, B, C))  => B=C) ) ) ) ) ) ).

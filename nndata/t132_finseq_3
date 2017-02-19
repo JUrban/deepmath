@@ -1,17 +1,17 @@
 C fof(t132_finseq_3, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (k2_funct_6(k9_finseq_1(A))=k9_finseq_1(k9_xtuple_0(A)) & k3_funct_6(k9_finseq_1(A))=k9_finseq_1(k10_xtuple_0(A))) ) ) ).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(t59_finseq_2, axiom,  (! [A] : k2_finseq_2(1, A)=k9_finseq_1(A)) ).
-+ fof(d2_funcop_1, axiom,  (! [A] :  (! [B] : k2_funcop_1(A, B)=k2_zfmisc_1(A, k1_tarski(B))) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
-+ fof(d2_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] : k2_finseq_2(A, B)=k7_funcop_1(k2_finseq_1(A), B)) ) ) ).
-+ fof(d5_finseq_1, axiom,  (! [A] : k5_finseq_1(A)=k1_tarski(k4_tarski(1, A))) ).
-+ fof(t2_finseq_1, axiom,  (k2_finseq_1(1)=k1_tarski(1) & k2_finseq_1(2)=k2_tarski(1, 2)) ).
-+ fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(t24_funct_6, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (k2_funct_6(k7_funcop_1(A, B))=k7_funcop_1(A, k9_xtuple_0(B)) & k3_funct_6(k7_funcop_1(A, B))=k7_funcop_1(A, k10_xtuple_0(B))) ) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(d2_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] : k2_finseq_2(A, B)=k7_funcop_1(k2_finseq_1(A), B)) ) ) ).
++ fof(d2_funcop_1, axiom,  (! [A] :  (! [B] : k2_funcop_1(A, B)=k2_zfmisc_1(A, k1_tarski(B))) ) ).
++ fof(d5_finseq_1, axiom,  (! [A] : k5_finseq_1(A)=k1_tarski(k4_tarski(1, A))) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
 + fof(redefinition_k9_finseq_1, axiom,  (! [A] : k9_finseq_1(A)=k5_finseq_1(A)) ).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t24_funct_6, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (k2_funct_6(k7_funcop_1(A, B))=k7_funcop_1(A, k9_xtuple_0(B)) & k3_funct_6(k7_funcop_1(A, B))=k7_funcop_1(A, k10_xtuple_0(B))) ) ) ) ).
++ fof(t2_finseq_1, axiom,  (k2_finseq_1(1)=k1_tarski(1) & k2_finseq_1(2)=k2_tarski(1, 2)) ).
++ fof(t59_finseq_2, axiom,  (! [A] : k2_finseq_2(1, A)=k9_finseq_1(A)) ).
 - fof(t23_funct_6, axiom,  (k2_funct_6(k1_xboole_0)=k1_xboole_0 & k3_funct_6(k1_xboole_0)=k1_xboole_0) ).
 - fof(d3_funct_6, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (B=k3_funct_6(A) <=>  (k9_xtuple_0(B)=k8_relat_1(A, k1_funct_6(k10_xtuple_0(A))) &  (! [C] :  (r2_hidden(C, k8_relat_1(A, k1_funct_6(k10_xtuple_0(A)))) => k1_funct_1(B, C)=k10_xtuple_0(k1_funct_1(A, C))) ) ) ) ) ) ) ) ).
 - fof(d2_funct_6, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (B=k2_funct_6(A) <=>  (k9_xtuple_0(B)=k8_relat_1(A, k1_funct_6(k10_xtuple_0(A))) &  (! [C] :  (r2_hidden(C, k8_relat_1(A, k1_funct_6(k10_xtuple_0(A)))) => k1_funct_1(B, C)=k9_xtuple_0(k1_funct_1(A, C))) ) ) ) ) ) ) ) ).

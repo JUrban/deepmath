@@ -1,11 +1,11 @@
 C fof(t16_trees_9, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_trees_2(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v3_trees_2(B)) )  =>  (k6_trees_9(A)=k6_trees_9(B) => A=B) ) ) ) ) ).
-+ fof(fraenkel_a_1_1_trees_9, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v3_trees_2(B)) )  =>  (r2_hidden(A, a_1_1_trees_9(B)) <=>  (? [C] :  (m1_trees_1(C, k9_xtuple_0(B)) & A=k4_tarski(C, k5_trees_2(B, C))) ) ) ) ) ).
 + fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(d8_trees_9, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_trees_2(A)) )  => k6_trees_9(A)=a_1_1_trees_9(A)) ) ).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
-+ fof(t15_trees_9, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_trees_2(A)) )  => r2_hidden(k4_tarski(k1_xboole_0, A), k6_trees_9(A))) ) ).
 + fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(d8_trees_9, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_trees_2(A)) )  => k6_trees_9(A)=a_1_1_trees_9(A)) ) ).
++ fof(fraenkel_a_1_1_trees_9, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v3_trees_2(B)) )  =>  (r2_hidden(A, a_1_1_trees_9(B)) <=>  (? [C] :  (m1_trees_1(C, k9_xtuple_0(B)) & A=k4_tarski(C, k5_trees_2(B, C))) ) ) ) ) ).
++ fof(t15_trees_9, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_trees_2(A)) )  => r2_hidden(k4_tarski(k1_xboole_0, A), k6_trees_9(A))) ) ).
++ fof(t1_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (k4_tarski(A, B)=k4_tarski(C, D) =>  (A=C & B=D) ) ) ) ) ) ).
 - fof(t14_trees_9, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v3_trees_2(B)) )  =>  (r2_hidden(A, k6_trees_9(B)) <=>  (? [C] :  (m1_trees_1(C, k9_xtuple_0(B)) & A=k4_tarski(C, k5_trees_2(B, C))) ) ) ) ) ) ).
 - fof(dt_k6_trees_9, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_trees_2(A)) )  => m1_subset_1(k6_trees_9(A), k1_zfmisc_1(k2_zfmisc_1(k9_xtuple_0(A), k3_trees_9(A))))) ) ).
 - fof(fc7_trees_9, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v3_trees_2(A)) )  =>  ~ (v1_xboole_0(k6_trees_9(A))) ) ) ).

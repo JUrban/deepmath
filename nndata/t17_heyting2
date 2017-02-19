@@ -1,12 +1,12 @@
 C fof(t17_heyting2, axiom,  (! [A] :  (! [B] :  (v1_finset_1(B) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k5_substlat(A, B))) =>  (! [D] :  (r1_tarski(D, C) => m1_subset_1(D, u1_struct_0(k5_substlat(A, B)))) ) ) ) ) ) ) ).
-+ fof(fc1_substlat, axiom,  (! [A, B] :  ~ (v1_xboole_0(k1_substlat(A, B))) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(d4_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v3_lattices(C) & l3_lattices(C))  =>  (C=k5_substlat(A, B) <=>  (u1_struct_0(C)=k1_substlat(A, B) &  (! [D] :  (m2_subset_1(D, k5_finsub_1(k4_partfun1(A, B)), k1_substlat(A, B)) =>  (! [E] :  (m2_subset_1(E, k5_finsub_1(k4_partfun1(A, B)), k1_substlat(A, B)) =>  (k1_binop_1(u2_lattices(C), D, E)=k3_substlat(A, B, k2_substlat(A, B, D, E)) & k1_binop_1(u1_lattices(C), D, E)=k3_substlat(A, B, k4_substlat(A, B, D, E))) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(l23_heyting2, axiom,  (! [A] :  (! [B] :  (v1_finset_1(B) =>  (! [C] :  (m2_subset_1(C, k5_finsub_1(k4_partfun1(A, B)), k1_substlat(A, B)) =>  (! [D] :  (r1_tarski(D, C) => r2_hidden(D, k1_substlat(A, B))) ) ) ) ) ) ) ).
-+ fof(dt_k5_substlat, axiom,  (! [A, B] :  (v3_lattices(k5_substlat(A, B)) & l3_lattices(k5_substlat(A, B))) ) ).
-+ fof(dt_k1_substlat, axiom,  (! [A, B] : m1_subset_1(k1_substlat(A, B), k1_zfmisc_1(k5_finsub_1(k4_partfun1(A, B))))) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(d4_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v3_lattices(C) & l3_lattices(C))  =>  (C=k5_substlat(A, B) <=>  (u1_struct_0(C)=k1_substlat(A, B) &  (! [D] :  (m2_subset_1(D, k5_finsub_1(k4_partfun1(A, B)), k1_substlat(A, B)) =>  (! [E] :  (m2_subset_1(E, k5_finsub_1(k4_partfun1(A, B)), k1_substlat(A, B)) =>  (k1_binop_1(u2_lattices(C), D, E)=k3_substlat(A, B, k2_substlat(A, B, D, E)) & k1_binop_1(u1_lattices(C), D, E)=k3_substlat(A, B, k4_substlat(A, B, D, E))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k1_substlat, axiom,  (! [A, B] : m1_subset_1(k1_substlat(A, B), k1_zfmisc_1(k5_finsub_1(k4_partfun1(A, B))))) ).
++ fof(dt_k5_substlat, axiom,  (! [A, B] :  (v3_lattices(k5_substlat(A, B)) & l3_lattices(k5_substlat(A, B))) ) ).
++ fof(fc1_substlat, axiom,  (! [A, B] :  ~ (v1_xboole_0(k1_substlat(A, B))) ) ).
++ fof(l23_heyting2, axiom,  (! [A] :  (! [B] :  (v1_finset_1(B) =>  (! [C] :  (m2_subset_1(C, k5_finsub_1(k4_partfun1(A, B)), k1_substlat(A, B)) =>  (! [D] :  (r1_tarski(D, C) => r2_hidden(D, k1_substlat(A, B))) ) ) ) ) ) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
 - fof(fc2_substlat, axiom,  (! [A, B] :  ( ~ (v2_struct_0(k5_substlat(A, B)))  & v3_lattices(k5_substlat(A, B))) ) ).
 - fof(l38_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, u1_struct_0(k5_substlat(A, B))) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(k5_substlat(A, B))) => k1_lattices(k5_substlat(A, B), k2_lattices(k5_substlat(A, B), C, D), D)=D) ) ) ) ) ) ).
 - fof(l39_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, u1_struct_0(k5_substlat(A, B))) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(k5_substlat(A, B))) => k2_lattices(k5_substlat(A, B), C, D)=k2_lattices(k5_substlat(A, B), D, C)) ) ) ) ) ) ).

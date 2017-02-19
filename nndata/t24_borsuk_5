@@ -1,11 +1,11 @@
 C fof(t24_borsuk_5, axiom,  (! [A] :  (v1_rat_1(A) =>  (! [B] :  ( (v1_xreal_0(B) &  ~ (v1_rat_1(B)) )  =>  ~ ( ( ~ (A=k6_numbers)  & v1_rat_1(k13_complex1(A, B))) ) ) ) ) ) ).
-+ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
-+ fof(t77_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) => k7_xcmplx_0(A, k7_xcmplx_0(B, C))=k7_xcmplx_0(k3_xcmplx_0(A, C), B)) ) ) ) ) ) ).
 + fof(cc1_rat_1, axiom,  (! [A] :  (v1_rat_1(A) => v1_xreal_0(A)) ) ).
-+ fof(l62_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  ( ~ (A=k6_numbers)  => B=k7_xcmplx_0(k3_xcmplx_0(B, A), A)) ) ) ) ) ).
-+ fof(fc4_rat_1, axiom,  (! [A, B] :  ( (v1_rat_1(A) & v1_rat_1(B))  => v1_rat_1(k7_xcmplx_0(A, B))) ) ).
-+ fof(redefinition_k13_complex1, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k13_complex1(A, B)=k7_xcmplx_0(A, B)) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
 + fof(commutativity_k3_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k3_xcmplx_0(A, B)=k3_xcmplx_0(B, A)) ) ).
++ fof(fc4_rat_1, axiom,  (! [A, B] :  ( (v1_rat_1(A) & v1_rat_1(B))  => v1_rat_1(k7_xcmplx_0(A, B))) ) ).
++ fof(l62_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  ( ~ (A=k6_numbers)  => B=k7_xcmplx_0(k3_xcmplx_0(B, A), A)) ) ) ) ) ).
++ fof(redefinition_k13_complex1, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k13_complex1(A, B)=k7_xcmplx_0(A, B)) ) ).
++ fof(t77_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) => k7_xcmplx_0(A, k7_xcmplx_0(B, C))=k7_xcmplx_0(k3_xcmplx_0(A, C), B)) ) ) ) ) ) ).
 - fof(t23_borsuk_5, axiom,  (! [A] :  (v1_rat_1(A) =>  (! [B] :  ( (v1_xreal_0(B) &  ~ (v1_rat_1(B)) )  =>  ~ ( ( ~ (A=k6_numbers)  & v1_rat_1(k13_complex1(B, A))) ) ) ) ) ) ).
 - fof(t87_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  ( ~ (A=k6_numbers)  => k3_xcmplx_0(k7_xcmplx_0(B, A), A)=B) ) ) ) ) ).
 - fof(fc1_rat_1, axiom,  (! [A, B] :  ( (v1_rat_1(A) & v1_rat_1(B))  => v1_rat_1(k3_xcmplx_0(A, B))) ) ).

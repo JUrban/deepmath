@@ -1,22 +1,22 @@
 C fof(t60_abcmiz_a, axiom,  (! [A] :  ( (v1_xboole_0(A) & m2_finseq_2(A, k2_abcmiz_1, k4_abcmiz_1))  => m2_abcmiz_a(k1_xboole_0, A)) ) ).
-+ fof(redefinition_k2_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v5_relat_1(B, A))  => k2_relset_1(A, B)=k10_xtuple_0(B)) ) ).
-+ fof(fc10_abcmiz_1, axiom,  (v1_msualg_1(k27_abcmiz_1) &  (v1_instalg1(k27_abcmiz_1) &  (v1_abcmiz_1(k27_abcmiz_1) & v3_abcmiz_1(k27_abcmiz_1)) ) ) ).
-+ fof(fc19_funct_1, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v3_relat_1(A) & v1_funct_1(A)) )  => v1_xboole_0(k1_funct_1(A, B))) ) ).
-+ fof(rc1_relset_1, axiom,  (! [A, B] :  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) &  (v1_xboole_0(C) &  (v1_relat_1(C) &  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ) ) ).
-+ fof(fc5_xtuple_0, axiom,  (! [A] :  (v1_xboole_0(A) => v1_xboole_0(k10_xtuple_0(A))) ) ).
-+ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
-+ fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
 + fof(cc1_facirc_1, axiom,  (! [A] :  (v1_xtuple_0(A) =>  ~ (v1_xboole_0(A)) ) ) ).
++ fof(cc7_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  =>  (v1_xboole_0(B) &  (v1_relat_1(B) & v4_relat_1(B, A)) ) ) ) ) ) ).
++ fof(cc9_abcmiz_1, axiom,  (! [A] :  ( (v1_instalg1(A) &  (v1_abcmiz_1(A) &  (v3_abcmiz_1(A) & l1_msualg_1(A)) ) )  =>  (! [B] :  (m3_abcmiz_1(B, A) => v1_xtuple_0(B)) ) ) ) ).
 + fof(d29_abcmiz_a, axiom,  (! [A] :  ( (v1_funct_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_abcmiz_1, k4_abcmiz_a))))  =>  (v7_abcmiz_a(A) <=>  (! [B] :  (m1_subset_1(B, k2_abcmiz_1) =>  (! [C] :  (m3_abcmiz_1(C, k27_abcmiz_1) =>  ( (r2_hidden(B, k1_relset_1(k2_abcmiz_1, A)) & C=k1_funct_1(A, B))  => k48_abcmiz_1(k27_abcmiz_1, C)=k3_abcmiz_1(B)) ) ) ) ) ) ) ) ).
 + fof(d30_abcmiz_a, axiom,  (! [A] :  (m2_finseq_2(A, k2_abcmiz_1, k4_abcmiz_1) =>  (! [B] :  ( (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_abcmiz_1, k4_abcmiz_a))))  =>  (m2_abcmiz_a(B, A) <=>  (k1_relset_1(k2_abcmiz_1, B)=k2_relset_1(k2_abcmiz_1, A) & v7_abcmiz_a(B)) ) ) ) ) ) ).
-+ fof(rc2_finseq_1, axiom,  (! [A] :  (? [B] :  (m1_finseq_1(B, A) &  (v1_relat_1(B) &  (v4_relat_1(B, k5_numbers) &  (v5_relat_1(B, A) &  (v1_funct_1(B) &  (v1_xboole_0(B) &  (v1_finset_1(B) & v1_finseq_1(B)) ) ) ) ) ) ) ) ) ).
-+ fof(t12_relset_1, axiom,  (! [A] :  (! [B] : m1_subset_1(k1_xboole_0, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ).
-+ fof(fc4_xtuple_0, axiom,  (! [A] :  (v1_xboole_0(A) => v1_xboole_0(k9_xtuple_0(A))) ) ).
-+ fof(rc2_pboole, axiom,  (! [A] :  (? [B] :  (v1_relat_1(B) &  (v3_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) & v1_partfun1(B, A)) ) ) ) ) ) ).
-+ fof(cc9_abcmiz_1, axiom,  (! [A] :  ( (v1_instalg1(A) &  (v1_abcmiz_1(A) &  (v3_abcmiz_1(A) & l1_msualg_1(A)) ) )  =>  (! [B] :  (m3_abcmiz_1(B, A) => v1_xtuple_0(B)) ) ) ) ).
 + fof(dt_k27_abcmiz_1, axiom,  (v1_msualg_1(k27_abcmiz_1) &  (v1_instalg1(k27_abcmiz_1) &  (v1_abcmiz_1(k27_abcmiz_1) & l1_msualg_1(k27_abcmiz_1)) ) ) ).
-+ fof(cc7_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  =>  (v1_xboole_0(B) &  (v1_relat_1(B) & v4_relat_1(B, A)) ) ) ) ) ) ).
++ fof(fc10_abcmiz_1, axiom,  (v1_msualg_1(k27_abcmiz_1) &  (v1_instalg1(k27_abcmiz_1) &  (v1_abcmiz_1(k27_abcmiz_1) & v3_abcmiz_1(k27_abcmiz_1)) ) ) ).
++ fof(fc19_funct_1, axiom,  (! [A, B] :  ( (v1_relat_1(A) &  (v3_relat_1(A) & v1_funct_1(A)) )  => v1_xboole_0(k1_funct_1(A, B))) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(fc4_xtuple_0, axiom,  (! [A] :  (v1_xboole_0(A) => v1_xboole_0(k9_xtuple_0(A))) ) ).
++ fof(fc5_xtuple_0, axiom,  (! [A] :  (v1_xboole_0(A) => v1_xboole_0(k10_xtuple_0(A))) ) ).
++ fof(rc1_relset_1, axiom,  (! [A, B] :  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) &  (v1_xboole_0(C) &  (v1_relat_1(C) &  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ) ) ).
++ fof(rc2_finseq_1, axiom,  (! [A] :  (? [B] :  (m1_finseq_1(B, A) &  (v1_relat_1(B) &  (v4_relat_1(B, k5_numbers) &  (v5_relat_1(B, A) &  (v1_funct_1(B) &  (v1_xboole_0(B) &  (v1_finset_1(B) & v1_finseq_1(B)) ) ) ) ) ) ) ) ) ).
++ fof(rc2_pboole, axiom,  (! [A] :  (? [B] :  (v1_relat_1(B) &  (v3_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) & v1_partfun1(B, A)) ) ) ) ) ) ).
++ fof(redefinition_k1_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  => k1_relset_1(A, B)=k9_xtuple_0(B)) ) ).
++ fof(redefinition_k2_relset_1, axiom,  (! [A, B] :  ( (v1_relat_1(B) & v5_relat_1(B, A))  => k2_relset_1(A, B)=k10_xtuple_0(B)) ) ).
++ fof(t12_relset_1, axiom,  (! [A] :  (! [B] : m1_subset_1(k1_xboole_0, k1_zfmisc_1(k2_zfmisc_1(A, B)))) ) ).
++ fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
 - fof(dt_m2_abcmiz_a, axiom,  (! [A] :  (m1_subset_1(A, k4_abcmiz_1) =>  (! [B] :  (m2_abcmiz_a(B, A) =>  (v1_funct_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_abcmiz_1, k4_abcmiz_a)))) ) ) ) ) ).
 - fof(existence_m2_abcmiz_a, axiom,  (! [A] :  (m1_subset_1(A, k4_abcmiz_1) =>  (? [B] : m2_abcmiz_a(B, A)) ) ) ).
 - fof(t31_abcmiz_1, axiom,  (! [A] :  (m2_finseq_2(A, k2_abcmiz_1, k4_abcmiz_1) =>  (! [B] :  (m1_subset_1(B, k2_abcmiz_1) =>  (m2_finseq_2(k8_finseq_1(k2_abcmiz_1, A, k3_pre_poly(k2_abcmiz_1, B)), k2_abcmiz_1, k4_abcmiz_1) <=>  ( ~ (r2_hidden(B, k2_relset_1(k2_abcmiz_1, A)))  & r1_tarski(k3_abcmiz_1(B), k2_relset_1(k2_abcmiz_1, A))) ) ) ) ) ) ).

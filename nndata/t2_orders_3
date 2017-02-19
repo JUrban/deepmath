@@ -1,15 +1,15 @@
 C fof(t2_orders_3, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  ( (v1_relat_2(A) &  (v4_relat_2(A) &  (v8_relat_2(A) &  (v1_partfun1(A, k1_tarski(B)) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k1_tarski(B), k1_tarski(B))))) ) ) )  => A=k6_partfun1(k1_tarski(B))) ) ) ) ).
 + fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(t96_funct_4, axiom,  (! [A] : k16_funcop_1(A, A)=k6_partfun1(k1_tarski(A))) ).
++ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
++ fof(d2_funcop_1, axiom,  (! [A] :  (! [B] : k2_funcop_1(A, B)=k2_zfmisc_1(A, k1_tarski(B))) ) ).
 + fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
 + fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
-+ fof(d2_funcop_1, axiom,  (! [A] :  (! [B] : k2_funcop_1(A, B)=k2_zfmisc_1(A, k1_tarski(B))) ) ).
-+ fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
-+ fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
-+ fof(t3_orders_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_2(C) &  (v4_relat_2(C) &  (v8_relat_2(C) &  (v1_partfun1(C, A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ) )  =>  (r2_hidden(B, A) => r2_hidden(k4_tarski(B, B), C)) ) ) ) ) ).
 + fof(d9_funcop_1, axiom,  (! [A] :  (! [B] : k16_funcop_1(A, B)=k7_funcop_1(k1_tarski(A), B)) ) ).
++ fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
 + fof(t29_zfmisc_1, axiom,  (! [A] :  (! [B] : k2_zfmisc_1(k1_tarski(A), k1_tarski(B))=k1_tarski(k4_tarski(A, B))) ) ).
++ fof(t3_orders_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_2(C) &  (v4_relat_2(C) &  (v8_relat_2(C) &  (v1_partfun1(C, A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ) )  =>  (r2_hidden(B, A) => r2_hidden(k4_tarski(B, B), C)) ) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t96_funct_4, axiom,  (! [A] : k16_funcop_1(A, A)=k6_partfun1(k1_tarski(A))) ).
 - fof(t145_finseq_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (! [D] :  ( (v1_relat_1(D) &  (v4_relat_1(D, k1_tarski(C)) &  (v1_funct_1(D) & v1_partfun1(D, k1_tarski(C))) ) )  =>  (D=k16_funcop_1(C, A) => k1_funct_1(k3_relat_1(k7_finseq_2(C), k6_finseq_2(k1_tarski(C), D)), B)=k9_funct_2(k2_finseq_1(B), A)) ) ) ) ) ) ) ) ).
 - fof(fc1_yellow_0, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k1_tarski(A), k1_tarski(A)))) =>  (v13_struct_0(g1_orders_2(k1_tarski(A), B), 1) & v1_orders_2(g1_orders_2(k1_tarski(A), B))) ) ) ).
 - fof(dt_k18_funcop_1, axiom,  (! [A, B] :  (v1_funct_1(k18_funcop_1(A, B)) &  (v1_funct_2(k18_funcop_1(A, B), k1_tarski(A), k1_tarski(B)) & m1_subset_1(k18_funcop_1(A, B), k1_zfmisc_1(k2_zfmisc_1(k1_tarski(A), k1_tarski(B))))) ) ) ).

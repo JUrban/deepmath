@@ -1,11 +1,11 @@
 C fof(t56_chain_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m2_subset_1(A, k1_numbers, k5_numbers))  =>  (! [B] :  (m1_chain_1(B, A) =>  (k6_chain_1(A, B)=k3_subset_1(k4_chain_1(A, B, A), k5_chain_1(A, B, A)) & k5_chain_1(A, B, A)=k3_subset_1(k4_chain_1(A, B, A), k6_chain_1(A, B))) ) ) ) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(d8_chain_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m2_subset_1(A, k1_numbers, k5_numbers))  =>  (! [B] :  (m1_chain_1(B, A) =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) => k5_chain_1(A, B, C)=k1_xboole_0) ) ) ) ) ) ).
-+ fof(t3_boole, axiom,  (! [A] : k4_xboole_0(A, k1_xboole_0)=A) ).
-+ fof(d9_chain_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m2_subset_1(A, k1_numbers, k5_numbers))  =>  (! [B] :  (m1_chain_1(B, A) => k6_chain_1(A, B)=k4_chain_1(A, B, A)) ) ) ) ).
-+ fof(rc2_subset_1, axiom,  (! [A] :  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) & v1_xboole_0(B)) ) ) ).
 + fof(d4_subset_1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, B)=k4_xboole_0(A, B)) ) ) ).
++ fof(d8_chain_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m2_subset_1(A, k1_numbers, k5_numbers))  =>  (! [B] :  (m1_chain_1(B, A) =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) => k5_chain_1(A, B, C)=k1_xboole_0) ) ) ) ) ) ).
++ fof(d9_chain_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m2_subset_1(A, k1_numbers, k5_numbers))  =>  (! [B] :  (m1_chain_1(B, A) => k6_chain_1(A, B)=k4_chain_1(A, B, A)) ) ) ) ).
 + fof(involutiveness_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, k3_subset_1(A, B))=B) ) ).
++ fof(rc2_subset_1, axiom,  (! [A] :  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) & v1_xboole_0(B)) ) ) ).
++ fof(t3_boole, axiom,  (! [A] : k4_xboole_0(A, k1_xboole_0)=A) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 - fof(t52_chain_1, axiom,  (! [A] :  (m2_subset_1(A, k1_numbers, k5_numbers) =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m2_subset_1(B, k1_numbers, k5_numbers))  =>  (! [C] :  (m1_chain_1(C, B) =>  ( ~ (r1_xxreal_0(k2_nat_1(A, 1), B))  =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k4_chain_1(B, C, k2_nat_1(A, 1)))) => k10_chain_1(B, C, A, D)=k5_chain_1(B, C, A)) ) ) ) ) ) ) ) ) ).
 - fof(dt_k6_chain_1, axiom,  (! [A, B] :  ( ( ( ~ (v1_xboole_0(A))  & m1_subset_1(A, k5_numbers))  & m1_chain_1(B, A))  => m1_subset_1(k6_chain_1(A, B), k1_zfmisc_1(k4_chain_1(A, B, A)))) ) ).
 - fof(d12_chain_1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & m2_subset_1(A, k1_numbers, k5_numbers))  =>  (! [B] :  (m1_chain_1(B, A) =>  (! [C] :  (m2_subset_1(C, k1_numbers, k5_numbers) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k4_chain_1(A, B, k2_nat_1(C, 1)))) => k10_chain_1(A, B, C, D)=a_4_1_chain_1(A, B, C, D)) ) ) ) ) ) ) ) ).

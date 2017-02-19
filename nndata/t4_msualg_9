@@ -1,12 +1,12 @@
 C fof(t4_msualg_9, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k8_eqrel_1(A, k1_eqrel_1(A))=k1_tarski(A)) ) ).
-+ fof(l3_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, k1_tarski(B)) <=>  (A=k1_xboole_0 | A=k1_tarski(B)) ) ) ) ).
++ fof(cc1_eqrel_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_eqrel_1(B, A) =>  ~ (v1_xboole_0(B)) ) ) ) ) ).
 + fof(d1_eqrel_1, axiom,  (! [A] : k1_eqrel_1(A)=k2_zfmisc_1(A, A)) ).
++ fof(dt_k1_eqrel_1, axiom,  (! [A] : m1_subset_1(k1_eqrel_1(A), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ).
++ fof(dt_k8_eqrel_1, axiom,  (! [A, B] :  ( (v3_relat_2(B) &  (v8_relat_2(B) &  (v1_partfun1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  => m1_eqrel_1(k8_eqrel_1(A, B), A)) ) ).
 + fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
 + fof(fc2_eqrel_1, axiom,  (! [A] :  (v3_relat_2(k1_eqrel_1(A)) &  (v8_relat_2(k1_eqrel_1(A)) & v1_partfun1(k1_eqrel_1(A), A)) ) ) ).
++ fof(l3_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, k1_tarski(B)) <=>  (A=k1_xboole_0 | A=k1_tarski(B)) ) ) ) ).
 + fof(t3_msualg_9, axiom,  (! [A] : r1_tarski(k8_eqrel_1(A, k1_eqrel_1(A)), k1_tarski(A))) ).
-+ fof(dt_k8_eqrel_1, axiom,  (! [A, B] :  ( (v3_relat_2(B) &  (v8_relat_2(B) &  (v1_partfun1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  => m1_eqrel_1(k8_eqrel_1(A, B), A)) ) ).
-+ fof(cc1_eqrel_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_eqrel_1(B, A) =>  ~ (v1_xboole_0(B)) ) ) ) ) ).
-+ fof(dt_k1_eqrel_1, axiom,  (! [A] : m1_subset_1(k1_eqrel_1(A), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ).
 - fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 - fof(redefinition_k8_eqrel_1, axiom,  (! [A, B] :  ( (v3_relat_2(B) &  (v8_relat_2(B) &  (v1_partfun1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  => k8_eqrel_1(A, B)=k7_eqrel_1(A, B)) ) ).
 - fof(t86_finseq_4, axiom,  (! [A] :  (! [B] :  ( (v1_partfun1(B, A) &  (v3_relat_2(B) &  (v8_relat_2(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  =>  (! [C] :  ( (v1_partfun1(C, A) &  (v3_relat_2(C) &  (v8_relat_2(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  =>  (k8_eqrel_1(A, B)=k8_eqrel_1(A, C) => B=C) ) ) ) ) ) ).

@@ -1,20 +1,20 @@
 C fof(t6_mesfunc7, axiom, k2_mesfunc7(k6_finseq_1(k7_numbers))=1).
-+ fof(rc1_relset_1, axiom,  (! [A, B] :  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) &  (v1_xboole_0(C) &  (v1_relat_1(C) &  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ) ) ).
-+ fof(t10_finsop_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (v1_setwiseo(B, A) => k1_finsop_1(A, k6_finseq_1(A), B)=k4_binop_1(A, B)) ) ) ) ) ).
++ fof(cc17_valued_0, axiom,  (! [A, B] :  (v2_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v2_valued_0(C)) ) ) ) ).
 + fof(cc1_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_xboole_0(A))  =>  (v1_relat_1(A) & v1_finseq_1(A)) ) ) ).
 + fof(d2_mesfunc7, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v2_valued_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  (B=k2_mesfunc7(A) <=>  (? [C] :  (m2_finseq_1(C, k7_numbers) &  (C=A & B=k1_finsop_1(k7_numbers, C, k1_mesfunc7)) ) ) ) ) ) ) ) ).
-+ fof(rc2_subset_1, axiom,  (! [A] :  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) & v1_xboole_0(B)) ) ) ).
++ fof(dt_k1_mesfunc7, axiom,  (v1_funct_1(k1_mesfunc7) &  (v1_funct_2(k1_mesfunc7, k2_zfmisc_1(k7_numbers, k7_numbers), k7_numbers) & m1_subset_1(k1_mesfunc7, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k7_numbers, k7_numbers), k7_numbers)))) ) ).
++ fof(dt_k2_mesfunc7, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v2_valued_0(A)) ) )  => m1_subset_1(k2_mesfunc7(A), k7_numbers)) ) ).
++ fof(dt_k6_finseq_1, axiom,  (! [A] : m2_finseq_1(k6_finseq_1(A), A)) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
 + fof(fc2_membered, axiom, v2_membered(k7_numbers)).
 + fof(fc3_mesfunc7, axiom,  (v1_funct_1(k1_mesfunc7) &  (v1_funct_2(k1_mesfunc7, k2_zfmisc_1(k7_numbers, k7_numbers), k7_numbers) & v1_setwiseo(k1_mesfunc7, k7_numbers)) ) ).
-+ fof(fc5_numbers, axiom,  ~ (v1_xboole_0(k7_numbers)) ).
-+ fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
-+ fof(cc17_valued_0, axiom,  (! [A, B] :  (v2_membered(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v2_valued_0(C)) ) ) ) ).
 + fof(fc5_finseq_1, axiom,  (! [A] : v1_xboole_0(k6_finseq_1(A))) ).
-+ fof(dt_k1_mesfunc7, axiom,  (v1_funct_1(k1_mesfunc7) &  (v1_funct_2(k1_mesfunc7, k2_zfmisc_1(k7_numbers, k7_numbers), k7_numbers) & m1_subset_1(k1_mesfunc7, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k7_numbers, k7_numbers), k7_numbers)))) ) ).
-+ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
-+ fof(dt_k6_finseq_1, axiom,  (! [A] : m2_finseq_1(k6_finseq_1(A), A)) ).
-+ fof(dt_k2_mesfunc7, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_finseq_1(A) & v2_valued_0(A)) ) )  => m1_subset_1(k2_mesfunc7(A), k7_numbers)) ) ).
++ fof(fc5_numbers, axiom,  ~ (v1_xboole_0(k7_numbers)) ).
++ fof(rc1_relset_1, axiom,  (! [A, B] :  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) &  (v1_xboole_0(C) &  (v1_relat_1(C) &  (v4_relat_1(C, A) & v5_relat_1(C, B)) ) ) ) ) ) ).
++ fof(rc2_subset_1, axiom,  (! [A] :  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) & v1_xboole_0(B)) ) ) ).
++ fof(t10_finsop_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (v1_setwiseo(B, A) => k1_finsop_1(A, k6_finseq_1(A), B)=k4_binop_1(A, B)) ) ) ) ) ).
 + fof(t5_mesfunc7, axiom, k4_binop_1(k7_numbers, k1_mesfunc7)=1).
++ fof(t8_boole, axiom,  (! [A] :  (! [B] :  ~ ( (v1_xboole_0(A) &  ( ~ (A=B)  & v1_xboole_0(B)) ) ) ) ) ).
 - fof(d3_mesfunc7, axiom,  (! [A] :  (m1_subset_1(A, k7_numbers) =>  (! [B] :  (v7_ordinal1(B) => k3_mesfunc7(A, B)=k2_mesfunc7(k5_finseq_2(k7_numbers, B, A))) ) ) ) ).
 - fof(s2_finseq_2__e3_13__extreal1, axiom,  ( ( ~ ( ( ~ (r2_hidden(k2_supinf_1, k2_relset_1(k7_numbers, k6_finseq_1(k7_numbers))))  & k4_extreal1(k6_finseq_1(k7_numbers))=k2_supinf_1) )  &  (! [A] :  (m2_finseq_1(A, k7_numbers) =>  (! [B] :  (m1_subset_1(B, k7_numbers) =>  ( ~ ( ( ~ (r2_hidden(k2_supinf_1, k2_relset_1(k7_numbers, A)))  & k4_extreal1(A)=k2_supinf_1) )  =>  ~ ( ( ~ (r2_hidden(k2_supinf_1, k2_relset_1(k7_numbers, k7_finseq_1(A, k9_finseq_1(B)))))  & k4_extreal1(k7_finseq_1(A, k9_finseq_1(B)))=k2_supinf_1) ) ) ) ) ) ) )  =>  (! [A] :  (m2_finseq_1(A, k7_numbers) =>  ~ ( ( ~ (r2_hidden(k2_supinf_1, k2_relset_1(k7_numbers, A)))  & k4_extreal1(A)=k2_supinf_1) ) ) ) ) ).
 - fof(t7_extreal1, axiom, k4_extreal1(k6_finseq_1(k7_numbers))=k1_supinf_2).

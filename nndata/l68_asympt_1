@@ -1,11 +1,11 @@
 C fof(l68_asympt_1, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (! [D] :  (m1_subset_1(D, k1_numbers) => k10_real_1(k10_real_1(A, B), k10_real_1(C, D))=k8_real_1(k10_real_1(A, C), k10_real_1(D, B))) ) ) ) ) ) ) ) ).
 + fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
 + fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
-+ fof(t76_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (! [D] :  (v1_xcmplx_0(D) => k3_xcmplx_0(k7_xcmplx_0(A, B), k7_xcmplx_0(C, D))=k7_xcmplx_0(k3_xcmplx_0(A, C), k3_xcmplx_0(B, D))) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k3_xcmplx_0(A, B)) ) ).
++ fof(commutativity_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k8_real_1(B, A)) ) ).
 + fof(dt_k10_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k10_real_1(A, B), k1_numbers)) ) ).
 + fof(redefinition_k10_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k10_real_1(A, B)=k7_xcmplx_0(A, B)) ) ).
-+ fof(commutativity_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k8_real_1(B, A)) ) ).
++ fof(redefinition_k8_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k8_real_1(A, B)=k3_xcmplx_0(A, B)) ) ).
++ fof(t76_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (! [D] :  (v1_xcmplx_0(D) => k3_xcmplx_0(k7_xcmplx_0(A, B), k7_xcmplx_0(C, D))=k7_xcmplx_0(k3_xcmplx_0(A, C), k3_xcmplx_0(B, D))) ) ) ) ) ) ) ) ).
 + fof(t84_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) =>  (! [D] :  (v1_xcmplx_0(D) => k7_xcmplx_0(k7_xcmplx_0(A, B), k7_xcmplx_0(C, D))=k7_xcmplx_0(k3_xcmplx_0(A, D), k3_xcmplx_0(B, C))) ) ) ) ) ) ) ) ).
 - fof(t1_prob_2, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  ~ ( ( ~ (A=k6_numbers)  &  ( ~ (B=k6_numbers)  &  ~ ( (k10_real_1(D, B)=k10_real_1(C, A) <=> k8_real_1(D, A)=k8_real_1(C, B)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t18_comptrig, axiom,  (! [A] :  (v1_xreal_0(A) =>  ~ ( (r1_xxreal_0(k6_numbers, A) &  ( ~ (r1_xxreal_0(k8_real_1(2, k32_sin_cos), A))  &  (k20_sin_cos(A)=k6_numbers &  ( ~ (A=k10_real_1(k32_sin_cos, 2))  &  ~ (A=k8_real_1(k10_real_1(3, 2), k32_sin_cos)) ) ) ) ) ) ) ) ).

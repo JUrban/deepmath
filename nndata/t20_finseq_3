@@ -1,11 +1,11 @@
 C fof(t20_finseq_3, axiom,  (! [A] :  (! [B] :  (v7_ordinal1(B) =>  (k2_finseq_1(B)=k1_tarski(A) =>  (B=1 & A=1) ) ) ) ) ).
-+ fof(t30_enumset1, axiom,  (! [A] :  (! [B] : k1_enumset1(A, A, B)=k2_tarski(A, B)) ) ).
++ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
++ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
++ fof(t25_zfmisc_1, axiom,  (! [A] : k3_tarski(k1_tarski(A))=A) ).
 + fof(t29_enumset1, axiom,  (! [A] : k2_tarski(A, A)=k1_tarski(A)) ).
 + fof(t2_finseq_1, axiom,  (k2_finseq_1(1)=k1_tarski(1) & k2_finseq_1(2)=k2_tarski(1, 2)) ).
 + fof(t30_card_1, axiom,  (! [A] : k1_card_1(k1_tarski(A))=1) ).
-+ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
-+ fof(t25_zfmisc_1, axiom,  (! [A] : k3_tarski(k1_tarski(A))=A) ).
-+ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
++ fof(t30_enumset1, axiom,  (! [A] :  (! [B] : k1_enumset1(A, A, B)=k2_tarski(A, B)) ) ).
 + fof(t57_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => k5_card_1(k2_finseq_1(A))=A) ) ).
 - fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
 - fof(t4_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => r2_hidden(k1_nat_1(A, 1), k2_finseq_1(k1_nat_1(A, 1)))) ) ).

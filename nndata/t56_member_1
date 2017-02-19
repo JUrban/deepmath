@@ -1,9 +1,9 @@
 C fof(t56_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) =>  (! [C] :  (v2_membered(C) =>  (! [D] :  (v2_membered(D) =>  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k10_member_1(A, C), k10_member_1(B, D))) ) ) ) ) ) ) ) ) ).
-+ fof(t20_membered, axiom,  (! [A] :  (! [B] :  (v2_membered(B) =>  (r1_tarski(A, B) => v2_membered(A)) ) ) ) ).
 + fof(d7_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) => k10_member_1(A, B)=k8_member_1(A, k4_member_1(B))) ) ) ) ).
-+ fof(t40_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) =>  (! [C] :  (v2_membered(C) =>  (! [D] :  (v2_membered(D) =>  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k8_member_1(A, C), k8_member_1(B, D))) ) ) ) ) ) ) ) ) ).
-+ fof(l4_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) =>  (r1_tarski(A, B) => r1_tarski(k4_member_1(A), k4_member_1(B))) ) ) ) ) ).
 + fof(dt_k4_member_1, axiom,  (! [A] :  (v2_membered(A) => v2_membered(k4_member_1(A))) ) ).
++ fof(l4_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) =>  (r1_tarski(A, B) => r1_tarski(k4_member_1(A), k4_member_1(B))) ) ) ) ) ).
++ fof(t20_membered, axiom,  (! [A] :  (! [B] :  (v2_membered(B) =>  (r1_tarski(A, B) => v2_membered(A)) ) ) ) ).
++ fof(t40_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) =>  (! [C] :  (v2_membered(C) =>  (! [D] :  (v2_membered(D) =>  ( (r1_tarski(A, B) & r1_tarski(C, D))  => r1_tarski(k8_member_1(A, C), k8_member_1(B, D))) ) ) ) ) ) ) ) ) ).
 - fof(t54_member_1, axiom,  (! [A] :  (v2_membered(A) =>  (! [B] :  (v2_membered(B) => k10_member_1(A, B)=a_2_2_member_1(A, B)) ) ) ) ).
 - fof(fc29_member_1, axiom,  (! [A, B] :  ( (v1_xboole_0(A) & v2_membered(B))  => v1_xboole_0(k10_member_1(B, A))) ) ).
 - fof(fc31_member_1, axiom,  (! [A, B] :  ( (v2_membered(A) & v2_membered(B))  => v2_membered(k10_member_1(A, B))) ) ).

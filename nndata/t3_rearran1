@@ -1,21 +1,21 @@
 C fof(t3_rearran1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_finset_1(A))  =>  (! [B] :  ( (v1_rearran1(B) &  (v3_rearran1(B, k1_zfmisc_1(A)) & m2_finseq_1(B, k1_zfmisc_1(A))) )  => k1_funct_1(B, k3_finseq_1(B))=A) ) ) ) ).
 + fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
-+ fof(cc6_card_1, axiom,  (! [A] :  ( (v3_ordinal1(A) & v1_finset_1(A))  => v7_ordinal1(A)) ) ).
-+ fof(l5_rearran1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_finset_1(A))  =>  (! [B] :  (m2_finseq_1(B, k1_zfmisc_1(A)) =>  ( (k3_finseq_1(B)=k5_card_1(A) & v1_rearran1(B))  =>  (! [C] :  (v1_finset_1(C) =>  (C=k1_funct_1(B, k3_finseq_1(B)) => C=A) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
-+ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
 + fof(cc2_xxreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xxreal_0(A)) ) ).
-+ fof(fc6_card_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (v1_finset_1(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t14_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (r1_xxreal_0(1, A))  => A=k6_numbers) ) ) ).
-+ fof(fc2_card_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k1_card_1(A)))  & v1_card_1(k1_card_1(A))) ) ) ).
++ fof(cc6_card_1, axiom,  (! [A] :  ( (v3_ordinal1(A) & v1_finset_1(A))  => v7_ordinal1(A)) ) ).
++ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
 + fof(dt_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => m1_subset_1(k5_card_1(A), k4_ordinal1)) ) ).
-+ fof(spc0_boole, axiom, v1_xboole_0(0)).
-+ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(fc2_card_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( ~ (v1_xboole_0(k1_card_1(A)))  & v1_card_1(k1_card_1(A))) ) ) ).
++ fof(fc6_card_1, axiom,  (! [A] :  (v1_finset_1(A) =>  (v1_finset_1(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
 + fof(l4_rearran1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_finset_1(A))  =>  (! [B] :  (m2_finseq_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k5_numbers) =>  ( (r1_xxreal_0(1, C) & r1_xxreal_0(C, k3_finseq_1(B)))  => v1_finset_1(k1_funct_1(B, C))) ) ) ) ) ) ) ).
++ fof(l5_rearran1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_finset_1(A))  =>  (! [B] :  (m2_finseq_1(B, k1_zfmisc_1(A)) =>  ( (k3_finseq_1(B)=k5_card_1(A) & v1_rearran1(B))  =>  (! [C] :  (v1_finset_1(C) =>  (C=k1_funct_1(B, k3_finseq_1(B)) => C=A) ) ) ) ) ) ) ) ).
++ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(reflexivity_r1_xxreal_0, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => r1_xxreal_0(A, A)) ) ).
++ fof(spc0_boole, axiom, v1_xboole_0(0)).
++ fof(t14_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  ( ~ (r1_xxreal_0(1, A))  => A=k6_numbers) ) ) ).
 + fof(t1_rearran1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_finset_1(A))  =>  (! [B] :  (m2_finseq_1(B, k1_zfmisc_1(A)) =>  (v3_rearran1(B, k1_zfmisc_1(A)) <=> k3_finseq_1(B)=k5_card_1(A)) ) ) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 - fof(d3_rearran1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v3_rearran1(B, A) <=>  (? [C] :  (v1_finset_1(C) &  (C=k3_tarski(A) & k3_finseq_1(B)=k5_card_1(C)) ) ) ) ) ) ) ).
 - fof(t81_zfmisc_1, axiom,  (! [A] : k3_tarski(k1_zfmisc_1(A))=A) ).
 - fof(rc1_rearran1, axiom,  (! [A] :  ( ( ~ (v1_xboole_0(A))  & v1_finset_1(A))  =>  (? [B] :  (m1_finseq_1(B, k1_zfmisc_1(A)) &  (v1_relat_1(B) &  (v4_relat_1(B, k5_numbers) &  (v5_relat_1(B, k1_zfmisc_1(A)) &  (v1_funct_1(B) &  (v1_finset_1(B) &  (v1_finseq_1(B) &  (v2_finseq_1(B) &  (v1_rearran1(B) &  (v2_rearran1(B) & v3_rearran1(B, k1_zfmisc_1(A))) ) ) ) ) ) ) ) ) ) ) ) ) ).

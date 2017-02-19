@@ -1,17 +1,17 @@
 C fof(t24_abcmiz_1, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_abcmiz_1)))  =>  (v1_finset_1(k1_abcmiz_1(A)) & m1_subset_1(k1_abcmiz_1(A), k1_zfmisc_1(k2_abcmiz_1))) ) ) ).
-+ fof(t23_abcmiz_1, axiom, r1_tarski(k2_abcmiz_1, k4_classes1(k4_ordinal1))).
-+ fof(t19_abcmiz_1, axiom, k1_abcmiz_1(k2_abcmiz_1)=k2_abcmiz_1).
-+ fof(t21_abcmiz_1, axiom,  (! [A] : k6_classes1(k1_abcmiz_1(A))=k6_classes1(A)) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(t22_abcmiz_1, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k4_classes1(k4_ordinal1))))  => r2_hidden(A, k4_classes1(k4_ordinal1))) ) ).
-+ fof(t9_abcmiz_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k1_abcmiz_1(A), k1_abcmiz_1(B))) ) ) ).
-+ fof(t66_classes1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, k4_classes1(B)) <=> r2_hidden(k6_classes1(A), B)) ) ) ) ).
 + fof(cc5_card_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_finset_1(A)) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
 + fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(t19_abcmiz_1, axiom, k1_abcmiz_1(k2_abcmiz_1)=k2_abcmiz_1).
 + fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t1_xboole_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r1_tarski(A, B) & r1_tarski(B, C))  => r1_tarski(A, C)) ) ) ) ).
 + fof(t20_abcmiz_1, axiom,  (! [A] :  (v1_finset_1(k6_classes1(A)) => v1_finset_1(A)) ) ).
++ fof(t21_abcmiz_1, axiom,  (! [A] : k6_classes1(k1_abcmiz_1(A))=k6_classes1(A)) ).
++ fof(t22_abcmiz_1, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k4_classes1(k4_ordinal1))))  => r2_hidden(A, k4_classes1(k4_ordinal1))) ) ).
++ fof(t23_abcmiz_1, axiom, r1_tarski(k2_abcmiz_1, k4_classes1(k4_ordinal1))).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t66_classes1, axiom,  (! [A] :  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, k4_classes1(B)) <=> r2_hidden(k6_classes1(A), B)) ) ) ) ).
++ fof(t9_abcmiz_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k1_abcmiz_1(A), k1_abcmiz_1(B))) ) ) ).
 - fof(t17_abcmiz_1, axiom,  (! [A] :  ( (v1_finset_1(A) & m1_subset_1(A, k1_zfmisc_1(k2_abcmiz_1)))  =>  (! [B] :  (v7_ordinal1(B) => r2_hidden(k4_tarski(k1_abcmiz_1(A), B), k2_abcmiz_1)) ) ) ) ).
 - fof(fraenkel_a_0_1_abcmiz_1, axiom,  (! [A] :  (r2_hidden(A, a_0_1_abcmiz_1) <=>  (? [B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_abcmiz_1)) & m1_subset_1(C, k5_numbers))  &  (A=k4_tarski(k1_abcmiz_1(B), C) & v1_finset_1(B)) ) ) ) ) ).
 - fof(d1_abcmiz_1, axiom,  (! [A] :  (! [B] :  (B=k1_abcmiz_1(A) <=>  (r1_tarski(A, B) &  ( (! [C] :  (! [D] :  (r2_hidden(k4_tarski(C, D), B) => r1_tarski(C, B)) ) )  &  (! [C] :  ( (r1_tarski(A, C) &  (! [D] :  (! [E] :  (r2_hidden(k4_tarski(D, E), C) => r1_tarski(D, C)) ) ) )  => r1_tarski(B, C)) ) ) ) ) ) ) ).

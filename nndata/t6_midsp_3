@@ -1,19 +1,19 @@
 C fof(t6_midsp_3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  ( ( ~ (v2_struct_0(C))  &  (v2_midsp_1(C) & l1_midsp_3(C, k2_nat_1(B, 2))) )  =>  (! [D] :  (m1_subset_1(D, u1_struct_0(C)) =>  (! [E] :  (m2_finseq_2(E, u1_struct_0(C), k4_finseq_2(k2_nat_1(B, 1), u1_struct_0(C))) =>  (r2_hidden(A, k2_finseq_1(k2_nat_1(B, 1))) =>  (k1_funct_1(k1_midsp_3(u1_struct_0(C), k2_nat_1(B, 1), E, A, D), A)=D &  (! [F] :  (m1_subset_1(F, k5_numbers) =>  (r2_hidden(F, k7_subset_1(k5_numbers, k4_finseq_1(E), k1_tarski(A))) => k1_funct_1(k1_midsp_3(u1_struct_0(C), k2_nat_1(B, 1), E, A, D), F)=k1_funct_1(E, F)) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(dt_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => m2_subset_1(k2_nat_1(A, B), k1_numbers, k5_numbers)) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(dt_l1_midsp_1, axiom,  (! [A] :  (l1_midsp_1(A) => l1_struct_0(A)) ) ).
++ fof(dt_l1_midsp_3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (l1_midsp_3(B, A) => l1_midsp_1(B)) ) ) ) ).
 + fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
 + fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
-+ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
-+ fof(l7_midsp_3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (! [D] :  (m1_subset_1(D, C) =>  (! [E] :  (m2_finseq_2(E, C, k4_finseq_2(A, C)) =>  (! [F] :  (m1_subset_1(F, k5_numbers) =>  (r2_hidden(F, k7_subset_1(k5_numbers, k4_finseq_1(E), k1_tarski(B))) => k1_funct_1(k1_midsp_3(C, A, E, B, D), F)=k1_funct_1(E, F)) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_l1_midsp_1, axiom,  (! [A] :  (l1_midsp_1(A) => l1_struct_0(A)) ) ).
 + fof(l6_midsp_3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (! [D] :  (m1_subset_1(D, C) =>  (! [E] :  (m2_finseq_2(E, C, k4_finseq_2(A, C)) =>  (r2_hidden(B, k2_finseq_1(A)) => k1_funct_1(k1_midsp_3(C, A, E, B, D), B)=D) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(dt_l1_midsp_3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (l1_midsp_3(B, A) => l1_midsp_1(B)) ) ) ) ).
-+ fof(dt_k2_nat_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k5_numbers) & v7_ordinal1(B))  => m2_subset_1(k2_nat_1(A, B), k1_numbers, k5_numbers)) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(l7_midsp_3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (! [D] :  (m1_subset_1(D, C) =>  (! [E] :  (m2_finseq_2(E, C, k4_finseq_2(A, C)) =>  (! [F] :  (m1_subset_1(F, k5_numbers) =>  (r2_hidden(F, k7_subset_1(k5_numbers, k4_finseq_1(E), k1_tarski(B))) => k1_funct_1(k1_midsp_3(C, A, E, B, D), F)=k1_funct_1(E, F)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(spc2_numerals, axiom,  ( (v2_xxreal_0(2) & m2_subset_1(2, k1_numbers, k5_numbers))  &  (m1_subset_1(2, k5_numbers) & m1_subset_1(2, k1_numbers)) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
 - fof(d1_midsp_3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v2_midsp_1(B) & l1_midsp_3(B, k2_nat_1(A, 2))) )  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(B)) =>  (! [D] :  (m2_finseq_2(D, u1_struct_0(B), k4_finseq_2(k2_nat_1(A, 1), u1_struct_0(B))) => k4_midsp_3(A, B, C, D)=k1_funct_1(u1_midsp_3(k2_nat_1(A, 2), B), k3_midsp_3(A, B, 1, k2_nat_1(A, 1), k2_midsp_3(A, B, C), D))) ) ) ) ) ) ) ) ).
 - fof(redefinition_k1_midsp_3, axiom,  (! [A, B, C, D, E] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, k5_numbers) &  (m1_subset_1(C, k4_finseq_2(B, A)) &  (m1_subset_1(D, k5_numbers) & m1_subset_1(E, A)) ) ) )  => k1_midsp_3(A, B, C, D, E)=k2_funct_7(C, D, E)) ) ).
 - fof(dt_k4_midsp_3, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(A, k5_numbers) &  ( ( ~ (v2_struct_0(B))  &  (v2_midsp_1(B) & l1_midsp_3(B, k2_nat_1(A, 2))) )  &  (m1_subset_1(C, u1_struct_0(B)) & m1_subset_1(D, k4_finseq_2(k2_nat_1(A, 1), u1_struct_0(B)))) ) )  => m1_subset_1(k4_midsp_3(A, B, C, D), u1_struct_0(B))) ) ).

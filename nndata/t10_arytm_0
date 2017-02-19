@@ -1,13 +1,13 @@
 C fof(t10_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (! [D] :  (m1_subset_1(D, k1_numbers) =>  (k5_arytm_0(A, B)=k5_arytm_0(C, D) =>  (A=C & B=D) ) ) ) ) ) ) ) ) ) ).
-+ fof(t68_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (k4_funct_4(A, B, C, D)=k4_funct_4(A, B, E, F) =>  (A=B |  (C=E & D=F) ) ) ) ) ) ) ) ) ).
-+ fof(spc1_boole, axiom,  ~ (v1_xboole_0(1)) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(d5_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  ( (B=k6_numbers => k5_arytm_0(A, B)=A)  &  ( ~ (B=k6_numbers)  => k5_arytm_0(A, B)=k5_funct_4(k1_numbers, k6_numbers, 1, A, B)) ) ) ) ) ) ).
-+ fof(redefinition_k5_funct_4, axiom,  (! [A, B, C, D, E] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(D, A) & m1_subset_1(E, A)) )  => k5_funct_4(A, B, C, D, E)=k4_funct_4(B, C, D, E)) ) ).
-+ fof(t8_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  ~ (r2_hidden(k5_funct_4(k1_numbers, k6_numbers, 1, A, B), k1_numbers)) ) ) ) ) ).
 + fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
 + fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(redefinition_k5_funct_4, axiom,  (! [A, B, C, D, E] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(D, A) & m1_subset_1(E, A)) )  => k5_funct_4(A, B, C, D, E)=k4_funct_4(B, C, D, E)) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(spc1_boole, axiom,  ~ (v1_xboole_0(1)) ).
 + fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t68_funct_4, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (k4_funct_4(A, B, C, D)=k4_funct_4(A, B, E, F) =>  (A=B |  (C=E & D=F) ) ) ) ) ) ) ) ) ).
++ fof(t8_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  ~ (r2_hidden(k5_funct_4(k1_numbers, k6_numbers, 1, A, B), k1_numbers)) ) ) ) ) ).
 - fof(t9_arytm_0, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) =>  (? [B] :  (m1_subset_1(B, k1_numbers) &  (? [C] :  (m1_subset_1(C, k1_numbers) & A=k5_arytm_0(B, C)) ) ) ) ) ) ).
 - fof(dt_k5_arytm_0, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & m1_subset_1(B, k1_numbers))  => m1_subset_1(k5_arytm_0(A, B), k2_numbers)) ) ).
 - fof(l11_numbers, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k1_numbers) =>  ~ (r2_hidden(k5_funct_4(k1_numbers, k1_xboole_0, k12_arytm_3, A, B), k1_numbers)) ) ) ) ) ).

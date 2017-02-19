@@ -1,8 +1,8 @@
 C fof(t10_zfrefle1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  ( (v1_zf_model(A) &  (r2_zfrefle1(A, B) & v1_ordinal1(B)) )  => v1_zf_model(B)) ) ) ) ) ).
-+ fof(t4_zfrefle1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (v1_zf_model(A) => r1_zfrefle1(A, k2_zfrefle1)) ) ) ).
-+ fof(t8_zfrefle1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (r2_zfrefle1(A, B) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k9_zf_lang)) =>  (r1_zfrefle1(A, C) <=> r1_zfrefle1(B, C)) ) ) ) ) ) ) ) ).
 + fof(dt_k2_zfrefle1, axiom, m1_subset_1(k2_zfrefle1, k1_zfmisc_1(k9_zf_lang))).
++ fof(t4_zfrefle1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (v1_zf_model(A) => r1_zfrefle1(A, k2_zfrefle1)) ) ) ).
 + fof(t5_zfrefle1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  ( (r1_zfrefle1(A, k2_zfrefle1) & v1_ordinal1(A))  => v1_zf_model(A)) ) ) ).
++ fof(t8_zfrefle1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (r2_zfrefle1(A, B) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k9_zf_lang)) =>  (r1_zfrefle1(A, C) <=> r1_zfrefle1(B, C)) ) ) ) ) ) ) ) ).
 - fof(d12_zf_model, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (v1_zf_model(A) <=>  (v1_ordinal1(A) &  (r2_zf_model(A, k7_zf_model) &  (r2_zf_model(A, k8_zf_model) &  (r2_zf_model(A, k9_zf_model) &  (r2_zf_model(A, k10_zf_model) &  (! [B] :  ( (v1_zf_lang(B) & m2_finseq_1(B, k5_numbers))  =>  (r1_xboole_0(k1_enumset1(k2_zf_lang(k6_numbers), k2_zf_lang(1), k2_zf_lang(2)), k2_zf_model(B)) => r2_zf_model(A, k11_zf_model(B))) ) ) ) ) ) ) ) ) ) ) ).
 - fof(d2_zfrefle1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (r2_zfrefle1(A, B) <=>  (! [C] :  ( (v1_zf_lang(C) & m2_finseq_1(C, k5_numbers))  =>  (k2_zf_model(C)=k1_xboole_0 =>  (r2_zf_model(A, C) <=> r2_zf_model(B, C)) ) ) ) ) ) ) ) ) ).
 - fof(t6_zfrefle1, axiom,  (! [A] :  ( (v1_zf_lang(A) & m2_finseq_1(A, k5_numbers))  =>  (? [B] :  ( (v1_zf_lang(B) & m2_finseq_1(B, k5_numbers))  &  (k2_zf_model(B)=k1_xboole_0 &  (! [C] :  ( ~ (v1_xboole_0(C))  =>  (r2_zf_model(C, B) <=> r2_zf_model(C, A)) ) ) ) ) ) ) ) ).

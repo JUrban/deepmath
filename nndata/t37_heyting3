@@ -1,25 +1,25 @@
 C fof(t37_heyting3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k3_yellow_0(k1_heyting3(k5_numbers, k6_domain_1(k5_numbers, A)))=k1_xboole_0) ) ).
-+ fof(d2_lattice3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  => k3_lattice3(A)=g1_orders_2(u1_struct_0(A), k2_lattice3(A))) ) ).
-+ fof(dt_k5_substlat, axiom,  (! [A, B] :  (v3_lattices(k5_substlat(A, B)) & l3_lattices(k5_substlat(A, B))) ) ).
-+ fof(fc3_substlat, axiom,  (! [A, B] :  (v3_lattices(k5_substlat(A, B)) & v10_lattices(k5_substlat(A, B))) ) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(d1_heyting3, axiom,  (! [A] :  (! [B] : k1_heyting3(A, B)=k3_lattice3(k5_substlat(A, B))) ) ).
 + fof(abstractness_v1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) =>  (v1_orders_2(A) => A=g1_orders_2(u1_struct_0(A), u1_orders_2(A))) ) ) ).
-+ fof(t30_yellow_0, axiom,  (! [A] :  ( (v5_orders_2(A) & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  ( ( (B=k1_yellow_0(A, C) & r1_yellow_0(A, C))  =>  (r2_lattice3(A, C, B) &  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (r2_lattice3(A, C, D) => r1_orders_2(A, B, D)) ) ) ) )  &  ( (r2_lattice3(A, C, B) &  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (r2_lattice3(A, C, D) => r1_orders_2(A, B, D)) ) ) )  =>  (B=k1_yellow_0(A, C) & r1_yellow_0(A, C)) ) ) ) ) ) ) ) ).
-+ fof(fc3_heyting3, axiom,  (! [A, B] :  (v3_orders_2(k1_heyting3(A, B)) &  (v4_orders_2(k1_heyting3(A, B)) & v5_orders_2(k1_heyting3(A, B))) ) ) ).
-+ fof(t6_yellow_0, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (r2_lattice3(A, k1_xboole_0, B) & r1_lattice3(A, k1_xboole_0, B)) ) ) ) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(d4_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v3_lattices(C) & l3_lattices(C))  =>  (C=k5_substlat(A, B) <=>  (u1_struct_0(C)=k1_substlat(A, B) &  (! [D] :  (m2_subset_1(D, k5_finsub_1(k4_partfun1(A, B)), k1_substlat(A, B)) =>  (! [E] :  (m2_subset_1(E, k5_finsub_1(k4_partfun1(A, B)), k1_substlat(A, B)) =>  (k1_binop_1(u2_lattices(C), D, E)=k3_substlat(A, B, k2_substlat(A, B, D, E)) & k1_binop_1(u1_lattices(C), D, E)=k3_substlat(A, B, k4_substlat(A, B, D, E))) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t1_substlat, axiom,  (! [A] :  (! [B] : r2_hidden(k1_xboole_0, k1_substlat(A, B))) ) ).
 + fof(d11_yellow_0, axiom,  (! [A] :  (l1_orders_2(A) => k3_yellow_0(A)=k1_yellow_0(A, k1_xboole_0)) ) ).
-+ fof(free_g1_orders_2, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [C, D] :  (g1_orders_2(A, B)=g1_orders_2(C, D) =>  (A=C & B=D) ) ) ) ) ).
++ fof(d1_heyting3, axiom,  (! [A] :  (! [B] : k1_heyting3(A, B)=k3_lattice3(k5_substlat(A, B))) ) ).
++ fof(d2_lattice3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  => k3_lattice3(A)=g1_orders_2(u1_struct_0(A), k2_lattice3(A))) ) ).
++ fof(d4_substlat, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v3_lattices(C) & l3_lattices(C))  =>  (C=k5_substlat(A, B) <=>  (u1_struct_0(C)=k1_substlat(A, B) &  (! [D] :  (m2_subset_1(D, k5_finsub_1(k4_partfun1(A, B)), k1_substlat(A, B)) =>  (! [E] :  (m2_subset_1(E, k5_finsub_1(k4_partfun1(A, B)), k1_substlat(A, B)) =>  (k1_binop_1(u2_lattices(C), D, E)=k3_substlat(A, B, k2_substlat(A, B, D, E)) & k1_binop_1(u1_lattices(C), D, E)=k3_substlat(A, B, k4_substlat(A, B, D, E))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k1_heyting3, axiom,  (! [A, B] : l1_orders_2(k1_heyting3(A, B))) ).
++ fof(dt_k2_lattice3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  (v1_partfun1(k2_lattice3(A), u1_struct_0(A)) &  (v1_relat_2(k2_lattice3(A)) &  (v4_relat_2(k2_lattice3(A)) &  (v8_relat_2(k2_lattice3(A)) & m1_subset_1(k2_lattice3(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ) ) ) ) ).
++ fof(dt_k5_substlat, axiom,  (! [A, B] :  (v3_lattices(k5_substlat(A, B)) & l3_lattices(k5_substlat(A, B))) ) ).
 + fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(fc2_substlat, axiom,  (! [A, B] :  ( ~ (v2_struct_0(k5_substlat(A, B)))  & v3_lattices(k5_substlat(A, B))) ) ).
++ fof(fc3_heyting3, axiom,  (! [A, B] :  (v3_orders_2(k1_heyting3(A, B)) &  (v4_orders_2(k1_heyting3(A, B)) & v5_orders_2(k1_heyting3(A, B))) ) ) ).
++ fof(fc3_substlat, axiom,  (! [A, B] :  (v3_lattices(k5_substlat(A, B)) & v10_lattices(k5_substlat(A, B))) ) ).
++ fof(fc4_lattice3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  ( ~ (v2_struct_0(k3_lattice3(A)))  &  (v1_orders_2(k3_lattice3(A)) &  (v3_orders_2(k3_lattice3(A)) &  (v4_orders_2(k3_lattice3(A)) & v5_orders_2(k3_lattice3(A))) ) ) ) ) ) ).
++ fof(free_g1_orders_2, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [C, D] :  (g1_orders_2(A, B)=g1_orders_2(C, D) =>  (A=C & B=D) ) ) ) ) ).
 + fof(redefinition_r3_orders_2, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v3_orders_2(A) & l1_orders_2(A)) )  &  (m1_subset_1(B, u1_struct_0(A)) & m1_subset_1(C, u1_struct_0(A))) )  =>  (r3_orders_2(A, B, C) <=> r1_orders_2(A, B, C)) ) ) ).
 + fof(t12_heyting3, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, u1_struct_0(k1_heyting3(A, B))) =>  (! [D] :  (m1_subset_1(D, u1_struct_0(k1_heyting3(A, B))) =>  (r3_orders_2(k1_heyting3(A, B), C, D) <=>  (! [E] :  ~ ( (r2_hidden(E, C) &  (! [F] :  ~ ( (r2_hidden(F, D) & r1_tarski(F, E)) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(fc2_substlat, axiom,  (! [A, B] :  ( ~ (v2_struct_0(k5_substlat(A, B)))  & v3_lattices(k5_substlat(A, B))) ) ).
-+ fof(dt_k1_heyting3, axiom,  (! [A, B] : l1_orders_2(k1_heyting3(A, B))) ).
-+ fof(fc4_lattice3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  ( ~ (v2_struct_0(k3_lattice3(A)))  &  (v1_orders_2(k3_lattice3(A)) &  (v3_orders_2(k3_lattice3(A)) &  (v4_orders_2(k3_lattice3(A)) & v5_orders_2(k3_lattice3(A))) ) ) ) ) ) ).
-+ fof(dt_k2_lattice3, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v10_lattices(A) & l3_lattices(A)) )  =>  (v1_partfun1(k2_lattice3(A), u1_struct_0(A)) &  (v1_relat_2(k2_lattice3(A)) &  (v4_relat_2(k2_lattice3(A)) &  (v8_relat_2(k2_lattice3(A)) & m1_subset_1(k2_lattice3(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ) ) ) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t1_substlat, axiom,  (! [A] :  (! [B] : r2_hidden(k1_xboole_0, k1_substlat(A, B))) ) ).
++ fof(t30_yellow_0, axiom,  (! [A] :  ( (v5_orders_2(A) & l1_orders_2(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  ( ( (B=k1_yellow_0(A, C) & r1_yellow_0(A, C))  =>  (r2_lattice3(A, C, B) &  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (r2_lattice3(A, C, D) => r1_orders_2(A, B, D)) ) ) ) )  &  ( (r2_lattice3(A, C, B) &  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  (r2_lattice3(A, C, D) => r1_orders_2(A, B, D)) ) ) )  =>  (B=k1_yellow_0(A, C) & r1_yellow_0(A, C)) ) ) ) ) ) ) ) ).
++ fof(t6_yellow_0, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (r2_lattice3(A, k1_xboole_0, B) & r1_lattice3(A, k1_xboole_0, B)) ) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(t33_heyting3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  ( ( ~ (v1_xboole_0(B))  & m1_subset_1(B, u1_struct_0(k1_heyting3(k5_numbers, k6_domain_1(k5_numbers, A)))))  =>  ~ ( ( ~ (B=k1_tarski(k1_xboole_0))  &  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finset_1(C)) )  =>  ~ ( (r2_hidden(C, B) &  ~ (C=k1_xboole_0) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t32_heyting3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k1_heyting3(k5_numbers, k6_domain_1(k5_numbers, A)))) =>  (r2_hidden(k1_xboole_0, B) => B=k1_tarski(k1_xboole_0)) ) ) ) ) ).
 - fof(t36_heyting3, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) => k4_yellow_0(k1_heyting3(k5_numbers, k6_domain_1(k5_numbers, A)))=k1_tarski(k1_xboole_0)) ) ).

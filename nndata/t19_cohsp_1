@@ -1,11 +1,11 @@
 C fof(t19_cohsp_1, axiom,  (! [A] : k3_tarski(k5_finsub_1(A))=A) ).
 + fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
-+ fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
-+ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
++ fof(d4_tarski, axiom,  (! [A] :  (! [B] :  (B=k3_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(C, D) & r2_hidden(D, A)) ) ) ) ) ) ) ).
 + fof(d5_finsub_1, axiom,  (! [A] :  (! [B] :  (v4_finsub_1(B) =>  (B=k5_finsub_1(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (r1_tarski(C, A) & v1_finset_1(C)) ) ) ) ) ) ) ).
 + fof(dt_k5_finsub_1, axiom,  (! [A] : v4_finsub_1(k5_finsub_1(A))) ).
-+ fof(d4_tarski, axiom,  (! [A] :  (! [B] :  (B=k3_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (? [D] :  (r2_hidden(C, D) & r2_hidden(D, A)) ) ) ) ) ) ) ).
++ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
 + fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t31_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(k1_tarski(A), B) <=> r2_hidden(A, B)) ) ) ).
 - fof(l1_orders_1, axiom,  (! [A] :  ( ~ ( ( (? [B] :  ( ~ (B=k1_xboole_0)  & r2_hidden(B, A)) )  & k3_tarski(A)=k1_xboole_0) )  &  ~ ( ( ~ (k3_tarski(A)=k1_xboole_0)  &  (! [B] :  ~ ( ( ~ (B=k1_xboole_0)  & r2_hidden(B, A)) ) ) ) ) ) ) ).
 - fof(d6_ordinal1, axiom,  (! [A] :  (v4_ordinal1(A) <=> A=k3_tarski(A)) ) ).
 - fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).

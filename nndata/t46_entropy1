@@ -1,19 +1,19 @@
 C fof(t46_entropy1, axiom,  (! [A] :  ( (v1_matrprob(A) & m2_finseq_1(A, k1_numbers))  =>  (! [B] :  ( ( ~ (v3_relat_1(B))  &  (v1_matrix_1(B) &  (v6_matrprob(B) & m2_finseq_1(B, k3_finseq_2(k1_numbers))) ) )  =>  (k3_finseq_1(A)=k3_finseq_1(B) => v1_matrprob(k2_entropy1(k1_numbers, k6_matrixr1(k1_entropy1(A), B)))) ) ) ) ) ).
-+ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
 + fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
-+ fof(dt_k1_entropy1, axiom,  (! [A] :  (m1_finseq_1(A, k1_numbers) =>  (v1_entropy1(k1_entropy1(A), k3_finseq_1(A)) & m1_matrix_1(k1_entropy1(A), k1_numbers, k3_finseq_1(A), k3_finseq_1(A))) ) ) ).
-+ fof(dt_m1_matrix_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (v7_ordinal1(B) & v7_ordinal1(C)) )  =>  (! [D] :  (m1_matrix_1(D, A, B, C) =>  (v1_matrix_1(D) & m2_finseq_1(D, k3_finseq_2(A))) ) ) ) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(t44_entropy1, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(k1_numbers)))  =>  (v4_matrprob(A) <=> v1_matrprob(k2_entropy1(k1_numbers, A))) ) ) ).
-+ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(dt_k6_matrixr1, axiom,  (! [A, B] :  ( ( (v1_matrix_1(A) & m1_finseq_1(A, k3_finseq_2(k1_numbers)))  &  (v1_matrix_1(B) & m1_finseq_1(B, k3_finseq_2(k1_numbers))) )  =>  (v1_matrix_1(k6_matrixr1(A, B)) & m2_finseq_1(k6_matrixr1(A, B), k3_finseq_2(k1_numbers))) ) ) ).
-+ fof(dt_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => m2_subset_1(k3_finseq_1(A), k1_numbers, k5_numbers)) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(dt_k1_entropy1, axiom,  (! [A] :  (m1_finseq_1(A, k1_numbers) =>  (v1_entropy1(k1_entropy1(A), k3_finseq_1(A)) & m1_matrix_1(k1_entropy1(A), k1_numbers, k3_finseq_1(A), k3_finseq_1(A))) ) ) ).
++ fof(dt_k3_finseq_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  => m2_subset_1(k3_finseq_1(A), k1_numbers, k5_numbers)) ) ).
++ fof(dt_k5_numbers, axiom, m1_subset_1(k5_numbers, k1_zfmisc_1(k1_numbers))).
++ fof(dt_k6_matrixr1, axiom,  (! [A, B] :  ( ( (v1_matrix_1(A) & m1_finseq_1(A, k3_finseq_2(k1_numbers)))  &  (v1_matrix_1(B) & m1_finseq_1(B, k3_finseq_2(k1_numbers))) )  =>  (v1_matrix_1(k6_matrixr1(A, B)) & m2_finseq_1(k6_matrixr1(A, B), k3_finseq_2(k1_numbers))) ) ) ).
++ fof(dt_m1_matrix_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  (v7_ordinal1(B) & v7_ordinal1(C)) )  =>  (! [D] :  (m1_matrix_1(D, A, B, C) =>  (v1_matrix_1(D) & m2_finseq_1(D, k3_finseq_2(A))) ) ) ) ) ).
++ fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
 + fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 + fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 + fof(t28_entropy1, axiom,  (! [A] :  ( (v1_matrprob(A) & m2_finseq_1(A, k1_numbers))  =>  (! [B] :  ( ( ~ (v3_relat_1(B))  &  (v1_matrix_1(B) &  (v6_matrprob(B) & m2_finseq_1(B, k3_finseq_2(k1_numbers))) ) )  =>  (k3_finseq_1(A)=k3_finseq_1(B) => v4_matrprob(k6_matrixr1(k1_entropy1(A), B))) ) ) ) ) ).
++ fof(t44_entropy1, axiom,  (! [A] :  ( (v1_matrix_1(A) & m2_finseq_1(A, k3_finseq_2(k1_numbers)))  =>  (v4_matrprob(A) <=> v1_matrprob(k2_entropy1(k1_numbers, A))) ) ) ).
 - fof(t45_entropy1, axiom,  (! [A] :  ( (v1_matrprob(A) & m2_finseq_1(A, k1_numbers))  =>  (! [B] :  ( (v1_matrprob(B) & m2_finseq_1(B, k1_numbers))  => v1_matrprob(k2_entropy1(k1_numbers, k6_matrixr1(k9_matrixr1(A), k10_matrixr1(B))))) ) ) ) ).
 - fof(t27_entropy1, axiom,  (! [A] :  (m2_finseq_1(A, k1_numbers) =>  (! [B] :  ( (v1_matrix_1(B) & m2_finseq_1(B, k3_finseq_2(k1_numbers)))  =>  (! [C] :  ( (v1_matrix_1(C) & m2_finseq_1(C, k3_finseq_2(k1_numbers)))  =>  (k3_finseq_1(A)=k3_finseq_1(B) =>  (C=k6_matrixr1(k1_entropy1(A), B) <=>  (k3_finseq_1(C)=k3_finseq_1(A) &  (k1_matrix_1(C)=k1_matrix_1(B) &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (r2_hidden(D, k4_finseq_1(C)) => k8_matrix_1(k1_numbers, C, D)=k11_rvsum_1(k1_matrix_1(B), k8_matrix_1(k1_numbers, B, D), k1_seq_1(A, D))) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t26_entropy1, axiom,  (! [A] :  (m2_finseq_1(A, k1_numbers) =>  (! [B] :  ( (v1_matrix_1(B) & m2_finseq_1(B, k3_finseq_2(k1_numbers)))  =>  (! [C] :  ( (v1_matrix_1(C) & m2_finseq_1(C, k3_finseq_2(k1_numbers)))  =>  (k3_finseq_1(A)=k3_finseq_1(B) =>  (C=k6_matrixr1(k1_entropy1(A), B) <=>  (k3_finseq_1(C)=k3_finseq_1(A) &  (k1_matrix_1(C)=k1_matrix_1(B) &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) =>  (! [E] :  (m2_subset_1(E, k1_numbers, k5_numbers) =>  (r2_hidden(k4_tarski(D, E), k2_matrix_1(C)) => k3_matrix_1(k1_numbers, C, D, E)=k8_real_1(k1_seq_1(A, D), k3_matrix_1(k1_numbers, B, D, E))) ) ) ) ) ) ) ) ) ) ) ) ) ) ) ).

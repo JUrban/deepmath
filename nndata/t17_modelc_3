@@ -1,13 +1,13 @@
 C fof(t17_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k13_modelc_2(A))) => r1_xxreal_0(k6_numbers, k18_modelc_3(A, B))) ) ) ) ).
-+ fof(d13_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  => k7_modelc_3(A)=k1_xboole_0) ) ).
 + fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(d13_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  => k7_modelc_3(A)=k1_xboole_0) ) ).
 + fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(t13_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  => k18_modelc_3(A, k7_modelc_3(A))=k6_numbers) ) ).
 + fof(t15_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k13_modelc_2(A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k13_modelc_2(A))) =>  (r1_tarski(B, C) => r1_xxreal_0(k18_modelc_3(A, B), k18_modelc_3(A, C))) ) ) ) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 + fof(t5_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( (r2_hidden(A, B) &  (m1_subset_1(B, k1_zfmisc_1(C)) & v1_xboole_0(C)) ) ) ) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 - fof(redefinition_k7_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k7_subset_1(A, B, C)=k4_xboole_0(B, C)) ) ).
 - fof(dt_k18_modelc_3, axiom,  (! [A, B] :  ( ( (v1_modelc_2(A) & m1_finseq_1(A, k5_numbers))  & m1_subset_1(B, k1_zfmisc_1(k13_modelc_2(A))))  => m1_subset_1(k18_modelc_3(A, B), k1_numbers)) ) ).
 - fof(d26_modelc_3, axiom,  (! [A] :  ( (v1_modelc_2(A) & m2_finseq_1(A, k5_numbers))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k13_modelc_2(A))) =>  (! [C] :  (m1_subset_1(C, k1_numbers) =>  (C=k18_modelc_3(A, B) <=>  (? [D] :  ( (v1_relat_1(D) &  (v1_funct_1(D) & v1_finseq_1(D)) )  &  (k10_xtuple_0(D)=k1_modelc_3(A) &  (v2_funct_1(D) & C=k17_modelc_3(A, B, D)) ) ) ) ) ) ) ) ) ) ) ).

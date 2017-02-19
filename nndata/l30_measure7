@@ -1,7 +1,7 @@
 C fof(l30_measure7, axiom,  (v1_funct_1(k8_funcop_1(k1_zfmisc_1(k1_numbers), k5_numbers, k1_subset_1(k1_numbers))) &  (v1_funct_2(k8_funcop_1(k1_zfmisc_1(k1_numbers), k5_numbers, k1_subset_1(k1_numbers)), k5_numbers, k9_setfam_1(k1_numbers)) & m1_subset_1(k8_funcop_1(k1_zfmisc_1(k1_numbers), k5_numbers, k1_subset_1(k1_numbers)), k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(k1_numbers))))) ) ).
-+ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
-+ fof(dt_k8_funcop_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(C, A))  =>  (v1_funct_1(k8_funcop_1(A, B, C)) &  (v1_funct_2(k8_funcop_1(A, B, C), B, A) & m1_subset_1(k8_funcop_1(A, B, C), k1_zfmisc_1(k2_zfmisc_1(B, A)))) ) ) ) ).
 + fof(dt_k1_subset_1, axiom,  (! [A] : m1_subset_1(k1_subset_1(A), k1_zfmisc_1(A))) ).
++ fof(dt_k8_funcop_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(C, A))  =>  (v1_funct_1(k8_funcop_1(A, B, C)) &  (v1_funct_2(k8_funcop_1(A, B, C), B, A) & m1_subset_1(k8_funcop_1(A, B, C), k1_zfmisc_1(k2_zfmisc_1(B, A)))) ) ) ) ).
++ fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
 + fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
 - fof(l12_comseq_2, axiom,  (v1_funct_1(k8_funcop_1(k2_numbers, k5_numbers, k5_complex1)) &  (v1_funct_2(k8_funcop_1(k2_numbers, k5_numbers, k5_complex1), k5_numbers, k2_numbers) & m1_subset_1(k8_funcop_1(k2_numbers, k5_numbers, k5_complex1), k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k2_numbers)))) ) ).
 - fof(fc2_numbers, axiom,  ~ (v1_xboole_0(k2_numbers)) ).

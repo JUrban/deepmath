@@ -1,7 +1,7 @@
 C fof(t3_euclidlp, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m2_finseq_2(C, k1_numbers, k1_euclid(B)) =>  (k6_euclid(B, k9_euclid(B, C, A))=k9_euclid(B, C, k1_real_1(A)) & k6_euclid(B, k9_euclid(B, C, A))=k9_euclid(B, k6_euclid(B, C), A)) ) ) ) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(l45_euclid_4, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (m2_finseq_2(C, k1_numbers, k1_euclid(B)) =>  (k6_euclid(B, k9_euclid(B, C, A))=k9_euclid(B, C, k1_real_1(A)) & k6_euclid(B, k9_euclid(B, C, A))=k9_euclid(B, k6_euclid(B, C), A)) ) ) ) ) ) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
++ fof(l45_euclid_4, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) =>  (! [B] :  (v7_ordinal1(B) =>  (! [C] :  (m2_finseq_2(C, k1_numbers, k1_euclid(B)) =>  (k6_euclid(B, k9_euclid(B, C, A))=k9_euclid(B, C, k1_real_1(A)) & k6_euclid(B, k9_euclid(B, C, A))=k9_euclid(B, k6_euclid(B, C), A)) ) ) ) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 - fof(redefinition_k6_euclid, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k1_euclid(A)))  => k6_euclid(A, B)=k30_valued_1(B)) ) ).
 - fof(involutiveness_k6_euclid, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k1_euclid(A)))  => k6_euclid(A, k6_euclid(A, B))=B) ) ).
 - fof(dt_k6_euclid, axiom,  (! [A, B] :  ( (v7_ordinal1(A) & m1_subset_1(B, k1_euclid(A)))  => m2_finseq_2(k6_euclid(A, B), k1_numbers, k1_euclid(A))) ) ).

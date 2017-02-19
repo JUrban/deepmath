@@ -1,29 +1,29 @@
 C fof(t106_scmyciel, axiom,  (! [A] :  ( (v4_scmyciel(A) & v6_scmyciel(A))  =>  (k8_scmyciel(A)=k6_numbers =>  (! [B] :  ( (v1_finset_1(B) &  (v4_scmyciel(B) &  (v5_scmyciel(B) & m1_subset_1(B, k1_zfmisc_1(k12_scmyciel(A)))) ) )  => r1_xxreal_0(k2_scmyciel(B), 1)) ) ) ) ) ).
++ fof(cc1_scmyciel, axiom,  (! [A] :  (v1_scmyciel(A) => v1_finset_1(A)) ) ).
++ fof(cc2_scmyciel, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v3_scmyciel(B, A) => v5_finset_1(B)) ) ) ) ).
++ fof(cc4_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v3_scmyciel(A, 1)) ) ) ) ).
++ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
++ fof(d6_scmyciel, axiom,  (! [A] :  ( (v1_finset_1(A) & v5_finset_1(A))  => k2_scmyciel(A)=k5_card_1(k3_tarski(A))) ) ).
++ fof(dt_k2_scmyciel, axiom,  (! [A] :  ( (v1_finset_1(A) & v5_finset_1(A))  => v7_ordinal1(k2_scmyciel(A))) ) ).
++ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
 + fof(fc2_finset_1, axiom,  (! [A, B] : v1_finset_1(k2_tarski(A, B))) ).
 + fof(fc32_finset_1, axiom,  (! [A, B] :  ( (v1_finset_1(A) & v1_finset_1(B))  => v5_finset_1(k2_tarski(A, B))) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(t11_card_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_ordinal1(k1_card_1(A), k1_card_1(B))) ) ) ).
-+ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
-+ fof(t88_scmyciel, axiom,  (! [A] :  ( (v1_scmyciel(A) & v4_scmyciel(A))  => k12_scmyciel(A)=k2_tarski(k1_xboole_0, k1_tarski(k3_tarski(A)))) ) ).
-+ fof(t39_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) <=> r1_ordinal1(A, B)) ) ) ) ) ).
-+ fof(t30_card_1, axiom,  (! [A] : k1_card_1(k1_tarski(A))=1) ).
-+ fof(fc3_scmyciel, axiom,  (! [A] :  (v1_scmyciel(A) => v1_xboole_0(k3_tarski(A))) ) ).
-+ fof(cc4_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  ( ~ (v1_xboole_0(A))  &  (v1_classes1(A) & v3_scmyciel(A, 1)) ) ) ) ).
-+ fof(cc1_scmyciel, axiom,  (! [A] :  (v1_scmyciel(A) => v1_finset_1(A)) ) ).
-+ fof(commutativity_k2_tarski, axiom,  (! [A, B] : k2_tarski(A, B)=k2_tarski(B, A)) ).
-+ fof(t1_boole, axiom,  (! [A] : k2_xboole_0(A, k1_xboole_0)=A) ).
-+ fof(d6_scmyciel, axiom,  (! [A] :  ( (v1_finset_1(A) & v5_finset_1(A))  => k2_scmyciel(A)=k5_card_1(k3_tarski(A))) ) ).
-+ fof(fc1_finset_1, axiom,  (! [A] : v1_finset_1(k1_tarski(A))) ).
 + fof(fc34_finset_1, axiom,  (! [A] :  ( (v1_finset_1(A) & v5_finset_1(A))  => v1_finset_1(k3_tarski(A))) ) ).
-+ fof(t75_zfmisc_1, axiom,  (! [A] :  (! [B] : k3_tarski(k2_tarski(A, B))=k2_xboole_0(A, B)) ) ).
-+ fof(dt_k2_scmyciel, axiom,  (! [A] :  ( (v1_finset_1(A) & v5_finset_1(A))  => v7_ordinal1(k2_scmyciel(A))) ) ).
-+ fof(t77_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k3_tarski(A), k3_tarski(B))) ) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(cc2_scmyciel, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v3_scmyciel(B, A) => v5_finset_1(B)) ) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t28_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (k3_tarski(A)=k1_xboole_0 => v1_scmyciel(A)) ) ) ).
++ fof(fc3_scmyciel, axiom,  (! [A] :  (v1_scmyciel(A) => v1_xboole_0(k3_tarski(A))) ) ).
 + fof(rc6_scmyciel, axiom,  (? [A] :  ( ~ (v1_xboole_0(A))  &  (v5_finset_1(A) &  (v2_finsub_1(A) &  ( ~ (v1_setfam_1(A))  &  (v1_classes1(A) &  (v1_scmyciel(A) &  (v3_scmyciel(A, 1) & v4_scmyciel(A)) ) ) ) ) ) ) ) ).
++ fof(redefinition_k5_card_1, axiom,  (! [A] :  (v1_finset_1(A) => k5_card_1(A)=k1_card_1(A)) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t11_card_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_ordinal1(k1_card_1(A), k1_card_1(B))) ) ) ).
++ fof(t1_boole, axiom,  (! [A] : k2_xboole_0(A, k1_xboole_0)=A) ).
++ fof(t28_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (k3_tarski(A)=k1_xboole_0 => v1_scmyciel(A)) ) ) ).
++ fof(t30_card_1, axiom,  (! [A] : k1_card_1(k1_tarski(A))=1) ).
++ fof(t39_nat_1, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(A, B) <=> r1_ordinal1(A, B)) ) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 + fof(t54_scmyciel, axiom,  (! [A] :  ( (v4_scmyciel(A) & v6_scmyciel(A))  =>  (k8_scmyciel(A)=k6_numbers => k3_tarski(A)=k1_xboole_0) ) ) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t75_zfmisc_1, axiom,  (! [A] :  (! [B] : k3_tarski(k2_tarski(A, B))=k2_xboole_0(A, B)) ) ).
++ fof(t77_zfmisc_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => r1_tarski(k3_tarski(A), k3_tarski(B))) ) ) ).
++ fof(t88_scmyciel, axiom,  (! [A] :  ( (v1_scmyciel(A) & v4_scmyciel(A))  => k12_scmyciel(A)=k2_tarski(k1_xboole_0, k1_tarski(k3_tarski(A)))) ) ).
 - fof(d15_scmyciel, axiom,  (! [A] :  ( (v4_scmyciel(A) & v6_scmyciel(A))  =>  (! [B] :  (v7_ordinal1(B) =>  (B=k8_scmyciel(A) <=>  ( (? [C] :  ( (v1_finset_1(C) &  (v4_scmyciel(C) &  (v5_scmyciel(C) & m1_subset_1(C, k1_zfmisc_1(A))) ) )  & k2_scmyciel(C)=B) )  &  (! [C] :  ( (v1_finset_1(C) &  (v4_scmyciel(C) &  (v5_scmyciel(C) & m1_subset_1(C, k1_zfmisc_1(A))) ) )  => r1_xxreal_0(k2_scmyciel(C), B)) ) ) ) ) ) ) ) ).
 - fof(t105_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  ( (v1_finset_1(B) &  (v4_scmyciel(B) &  (v5_scmyciel(B) & m1_subset_1(B, k1_zfmisc_1(k12_scmyciel(A)))) ) )  =>  (r1_xxreal_0(3, k2_scmyciel(B)) =>  (! [C] :  (m1_subset_1(C, k3_tarski(B)) =>  ~ (C=k3_tarski(A)) ) ) ) ) ) ) ) ).
 - fof(t76_scmyciel, axiom,  (! [A] :  ( (v4_scmyciel(A) & v6_scmyciel(A))  => k8_scmyciel(A)=k11_scmyciel(k6_scmyciel(A))) ) ).

@@ -1,19 +1,19 @@
 C fof(t2_scmfsa_i, axiom,  (! [A] :  (m1_subset_1(A, k2_scmfsa_i) =>  (r1_xxreal_0(k4_xtuple_0(A), 8) => r2_hidden(A, k3_scm_inst)) ) ) ).
-+ fof(fraenkel_a_0_1_scmfsa_i, axiom,  (! [A] :  (r2_hidden(A, a_0_1_scmfsa_i) <=>  (? [B, C, D] :  ( (m2_subset_1(B, k4_ordinal1, k7_card_1(13)) &  (m1_subset_1(C, k2_scm_inst) & m1_subset_1(D, k1_scmfsa_i)) )  &  (A=k3_xtuple_0(B, k1_xboole_0, k10_finseq_1(C, D)) & r2_hidden(B, k2_tarski(11, 12))) ) ) ) ) ).
 + fof(commutativity_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, B)=k2_xboole_0(B, A)) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r9_r8, axiom,  ~ (r1_xxreal_0(9, 8)) ).
-+ fof(rd1_xtuple_0, axiom,  (! [A, B] : k1_xtuple_0(k4_tarski(A, B))=A) ).
-+ fof(d6_xtuple_0, axiom,  (! [A] : k4_xtuple_0(A)=k1_xtuple_0(k1_xtuple_0(A))) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(fraenkel_a_0_0_scmfsa_i, axiom,  (! [A] :  (r2_hidden(A, a_0_0_scmfsa_i) <=>  (? [B, C, D, E] :  ( (m2_subset_1(B, k4_ordinal1, k7_card_1(13)) &  (m1_subset_1(C, k2_scm_inst) &  (m1_subset_1(D, k2_scm_inst) & m1_subset_1(E, k1_scmfsa_i)) ) )  &  (A=k3_xtuple_0(B, k1_xboole_0, k11_finseq_1(C, E, D)) & r2_hidden(B, k2_tarski(9, 10))) ) ) ) ) ).
-+ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r10_r8, axiom,  ~ (r1_xxreal_0(10, 8)) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r12_r8, axiom,  ~ (r1_xxreal_0(12, 8)) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r11_r8, axiom,  ~ (r1_xxreal_0(11, 8)) ).
-+ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
-+ fof(fc3_scmfsa_i, axiom,  ( ~ (v1_xboole_0(k2_scmfsa_i))  & v1_compos_0(k2_scmfsa_i)) ).
 + fof(d2_scmfsa_i, axiom, k2_scmfsa_i=k2_xboole_0(k2_xboole_0(k3_scm_inst, a_0_0_scmfsa_i), a_0_1_scmfsa_i)).
++ fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).
++ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
 + fof(d4_xtuple_0, axiom,  (! [A] :  (! [B] :  (! [C] : k3_xtuple_0(A, B, C)=k4_tarski(k4_tarski(A, B), C)) ) ) ).
++ fof(d6_xtuple_0, axiom,  (! [A] : k4_xtuple_0(A)=k1_xtuple_0(k1_xtuple_0(A))) ).
++ fof(fc3_scmfsa_i, axiom,  ( ~ (v1_xboole_0(k2_scmfsa_i))  & v1_compos_0(k2_scmfsa_i)) ).
++ fof(fraenkel_a_0_0_scmfsa_i, axiom,  (! [A] :  (r2_hidden(A, a_0_0_scmfsa_i) <=>  (? [B, C, D, E] :  ( (m2_subset_1(B, k4_ordinal1, k7_card_1(13)) &  (m1_subset_1(C, k2_scm_inst) &  (m1_subset_1(D, k2_scm_inst) & m1_subset_1(E, k1_scmfsa_i)) ) )  &  (A=k3_xtuple_0(B, k1_xboole_0, k11_finseq_1(C, E, D)) & r2_hidden(B, k2_tarski(9, 10))) ) ) ) ) ).
++ fof(fraenkel_a_0_1_scmfsa_i, axiom,  (! [A] :  (r2_hidden(A, a_0_1_scmfsa_i) <=>  (? [B, C, D] :  ( (m2_subset_1(B, k4_ordinal1, k7_card_1(13)) &  (m1_subset_1(C, k2_scm_inst) & m1_subset_1(D, k1_scmfsa_i)) )  &  (A=k3_xtuple_0(B, k1_xboole_0, k10_finseq_1(C, D)) & r2_hidden(B, k2_tarski(11, 12))) ) ) ) ) ).
++ fof(rd1_xtuple_0, axiom,  (! [A, B] : k1_xtuple_0(k4_tarski(A, B))=A) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r10_r8, axiom,  ~ (r1_xxreal_0(10, 8)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r11_r8, axiom,  ~ (r1_xxreal_0(11, 8)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r12_r8, axiom,  ~ (r1_xxreal_0(12, 8)) ).
++ fof(rqLessOrEqual__r1_xxreal_0__r9_r8, axiom,  ~ (r1_xxreal_0(9, 8)) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
 - fof(rd7_xtuple_0, axiom,  (! [A] :  (v2_xtuple_0(A) => k3_xtuple_0(k4_xtuple_0(A), k5_xtuple_0(A), k2_xtuple_0(A))=A) ) ).
 - fof(t3_recdef_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(A, k3_zfmisc_1(B, C, D)) => A=k3_xtuple_0(k4_xtuple_0(A), k5_xtuple_0(A), k2_xtuple_0(A))) ) ) ) ) ).
 - fof(t1_recdef_2, axiom,  (! [A] :  ( (? [B] :  (? [C] :  (? [D] : A=k3_xtuple_0(B, C, D)) ) )  => A=k3_xtuple_0(k4_xtuple_0(A), k5_xtuple_0(A), k2_xtuple_0(A))) ) ).

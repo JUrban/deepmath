@@ -1,16 +1,16 @@
 C fof(t78_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  ( (v7_scmyciel(B, k6_scmyciel(A)) & m1_eqrel_1(B, k3_tarski(k6_scmyciel(A))))  =>  (v10_scmyciel(B, A) & m1_eqrel_1(B, k3_tarski(A))) ) ) ) ) ).
-+ fof(d16_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (m1_eqrel_1(B, k3_tarski(A)) =>  (v7_scmyciel(B, A) <=>  (! [C] :  (r2_hidden(C, B) =>  (v4_scmyciel(k7_scmyciel(A, C)) &  (v5_scmyciel(k7_scmyciel(A, C)) & m1_subset_1(k7_scmyciel(A, C), k1_zfmisc_1(A))) ) ) ) ) ) ) ) ) ).
-+ fof(fc11_scmyciel, axiom,  (! [A, B] :  (v4_scmyciel(A) => v4_scmyciel(k7_scmyciel(A, B))) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 + fof(d11_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => k6_scmyciel(A)=k6_subset_1(k5_scmyciel(k3_tarski(A)), k1_scmyciel(A))) ) ).
++ fof(d16_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (m1_eqrel_1(B, k3_tarski(A)) =>  (v7_scmyciel(B, A) <=>  (! [C] :  (r2_hidden(C, B) =>  (v4_scmyciel(k7_scmyciel(A, C)) &  (v5_scmyciel(k7_scmyciel(A, C)) & m1_subset_1(k7_scmyciel(A, C), k1_zfmisc_1(A))) ) ) ) ) ) ) ) ) ).
 + fof(d20_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (m1_eqrel_1(B, k3_tarski(A)) =>  (v10_scmyciel(B, A) <=>  (! [C] :  (r2_hidden(C, B) =>  (v9_scmyciel(C, A) & m1_subset_1(C, k1_zfmisc_1(k3_tarski(A)))) ) ) ) ) ) ) ) ).
-+ fof(t73_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  ( (v4_scmyciel(B) &  (v5_scmyciel(B) & m1_subset_1(B, k1_zfmisc_1(k6_scmyciel(A)))) )  =>  (v9_scmyciel(k3_tarski(B), A) & m1_subset_1(k3_tarski(B), k1_zfmisc_1(k3_tarski(A)))) ) ) ) ) ).
-+ fof(dt_m1_eqrel_1, axiom,  (! [A] :  (! [B] :  (m1_eqrel_1(B, A) => m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ).
-+ fof(dt_k7_scmyciel, axiom,  (! [A, B] :  (v4_scmyciel(A) => m1_subset_1(k7_scmyciel(A, B), k1_zfmisc_1(A))) ) ).
-+ fof(l53_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => k3_tarski(A)=k3_tarski(k6_subset_1(k5_scmyciel(k3_tarski(A)), k1_scmyciel(A)))) ) ).
-+ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 + fof(dt_k6_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => v4_scmyciel(k6_scmyciel(A))) ) ).
++ fof(dt_k7_scmyciel, axiom,  (! [A, B] :  (v4_scmyciel(A) => m1_subset_1(k7_scmyciel(A, B), k1_zfmisc_1(A))) ) ).
++ fof(dt_m1_eqrel_1, axiom,  (! [A] :  (! [B] :  (m1_eqrel_1(B, A) => m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ).
++ fof(fc11_scmyciel, axiom,  (! [A, B] :  (v4_scmyciel(A) => v4_scmyciel(k7_scmyciel(A, B))) ) ).
++ fof(l53_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => k3_tarski(A)=k3_tarski(k6_subset_1(k5_scmyciel(k3_tarski(A)), k1_scmyciel(A)))) ) ).
 + fof(l66_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  (r1_tarski(B, k3_tarski(A)) => k3_tarski(k7_scmyciel(A, B))=B) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
++ fof(t73_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  ( (v4_scmyciel(B) &  (v5_scmyciel(B) & m1_subset_1(B, k1_zfmisc_1(k6_scmyciel(A)))) )  =>  (v9_scmyciel(k3_tarski(B), A) & m1_subset_1(k3_tarski(B), k1_zfmisc_1(k3_tarski(A)))) ) ) ) ) ).
 - fof(involutiveness_k6_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) => k6_scmyciel(k6_scmyciel(A))=A) ) ).
 - fof(t72_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  ( (v4_scmyciel(B) &  (v5_scmyciel(B) & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (v9_scmyciel(k3_tarski(B), k6_scmyciel(A)) & m1_subset_1(k3_tarski(B), k1_zfmisc_1(k3_tarski(k6_scmyciel(A))))) ) ) ) ) ).
 - fof(t74_scmyciel, axiom,  (! [A] :  (v4_scmyciel(A) =>  (! [B] :  ( (v9_scmyciel(B, A) & m1_subset_1(B, k1_zfmisc_1(k3_tarski(A))))  =>  (v4_scmyciel(k7_scmyciel(k6_scmyciel(A), B)) &  (v5_scmyciel(k7_scmyciel(k6_scmyciel(A), B)) & m1_subset_1(k7_scmyciel(k6_scmyciel(A), B), k1_zfmisc_1(k6_scmyciel(A)))) ) ) ) ) ) ).

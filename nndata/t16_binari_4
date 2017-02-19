@@ -1,15 +1,15 @@
 C fof(t16_binari_4, axiom,  (! [A] :  ( (v3_card_1(A, 1) & m2_finseq_1(A, k6_margrel1))  =>  (A=k12_finseq_1(k6_margrel1, k7_margrel1) => k3_binari_2(1, A)=k6_numbers) ) ) ).
-+ fof(d3_binari_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v3_card_1(B, A) & m2_finseq_1(B, k6_margrel1))  =>  ( (k7_partfun1(k6_margrel1, B, A)=k7_margrel1 => k3_binari_2(A, B)=k6_binarith(A, B))  &  ( ~ (k7_partfun1(k6_margrel1, B, A)=k7_margrel1)  => k3_binari_2(A, B)=k21_binop_2(k6_binarith(A, B), k5_series_1(2, A))) ) ) ) ) ) ).
-+ fof(redefinition_k7_margrel1, axiom, k7_margrel1=k1_xboolean).
-+ fof(t16_finseq_4, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) => k7_partfun1(A, k12_finseq_1(A, B), 1)=B) ) ) ) ).
-+ fof(d1_xboolean, axiom, k1_xboolean=k6_numbers).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(t15_binarith, axiom,  (! [A] :  ( (v3_card_1(A, 1) & m2_finseq_1(A, k6_margrel1))  =>  (A=k12_finseq_1(k6_margrel1, k7_margrel1) => k6_binarith(1, A)=k6_numbers) ) ) ).
-+ fof(fc2_margrel1, axiom,  ~ (v1_xboole_0(k6_margrel1)) ).
++ fof(d1_xboolean, axiom, k1_xboolean=k6_numbers).
++ fof(d3_binari_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  ( (v3_card_1(B, A) & m2_finseq_1(B, k6_margrel1))  =>  ( (k7_partfun1(k6_margrel1, B, A)=k7_margrel1 => k3_binari_2(A, B)=k6_binarith(A, B))  &  ( ~ (k7_partfun1(k6_margrel1, B, A)=k7_margrel1)  => k3_binari_2(A, B)=k21_binop_2(k6_binarith(A, B), k5_series_1(2, A))) ) ) ) ) ) ).
 + fof(dt_k7_margrel1, axiom, m1_subset_1(k7_margrel1, k6_margrel1)).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(fc2_margrel1, axiom,  ~ (v1_xboole_0(k6_margrel1)) ).
 + fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_k7_margrel1, axiom, k7_margrel1=k1_xboolean).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t15_binarith, axiom,  (! [A] :  ( (v3_card_1(A, 1) & m2_finseq_1(A, k6_margrel1))  =>  (A=k12_finseq_1(k6_margrel1, k7_margrel1) => k6_binarith(1, A)=k6_numbers) ) ) ).
++ fof(t16_finseq_4, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, A) => k7_partfun1(A, k12_finseq_1(A, B), 1)=B) ) ) ) ).
 - fof(t15_binari_4, axiom,  (! [A] :  ( (v3_card_1(A, 1) & m2_finseq_1(A, k6_margrel1))  =>  (A=k12_finseq_1(k6_margrel1, k8_margrel1) => k3_binari_2(1, A)=k19_binop_2(1)) ) ) ).
 - fof(t14_binarith, axiom,  (! [A] :  ( (v3_card_1(A, 1) & m2_finseq_1(A, k6_margrel1))  =>  (A=k12_finseq_1(k6_margrel1, k7_margrel1) | A=k12_finseq_1(k6_margrel1, k8_margrel1)) ) ) ).
 - fof(t1_binari_2, axiom,  (! [A] :  ( (v3_card_1(A, 2) & m2_finseq_1(A, k6_margrel1))  =>  (A=k9_binarith(1, 1, k6_margrel1, k10_binarith(k6_margrel1, k7_margrel1), k10_binarith(k6_margrel1, k7_margrel1)) => k3_binari_2(2, A)=k6_numbers) ) ) ).

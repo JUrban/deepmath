@@ -1,6 +1,6 @@
 C fof(t4_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))) => r1_tarski(k4_mmlquery(A, C, B), B)) ) ) ) ) ).
-+ fof(d4_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k4_mmlquery(A, B, C)=a_3_1_mmlquery(A, B, C)) ) ) ) ) ).
 + fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d4_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k4_mmlquery(A, B, C)=a_3_1_mmlquery(A, B, C)) ) ) ) ) ).
 + fof(fraenkel_a_3_1_mmlquery, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, B))) & m1_subset_1(D, k1_zfmisc_1(B)))  =>  (r2_hidden(A, a_3_1_mmlquery(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, B) &  (A=E &  (? [F] :  (m1_subset_1(F, B) &  (r1_mmlquery(E, F, C) & r2_hidden(E, D)) ) ) ) ) ) ) ) ) ).
 - fof(dt_k4_mmlquery, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k4_mmlquery(A, B, C), k1_zfmisc_1(A))) ) ).
 - fof(t3_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, A))) =>  (r2_hidden(C, k4_mmlquery(A, D, B)) <=>  (r2_hidden(C, B) &  ~ (k1_mmlquery(A, D, C)=k1_xboole_0) ) ) ) ) ) ) ) ) ) ).

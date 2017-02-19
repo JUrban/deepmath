@@ -1,10 +1,10 @@
 C fof(t17_scmyciel, axiom,  (! [A] :  (v1_scmyciel(A) => k1_scmyciel(A)=k1_xboole_0) ) ).
-+ fof(t11_scmyciel, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(B, k1_scmyciel(A)) &  (! [C] :  (! [D] :  ~ ( ( ~ (C=D)  &  (r2_hidden(C, k3_tarski(A)) &  (r2_hidden(D, k3_tarski(A)) & B=k2_tarski(C, D)) ) ) ) ) ) ) ) ) ) ).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(t7_xboole_0, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ) ).
-+ fof(fc3_scmyciel, axiom,  (! [A] :  (v1_scmyciel(A) => v1_xboole_0(k3_tarski(A))) ) ).
 + fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(fc3_scmyciel, axiom,  (! [A] :  (v1_scmyciel(A) => v1_xboole_0(k3_tarski(A))) ) ).
 + fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(t11_scmyciel, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(B, k1_scmyciel(A)) &  (! [C] :  (! [D] :  ~ ( ( ~ (C=D)  &  (r2_hidden(C, k3_tarski(A)) &  (r2_hidden(D, k3_tarski(A)) & B=k2_tarski(C, D)) ) ) ) ) ) ) ) ) ) ).
++ fof(t7_xboole_0, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ) ).
 - fof(d1_scmyciel, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (B=k1_scmyciel(A) <=>  (! [C] :  (r2_hidden(C, B) <=>  (r2_hidden(C, A) & k1_card_1(C)=2) ) ) ) ) ) ) ).
 - fof(dt_k1_scmyciel, axiom,  (! [A] : m1_subset_1(k1_scmyciel(A), k1_zfmisc_1(A))) ).
 - fof(s2_funct_1__e5_18__scmyciel, axiom,  (! [A] :  (v1_finset_1(A) =>  ( ( (! [B] :  (! [C] :  (! [D] :  ( (r2_hidden(B, k1_scmyciel(A)) &  ( (! [E] :  (! [F] :  (B=k2_tarski(E, F) => C=k2_tarski(k2_tarski(E, k4_tarski(F, k3_tarski(A))), k2_tarski(F, k4_tarski(E, k3_tarski(A))))) ) )  &  (! [G] :  (! [H] :  (B=k2_tarski(G, H) => D=k2_tarski(k2_tarski(G, k4_tarski(H, k3_tarski(A))), k2_tarski(H, k4_tarski(G, k3_tarski(A))))) ) ) ) )  => C=D) ) ) )  &  (! [B] :  ~ ( (r2_hidden(B, k1_scmyciel(A)) &  (! [C] :  ~ ( (! [I] :  (! [J] :  (B=k2_tarski(I, J) => C=k2_tarski(k2_tarski(I, k4_tarski(J, k3_tarski(A))), k2_tarski(J, k4_tarski(I, k3_tarski(A))))) ) ) ) ) ) ) ) )  =>  (? [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  &  (k9_xtuple_0(B)=k1_scmyciel(A) &  (! [C] :  (r2_hidden(C, k1_scmyciel(A)) =>  (! [K] :  (! [L] :  (C=k2_tarski(K, L) => k1_funct_1(B, C)=k2_tarski(k2_tarski(K, k4_tarski(L, k3_tarski(A))), k2_tarski(L, k4_tarski(K, k3_tarski(A))))) ) ) ) ) ) ) ) ) ) ) ).

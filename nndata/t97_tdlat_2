@@ -1,12 +1,12 @@
 C fof(t97_tdlat_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k8_tdlat_1(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k8_tdlat_1(A))) =>  (! [D] :  (m2_subset_1(D, k1_zfmisc_1(u1_struct_0(A)), k5_tdlat_1(A)) =>  (! [E] :  (m2_subset_1(E, k1_zfmisc_1(u1_struct_0(A)), k5_tdlat_1(A)) =>  ( (B=D & C=E)  =>  (r1_lattices(k8_tdlat_1(A), B, C) <=> r1_tarski(D, E)) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
++ fof(d3_lattices, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_lattices(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r1_lattices(A, B, C) <=> k1_lattices(A, B, C)=C) ) ) ) ) ) ) ).
++ fof(dt_k5_tdlat_1, axiom,  (! [A] :  (l1_pre_topc(A) => m1_subset_1(k5_tdlat_1(A), k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A))))) ) ).
++ fof(dt_k8_tdlat_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  ( ~ (v2_struct_0(k8_tdlat_1(A)))  &  (v10_lattices(k8_tdlat_1(A)) &  (v17_lattices(k8_tdlat_1(A)) & l3_lattices(k8_tdlat_1(A))) ) ) ) ) ).
++ fof(dt_l3_lattices, axiom,  (! [A] :  (l3_lattices(A) =>  (l1_lattices(A) & l2_lattices(A)) ) ) ).
++ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
 + fof(fc2_tdlat_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  ~ (v1_xboole_0(k5_tdlat_1(A))) ) ) ).
 + fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
-+ fof(dt_l3_lattices, axiom,  (! [A] :  (l3_lattices(A) =>  (l1_lattices(A) & l2_lattices(A)) ) ) ).
-+ fof(d3_lattices, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_lattices(A))  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (r1_lattices(A, B, C) <=> k1_lattices(A, B, C)=C) ) ) ) ) ) ) ).
-+ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
-+ fof(dt_k8_tdlat_1, axiom,  (! [A] :  ( (v2_pre_topc(A) & l1_pre_topc(A))  =>  ( ~ (v2_struct_0(k8_tdlat_1(A)))  &  (v10_lattices(k8_tdlat_1(A)) &  (v17_lattices(k8_tdlat_1(A)) & l3_lattices(k8_tdlat_1(A))) ) ) ) ) ).
-+ fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(dt_k5_tdlat_1, axiom,  (! [A] :  (l1_pre_topc(A) => m1_subset_1(k5_tdlat_1(A), k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A))))) ) ).
 + fof(t12_xboole_1, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) => k2_xboole_0(A, B)=B) ) ) ).
 + fof(t7_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(A, k2_xboole_0(A, B))) ) ).
 + fof(t95_tdlat_2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k8_tdlat_1(A))) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k8_tdlat_1(A))) =>  (! [D] :  (m2_subset_1(D, k1_zfmisc_1(u1_struct_0(A)), k5_tdlat_1(A)) =>  (! [E] :  (m2_subset_1(E, k1_zfmisc_1(u1_struct_0(A)), k5_tdlat_1(A)) =>  ( (B=D & C=E)  =>  (k1_lattices(k8_tdlat_1(A), B, C)=k4_subset_1(u1_struct_0(A), D, E) & k2_lattices(k8_tdlat_1(A), B, C)=k2_pre_topc(A, k1_tops_1(A, k9_subset_1(u1_struct_0(A), D, E)))) ) ) ) ) ) ) ) ) ) ) ) ).

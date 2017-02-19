@@ -1,18 +1,18 @@
 C fof(t23_jordan5a, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (A=B =>  (v2_rcomp_1(A) <=> v4_pre_topc(B, k3_topmetr)) ) ) ) ) ) ).
-+ fof(d2_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v3_pre_topc(B, A) <=> r2_hidden(B, u1_pre_topc(A))) ) ) ) ) ).
 + fof(abstractness_v1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (v1_pre_topc(A) => A=g1_pre_topc(u1_struct_0(A), u1_pre_topc(A))) ) ) ).
-+ fof(dt_u1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => m1_subset_1(u1_pre_topc(A), k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A))))) ) ).
++ fof(d2_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v3_pre_topc(B, A) <=> r2_hidden(B, u1_pre_topc(A))) ) ) ) ) ).
++ fof(d5_rcomp_1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (v3_rcomp_1(A) <=> v2_rcomp_1(k3_subset_1(k1_numbers, A))) ) ) ).
 + fof(dt_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_subset_1(k3_subset_1(A, B), k1_zfmisc_1(A))) ) ).
++ fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).
++ fof(dt_u1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => m1_subset_1(u1_pre_topc(A), k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(A))))) ) ).
++ fof(fc2_topmetr, axiom,  ( ~ (v2_struct_0(k3_topmetr))  &  (v1_pre_topc(k3_topmetr) & v2_pre_topc(k3_topmetr)) ) ).
++ fof(fc2_tops_1, axiom,  (! [A, B] :  ( ( (v2_pre_topc(A) & l1_pre_topc(A))  &  (v4_pre_topc(B, A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A)))) )  => v3_pre_topc(k3_subset_1(u1_struct_0(A), B), A)) ) ).
++ fof(fc3_tops_1, axiom,  (! [A, B] :  ( ( (v2_pre_topc(A) & l1_pre_topc(A))  &  (v3_pre_topc(B, A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A)))) )  => v4_pre_topc(k3_subset_1(u1_struct_0(A), B), A)) ) ).
++ fof(free_g1_pre_topc, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (! [C, D] :  (g1_pre_topc(A, B)=g1_pre_topc(C, D) =>  (A=C & B=D) ) ) ) ) ).
 + fof(involutiveness_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, k3_subset_1(A, B))=B) ) ).
 + fof(l30_jordan5a, axiom, k3_topmetr=g1_pre_topc(u1_struct_0(k8_metric_1), k2_pcomps_1(k8_metric_1))).
 + fof(t17_topmetr, axiom, u1_struct_0(k3_topmetr)=k1_numbers).
-+ fof(fc2_tops_1, axiom,  (! [A, B] :  ( ( (v2_pre_topc(A) & l1_pre_topc(A))  &  (v4_pre_topc(B, A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A)))) )  => v3_pre_topc(k3_subset_1(u1_struct_0(A), B), A)) ) ).
-+ fof(free_g1_pre_topc, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (! [C, D] :  (g1_pre_topc(A, B)=g1_pre_topc(C, D) =>  (A=C & B=D) ) ) ) ) ).
 + fof(t5_jordan5a, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (r2_hidden(A, k2_pcomps_1(k8_metric_1)) <=> v3_rcomp_1(A)) ) ) ).
-+ fof(fc3_tops_1, axiom,  (! [A, B] :  ( ( (v2_pre_topc(A) & l1_pre_topc(A))  &  (v3_pre_topc(B, A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A)))) )  => v4_pre_topc(k3_subset_1(u1_struct_0(A), B), A)) ) ).
-+ fof(d5_rcomp_1, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) =>  (v3_rcomp_1(A) <=> v2_rcomp_1(k3_subset_1(k1_numbers, A))) ) ) ).
-+ fof(fc2_topmetr, axiom,  ( ~ (v2_struct_0(k3_topmetr))  &  (v1_pre_topc(k3_topmetr) & v2_pre_topc(k3_topmetr)) ) ).
-+ fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).
 - fof(t1_treal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (C=k1_rcomp_1(A, B) => v4_pre_topc(C, k3_topmetr)) ) ) ) ) ) ) ).
 - fof(t12_weierstr, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (v2_compts_1(A, k3_topmetr) => v2_rcomp_1(k1_weierstr(A))) ) ) ).
 - fof(dt_k1_weierstr, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k3_topmetr))) => m1_subset_1(k1_weierstr(A), k1_zfmisc_1(k1_numbers))) ) ).

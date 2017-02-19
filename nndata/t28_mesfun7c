@@ -1,10 +1,10 @@
 C fof(t28_mesfun7c, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, k2_numbers))))  =>  (! [D] :  (m1_subset_1(D, k1_numbers) => r2_relset_1(A, k2_numbers, k2_partfun1(A, k2_numbers, k25_valued_1(A, k2_numbers, C, D), B), k25_valued_1(A, k2_numbers, k2_partfun1(A, k2_numbers, C, B), D))) ) ) ) ) ) ) ).
-+ fof(t57_cfunct_1, axiom,  (! [A] :  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, k2_numbers))))  =>  (! [D] :  (m1_subset_1(D, k2_numbers) => r2_relset_1(B, k2_numbers, k2_partfun1(B, k2_numbers, k25_valued_1(B, k2_numbers, C, D), A), k25_valued_1(B, k2_numbers, k2_partfun1(B, k2_numbers, C, A), D))) ) ) ) ) ) ) ).
 + fof(cc12_membered, axiom,  (! [A] :  (v1_membered(A) =>  (! [B] :  (m1_subset_1(B, A) => v1_xcmplx_0(B)) ) ) ) ).
-+ fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
 + fof(cc5_membered, axiom,  (! [A] :  (v3_membered(A) => v1_membered(A)) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
 + fof(fc3_membered, axiom, v3_membered(k1_numbers)).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t57_cfunct_1, axiom,  (! [A] :  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, k2_numbers))))  =>  (! [D] :  (m1_subset_1(D, k2_numbers) => r2_relset_1(B, k2_numbers, k2_partfun1(B, k2_numbers, k25_valued_1(B, k2_numbers, C, D), A), k25_valued_1(B, k2_numbers, k2_partfun1(B, k2_numbers, C, A), D))) ) ) ) ) ) ) ).
 - fof(t72_cfunct_1, axiom,  (! [A] :  (! [B] :  ( ~ (v1_xboole_0(B))  =>  (! [C] :  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(B, k2_numbers))))  =>  (! [D] :  (m1_subset_1(D, k2_numbers) =>  (v1_comseq_2(k2_partfun1(B, k2_numbers, C, A)) => v1_comseq_2(k2_partfun1(B, k2_numbers, k25_valued_1(B, k2_numbers, C, D), A))) ) ) ) ) ) ) ) ).
 - fof(fc1_membered, axiom, v1_membered(k2_numbers)).
 - fof(dt_k25_valued_1, axiom,  (! [A, B, C, D] :  ( (v1_membered(B) &  ( (v1_funct_1(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))))  & v1_xcmplx_0(D)) )  =>  (v1_funct_1(k25_valued_1(A, B, C, D)) & m1_subset_1(k25_valued_1(A, B, C, D), k1_zfmisc_1(k2_zfmisc_1(A, k2_numbers)))) ) ) ).

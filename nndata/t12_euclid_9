@@ -1,16 +1,16 @@
 C fof(t12_euclid_9, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k14_euclid(k6_numbers))) => k4_euclid_9(k6_numbers, B, A)=k1_tarski(k1_xboole_0)) ) ) ) ).
-+ fof(d4_euclid_9, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k14_euclid(A))) =>  (! [C] :  (v1_xreal_0(C) => k4_euclid_9(A, B, C)=k4_card_3(k3_euclid_9(B, C))) ) ) ) ) ) ).
-+ fof(fc1_card_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (v1_xboole_0(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
 + fof(cc1_card_1, axiom,  (! [A] :  (v1_card_1(A) => v3_ordinal1(A)) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(cc2_euclid_9, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k14_euclid(A))) => v3_card_1(B, A)) ) ) ) ).
++ fof(cc6_card_1, axiom,  (! [A] :  ( (v3_ordinal1(A) & v1_finset_1(A))  => v7_ordinal1(A)) ) ).
 + fof(cc7_card_1, axiom,  (! [A] :  (v3_card_1(A, k1_xboole_0) => v1_xboole_0(A)) ) ).
++ fof(d4_euclid_9, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k14_euclid(A))) =>  (! [C] :  (v1_xreal_0(C) => k4_euclid_9(A, B, C)=k4_card_3(k3_euclid_9(B, C))) ) ) ) ) ) ).
++ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
++ fof(fc1_card_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (v1_xboole_0(k1_card_1(A)) & v1_card_1(k1_card_1(A))) ) ) ).
 + fof(fc23_euclid_9, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_relat_1(k3_euclid_9(k1_xboole_0, A)) &  (v1_funct_1(k3_euclid_9(k1_xboole_0, A)) & v1_xboole_0(k3_euclid_9(k1_xboole_0, A))) ) ) ) ).
 + fof(rc2_finseq_1, axiom,  (! [A] :  (? [B] :  (m1_finseq_1(B, A) &  (v1_relat_1(B) &  (v4_relat_1(B, k5_numbers) &  (v5_relat_1(B, A) &  (v1_funct_1(B) &  (v1_xboole_0(B) &  (v1_finset_1(B) & v1_finseq_1(B)) ) ) ) ) ) ) ) ) ).
-+ fof(cc6_card_1, axiom,  (! [A] :  ( (v3_ordinal1(A) & v1_finset_1(A))  => v7_ordinal1(A)) ) ).
-+ fof(cc2_euclid_9, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, u1_struct_0(k14_euclid(A))) => v3_card_1(B, A)) ) ) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(t10_card_3, axiom, k4_card_3(k1_xboole_0)=k1_tarski(k1_xboole_0)).
-+ fof(dt_k1_card_1, axiom,  (! [A] : v1_card_1(k1_card_1(A))) ).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
 - fof(t7_euclid_9, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k14_euclid(k6_numbers)))) =>  (A=k1_xboole_0 | A=k1_tarski(k1_xboole_0)) ) ) ).
 - fof(t11_euclid_9, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(k14_euclid(A))) =>  ( ~ (r1_xxreal_0(B, k6_numbers))  => r2_hidden(C, k4_euclid_9(A, C, B))) ) ) ) ) ) ) ).
 - fof(fc25_euclid_9, axiom,  (! [A, B, C] :  ( ( ( ~ (v1_xboole_0(A))  & v7_ordinal1(A))  &  (m1_subset_1(B, u1_struct_0(k14_euclid(A))) &  ( ~ (v2_xxreal_0(C))  & v1_xreal_0(C)) ) )  => v1_xboole_0(k4_euclid_9(A, B, C))) ) ).

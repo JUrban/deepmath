@@ -1,10 +1,10 @@
 C fof(l25_arytm_2, axiom,  (! [A] :  ~ ( (r2_hidden(A, k1_arytm_2) &  ( ~ (A=k11_arytm_3)  &  (! [B] :  (m1_subset_1(B, k5_arytm_3) =>  ~ ( (r2_hidden(B, A) &  ~ (B=k11_arytm_3) ) ) ) ) ) ) ) ) ).
-+ fof(l16_arytm_2, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) =>  (! [B] :  ~ ( (r2_hidden(B, k1_arytm_2) &  (r2_hidden(A, B) &  (! [C] :  (m1_subset_1(C, k5_arytm_3) =>  ~ ( (r2_hidden(C, B) &  ~ (r3_arytm_3(C, A)) ) ) ) ) ) ) ) ) ) ) ).
 + fof(dt_k1_arytm_2, axiom, m1_subset_1(k1_arytm_2, k1_zfmisc_1(k1_zfmisc_1(k5_arytm_3)))).
++ fof(l16_arytm_2, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) =>  (! [B] :  ~ ( (r2_hidden(B, k1_arytm_2) &  (r2_hidden(A, B) &  (! [C] :  (m1_subset_1(C, k5_arytm_3) =>  ~ ( (r2_hidden(C, B) &  ~ (r3_arytm_3(C, A)) ) ) ) ) ) ) ) ) ) ) ).
 + fof(redefinition_k11_arytm_3, axiom, k11_arytm_3=k1_xboole_0).
 + fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
-+ fof(t9_mcart_1, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (! [D] :  ~ ( ( (r2_hidden(C, A) | r2_hidden(D, A))  & B=k4_tarski(C, D)) ) ) ) ) ) ) ) ) ) ).
 + fof(t64_arytm_3, axiom,  (! [A] :  (m1_subset_1(A, k5_arytm_3) => r3_arytm_3(k11_arytm_3, A)) ) ).
++ fof(t9_mcart_1, axiom,  (! [A] :  ~ ( ( ~ (A=k1_xboole_0)  &  (! [B] :  ~ ( (r2_hidden(B, A) &  (! [C] :  (! [D] :  ~ ( ( (r2_hidden(C, A) | r2_hidden(D, A))  & B=k4_tarski(C, D)) ) ) ) ) ) ) ) ) ) ).
 - fof(l17_arytm_2, axiom, r2_hidden(k11_arytm_3, k1_arytm_2)).
 - fof(fraenkel_a_0_0_arytm_2, axiom,  (! [A] :  (r2_hidden(A, a_0_0_arytm_2) <=>  (? [B] :  (m1_subset_1(B, k1_zfmisc_1(k5_arytm_3)) &  (A=B &  (! [C] :  (m1_subset_1(C, k5_arytm_3) =>  (r2_hidden(C, B) =>  ( (! [D] :  (m1_subset_1(D, k5_arytm_3) =>  (r3_arytm_3(D, C) => r2_hidden(D, B)) ) )  &  (? [D] :  (m1_subset_1(D, k5_arytm_3) &  (r2_hidden(D, B) &  ~ (r3_arytm_3(D, C)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(d1_arytm_2, axiom, k1_arytm_2=k6_subset_1(a_0_0_arytm_2, k1_tarski(k5_arytm_3))).

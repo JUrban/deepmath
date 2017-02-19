@@ -1,10 +1,10 @@
 C fof(t17_pepin, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ ( ( ~ (r1_xxreal_0(A, 2))  &  (v1_int_2(A) & v1_abian(A)) ) ) ) ) ).
-+ fof(rqLessOrEqual__r1_xxreal_0__r2_r2, axiom, r1_xxreal_0(2, 2)).
-+ fof(d4_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_int_2(A) <=>  ( ~ (r1_xxreal_0(A, 1))  &  (! [B] :  (v7_ordinal1(B) =>  ~ ( (r1_int_1(B, A) &  ( ~ (B=1)  &  ~ (B=A) ) ) ) ) ) ) ) ) ) ).
-+ fof(l20_numbers, axiom, r2_hidden(2, k4_ordinal1)).
 + fof(cc2_int_1, axiom,  (! [A] :  (v7_ordinal1(A) => v1_int_1(A)) ) ).
 + fof(d12_ordinal1, axiom,  (! [A] :  (v7_ordinal1(A) <=> r2_hidden(A, k4_ordinal1)) ) ).
 + fof(d1_abian, axiom,  (! [A] :  (v1_int_1(A) =>  (v1_abian(A) <=> r1_int_1(2, A)) ) ) ).
++ fof(d4_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (v1_int_2(A) <=>  ( ~ (r1_xxreal_0(A, 1))  &  (! [B] :  (v7_ordinal1(B) =>  ~ ( (r1_int_1(B, A) &  ( ~ (B=1)  &  ~ (B=A) ) ) ) ) ) ) ) ) ) ).
++ fof(l20_numbers, axiom, r2_hidden(2, k4_ordinal1)).
++ fof(rqLessOrEqual__r1_xxreal_0__r2_r2, axiom, r1_xxreal_0(2, 2)).
 - fof(d7_newton, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k5_numbers)) =>  (B=k11_newton(A) <=>  (! [C] :  (v7_ordinal1(C) =>  (r2_hidden(C, B) <=>  ( ~ (r1_xxreal_0(A, C))  & v1_int_2(C)) ) ) ) ) ) ) ) ) ).
 - fof(s9_nat_1__e2_36__int_2, axiom,  ( (! [A] :  (v7_ordinal1(A) =>  ( (r1_xxreal_0(2, A) &  (! [B] :  (v7_ordinal1(B) =>  (r1_xxreal_0(2, B) =>  (r1_xxreal_0(A, B) |  (? [C] :  (v7_ordinal1(C) &  (v1_int_2(C) & r1_int_1(C, B)) ) ) ) ) ) ) )  =>  (? [D] :  (v7_ordinal1(D) &  (v1_int_2(D) & r1_int_1(D, A)) ) ) ) ) )  =>  (! [A] :  (v7_ordinal1(A) =>  (r1_xxreal_0(2, A) =>  (? [E] :  (v7_ordinal1(E) &  (v1_int_2(E) & r1_int_1(E, A)) ) ) ) ) ) ) ).
 - fof(t31_int_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  ~ ( (r1_xxreal_0(2, A) &  (! [B] :  (m1_subset_1(B, k5_numbers) =>  ~ ( (v1_int_2(B) & r1_int_1(B, A)) ) ) ) ) ) ) ) ).

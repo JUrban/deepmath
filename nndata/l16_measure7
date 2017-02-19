@@ -1,11 +1,11 @@
 C fof(l16_measure7, axiom, r1_tarski(k1_numbers, k5_setfam_1(k1_numbers, k2_relset_1(k9_setfam_1(k1_numbers), c1__measure7)))).
-+ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
-+ fof(t68_zfmisc_1, axiom,  (! [A] : r1_tarski(k1_tarski(A), k1_zfmisc_1(A))) ).
 + fof(l15_measure7, axiom, k2_relset_1(k9_setfam_1(k1_numbers), c1__measure7)=k1_tarski(k1_numbers)).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(t25_zfmisc_1, axiom,  (! [A] : k3_tarski(k1_tarski(A))=A) ).
-+ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
 + fof(redefinition_k5_setfam_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) => k5_setfam_1(A, B)=k3_tarski(B)) ) ).
++ fof(redefinition_k9_setfam_1, axiom,  (! [A] : k9_setfam_1(A)=k1_zfmisc_1(A)) ).
++ fof(reflexivity_r1_tarski, axiom,  (! [A, B] : r1_tarski(A, A)) ).
++ fof(t25_zfmisc_1, axiom,  (! [A] : k3_tarski(k1_tarski(A))=A) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t68_zfmisc_1, axiom,  (! [A] : r1_tarski(k1_tarski(A), k1_zfmisc_1(A))) ).
 - fof(d1_measure4, axiom,  (! [A] :  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k9_setfam_1(A), k7_numbers) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k9_setfam_1(A), k7_numbers)))) )  =>  (m1_measure4(B, A) <=>  (v6_supinf_2(B) &  (v10_valued_0(B) &  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) =>  (r1_tarski(C, D) =>  (r1_xxreal_0(k12_supinf_2(B, C), k12_supinf_2(B, D)) &  (! [E] :  ( (v1_funct_1(E) &  (v1_funct_2(E, k5_numbers, k9_setfam_1(A)) & m1_subset_1(E, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(A))))) )  => r1_xxreal_0(k12_supinf_2(B, k5_setfam_1(A, k2_relset_1(k9_setfam_1(A), E))), k19_supinf_2(k1_partfun1(k5_numbers, k9_setfam_1(A), k9_setfam_1(A), k7_numbers, E, B)))) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(l14_measure7, axiom,  (v1_funct_1(k7_funcop_1(k5_numbers, k1_numbers)) &  (v1_funct_2(k7_funcop_1(k5_numbers, k1_numbers), k5_numbers, k9_setfam_1(k1_numbers)) & m1_subset_1(k7_funcop_1(k5_numbers, k1_numbers), k1_zfmisc_1(k2_zfmisc_1(k5_numbers, k9_setfam_1(k1_numbers))))) ) ).
 - fof(de_c1__measure7, axiom, c1__measure7=k7_funcop_1(k5_numbers, k1_numbers)).

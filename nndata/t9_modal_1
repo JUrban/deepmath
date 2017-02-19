@@ -1,8 +1,8 @@
 C fof(t9_modal_1, axiom,  (! [A] :  (m2_finseq_1(A, k5_numbers) =>  (! [B] :  (m2_finseq_1(B, k5_numbers) =>  (! [C] :  (m2_finseq_1(C, k5_numbers) =>  (r2_xboole_0(k8_finseq_1(k5_numbers, A, B), k8_finseq_1(k5_numbers, A, C)) => r2_xboole_0(B, C)) ) ) ) ) ) ) ).
-+ fof(t49_trees_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  =>  (r2_xboole_0(k7_finseq_1(A, B), k7_finseq_1(A, C)) => r2_xboole_0(B, C)) ) ) ) ) ) ) ).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
 + fof(redefinition_k8_finseq_1, axiom,  (! [A, B, C] :  ( (m1_finseq_1(B, A) & m1_finseq_1(C, A))  => k8_finseq_1(A, B, C)=k7_finseq_1(B, C)) ) ).
 + fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
++ fof(t49_trees_1, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) & v1_finseq_1(A)) )  =>  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (! [C] :  ( (v1_relat_1(C) &  (v1_funct_1(C) & v1_finseq_1(C)) )  =>  (r2_xboole_0(k7_finseq_1(A, B), k7_finseq_1(A, C)) => r2_xboole_0(B, C)) ) ) ) ) ) ) ).
 - fof(t1_modal_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m2_finseq_1(C, k5_numbers) =>  ~ ( ( ~ (A=B)  & r3_xboole_0(k12_finseq_1(k5_numbers, A), k8_finseq_1(k5_numbers, k12_finseq_1(k5_numbers, B), C))) ) ) ) ) ) ) ) ).
 - fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
 - fof(t3_modal_1, axiom,  (! [A] :  (m1_subset_1(A, k5_numbers) =>  (! [B] :  (m1_subset_1(B, k5_numbers) =>  (! [C] :  (m2_finseq_1(C, k5_numbers) =>  ~ ( ( ~ (A=B)  & r2_xboole_0(k12_finseq_1(k5_numbers, A), k8_finseq_1(k5_numbers, k12_finseq_1(k5_numbers, B), C))) ) ) ) ) ) ) ) ).

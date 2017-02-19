@@ -1,8 +1,8 @@
 C fof(t41_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => r2_relset_1(A, A, k18_mmlquery(A, k18_mmlquery(A, k18_mmlquery(A, B))), k18_mmlquery(A, B))) ) ) ).
-+ fof(t38_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => k1_relset_1(A, k18_mmlquery(A, k18_mmlquery(A, B)))=k1_relset_1(A, B)) ) ) ).
-+ fof(dt_k18_mmlquery, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => m1_subset_1(k18_mmlquery(A, B), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
 + fof(d2_relset_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (r2_relset_1(A, B, C, D) <=>  (! [E] :  (m1_subset_1(E, A) =>  (! [F] :  (m1_subset_1(F, B) =>  (r2_hidden(k4_tarski(E, F), C) <=> r2_hidden(k4_tarski(E, F), D)) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k18_mmlquery, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => m1_subset_1(k18_mmlquery(A, B), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) ).
 + fof(t36_mmlquery, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(C, C))) =>  (r2_hidden(k4_tarski(A, B), k18_mmlquery(C, D)) <=>  (A=B &  (r2_hidden(A, C) &  ~ (r2_hidden(A, k1_relset_1(C, D))) ) ) ) ) ) ) ) ) ).
++ fof(t38_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => k1_relset_1(A, k18_mmlquery(A, k18_mmlquery(A, B)))=k1_relset_1(A, B)) ) ) ).
 - fof(t39_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A))) => k4_mmlquery(A, k18_mmlquery(A, k18_mmlquery(A, C)), B)=k4_mmlquery(A, C, B)) ) ) ) ) ).
 - fof(t37_mmlquery, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))) => k18_mmlquery(A, B)=k4_relat_1(k6_subset_1(A, k1_relset_1(A, B)))) ) ) ).
 - fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).

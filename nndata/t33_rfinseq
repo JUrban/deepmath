@@ -1,11 +1,11 @@
 C fof(t33_rfinseq, axiom,  (! [A] :  (m2_finseq_1(A, k4_numbers) =>  (? [B] :  (m2_finseq_1(B, k1_numbers) &  (r2_classes1(A, B) &  (m2_finseq_1(B, k4_numbers) & v8_valued_0(B)) ) ) ) ) ) ).
-+ fof(t75_classes1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r2_classes1(A, B) => k10_xtuple_0(A)=k10_xtuple_0(B)) ) ) ) ) ).
-+ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
-+ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
 + fof(d4_finseq_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  =>  (m1_finseq_1(B, A) <=> r1_tarski(k10_xtuple_0(B), A)) ) ) ) ).
-+ fof(t22_rfinseq, axiom,  (! [A] :  (m2_finseq_1(A, k1_numbers) =>  (? [B] :  ( (v8_valued_0(B) & m2_finseq_1(B, k1_numbers))  & r2_classes1(A, B)) ) ) ) ).
++ fof(dt_m1_finseq_1, axiom,  (! [A] :  (! [B] :  (m1_finseq_1(B, A) =>  (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) ) ) ) ) ).
 + fof(dt_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) =>  (v1_funct_1(B) &  (v1_finseq_1(B) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k5_numbers, A)))) ) ) ) ) ).
++ fof(redefinition_m2_finseq_1, axiom,  (! [A] :  (! [B] :  (m2_finseq_1(B, A) <=> m1_finseq_1(B, A)) ) ) ).
 + fof(t117_finseq_3, axiom,  (! [A] :  (m2_finseq_1(A, k4_numbers) => m2_finseq_1(A, k1_numbers)) ) ).
++ fof(t22_rfinseq, axiom,  (! [A] :  (m2_finseq_1(A, k1_numbers) =>  (? [B] :  ( (v8_valued_0(B) & m2_finseq_1(B, k1_numbers))  & r2_classes1(A, B)) ) ) ) ).
++ fof(t75_classes1, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  ( (v1_relat_1(B) & v1_funct_1(B))  =>  (r2_classes1(A, B) => k10_xtuple_0(A)=k10_xtuple_0(B)) ) ) ) ) ).
 - fof(t15_numbers, axiom, r1_tarski(k4_numbers, k1_numbers)).
 - fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
 - fof(t24_finseq_2, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m2_finseq_1(C, B) => m2_finseq_1(C, A)) ) ) ) ) ).

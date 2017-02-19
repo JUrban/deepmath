@@ -1,7 +1,7 @@
 C fof(t10_interva1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_interva1(k1_tarski(B), A)) ) ) ) ).
-+ fof(t8_interva1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k1_interva1(A, B, B)=k1_tarski(B)) ) ) ).
-+ fof(dt_k1_interva1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k1_interva1(A, B, C), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ).
 + fof(d2_interva1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A))) =>  (m1_interva1(B, A) <=>  (? [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) &  (? [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) & B=k1_interva1(A, C, D)) ) ) ) ) ) ) ) ).
++ fof(dt_k1_interva1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => m1_subset_1(k1_interva1(A, B, C), k1_zfmisc_1(k1_zfmisc_1(A)))) ) ).
++ fof(t8_interva1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k1_interva1(A, B, B)=k1_tarski(B)) ) ) ).
 - fof(dt_m1_interva1, axiom,  (! [A] :  (! [B] :  (m1_interva1(B, A) => m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ).
 - fof(t9_interva1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => m1_interva1(k1_xboole_0, A)) ) ).
 - fof(existence_m1_interva1, axiom,  (! [A] :  (? [B] : m1_interva1(B, A)) ) ).

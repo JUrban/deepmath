@@ -1,16 +1,16 @@
 C fof(t2_cat_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  &  (v1_cat_5(A) & l1_cat_1(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u4_struct_0(A)) =>  (k3_graph_1(A, B)=k13_mcart_1(B) &  (k4_graph_1(A, B)=k14_mcart_1(B) & B=k4_tarski(k1_domain_1(u1_struct_0(A), u1_struct_0(A), k3_graph_1(A, B), k4_graph_1(A, B)), k2_xtuple_0(B))) ) ) ) ) ) ).
-+ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
-+ fof(redefinition_k4_graph_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_graph_1(A)) )  & m1_subset_1(B, u4_struct_0(A)))  => k4_graph_1(A, B)=k2_graph_1(A, B)) ) ).
-+ fof(redefinition_k3_graph_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_graph_1(A)) )  & m1_subset_1(B, u4_struct_0(A)))  => k3_graph_1(A, B)=k1_graph_1(A, B)) ) ).
-+ fof(t7_mcart_1, axiom,  (! [A] :  (! [B] :  (k1_xtuple_0(k4_tarski(A, B))=A & k2_xtuple_0(k4_tarski(A, B))=B) ) ) ).
-+ fof(dt_l1_graph_1, axiom,  (! [A] :  (l1_graph_1(A) => l5_struct_0(A)) ) ).
-+ fof(dt_k2_graph_1, axiom,  (! [A, B] :  ( (l1_graph_1(A) & m1_subset_1(B, u4_struct_0(A)))  => m1_subset_1(k2_graph_1(A, B), u1_struct_0(A))) ) ).
 + fof(d1_cat_5, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_cat_1(A)) )  =>  (v1_cat_5(A) <=>  (! [B] :  (m1_subset_1(B, u4_struct_0(A)) =>  (? [C] : B=k4_tarski(k1_domain_1(u1_struct_0(A), u1_struct_0(A), k3_graph_1(A, B), k4_graph_1(A, B)), C)) ) ) ) ) ) ).
 + fof(dt_k1_graph_1, axiom,  (! [A, B] :  ( (l1_graph_1(A) & m1_subset_1(B, u4_struct_0(A)))  => m1_subset_1(k1_graph_1(A, B), u1_struct_0(A))) ) ).
-+ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(dt_k2_graph_1, axiom,  (! [A, B] :  ( (l1_graph_1(A) & m1_subset_1(B, u4_struct_0(A)))  => m1_subset_1(k2_graph_1(A, B), u1_struct_0(A))) ) ).
 + fof(dt_l1_cat_1, axiom,  (! [A] :  (l1_cat_1(A) => l1_graph_1(A)) ) ).
-+ fof(t85_mcart_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (k13_mcart_1(k4_tarski(k4_tarski(A, B), C))=A &  (k14_mcart_1(k4_tarski(k4_tarski(A, B), C))=B &  (k15_mcart_1(k4_tarski(F, k4_tarski(D, E)))=D & k16_mcart_1(k4_tarski(F, k4_tarski(D, E)))=E) ) ) ) ) ) ) ) ) ).
++ fof(dt_l1_graph_1, axiom,  (! [A] :  (l1_graph_1(A) => l5_struct_0(A)) ) ).
 + fof(dt_l5_struct_0, axiom,  (! [A] :  (l5_struct_0(A) => l1_struct_0(A)) ) ).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(redefinition_k1_domain_1, axiom,  (! [A, B, C, D] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  (m1_subset_1(C, A) & m1_subset_1(D, B)) ) )  => k1_domain_1(A, B, C, D)=k4_tarski(C, D)) ) ).
++ fof(redefinition_k3_graph_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_graph_1(A)) )  & m1_subset_1(B, u4_struct_0(A)))  => k3_graph_1(A, B)=k1_graph_1(A, B)) ) ).
++ fof(redefinition_k4_graph_1, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_graph_1(A)) )  & m1_subset_1(B, u4_struct_0(A)))  => k4_graph_1(A, B)=k2_graph_1(A, B)) ) ).
++ fof(t7_mcart_1, axiom,  (! [A] :  (! [B] :  (k1_xtuple_0(k4_tarski(A, B))=A & k2_xtuple_0(k4_tarski(A, B))=B) ) ) ).
++ fof(t85_mcart_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (! [E] :  (! [F] :  (k13_mcart_1(k4_tarski(k4_tarski(A, B), C))=A &  (k14_mcart_1(k4_tarski(k4_tarski(A, B), C))=B &  (k15_mcart_1(k4_tarski(F, k4_tarski(D, E)))=D & k16_mcart_1(k4_tarski(F, k4_tarski(D, E)))=E) ) ) ) ) ) ) ) ) ).
 - fof(d15_mcart_1, axiom,  (! [A] : k14_mcart_1(A)=k2_xtuple_0(k1_xtuple_0(A))) ).
 - fof(d14_mcart_1, axiom,  (! [A] : k13_mcart_1(A)=k1_xtuple_0(k1_xtuple_0(A))) ).
 - fof(t8_ens_1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k2_ens_1(A)) => B=k4_tarski(k1_domain_1(A, A, k3_ens_1(A, B), k4_ens_1(A, B)), k2_xtuple_0(B))) ) ) ) ).

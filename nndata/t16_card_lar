@@ -1,23 +1,23 @@
 C fof(t16_card_lar, axiom,  (! [A] :  ( (v3_ordinal1(A) &  (v4_ordinal1(A) &  ~ (v1_finset_1(A)) ) )  =>  (! [B] :  (v3_ordinal1(B) =>  (! [C] :  (v3_ordinal1(C) =>  (! [D] :  (m1_subset_1(D, k1_zfmisc_1(A)) =>  (r1_tarski(k8_subset_1(A, D, B), C) => r1_tarski(k9_subset_1(A, B, k2_card_lar(A, D)), k1_ordinal1(C))) ) ) ) ) ) ) ) ) ).
-+ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
-+ fof(dt_k2_card_lar, axiom,  (! [A, B] :  ( ( (v3_ordinal1(A) &  (v4_ordinal1(A) &  ~ (v1_finset_1(A)) ) )  & m1_subset_1(B, k1_zfmisc_1(A)))  => m1_subset_1(k2_card_lar(A, B), k1_zfmisc_1(A))) ) ).
-+ fof(t16_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r1_ordinal1(A, B) | r2_hidden(B, A)) ) ) ) ) ).
-+ fof(fraenkel_a_2_0_card_lar, axiom,  (! [A, B, C] :  ( ( (v3_ordinal1(B) &  (v4_ordinal1(B) &  ~ (v1_finset_1(B)) ) )  & m1_subset_1(C, k1_zfmisc_1(B)))  =>  (r2_hidden(A, a_2_0_card_lar(B, C)) <=>  (? [D] :  (m1_subset_1(D, B) &  (A=D &  ( ~ (v1_finset_1(D))  &  (v4_ordinal1(D) & k3_ordinal2(k8_subset_1(B, C, D))=D) ) ) ) ) ) ) ) ).
-+ fof(t17_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(k3_xboole_0(A, B), A)) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(d4_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k3_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) & r2_hidden(D, B)) ) ) ) ) ) ) ).
-+ fof(t21_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, B) <=> r1_ordinal1(k1_ordinal1(A), B)) ) ) ) ) ).
 + fof(antisymmetry_r2_hidden, axiom,  (! [A, B] :  (r2_hidden(A, B) =>  ~ (r2_hidden(B, A)) ) ) ).
-+ fof(t6_card_lar, axiom,  (! [A] :  ( (v3_ordinal1(A) &  (v4_ordinal1(A) &  ~ (v1_finset_1(A)) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (v1_card_lar(B, A) <=>  (! [C] :  (v3_ordinal1(C) =>  ~ ( (r2_hidden(C, A) &  (! [D] :  (v3_ordinal1(D) =>  ~ ( (r2_hidden(D, B) & r1_ordinal1(C, D)) ) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k9_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
-+ fof(fc2_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  ( ~ (v1_xboole_0(k1_ordinal1(A)))  & v3_ordinal1(k1_ordinal1(A))) ) ) ).
-+ fof(redefinition_k8_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k8_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
 + fof(cc5_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, A) => v3_ordinal1(B)) ) ) ) ).
-+ fof(d4_card_lar, axiom,  (! [A] :  ( (v3_ordinal1(A) &  (v4_ordinal1(A) &  ~ (v1_finset_1(A)) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (v1_card_lar(B, A) <=> k3_ordinal2(B)=A) ) ) ) ) ).
-+ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
 + fof(d1_ordinal1, axiom,  (! [A] : k1_ordinal1(A)=k2_xboole_0(A, k1_tarski(A))) ).
-+ fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
++ fof(d3_tarski, axiom,  (! [A] :  (! [B] :  (r1_tarski(A, B) <=>  (! [C] :  (r2_hidden(C, A) => r2_hidden(C, B)) ) ) ) ) ).
++ fof(d4_card_lar, axiom,  (! [A] :  ( (v3_ordinal1(A) &  (v4_ordinal1(A) &  ~ (v1_finset_1(A)) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (v1_card_lar(B, A) <=> k3_ordinal2(B)=A) ) ) ) ) ).
++ fof(d4_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k3_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) & r2_hidden(D, B)) ) ) ) ) ) ) ).
 + fof(d9_card_lar, axiom,  (! [A] :  ( (v3_ordinal1(A) &  (v4_ordinal1(A) &  ~ (v1_finset_1(A)) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k2_card_lar(A, B)=a_2_0_card_lar(A, B)) ) ) ) ).
++ fof(dt_k2_card_lar, axiom,  (! [A, B] :  ( ( (v3_ordinal1(A) &  (v4_ordinal1(A) &  ~ (v1_finset_1(A)) ) )  & m1_subset_1(B, k1_zfmisc_1(A)))  => m1_subset_1(k2_card_lar(A, B), k1_zfmisc_1(A))) ) ).
++ fof(fc2_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  ( ~ (v1_xboole_0(k1_ordinal1(A)))  & v3_ordinal1(k1_ordinal1(A))) ) ) ).
++ fof(fraenkel_a_2_0_card_lar, axiom,  (! [A, B, C] :  ( ( (v3_ordinal1(B) &  (v4_ordinal1(B) &  ~ (v1_finset_1(B)) ) )  & m1_subset_1(C, k1_zfmisc_1(B)))  =>  (r2_hidden(A, a_2_0_card_lar(B, C)) <=>  (? [D] :  (m1_subset_1(D, B) &  (A=D &  ( ~ (v1_finset_1(D))  &  (v4_ordinal1(D) & k3_ordinal2(k8_subset_1(B, C, D))=D) ) ) ) ) ) ) ) ).
++ fof(redefinition_k8_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k8_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
++ fof(redefinition_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k9_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
++ fof(redefinition_r1_ordinal1, axiom,  (! [A, B] :  ( (v3_ordinal1(A) & v3_ordinal1(B))  =>  (r1_ordinal1(A, B) <=> r1_tarski(A, B)) ) ) ).
++ fof(t16_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r1_ordinal1(A, B) | r2_hidden(B, A)) ) ) ) ) ).
++ fof(t17_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(k3_xboole_0(A, B), A)) ) ).
++ fof(t21_ordinal1, axiom,  (! [A] :  (v3_ordinal1(A) =>  (! [B] :  (v3_ordinal1(B) =>  (r2_hidden(A, B) <=> r1_ordinal1(k1_ordinal1(A), B)) ) ) ) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t6_card_lar, axiom,  (! [A] :  ( (v3_ordinal1(A) &  (v4_ordinal1(A) &  ~ (v1_finset_1(A)) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (v1_card_lar(B, A) <=>  (! [C] :  (v3_ordinal1(C) =>  ~ ( (r2_hidden(C, A) &  (! [D] :  (v3_ordinal1(D) =>  ~ ( (r2_hidden(D, B) & r1_ordinal1(C, D)) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t5_card_lar, axiom,  (! [A] :  ( (v3_ordinal1(A) &  (v4_ordinal1(A) &  ~ (v1_finset_1(A)) ) )  =>  (! [B] :  ( (v3_ordinal1(B) &  (v4_ordinal1(B) &  ~ (v1_finset_1(B)) ) )  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  ~ ( ( ~ (k3_ordinal2(k8_subset_1(A, C, B))=B)  &  (! [D] :  (v3_ordinal1(D) =>  ~ ( (r2_hidden(D, B) & r1_tarski(k8_subset_1(A, C, B), D)) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(t7_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(A, k2_xboole_0(A, B))) ) ).
 - fof(t1_ordinal3, axiom,  (! [A] : r1_tarski(A, k1_ordinal1(A))) ).

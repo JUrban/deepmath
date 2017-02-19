@@ -1,19 +1,19 @@
 C fof(t8_binom, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_group_1(A) & l3_algstr_0(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (k2_binom(A, B, k6_numbers)=k1_group_1(A) & k2_binom(A, B, 1)=B) ) ) ) ) ).
-+ fof(t50_group_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_group_1(A) & l3_algstr_0(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k2_binop_1(u1_struct_0(A), k5_numbers, u1_struct_0(A), k4_group_1(A), B, 1)=B) ) ) ) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
-+ fof(redefinition_k2_binop_1, axiom,  (! [A, B, C, D, E, F] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  ( (v1_funct_1(D) &  (v1_funct_2(D, k2_zfmisc_1(A, B), C) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, B), C)))) )  &  (m1_subset_1(E, A) & m1_subset_1(F, B)) ) ) )  => k2_binop_1(A, B, C, D, E, F)=k1_binop_1(D, E, F)) ) ).
-+ fof(d7_group_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(u1_struct_0(A), k5_numbers), u1_struct_0(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), k5_numbers), u1_struct_0(A))))) )  =>  (B=k4_group_1(A) <=>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (k2_binop_1(u1_struct_0(A), k5_numbers, u1_struct_0(A), B, C, k6_numbers)=k1_group_1(A) &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) => k2_binop_1(u1_struct_0(A), k5_numbers, u1_struct_0(A), B, C, k2_nat_1(D, 1))=k6_algstr_0(A, k2_binop_1(u1_struct_0(A), k5_numbers, u1_struct_0(A), B, C, D), C)) ) ) ) ) ) ) ) ) ) ).
-+ fof(dt_l3_algstr_0, axiom,  (! [A] :  (l3_algstr_0(A) => l1_struct_0(A)) ) ).
 + fof(cc7_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v7_ordinal1(A)) ) ).
-+ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
 + fof(cc8_ordinal1, axiom,  (! [A] :  (m1_subset_1(A, k4_ordinal1) => v7_ordinal1(A)) ) ).
-+ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(dt_k4_group_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  =>  (v1_funct_1(k4_group_1(A)) &  (v1_funct_2(k4_group_1(A), k2_zfmisc_1(u1_struct_0(A), k5_numbers), u1_struct_0(A)) & m1_subset_1(k4_group_1(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), k5_numbers), u1_struct_0(A))))) ) ) ) ).
 + fof(d2_binom, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_group_1(A) & l3_algstr_0(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (v7_ordinal1(C) => k2_binom(A, B, C)=k1_binop_1(k4_group_1(A), B, C)) ) ) ) ) ) ).
++ fof(d7_group_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(u1_struct_0(A), k5_numbers), u1_struct_0(A)) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), k5_numbers), u1_struct_0(A))))) )  =>  (B=k4_group_1(A) <=>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (k2_binop_1(u1_struct_0(A), k5_numbers, u1_struct_0(A), B, C, k6_numbers)=k1_group_1(A) &  (! [D] :  (m2_subset_1(D, k1_numbers, k5_numbers) => k2_binop_1(u1_struct_0(A), k5_numbers, u1_struct_0(A), B, C, k2_nat_1(D, 1))=k6_algstr_0(A, k2_binop_1(u1_struct_0(A), k5_numbers, u1_struct_0(A), B, C, D), C)) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k4_group_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  =>  (v1_funct_1(k4_group_1(A)) &  (v1_funct_2(k4_group_1(A), k2_zfmisc_1(u1_struct_0(A), k5_numbers), u1_struct_0(A)) & m1_subset_1(k4_group_1(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), k5_numbers), u1_struct_0(A))))) ) ) ) ).
++ fof(dt_l3_algstr_0, axiom,  (! [A] :  (l3_algstr_0(A) => l1_struct_0(A)) ) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(fc2_struct_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  ~ (v1_xboole_0(u1_struct_0(A))) ) ) ).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(redefinition_k2_binop_1, axiom,  (! [A, B, C, D, E, F] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  ( (v1_funct_1(D) &  (v1_funct_2(D, k2_zfmisc_1(A, B), C) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, B), C)))) )  &  (m1_subset_1(E, A) & m1_subset_1(F, B)) ) ) )  => k2_binop_1(A, B, C, D, E, F)=k1_binop_1(D, E, F)) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(spc1_numerals, axiom,  ( (v2_xxreal_0(1) & m2_subset_1(1, k1_numbers, k5_numbers))  &  (m1_subset_1(1, k5_numbers) & m1_subset_1(1, k1_numbers)) ) ).
++ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
++ fof(t50_group_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_group_1(A) & l3_algstr_0(A)) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k2_binop_1(u1_struct_0(A), k5_numbers, u1_struct_0(A), k4_group_1(A), B, 1)=B) ) ) ) ).
 - fof(dt_k2_binom, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  (v1_group_1(A) & l3_algstr_0(A)) )  &  (m1_subset_1(B, u1_struct_0(A)) & v7_ordinal1(C)) )  => m1_subset_1(k2_binom(A, B, C), u1_struct_0(A))) ) ).
 - fof(l36_group_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_group_1(A) &  (v3_group_1(A) & l3_algstr_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k5_group_1(A, k6_numbers, B)=k1_group_1(A)) ) ) ) ).
 - fof(t21_group_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_group_1(A) & l3_algstr_0(A)) )  => r3_binop_1(u1_struct_0(A), k1_group_1(A), u2_algstr_0(A))) ) ).

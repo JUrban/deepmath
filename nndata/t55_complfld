@@ -1,18 +1,18 @@
 C fof(t55_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) =>  ( ~ (A=k4_struct_0(k1_complfld))  => k2_complfld(k11_algstr_0(k1_complfld, A))=k11_algstr_0(k1_complfld, k2_complfld(A))) ) ) ).
-+ fof(dt_k11_algstr_0, axiom,  (! [A, B] :  ( (l5_algstr_0(A) & m1_subset_1(B, u1_struct_0(A)))  => m1_subset_1(k11_algstr_0(A, B), u1_struct_0(A))) ) ).
-+ fof(dt_k1_complfld, axiom,  (v36_algstr_0(k1_complfld) & l6_algstr_0(k1_complfld)) ).
-+ fof(t48_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) =>  (k2_complfld(A)=k4_struct_0(k1_complfld) => A=k4_struct_0(k1_complfld)) ) ) ).
-+ fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
-+ fof(redefinition_k2_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => k2_complfld(A)=k14_complex1(A)) ) ).
-+ fof(dt_k14_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k14_complex1(A))) ) ).
-+ fof(redefinition_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(A)=k14_complex1(A)) ) ).
 + fof(cc1_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => v1_xcmplx_0(A)) ) ).
-+ fof(redefinition_k2_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k2_binop_2(A)=k5_xcmplx_0(A)) ) ).
-+ fof(t36_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(k5_xcmplx_0(A))=k12_complex1(k15_complex1(A))) ) ).
-+ fof(t5_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) =>  (! [B] :  (v1_xcmplx_0(B) =>  (A=B =>  (A=k4_struct_0(k1_complfld) | k11_algstr_0(k1_complfld, A)=k2_binop_2(B)) ) ) ) ) ) ).
-+ fof(dt_k2_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => m1_subset_1(k2_complfld(A), u1_struct_0(k1_complfld))) ) ).
 + fof(d1_complfld, axiom,  (! [A] :  ( (v36_algstr_0(A) & l6_algstr_0(A))  =>  (A=k1_complfld <=>  (u1_struct_0(A)=k2_numbers &  (u1_algstr_0(A)=k27_binop_2 &  (u2_algstr_0(A)=k29_binop_2 &  (k5_struct_0(A)=k6_complex1 & k4_struct_0(A)=k5_complex1) ) ) ) ) ) ) ).
++ fof(dt_k11_algstr_0, axiom,  (! [A, B] :  ( (l5_algstr_0(A) & m1_subset_1(B, u1_struct_0(A)))  => m1_subset_1(k11_algstr_0(A, B), u1_struct_0(A))) ) ).
++ fof(dt_k14_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => v1_xcmplx_0(k14_complex1(A))) ) ).
++ fof(dt_k1_complfld, axiom,  (v36_algstr_0(k1_complfld) & l6_algstr_0(k1_complfld)) ).
++ fof(dt_k2_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => m1_subset_1(k2_complfld(A), u1_struct_0(k1_complfld))) ) ).
++ fof(dt_l6_algstr_0, axiom,  (! [A] :  (l6_algstr_0(A) =>  (l2_algstr_0(A) & l5_algstr_0(A)) ) ) ).
 + fof(redefinition_k12_complex1, axiom,  (! [A] :  (m1_subset_1(A, k2_numbers) => k12_complex1(A)=k5_xcmplx_0(A)) ) ).
++ fof(redefinition_k15_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(A)=k14_complex1(A)) ) ).
++ fof(redefinition_k2_binop_2, axiom,  (! [A] :  (v1_xcmplx_0(A) => k2_binop_2(A)=k5_xcmplx_0(A)) ) ).
++ fof(redefinition_k2_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) => k2_complfld(A)=k14_complex1(A)) ) ).
++ fof(t36_complex1, axiom,  (! [A] :  (v1_xcmplx_0(A) => k15_complex1(k5_xcmplx_0(A))=k12_complex1(k15_complex1(A))) ) ).
++ fof(t48_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) =>  (k2_complfld(A)=k4_struct_0(k1_complfld) => A=k4_struct_0(k1_complfld)) ) ) ).
++ fof(t5_complfld, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_complfld)) =>  (! [B] :  (v1_xcmplx_0(B) =>  (A=B =>  (A=k4_struct_0(k1_complfld) | k11_algstr_0(k1_complfld, A)=k2_binop_2(B)) ) ) ) ) ) ).
 - fof(fc1_complfld, axiom,  ( ~ (v2_struct_0(k1_complfld))  & v36_algstr_0(k1_complfld)) ).
 - fof(fc3_complfld, axiom,  ( ~ (v6_struct_0(k1_complfld))  &  (v13_algstr_0(k1_complfld) &  (v33_algstr_0(k1_complfld) &  (v36_algstr_0(k1_complfld) &  (v3_group_1(k1_complfld) &  (v5_group_1(k1_complfld) &  (v3_vectsp_1(k1_complfld) &  (v5_vectsp_1(k1_complfld) &  (v6_vectsp_1(k1_complfld) &  (v2_rlvect_1(k1_complfld) &  (v3_rlvect_1(k1_complfld) & v4_rlvect_1(k1_complfld)) ) ) ) ) ) ) ) ) ) ) ).
 - fof(fc2_complfld, axiom,  (v36_algstr_0(k1_complfld) & v4_vectsp_1(k1_complfld)) ).

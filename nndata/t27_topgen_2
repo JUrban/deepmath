@@ -1,9 +1,9 @@
 C fof(t27_topgen_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k5_topgen_2(A, B)))) =>  (v1_finset_1(k3_subset_1(u1_struct_0(k5_topgen_2(A, B)), C)) => k1_tops_1(k5_topgen_2(A, B), C)=C) ) ) ) ) ).
-+ fof(dt_k5_topgen_2, axiom,  (! [A, B] :  (v1_pre_topc(k5_topgen_2(A, B)) & l1_pre_topc(k5_topgen_2(A, B))) ) ).
-+ fof(dt_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_subset_1(k3_subset_1(A, B), k1_zfmisc_1(A))) ) ).
-+ fof(t24_topgen_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k5_topgen_2(A, B)))) =>  (v1_finset_1(C) => k2_pre_topc(k5_topgen_2(A, B), C)=C) ) ) ) ) ).
 + fof(d1_tops_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) => k1_tops_1(A, B)=k3_subset_1(u1_struct_0(A), k2_pre_topc(A, k3_subset_1(u1_struct_0(A), B)))) ) ) ) ).
++ fof(dt_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => m1_subset_1(k3_subset_1(A, B), k1_zfmisc_1(A))) ) ).
++ fof(dt_k5_topgen_2, axiom,  (! [A, B] :  (v1_pre_topc(k5_topgen_2(A, B)) & l1_pre_topc(k5_topgen_2(A, B))) ) ).
 + fof(involutiveness_k3_subset_1, axiom,  (! [A, B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k3_subset_1(A, k3_subset_1(A, B))=B) ) ).
++ fof(t24_topgen_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k5_topgen_2(A, B)))) =>  (v1_finset_1(C) => k2_pre_topc(k5_topgen_2(A, B), C)=C) ) ) ) ) ).
 - fof(t19_topgen_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k5_topgen_2(A, B)))) =>  (v3_pre_topc(C, k5_topgen_2(A, B)) <=>  ~ ( (r2_hidden(B, C) &  ~ (v1_finset_1(k3_subset_1(u1_struct_0(k5_topgen_2(A, B)), C))) ) ) ) ) ) ) ) ).
 - fof(t20_topgen_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k5_topgen_2(A, B)))) =>  (v4_pre_topc(C, k5_topgen_2(A, B)) <=>  ~ ( (r2_hidden(B, A) &  ( ~ (r2_hidden(B, C))  &  ~ (v1_finset_1(C)) ) ) ) ) ) ) ) ) ).
 - fof(t21_topgen_2, axiom,  (! [A] :  (! [B] :  (! [C] :  (r2_hidden(C, A) =>  (v4_pre_topc(k1_tarski(C), k5_topgen_2(A, B)) & m1_subset_1(k1_tarski(C), k1_zfmisc_1(u1_struct_0(k5_topgen_2(A, B))))) ) ) ) ) ).

@@ -1,14 +1,14 @@
 C fof(t54_afinsq_2, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k7_afinsq_2(k6_afinsq_1(A, B))=k3_binop_2(A, B)) ) ) ) ).
-+ fof(dt_k27_binop_2, axiom,  (v1_funct_1(k27_binop_2) &  (v1_funct_2(k27_binop_2, k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers) & m1_subset_1(k27_binop_2, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers)))) ) ).
-+ fof(t38_afinsq_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, A) => k6_afinsq_2(A, k6_afinsq_1(C, D), B)=k5_binop_1(A, B, C, D)) ) ) ) ) ) ) ) ).
-+ fof(fc11_afinsq_1, axiom,  (! [A, B] :  (v5_ordinal1(k6_afinsq_1(A, B)) & v1_finset_1(k6_afinsq_1(A, B))) ) ).
-+ fof(fc9_afinsq_1, axiom,  (! [A, B] :  (v1_relat_1(k6_afinsq_1(A, B)) & v1_funct_1(k6_afinsq_1(A, B))) ) ).
-+ fof(d9_afinsq_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v5_ordinal1(A) & v1_finset_1(A)) ) )  => k7_afinsq_2(A)=k6_afinsq_2(k2_numbers, A, k27_binop_2)) ) ).
-+ fof(fc2_numbers, axiom,  ~ (v1_xboole_0(k2_numbers)) ).
 + fof(d2_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) <=> r2_hidden(A, k2_numbers)) ) ).
-+ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
-+ fof(redefinition_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k5_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
 + fof(d3_binop_2, axiom,  (! [A] :  ( (v1_funct_1(A) &  (v1_funct_2(A, k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers) & m1_subset_1(A, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers)))) )  =>  (A=k27_binop_2 <=>  (! [B] :  (v1_xcmplx_0(B) =>  (! [C] :  (v1_xcmplx_0(C) => k1_binop_1(A, B, C)=k3_binop_2(B, C)) ) ) ) ) ) ) ).
++ fof(d9_afinsq_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v5_ordinal1(A) & v1_finset_1(A)) ) )  => k7_afinsq_2(A)=k6_afinsq_2(k2_numbers, A, k27_binop_2)) ) ).
++ fof(dt_k27_binop_2, axiom,  (v1_funct_1(k27_binop_2) &  (v1_funct_2(k27_binop_2, k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers) & m1_subset_1(k27_binop_2, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k2_numbers, k2_numbers), k2_numbers)))) ) ).
++ fof(fc11_afinsq_1, axiom,  (! [A, B] :  (v5_ordinal1(k6_afinsq_1(A, B)) & v1_finset_1(k6_afinsq_1(A, B))) ) ).
++ fof(fc2_numbers, axiom,  ~ (v1_xboole_0(k2_numbers)) ).
++ fof(fc9_afinsq_1, axiom,  (! [A, B] :  (v1_relat_1(k6_afinsq_1(A, B)) & v1_funct_1(k6_afinsq_1(A, B))) ) ).
++ fof(redefinition_k5_binop_1, axiom,  (! [A, B, C, D] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (m1_subset_1(C, A) & m1_subset_1(D, A)) )  => k5_binop_1(A, B, C, D)=k1_binop_1(B, C, D)) ) ).
++ fof(t1_subset, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => m1_subset_1(A, B)) ) ) ).
++ fof(t38_afinsq_2, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  =>  (! [C] :  (m1_subset_1(C, A) =>  (! [D] :  (m1_subset_1(D, A) => k6_afinsq_2(A, k6_afinsq_1(C, D), B)=k5_binop_1(A, B, C, D)) ) ) ) ) ) ) ) ).
 - fof(fc33_afinsq_2, axiom,  (! [A] :  ( (v1_relat_1(A) &  (v1_funct_1(A) &  (v1_xboole_0(A) &  (v5_ordinal1(A) &  (v1_valued_0(A) & v1_finset_1(A)) ) ) ) )  => v1_xboole_0(k7_afinsq_2(A))) ) ).
 - fof(d5_afinsq_1, axiom,  (! [A] :  (! [B] : k6_afinsq_1(A, B)=k1_ordinal4(k5_afinsq_1(A), k5_afinsq_1(B))) ) ).
 - fof(t38_afinsq_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (v1_relat_1(C) &  (v5_ordinal1(C) &  (v1_funct_1(C) & v1_finset_1(C)) ) )  =>  (C=k6_afinsq_1(A, B) <=>  (k1_afinsq_1(C)=2 &  (k1_funct_1(C, k6_numbers)=A & k1_funct_1(C, 1)=B) ) ) ) ) ) ) ).

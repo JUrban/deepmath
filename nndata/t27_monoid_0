@@ -1,10 +1,10 @@
 C fof(t27_monoid_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l4_algstr_0(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & m3_monoid_0(B, A))  =>  (! [C] :  ( ( ~ (v2_struct_0(C))  & m3_monoid_0(C, A))  =>  (u1_struct_0(B)=u1_struct_0(C) => g4_algstr_0(u1_struct_0(B), u2_algstr_0(B), u3_struct_0(B))=g4_algstr_0(u1_struct_0(C), u2_algstr_0(C), u3_struct_0(C))) ) ) ) ) ) ) ).
-+ fof(t24_monoid_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & m2_monoid_0(B, A))  => u2_algstr_0(B)=k1_realset1(u2_algstr_0(A), u1_struct_0(B))) ) ) ) ).
-+ fof(d7_struct_0, axiom,  (! [A] :  (l3_struct_0(A) => k5_struct_0(A)=u3_struct_0(A)) ) ).
-+ fof(d25_monoid_0, axiom,  (! [A] :  (l4_algstr_0(A) =>  (! [B] :  (l4_algstr_0(B) =>  (m3_monoid_0(B, A) <=>  (r1_tarski(u2_algstr_0(B), u2_algstr_0(A)) & k5_struct_0(B)=k5_struct_0(A)) ) ) ) ) ) ).
 + fof(d23_monoid_0, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (l3_algstr_0(B) =>  (m2_monoid_0(B, A) <=> r1_tarski(u2_algstr_0(B), u2_algstr_0(A))) ) ) ) ) ).
++ fof(d25_monoid_0, axiom,  (! [A] :  (l4_algstr_0(A) =>  (! [B] :  (l4_algstr_0(B) =>  (m3_monoid_0(B, A) <=>  (r1_tarski(u2_algstr_0(B), u2_algstr_0(A)) & k5_struct_0(B)=k5_struct_0(A)) ) ) ) ) ) ).
++ fof(d7_struct_0, axiom,  (! [A] :  (l3_struct_0(A) => k5_struct_0(A)=u3_struct_0(A)) ) ).
 + fof(dt_l4_algstr_0, axiom,  (! [A] :  (l4_algstr_0(A) =>  (l3_struct_0(A) & l3_algstr_0(A)) ) ) ).
 + fof(dt_m3_monoid_0, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (m3_monoid_0(B, A) => l4_algstr_0(B)) ) ) ) ).
++ fof(t24_monoid_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & m2_monoid_0(B, A))  => u2_algstr_0(B)=k1_realset1(u2_algstr_0(A), u1_struct_0(B))) ) ) ) ).
 - fof(abstractness_v22_algstr_0, axiom,  (! [A] :  (l4_algstr_0(A) =>  (v22_algstr_0(A) => A=g4_algstr_0(u1_struct_0(A), u2_algstr_0(A), u3_struct_0(A))) ) ) ).
 - fof(free_g4_algstr_0, axiom,  (! [A, B, C] :  ( ( (v1_funct_1(B) &  (v1_funct_2(B, k2_zfmisc_1(A, A), A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  & m1_subset_1(C, A))  =>  (! [D, E, F] :  (g4_algstr_0(A, B, C)=g4_algstr_0(D, E, F) =>  (A=D &  (B=E & C=F) ) ) ) ) ) ).
 - fof(d24_monoid_0, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (l4_algstr_0(B) =>  (m3_monoid_0(B, A) <=>  (r1_tarski(u2_algstr_0(B), u2_algstr_0(A)) &  (! [C] :  (l4_algstr_0(C) =>  (A=C => k5_struct_0(B)=k5_struct_0(C)) ) ) ) ) ) ) ) ) ).

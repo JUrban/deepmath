@@ -1,21 +1,21 @@
 C fof(t41_quatern3, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) => r1_xxreal_0(k17_complex1(k9_real_1(k3_quatern2(A), k3_quatern2(B))), k7_real_1(k3_quatern2(A), k3_quatern2(B)))) ) ) ) ).
++ fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
++ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
 + fof(commutativity_k26_quaterni, axiom,  (! [A, B] :  ( (v1_quaterni(A) & v1_quaterni(B))  => k26_quaterni(A, B)=k26_quaterni(B, A)) ) ).
-+ fof(redefinition_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k7_real_1(A, B)=k2_xcmplx_0(A, B)) ) ).
++ fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
++ fof(dt_k3_quatern2, axiom,  (! [A] :  (v1_quaterni(A) => m1_subset_1(k3_quatern2(A), k1_numbers)) ) ).
++ fof(dt_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k7_real_1(A, B), k1_numbers)) ) ).
 + fof(fc5_xreal_0, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => v1_xreal_0(k2_xcmplx_0(A, B))) ) ).
++ fof(fc7_xreal_0, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => v1_xreal_0(k6_xcmplx_0(A, B))) ) ).
++ fof(l138_quaterni, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) => A=k29_quaterni(k26_quaterni(A, B), B)) ) ) ) ).
++ fof(redefinition_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k7_real_1(A, B)=k2_xcmplx_0(A, B)) ) ).
 + fof(redefinition_k9_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => k9_real_1(A, B)=k6_xcmplx_0(A, B)) ) ).
 + fof(t142_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => k4_xcmplx_0(k6_xcmplx_0(A, B))=k6_xcmplx_0(B, A)) ) ) ) ).
-+ fof(t36_quatern3, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) =>  (! [C] :  (v1_quaterni(C) => r1_xxreal_0(k3_quatern2(k29_quaterni(k26_quaterni(A, B), C)), k7_real_1(k7_real_1(k3_quatern2(A), k3_quatern2(B)), k3_quatern2(C)))) ) ) ) ) ) ).
-+ fof(cc1_xcmplx_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xcmplx_0(A)) ) ).
-+ fof(fc7_xreal_0, axiom,  (! [A, B] :  ( (v1_xreal_0(A) & v1_xreal_0(B))  => v1_xreal_0(k6_xcmplx_0(A, B))) ) ).
-+ fof(t71_complex1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (k17_complex1(A)=A | k17_complex1(A)=k4_xcmplx_0(A)) ) ) ).
-+ fof(l138_quaterni, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) => A=k29_quaterni(k26_quaterni(A, B), B)) ) ) ) ).
 + fof(t26_xcmplx_1, axiom,  (! [A] :  (v1_xcmplx_0(A) =>  (! [B] :  (v1_xcmplx_0(B) => A=k6_xcmplx_0(k2_xcmplx_0(A, B), B)) ) ) ) ).
-+ fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
-+ fof(cc1_xreal_0, axiom,  (! [A] :  (m1_subset_1(A, k1_numbers) => v1_xreal_0(A)) ) ).
++ fof(t36_quatern3, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) =>  (! [C] :  (v1_quaterni(C) => r1_xxreal_0(k3_quatern2(k29_quaterni(k26_quaterni(A, B), C)), k7_real_1(k7_real_1(k3_quatern2(A), k3_quatern2(B)), k3_quatern2(C)))) ) ) ) ) ) ).
++ fof(t71_complex1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (k17_complex1(A)=A | k17_complex1(A)=k4_xcmplx_0(A)) ) ) ).
 + fof(t9_xreal_1, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  (! [C] :  (v1_xreal_0(C) =>  (r1_xxreal_0(A, B) <=> r1_xxreal_0(k6_xcmplx_0(A, C), k6_xcmplx_0(B, C))) ) ) ) ) ) ) ).
-+ fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
-+ fof(dt_k7_real_1, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_numbers) & v1_xreal_0(B))  => m1_subset_1(k7_real_1(A, B), k1_numbers)) ) ).
-+ fof(dt_k3_quatern2, axiom,  (! [A] :  (v1_quaterni(A) => m1_subset_1(k3_quatern2(A), k1_numbers)) ) ).
 - fof(redefinition_k3_quatern2, axiom,  (! [A] :  (v1_quaterni(A) => k3_quatern2(A)=k32_quaterni(A)) ) ).
 - fof(t38_quatern3, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) => r1_xxreal_0(k9_real_1(k3_quatern2(A), k3_quatern2(B)), k10_real_1(k7_real_1(k3_quatern2(k26_quaterni(A, B)), k3_quatern2(k29_quaterni(A, B))), 2))) ) ) ) ).
 - fof(t40_quatern3, axiom,  (! [A] :  (v1_quaterni(A) =>  (! [B] :  (v1_quaterni(B) => r1_xxreal_0(k17_complex1(k9_real_1(k3_quatern2(A), k3_quatern2(B))), k3_quatern2(k29_quaterni(B, A)))) ) ) ) ).

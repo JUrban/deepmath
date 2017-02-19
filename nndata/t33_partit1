@@ -1,13 +1,13 @@
 C fof(t33_partit1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k4_partit1(A, k6_partit1(A))=k1_eqrel_1(A)) ) ).
-+ fof(fc2_eqrel_1, axiom,  (! [A] :  (v3_relat_2(k1_eqrel_1(A)) &  (v8_relat_2(k1_eqrel_1(A)) & v1_partfun1(k1_eqrel_1(A), A)) ) ) ).
-+ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
-+ fof(dt_k6_partit1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => m1_eqrel_1(k6_partit1(A), A)) ) ).
 + fof(d1_eqrel_1, axiom,  (! [A] : k1_eqrel_1(A)=k2_zfmisc_1(A, A)) ).
-+ fof(d6_partit1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_eqrel_1(B, A) =>  (! [C] :  ( (v1_partfun1(C, A) &  (v3_relat_2(C) &  (v8_relat_2(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  =>  (C=k4_partit1(A, B) <=>  (! [D] :  (! [E] :  (r2_hidden(k4_tarski(D, E), C) <=>  (? [F] :  (m1_subset_1(F, k1_zfmisc_1(A)) &  (r2_hidden(F, B) &  (r2_hidden(D, F) & r2_hidden(E, F)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
-+ fof(dt_m1_eqrel_1, axiom,  (! [A] :  (! [B] :  (m1_eqrel_1(B, A) => m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ).
-+ fof(dt_k1_eqrel_1, axiom,  (! [A] : m1_subset_1(k1_eqrel_1(A), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ).
++ fof(d5_tarski, axiom,  (! [A] :  (! [B] : k4_tarski(A, B)=k2_tarski(k2_tarski(A, B), k1_tarski(A))) ) ).
++ fof(d6_partit1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_eqrel_1(B, A) =>  (! [C] :  ( (v1_partfun1(C, A) &  (v3_relat_2(C) &  (v8_relat_2(C) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, A)))) ) )  =>  (C=k4_partit1(A, B) <=>  (! [D] :  (! [E] :  (r2_hidden(k4_tarski(D, E), C) <=>  (? [F] :  (m1_subset_1(F, k1_zfmisc_1(A)) &  (r2_hidden(F, B) &  (r2_hidden(D, F) & r2_hidden(E, F)) ) ) ) ) ) ) ) ) ) ) ) ) ) ).
 + fof(d8_partit1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => k6_partit1(A)=k1_tarski(A)) ) ).
++ fof(dt_k1_eqrel_1, axiom,  (! [A] : m1_subset_1(k1_eqrel_1(A), k1_zfmisc_1(k2_zfmisc_1(A, A)))) ).
++ fof(dt_k6_partit1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  => m1_eqrel_1(k6_partit1(A), A)) ) ).
++ fof(dt_m1_eqrel_1, axiom,  (! [A] :  (! [B] :  (m1_eqrel_1(B, A) => m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) ) ) ).
++ fof(fc2_eqrel_1, axiom,  (! [A] :  (v3_relat_2(k1_eqrel_1(A)) &  (v8_relat_2(k1_eqrel_1(A)) & v1_partfun1(k1_eqrel_1(A), A)) ) ) ).
 + fof(t4_subset, axiom,  (! [A] :  (! [B] :  (! [C] :  ( (r2_hidden(A, B) & m1_subset_1(B, k1_zfmisc_1(C)))  => m1_subset_1(A, C)) ) ) ) ).
 + fof(t87_zfmisc_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (! [D] :  (r2_hidden(k4_tarski(A, B), k2_zfmisc_1(C, D)) <=>  (r2_hidden(A, C) & r2_hidden(B, D)) ) ) ) ) ) ).
 - fof(t20_partit1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_eqrel_1(B, A) =>  (! [C] :  (m1_eqrel_1(C, A) =>  (r1_setfam_1(B, C) <=> r1_tarski(k4_partit1(A, B), k4_partit1(A, C))) ) ) ) ) ) ) ).

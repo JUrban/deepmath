@@ -1,14 +1,14 @@
 C fof(t49_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ~ (k17_sin_cos(k7_xcmplx_0(k6_xcmplx_0(A, B), 2))=k6_numbers)  => k7_xcmplx_0(k6_xcmplx_0(k17_sin_cos(A), k17_sin_cos(B)), k6_xcmplx_0(k20_sin_cos(B), k20_sin_cos(A)))=k2_sin_cos4(k7_xcmplx_0(k2_xcmplx_0(A, B), 2))) ) ) ) ) ).
-+ fof(spc1_arithm, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, k4_xcmplx_0(B))=k6_xcmplx_0(A, B)) ) ).
-+ fof(t48_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ~ (k17_sin_cos(k7_xcmplx_0(k2_xcmplx_0(A, B), 2))=k6_numbers)  => k7_xcmplx_0(k2_xcmplx_0(k17_sin_cos(A), k17_sin_cos(B)), k6_xcmplx_0(k20_sin_cos(B), k20_sin_cos(A)))=k2_sin_cos4(k7_xcmplx_0(k6_xcmplx_0(A, B), 2))) ) ) ) ) ).
-+ fof(spc9_arithm, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k6_xcmplx_0(k4_xcmplx_0(A), k4_xcmplx_0(B))=k6_xcmplx_0(B, A)) ) ).
-+ fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
-+ fof(t31_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) =>  (k21_sin_cos(k6_numbers)=1 &  (k18_sin_cos(k6_numbers)=k6_numbers &  (k20_sin_cos(k4_xcmplx_0(A))=k20_sin_cos(A) & k17_sin_cos(k4_xcmplx_0(A))=k4_xcmplx_0(k17_sin_cos(A))) ) ) ) ) ).
-+ fof(t15_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k2_xcmplx_0(k17_sin_cos(A), k17_sin_cos(B))=k3_xcmplx_0(2, k3_xcmplx_0(k20_sin_cos(k7_xcmplx_0(k6_xcmplx_0(A, B), 2)), k17_sin_cos(k7_xcmplx_0(k2_xcmplx_0(A, B), 2))))) ) ) ) ).
-+ fof(involutiveness_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => k4_xcmplx_0(k4_xcmplx_0(A))=A) ) ).
-+ fof(t16_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k6_xcmplx_0(k17_sin_cos(A), k17_sin_cos(B))=k3_xcmplx_0(2, k3_xcmplx_0(k20_sin_cos(k7_xcmplx_0(k2_xcmplx_0(A, B), 2)), k17_sin_cos(k7_xcmplx_0(k6_xcmplx_0(A, B), 2))))) ) ) ) ).
-+ fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
 + fof(cc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xcmplx_0(A)) ) ).
++ fof(commutativity_k2_xcmplx_0, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, B)=k2_xcmplx_0(B, A)) ) ).
++ fof(fc3_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) =>  (v1_xcmplx_0(k4_xcmplx_0(A)) & v1_xreal_0(k4_xcmplx_0(A))) ) ) ).
++ fof(involutiveness_k4_xcmplx_0, axiom,  (! [A] :  (v1_xcmplx_0(A) => k4_xcmplx_0(k4_xcmplx_0(A))=A) ) ).
++ fof(spc1_arithm, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k2_xcmplx_0(A, k4_xcmplx_0(B))=k6_xcmplx_0(A, B)) ) ).
++ fof(spc9_arithm, axiom,  (! [A, B] :  ( (v1_xcmplx_0(A) & v1_xcmplx_0(B))  => k6_xcmplx_0(k4_xcmplx_0(A), k4_xcmplx_0(B))=k6_xcmplx_0(B, A)) ) ).
++ fof(t15_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k2_xcmplx_0(k17_sin_cos(A), k17_sin_cos(B))=k3_xcmplx_0(2, k3_xcmplx_0(k20_sin_cos(k7_xcmplx_0(k6_xcmplx_0(A, B), 2)), k17_sin_cos(k7_xcmplx_0(k2_xcmplx_0(A, B), 2))))) ) ) ) ).
++ fof(t16_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k6_xcmplx_0(k17_sin_cos(A), k17_sin_cos(B))=k3_xcmplx_0(2, k3_xcmplx_0(k20_sin_cos(k7_xcmplx_0(k2_xcmplx_0(A, B), 2)), k17_sin_cos(k7_xcmplx_0(k6_xcmplx_0(A, B), 2))))) ) ) ) ).
++ fof(t31_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) =>  (k21_sin_cos(k6_numbers)=1 &  (k18_sin_cos(k6_numbers)=k6_numbers &  (k20_sin_cos(k4_xcmplx_0(A))=k20_sin_cos(A) & k17_sin_cos(k4_xcmplx_0(A))=k4_xcmplx_0(k17_sin_cos(A))) ) ) ) ) ).
++ fof(t48_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) =>  ( ~ (k17_sin_cos(k7_xcmplx_0(k2_xcmplx_0(A, B), 2))=k6_numbers)  => k7_xcmplx_0(k2_xcmplx_0(k17_sin_cos(A), k17_sin_cos(B)), k6_xcmplx_0(k20_sin_cos(B), k20_sin_cos(A)))=k2_sin_cos4(k7_xcmplx_0(k6_xcmplx_0(A, B), 2))) ) ) ) ) ).
 - fof(t18_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k6_xcmplx_0(k20_sin_cos(A), k20_sin_cos(B))=k4_xcmplx_0(k3_xcmplx_0(2, k3_xcmplx_0(k17_sin_cos(k7_xcmplx_0(k2_xcmplx_0(A, B), 2)), k17_sin_cos(k7_xcmplx_0(k6_xcmplx_0(A, B), 2)))))) ) ) ) ).
 - fof(t45_sin_cos4, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k7_xcmplx_0(k2_xcmplx_0(k17_sin_cos(A), k17_sin_cos(B)), k6_xcmplx_0(k17_sin_cos(A), k17_sin_cos(B)))=k3_xcmplx_0(k1_sin_cos4(k7_xcmplx_0(k2_xcmplx_0(A, B), 2)), k2_sin_cos4(k7_xcmplx_0(k6_xcmplx_0(A, B), 2)))) ) ) ) ).
 - fof(fc3_sin_cos, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xreal_0(k17_sin_cos(A))) ) ).

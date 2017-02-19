@@ -1,7 +1,7 @@
 C fof(t33_topgen_4, axiom,  (! [A] :  (! [B] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( ~ (B=k1_xboole_0)  &  ~ (k1_setfam_1(k2_setfam_1(A, B))=k2_xboole_0(k1_setfam_1(A), k1_setfam_1(B))) ) ) ) ) ) ).
-+ fof(t32_topgen_4, axiom,  (! [A] :  (! [B] : r1_tarski(k1_setfam_1(k2_setfam_1(A, B)), k2_xboole_0(k1_setfam_1(A), k1_setfam_1(B)))) ) ).
 + fof(d10_xboole_0, axiom,  (! [A] :  (! [B] :  (A=B <=>  (r1_tarski(A, B) & r1_tarski(B, A)) ) ) ) ).
 + fof(t29_setfam_1, axiom,  (! [A] :  (! [B] :  ~ ( ( ~ (A=k1_xboole_0)  &  ( ~ (B=k1_xboole_0)  &  ~ (r1_tarski(k2_xboole_0(k1_setfam_1(A), k1_setfam_1(B)), k1_setfam_1(k2_setfam_1(A, B)))) ) ) ) ) ) ).
++ fof(t32_topgen_4, axiom,  (! [A] :  (! [B] : r1_tarski(k1_setfam_1(k2_setfam_1(A, B)), k2_xboole_0(k1_setfam_1(A), k1_setfam_1(B)))) ) ).
 - fof(t24_setfam_1, axiom,  (! [A] :  (! [B] :  ( ~ (B=k1_xboole_0)  => k2_xboole_0(A, k1_setfam_1(B))=k1_setfam_1(k2_setfam_1(k1_tarski(A), B))) ) ) ).
 - fof(d4_setfam_1, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_setfam_1(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (? [E] :  (? [F] :  (r2_hidden(E, A) &  (r2_hidden(F, B) & D=k2_xboole_0(E, F)) ) ) ) ) ) ) ) ) ) ).
 - fof(t3_setfam_1, axiom,  (! [A] :  (! [B] :  (r2_hidden(A, B) => r1_tarski(k1_setfam_1(B), A)) ) ) ).

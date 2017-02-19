@@ -1,11 +1,11 @@
 C fof(t6_yellow_2, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  ( (v4_yellow_0(B, A) & m1_yellow_0(B, A))  =>  (! [C] :  ( (v4_yellow_0(C, A) & m1_yellow_0(C, A))  =>  (r1_tarski(u1_struct_0(B), u1_struct_0(C)) => r1_relset_1(u1_struct_0(B), u1_struct_0(B), u1_orders_2(B), u1_orders_2(C))) ) ) ) ) ) ) ).
-+ fof(dt_u1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => m1_subset_1(u1_orders_2(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ).
-+ fof(t5_yellow_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_tarski(B, C) => r1_tarski(k2_wellord1(A, B), k2_wellord1(A, C))) ) ) ) ) ).
-+ fof(redefinition_k1_toler_1, axiom,  (! [A, B] :  (v1_relat_1(A) => k1_toler_1(A, B)=k2_wellord1(A, B)) ) ).
-+ fof(redefinition_r1_relset_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (r1_relset_1(A, B, C, D) <=> r1_tarski(C, D)) ) ) ).
++ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
 + fof(d14_yellow_0, axiom,  (! [A] :  (l1_orders_2(A) =>  (! [B] :  (m1_yellow_0(B, A) =>  (v4_yellow_0(B, A) <=> u1_orders_2(B)=k1_toler_1(u1_orders_2(A), u1_struct_0(B))) ) ) ) ) ).
 + fof(dt_k1_toler_1, axiom,  (! [A, B] :  (v1_relat_1(A) => m1_subset_1(k1_toler_1(A, B), k1_zfmisc_1(k2_zfmisc_1(B, B)))) ) ).
-+ fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
++ fof(dt_u1_orders_2, axiom,  (! [A] :  (l1_orders_2(A) => m1_subset_1(u1_orders_2(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ).
++ fof(redefinition_k1_toler_1, axiom,  (! [A, B] :  (v1_relat_1(A) => k1_toler_1(A, B)=k2_wellord1(A, B)) ) ).
++ fof(redefinition_r1_relset_1, axiom,  (! [A, B, C, D] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) =>  (r1_relset_1(A, B, C, D) <=> r1_tarski(C, D)) ) ) ).
++ fof(t5_yellow_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  (r1_tarski(B, C) => r1_tarski(k2_wellord1(A, B), k2_wellord1(A, C))) ) ) ) ) ).
 - fof(t63_yellow_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v4_orders_2(A) & l1_orders_2(A)) )  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v4_yellow_0(B, A) & m1_yellow_0(B, A)) )  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))) =>  ( (r2_yellow_0(A, C) & r2_hidden(k2_yellow_0(A, C), u1_struct_0(B)))  =>  (r2_yellow_0(B, C) & k2_yellow_0(B, C)=k2_yellow_0(A, C)) ) ) ) ) ) ) ) ).
 - fof(t64_yellow_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v4_orders_2(A) & l1_orders_2(A)) )  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v4_yellow_0(B, A) & m1_yellow_0(B, A)) )  =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))) =>  ( (r1_yellow_0(A, C) & r2_hidden(k1_yellow_0(A, C), u1_struct_0(B)))  =>  (r1_yellow_0(B, C) & k1_yellow_0(B, C)=k1_yellow_0(A, C)) ) ) ) ) ) ) ) ).
 - fof(t5_graph_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_graph_1(A))  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & l1_graph_1(B))  =>  (r4_graph_1(A, B) =>  (r1_relset_1(u4_struct_0(A), u1_struct_0(A), u1_graph_1(A), u1_graph_1(B)) & r1_relset_1(u4_struct_0(A), u1_struct_0(A), u2_graph_1(A), u2_graph_1(B))) ) ) ) ) ) ).

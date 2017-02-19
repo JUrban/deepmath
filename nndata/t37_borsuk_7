@@ -1,23 +1,23 @@
 C fof(t37_borsuk_7, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (B=k3_numbers =>  (v3_pre_topc(k9_subset_1(k1_numbers, k3_numbers, k2_rcomp_1(A, k1_xxreal_0)), k1_pre_topc(k3_topmetr, B)) & m1_subset_1(k9_subset_1(k1_numbers, k3_numbers, k2_rcomp_1(A, k1_xxreal_0)), k1_zfmisc_1(u1_struct_0(k1_pre_topc(k3_topmetr, B))))) ) ) ) ) ) ).
-+ fof(d3_toprealb, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => k5_toprealb(A)=A) ) ).
-+ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
-+ fof(t17_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(k3_xboole_0(A, B), A)) ) ).
-+ fof(t17_topmetr, axiom, u1_struct_0(k3_topmetr)=k1_numbers).
-+ fof(redefinition_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k9_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
-+ fof(dt_m1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_pre_topc(B, A) => l1_pre_topc(B)) ) ) ) ).
 + fof(cc4_xreal_0, axiom,  (! [A] :  (v1_xreal_0(A) => v1_xxreal_0(A)) ) ).
 + fof(commutativity_k3_xboole_0, axiom,  (! [A, B] : k3_xboole_0(A, B)=k3_xboole_0(B, A)) ).
-+ fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).
-+ fof(de_c15__borsuk_7, axiom, c15__borsuk_7=k3_numbers).
-+ fof(d1_tsp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (l1_pre_topc(B) =>  (m1_pre_topc(B, A) <=>  (r1_tarski(u1_struct_0(B), u1_struct_0(A)) &  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))) =>  (v3_pre_topc(C, B) <=>  (? [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(A))) &  (v3_pre_topc(D, A) & C=k8_subset_1(u1_struct_0(A), D, u1_struct_0(B))) ) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(fc1_xxreal_0, axiom, v1_xxreal_0(k1_xxreal_0)).
-+ fof(redefinition_k2_topalg_2, axiom, k2_topalg_2=k3_topmetr).
-+ fof(dt_k2_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => m1_subset_1(k2_rcomp_1(A, B), k1_zfmisc_1(k1_numbers))) ) ).
-+ fof(dt_k1_pre_topc, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (v1_pre_topc(k1_pre_topc(A, B)) & m1_pre_topc(k1_pre_topc(A, B), A)) ) ) ).
-+ fof(t40_borsuk_5, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (A=k2_rcomp_1(B, C) => v3_pre_topc(A, k3_topmetr)) ) ) ) ) ) ) ).
-+ fof(l48_borsuk_7, axiom, u1_struct_0(k1_pre_topc(k3_topmetr, k5_toprealb(c15__borsuk_7)))=c15__borsuk_7).
-+ fof(redefinition_k8_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k8_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
 + fof(commutativity_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k9_subset_1(A, B, C)=k9_subset_1(A, C, B)) ) ).
++ fof(d1_tsp_1, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (l1_pre_topc(B) =>  (m1_pre_topc(B, A) <=>  (r1_tarski(u1_struct_0(B), u1_struct_0(A)) &  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(B))) =>  (v3_pre_topc(C, B) <=>  (? [D] :  (m1_subset_1(D, k1_zfmisc_1(u1_struct_0(A))) &  (v3_pre_topc(D, A) & C=k8_subset_1(u1_struct_0(A), D, u1_struct_0(B))) ) ) ) ) ) ) ) ) ) ) ) ).
++ fof(d3_toprealb, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(k1_numbers)) => k5_toprealb(A)=A) ) ).
++ fof(de_c15__borsuk_7, axiom, c15__borsuk_7=k3_numbers).
++ fof(dt_k1_pre_topc, axiom,  (! [A, B] :  ( (l1_pre_topc(A) & m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))))  =>  (v1_pre_topc(k1_pre_topc(A, B)) & m1_pre_topc(k1_pre_topc(A, B), A)) ) ) ).
++ fof(dt_k2_rcomp_1, axiom,  (! [A, B] :  ( (v1_xxreal_0(A) & v1_xxreal_0(B))  => m1_subset_1(k2_rcomp_1(A, B), k1_zfmisc_1(k1_numbers))) ) ).
++ fof(dt_k3_topmetr, axiom,  (v2_pre_topc(k3_topmetr) & l1_pre_topc(k3_topmetr)) ).
++ fof(dt_m1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) =>  (! [B] :  (m1_pre_topc(B, A) => l1_pre_topc(B)) ) ) ) ).
++ fof(fc1_xxreal_0, axiom, v1_xxreal_0(k1_xxreal_0)).
++ fof(l48_borsuk_7, axiom, u1_struct_0(k1_pre_topc(k3_topmetr, k5_toprealb(c15__borsuk_7)))=c15__borsuk_7).
++ fof(redefinition_k2_topalg_2, axiom, k2_topalg_2=k3_topmetr).
++ fof(redefinition_k8_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(B, k1_zfmisc_1(A)) => k8_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
++ fof(redefinition_k9_subset_1, axiom,  (! [A, B, C] :  (m1_subset_1(C, k1_zfmisc_1(A)) => k9_subset_1(A, B, C)=k3_xboole_0(B, C)) ) ).
++ fof(t17_topmetr, axiom, u1_struct_0(k3_topmetr)=k1_numbers).
++ fof(t17_xboole_1, axiom,  (! [A] :  (! [B] : r1_tarski(k3_xboole_0(A, B), A)) ) ).
++ fof(t3_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, k1_zfmisc_1(B)) <=> r1_tarski(A, B)) ) ) ).
++ fof(t40_borsuk_5, axiom,  (! [A] :  (m1_subset_1(A, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (! [B] :  (v1_xxreal_0(B) =>  (! [C] :  (v1_xxreal_0(C) =>  (A=k2_rcomp_1(B, C) => v3_pre_topc(A, k3_topmetr)) ) ) ) ) ) ) ).
 - fof(t36_borsuk_7, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k3_topmetr))) =>  (B=k3_numbers =>  (v3_pre_topc(k9_subset_1(k1_numbers, k3_numbers, k2_rcomp_1(k2_xxreal_0, A)), k1_pre_topc(k3_topmetr, B)) & m1_subset_1(k9_subset_1(k1_numbers, k3_numbers, k2_rcomp_1(k2_xxreal_0, A)), k1_zfmisc_1(u1_struct_0(k1_pre_topc(k3_topmetr, B))))) ) ) ) ) ) ).
 - fof(dt_c15__borsuk_7, axiom, m1_subset_1(c15__borsuk_7, k1_zfmisc_1(k1_numbers))).
 - fof(d2_borsuk_5, axiom,  (! [A] :  (v1_xreal_0(A) =>  (! [B] :  (v1_xreal_0(B) => k2_borsuk_5(A, B)=k9_subset_1(k1_numbers, k3_numbers, k2_rcomp_1(A, B))) ) ) ) ).

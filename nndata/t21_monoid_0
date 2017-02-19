@@ -1,8 +1,8 @@
 C fof(t21_monoid_0, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (m3_monoid_0(B, A) => m2_monoid_0(B, A)) ) ) ) ).
-+ fof(dt_m3_monoid_0, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (m3_monoid_0(B, A) => l4_algstr_0(B)) ) ) ) ).
-+ fof(dt_l4_algstr_0, axiom,  (! [A] :  (l4_algstr_0(A) =>  (l3_struct_0(A) & l3_algstr_0(A)) ) ) ).
 + fof(d23_monoid_0, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (l3_algstr_0(B) =>  (m2_monoid_0(B, A) <=> r1_tarski(u2_algstr_0(B), u2_algstr_0(A))) ) ) ) ) ).
 + fof(d24_monoid_0, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (l4_algstr_0(B) =>  (m3_monoid_0(B, A) <=>  (r1_tarski(u2_algstr_0(B), u2_algstr_0(A)) &  (! [C] :  (l4_algstr_0(C) =>  (A=C => k5_struct_0(B)=k5_struct_0(C)) ) ) ) ) ) ) ) ) ).
++ fof(dt_l4_algstr_0, axiom,  (! [A] :  (l4_algstr_0(A) =>  (l3_struct_0(A) & l3_algstr_0(A)) ) ) ).
++ fof(dt_m3_monoid_0, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (m3_monoid_0(B, A) => l4_algstr_0(B)) ) ) ) ).
 - fof(rc8_monoid_0, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l3_algstr_0(A))  =>  (? [B] :  (m2_monoid_0(B, A) &  ( ~ (v2_struct_0(B))  & v15_algstr_0(B)) ) ) ) ) ).
 - fof(rc7_monoid_0, axiom,  (! [A] :  (l3_algstr_0(A) =>  (? [B] :  (m2_monoid_0(B, A) & v15_algstr_0(B)) ) ) ) ).
 - fof(dt_m2_monoid_0, axiom,  (! [A] :  (l3_algstr_0(A) =>  (! [B] :  (m2_monoid_0(B, A) => l3_algstr_0(B)) ) ) ) ).

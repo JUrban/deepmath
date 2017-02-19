@@ -1,18 +1,18 @@
 C fof(l16_mfold_2, axiom,  (! [A] :  (v7_ordinal1(A) => u1_struct_0(k10_funcsdom(k2_finseq_1(A)))=u1_struct_0(k15_euclid(A))) ) ).
-+ fof(d1_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k1_euclid(A)=k4_finseq_2(A, k1_numbers)) ) ).
-+ fof(dt_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => m1_funct_2(k9_funct_2(A, B), A, B)) ) ).
-+ fof(dt_k8_funcsdom, axiom,  (! [A] : m2_funct_2(k8_funcsdom(A), A, k1_numbers, k9_funct_2(A, k1_numbers))) ).
-+ fof(d6_funcsdom, axiom,  (! [A] : k10_funcsdom(A)=g1_rlvect_1(k9_funct_2(A, k1_numbers), k8_funcsdom(A), k5_funcsdom(A), k7_funcsdom(A))) ).
-+ fof(dt_k7_funcsdom, axiom,  (! [A] :  (v1_funct_1(k7_funcsdom(A)) &  (v1_funct_2(k7_funcsdom(A), k2_zfmisc_1(k1_numbers, k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers)) & m1_subset_1(k7_funcsdom(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers))))) ) ) ).
-+ fof(t22_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => u1_struct_0(k15_euclid(A))=k1_euclid(A)) ) ).
-+ fof(redefinition_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => k9_funct_2(A, B)=k1_funct_2(A, B)) ) ).
-+ fof(t93_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] : k4_finseq_2(A, B)=k1_funct_2(k2_finseq_1(A), B)) ) ) ).
-+ fof(dt_k5_funcsdom, axiom,  (! [A] :  (v1_funct_1(k5_funcsdom(A)) &  (v1_funct_2(k5_funcsdom(A), k2_zfmisc_1(k9_funct_2(A, k1_numbers), k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers)) & m1_subset_1(k5_funcsdom(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k9_funct_2(A, k1_numbers), k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers))))) ) ) ).
-+ fof(dt_k10_funcsdom, axiom,  (! [A] :  ( ~ (v2_struct_0(k10_funcsdom(A)))  &  (v13_algstr_0(k10_funcsdom(A)) &  (v1_rlvect_1(k10_funcsdom(A)) &  (v2_rlvect_1(k10_funcsdom(A)) &  (v3_rlvect_1(k10_funcsdom(A)) &  (v4_rlvect_1(k10_funcsdom(A)) &  (v5_rlvect_1(k10_funcsdom(A)) &  (v6_rlvect_1(k10_funcsdom(A)) &  (v7_rlvect_1(k10_funcsdom(A)) &  (v8_rlvect_1(k10_funcsdom(A)) & l1_rlvect_1(k10_funcsdom(A))) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(redefinition_m2_funct_2, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(B))  & m1_funct_2(C, A, B))  =>  (! [D] :  (m2_funct_2(D, A, B, C) <=> m1_subset_1(D, C)) ) ) ) ).
-+ fof(free_g1_rlvect_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(B, A) &  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (v1_funct_1(D) &  (v1_funct_2(D, k2_zfmisc_1(k1_numbers, A), A) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, A), A)))) ) ) )  =>  (! [E, F, G, H] :  (g1_rlvect_1(A, B, C, D)=g1_rlvect_1(E, F, G, H) =>  (A=E &  (B=F &  (C=G & D=H) ) ) ) ) ) ) ).
-+ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
 + fof(abstractness_v1_rlvect_1, axiom,  (! [A] :  (l1_rlvect_1(A) =>  (v1_rlvect_1(A) => A=g1_rlvect_1(u1_struct_0(A), u2_struct_0(A), u1_algstr_0(A), u1_rlvect_1(A))) ) ) ).
++ fof(d1_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => k1_euclid(A)=k4_finseq_2(A, k1_numbers)) ) ).
++ fof(d6_funcsdom, axiom,  (! [A] : k10_funcsdom(A)=g1_rlvect_1(k9_funct_2(A, k1_numbers), k8_funcsdom(A), k5_funcsdom(A), k7_funcsdom(A))) ).
++ fof(dt_k10_funcsdom, axiom,  (! [A] :  ( ~ (v2_struct_0(k10_funcsdom(A)))  &  (v13_algstr_0(k10_funcsdom(A)) &  (v1_rlvect_1(k10_funcsdom(A)) &  (v2_rlvect_1(k10_funcsdom(A)) &  (v3_rlvect_1(k10_funcsdom(A)) &  (v4_rlvect_1(k10_funcsdom(A)) &  (v5_rlvect_1(k10_funcsdom(A)) &  (v6_rlvect_1(k10_funcsdom(A)) &  (v7_rlvect_1(k10_funcsdom(A)) &  (v8_rlvect_1(k10_funcsdom(A)) & l1_rlvect_1(k10_funcsdom(A))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k5_funcsdom, axiom,  (! [A] :  (v1_funct_1(k5_funcsdom(A)) &  (v1_funct_2(k5_funcsdom(A), k2_zfmisc_1(k9_funct_2(A, k1_numbers), k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers)) & m1_subset_1(k5_funcsdom(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k9_funct_2(A, k1_numbers), k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers))))) ) ) ).
++ fof(dt_k7_funcsdom, axiom,  (! [A] :  (v1_funct_1(k7_funcsdom(A)) &  (v1_funct_2(k7_funcsdom(A), k2_zfmisc_1(k1_numbers, k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers)) & m1_subset_1(k7_funcsdom(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers))))) ) ) ).
++ fof(dt_k8_funcsdom, axiom,  (! [A] : m2_funct_2(k8_funcsdom(A), A, k1_numbers, k9_funct_2(A, k1_numbers))) ).
++ fof(dt_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => m1_funct_2(k9_funct_2(A, B), A, B)) ) ).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(free_g1_rlvect_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(B, A) &  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (v1_funct_1(D) &  (v1_funct_2(D, k2_zfmisc_1(k1_numbers, A), A) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, A), A)))) ) ) )  =>  (! [E, F, G, H] :  (g1_rlvect_1(A, B, C, D)=g1_rlvect_1(E, F, G, H) =>  (A=E &  (B=F &  (C=G & D=H) ) ) ) ) ) ) ).
++ fof(redefinition_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => k9_funct_2(A, B)=k1_funct_2(A, B)) ) ).
++ fof(redefinition_m2_funct_2, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(B))  & m1_funct_2(C, A, B))  =>  (! [D] :  (m2_funct_2(D, A, B, C) <=> m1_subset_1(D, C)) ) ) ) ).
++ fof(t22_euclid, axiom,  (! [A] :  (v7_ordinal1(A) => u1_struct_0(k15_euclid(A))=k1_euclid(A)) ) ).
++ fof(t93_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] : k4_finseq_2(A, B)=k1_funct_2(k2_finseq_1(A), B)) ) ) ).
 - fof(t47_euclid_7, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k10_funcsdom(k2_finseq_1(A))))) =>  (m1_rlvect_3(B, k10_funcsdom(k2_finseq_1(A))) => k1_card_1(B)=A) ) ) ) ) ).
 - fof(t45_euclid_7, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(k10_funcsdom(k2_finseq_1(A))))) =>  (B=k8_euclid_7(A) => m1_rlvect_3(B, k10_funcsdom(k2_finseq_1(A)))) ) ) ) ) ).
 - fof(fraenkel_a_3_1_euclid_7, axiom,  (! [A, B, C, D] :  ( (v7_ordinal1(B) &  (m1_subset_1(C, k1_zfmisc_1(u1_struct_0(k10_funcsdom(k2_finseq_1(B))))) & m2_rlvect_2(D, k10_funcsdom(k2_finseq_1(B)), C)) )  =>  (r2_hidden(A, a_3_1_euclid_7(B, C, D)) <=>  (? [E] :  (m1_subset_1(E, u1_struct_0(k10_funcsdom(k2_finseq_1(B)))) &  (A=E &  ~ (k1_seq_1(D, E)=k6_numbers) ) ) ) ) ) ) ).

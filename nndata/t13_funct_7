@@ -1,8 +1,8 @@
 C fof(t13_funct_7, axiom,  (! [A] :  (! [B] :  (! [C] :  ~ ( ( ~ (A=B)  & r2_hidden(A, k10_xtuple_0(k1_funct_4(k6_partfun1(C), k16_funcop_1(A, B))))) ) ) ) ) ).
 + fof(d1_tarski, axiom,  (! [A] :  (! [B] :  (B=k1_tarski(A) <=>  (! [C] :  (r2_hidden(C, B) <=> C=A) ) ) ) ) ).
-+ fof(t48_zfmisc_1, axiom,  (! [A] :  (! [B] :  ~ ( (r1_xboole_0(k1_tarski(A), B) & r2_hidden(A, B)) ) ) ) ).
-+ fof(t12_funct_7, axiom,  (! [A] :  (! [B] :  (! [C] :  ( ~ (r1_xboole_0(A, k10_xtuple_0(k1_funct_4(k6_partfun1(B), k7_funcop_1(A, C)))))  => r2_hidden(C, A)) ) ) ) ).
 + fof(d9_funcop_1, axiom,  (! [A] :  (! [B] : k16_funcop_1(A, B)=k7_funcop_1(k1_tarski(A), B)) ) ).
++ fof(t12_funct_7, axiom,  (! [A] :  (! [B] :  (! [C] :  ( ~ (r1_xboole_0(A, k10_xtuple_0(k1_funct_4(k6_partfun1(B), k7_funcop_1(A, C)))))  => r2_hidden(C, A)) ) ) ) ).
++ fof(t48_zfmisc_1, axiom,  (! [A] :  (! [B] :  ~ ( (r1_xboole_0(k1_tarski(A), B) & r2_hidden(A, B)) ) ) ) ).
 - fof(fc11_funcop_1, axiom,  (! [A, B] :  (v1_relat_1(k16_funcop_1(A, B)) & v1_funct_1(k16_funcop_1(A, B))) ) ).
 - fof(dt_k1_funct_4, axiom,  (! [A, B] :  ( ( (v1_relat_1(A) & v1_funct_1(A))  &  (v1_relat_1(B) & v1_funct_1(B)) )  =>  (v1_relat_1(k1_funct_4(A, B)) & v1_funct_1(k1_funct_4(A, B))) ) ) ).
 - fof(t83_funct_4, axiom,  (! [A] :  ( (v1_relat_1(A) & v1_funct_1(A))  =>  (! [B] :  (! [C] :  (! [D] :  ( ~ (B=D)  => k1_funct_1(k1_funct_4(A, k16_funcop_1(B, C)), D)=k1_funct_1(A, D)) ) ) ) ) ) ).

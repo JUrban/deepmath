@@ -1,12 +1,12 @@
 C fof(t4_scmring1, axiom,  (! [A] :  (m2_subset_1(A, k1_ami_2, k2_ami_2) =>  (! [B] :  ( ( ~ (v2_struct_0(B))  & l1_struct_0(B))  => k1_funct_1(k3_relat_1(k3_ami_2, k1_scmring1(B)), A)=u1_struct_0(B)) ) ) ) ).
-+ fof(fc1_ami_2, axiom,  ~ (v1_xboole_0(k1_ami_2)) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
-+ fof(t3_scmring1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_ami_2) =>  (r2_hidden(B, k2_ami_2) => k1_funct_1(k3_relat_1(k3_ami_2, k1_scmring1(A)), B)=u1_struct_0(A)) ) ) ) ) ).
-+ fof(fc1_scm_inst, axiom,  ~ (v1_xboole_0(k2_scm_inst)) ).
 + fof(d1_subset_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v1_xboole_0(A))  =>  (m1_subset_1(B, A) <=> r2_hidden(B, A)) )  &  (v1_xboole_0(A) =>  (m1_subset_1(B, A) <=> v1_xboole_0(B)) ) ) ) ) ).
 + fof(dt_k2_ami_2, axiom, m1_subset_1(k2_ami_2, k1_zfmisc_1(k1_ami_2))).
++ fof(dt_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) => m1_subset_1(C, A)) ) ) ) ).
++ fof(fc1_ami_2, axiom,  ~ (v1_xboole_0(k1_ami_2)) ).
++ fof(fc1_scm_inst, axiom,  ~ (v1_xboole_0(k2_scm_inst)) ).
 + fof(redefinition_k2_ami_2, axiom, k2_ami_2=k2_scm_inst).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
++ fof(t3_scmring1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_ami_2) =>  (r2_hidden(B, k2_ami_2) => k1_funct_1(k3_relat_1(k3_ami_2, k1_scmring1(A)), B)=u1_struct_0(A)) ) ) ) ) ).
 - fof(dt_k1_scmring1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l1_struct_0(A))  =>  (v1_relat_1(k1_scmring1(A)) &  (v4_relat_1(k1_scmring1(A), 2) &  (v1_funct_1(k1_scmring1(A)) & v1_partfun1(k1_scmring1(A), 2)) ) ) ) ) ).
 - fof(dt_k3_ami_2, axiom,  (v1_funct_1(k3_ami_2) &  (v1_funct_2(k3_ami_2, k1_ami_2, 2) & m1_subset_1(k3_ami_2, k1_zfmisc_1(k2_zfmisc_1(k1_ami_2, 2)))) ) ).
 - fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).

@@ -1,17 +1,17 @@
 C fof(t119_finseq_3, axiom,  (! [A] :  (! [B] :  (v7_ordinal1(B) =>  ( ( ~ (B=k6_numbers)  & A=k1_xboole_0)  <=> k4_finseq_2(B, A)=k1_xboole_0) ) ) ) ).
-+ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
 + fof(cc7_card_1, axiom,  (! [A] :  (v3_card_1(A, k1_xboole_0) => v1_xboole_0(A)) ) ).
-+ fof(fc3_funct_2, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & v1_xboole_0(B))  => v1_xboole_0(k1_funct_2(A, B))) ) ).
-+ fof(fc2_funct_2, axiom,  (! [A] :  ~ (v1_xboole_0(k1_funct_2(A, A))) ) ).
-+ fof(t93_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] : k4_finseq_2(A, B)=k1_funct_2(k2_finseq_1(A), B)) ) ) ).
-+ fof(fc4_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => v3_card_1(k1_finseq_1(A), A)) ) ).
 + fof(cc7_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v7_ordinal1(A)) ) ).
 + fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
-+ fof(spc0_boole, axiom, v1_xboole_0(0)).
-+ fof(fc23_finseq_1, axiom,  (! [A] :  ( (v7_ordinal1(A) &  ~ (v1_xboole_0(A)) )  =>  ~ (v1_xboole_0(k1_finseq_1(A))) ) ) ).
 + fof(fc1_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  =>  ~ (v1_xboole_0(k1_funct_2(A, B))) ) ) ).
++ fof(fc23_finseq_1, axiom,  (! [A] :  ( (v7_ordinal1(A) &  ~ (v1_xboole_0(A)) )  =>  ~ (v1_xboole_0(k1_finseq_1(A))) ) ) ).
++ fof(fc2_funct_2, axiom,  (! [A] :  ~ (v1_xboole_0(k1_funct_2(A, A))) ) ).
++ fof(fc3_funct_2, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  & v1_xboole_0(B))  => v1_xboole_0(k1_funct_2(A, B))) ) ).
++ fof(fc4_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => v3_card_1(k1_finseq_1(A), A)) ) ).
 + fof(redefinition_k2_finseq_1, axiom,  (! [A] :  (v7_ordinal1(A) => k2_finseq_1(A)=k1_finseq_1(A)) ) ).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(spc0_boole, axiom, v1_xboole_0(0)).
++ fof(t6_boole, axiom,  (! [A] :  (v1_xboole_0(A) => A=k1_xboole_0) ) ).
++ fof(t93_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] : k4_finseq_2(A, B)=k1_funct_2(k2_finseq_1(A), B)) ) ) ).
 - fof(d4_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] : k4_finseq_2(A, B)=a_2_0_finseq_2(A, B)) ) ) ).
 - fof(dt_k4_finseq_2, axiom,  (! [A, B] :  (v7_ordinal1(A) => m1_finseq_2(k4_finseq_2(A, B), B)) ) ).
 - fof(l120_finseq_2, axiom,  (! [A] :  (v7_ordinal1(A) =>  (! [B] :  (! [C] :  (r2_hidden(B, k4_finseq_2(A, C)) =>  (v1_relat_1(B) &  (v1_funct_1(B) &  (v3_card_1(B, A) & v1_finseq_1(B)) ) ) ) ) ) ) ) ).

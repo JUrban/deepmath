@@ -1,10 +1,10 @@
 C fof(t64_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  ( (v1_relat_1(B) & v10_rewrite1(B))  =>  (r12_rewrite1(A, B) => m2_rewrite1(B, A)) ) ) ) ) ).
-+ fof(t37_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  ( (r5_rewrite1(A, B, C) | r6_rewrite1(A, B, C))  => r2_rewrite1(A, B, C)) ) ) ) ) ).
++ fof(cc14_rewrite1, axiom,  (! [A] :  ( (v1_relat_1(A) & v10_rewrite1(A))  =>  (v1_relat_1(A) &  (v3_rewrite1(A) & v7_rewrite1(A)) ) ) ) ).
++ fof(cc7_rewrite1, axiom,  (! [A] :  ( (v1_relat_1(A) & v7_rewrite1(A))  =>  (v1_relat_1(A) &  (v8_rewrite1(A) & v9_rewrite1(A)) ) ) ) ).
++ fof(d23_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v8_rewrite1(A) <=>  (! [B] :  (! [C] :  (r2_rewrite1(A, B, C) => r5_rewrite1(A, B, C)) ) ) ) ) ) ).
 + fof(d26_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (v1_relat_1(B) =>  (r12_rewrite1(A, B) <=>  (! [C] :  (! [D] :  (r2_rewrite1(A, C, D) <=> r2_rewrite1(B, C, D)) ) ) ) ) ) ) ) ).
 + fof(d28_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  ( (v1_relat_1(B) & v10_rewrite1(B))  =>  (m2_rewrite1(B, A) <=>  (! [C] :  (! [D] :  (r2_rewrite1(A, C, D) <=> r5_rewrite1(B, C, D)) ) ) ) ) ) ) ) ).
-+ fof(d23_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (v8_rewrite1(A) <=>  (! [B] :  (! [C] :  (r2_rewrite1(A, B, C) => r5_rewrite1(A, B, C)) ) ) ) ) ) ).
-+ fof(cc7_rewrite1, axiom,  (! [A] :  ( (v1_relat_1(A) & v7_rewrite1(A))  =>  (v1_relat_1(A) &  (v8_rewrite1(A) & v9_rewrite1(A)) ) ) ) ).
-+ fof(cc14_rewrite1, axiom,  (! [A] :  ( (v1_relat_1(A) & v10_rewrite1(A))  =>  (v1_relat_1(A) &  (v3_rewrite1(A) & v7_rewrite1(A)) ) ) ) ).
++ fof(t37_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (! [C] :  ( (r5_rewrite1(A, B, C) | r6_rewrite1(A, B, C))  => r2_rewrite1(A, B, C)) ) ) ) ) ).
 - fof(dt_m2_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m2_rewrite1(B, A) =>  (v1_relat_1(B) & v10_rewrite1(B)) ) ) ) ) ).
 - fof(t63_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (m2_rewrite1(B, A) => r12_rewrite1(A, B)) ) ) ) ).
 - fof(existence_m2_rewrite1, axiom,  (! [A] :  (v1_relat_1(A) =>  (? [B] : m2_rewrite1(B, A)) ) ) ).

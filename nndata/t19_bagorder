@@ -1,5 +1,5 @@
 C fof(t19_bagorder, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (k1_polynom2(A, B)=k1_xboole_0 => B=k16_pre_poly(A)) ) ) ) ).
-+ fof(t12_polynom2, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (k13_pre_poly(B)=k1_xboole_0 => B=k16_pre_poly(A)) ) ) ) ).
 + fof(redefinition_k1_polynom2, axiom,  (! [A, B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  => k1_polynom2(A, B)=k13_pre_poly(B)) ) ).
++ fof(t12_polynom2, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v4_relat_1(B, A) &  (v1_funct_1(B) &  (v1_partfun1(B, A) &  (v4_valued_0(B) & v2_pre_poly(B)) ) ) ) )  =>  (k13_pre_poly(B)=k1_xboole_0 => B=k16_pre_poly(A)) ) ) ) ).
 - fof(l22_polynom2, axiom,  (! [A] : k1_polynom2(A, k16_pre_poly(A))=k1_xboole_0) ).
 - fof(t18_bagorder, axiom,  (! [A] : k1_polynom2(A, k16_pre_poly(A))=k1_xboole_0) ).

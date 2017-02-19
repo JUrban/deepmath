@@ -1,12 +1,12 @@
 C fof(t16_gate_1, axiom,  (! [A] :  (! [B] :  (! [C] :  ( ~ ( ( ~ (v1_xboole_0(k10_gate_1(A, B, C)))  &  ( ~ ( ( ( ( ~ (v1_xboole_0(A))  & v1_xboole_0(B))  |  (v1_xboole_0(A) &  ~ (v1_xboole_0(B)) ) )  & v1_xboole_0(C)) )  &  ~ ( ( ~ ( ( ~ (v1_xboole_0(A))  & v1_xboole_0(B)) )  &  ( ~ ( (v1_xboole_0(A) &  ~ (v1_xboole_0(B)) ) )  &  ~ (v1_xboole_0(C)) ) ) ) ) ) )  &  ~ ( ( ( ( ( ( ~ (v1_xboole_0(A))  & v1_xboole_0(B))  |  (v1_xboole_0(A) &  ~ (v1_xboole_0(B)) ) )  & v1_xboole_0(C))  |  ( ~ ( ( ~ (v1_xboole_0(A))  & v1_xboole_0(B)) )  &  ( ~ ( (v1_xboole_0(A) &  ~ (v1_xboole_0(B)) ) )  &  ~ (v1_xboole_0(C)) ) ) )  & v1_xboole_0(k10_gate_1(A, B, C))) ) ) ) ) ) ).
-+ fof(fc28_gate_1, axiom,  (! [A, B, C] :  ( (v1_xboole_0(A) &  (v1_xboole_0(B) &  ~ (v1_xboole_0(C)) ) )  =>  ~ (v1_xboole_0(k10_gate_1(C, A, B))) ) ) ).
-+ fof(fc27_gate_1, axiom,  (! [A, B, C] :  ( (v1_xboole_0(A) &  (v1_xboole_0(B) &  ~ (v1_xboole_0(C)) ) )  =>  ~ (v1_xboole_0(k10_gate_1(A, C, B))) ) ) ).
-+ fof(fc30_gate_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & v1_xboole_0(C)) )  => v1_xboole_0(k10_gate_1(A, C, B))) ) ).
-+ fof(fc32_gate_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  ~ (v1_xboole_0(C)) ) )  =>  ~ (v1_xboole_0(k10_gate_1(A, B, C))) ) ) ).
 + fof(fc25_gate_1, axiom,  (! [A, B, C] :  ( (v1_xboole_0(A) &  (v1_xboole_0(B) & v1_xboole_0(C)) )  => v1_xboole_0(k10_gate_1(A, B, C))) ) ).
-+ fof(fc29_gate_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & v1_xboole_0(C)) )  => v1_xboole_0(k10_gate_1(A, B, C))) ) ).
 + fof(fc26_gate_1, axiom,  (! [A, B, C] :  ( (v1_xboole_0(A) &  (v1_xboole_0(B) &  ~ (v1_xboole_0(C)) ) )  =>  ~ (v1_xboole_0(k10_gate_1(A, B, C))) ) ) ).
++ fof(fc27_gate_1, axiom,  (! [A, B, C] :  ( (v1_xboole_0(A) &  (v1_xboole_0(B) &  ~ (v1_xboole_0(C)) ) )  =>  ~ (v1_xboole_0(k10_gate_1(A, C, B))) ) ) ).
++ fof(fc28_gate_1, axiom,  (! [A, B, C] :  ( (v1_xboole_0(A) &  (v1_xboole_0(B) &  ~ (v1_xboole_0(C)) ) )  =>  ~ (v1_xboole_0(k10_gate_1(C, A, B))) ) ) ).
++ fof(fc29_gate_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & v1_xboole_0(C)) )  => v1_xboole_0(k10_gate_1(A, B, C))) ) ).
++ fof(fc30_gate_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & v1_xboole_0(C)) )  => v1_xboole_0(k10_gate_1(A, C, B))) ) ).
 + fof(fc31_gate_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & v1_xboole_0(C)) )  => v1_xboole_0(k10_gate_1(C, A, B))) ) ).
++ fof(fc32_gate_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  &  ~ (v1_xboole_0(C)) ) )  =>  ~ (v1_xboole_0(k10_gate_1(A, B, C))) ) ) ).
 - fof(cc7_relat_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  ( (v1_relat_1(B) & v4_relat_1(B, A))  =>  (v1_xboole_0(B) &  (v1_relat_1(B) & v4_relat_1(B, A)) ) ) ) ) ) ).
 - fof(cc1_funct_1, axiom,  (! [A] :  (v1_xboole_0(A) => v1_funct_1(A)) ) ).
 - fof(dt_k13_domain_1, axiom,  (! [A, B, C, D, E, F, G, H, I] :  ( ( ~ (v1_xboole_0(A))  &  (m1_subset_1(B, A) &  (m1_subset_1(C, A) &  (m1_subset_1(D, A) &  (m1_subset_1(E, A) &  (m1_subset_1(F, A) &  (m1_subset_1(G, A) &  (m1_subset_1(H, A) & m1_subset_1(I, A)) ) ) ) ) ) ) )  => m1_subset_1(k13_domain_1(A, B, C, D, E, F, G, H, I), k1_zfmisc_1(A))) ) ).

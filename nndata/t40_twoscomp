@@ -1,16 +1,16 @@
 C fof(t40_twoscomp, axiom,  (! [A] :  ( ~ (v1_xtuple_0(A))  =>  (! [B] :  ( ~ (v1_xtuple_0(B))  => k2_msafree2(k40_twoscomp(A, B))=k2_tarski(A, B)) ) ) ) ).
++ fof(d33_twoscomp, axiom,  (! [A] :  (! [B] : k34_twoscomp(A, B)=k5_circcomb(k15_twoscomp, k10_finseq_1(A, B))) ) ).
 + fof(d36_twoscomp, axiom,  (! [A] :  (! [B] : k37_twoscomp(A, B)=k5_circcomb(k3_twoscomp, k10_finseq_1(A, B))) ) ).
++ fof(d39_twoscomp, axiom,  (! [A] :  (! [B] : k40_twoscomp(A, B)=k2_circcomb(k34_twoscomp(A, B), k37_twoscomp(A, B))) ) ).
 + fof(dt_k34_twoscomp, axiom,  (! [A, B] :  ( ~ (v2_struct_0(k34_twoscomp(A, B)))  &  ( ~ (v11_struct_0(k34_twoscomp(A, B)))  &  (v1_msualg_1(k34_twoscomp(A, B)) &  (v1_circcomb(k34_twoscomp(A, B)) &  (v2_circcomb(k34_twoscomp(A, B)) &  (v3_circcomb(k34_twoscomp(A, B)) & l1_msualg_1(k34_twoscomp(A, B))) ) ) ) ) ) ) ).
 + fof(dt_k37_twoscomp, axiom,  (! [A, B] :  ( ~ (v2_struct_0(k37_twoscomp(A, B)))  &  ( ~ (v11_struct_0(k37_twoscomp(A, B)))  &  (v1_msualg_1(k37_twoscomp(A, B)) &  (v1_circcomb(k37_twoscomp(A, B)) &  (v2_circcomb(k37_twoscomp(A, B)) &  (v3_circcomb(k37_twoscomp(A, B)) & l1_msualg_1(k37_twoscomp(A, B))) ) ) ) ) ) ) ).
++ fof(fc10_finseq_1, axiom,  (! [A, B] : v1_finseq_1(k10_finseq_1(A, B))) ).
++ fof(fc2_facirc_1, axiom,  (! [A, B] :  ( ( ~ (v1_xtuple_0(A))  &  ~ (v1_xtuple_0(B)) )  =>  ~ (v1_facirc_1(k2_tarski(A, B))) ) ) ).
 + fof(fc8_finseq_1, axiom,  (! [A, B] :  (v1_relat_1(k10_finseq_1(A, B)) & v1_funct_1(k10_finseq_1(A, B))) ) ).
++ fof(idempotence_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, A)=A) ).
 + fof(t38_facirc_1, axiom,  (! [A] :  (! [B] :  ( (v1_relat_1(B) &  (v1_funct_1(B) & v1_finseq_1(B)) )  => v1_relat_1(k3_msafree2(k5_circcomb(A, B)))) ) ) ).
 + fof(t40_facirc_1, axiom,  (! [A] :  (! [B] :  (! [C] : k2_msafree2(k5_circcomb(A, k10_finseq_1(B, C)))=k2_tarski(B, C)) ) ) ).
 + fof(t7_facirc_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v1_circcomb(A) &  (v2_circcomb(A) & l1_msualg_1(A)) ) )  =>  (! [B] :  ( ( ~ (v2_struct_0(B))  &  (v1_circcomb(B) &  (v2_circcomb(B) & l1_msualg_1(B)) ) )  =>  ( (v1_relat_1(k3_msafree2(A)) & v1_relat_1(k3_msafree2(B)))  =>  (v1_facirc_1(k2_msafree2(A)) |  (v1_facirc_1(k2_msafree2(B)) | k2_msafree2(k2_circcomb(A, B))=k2_xboole_0(k2_msafree2(A), k2_msafree2(B))) ) ) ) ) ) ) ).
-+ fof(fc10_finseq_1, axiom,  (! [A, B] : v1_finseq_1(k10_finseq_1(A, B))) ).
-+ fof(d39_twoscomp, axiom,  (! [A] :  (! [B] : k40_twoscomp(A, B)=k2_circcomb(k34_twoscomp(A, B), k37_twoscomp(A, B))) ) ).
-+ fof(fc2_facirc_1, axiom,  (! [A, B] :  ( ( ~ (v1_xtuple_0(A))  &  ~ (v1_xtuple_0(B)) )  =>  ~ (v1_facirc_1(k2_tarski(A, B))) ) ) ).
-+ fof(idempotence_k2_xboole_0, axiom,  (! [A, B] : k2_xboole_0(A, A)=A) ).
-+ fof(d33_twoscomp, axiom,  (! [A] :  (! [B] : k34_twoscomp(A, B)=k5_circcomb(k15_twoscomp, k10_finseq_1(A, B))) ) ).
 - fof(t38_twoscomp, axiom,  (! [A] :  ( ~ (v1_xtuple_0(A))  =>  (! [B] :  ( ~ (v1_xtuple_0(B))  => k3_msafree2(k40_twoscomp(A, B))=k2_tarski(k4_tarski(k10_finseq_1(A, B), k15_twoscomp), k4_tarski(k10_finseq_1(A, B), k3_twoscomp))) ) ) ) ).
 - fof(dt_k40_twoscomp, axiom,  (! [A, B] :  ( ~ (v2_struct_0(k40_twoscomp(A, B)))  &  ( ~ (v11_struct_0(k40_twoscomp(A, B)))  &  (v1_msualg_1(k40_twoscomp(A, B)) &  (v1_circcomb(k40_twoscomp(A, B)) &  (v2_circcomb(k40_twoscomp(A, B)) &  (v3_circcomb(k40_twoscomp(A, B)) & l1_msualg_1(k40_twoscomp(A, B))) ) ) ) ) ) ) ).
 - fof(d2_tarski, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_tarski(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (D=A | D=B) ) ) ) ) ) ) ).

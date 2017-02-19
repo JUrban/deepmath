@@ -1,34 +1,34 @@
 C fof(t32_c0sp2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  => k4_struct_0(k7_c0sp2(A))=k1_c0sp2(A, k6_numbers)) ) ).
-+ fof(dt_k6_c0sp2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  ( ~ (v1_xboole_0(k6_c0sp2(A)))  & m1_subset_1(k6_c0sp2(A), k1_zfmisc_1(u1_struct_0(k10_funcsdom(u1_struct_0(A)))))) ) ) ).
-+ fof(d6_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => k4_struct_0(A)=u2_struct_0(A)) ) ).
-+ fof(redefinition_m2_funct_2, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(B))  & m1_funct_2(C, A, B))  =>  (! [D] :  (m2_funct_2(D, A, B, C) <=> m1_subset_1(D, C)) ) ) ) ).
-+ fof(free_g1_rlvect_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(B, A) &  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (v1_funct_1(D) &  (v1_funct_2(D, k2_zfmisc_1(k1_numbers, A), A) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, A), A)))) ) ) )  =>  (! [E, F, G, H] :  (g1_rlvect_1(A, B, C, D)=g1_rlvect_1(E, F, G, H) =>  (A=E &  (B=F &  (C=G & D=H) ) ) ) ) ) ) ).
-+ fof(dt_k10_funcsdom, axiom,  (! [A] :  ( ~ (v2_struct_0(k10_funcsdom(A)))  &  (v13_algstr_0(k10_funcsdom(A)) &  (v1_rlvect_1(k10_funcsdom(A)) &  (v2_rlvect_1(k10_funcsdom(A)) &  (v3_rlvect_1(k10_funcsdom(A)) &  (v4_rlvect_1(k10_funcsdom(A)) &  (v5_rlvect_1(k10_funcsdom(A)) &  (v6_rlvect_1(k10_funcsdom(A)) &  (v7_rlvect_1(k10_funcsdom(A)) &  (v8_rlvect_1(k10_funcsdom(A)) & l1_rlvect_1(k10_funcsdom(A))) ) ) ) ) ) ) ) ) ) ) ).
-+ fof(t11_rsspace, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) & l1_rlvect_1(A)) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v1_rlsub_1(B, A) =>  (v1_xboole_0(B) | m1_rlsub_1(g1_rlvect_1(B, k10_rsspace(A, B), k8_rsspace(A, B), k9_rsspace(A, B)), A)) ) ) ) ) ) ).
-+ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
-+ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
-+ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
 + fof(abstractness_v1_rlvect_1, axiom,  (! [A] :  (l1_rlvect_1(A) =>  (v1_rlvect_1(A) => A=g1_rlvect_1(u1_struct_0(A), u2_struct_0(A), u1_algstr_0(A), u1_rlvect_1(A))) ) ) ).
-+ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
 + fof(cc2_xreal_0, axiom,  (! [A] :  (v7_ordinal1(A) => v1_xreal_0(A)) ) ).
-+ fof(dt_k7_funcsdom, axiom,  (! [A] :  (v1_funct_1(k7_funcsdom(A)) &  (v1_funct_2(k7_funcsdom(A), k2_zfmisc_1(k1_numbers, k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers)) & m1_subset_1(k7_funcsdom(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers))))) ) ) ).
-+ fof(d4_funcsdom, axiom,  (! [A] : k8_funcsdom(A)=k8_funcop_1(k5_numbers, A, k6_numbers)) ).
-+ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
-+ fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
-+ fof(dt_l1_rlvect_1, axiom,  (! [A] :  (l1_rlvect_1(A) => l2_algstr_0(A)) ) ).
-+ fof(redefinition_k8_funcop_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(C, A))  => k8_funcop_1(A, B, C)=k2_funcop_1(B, C)) ) ).
-+ fof(t11_rlsub_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) & l1_rlvect_1(A)) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_rlsub_1(B, A) => k4_struct_0(B)=k4_struct_0(A)) ) ) ) ).
-+ fof(fc13_c0sp2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  ( ~ (v1_xboole_0(k6_c0sp2(A)))  & v1_rlsub_1(k6_c0sp2(A), k10_funcsdom(u1_struct_0(A)))) ) ) ).
-+ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
-+ fof(dt_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => m1_funct_2(k9_funct_2(A, B), A, B)) ) ).
-+ fof(dt_k8_funcsdom, axiom,  (! [A] : m2_funct_2(k8_funcsdom(A), A, k1_numbers, k9_funct_2(A, k1_numbers))) ).
 + fof(cc7_ordinal1, axiom,  (! [A] :  (v1_xboole_0(A) => v7_ordinal1(A)) ) ).
-+ fof(d6_funcsdom, axiom,  (! [A] : k10_funcsdom(A)=g1_rlvect_1(k9_funct_2(A, k1_numbers), k8_funcsdom(A), k5_funcsdom(A), k7_funcsdom(A))) ).
 + fof(d1_c0sp2, axiom,  (! [A] :  (l1_struct_0(A) =>  (! [B] :  (v1_xreal_0(B) => k1_c0sp2(A, B)=k7_funcop_1(u1_struct_0(A), B)) ) ) ) ).
-+ fof(dt_k5_funcsdom, axiom,  (! [A] :  (v1_funct_1(k5_funcsdom(A)) &  (v1_funct_2(k5_funcsdom(A), k2_zfmisc_1(k9_funct_2(A, k1_numbers), k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers)) & m1_subset_1(k5_funcsdom(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k9_funct_2(A, k1_numbers), k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers))))) ) ) ).
-+ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(d4_funcsdom, axiom,  (! [A] : k8_funcsdom(A)=k8_funcop_1(k5_numbers, A, k6_numbers)) ).
++ fof(d6_funcsdom, axiom,  (! [A] : k10_funcsdom(A)=g1_rlvect_1(k9_funct_2(A, k1_numbers), k8_funcsdom(A), k5_funcsdom(A), k7_funcsdom(A))) ).
++ fof(d6_struct_0, axiom,  (! [A] :  (l2_struct_0(A) => k4_struct_0(A)=u2_struct_0(A)) ) ).
 + fof(d7_c0sp2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  => k7_c0sp2(A)=g1_rlvect_1(k6_c0sp2(A), k10_rsspace(k10_funcsdom(u1_struct_0(A)), k6_c0sp2(A)), k8_rsspace(k10_funcsdom(u1_struct_0(A)), k6_c0sp2(A)), k9_rsspace(k10_funcsdom(u1_struct_0(A)), k6_c0sp2(A)))) ) ).
++ fof(dt_k10_funcsdom, axiom,  (! [A] :  ( ~ (v2_struct_0(k10_funcsdom(A)))  &  (v13_algstr_0(k10_funcsdom(A)) &  (v1_rlvect_1(k10_funcsdom(A)) &  (v2_rlvect_1(k10_funcsdom(A)) &  (v3_rlvect_1(k10_funcsdom(A)) &  (v4_rlvect_1(k10_funcsdom(A)) &  (v5_rlvect_1(k10_funcsdom(A)) &  (v6_rlvect_1(k10_funcsdom(A)) &  (v7_rlvect_1(k10_funcsdom(A)) &  (v8_rlvect_1(k10_funcsdom(A)) & l1_rlvect_1(k10_funcsdom(A))) ) ) ) ) ) ) ) ) ) ) ).
++ fof(dt_k5_funcsdom, axiom,  (! [A] :  (v1_funct_1(k5_funcsdom(A)) &  (v1_funct_2(k5_funcsdom(A), k2_zfmisc_1(k9_funct_2(A, k1_numbers), k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers)) & m1_subset_1(k5_funcsdom(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k9_funct_2(A, k1_numbers), k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers))))) ) ) ).
++ fof(dt_k6_c0sp2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  ( ~ (v1_xboole_0(k6_c0sp2(A)))  & m1_subset_1(k6_c0sp2(A), k1_zfmisc_1(u1_struct_0(k10_funcsdom(u1_struct_0(A)))))) ) ) ).
++ fof(dt_k7_funcsdom, axiom,  (! [A] :  (v1_funct_1(k7_funcsdom(A)) &  (v1_funct_2(k7_funcsdom(A), k2_zfmisc_1(k1_numbers, k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers)) & m1_subset_1(k7_funcsdom(A), k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, k9_funct_2(A, k1_numbers)), k9_funct_2(A, k1_numbers))))) ) ) ).
++ fof(dt_k8_funcsdom, axiom,  (! [A] : m2_funct_2(k8_funcsdom(A), A, k1_numbers, k9_funct_2(A, k1_numbers))) ).
++ fof(dt_k9_funct_2, axiom,  (! [A, B] :  ( ~ (v1_xboole_0(B))  => m1_funct_2(k9_funct_2(A, B), A, B)) ) ).
++ fof(dt_l1_pre_topc, axiom,  (! [A] :  (l1_pre_topc(A) => l1_struct_0(A)) ) ).
++ fof(dt_l1_rlvect_1, axiom,  (! [A] :  (l1_rlvect_1(A) => l2_algstr_0(A)) ) ).
 + fof(dt_l2_algstr_0, axiom,  (! [A] :  (l2_algstr_0(A) =>  (l2_struct_0(A) & l1_algstr_0(A)) ) ) ).
++ fof(fc13_c0sp2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  ( ~ (v1_xboole_0(k6_c0sp2(A)))  & v1_rlsub_1(k6_c0sp2(A), k10_funcsdom(u1_struct_0(A)))) ) ) ).
++ fof(fc1_numbers, axiom,  ~ (v1_xboole_0(k1_numbers)) ).
++ fof(fc1_xboole_0, axiom, v1_xboole_0(k1_xboole_0)).
++ fof(fc6_ordinal1, axiom,  ( ~ (v1_xboole_0(k4_ordinal1))  & v3_ordinal1(k4_ordinal1)) ).
++ fof(free_g1_rlvect_1, axiom,  (! [A, B, C, D] :  ( (m1_subset_1(B, A) &  ( (v1_funct_1(C) &  (v1_funct_2(C, k2_zfmisc_1(A, A), A) & m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(A, A), A)))) )  &  (v1_funct_1(D) &  (v1_funct_2(D, k2_zfmisc_1(k1_numbers, A), A) & m1_subset_1(D, k1_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(k1_numbers, A), A)))) ) ) )  =>  (! [E, F, G, H] :  (g1_rlvect_1(A, B, C, D)=g1_rlvect_1(E, F, G, H) =>  (A=E &  (B=F &  (C=G & D=H) ) ) ) ) ) ) ).
++ fof(redefinition_k5_numbers, axiom, k5_numbers=k4_ordinal1).
++ fof(redefinition_k6_numbers, axiom, k6_numbers=k1_xboole_0).
++ fof(redefinition_k7_funcop_1, axiom,  (! [A, B] : k7_funcop_1(A, B)=k2_funcop_1(A, B)) ).
++ fof(redefinition_k8_funcop_1, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(A))  & m1_subset_1(C, A))  => k8_funcop_1(A, B, C)=k2_funcop_1(B, C)) ) ).
++ fof(redefinition_m2_funct_2, axiom,  (! [A, B, C] :  ( ( ~ (v1_xboole_0(B))  & m1_funct_2(C, A, B))  =>  (! [D] :  (m2_funct_2(D, A, B, C) <=> m1_subset_1(D, C)) ) ) ) ).
++ fof(t11_rlsub_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) & l1_rlvect_1(A)) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_rlsub_1(B, A) => k4_struct_0(B)=k4_struct_0(A)) ) ) ) ).
++ fof(t11_rsspace, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v13_algstr_0(A) &  (v2_rlvect_1(A) &  (v3_rlvect_1(A) &  (v4_rlvect_1(A) &  (v5_rlvect_1(A) &  (v6_rlvect_1(A) &  (v7_rlvect_1(A) &  (v8_rlvect_1(A) & l1_rlvect_1(A)) ) ) ) ) ) ) ) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(u1_struct_0(A))) =>  (v1_rlsub_1(B, A) =>  (v1_xboole_0(B) | m1_rlsub_1(g1_rlvect_1(B, k10_rsspace(A, B), k8_rsspace(A, B), k9_rsspace(A, B)), A)) ) ) ) ) ) ).
++ fof(t1_numerals, axiom, m1_subset_1(k1_xboole_0, k4_ordinal1)).
 - fof(t6_c0sp2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  => k4_struct_0(k3_c0sp2(A))=k1_c0sp2(A, k6_numbers)) ) ).
 - fof(t12_c0sp2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) &  (v1_compts_1(A) & l1_pre_topc(A)) ) )  => k1_c0sp2(A, k6_numbers)=k4_struct_0(k5_c0sp2(A))) ) ).
 - fof(dt_k7_c0sp2, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v2_pre_topc(A) & l1_pre_topc(A)) )  =>  ( ~ (v2_struct_0(k7_c0sp2(A)))  &  (v13_algstr_0(k7_c0sp2(A)) &  (v2_rlvect_1(k7_c0sp2(A)) &  (v3_rlvect_1(k7_c0sp2(A)) &  (v4_rlvect_1(k7_c0sp2(A)) &  (v5_rlvect_1(k7_c0sp2(A)) &  (v6_rlvect_1(k7_c0sp2(A)) &  (v7_rlvect_1(k7_c0sp2(A)) &  (v8_rlvect_1(k7_c0sp2(A)) & l1_rlvect_1(k7_c0sp2(A))) ) ) ) ) ) ) ) ) ) ) ).

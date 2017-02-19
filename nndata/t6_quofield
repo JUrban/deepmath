@@ -1,15 +1,15 @@
 C fof(t6_quofield, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v6_struct_0(A))  & l5_algstr_0(A)) )  =>  ~ (v1_xboole_0(k7_quofield(A))) ) ) ).
 + fof(cc1_subset_1, axiom,  (! [A] :  (v1_xboole_0(A) =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) => v1_xboole_0(B)) ) ) ) ).
-+ fof(dt_l5_algstr_0, axiom,  (! [A] :  (l5_algstr_0(A) =>  (l4_algstr_0(A) & l4_struct_0(A)) ) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
-+ fof(dt_l4_struct_0, axiom,  (! [A] :  (l4_struct_0(A) =>  (l2_struct_0(A) & l3_struct_0(A)) ) ) ).
-+ fof(dt_k6_quofield, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v6_struct_0(A))  & l5_algstr_0(A)) )  & m1_subset_1(B, k1_quofield(A)))  => m1_subset_1(k6_quofield(A, B), k1_zfmisc_1(k1_quofield(A)))) ) ).
 + fof(d1_subset_1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v1_xboole_0(A))  =>  (m1_subset_1(B, A) <=> r2_hidden(B, A)) )  &  (v1_xboole_0(A) =>  (m1_subset_1(B, A) <=> v1_xboole_0(B)) ) ) ) ) ).
++ fof(d1_xboole_0, axiom,  (! [A] :  (v1_xboole_0(A) <=>  (! [B] :  ~ (r2_hidden(B, A)) ) ) ) ).
 + fof(d5_quofield, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v6_struct_0(A))  & l5_algstr_0(A)) )  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(k1_quofield(A)))) =>  (B=k7_quofield(A) <=>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k1_quofield(A))) =>  (r2_hidden(C, B) <=>  (? [D] :  (m2_subset_1(D, k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A)), k1_quofield(A)) & C=k6_quofield(A, D)) ) ) ) ) ) ) ) ) ) ).
 + fof(dt_k1_quofield, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l2_struct_0(A))  => m1_subset_1(k1_quofield(A), k1_zfmisc_1(k2_zfmisc_1(u1_struct_0(A), u1_struct_0(A))))) ) ).
-+ fof(fc1_quofield, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v6_struct_0(A))  & l5_algstr_0(A)) )  =>  ~ (v1_xboole_0(k1_quofield(A))) ) ) ).
++ fof(dt_k6_quofield, axiom,  (! [A, B] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v6_struct_0(A))  & l5_algstr_0(A)) )  & m1_subset_1(B, k1_quofield(A)))  => m1_subset_1(k6_quofield(A, B), k1_zfmisc_1(k1_quofield(A)))) ) ).
 + fof(dt_k7_quofield, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v6_struct_0(A))  & l5_algstr_0(A)) )  => m1_subset_1(k7_quofield(A), k1_zfmisc_1(k1_zfmisc_1(k1_quofield(A))))) ) ).
++ fof(dt_l4_struct_0, axiom,  (! [A] :  (l4_struct_0(A) =>  (l2_struct_0(A) & l3_struct_0(A)) ) ) ).
++ fof(dt_l5_algstr_0, axiom,  (! [A] :  (l5_algstr_0(A) =>  (l4_algstr_0(A) & l4_struct_0(A)) ) ) ).
++ fof(fc1_quofield, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v6_struct_0(A))  & l5_algstr_0(A)) )  =>  ~ (v1_xboole_0(k1_quofield(A))) ) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 - fof(d9_algstr_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l5_algstr_0(A))  =>  (v6_algstr_1(A) <=>  ( (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  ~ ( ( ~ (B=k4_struct_0(A))  &  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  ~ (k6_algstr_0(A, B, D)=C) ) ) ) ) ) ) ) )  &  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  ~ ( ( ~ (B=k4_struct_0(A))  &  (! [D] :  (m1_subset_1(D, u1_struct_0(A)) =>  ~ (k6_algstr_0(A, D, B)=C) ) ) ) ) ) ) ) ) ) ) ) ) ).
 - fof(d10_algstr_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  & l5_algstr_0(A))  =>  (v7_algstr_1(A) <=>  (v6_algstr_1(A) &  (v32_algstr_0(A) &  ( (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k6_algstr_0(A, B, k4_struct_0(A))=k4_struct_0(A)) )  &  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) => k6_algstr_0(A, k4_struct_0(A), B)=k4_struct_0(A)) ) ) ) ) ) ) ) ).
 - fof(d11_algstr_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  (v32_algstr_0(A) &  (v6_algstr_1(A) & l5_algstr_0(A)) ) )  =>  (! [B] :  (m1_subset_1(B, u1_struct_0(A)) =>  ( ~ (B=k4_struct_0(A))  =>  (! [C] :  (m1_subset_1(C, u1_struct_0(A)) =>  (C=k11_algstr_0(A, B) <=> k6_algstr_0(A, C, B)=k5_struct_0(A)) ) ) ) ) ) ) ) ).

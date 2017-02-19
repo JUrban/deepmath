@@ -1,14 +1,14 @@
 C fof(t1_scmfsa10, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_scmfsa_2)) =>  ~ ( (r2_hidden(A, k8_struct_0(k1_scmfsa_2)) &  ( ~ ( (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_scmfsa_2))) )  &  ~ (m1_scmfsa_2(A)) ) ) ) ) ) ).
 + fof(d16_ami_2, axiom,  (! [A] :  (v1_ami_2(A) <=> r2_hidden(A, k2_ami_2)) ) ).
++ fof(d3_scmfsa_2, axiom, k3_scmfsa_2=k3_scmfsa_1).
++ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
 + fof(d5_scmfsa_2, axiom,  (! [A] :  (m1_subset_1(A, u1_struct_0(k1_scmfsa_2)) =>  (m1_scmfsa_2(A) <=> r2_hidden(A, k3_scmfsa_1)) ) ) ).
-+ fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
++ fof(dt_k2_scmfsa_2, axiom, m1_subset_1(k2_scmfsa_2, k1_zfmisc_1(u1_struct_0(k1_scmfsa_2)))).
 + fof(dt_k3_scmfsa_2, axiom, m1_subset_1(k3_scmfsa_2, k1_zfmisc_1(u1_struct_0(k1_scmfsa_2)))).
 + fof(redefinition_k2_ami_2, axiom, k2_ami_2=k2_scm_inst).
-+ fof(d3_scmfsa_2, axiom, k3_scmfsa_2=k3_scmfsa_1).
-+ fof(dt_k2_scmfsa_2, axiom, m1_subset_1(k2_scmfsa_2, k1_zfmisc_1(u1_struct_0(k1_scmfsa_2)))).
 + fof(redefinition_k2_scmfsa_2, axiom, k2_scmfsa_2=k2_scm_inst).
++ fof(redefinition_k4_subset_1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k4_subset_1(A, B, C)=k2_xboole_0(B, C)) ) ).
 + fof(t100_scmfsa_2, axiom, k8_struct_0(k1_scmfsa_2)=k4_subset_1(u1_struct_0(k1_scmfsa_2), k2_scmfsa_2, k3_scmfsa_2)).
-+ fof(d3_xboole_0, axiom,  (! [A] :  (! [B] :  (! [C] :  (C=k2_xboole_0(A, B) <=>  (! [D] :  (r2_hidden(D, C) <=>  (r2_hidden(D, A) | r2_hidden(D, B)) ) ) ) ) ) ) ).
 - fof(fc15_scmfsa_2, axiom,  (! [A, B, C] :  ( ( (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_scmfsa_2)))  &  (m1_scmfsa_2(B) &  (v1_ami_2(C) & m1_subset_1(C, u1_struct_0(k1_scmfsa_2))) ) )  =>  ~ (v2_extpro_1(k15_scmfsa_2(A, C, B), 3, k1_scmfsa_2)) ) ) ).
 - fof(t27_ami_3, axiom, k8_struct_0(k1_ami_3)=k2_ami_2).
 - fof(fc16_scmfsa_2, axiom,  (! [A, B] :  ( ( (v1_ami_2(A) & m1_subset_1(A, u1_struct_0(k1_scmfsa_2)))  & m1_scmfsa_2(B))  =>  ~ (v2_extpro_1(k16_scmfsa_2(A, B), 3, k1_scmfsa_2)) ) ) ).

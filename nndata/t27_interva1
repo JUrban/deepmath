@@ -1,11 +1,11 @@
 C fof(t27_interva1, axiom,  (! [A] :  ( ~ (v1_xboole_0(A))  =>  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (! [D] :  ( ( ~ (v1_xboole_0(D))  &  (v1_interva1(D, A) & m1_subset_1(D, k1_zfmisc_1(k1_zfmisc_1(A)))) )  =>  (D=k2_interva1(A, B, C) =>  (k7_interva1(A, D)=B & k8_interva1(A, D)=C) ) ) ) ) ) ) ) ) ) ).
-+ fof(t2_interva1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  ( ~ (k1_interva1(A, B, C)=k1_xboole_0)  =>  (r2_hidden(B, k1_interva1(A, B, C)) & r2_hidden(C, k1_interva1(A, B, C))) ) ) ) ) ) ) ).
++ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
 + fof(l36_interva1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_interva1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) )  =>  (! [C] :  (r2_hidden(C, B) =>  (C=k7_interva1(A, B) <=>  (! [D] :  (r2_hidden(D, B) => r1_tarski(C, D)) ) ) ) ) ) ) ) ).
 + fof(l37_interva1, axiom,  (! [A] :  (! [B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_interva1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) )  =>  (! [C] :  (r2_hidden(C, B) =>  (C=k8_interva1(A, B) <=>  (! [D] :  (r2_hidden(D, B) => r1_tarski(D, C)) ) ) ) ) ) ) ) ).
-+ fof(dt_o_0_0_xboole_0, axiom, v1_xboole_0(o_0_0_xboole_0)).
-+ fof(t1_interva1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (! [D] :  (r2_hidden(D, k1_interva1(A, B, C)) <=>  (r1_tarski(B, D) & r1_tarski(D, C)) ) ) ) ) ) ) ) ).
 + fof(redefinition_k2_interva1, axiom,  (! [A, B, C] :  ( (m1_subset_1(B, k1_zfmisc_1(A)) & m1_subset_1(C, k1_zfmisc_1(A)))  => k2_interva1(A, B, C)=k1_interva1(A, B, C)) ) ).
-+ fof(d2_xboole_0, axiom, k1_xboole_0=o_0_0_xboole_0).
++ fof(t1_interva1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  (! [D] :  (r2_hidden(D, k1_interva1(A, B, C)) <=>  (r1_tarski(B, D) & r1_tarski(D, C)) ) ) ) ) ) ) ) ).
++ fof(t2_interva1, axiom,  (! [A] :  (! [B] :  (m1_subset_1(B, k1_zfmisc_1(A)) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(A)) =>  ( ~ (k1_interva1(A, B, C)=k1_xboole_0)  =>  (r2_hidden(B, k1_interva1(A, B, C)) & r2_hidden(C, k1_interva1(A, B, C))) ) ) ) ) ) ) ).
 + fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(redefinition_k8_interva1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_interva1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) )  => k8_interva1(A, B)=k3_tarski(B)) ) ).
 - fof(redefinition_k7_interva1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(B))  &  (v1_interva1(B, A) & m1_subset_1(B, k1_zfmisc_1(k1_zfmisc_1(A)))) )  => k7_interva1(A, B)=k1_setfam_1(B)) ) ).

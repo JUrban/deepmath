@@ -1,13 +1,13 @@
 C fof(t2_osalg_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_osalg_1(A)) )  =>  (! [B] :  (m1_subset_1(B, u4_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u4_struct_0(A)) =>  (! [D] :  (m1_subset_1(D, u4_struct_0(A)) =>  ( (r1_osalg_1(A, B, C) & r1_osalg_1(A, C, D))  => r1_osalg_1(A, B, D)) ) ) ) ) ) ) ) ) ).
-+ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
-+ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
-+ fof(dt_u1_osalg_1, axiom,  (! [A] :  (l1_osalg_1(A) =>  (v3_relat_2(u1_osalg_1(A)) &  (v8_relat_2(u1_osalg_1(A)) &  (v1_partfun1(u1_osalg_1(A), u4_struct_0(A)) & m1_subset_1(u1_osalg_1(A), k1_zfmisc_1(k2_zfmisc_1(u4_struct_0(A), u4_struct_0(A))))) ) ) ) ) ).
 + fof(cc1_relset_1, axiom,  (! [A, B] :  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_relat_1(C)) ) ) ).
-+ fof(t12_orders_1, axiom,  (! [A] :  (! [B] :  ( (v1_partfun1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => k1_relat_1(B)=A) ) ) ).
-+ fof(d16_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (v8_relat_2(A) <=> r8_relat_2(A, k1_relat_1(A))) ) ) ).
 + fof(cc3_relset_1, axiom,  (! [A, B] :  (v1_xboole_0(A) =>  (! [C] :  (m1_subset_1(C, k1_zfmisc_1(k2_zfmisc_1(A, B))) => v1_xboole_0(C)) ) ) ) ).
++ fof(d16_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (v8_relat_2(A) <=> r8_relat_2(A, k1_relat_1(A))) ) ) ).
 + fof(d2_osalg_1, axiom,  (! [A] :  ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_osalg_1(A)) )  =>  (! [B] :  (m1_subset_1(B, u4_struct_0(A)) =>  (! [C] :  (m1_subset_1(C, u4_struct_0(A)) =>  (r1_osalg_1(A, B, C) <=> r2_hidden(k4_tarski(B, C), u1_osalg_1(A))) ) ) ) ) ) ) ).
 + fof(d8_relat_2, axiom,  (! [A] :  (v1_relat_1(A) =>  (! [B] :  (r8_relat_2(A, B) <=>  (! [C] :  (! [D] :  (! [E] :  ( (r2_hidden(C, B) &  (r2_hidden(D, B) &  (r2_hidden(E, B) &  (r2_hidden(k4_tarski(C, D), A) & r2_hidden(k4_tarski(D, E), A)) ) ) )  => r2_hidden(k4_tarski(C, E), A)) ) ) ) ) ) ) ) ).
++ fof(dt_u1_osalg_1, axiom,  (! [A] :  (l1_osalg_1(A) =>  (v3_relat_2(u1_osalg_1(A)) &  (v8_relat_2(u1_osalg_1(A)) &  (v1_partfun1(u1_osalg_1(A), u4_struct_0(A)) & m1_subset_1(u1_osalg_1(A), k1_zfmisc_1(k2_zfmisc_1(u4_struct_0(A), u4_struct_0(A))))) ) ) ) ) ).
++ fof(t12_orders_1, axiom,  (! [A] :  (! [B] :  ( (v1_partfun1(B, A) & m1_subset_1(B, k1_zfmisc_1(k2_zfmisc_1(A, A))))  => k1_relat_1(B)=A) ) ) ).
++ fof(t2_subset, axiom,  (! [A] :  (! [B] :  (m1_subset_1(A, B) =>  (v1_xboole_0(B) | r2_hidden(A, B)) ) ) ) ).
++ fof(t7_boole, axiom,  (! [A] :  (! [B] :  ~ ( (r2_hidden(A, B) & v1_xboole_0(B)) ) ) ) ).
 - fof(symmetry_r1_osalg_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_osalg_1(A)) )  &  (m1_subset_1(B, u4_struct_0(A)) & m1_subset_1(C, u4_struct_0(A))) )  =>  (r1_osalg_1(A, B, C) => r1_osalg_1(A, C, B)) ) ) ).
 - fof(reflexivity_r1_osalg_1, axiom,  (! [A, B, C] :  ( ( ( ~ (v2_struct_0(A))  &  ( ~ (v11_struct_0(A))  & l1_osalg_1(A)) )  &  (m1_subset_1(B, u4_struct_0(A)) & m1_subset_1(C, u4_struct_0(A))) )  => r1_osalg_1(A, B, B)) ) ).
 - fof(rc5_osalg_1, axiom,  (? [A] :  (l1_osalg_1(A) &  ( ~ (v2_struct_0(A))  &  ~ (v11_struct_0(A)) ) ) ) ).

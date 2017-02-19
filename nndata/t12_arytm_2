@@ -1,16 +1,16 @@
 C fof(t12_arytm_2, axiom,  (! [A] :  (m1_subset_1(A, k2_arytm_2) =>  (! [B] :  (m1_subset_1(B, k2_arytm_2) =>  (! [C] :  (m1_subset_1(C, k2_arytm_2) => k8_arytm_2(A, k8_arytm_2(B, C))=k8_arytm_2(k8_arytm_2(A, B), C)) ) ) ) ) ) ).
++ fof(commutativity_k6_arytm_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_arytm_2) & m1_subset_1(B, k1_arytm_2))  => k6_arytm_2(A, B)=k6_arytm_2(B, A)) ) ).
++ fof(commutativity_k8_arytm_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_arytm_2) & m1_subset_1(B, k2_arytm_2))  => k8_arytm_2(A, B)=k8_arytm_2(B, A)) ) ).
++ fof(d9_arytm_2, axiom,  (! [A] :  (m1_subset_1(A, k2_arytm_2) =>  (! [B] :  (m1_subset_1(B, k2_arytm_2) => k8_arytm_2(A, B)=k4_arytm_2(k6_arytm_2(k3_arytm_2(A), k3_arytm_2(B)))) ) ) ) ).
++ fof(dt_k1_arytm_2, axiom, m1_subset_1(k1_arytm_2, k1_zfmisc_1(k1_zfmisc_1(k5_arytm_3)))).
++ fof(dt_k3_arytm_2, axiom,  (! [A] :  (m1_subset_1(A, k2_arytm_2) => m2_subset_1(k3_arytm_2(A), k1_zfmisc_1(k5_arytm_3), k1_arytm_2)) ) ).
++ fof(dt_k6_arytm_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_arytm_2) & m1_subset_1(B, k1_arytm_2))  => m2_subset_1(k6_arytm_2(A, B), k1_zfmisc_1(k5_arytm_3), k1_arytm_2)) ) ).
 + fof(dt_k8_arytm_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_arytm_2) & m1_subset_1(B, k2_arytm_2))  => m1_subset_1(k8_arytm_2(A, B), k2_arytm_2)) ) ).
 + fof(fc1_arytm_2, axiom,  ~ (v1_xboole_0(k1_arytm_2)) ).
-+ fof(commutativity_k6_arytm_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_arytm_2) & m1_subset_1(B, k1_arytm_2))  => k6_arytm_2(A, B)=k6_arytm_2(B, A)) ) ).
 + fof(fc1_subset_1, axiom,  (! [A] :  ~ (v1_xboole_0(k1_zfmisc_1(A))) ) ).
-+ fof(dt_k6_arytm_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k1_arytm_2) & m1_subset_1(B, k1_arytm_2))  => m2_subset_1(k6_arytm_2(A, B), k1_zfmisc_1(k5_arytm_3), k1_arytm_2)) ) ).
-+ fof(dt_k3_arytm_2, axiom,  (! [A] :  (m1_subset_1(A, k2_arytm_2) => m2_subset_1(k3_arytm_2(A), k1_zfmisc_1(k5_arytm_3), k1_arytm_2)) ) ).
 + fof(l21_arytm_2, axiom,  (! [A] :  (m2_subset_1(A, k1_zfmisc_1(k5_arytm_3), k1_arytm_2) => k3_arytm_2(k4_arytm_2(A))=A) ) ).
-+ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
-+ fof(dt_k1_arytm_2, axiom, m1_subset_1(k1_arytm_2, k1_zfmisc_1(k1_zfmisc_1(k5_arytm_3)))).
-+ fof(d9_arytm_2, axiom,  (! [A] :  (m1_subset_1(A, k2_arytm_2) =>  (! [B] :  (m1_subset_1(B, k2_arytm_2) => k8_arytm_2(A, B)=k4_arytm_2(k6_arytm_2(k3_arytm_2(A), k3_arytm_2(B)))) ) ) ) ).
-+ fof(commutativity_k8_arytm_2, axiom,  (! [A, B] :  ( (m1_subset_1(A, k2_arytm_2) & m1_subset_1(B, k2_arytm_2))  => k8_arytm_2(A, B)=k8_arytm_2(B, A)) ) ).
 + fof(l61_arytm_2, axiom,  (! [A] :  (m2_subset_1(A, k1_zfmisc_1(k5_arytm_3), k1_arytm_2) =>  (! [B] :  (m2_subset_1(B, k1_zfmisc_1(k5_arytm_3), k1_arytm_2) =>  (! [C] :  (m2_subset_1(C, k1_zfmisc_1(k5_arytm_3), k1_arytm_2) => k6_arytm_2(A, k6_arytm_2(B, C))=k6_arytm_2(k6_arytm_2(A, B), C)) ) ) ) ) ) ).
++ fof(redefinition_m2_subset_1, axiom,  (! [A, B] :  ( ( ~ (v1_xboole_0(A))  &  ( ~ (v1_xboole_0(B))  & m1_subset_1(B, k1_zfmisc_1(A))) )  =>  (! [C] :  (m2_subset_1(C, A, B) <=> m1_subset_1(C, B)) ) ) ) ).
 - fof(t4_arytm_2, axiom,  (! [A] :  (m1_subset_1(A, k2_arytm_2) =>  (! [B] :  (m1_subset_1(B, k2_arytm_2) =>  (A=k11_arytm_3 => k8_arytm_2(A, B)=k11_arytm_3) ) ) ) ) ).
 - fof(l19_arytm_2, axiom,  (! [A] :  (m1_subset_1(A, k2_arytm_2) =>  (k3_arytm_2(A)=k11_arytm_3 <=> A=k11_arytm_3) ) ) ).
 - fof(l33_arytm_2, axiom,  (! [A] :  (m1_subset_1(A, k2_arytm_2) => k4_arytm_2(k3_arytm_2(A))=A) ) ).
