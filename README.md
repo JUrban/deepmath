@@ -44,4 +44,5 @@ The mizar40 and code directories contain the data (proofs, statemnts,
 etc.) and the code used to generate the nndata and nnhpdata examples.
 
 [1] http://dx.doi.org/10.1007/s10817-015-9330-8 
+
 [2] https://arxiv.org/abs/1606.04442
