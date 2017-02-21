@@ -8,6 +8,7 @@ simplify experiments with learning methods such as neural networks.
 
 In nnhpdata/* the examples are in this format:
 
+```
 C prefixformula
 + prefixformula
 ...
@@ -15,9 +16,11 @@ C prefixformula
 - prefixformula
 ...
 - prefixformula
+```
 
 In nndata/* the examples are in this format:
 
+```
 C tptpformula
 + tptpformula
 ...
@@ -25,6 +28,7 @@ C tptpformula
 - tptpformula
 ...
 - tptpformula
+```
 
 Here tptpformula is the standard FOL TPTP representation, and
 prefixformula is a prefix curried format using de Bruijn indeces.
