@@ -1,0 +1,25 @@
+C * * cr1_tarski * * ck2_rcomp_1 ck6_numbers * * ck10_real_1 ck32_sin_cos c2 * * ck3_rcomp_1 ck6_numbers * * ck10_real_1 ck32_sin_cos c2 
++ * ! / b0  * * c=> * * cm1_subset_1 b0 ck1_numbers * cv1_xreal_0 b0 
++ * ! / b0  * * c=> * cv1_xreal_0 b0 * cv1_xxreal_0 b0 
++ * * cm1_subset_1 ck32_sin_cos ck1_numbers 
++ * ! / b0  * ! / b1  * * c=> * * c& * cv1_xreal_0 b0 * cv1_xreal_0 b1 * cv1_xreal_0 * * ck7_xcmplx_0 b0 b1 
++ * c? / b0  * * c& * cv1_xboole_0 b0 * * c& * cv1_xcmplx_0 b0 * * c& * cv1_xxreal_0 b0 * cv1_xreal_0 b0 
++ * ! / b0  * ! / b1  * * c=> * * c& * * cm1_subset_1 b0 ck1_numbers * cv1_xreal_0 b1 * * c= * * ck10_real_1 b0 b1 * * ck7_xcmplx_0 b0 b1 
++ * ! / b0  * ! / b1  * * c=> * * c& * cv1_xxreal_0 b0 * cv1_xxreal_0 b1 * * c= * * ck2_rcomp_1 b0 b1 * * ck4_xxreal_1 b0 b1 
++ * ! / b0  * ! / b1  * * c=> * * c& * cv1_xreal_0 b0 * cv1_xxreal_0 b1 * * c= * * ck3_rcomp_1 b0 b1 * * ck2_xxreal_1 b0 b1 
++ * * c= ck6_numbers ck1_xboole_0 
++ * * c& * * c& * cv2_xxreal_0 c2 * * * cm2_subset_1 c2 ck1_numbers ck5_numbers * * c& * * cm1_subset_1 c2 ck5_numbers * * cm1_subset_1 c2 ck1_numbers 
++ * ! / b0  * * c=> * cv1_xxreal_0 b0 * ! / b1  * * c=> * cv1_xxreal_0 b1 * * cr1_tarski * * ck4_xxreal_1 b0 b1 * * ck2_xxreal_1 b0 b1 
++ * ! / b0  * * c=> * cv1_xboole_0 b0 * * c= b0 ck1_xboole_0 
+- * * cr1_tarski * * ck3_rcomp_1 ck6_numbers * * ck10_real_1 ck32_sin_cos c2 * * ck2_rcomp_1 * ck1_real_1 * * ck10_real_1 ck32_sin_cos c2 * * ck10_real_1 ck32_sin_cos c2 
+- * * cr1_tarski * * ck3_rcomp_1 ck6_numbers * * ck10_real_1 ck32_sin_cos c2 * * ck1_relset_1 ck1_numbers ck1_fdiff_9 
+- * * c& * * cr2_hidden ck6_numbers * * ck3_rcomp_1 ck6_numbers * * ck10_real_1 ck32_sin_cos c2 * * cr2_hidden * * ck10_real_1 ck32_sin_cos c4 * * ck3_rcomp_1 ck6_numbers * * ck10_real_1 ck32_sin_cos c2 
+- * * cr1_tarski * * ck3_rcomp_1 * ck1_real_1 * * ck10_real_1 ck32_sin_cos c2 ck6_numbers * * ck2_rcomp_1 * ck1_real_1 ck32_sin_cos ck6_numbers 
+- * ! / b0  * * c=> * cv1_xreal_0 b0 * c~ * * c& * * cr2_hidden b0 * * ck2_rcomp_1 ck6_numbers * * ck10_real_1 ck32_sin_cos c2 * * cr1_xxreal_0 * * ck1_seq_1 ck19_sin_cos b0 ck6_numbers 
+- * * cr1_tarski * * ck3_rcomp_1 * ck1_real_1 * * ck10_real_1 ck32_sin_cos c2 ck6_numbers * * ck1_relset_1 ck1_numbers ck2_fdiff_9 
+- * * c& * * cr2_fdiff_1 ck1_fdiff_9 * * ck2_rcomp_1 ck6_numbers * * ck10_real_1 ck32_sin_cos c2 * ! / b0  * * c=> * * cm1_subset_1 b0 ck1_numbers * * c=> * * cr2_hidden b0 * * ck2_rcomp_1 ck6_numbers * * ck10_real_1 ck32_sin_cos c2 * * c= * * ck1_fdiff_1 ck1_fdiff_9 b0 * * ck10_real_1 * * ck1_seq_1 ck16_sin_cos b0 * ck5_square_1 * * ck1_seq_1 ck19_sin_cos b0 
+- * * c& * * cr2_fdiff_1 ck2_fdiff_9 * * ck2_rcomp_1 ck6_numbers * * ck10_real_1 ck32_sin_cos c2 * ! / b0  * * c=> * * cm1_subset_1 b0 ck1_numbers * * c=> * * cr2_hidden b0 * * ck2_rcomp_1 ck6_numbers * * ck10_real_1 ck32_sin_cos c2 * * c= * * ck1_fdiff_1 ck2_fdiff_9 b0 * ck1_real_1 * * ck10_real_1 * * ck1_seq_1 ck19_sin_cos b0 * ck5_square_1 * * ck1_seq_1 ck16_sin_cos b0 
+- * ! / b0  * ! / b1  * * c=> * * c& * cv1_funct_1 b1 * * cm1_subset_1 b1 * ck1_zfmisc_1 * * ck2_zfmisc_1 ck1_numbers ck1_numbers * * c=> * * cr2_fdiff_1 b1 b0 * cv1_fcont_1 * * * * ck2_partfun1 ck1_numbers ck1_numbers b1 b0 
+- * * c& * * cr2_hidden * ck1_real_1 * * ck10_real_1 ck32_sin_cos c2 * * ck3_rcomp_1 * ck1_real_1 * * ck10_real_1 ck32_sin_cos c2 ck6_numbers * * cr2_hidden * ck1_real_1 * * ck10_real_1 ck32_sin_cos c4 * * ck3_rcomp_1 * ck1_real_1 * * ck10_real_1 ck32_sin_cos c2 ck6_numbers 
+- * ! / b0  * * c=> * cv1_xreal_0 b0 * * c= * ck20_sin_cos b0 * * ck1_seq_1 ck19_sin_cos b0 
+- * cv1_fcont_1 * * * * ck2_partfun1 ck1_numbers ck1_numbers ck1_fdiff_9 * * ck2_rcomp_1 ck6_numbers * * ck10_real_1 ck32_sin_cos c2 

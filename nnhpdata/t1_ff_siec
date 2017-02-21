@@ -1,0 +1,23 @@
+C * ! / b0  * ! / b1  * * c=> * * cr1_xboole_0 b0 b1 * * c& * * c= * cu1_struct_0 * * ck1_ff_siec b0 b1 b0 * * c& * * c= * cu4_struct_0 * * ck1_ff_siec b0 b1 b1 * * c= * ck1_net_1 * * ck1_ff_siec b0 b1 ck1_xboole_0 
++ * ! / b0  * * c=> * cl1_petri b0 * * c=> * cv1_petri b0 * * c= b0 * * * * cg1_petri * cu1_struct_0 b0 * cu4_struct_0 b0 * cu1_petri b0 * cu2_petri b0 
++ * ! / b0  * ! / b1  * * c=> * * cr1_xboole_0 b0 b1 * * c= * * ck1_ff_siec b0 b1 * * * * cg1_petri b0 b1 * * ck1_partit_2 b0 b1 * * ck1_partit_2 b1 b0 
++ * ! / b0  * * c=> * cl1_petri b0 * * c= * ck1_net_1 b0 * * ck2_xboole_0 * cu1_petri b0 * cu2_petri b0 
++ * ! / b0  * ! / b1  * ! / b2  * ! / b3  * * c=> * * c& * * cm1_subset_1 b2 * ck1_zfmisc_1 * * ck2_zfmisc_1 b0 b1 * * cm1_subset_1 b3 * ck1_zfmisc_1 * * ck2_zfmisc_1 b1 b0 * * c& * cv1_petri * * * * cg1_petri b0 b1 b2 b3 * cl1_petri * * * * cg1_petri b0 b1 b2 b3 
++ * ! / b0  * ! / b1  * * cm1_subset_1 * * ck1_partit_2 b0 b1 * ck1_zfmisc_1 * * ck2_zfmisc_1 b0 b1 
++ * ! / b0  * ! / b1  * cv1_xboole_0 * * ck1_partit_2 b0 b1 
++ * * c& * cv1_petri * * * * cg1_petri ck1_xboole_0 ck1_xboole_0 * * ck1_partit_2 ck1_xboole_0 ck1_xboole_0 * * ck1_partit_2 ck1_xboole_0 ck1_xboole_0 * cv1_net_1 * * * * cg1_petri ck1_xboole_0 ck1_xboole_0 * * ck1_partit_2 ck1_xboole_0 ck1_xboole_0 * * ck1_partit_2 ck1_xboole_0 ck1_xboole_0 
++ * ! / b0  * ! / b1  * ! / b2  * ! / b3  * * c=> * * c& * * cm1_subset_1 b2 * ck1_zfmisc_1 * * ck2_zfmisc_1 b0 b1 * * cm1_subset_1 b3 * ck1_zfmisc_1 * * ck2_zfmisc_1 b1 b0 * ! / b4  * ! / b5  * ! / b6  * ! / b7  * * c=> * * c= * * * * cg1_petri b0 b1 b2 b3 * * * * cg1_petri b4 b5 b6 b7 * * c& * * c= b0 b4 * * c& * * c= b1 b5 * * c& * * c= b2 b6 * * c= b3 b7 
++ * ! / b0  * * c= * * ck2_xboole_0 b0 ck1_xboole_0 b0 
++ * ! / b0  * * c=> * cv1_xboole_0 b0 * * c= b0 ck1_xboole_0 
++ * ! / b0  * ! / b1  * c~ * * c& * cv1_xboole_0 b0 * * c& * c~ * * c= b0 b1 * cv1_xboole_0 b1 
+- * ! / b0  * * c=> * cl1_petri b0 * * c<=> * cv1_net_1 b0 * * c& * * cr1_xboole_0 * cu1_struct_0 b0 * cu4_struct_0 b0 * * cr1_tarski * ck1_net_1 b0 * * ck2_xboole_0 * * ck2_zfmisc_1 * cu1_struct_0 b0 * cu4_struct_0 b0 * * ck2_zfmisc_1 * cu4_struct_0 b0 * cu1_struct_0 b0 
+- * ! / b0  * * c=> * cl1_petri b0 * cv1_relat_1 * ck1_net_1 b0 
+- * ! / b0  * ! / b1  * ! / b2  * ! / b3  * ! / b4  * * c=> * cv1_relat_1 b4 * * c& * * c=> * * c& * * cr1_xboole_0 b0 b1 * * c& * * cr1_tarski b4 * * ck2_xboole_0 * * ck2_zfmisc_1 b0 b1 * * ck2_zfmisc_1 b1 b0 * * c& * * cr2_hidden * * ck4_tarski b2 b3 b4 * * cr2_hidden b2 b0 * * c& * c~ * * cr2_hidden b2 b1 * * c& * c~ * * cr2_hidden b3 b0 * * cr2_hidden b3 b1 * * c& * * c=> * * c& * * cr1_xboole_0 b0 b1 * * c& * * cr1_tarski b4 * * ck2_xboole_0 * * ck2_zfmisc_1 b0 b1 * * ck2_zfmisc_1 b1 b0 * * c& * * cr2_hidden * * ck4_tarski b2 b3 b4 * * cr2_hidden b3 b1 * * c& * c~ * * cr2_hidden b3 b0 * * c& * c~ * * cr2_hidden b2 b1 * * cr2_hidden b2 b0 * * c& * * c=> * * c& * * cr1_xboole_0 b0 b1 * * c& * * cr1_tarski b4 * * ck2_xboole_0 * * ck2_zfmisc_1 b0 b1 * * ck2_zfmisc_1 b1 b0 * * c& * * cr2_hidden * * ck4_tarski b2 b3 b4 * * cr2_hidden b2 b1 * * c& * c~ * * cr2_hidden b2 b0 * * c& * c~ * * cr2_hidden b3 b1 * * cr2_hidden b3 b0 * * c=> * * c& * * cr1_xboole_0 b0 b1 * * c& * * cr1_tarski b4 * * ck2_xboole_0 * * ck2_zfmisc_1 b0 b1 * * ck2_zfmisc_1 b1 b0 * * c& * * cr2_hidden * * ck4_tarski b2 b3 b4 * * cr2_hidden b3 b0 * * c& * c~ * * cr2_hidden b2 b0 * * c& * c~ * * cr2_hidden b3 b1 * * cr2_hidden b2 b1 
+- * ! / b0  * * c= * ck2_ff_siec b0 * * ck1_ff_siec b0 ck1_xboole_0 
+- * ! / b0  * * c= * ck3_ff_siec b0 * * ck1_ff_siec ck1_xboole_0 b0 
+- * ! / b0  * ! / b1  * * c& * cv1_petri * * ck1_ff_siec b0 b1 * * c& * cv1_net_1 * * ck1_ff_siec b0 b1 * cl1_petri * * ck1_ff_siec b0 b1 
+- * ! / b0  * * c=> * * c& * c~ * cv2_struct_0 b0 * cl1_graph_1 b0 * ! / b1  * * c=> * * c& * cv1_graph_1 b1 * * cm3_graph_1 b1 b0 * ! / b2  * * c=> * * c& * cv1_graph_1 b2 * * cm3_graph_1 b2 b0 * * c=> * * c& * * c= * cu1_struct_0 b1 * cu1_struct_0 b2 * * c= * cu4_struct_0 b1 * cu4_struct_0 b2 * * c= b1 b2 
+- * * c= ck6_ff_siec * * ck1_ff_siec ck1_xboole_0 ck1_xboole_0 
+- * ! / b0  * * c= * ck5_ff_siec b0 * * ck1_ff_siec * ck1_tarski b0 ck1_xboole_0 
+- * ! / b0  * * c= * ck4_ff_siec b0 * * ck1_ff_siec ck1_xboole_0 * ck1_tarski b0 
+- * ! / b0  * ! / b1  * ! / b2  * * c=> * * c& * cv1_net_1 b2 * cl1_petri b2 * * c=> * * c& * * cr2_hidden * * ck4_tarski b0 b1 * ck1_net_1 b2 * * cr2_hidden b0 * cu4_struct_0 b2 * * cr2_hidden b1 * cu1_struct_0 b2 

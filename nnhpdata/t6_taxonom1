@@ -1,0 +1,11 @@
+C * ! / b0  * ! / b1  * ! / b2  * ! / b3  * * c=> * * cm1_subset_1 b3 * ck1_zfmisc_1 * * ck2_zfmisc_1 b0 b0 * * c=> * * c& * * cr1_relat_2 b3 b0 * * c& * * * cr1_rewrite1 b3 b1 b2 * * cr2_hidden b1 b0 * * cr2_hidden * * ck4_tarski b1 b2 * ck18_finseq_1 b3 
++ * ! / b0  * ! / b1  * ! / b2  * * c=> * * cm1_subset_1 b2 * ck1_zfmisc_1 * * ck2_zfmisc_1 b0 b1 * cv1_relat_1 b2 
++ * ! / b0  * * c=> * cv1_relat_1 b0 * ! / b1  * * c<=> * * cr1_relat_2 b0 b1 * ! / b2  * * c=> * * cr2_hidden b2 b1 * * cr2_hidden * * ck4_tarski b2 b2 b0 
++ * ! / b0  * * c=> * cv1_relat_1 b0 * cv1_relat_1 * ck18_finseq_1 b0 
++ * ! / b0  * * c=> * cv1_relat_1 b0 * ! / b1  * ! / b2  * * c<=> * * * cr1_rewrite1 b0 b1 b2 * * c| * * c= b1 b2 * * cr2_hidden * * ck4_tarski b1 b2 * ck18_finseq_1 b0 
++ * ! / b0  * ! / b1  * * c=> * * cm1_subset_1 b1 * ck1_zfmisc_1 * * ck2_zfmisc_1 b0 b0 * * c=> * * cr1_relat_2 b1 b0 * * cr1_relat_2 * ck18_finseq_1 b1 b0 
+- * ! / b0  * ! / b1  * * c=> * * cm1_subset_1 b1 * ck1_zfmisc_1 * * ck2_zfmisc_1 b0 b0 * * c=> * * cr1_relat_2 b1 b0 * * c& * * c= * * ck1_relset_1 b0 b1 b0 * * c= * ck1_relat_1 b1 b0 
+- * ! / b0  * * c=> * cv1_relat_1 b0 * ! / b1  * ! / b2  * * c<=> * * * cr1_rewrite1 b0 b1 b2 * * * cr1_rewrite1 * ck18_finseq_1 b0 b1 b2 
+- * ! / b0  * * c=> * cv1_relat_1 b0 * * cr1_tarski b0 * ck18_finseq_1 b0 
+- * ! / b0  * * c=> * cv1_relat_1 b0 * * c<=> * cv1_relat_2 b0 * * cr1_relat_2 b0 * ck1_relat_1 b0 
+- * ! / b0  * ! / b1  * ! / b2  * * c=> * * c& * cv1_relat_1 b0 * * cm1_rewrite1 b2 * ck18_finseq_1 b0 * * c=> * * c& * * c=> * * cr2_hidden ck6_numbers * ck4_finseq_1 b2 * * * cr1_rewrite1 b0 b1 * * ck1_funct_1 b2 ck6_numbers * ! / b3  * * c=> * * * cm2_subset_1 b3 ck1_numbers ck5_numbers * * c=> * * c=> * * cr2_hidden b3 * ck4_finseq_1 b2 * * * cr1_rewrite1 b0 b1 * * ck1_funct_1 b2 b3 * * c=> * * cr2_hidden * * ck2_nat_1 b3 c1 * ck4_finseq_1 b2 * * * cr1_rewrite1 b0 b1 * * ck1_funct_1 b2 * * ck2_nat_1 b3 c1 * ! / b3  * * c=> * * * cm2_subset_1 b3 ck1_numbers ck5_numbers * * c=> * * cr2_hidden b3 * ck4_finseq_1 b2 * * * cr1_rewrite1 b0 b1 * * ck1_funct_1 b2 b3 

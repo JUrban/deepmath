@@ -1,0 +1,15 @@
+C * * cr1_tarski ck4_numbers ck3_numbers 
++ * * c= ck3_numbers * * ck6_subset_1 * * ck2_xboole_0 ck5_arytm_3 * * ck2_zfmisc_1 * ck1_tarski ck1_xboole_0 ck5_arytm_3 * ck1_tarski * * ck4_tarski ck1_xboole_0 ck1_xboole_0 
++ * * c= ck4_numbers * * ck6_subset_1 * * ck2_xboole_0 ck4_ordinal1 * * ck2_zfmisc_1 * ck1_tarski ck1_xboole_0 ck4_ordinal1 * ck1_tarski * * ck4_tarski ck1_xboole_0 ck1_xboole_0 
++ * * cr1_tarski ck4_ordinal1 ck5_arytm_3 
++ * ! / b0  * ! / b1  * * c= * * ck6_subset_1 b0 b1 * * ck4_xboole_0 b0 b1 
++ * ! / b0  * ! / b1  * ! / b2  * ! / b3  * * c=> * * c& * * cr1_tarski b0 b1 * * cr1_tarski b2 b3 * * cr1_tarski * * ck2_xboole_0 b0 b2 * * ck2_xboole_0 b1 b3 
++ * ! / b0  * ! / b1  * ! / b2  * * c=> * * cr1_tarski b0 b1 * * cr1_tarski * * ck4_xboole_0 b0 b2 * * ck4_xboole_0 b1 b2 
++ * ! / b0  * ! / b1  * ! / b2  * * c=> * * cr1_tarski b0 b1 * * c& * * cr1_tarski * * ck2_zfmisc_1 b0 b2 * * ck2_zfmisc_1 b1 b2 * * cr1_tarski * * ck2_zfmisc_1 b2 b0 * * ck2_zfmisc_1 b2 b1 
+- * * cr1_tarski ck5_arytm_3 ck3_numbers 
+- * ! / b0  * ! / b1  * ! / b2  * * c=> * * cr1_tarski b0 b1 * * c| * * cr2_hidden b2 b0 * * cr1_tarski b0 * * ck4_xboole_0 b1 * ck1_tarski b2 
+- * ! / b0  * ! / b1  * * cr1_tarski b0 * * ck2_xboole_0 b0 b1 
+- * * cr1_tarski ck5_numbers ck4_numbers 
+- * * cr1_tarski ck3_numbers ck1_numbers 
+- * ! / b0  * c~ * * cr2_hidden * * ck4_tarski ck11_arytm_3 b0 ck5_arytm_3 
+- * * c= ck11_arytm_3 ck1_xboole_0 

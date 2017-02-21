@@ -1,0 +1,11 @@
+C * ! / b0  * * c=> * cv1_card_1 b0 * ! / b1  * * c=> * cv1_card_1 b1 * * c=> * cv1_finset_1 b0 * * c| * cv1_finset_1 b1 * * c& * * cr2_hidden b0 b1 * * cr1_ordinal1 b0 b1 
++ * ! / b0  * * c=> * cv1_card_1 b0 * cv3_ordinal1 b0 
++ * ! / b0  * ! / b1  * * c=> * * c& * cv3_ordinal1 b0 * cv3_ordinal1 b1 * * c| * * cr1_ordinal1 b0 b1 * * cr1_ordinal1 b1 b0 
++ * ! / b0  * ! / b1  * * c=> * * c& * cv3_ordinal1 b0 * cv3_ordinal1 b1 * * c<=> * * cr1_ordinal1 b0 b1 * * cr1_tarski b0 b1 
++ * ! / b0  * ! / b1  * * c=> * * c& * * cr1_tarski b0 b1 * cv1_finset_1 b1 * cv1_finset_1 b0 
++ * ! / b0  * * c=> * cv1_card_1 b0 * ! / b1  * * c=> * cv1_card_1 b1 * * c<=> * * cr2_hidden b0 b1 * c~ * * cr1_ordinal1 b1 b0 
+- * ! / b0  * ! / b1  * * c=> * cv1_card_1 b1 * * c<=> * * c= b1 * ck1_card_1 b0 * * cr2_wellord2 b0 b1 
+- * ! / b0  * * c<=> * cv1_card_1 b0 * c? / b1  * * c& * cv3_ordinal1 b1 * * c& * * c= b0 b1 * ! / b2  * * c=> * cv3_ordinal1 b2 * * c=> * * cr2_wellord2 b2 b1 * * cr1_ordinal1 b1 b2 
+- * ! / b0  * * c=> * cv1_card_1 b0 * ! / b1  * * c=> * cv1_card_1 b1 * * c<=> * * cr2_hidden b0 b1 * * c& * * cr1_ordinal1 b0 b1 * c~ * * c= b0 b1 
+- * ! / b0  * ! / b1  * * c=> * * cr2_hidden b0 b1 * c~ * * cr2_hidden b1 b0 
+- * ! / b0  * ! / b1  * * c=> * * cr2_wellord2 b0 b1 * * cr2_wellord2 b1 b0 

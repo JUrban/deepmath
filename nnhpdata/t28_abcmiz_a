@@ -1,0 +1,19 @@
+C * * c= ck20_abcmiz_1 * * ck2_zfmisc_1 * * * ck1_enumset1 ck6_abcmiz_1 ck7_abcmiz_1 ck8_abcmiz_1 * * ck2_zfmisc_1 ck4_abcmiz_1 ck5_numbers 
++ * * c= ck17_abcmiz_1 * * ck2_zfmisc_1 * ck1_tarski ck6_abcmiz_1 * * ck2_zfmisc_1 ck4_abcmiz_1 ck5_numbers 
++ * * c= ck18_abcmiz_1 * * ck2_zfmisc_1 * ck1_tarski ck7_abcmiz_1 * * ck2_zfmisc_1 ck4_abcmiz_1 ck5_numbers 
++ * * c= ck19_abcmiz_1 * * ck2_zfmisc_1 * ck1_tarski ck8_abcmiz_1 * * ck2_zfmisc_1 ck4_abcmiz_1 ck5_numbers 
++ * * c= ck20_abcmiz_1 * * ck2_xboole_0 * * ck2_xboole_0 ck17_abcmiz_1 ck18_abcmiz_1 ck19_abcmiz_1 
++ * * c= ck7_abcmiz_1 c1 
++ * * c= ck8_abcmiz_1 c2 
++ * ! / b0  * ! / b1  * * c= * * ck2_tarski b0 b1 * * ck2_xboole_0 * ck1_tarski b0 * ck1_tarski b1 
++ * ! / b0  * ! / b1  * ! / b2  * * c= * * * ck1_enumset1 b0 b1 b2 * * ck2_xboole_0 * * ck2_tarski b0 b1 * ck1_tarski b2 
++ * ! / b0  * ! / b1  * ! / b2  * * c& * * c= * * ck2_zfmisc_1 * * ck2_xboole_0 b0 b1 b2 * * ck2_xboole_0 * * ck2_zfmisc_1 b0 b2 * * ck2_zfmisc_1 b1 b2 * * c= * * ck2_zfmisc_1 b2 * * ck2_xboole_0 b0 b1 * * ck2_xboole_0 * * ck2_zfmisc_1 b2 b0 * * ck2_zfmisc_1 b2 b1 
+- * ! / b0  * * c=> * * cm1_subset_1 b0 ck20_abcmiz_1 * * cm1_subset_1 * ck23_abcmiz_1 b0 * * * ck1_enumset1 ck6_abcmiz_1 ck7_abcmiz_1 ck8_abcmiz_1 
+- * ! / b0  * * c=> * * c& * cv1_instalg1 b0 * cl1_msualg_1 b0 * * c<=> * cv1_abcmiz_1 b0 * * c& * * c= * cu1_struct_0 b0 * * * ck1_enumset1 ck6_abcmiz_1 ck7_abcmiz_1 ck8_abcmiz_1 * * c& * * cr1_tarski * * ck2_tarski ck9_abcmiz_1 ck10_abcmiz_1 * cu4_struct_0 b0 * * c& * * c= * * ck1_funct_1 * cu1_msualg_1 b0 ck9_abcmiz_1 * * ck10_finseq_1 ck7_abcmiz_1 ck6_abcmiz_1 * * c& * * c= * * ck1_funct_1 * cu1_msualg_1 b0 ck10_abcmiz_1 * ck9_finseq_1 ck7_abcmiz_1 * * c& * * c= * * ck1_funct_1 * cu2_msualg_1 b0 ck9_abcmiz_1 ck6_abcmiz_1 * * c& * * c= * * ck1_funct_1 * cu2_msualg_1 b0 ck10_abcmiz_1 ck7_abcmiz_1 * ! / b1  * * c=> * * cm1_subset_1 b1 * cu4_struct_0 b0 * c~ * * c& * c~ * * c= b1 ck9_abcmiz_1 * * c& * c~ * * c= b1 ck10_abcmiz_1 * c~ * * cr2_hidden * * ck1_funct_1 * cu1_msualg_1 b0 b1 * ck3_finseq_2 * ck1_tarski ck8_abcmiz_1 
+- * ! / b0  * * c=> * * cm1_subset_1 b0 ck20_abcmiz_1 * * cm1_subset_1 * ck24_abcmiz_1 b0 * * ck2_zfmisc_1 ck4_abcmiz_1 ck5_numbers 
+- * ! / b0  * * c=> * * cm1_subset_1 b0 ck20_abcmiz_1 * * c& * * c=> * * c= * ck23_abcmiz_1 b0 ck6_abcmiz_1 * * cr2_hidden b0 ck17_abcmiz_1 * * c& * * c=> * * cr2_hidden b0 ck17_abcmiz_1 * * c= * ck23_abcmiz_1 b0 ck6_abcmiz_1 * * c& * * c=> * * c= * ck23_abcmiz_1 b0 ck7_abcmiz_1 * * cr2_hidden b0 ck18_abcmiz_1 * * c& * * c=> * * cr2_hidden b0 ck18_abcmiz_1 * * c= * ck23_abcmiz_1 b0 ck7_abcmiz_1 * * c& * * c=> * * c= * ck23_abcmiz_1 b0 ck8_abcmiz_1 * * cr2_hidden b0 ck19_abcmiz_1 * * c=> * * cr2_hidden b0 ck19_abcmiz_1 * * c= * ck23_abcmiz_1 b0 ck8_abcmiz_1 
+- * * c& * cv1_funct_1 ck14_mod_2 * * c& * * * cv1_funct_2 ck14_mod_2 * * ck2_zfmisc_1 * * * ck1_enumset1 ck6_numbers c1 c2 * * * ck1_enumset1 ck6_numbers c1 c2 * * * ck1_enumset1 ck6_numbers c1 c2 * * cm1_subset_1 ck14_mod_2 * ck1_zfmisc_1 * * ck2_zfmisc_1 * * ck2_zfmisc_1 * * * ck1_enumset1 ck6_numbers c1 c2 * * * ck1_enumset1 ck6_numbers c1 c2 * * * ck1_enumset1 ck6_numbers c1 c2 
+- * * c& * cv1_funct_1 ck13_mod_2 * * c& * * * cv1_funct_2 ck13_mod_2 * * ck2_zfmisc_1 * * * ck1_enumset1 ck6_numbers c1 c2 * * * ck1_enumset1 ck6_numbers c1 c2 * * * ck1_enumset1 ck6_numbers c1 c2 * * cm1_subset_1 ck13_mod_2 * ck1_zfmisc_1 * * ck2_zfmisc_1 * * ck2_zfmisc_1 * * * ck1_enumset1 ck6_numbers c1 c2 * * * ck1_enumset1 ck6_numbers c1 c2 * * * ck1_enumset1 ck6_numbers c1 c2 
+- * ! / b0  * * c=> * * cm1_subset_1 b0 * * ck2_zfmisc_1 ck4_abcmiz_1 ck5_numbers * * c= * ck22_abcmiz_1 b0 * ck2_xtuple_0 b0 
+- * ! / b0  * * c=> * * cm1_subset_1 b0 * * ck2_zfmisc_1 ck4_abcmiz_1 ck5_numbers * * c= * ck21_abcmiz_1 b0 * ck1_xtuple_0 b0 
+- * ! / b0  * * c=> * * cm1_subset_1 b0 * * ck2_zfmisc_1 ck4_abcmiz_1 ck5_numbers * * cm1_subset_1 * ck22_abcmiz_1 b0 ck5_numbers 
