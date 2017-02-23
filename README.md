@@ -40,6 +40,9 @@ k-nearest neighbor algorithm trained on the proofs .
 To divide into training and testing, just randomly select a part
 (e.g. 90%) of the files to train on and test on the remaining files.
 
+The accuracy of a simple count-based predictor evaluated incrementally
+on the whole dataset is 71.75%.
+
 The mizar40 and code directories contain the data (proofs, statemnts,
 etc.) and the code used to generate the nndata and nnhpdata examples.
 
